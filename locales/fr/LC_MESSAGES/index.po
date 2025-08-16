@@ -1,0 +1,142 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-15 15:48-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.15.6\n"
+
+#: docs/en/index.md:1
+msgid "BeeWare Docs Tools Demo"
+msgstr ""
+
+#: docs/en/index.md:3
+msgid "Theme checklist"
+msgstr ""
+
+#: docs/en/index.md:5
+msgid "Things to manually check:"
+msgstr ""
+
+#: docs/en/index.md:7
+msgid "Titlebar"
+msgstr ""
+
+#: docs/en/index.md:9
+msgid ""
+"A dark gray titlebar is on the page. This confirms the theme template has "
+"been applied."
+msgstr ""
+
+#: docs/en/index.md:12
+msgid "Header and logo icons"
+msgstr ""
+
+#: docs/en/index.md:14
+msgid ""
+"The header icon top-left has been rendered. This confirms the template can "
+"reference external resources."
+msgstr ""
+
+#: docs/en/index.md:17
+msgid ""
+"The logo icon in the left sidebar has been rendered. This confirms the "
+"sidebar will render properly on the target sites."
+msgstr ""
+
+#: docs/en/index.md:20
+msgid "Heading font"
+msgstr ""
+
+#: docs/en/index.md:22
+msgid ""
+"Headings are rendered in Cutive. This confirms the BeeWare custom CSS theme "
+"has been applied."
+msgstr ""
+
+#: docs/en/index.md:25
+msgid "Inline Code"
+msgstr ""
+
+#: docs/en/index.md:27
+msgid ""
+"Inline code is rendered in the same color as the surrounding font. This "
+"confirms that the theme has not caused any undesired changes."
+msgstr ""
+
+#: docs/en/index.md:30
+msgid "This is text with `inline code` here and `inline code` here."
+msgstr ""
+
+#: docs/en/index.md:32
+msgid "Tabbed Content Code"
+msgstr ""
+
+#: docs/en/index.md:34
+msgid ""
+"Code is in a contrasting color to the background. Copy button should copy "
+"only the commands; the prompt should not be included."
+msgstr ""
+
+#: docs/en/index.md:37
+msgid ""
+"This confirms that the theme has not caused any undesired changes, as well "
+"as whether the copy button is working as expected."
+msgstr ""
+
+#: docs/en/index.md:40
+msgid "/// tab | macOS"
+msgstr ""
+
+#: docs/en/index.md:46
+#: docs/en/index.md:54
+#: docs/en/index.md:62
+msgid "///"
+msgstr ""
+
+#: docs/en/index.md:48
+msgid "/// tab | Linux"
+msgstr ""
+
+#: docs/en/index.md:56
+msgid "/// tab | Windows"
+msgstr ""
+
+#: docs/en/index.md:64
+msgid "Sidebar links"
+msgstr ""
+
+#: docs/en/index.md:66
+msgid ""
+"Sidebar links exist, and point to the `beeware-docs-tools` repo. This "
+"confirms that the sidebar content has been loaded, and the `project-name` "
+"has been set in the MkDocs configuration file."
+msgstr ""
+
+#: docs/en/index.md:70
+msgid "Custom static content"
+msgstr ""
+
+#: docs/en/index.md:72
+msgid ""
+"The title of this section is rendered in dark red. This confirms that the "
+"docs project can still provide static content."
+msgstr ""
+
+#: docs/en/index.md:75
+msgid "*This is not currently implemented, but may be in the future.*"
+msgstr ""
+
+#: docs/en/index.md:77
+msgid "Final Checks"
+msgstr ""
+
+#: docs/en/index.md:79
+msgid "Navigate to BeeWare Docs Tools Demo Section One for the final checks."
+msgstr ""

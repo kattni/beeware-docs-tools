@@ -1,0 +1,25 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-15 15:48-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.15.6\n"
+
+#: docs/en/section_one/page_two.md:1
+msgid "BeeWare Docs Tools Demo Section One: Page Two"
+msgstr ""
+
+#: docs/en/section_one/page_two.md:3
+msgid ""
+"Navigation should render at the bottom of the page; "
+"\"BeeWare Docs Tools Demo Section One\" should be on the left, "
+"\"Section Two\" should be on the right. The footer should be below the "
+"navigation links. This confirms the CSS theme has been applied."
+msgstr ""

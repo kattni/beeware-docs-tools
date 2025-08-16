@@ -1,0 +1,419 @@
+/*----------------------------------------------------
+  Build BeeWare header
+ --------------------------------------------------- */
+.navbar {
+    font-family: 'Cutive', serif;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem 0.5rem 1rem;
+    line-height: 1.5;
+}
+
+.navbar > .container,
+.navbar > .container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-text a {
+    color: white;
+}
+
+.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        padding: 0.3em !important;
+    }
+
+    .navbar-collapse li {
+        border-bottom: 1px solid #666;
+        padding: 0.5em 1em 0.4em;
+    }
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar-brand-block {
+        position: absolute;
+        margin-top: -40px;
+        padding: 0 1em 0.2em;
+        right: 10px;
+    }
+
+    .nav-top {
+        margin: 0.7em 1em;
+    }
+
+    .navbar-collapse {
+        background-color: #343a40;
+        padding-top: 0.75em;
+    }
+
+    .navbar-collapse .header-button li.nav-item {
+        border-bottom: 0
+    }
+
+    .navbar-collapse .header-button {
+        border-bottom: 1px solid #666;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-expand-md > .container,
+    .navbar-expand-md > .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
+    /*!* TODO: originally 0.5rem *!*/
+    /*.navbar-expand-md .navbar-nav .nav-link {*/
+    /*    padding-right: 0.5rem;*/
+    /*    padding-left: 0.5rem;*/
+    /*}*/
+
+    .navbar-expand-md > .container,
+    .navbar-expand-md > .container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+
+    .navbar-expand-md .navbar-toggler {
+        display: none;
+    }
+}
+
+.fixed-top {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+    text-decoration: none;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none !important;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    max-width: initial;
+    margin-right: .5rem !important;
+    margin-left: .5rem !important;
+    vertical-align: middle;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-decoration: none !important;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto !important;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+/*----------------------------------------------------
+  Material CSS overrides
+ --------------------------------------------------- */
+:root {
+    color-scheme: light dark;
+}
+
+[data-md-color-primary=indigo] {
+  --md-primary-fg-color: #343A40;
+  --md-primary-fg-color--light: #343A40;
+  --md-primary-fg-color--dark:  #343A40;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    font-family: 'Cutive', serif;
+    color: var(--md-typeset-color);
+}
+
+/* Unsticky header */
+.md-header {
+    position: unset;
+}
+
+/* Sidebar title */
+.md-nav__title * {
+    font-family: 'Cutive', serif;
+    color: var(--md-typeset-color);
+}
+
+/* GitHub sidebar links */
+.github-links {
+    font-weight: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.github-links:first-of-type {
+    margin-top: 1rem
+}
+
+.github-links:last-of-type {
+    margin-bottom: 1rem
+}
+
+/* Shows the logo in the sidebar */
+.md-nav__title .md-nav__button {
+    display: unset;
+}
+
+/* Adjusts sidebar logo */
+@media screen and (min-width: 76.2344em) {
+    .md-nav__title .md-nav__button.md-logo img {
+        height: unset;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+        height: initial;
+    }
+}
+
+/* Handles font-sizing issues with Material */
+body {
+    font-size: inherit;
+}
+
+/* Compensates for compounding font-size percentage increases on the html tag */
+/* TODO: Put this up above where it originally existed. */
+.navbar-brand {
+    font-size: 90.91%;
+    margin-right: 0.68rem;
+}
+
+.navbar-nav {
+    font-size: 72.75%;
+    padding-top: 0.02rem;
+}
+
+.navbar {
+    padding: 0.48rem 1rem 0.1rem 0.48rem;
+}
+
+.navbar-brand img {
+    padding-left: 0.12rem;
+    margin-right: 0.35rem !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.3rem;
+    padding-left: 0.42rem;
+}
+
+/* Tabbed content outlines */
+.md-typeset .tabbed-labels > label:first-of-type {
+    margin-left: 1rem;
+}
+
+.tabbed-content .tabbed-block {
+    border: 2px solid #777777;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+/* Forces only highlighting the important bits of codeblocks */
+.highlight .gp, .highlight .go, .highlight .w {
+    user-select: none;
+}
+
+/* Codeblock copy button styling */
+.copy-button svg.copy-icon {
+    fill: #777777;
+    height: 1em;
+}
+
+.copy-button-copied svg.copy-icon {
+    fill: #009900;
+    height: 1em;
+}
+
+.copy-button, .copy-button-copied {
+    float: right;
+}
+
+.copied-text {
+    font-family: var(--md-text-font-family), serif;
+    float: left;
+}
+
+/* Search */
+.md-search {
+    padding: 0 0 0.4rem 0;
+}
+
+input.md-search__input {
+    font-family: 'Cutive', serif;
+}
+
+/* Footer and footer navigation color */
+.md-footer, .md-footer-meta {
+    background-color: light-dark(#f5f5f5, #343A40);
+}
+
+footer.md-footer *, html .md-footer-meta.md-typeset a  {
+    color: light-dark(#343A40, #E2E4E9);
+}
