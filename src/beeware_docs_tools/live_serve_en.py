@@ -1,16 +1,25 @@
 import subprocess
+from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
-
-SOURCE_DIR = Path.cwd()
 
 # The theme overrides directory in config.yml is relative to the docs directory.
 # Therefore, the live build expects there to be an overrides directory in the
 # local docs directory. This script symlinks all the necessary directories and
 # config files to a temp directory and serves the live build from the temp directory.
 
+SOURCE_DIR = Path.cwd()
 
-def serve_docs(config_location) -> None:
+
+def parse_args() -> Namespace:
+    parser = ArgumentParser()
+    parser.add_argument("watch_directory")
+    args = parser.parse_args()
+
+    return args
+
+
+def serve_docs(config_location, watch_flag, watch_directory) -> None:
     subprocess.run(
         [
             "python",
@@ -23,12 +32,16 @@ def serve_docs(config_location) -> None:
             f"{config_location}",
             "--watch",
             "docs",
+            f"{watch_flag}",
+            f"{watch_directory}",
         ],
         check=True,
     )
 
 
 def main():
+    args = parse_args()
+
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
@@ -48,7 +61,11 @@ def main():
             SOURCE_DIR / "docs" / "en", target_is_directory=True
         )
 
-        serve_docs(config_location=(temp_md_directory / "mkdocs.en.yml"))
+        serve_docs(
+            config_location=(temp_md_directory / "mkdocs.en.yml"),
+            watch_flag="--watch" if args.watch_directory else "",
+            watch_directory=args.watch_directory if args.watch_directory else "",
+        )
 
 
 if __name__ == "__main__":

@@ -386,23 +386,30 @@ body {
 }
 
 /* Codeblock copy button styling */
+.copy-button, .copy-button-copied {
+    display: flex;
+    float: right;
+    right: 0;
+    top: 0;
+    font-family: var(--md-text-font-family), serif;position: absolute;
+    /* The following two styles are included to deal with code block content
+       that exceeds the width of the main content block. Without this styling
+       the code shows behind the button, making it difficult to see. */
+    background-color: #F5F5F5;
+    padding: 14px 14px 5px 5px;
+}
+
+svg.copy-icon {
+    height: 1em;
+}
+
 .copy-button svg.copy-icon {
     fill: #777777;
-    height: 1em;
 }
 
 .copy-button-copied svg.copy-icon {
     fill: #009900;
-    height: 1em;
-}
-
-.copy-button, .copy-button-copied {
-    float: right;
-}
-
-.copied-text {
-    font-family: var(--md-text-font-family), serif;
-    float: left;
+    padding-left: 8px;
 }
 
 /* Search */
