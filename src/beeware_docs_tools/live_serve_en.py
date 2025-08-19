@@ -13,35 +13,39 @@ SOURCE_DIR = Path.cwd()
 
 def parse_args() -> Namespace:
     parser = ArgumentParser()
-    parser.add_argument("watch_directory")
+    parser.add_argument("watch_directory", nargs="*")
     args = parser.parse_args()
 
     return args
 
 
-def serve_docs(config_location, watch_flag, watch_directory) -> None:
+def serve_docs(config_location) -> None:
+    args = parse_args()
+
+    serve_command = [
+        "python",
+        "-m",
+        "mkdocs",
+        "serve",
+        "--clean",
+        "--strict",
+        "--config-file",
+        f"{config_location}",
+        "--watch",
+        "docs",
+    ]
+
+    if args.watch_directory:
+        for directory in args.watch_directory:
+            serve_command.extend(["--watch", directory])
+
     subprocess.run(
-        [
-            "python",
-            "-m",
-            "mkdocs",
-            "serve",
-            "--clean",
-            "--strict",
-            "--config-file",
-            f"{config_location}",
-            "--watch",
-            "docs",
-            f"{watch_flag}",
-            f"{watch_directory}",
-        ],
+        serve_command,
         check=True,
     )
 
 
 def main():
-    args = parse_args()
-
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
@@ -61,11 +65,7 @@ def main():
             SOURCE_DIR / "docs" / "en", target_is_directory=True
         )
 
-        serve_docs(
-            config_location=(temp_md_directory / "mkdocs.en.yml"),
-            watch_flag="--watch" if args.watch_directory else "",
-            watch_directory=args.watch_directory if args.watch_directory else "",
-        )
+        serve_docs(config_location=(temp_md_directory / "mkdocs.en.yml"))
 
 
 if __name__ == "__main__":
