@@ -302,6 +302,11 @@
     color: var(--md-typeset-color);
 }
 
+/* Link colors */
+.md-typeset a {
+    color: light-dark(#084aff, #526cfe);
+}
+
 /* Unsticky header */
 .md-header {
     position: unset;
@@ -387,15 +392,16 @@ body {
 
 /* Codeblock copy button styling */
 .copy-button, .copy-button-copied {
+    position: absolute;
     display: flex;
     float: right;
     right: 0;
     top: 0;
-    font-family: var(--md-text-font-family), serif;position: absolute;
+    font-family: var(--md-text-font-family), serif;
     /* The following two styles are included to deal with code block content
        that exceeds the width of the main content block. Without this styling
        the code shows behind the button, making it difficult to see. */
-    background-color: #F5F5F5;
+    background-color: var(--md-code-bg-color);
     padding: 14px 14px 5px 5px;
 }
 
