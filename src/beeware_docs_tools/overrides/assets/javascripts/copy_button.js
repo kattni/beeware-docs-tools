@@ -1,6 +1,4 @@
-// get the list of all highlight code blocks
 const highlights = document.querySelectorAll("div.highlight pre code");
-// console.log(highlights)
 
 highlights.forEach((pre) => {
     const copyButtonDiv = document.createElement("div");
@@ -19,14 +17,21 @@ highlights.forEach((pre) => {
     pre.prepend(copyButtonDiv);
 });
 
+// Excludes the button divs, and the Pygments-tagged spans that are the console/doscon
+// shell prompt and the code output of a given command.
 const exclude = ["div.copy-button", "div.copied-text", "span.gp", "span.go"]
 
 function filterText(target, exclude) {
-    const clone = target.cloneNode(true);  // clone as to not modify the live DOM
+    // Clone as to not modify the live DOM.
+    const clone = target.cloneNode(true);
     if (exclude) {
         clone.querySelectorAll(exclude).forEach(node => node.remove());
     }
     let content = clone.innerText
+    // The space between the venv name and the prompt is not tagged, so it gets added
+    // to the copied content. The newlines present in code output in codeblocks also
+    // isn't tagged, and therefore is also included in the copied content. Managing
+    // both of these issues is the purpose of the following if-block.
     if (content.startsWith(" ")) {
         const initial = content.replace(/^ /gm, "")
         content = initial.trim()
@@ -36,6 +41,7 @@ function filterText(target, exclude) {
 }
 
 function handleCopyClick(evt) {
+    // This is a workaround for the target changing to the SVG from the codeblock.
     const code_node = evt.target.parentElement.parentElement.parentElement
     navigator.clipboard.writeText(filterText(code_node, exclude));
     this.classList.add("copy-button-copied")

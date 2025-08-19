@@ -70,7 +70,7 @@ commands:
 
 You'll need to add the following:
 
-* The language code env flag to the header line
+* The language code environment flag to the header line
 * The language code exclusion to the first command, beginning with `!lint`
 * The language code to the second `translate :` line
 * The language code to the `all :` line

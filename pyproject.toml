@@ -22,7 +22,6 @@ maintainers = [
 ]
 
 dependencies = [
-    "codespell==2.4.1",
     "markdown-checker==0.2.5",
     "mistletoe==1.4.0",
     "mkdocs-autorefs==1.4.2",
@@ -30,11 +29,10 @@ dependencies = [
     "mkdocs-literate-nav==0.6.2",
     "mkdocs-macros-plugin==1.3.7",
     "mkdocs-material==9.6.15",
-    "mkdocs-spellcheck==1.1.1",
     "mkdocs==1.6.1",
     "pymdown-extensions==10.16",
+    "pyspelling==2.10",
     "python-Levenshtein==0.27.1",
-    "symspellpy==6.9.0",
     "translate-toolkit @ git+https://github.com/translate/translate@master",
 ]
 
@@ -43,7 +41,7 @@ dependencies = [
 # ensure environment consistency.
 dev = [
     "pre-commit == 4.2.0",
-    "tox == 4.27.0",
+    "tox-uv == 1.28.0",
 ]
 
 [project.urls]
@@ -69,4 +67,5 @@ beeware_docs_tools = [
     "**/*.css",
     "**/*.js",
     "**/*.png",
+    "**/*.woff2",
 ]

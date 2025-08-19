@@ -3,7 +3,6 @@ from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-
 import subprocess
 
 SOURCE_DIR = Path.cwd() / "locales"

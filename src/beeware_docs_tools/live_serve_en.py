@@ -4,8 +4,13 @@ from tempfile import TemporaryDirectory
 
 SOURCE_DIR = Path.cwd()
 
+# The theme overrides directory in config.yml is relative to the docs directory.
+# Therefore, the live build expects there to be an overrides directory in the
+# local docs directory. This script symlinks all the necessary directories and
+# config files to a temp directory and serves the live build from the temp directory.
 
-def build_docs(config_location) -> None:
+
+def serve_docs(config_location) -> None:
     subprocess.run(
         [
             "python",
@@ -43,7 +48,7 @@ def main():
             SOURCE_DIR / "docs" / "en", target_is_directory=True
         )
 
-        build_docs(config_location=(temp_md_directory / "mkdocs.en.yml"))
+        serve_docs(config_location=(temp_md_directory / "mkdocs.en.yml"))
 
 
 if __name__ == "__main__":
