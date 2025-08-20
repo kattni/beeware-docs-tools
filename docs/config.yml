@@ -34,7 +34,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  custom_dir: overrides
+  # custom_dir: overrides
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
