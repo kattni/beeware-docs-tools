@@ -9,6 +9,9 @@ MkDocs
 repo
 repos
 reStructuredText
+subdirectories
+subdirectory
+symlinked
 Titlebar
 titlebar
 Weblate
