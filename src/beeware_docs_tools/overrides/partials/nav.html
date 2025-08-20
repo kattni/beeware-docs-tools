@@ -24,12 +24,6 @@
 
 <!-- Determine classes -->
 {% set class = "md-nav md-nav--primary" %}
-{% if "navigation.tabs" in features %}
-  {% set class = class ~ " md-nav--lifted" %}
-{% endif %}
-{% if "toc.integrate" in features %}
-  {% set class = class ~ " md-nav--integrated" %}
-{% endif %}
 
 <!-- Navigation -->
 <nav
@@ -48,8 +42,11 @@
       data-md-component="logo"
     >
       {% include "partials/logo.html" %}
-    </a>
     <span class="site-name">{{ config.site_name }}</span>
+      {% if not config.extra.hide_version %}
+    <span class="version_number">{{ config.extra.version }}</span>
+      {% endif %}
+    </a>
     <div class="github-links">
       <a href="https://github.com/beeware/{{ config.extra.project_name }}"><i class="fa-brands fa-github"></i> Source Code</a>
     </div>

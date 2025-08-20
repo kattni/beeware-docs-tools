@@ -6,7 +6,7 @@ Things to manually check:
 
 ### Titlebar
 
-A dark gray titlebar is on the page. This confirms the theme template
+A medium-gray titlebar is on the page. This the theme template
 has been applied.
 
 ### Header and logo icons
@@ -61,33 +61,61 @@ C:\...>git clone https://github.com/beeware/beeware-theme.git
 
 ///
 
+### Code copy button behavior
+
+The copy button on the following codeblock should result in `from pathlib
+import Path` being copied to the clipboard.
+
+```python
+from pathlib import Path
+```
+
+The copy button on the following codeblock should result in `ls
+beeware-docs-tools` being copied to the clipboard. The shell prompt and
+the output should not be included.
+
+```console
+(venv) $ ls beeware-docs-tools
+_build			locales			requirements.dev.txt	tox.ini
+docs			pyproject.toml		requirements.docs.txt
+LICENSE			README.md		src
+```
+
 ### Sidebar links
 
 Sidebar links exist, and point to the `beeware-docs-tools` repo. This
 confirms that the sidebar content has been loaded, and the `project-name`
 has been set in the MkDocs configuration file.
 
+### Link colors
+
+This link to [the main BeeWare website](https://beeware.org) should be blue
+in *both* light mode and dark mode.
+
+The links in the left and right sidebars should also be blue in both modes.
+
+When scrolling down the page, the active header link in the right sidebar
+should be light blue in dark mode, and darker blue in light mode.
+
 ### Translation Admonition
 
 The English-language version of this document should show the "Translations
 are available" admonition below. The French translation should show the "This is
-a translation!" admonition.
+a machine translation!" admonition. The German translation should show the
+"This is a translation!" admonition for human translations.
 
-To view the "This is a machine translation!" admonition, change the
-`extra: translation_type:` in the `mkdocs.fr.yml` file to `machine`.
-
-{% if config.extra.translation_type == original %}
+{% if config.extra.translation_type == "original" %}
 
 /// admonition | Translations are available
 
 If you're not comfortable with English, translations of the Docs Tools
-are available in Français.
+are available in Français and Deutsch.
 
 ///
 
 {% endif %}
 
-{% if config.extra.translation_type == machine %}
+{% if config.extra.translation_type == "machine" %}
 
 /// admonition | This is a machine translation!
 
@@ -99,7 +127,7 @@ than no translation at all.
 
 {% endif %}
 
-{% if config.extra.translation_type == human %}
+{% if config.extra.translation_type == "human" %}
 
 /// admonition | This is a translation!
 
@@ -111,13 +139,19 @@ machine translation, or not translated at all.
 
 {% endif %}
 
-### Custom static content
+### Custom 404 page
 
-The title of this section is rendered in dark red. This confirms that
-the docs project can still provide static content.
+Add `nopage` to the end of the URL in your browser to verify the 404
+page contains two flying bees, and the text "Brutus can't find what
+you're looking for" below.
 
-*This is not currently implemented, but may be in the future.*
+*MkDocs builds fail with unrecognized internal links, so you need to
+manually verify this check by modifying the URL in your browser.*
 
 ### Next Checks
 
-Navigate to BeeWare Docs Tools Demo Section One for the next checks.
+The following link should take you to BeeWare Docs Tools Demo Section
+One. It is included to verify `autoref` linking.
+
+Navigate to [BeeWare Docs Tools Demo Section One][section-one] for the
+next checks.

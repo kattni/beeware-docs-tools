@@ -303,8 +303,12 @@
 }
 
 /* Link colors */
-.md-typeset a {
-    color: light-dark(#084aff, #526cfe);
+.md-typeset a, .md-nav__link {
+    color: light-dark(#084AFF, #526CFE);
+}
+
+.md-nav__item .md-nav__link--active {
+    color: light-dark(#30314B, #96ACEE)
 }
 
 /* Unsticky header */
@@ -324,6 +328,11 @@
 
 .md-nav__title {
     color: unset;
+}
+
+/* Version number wrap */
+span.version_number {
+    overflow-wrap: anywhere;
 }
 
 /* GitHub sidebar links */
@@ -372,6 +381,11 @@
    with the header font size. This resolves both. */
 body {
     font-size: 1rem;
+}
+
+/* 404 page text */
+#not-found-text {
+    float: right;
 }
 
 /* Tabbed content outlines */

@@ -1,6 +1,8 @@
 import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
+import yaml
+from setuptools_scm import get_version
 from tempfile import TemporaryDirectory
 
 # The theme overrides directory in config.yml is relative to the docs directory.
@@ -9,6 +11,8 @@ from tempfile import TemporaryDirectory
 # config files to a temp directory and serves the live build from the temp directory.
 
 SOURCE_DIR = Path.cwd()
+
+version = get_version(relative_to=SOURCE_DIR / "tox.ini")
 
 
 def parse_args() -> Namespace:
@@ -49,9 +53,16 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
-        (temp_md_directory / "config.yml").symlink_to(
-            SOURCE_DIR / "docs" / "config.yml"
+        config_file = yaml.load(
+            open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
         )
+        config_file["extra"].update({"version": f"{version}"})
+
+        with (temp_md_directory / "config.yml").open(
+            "w", encoding="utf-8"
+        ) as config_temp:
+            yaml.dump(config_file, config_temp)
+
         (temp_md_directory / "mkdocs.en.yml").symlink_to(
             SOURCE_DIR / "docs" / "mkdocs.en.yml"
         )

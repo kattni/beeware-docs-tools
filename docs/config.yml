@@ -1,4 +1,4 @@
-copyright: © Russell Keith-Magee 2025
+copyright: © Russell Keith-Magee
 
 not_in_nav: |
   /index.md
@@ -21,9 +21,6 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://beeware.org/bee/chat/
       name: BeeWare on Discord
-
-extra_css:
-  - _static/custom.css
 
 theme:
   name: material

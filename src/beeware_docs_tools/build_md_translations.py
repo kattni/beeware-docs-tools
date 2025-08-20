@@ -93,16 +93,12 @@ def main():
                 # explicitly symlinked for the relative links in the Markdown to
                 # function the same way they do in the original Markdown files.
                 # `images` and `resources` directories must live in `en` directory.
-                if (SOURCE_DIR / "docs" / "en" / "images").is_dir():
-                    (temp_md_directory / language / "images").symlink_to(
-                        SOURCE_DIR / "docs" / "en" / "images",
-                        target_is_directory=True,
-                    )
-                if (SOURCE_DIR / "docs" / "en" / "resources").is_dir():
-                    (temp_md_directory / language / "resources").symlink_to(
-                        SOURCE_DIR / "docs" / "en" / "resources",
-                        target_is_directory=True,
-                    )
+                for name in ["images", "resources"]:
+                    en_root = SOURCE_DIR / "docs" / "en"
+                    for path in en_root.glob(f"**/{name}"):
+                        if path.is_dir():
+                            rel_path = path.relative_to(en_root)
+                            (temp_md_directory / language / rel_path).symlink_to(path)
             else:
                 # Symlink English Markdown files and spelling_wordlist for en build.
                 (temp_md_directory / "en").symlink_to(
