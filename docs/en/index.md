@@ -151,7 +151,7 @@ manually verify this check by modifying the URL in your browser.*
 ### Next Checks
 
 The following link should take you to BeeWare Docs Tools Demo Section
-One. It is included to verify `autoref` linking.
+One. It is included to verify cross-page linking.
 
-Navigate to [BeeWare Docs Tools Demo Section One][section-one] for the
+Navigate to [BeeWare Docs Tools Demo Section One](section_one/index.md) for the
 next checks.

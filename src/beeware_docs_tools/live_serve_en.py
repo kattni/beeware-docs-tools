@@ -66,9 +66,6 @@ def main():
         (temp_md_directory / "mkdocs.en.yml").symlink_to(
             SOURCE_DIR / "docs" / "mkdocs.en.yml"
         )
-        (temp_md_directory / "spelling_wordlist").symlink_to(
-            SOURCE_DIR / "docs" / "spelling_wordlist"
-        )
         (temp_md_directory / "overrides").symlink_to(
             Path(__file__).parent / "overrides", target_is_directory=True
         )

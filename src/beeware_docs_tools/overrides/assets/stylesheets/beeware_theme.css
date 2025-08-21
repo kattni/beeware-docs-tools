@@ -18,7 +18,7 @@
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 16px 16px 8px 16px;
+    padding: 15px 16px 8px 16px;
     line-height: 1.5;
 }
 
@@ -87,13 +87,9 @@
 }
 
 @media (max-width: 862.99px) {
-    .navbar-toggler {
-        padding: 0.3em !important;
-    }
-
     .navbar-collapse li {
         border-bottom: 1px solid #666;
-        padding: 0.5em 1em 0.4em;
+        padding: 8px 16px 6.4px;
     }
 
     .navbar {
@@ -103,17 +99,17 @@
     .navbar-brand-block {
         position: absolute;
         margin-top: -40px;
-        padding: 0 1em 0.2em;
+        padding: 1px 14px 2px;
         right: 10px;
     }
 
     .nav-top {
-        margin: 0.7em 1em;
+        margin: 16px 14px;
     }
 
     .navbar-collapse {
         background-color: #343a40;
-        padding-top: 0.75em;
+        padding-top: 12px;
     }
 
     .navbar-collapse .header-button li.nav-item {
@@ -147,7 +143,7 @@
         -ms-flex-direction: row;
         flex-direction: row;
         font-size: 16px;
-        padding-left: 16px;
+        padding-left: 14px;
     }
 
     .navbar-expand-md .navbar-nav .dropdown-menu {
@@ -177,9 +173,13 @@
         display: none;
     }
 
+    .navbar-brand-block {
+        padding-top: 2px;
+    }
+
     /* Search and header light-dark mode button are too low by default on wide screen */
     .md-search, .md-header__button[for="__search"] {
-        margin-top: -0.45rem;
+        margin-top: -7.2px;
     }
 }
 
@@ -192,12 +192,13 @@
 }
 
 .navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
+    padding: 4px 12px 4px 12px;
+    font-size: 16px;
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: 0.25rem;
+    border-radius: 4px;
+    margin-left: 2px;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -210,8 +211,8 @@
 
 .navbar-toggler-icon {
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     content: "";
     background: no-repeat center center;
@@ -220,8 +221,7 @@
 
 .navbar-brand {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 3px 2px 5px 0;
     font-size: 20px;
     line-height: inherit;
     white-space: nowrap;
@@ -255,7 +255,7 @@
     flex-direction: column;
     padding-left: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 3px;
     list-style: none;
 }
 
@@ -372,6 +372,15 @@ span.version_number {
         color: #FFFFFFD3;
     }
 
+    .md-nav--primary .md-nav__title {
+        padding-top: 16px;
+    }
+
+    .md-nav--primary .md-nav__title .md-logo {
+        position: unset;
+        padding: 0;
+    }
+
     .md-nav__title .md-nav__button.md-logo img {
         padding-bottom: 10px;
     }
@@ -381,6 +390,11 @@ span.version_number {
    with the header font size. This resolves both. */
 body {
     font-size: 1rem;
+}
+
+/* Read the Docs flyout */
+.floating.container.bottom-right * {
+    font-size: smaller;
 }
 
 /* 404 page text */

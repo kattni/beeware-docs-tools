@@ -1,10 +1,14 @@
 import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
+import yaml
+from setuptools_scm import get_version
 from tempfile import TemporaryDirectory
 
 
 SOURCE_DIR = Path.cwd()
+
+version = get_version(relative_to=SOURCE_DIR / "tox.ini")
 
 
 def parse_args() -> Namespace:
@@ -63,11 +67,21 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
-        # Symlink config file and overrides directory to temp directory, so they are
+        # Load the config.yml file, add the version number to extra,
+        # and dump the updated copy to the temp directory so it is
         # available relative to the build.
-        (temp_md_directory / "config.yml").symlink_to(
-            SOURCE_DIR / "docs" / "config.yml"
+        config_file = yaml.load(
+            open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
         )
+        config_file["extra"].update({"version": f"{version}"})
+
+        with (temp_md_directory / "config.yml").open(
+            "w", encoding="utf-8"
+        ) as config_temp:
+            yaml.dump(config_file, config_temp)
+
+        # Symlink overrides directory to the temp directory, so it is
+        # available relative to the build.
         (temp_md_directory / "overrides").symlink_to(
             Path(__file__).parent / "overrides", target_is_directory=True
         )
@@ -90,28 +104,27 @@ def main():
                 )
 
                 # If the documentation includes images or resources, they must be
-                # explicitly symlinked for the relative links in the Markdown to
-                # function the same way they do in the original Markdown files.
-                # `images` and `resources` directories must live in `en` directory.
+                # explicitly symlinked to the temporary language output directory
+                # for the relative links in the translated Markdown to function the
+                # same way they do in the original Markdown files. This finds all
+                # images and resources subdirectories, and symlinks them.
                 for name in ["images", "resources"]:
-                    en_root = SOURCE_DIR / "docs" / "en"
-                    for path in en_root.glob(f"**/{name}"):
+                    en_md_dir = SOURCE_DIR / "docs" / "en"
+                    for path in en_md_dir.glob(f"**/{name}"):
                         if path.is_dir():
-                            rel_path = path.relative_to(en_root)
-                            (temp_md_directory / language / rel_path).symlink_to(path)
+                            relative_path = path.relative_to(en_md_dir)
+                            (temp_md_directory / language / relative_path).symlink_to(
+                                path
+                            )
             else:
-                # Symlink English Markdown files and spelling_wordlist for en build.
+                # Symlink English Markdown files for en build.
                 (temp_md_directory / "en").symlink_to(
                     SOURCE_DIR / "docs" / "en", target_is_directory=True
                 )
-                (temp_md_directory / "spelling_wordlist").symlink_to(
-                    SOURCE_DIR / "docs" / "spelling_wordlist"
-                )
 
-            config_location = temp_md_directory / f"mkdocs.{language}.yml"
             output = Path(args.output).resolve()
             build_docs(
-                config_file=config_location,
+                config_file=(temp_md_directory / f"mkdocs.{language}.yml"),
                 build_dir=output
                 if (len(args.language_code) == 1)
                 else (output / language),

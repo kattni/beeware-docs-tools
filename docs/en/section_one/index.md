@@ -1,4 +1,4 @@
-# BeeWare Docs Tools Demo Section One { id="section-one" }
+# BeeWare Docs Tools Demo Section One
 
 ## Include External Markdown
 
