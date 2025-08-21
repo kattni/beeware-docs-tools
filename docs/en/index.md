@@ -109,7 +109,10 @@ a machine translation!" admonition. The German translation should show the
 /// admonition | Translations are available
 
 If you're not comfortable with English, translations of the Docs Tools
-are available in Français and Deutsch.
+are available in
+[Français](https://beeware-docs-tools.readthedocs.io/fr/latest/)
+and
+[Deutsch](https://beeware-docs-tools.readthedocs.io/de/latest/).
 
 ///
 
