@@ -392,9 +392,14 @@ body {
     font-size: 1rem;
 }
 
-/* Read the Docs flyout */
-.floating.container.bottom-right * {
-    font-size: smaller;
+/* Read the Docs elements font size fix */
+readthedocs-flyout,
+readthedocs-notification,
+readthedocs-search,
+readthedocs-hotkeys,
+readthedocs-filetreediff,
+readthedocs-docdiff {
+    font-size: small;
 }
 
 /* 404 page text */
