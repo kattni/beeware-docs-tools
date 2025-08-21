@@ -14,7 +14,6 @@ matrix:
       - markdown.extensions.attr_list
       - pymdownx.superfences
       - pymdownx.blocks.admonition
-      - pymdownx.caret
       - pymdownx.blocks.caption
       - pymdownx.blocks.tab
   - pyspelling.filters.html:
