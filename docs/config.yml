@@ -58,11 +58,9 @@ theme:
         name: Switch to system preference
 
 markdown_extensions:
-  pymdownx.highlight:
-    anchor_linenums: true
+  pymdownx.highlight: {}
   pymdownx.superfences: {}
   pymdownx.blocks.admonition: {}
-  pymdownx.caret: {}
   pymdownx.blocks.caption: {}
   pymdownx.blocks.tab:
     alternate_style: true
