@@ -1,6 +1,6 @@
 INHERIT: config.yml
 site_name: BeeWare Démo des outils Docs
-site_url: https://beeware.org/fr
+site_url: https://beeware-docs-tools.readthedocs.io/fr/latest/
 docs_dir: fr
 
 theme:
