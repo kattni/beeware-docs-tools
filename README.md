@@ -43,7 +43,7 @@ Here's what is going on in this file:
   MkDocs Material theme. The list can be found
   [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/).
   For most languages, this will be the same as the `docs_dir` language code; but
-  for some (in particular languages with local variants like `zh_CN`), there are
+  for some (in particular languages with locale variants like `zh_CN`), there are
   differences.
 * The `extra: translation_type:` should be `machine` until the translation reaches
   100% for the first time, at which point it should be `human`. It will revert to
