@@ -26,6 +26,7 @@ theme:
   name: material
   language: en
   logo: assets/images/brutus-256.png
+  favicon: assets/images/brutus-256.png
   features:
     - content.tabs.link
     - toc.follow
@@ -34,7 +35,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  # custom_dir: overrides
+  custom_dir: overrides
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -57,11 +58,9 @@ theme:
         name: Switch to system preference
 
 markdown_extensions:
-  pymdownx.highlight:
-    anchor_linenums: true
+  pymdownx.highlight: {}
   pymdownx.superfences: {}
   pymdownx.blocks.admonition: {}
-  pymdownx.caret: {}
   pymdownx.blocks.caption: {}
   pymdownx.blocks.tab:
     alternate_style: true

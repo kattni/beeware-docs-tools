@@ -1,0 +1,470 @@
+/* Fonts */
+@font-face {
+  font-family: "Cutive";
+  src: url("../fonts/Cutive.woff2");
+}
+
+/*----------------------------------------------------
+  Build BeeWare header
+ --------------------------------------------------- */
+.navbar {
+    font-family: 'Cutive', serif;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px 16px 8px 16px;
+    line-height: 1.5;
+}
+
+.navbar > .container,
+.navbar > .container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-text a {
+    color: white;
+}
+
+.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+@media (max-width: 862.99px) {
+    .navbar-collapse li {
+        border-bottom: 1px solid #666;
+        padding: 8px 16px 6.4px;
+    }
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar-brand-block {
+        position: absolute;
+        margin-top: -40px;
+        padding: 1px 14px 2px;
+        right: 10px;
+    }
+
+    .nav-top {
+        margin: 16px 14px;
+    }
+
+    .navbar-collapse {
+        background-color: #343a40;
+        padding-top: 12px;
+    }
+
+    .navbar-collapse .header-button li.nav-item {
+        border-bottom: 0
+    }
+
+    .navbar-collapse .header-button {
+        border-bottom: 1px solid #666;
+    }
+
+    .navbar-expand-md > .container,
+    .navbar-expand-md > .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .md-header__button[for="__drawer"] {
+        color: #FFFFFFB3;
+    }
+}
+
+@media (min-width: 863px) {
+    .navbar-expand-md {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        font-size: 16px;
+        padding-left: 14px;
+    }
+
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .navbar-expand-md > .container,
+    .navbar-expand-md > .container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        height: 42.9px;
+    }
+
+    .navbar-expand-md .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-brand-block {
+        padding-top: 2px;
+    }
+
+    /* Search and header light-dark mode button are too low by default on wide screen */
+    .md-search, .md-header__button[for="__search"] {
+        margin-top: -7.2px;
+    }
+}
+
+.fixed-top {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-toggler {
+    padding: 4px 12px 4px 12px;
+    font-size: 16px;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+    text-decoration: none;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding: 3px 2px 5px 0;
+    font-size: 20px;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    max-width: initial;
+    margin-right: 8px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 3px;
+    list-style: none;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+/*----------------------------------------------------
+  Material CSS overrides
+ --------------------------------------------------- */
+:root {
+    color-scheme: light dark;
+}
+
+[data-md-color-primary=indigo] {
+    --md-primary-fg-color: #343A40;
+    --md-primary-fg-color--light: #343A40;
+    --md-primary-fg-color--dark:  #343A40;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    font-family: 'Cutive', serif;
+    color: var(--md-typeset-color);
+}
+
+/* Link colors */
+.md-typeset a, .md-nav__link {
+    color: light-dark(#084AFF, #526CFE);
+}
+
+.md-nav__item .md-nav__link--active {
+    color: light-dark(#30314B, #96ACEE)
+}
+
+/* Unsticky header */
+.md-header {
+    position: unset;
+}
+
+/* Disable header shadow */
+.md-header--shadow {
+    box-shadow: unset;
+}
+
+/* Sidebar title and GitHub links font and color */
+.md-nav__title * {
+    font-family: 'Cutive', serif;
+}
+
+.md-nav__title {
+    color: unset;
+}
+
+/* Version number wrap */
+span.version_number {
+    overflow-wrap: anywhere;
+}
+
+/* GitHub sidebar links */
+.github-links {
+    font-weight: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.github-links:first-of-type {
+    margin-top: 1rem;
+}
+
+.github-links:last-of-type {
+    margin-bottom: 1rem;
+}
+
+/* Shows the logo in the sidebar */
+.md-nav__title .md-nav__button {
+    display: unset;
+}
+
+/* Adjusts sidebar logo */
+@media screen and (min-width: 76.2344rem) {
+    .md-nav__title .md-nav__button.md-logo img {
+        height: unset;
+        padding-bottom: 1rem;
+    }
+}
+
+/* Adjusts sidebar title block, which includes GitHub links */
+@media screen and (max-width: 76.2344rem) {
+    .md-nav--primary .md-nav__title[for="__drawer"] {
+        height: initial;
+        white-space: unset;
+        line-height: 1.3;
+        color: #FFFFFFD3;
+    }
+
+    .md-nav--primary .md-nav__title {
+        padding-top: 16px;
+    }
+
+    .md-nav--primary .md-nav__title .md-logo {
+        position: unset;
+        padding: 0;
+    }
+
+    .md-nav__title .md-nav__button.md-logo img {
+        padding-bottom: 10px;
+    }
+}
+
+/* Setting the font size on the body is an accessibility issue, as well as interfering
+   with the header font size. This resolves both. */
+body {
+    font-size: 1rem;
+}
+
+/* Read the Docs elements font size fix */
+readthedocs-flyout,
+readthedocs-notification,
+readthedocs-search,
+readthedocs-hotkeys,
+readthedocs-filetreediff,
+readthedocs-docdiff {
+    font-size: small;
+}
+
+/* 404 page text */
+#not-found-text {
+    float: right;
+}
+
+/* Tabbed content outlines */
+.md-typeset .tabbed-labels > label:first-of-type {
+    margin-left: 1rem;
+}
+
+.tabbed-content .tabbed-block {
+    border: 2px solid #777777;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+/* Forces only highlighting the important bits of codeblocks */
+.highlight .gp, .highlight .go, .highlight .w {
+    user-select: none;
+}
+
+/* Codeblock copy button styling */
+.copy-button, .copy-button-copied {
+    position: absolute;
+    display: flex;
+    float: right;
+    right: 0;
+    top: 0;
+    font-family: var(--md-text-font-family), serif;
+    /* The following two styles are included to deal with code block content
+       that exceeds the width of the main content block. Without this styling
+       the code shows behind the button, making it difficult to see. */
+    background-color: var(--md-code-bg-color);
+    padding: 14px 14px 5px 5px;
+}
+
+svg.copy-icon {
+    height: 1em;
+}
+
+.copy-button svg.copy-icon {
+    fill: #777777;
+}
+
+.copy-button-copied svg.copy-icon {
+    fill: #009900;
+    padding-left: 8px;
+}
+
+/* Search */
+input.md-search__input, .md-search__suggest, .md-search-result__meta {
+    font-family: 'Cutive', serif;
+}
+
+.md-search__suggest {
+    padding-top: 1px;
+}
+
+/* Footer and footer navigation color */
+.md-footer, .md-footer-meta {
+    background-color: light-dark(#f5f5f5, #343A40);
+}
+
+footer.md-footer *, html .md-footer-meta.md-typeset a  {
+    color: light-dark(#343A40, #E2E4E9);
+}
