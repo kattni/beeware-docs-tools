@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-20 18:40-0400\n"
+"POT-Creation-Date: 2025-08-21 23:46-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgid "BeeWare Docs Tools Demo Section One: Page Two"
 msgstr ""
 
 #: docs/en/section_one/page_two.md:3
+msgid "Footer and navigation links"
+msgstr ""
+
+#: docs/en/section_one/page_two.md:5
 msgid ""
 "Navigation should render at the bottom of the page; "
 "\"BeeWare Docs Tools Demo Section One\" should be on the left, "

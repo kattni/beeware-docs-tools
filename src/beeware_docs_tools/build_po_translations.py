@@ -5,7 +5,7 @@ from tempfile import TemporaryDirectory
 
 import subprocess
 
-SOURCE_DIR = Path.cwd() / "locales"
+SOURCE_DIR = Path.cwd() / "docs" / "locales"
 
 
 def parse_args() -> Namespace:

@@ -85,7 +85,8 @@ LICENSE			README.md		src
 
 Sidebar links exist, and point to the `beeware-docs-tools` repo. This
 confirms that the sidebar content has been loaded, and the `project-name`
-has been set in the MkDocs configuration file.
+has been set in the MkDocs configuration file, and the version number is
+computed and added.
 
 ### Link colors
 

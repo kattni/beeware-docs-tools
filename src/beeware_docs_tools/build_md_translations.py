@@ -15,10 +15,11 @@ def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("language_code", nargs="*")
     parser.add_argument("--output", default=SOURCE_DIR / "_build" / "html")
+    parser.add_argument("--build-with-errors", action="store_true")
     args = parser.parse_args()
     for language_code in args.language_code:
         if not (
-            (SOURCE_DIR / "locales" / f"{language_code}").is_dir()
+            (SOURCE_DIR / "docs" / "locales" / f"{language_code}").is_dir()
             or language_code == "en"
         ):
             raise RuntimeError(
@@ -44,19 +45,25 @@ def generate_translated_md(
 
 
 def build_docs(config_file: Path, build_dir: Path) -> None:
+    args = parse_args()
+
+    serve_command = [
+        "python",
+        "-m",
+        "mkdocs",
+        "build",
+        "--clean",
+        "--config-file",
+        f"{config_file}",
+        "--site-dir",
+        f"{build_dir}",
+    ]
+
+    if not args.build_with_errors:
+        serve_command.extend(["--strict"])
+
     subprocess.run(
-        [
-            "python",
-            "-m",
-            "mkdocs",
-            "build",
-            "--clean",
-            "--strict",
-            "--config-file",
-            f"{config_file}",
-            "--site-dir",
-            f"{build_dir}",
-        ],
+        serve_command,
         check=True,
     )
 
@@ -98,7 +105,11 @@ def main():
             if language != "en":
                 output_directory.mkdir(parents=True, exist_ok=True)
                 generate_translated_md(
-                    input_dir=SOURCE_DIR / "locales" / language / "LC_MESSAGES",
+                    input_dir=SOURCE_DIR
+                    / "docs"
+                    / "locales"
+                    / language
+                    / "LC_MESSAGES",
                     template_dir=SOURCE_DIR / "docs" / "en",
                     output_dir=temp_md_directory / language,
                 )

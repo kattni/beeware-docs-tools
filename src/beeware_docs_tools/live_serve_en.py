@@ -18,6 +18,7 @@ version = get_version(relative_to=SOURCE_DIR / "tox.ini")
 def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("watch_directory", nargs="*")
+    parser.add_argument("--build-with-errors", action="store_true")
     args = parser.parse_args()
 
     return args
@@ -32,12 +33,14 @@ def serve_docs(config_location) -> None:
         "mkdocs",
         "serve",
         "--clean",
-        "--strict",
         "--config-file",
         f"{config_location}",
         "--watch",
         "docs",
     ]
+
+    if not args.build_with_errors:
+        serve_command.extend(["--strict"])
 
     if args.watch_directory:
         for directory in args.watch_directory:
