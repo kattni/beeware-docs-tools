@@ -9,7 +9,7 @@ configuration has been applied.
 
 ### Class reference documentation
 
-The following should show the reference documentation for the "DocsTest"
+The following should show the reference documentation for the `DocsTest`
 class, located in `docs_test.py`, in the `src/beeware_docs_tools`
 directory. This verifies that the source code directory symlinking is
 working properly.
