@@ -19,6 +19,7 @@ def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("watch_directory", nargs="*")
     parser.add_argument("--build-with-errors", action="store_true")
+    parser.add_argument("--source-code", action="append")
     args = parser.parse_args()
 
     return args
@@ -53,8 +54,20 @@ def serve_docs(config_location) -> None:
 
 
 def main():
+    args = parse_args()
+
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
+
+        if args.source_code:
+            for directory in args.source_code:
+                if "/" in directory:
+                    Path(temp_md_directory / directory).parent.mkdir(
+                        parents=True, exist_ok=True
+                    )
+                (temp_md_directory / directory).symlink_to(
+                    SOURCE_DIR / directory, target_is_directory=True
+                )
 
         config_file = yaml.load(
             open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader

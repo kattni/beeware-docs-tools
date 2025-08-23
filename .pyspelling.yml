@@ -33,3 +33,6 @@ matrix:
         - open: '{%'
           content: '[\d\D]*'
           close: '%}'
+        - open: ':::'
+          content: '[\d\D]*'
+          close: '\n'
