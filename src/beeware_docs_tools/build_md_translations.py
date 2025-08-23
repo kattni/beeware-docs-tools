@@ -16,6 +16,7 @@ def parse_args() -> Namespace:
     parser.add_argument("language_code", nargs="*")
     parser.add_argument("--output", default=SOURCE_DIR / "_build" / "html")
     parser.add_argument("--build-with-errors", action="store_true")
+    parser.add_argument("--source-code", action="append")
     args = parser.parse_args()
     for language_code in args.language_code:
         if not (
@@ -86,6 +87,17 @@ def main():
             "w", encoding="utf-8"
         ) as config_temp:
             yaml.dump(config_file, config_temp)
+
+        # If source code directory or directories provided, symlink.
+        if args.source_code:
+            for directory in args.source_code:
+                if "/" in directory:
+                    Path(temp_md_directory / directory).parent.mkdir(
+                        parents=True, exist_ok=True
+                    )
+                (temp_md_directory / directory).symlink_to(
+                    SOURCE_DIR / directory, target_is_directory=True
+                )
 
         # Symlink overrides directory to the temp directory, so it is
         # available relative to the build.
