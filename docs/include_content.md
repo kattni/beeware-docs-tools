@@ -1,14 +1,27 @@
-<!--include-markdown-content-start-->
+# -8<- [start:local-content]
 
-### Test Include Content
+### Test including local content
 
-This content includes `inline code` and a code block.
+This content is being included from the local file. It
+includes `inline code` and a code block.
 
 ```python
 def main():
     pass
 ```
-
-<!--include-markdown-content-end-->
+# -8<- [end:local-content]
 
 This sentence should *not* be included.
+
+# -8<- [start:remote-content]
+
+### Test including remote content
+
+This content is being included remotely via URL. It
+contains a Markdown list:
+
+* List item 0
+* List item 1
+* List item 2
+
+# -8<- [start:remote-content]
