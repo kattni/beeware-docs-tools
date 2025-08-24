@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-23 03:04+0000\n"
+"POT-Creation-Date: 2025-08-24 04:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +17,42 @@ msgid "BeeWare Docs Tools Demo Section One"
 msgstr ""
 
 #: docs/en/section_one/index.md:3
-msgid "Include External Markdown"
+msgid "Include External Markdown from a Local File"
 msgstr ""
 
 #: docs/en/section_one/index.md:5
 msgid ""
-"The following section should have inline code and a code block. There should "
-"be no text between the code block and the next header."
+"The following section should have only a header, and a paragraph with inline "
+"code followed by a code block. There should be no text between the code "
+"block and the next header. This verifies that the external include extension "
+"is working with local files."
 msgstr ""
 
-#: docs/en/section_one/index.md:8
-msgid ""
-"{% include-markdown \"https://raw.githubusercontent.com/beeware/"
-"beeware-docs-tools/refs/heads/main/docs/include_content.md\" start=\"{1}\" "
-"end=\"{2}\" %}"
+#: docs/en/section_one/index.md:10
+msgid "-8<- \"include_content.md:local-content\""
+msgstr ""
+
+#: docs/en/section_one/index.md:12
+msgid "Include External Markdown from a URL"
 msgstr ""
 
 #: docs/en/section_one/index.md:14
+msgid ""
+"The following section should have only a header, some text and a Markdown "
+"list. This verifies that the external include extension is working, and that "
+"`url_download` is enabled."
+msgstr ""
+
+#: docs/en/section_one/index.md:18
+msgid ""
+"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/"
+"main/docs/include_content.md:remote-content -8<-"
+msgstr ""
+
+#: docs/en/section_one/index.md:22
 msgid "Footer Navigation"
 msgstr ""
 
-#: docs/en/section_one/index.md:16
+#: docs/en/section_one/index.md:24
 msgid "Navigate to *Section One - Page Two* for the final check."
 msgstr ""
