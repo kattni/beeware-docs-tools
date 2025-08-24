@@ -16,7 +16,7 @@ This verifies that the external include extension is working, and that
 `url_download` is enabled.
 
 -8<-
-https://raw.githubusercontent.com/kattni/beeware-docs-tools/refs/heads/tooling/snippets/docs/include_content.md:remote-content
+https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content
 -8<-
 
 ## Footer Navigation
