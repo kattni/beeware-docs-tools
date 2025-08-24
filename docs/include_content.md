@@ -24,4 +24,4 @@ contains a Markdown list:
 * List item 1
 * List item 2
 
-# -8<- [start:remote-content]
+# -8<- [end:remote-content]
