@@ -37,7 +37,11 @@ matrix:
         - open: ':::'
           content: '[\d\D]*'
           close: '\n'
-        # Ignore the snippets syntax
+        # Ignore the single line Snippets syntax
         - open: '-8<\-'
           content: '[\d\D]*'
           close: '\n'
+        # Ignore the multiline Snippets syntax
+        - open: '-8<\-\n'
+          content: '[\d\D]*'
+          close: '-8<-\n'
