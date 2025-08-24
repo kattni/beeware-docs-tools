@@ -33,6 +33,11 @@ matrix:
         - open: '{%'
           content: '[\d\D]*'
           close: '%}'
+        # Ignore the mkdocstrings calls
         - open: ':::'
+          content: '[\d\D]*'
+          close: '\n'
+        # Ignore the snippets syntax
+        - open: '-8<\-'
           content: '[\d\D]*'
           close: '\n'
