@@ -302,6 +302,11 @@
     color: var(--md-typeset-color);
 }
 
+/* Fix issue with spacing when title is exactly the width of the article column */
+.md-typeset h1 a.headerlink {
+    display: none;
+}
+
 /* Link colors */
 .md-typeset a, .md-nav__link {
     color: light-dark(#084AFF, #526CFE);
