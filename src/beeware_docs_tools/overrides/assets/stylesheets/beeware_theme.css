@@ -335,9 +335,23 @@
     color: unset;
 }
 
-/* Sidebar title font size */
+/* Site name */
 .site-name {
-    font-size: 18px;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+.small .site-name {
+    padding-bottom: 0;
+}
+
+/* Sidebar title block */
+.sidebar-title-block {
+    margin-bottom: 1.2rem;
+}
+
+.small .sidebar-title-block{
+    height: 60px;
 }
 
 /* Version number */
@@ -354,24 +368,6 @@
     padding-top: 10px;
     width: 157px;
     float: right;
-}
-
-/* Site name */
-.site-name {
-    padding-bottom: 8px;
-}
-
-.small .site-name {
-    padding-bottom: 0;
-}
-
-/* Sidebar title block */
-.sidebar-title-block {
-    margin-bottom: 1.2rem;
-}
-
-.small .sidebar-title-block{
-    height: 60px;
 }
 
 /* GitHub sidebar links */
