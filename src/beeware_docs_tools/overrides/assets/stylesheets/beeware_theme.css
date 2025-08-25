@@ -336,7 +336,7 @@
 }
 
 /* Sidebar title font size */
-.site-name, .site-name-small {
+.site-name {
     font-size: 18px;
 }
 
@@ -347,43 +347,41 @@
     font-weight: normal;
 }
 
-.version-number-small {
+.small .version-number {
     font-size: 12px;
     font-weight: normal;
-    width: 125px;
-    float: right;
     overflow-wrap: anywhere;
     padding-top: 10px;
+    width: 157px;
+    float: right;
 }
 
-/* Separates site name and version number */
+/* Site name */
 .site-name {
     padding-bottom: 8px;
+}
+
+.small .site-name {
+    padding-bottom: 0;
+}
+
+/* Sidebar title block */
+.sidebar-title-block {
+    margin-bottom: 1.2rem;
+}
+
+.small .sidebar-title-block{
+    height: 60px;
 }
 
 /* GitHub sidebar links */
 .github-links {
     font-weight: normal;
+}
+
+.github-link-block a:last-child .github-links {
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.github-links:first-of-type {
-    margin-top: 1rem;
-}
-
-.github-links:last-of-type, .github-links-small:last-of-type {
     margin-bottom: 1rem;
-}
-
-.github-links-small:first-of-type {
-    margin-top: 3rem;
-}
-
-.github-links-small {
-    font-weight: normal;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 /* Shows the logo in the sidebar */
@@ -397,7 +395,8 @@
         height: unset;
         padding-bottom: 1rem;
     }
-    .logo-small img {
+
+    .md-nav__title.small .sidebar-logo img {
         height: 60px !important;
         float: left;
         padding-left: 8px;
@@ -433,6 +432,11 @@
    with the header font size. This resolves both. */
 body {
     font-size: 1rem;
+}
+
+/* Shifts the footer down to regain screen-space on pages with short content */
+.md-content {
+    min-height: 81vh;
 }
 
 /* Read the Docs elements font size fix */
