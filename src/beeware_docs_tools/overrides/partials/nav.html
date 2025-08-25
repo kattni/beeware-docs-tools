@@ -34,25 +34,57 @@
 
   <!-- Site title -->
   <label class="md-nav__title" for="__drawer">
-    <a
-      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
-      title="{{ config.site_name | e }}"
-      class="md-nav__button md-logo"
-      aria-label="{{ config.site_name }}"
-      data-md-component="logo"
-    >
-      {% include "partials/logo.html" %}
-    <span class="site-name">{{ config.site_name }}</span>
-      {% if not config.extra.hide_version %}
-    <span class="version_number">{{ config.extra.version }}</span>
+      {% if page.url == '' %}
+        <a
+        href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+        title="{{ config.site_name | e }}"
+        class="md-nav__button md-logo"
+        aria-label="{{ config.site_name }}"
+        data-md-component="logo"
+        >
+        {% include "partials/logo.html" %}
+        <div class="site-name">
+          {{ config.site_name }}
+        </div>
+        {% if config.extra.version %}
+          <div class="version-number">
+            {{ config.extra.version }}
+          </div>
+        {% endif %}
+      <div class="github-links">
+        <a href="https://github.com/beeware/{{ config.extra.project_name }}"><i class="fa-brands fa-github"></i> Source Code</a>
+      </div>
+      <div class="github-links">
+        <a href="https://github.com/beeware/{{ config.extra.project_name }}/issues"><i class="fa-brands fa-github"></i> Issues</a>
+      </div>
+      </a>
+      {% else %}
+        <a
+        href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+        title="{{ config.site_name | e }}"
+        class="md-nav__button md-logo"
+        aria-label="{{ config.site_name }}"
+        data-md-component="logo"
+        >
+        <div class="logo-small">
+          {% include "partials/logo.html" %}
+        </div>
+        <div class="site-name-small">
+          {{ config.site_name }}
+        </div>
+        {% if not config.extra.hide_version %}
+          <div class="version-number-small">
+            {{ config.extra.version }}
+          </div>
+        {% endif %}
+        <div class="github-links-small">
+          <a href="https://github.com/beeware/{{ config.extra.project_name }}"><i class="fa-brands fa-github"></i> Source Code</a>
+        </div>
+        <div class="github-links-small">
+          <a href="https://github.com/beeware/{{ config.extra.project_name }}/issues"><i class="fa-brands fa-github"></i> Issues</a>
+        </div>
+        </a>
       {% endif %}
-    </a>
-    <div class="github-links">
-      <a href="https://github.com/beeware/{{ config.extra.project_name }}"><i class="fa-brands fa-github"></i> Source Code</a>
-    </div>
-    <div class="github-links">
-      <a href="https://github.com/beeware/{{ config.extra.project_name }}/issues"><i class="fa-brands fa-github"></i> Issues</a>
-    </div>
   </label>
 
   <!-- Repository information -->
