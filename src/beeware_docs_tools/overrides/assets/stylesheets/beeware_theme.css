@@ -414,7 +414,7 @@
     padding-left: 4px;
 }
 
-.mobile-sidebar {
+.mobile-sidebar-drawer {
     color: light-dark(#000000, #FFFFFF);
     background-color: light-dark(#DBDBDB, #757679);
 }

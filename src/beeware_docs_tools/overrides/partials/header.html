@@ -54,8 +54,8 @@
     {% endif %}
   </div>
 </nav>
-    <div class="mobile-sidebar">
-        <!-- Button to open drawer -->
+<div class="mobile-sidebar-drawer">
+    <!-- Button to open drawer -->
     <label class="md-header__button md-icon" for="__drawer">
         {% set icon = config.theme.icon.menu or "material/menu" %}
         {% include ".icons/" ~ icon ~ ".svg" %}
@@ -66,5 +66,5 @@
     <div class="mobile-version-number">
         {{ config.extra.version }}
     </div>
-        </div>
+</div>
 </header>
