@@ -3,4 +3,4 @@
     - [Section one - page two](section_one/page_two.md)
 - [Section two](section_two/index.md)
 - [Section three](section_three/index.md)
-    - ./section_three/*.md
+    - ./section_three/*
