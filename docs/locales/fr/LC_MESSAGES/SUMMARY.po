@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 06:23+0000\n"
+"POT-Creation-Date: 2025-08-25 23:52-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,17 +13,25 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/SUMMARY.md:1
-msgid "BeeWare Docs Tools Demo Section One"
+msgid "BeeWare Docs Tools Demo section one"
 msgstr ""
 
 #: docs/en/SUMMARY.md:1
-msgid "[BeeWare Docs Tools Demo Section One]{1}"
+msgid "[BeeWare Docs Tools Demo section one]{1}"
 msgstr ""
 
 #: docs/en/SUMMARY.md:1
-msgid "[Section One - Page Two]{1}"
+msgid "[Section one - page two]{1}"
 msgstr ""
 
 #: docs/en/SUMMARY.md:4
-msgid "[Section Two]{1}"
+msgid "[Section two]{1}"
+msgstr ""
+
+#: docs/en/SUMMARY.md:5
+msgid "[Section three]{1}"
+msgstr ""
+
+#: docs/en/SUMMARY.md:5
+msgid "./section_three/*.md"
 msgstr ""
