@@ -125,10 +125,6 @@
         padding-right: 0;
         padding-left: 0;
     }
-
-    .md-header__button[for="__drawer"] {
-        color: #FFFFFFB3;
-    }
 }
 
 @media (min-width: 863px) {
@@ -358,7 +354,7 @@
     margin-bottom: 24px;
 }
 
-.small .sidebar-title-block{
+.small .sidebar-title-block {
     height: fit-content;
     min-height: 60px;
     margin-bottom: 42px;
@@ -377,12 +373,15 @@
     overflow-wrap: anywhere;
     padding-top: 10px;
     float: right;
-    width: 134px;
 }
 
 /* GitHub sidebar links */
 .github-links {
     font-weight: normal;
+}
+
+.github-link-block a {
+    color: light-dark(#084AFF, #526CFE);
 }
 
 .small .github-link-block {
@@ -416,11 +415,11 @@
 
 .mobile-sidebar-drawer {
     color: light-dark(#000000, #FFFFFF);
-    background-color: light-dark(#DBDBDB, #757679);
+    background-color: light-dark(#F8F9FB, #4E4F52);
 }
 
-/* Adjusts sidebar logo */
-@media screen and (min-width: 76.2344rem) {
+/* Adjustments for larger displays */
+@media screen and (min-width: 1220px) {
     .md-nav__title .md-nav__button.md-logo img {
         height: unset;
         padding-bottom: 1rem;
@@ -439,8 +438,8 @@
     }
 }
 
-/* Adjusts sidebar title block, which includes GitHub links */
-@media screen and (max-width: 76.2344rem) {
+/* Adjustments for smaller displays */
+@media screen and (max-width: 1219.99px) {
     .md-nav--primary .md-nav__title[for="__drawer"] {
         height: initial;
         white-space: unset;
@@ -473,11 +472,45 @@
     }
 
     .small .version-number {
-        width: 146px;
+        width: 140px;
     }
 
     .md-sidebar.md-sidebar--secondary {
         top: 66px !important;
+    }
+
+    .sidebar-logo {
+        height: 60px !important;
+        float: left;
+        padding-left: 4px;
+        padding-right: 8px;
+        padding-bottom: 0 !important;
+    }
+
+    .version-number {
+        width: 140px;
+        float: right;
+    }
+
+    .sidebar-title-block {
+        height: fit-content;
+        min-height: 60px;
+        margin-bottom: 42px;
+    }
+}
+
+/* Adjusts version number alignment for different display sizes */
+@media screen and (min-width: 1600px) {
+    .small .version-number {
+        width: 159px;
+    }
+}
+
+@media screen
+and (max-width: 1599.99px)
+and (min-width: 1220px){
+    .small .version-number {
+        width: 138px;
     }
 }
 
@@ -562,6 +595,10 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
 }
 
 /* Footer and footer navigation color */
+.md-footer {
+    position: relative;
+}
+
 .md-footer, .md-footer-meta {
     background-color: light-dark(#f5f5f5, #343A40);
 }
@@ -574,16 +611,24 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 .md-footer__inner {
     padding: 0;
 }
+
+.md-footer__inner .md-footer__title .md-ellipsis {
+    overflow: unset;
+}
+
 .md-footer__link {
     margin-bottom: 0;
     margin-top: 0.5rem;
 }
+
 .md-footer__title {
     font-size: .6rem;
 }
+
 .md-footer__direction {
     font-size: .6rem
 }
+
 .md-footer__button {
     margin: 0 0 0.2rem 0;
 }
