@@ -30,7 +30,6 @@
         <a class="nav-link" href="https://beeware.org/membership">Donate</a>
       </li>
     </ul>
-         <!-- Button to open drawer -->
     <div class="palette_toggle">
     <!-- Color palette toggle -->
         {% include "partials/palette.html" %}
@@ -55,9 +54,17 @@
     {% endif %}
   </div>
 </nav>
+    <div class="mobile-sidebar">
         <!-- Button to open drawer -->
     <label class="md-header__button md-icon" for="__drawer">
-      {% set icon = config.theme.icon.menu or "material/menu" %}
-      {% include ".icons/" ~ icon ~ ".svg" %}
+        {% set icon = config.theme.icon.menu or "material/menu" %}
+        {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
+    <div class="mobile-site-name">
+        {{ config.site_name }}
+    </div>
+    <div class="mobile-version-number">
+        {{ config.extra.version }}
+    </div>
+        </div>
 </header>
