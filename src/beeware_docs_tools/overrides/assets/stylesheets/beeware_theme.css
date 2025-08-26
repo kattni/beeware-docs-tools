@@ -312,6 +312,10 @@
     color: light-dark(#30314B, #96ACEE)
 }
 
+/*.md-main {*/
+/*    min-height: 81vh;*/
+/*}*/
+
 /* Unsticky header, add margin to deal with sidebar top margin changes */
 .md-header {
     position: unset;
@@ -436,10 +440,11 @@
     .mobile-site-name, .mobile-version-number {
         display: none;
     }
+}
 
-    .md-sidebar {
-        height: unset;
-    }
+/* Fixes the left scrollbar hiding the end behind the footer */
+.md-footer {
+    margin-top: 36px;
 }
 
 /* Adjustments for smaller displays */
@@ -518,6 +523,12 @@ and (min-width: 1220px){
     }
 }
 
+@media screen and (min-width: 2000px) {
+    .small .version-number {
+        width: 177px;
+    }
+}
+
 /* Setting the font size on the body is an accessibility issue, as well as interfering
    with the header font size. This resolves both. */
 body {
@@ -526,8 +537,8 @@ body {
 
 /* Shifts the footer down to regain screen-space on pages with short content */
 .md-content {
-    min-height: 81vh;
     margin-top: -60px;
+    min-height: 81vh;
 }
 
 /* Read the Docs elements font size fix */
