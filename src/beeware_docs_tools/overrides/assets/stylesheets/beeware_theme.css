@@ -312,26 +312,14 @@
     color: light-dark(#30314B, #96ACEE)
 }
 
-/*.md-main {*/
-/*    min-height: 81vh;*/
-/*}*/
-
 /* Unsticky header, add margin to deal with sidebar top margin changes */
 .md-header {
     position: unset;
-    margin-bottom: 40px;
 }
 
 /* Disable header shadow */
 .md-header--shadow {
     box-shadow: unset;
-}
-
-/* Remove margins above sidebars */
-@media screen and (min-width: 60em) {
-    .md-sidebar__scrollwrap {
-        margin-top: -60px;
-    }
 }
 
 /* Sidebar title and GitHub links font and color */
@@ -372,11 +360,9 @@
 }
 
 .small .version-number {
-    font-size: 12px;
-    font-weight: normal;
-    overflow-wrap: anywhere;
     padding-top: 10px;
-    float: right;
+    justify-content: space-between;
+    display: grid;
 }
 
 /* GitHub sidebar links */
@@ -430,21 +416,18 @@
     }
 
     .md-nav__title.small .sidebar-logo img {
-        height: 60px !important;
+        height: 80px !important;
         float: left;
         padding-left: 4px;
         padding-right: 8px;
         padding-bottom: 0 !important;
+        width: 74px;
+        margin-bottom: 10px;
     }
 
     .mobile-site-name, .mobile-version-number {
         display: none;
     }
-}
-
-/* Fixes the left scrollbar hiding the end behind the footer */
-.md-footer {
-    margin-top: 36px;
 }
 
 /* Adjustments for smaller displays */
@@ -453,7 +436,8 @@
         height: initial;
         white-space: unset;
         line-height: 1.3;
-        color: #FFFFFFD3;
+        color: light-dark(#000000, #FFFFFF);
+        background-color: light-dark(#F8F9FB, #4E4F52);
     }
 
     .md-nav--primary .md-nav__title .md-nav__icon {
@@ -474,31 +458,18 @@
         height: 60px;
     }
 
-    .small .sidebar-logo {
-        width: fit-content;
-        float: left;
-        padding-right: 6px;
-    }
-
-    .small .version-number {
-        width: 140px;
-    }
-
     .md-sidebar.md-sidebar--secondary {
         top: 66px !important;
     }
 
     .sidebar-logo {
-        height: 60px !important;
+        height: 80px !important;
         float: left;
         padding-left: 4px;
         padding-right: 8px;
         padding-bottom: 0 !important;
-    }
-
-    .version-number {
-        width: 140px;
-        float: right;
+        width: 74px;
+        margin-bottom: 10px;
     }
 
     .sidebar-title-block {
@@ -508,24 +479,10 @@
     }
 }
 
-/* Adjusts version number alignment for different display sizes */
-@media screen and (min-width: 1600px) {
-    .small .version-number {
-        width: 159px;
-    }
-}
-
-@media screen
-and (max-width: 1599.99px)
-and (min-width: 1220px){
-    .small .version-number {
-        width: 138px;
-    }
-}
-
-@media screen and (min-width: 2000px) {
-    .small .version-number {
-        width: 177px;
+/* Hide bottom navigation bar below a specific height to regain screen real estate */
+@media screen and (max-height: 640px) {
+    .md-footer__inner.md-grid {
+        display: none;
     }
 }
 
@@ -535,10 +492,47 @@ body {
     font-size: 1rem;
 }
 
-/* Shifts the footer down to regain screen-space on pages with short content */
-.md-content {
-    margin-top: -60px;
-    min-height: 81vh;
+/* Removes padding and margins to regain screen-space on pages with short content.
+   There is JS setting `top: 68px` on the sidebars that is eating up a huge amount
+   of space. Overriding `top` causes a significant gap at the bottom between the end
+   of the sidebar and the footer. Therefore the following margin changes are needed.
+*/
+.md-main__inner {
+    margin-top: 0;
+    padding-top: 12px;
+}
+
+.md-header {
+    margin-bottom: 72px;
+}
+
+.md-sidebar {
+    padding-top: 12px;
+}
+
+.md-content__inner {
+    padding-top: 8px;
+    margin-top: -69px;
+}
+
+.md-content__inner::before {
+    height: 0;
+}
+
+.md-footer {
+    position: relative;
+    margin-top: 69px;
+}
+
+@media screen and (min-width: 60em) {
+    .md-sidebar__scrollwrap {
+        margin-top: -64px;
+    }
+}
+
+/* Fix "Made with" hover link color in light mode */
+html .md-footer-meta.md-typeset a:hover {
+    color: light-dark(#084AFF, #526CFE)
 }
 
 /* Read the Docs elements font size fix */
@@ -610,10 +604,6 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
 }
 
 /* Footer and footer navigation color */
-.md-footer {
-    position: relative;
-}
-
 .md-footer, .md-footer-meta {
     background-color: light-dark(#f5f5f5, #343A40);
 }
