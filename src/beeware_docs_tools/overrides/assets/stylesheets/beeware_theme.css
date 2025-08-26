@@ -436,6 +436,10 @@
     .mobile-site-name, .mobile-version-number {
         display: none;
     }
+
+    .md-sidebar {
+        height: unset;
+    }
 }
 
 /* Adjustments for smaller displays */
