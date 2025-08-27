@@ -23,6 +23,7 @@ maintainers = [
 ]
 
 dependencies = [
+    "black==25.1.0",
     "markdown-checker==0.2.5",
     "mistletoe==1.4.0",
     "mkdocs-autorefs==1.4.2",
@@ -38,7 +39,7 @@ dependencies = [
     "translate-toolkit @ git+https://github.com/translate/translate@aa35159f03f53aa536381643dfafbc2a19a24784",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 dev = [
