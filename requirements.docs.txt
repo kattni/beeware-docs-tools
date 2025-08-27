@@ -1,2 +1,0 @@
-# Docs are always built on a specific Python version; see RTD and tox config files.
--e .
