@@ -1,4 +1,6 @@
-- BeeWare Docs Tools Demo Section One
-    - [BeeWare Docs Tools Demo Section One](section_one/index.md)
-    - [Section One - Page Two](section_one/page_two.md)
-- [Section Two](section_two/index.md)
+- BeeWare Docs Tools Demo section one
+    - [BeeWare Docs Tools Demo section one](section_one/index.md)
+    - [Section one - page two](section_one/page_two.md)
+- [Section two](section_two/index.md)
+- [Section three](section_three/index.md)
+    - ./section_three/*
