@@ -479,13 +479,6 @@
     }
 }
 
-/* Hide bottom navigation bar below a specific height to regain screen real estate */
-@media screen and (max-height: 640px) {
-    .md-footer__inner.md-grid {
-        display: none;
-    }
-}
-
 /* Setting the font size on the body is an accessibility issue, as well as interfering
    with the header font size. This resolves both. */
 body {
