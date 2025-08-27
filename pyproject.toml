@@ -23,6 +23,8 @@ maintainers = [
 ]
 
 dependencies = [
+    # We use ruff for *our* code formatting, but mkdocstrings (optionally) uses
+    # black to format method prototypes.
     "black==25.1.0",
     "markdown-checker==0.2.5",
     "mistletoe==1.4.0",
