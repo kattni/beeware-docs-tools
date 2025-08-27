@@ -523,10 +523,6 @@ body {
     }
 }
 
-.md-content {
-    min-height: 81vh;
-}
-
 /* Fix "Made with" hover link color in light mode */
 html .md-footer-meta.md-typeset a:hover {
     color: light-dark(#084AFF, #526CFE)
