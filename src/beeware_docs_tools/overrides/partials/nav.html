@@ -45,7 +45,7 @@
             <div class="sidebar-logo">
             {% include "partials/logo.html" %}
             </div>
-            <div class="site-name">
+            <div class="site-name{% if not config.extra.version %} site-name-standalone{% endif %}">
               {{ config.site_name }}
             </div>
             {% if config.extra.version %}

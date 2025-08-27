@@ -428,6 +428,11 @@
     .mobile-site-name, .mobile-version-number {
         display: none;
     }
+
+    /* Site name when no version number is present */
+    .site-name-standalone {
+        padding-top: 16px;
+    }
 }
 
 /* Adjustments for smaller displays */
