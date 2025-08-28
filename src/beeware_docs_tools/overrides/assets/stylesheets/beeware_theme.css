@@ -333,7 +333,7 @@
 
 /* Site name */
 .site-name {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* Version number */
@@ -436,6 +436,14 @@
         display: flex;
         flex-flow: nowrap column;
         align-items: center;
+    }
+
+    .small .site-name {
+        text-align: start;
+    }
+
+    .site-name {
+        text-align: center;
     }
 }
 
