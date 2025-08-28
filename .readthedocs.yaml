@@ -12,7 +12,7 @@ build:
     # Docs are always built on Python 3.13. See also the tox config.
     python: "3.13"
   jobs:
-    post_install:
+    install:
       - python -m pip install --group 'dev'
     pre_build:
       - python -m tox -e docs-lint
