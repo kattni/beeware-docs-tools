@@ -45,14 +45,16 @@
             <div class="sidebar-logo">
             {% include "partials/logo.html" %}
             </div>
-            <div class="site-name">
-              {{ config.site_name }}
+            <div class="sidebar-title-block-name">
+                <div class="site-name">
+                  {{ config.site_name }}
+                </div>
+                {% if config.extra.version %}
+                  <div class="version-number">
+                    {{ config.extra.version }}
+                  </div>
+                {% endif %}
             </div>
-            {% if config.extra.version %}
-              <div class="version-number">
-                {{ config.extra.version }}
-              </div>
-            {% endif %}
         </div>
     </a>
       <span class="github-link-block">
