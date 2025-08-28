@@ -437,6 +437,14 @@
         flex-flow: nowrap column;
         align-items: center;
     }
+
+    .small .site-name {
+        text-align: start;
+    }
+
+    .site-name {
+        text-align: center;
+    }
 }
 
 /* Adjustments for smaller displays */
