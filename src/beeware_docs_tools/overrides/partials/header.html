@@ -54,16 +54,16 @@
     {% endif %}
   </div>
 </nav>
-<div class="mobile-sidebar-drawer">
+<div class="mobile-sidebar-drawer-menu-bar">
     <!-- Button to open drawer -->
     <label class="md-header__button md-icon" for="__drawer">
         {% set icon = config.theme.icon.menu or "material/menu" %}
         {% include ".icons/" ~ icon ~ ".svg" %}
     </label>
-    <div class="mobile-site-name">
+    <div class="mobile-drawer-button-site-name">
         {{ config.site_name }}
     </div>
-    <div class="mobile-version-number">
+    <div class="mobile-drawer-button-version-number">
         {{ config.extra.version }}
     </div>
 </div>
