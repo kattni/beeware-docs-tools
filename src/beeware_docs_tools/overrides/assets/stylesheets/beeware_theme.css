@@ -331,11 +331,6 @@
     color: unset;
 }
 
-/* Site name */
-.site-name {
-    font-size: 20px;
-}
-
 /* Version number */
 .version-number {
     overflow-wrap: anywhere;
@@ -392,6 +387,10 @@
     margin-right: 0.2rem;
 }
 
+.small .site-name {
+    font-size: 24px;
+}
+
 /* Embiggen homepage logo */
 .md-nav__title .md-nav__button.md-logo img {
     height: unset;
@@ -442,8 +441,31 @@
         text-align: start;
     }
 
+    /* Site name */
     .site-name {
+        font-size: 20px;
         text-align: center;
+    }
+}
+
+/* Site name font size on mid-sized displays */
+@media screen and (max-width: 1599.99px)
+and (min-width: 1220px) {
+    .site-name {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1999.99px)
+and (min-width: 1600px) {
+    .site-name {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .site-name {
+        font-size: 22px;
     }
 }
 
@@ -480,6 +502,10 @@
         display: flex;
         flex-flow: nowrap row;
         align-items: center;
+    }
+
+    .site-name {
+        font-size: 24px;
     }
 
     .md-nav__title .md-nav__button.md-logo img {
