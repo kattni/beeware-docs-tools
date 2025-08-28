@@ -346,23 +346,11 @@
     margin-bottom: 24px;
 }
 
-.small .sidebar-title-block {
-    height: fit-content;
-    min-height: 60px;
-    margin-bottom: 42px;
-}
-
 /* Version number */
 .version-number {
     overflow-wrap: anywhere;
     font-size: 12px;
     font-weight: normal;
-}
-
-.small .version-number {
-    padding-top: 10px;
-    justify-content: space-between;
-    display: grid;
 }
 
 /* GitHub sidebar links */
@@ -412,26 +400,24 @@
 @media screen and (min-width: 1220px) {
     .md-nav__title .md-nav__button.md-logo img {
         height: unset;
-        padding-bottom: 1rem;
     }
 
-    .md-nav__title.small .sidebar-logo img {
-        height: 80px !important;
+    .md-nav__title.small .sidebar-logo {
         float: left;
         padding-left: 4px;
         padding-right: 8px;
         padding-bottom: 0 !important;
         width: 74px;
-        margin-bottom: 10px;
     }
 
     .mobile-site-name, .mobile-version-number {
         display: none;
     }
 
-    /* Site name when no version number is present */
-    .site-name-standalone {
-        padding-top: 16px;
+    .sidebar-title-block-name {
+        display: grid;
+        align-items: center;
+        height: 62px;
     }
 }
 
