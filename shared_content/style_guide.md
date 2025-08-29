@@ -7,7 +7,7 @@ This guide includes information on expected style, MkDocs-specific syntax, vario
 * Headers and titles should have only the first word capitalized.
 * We prefer US spelling, with some liberties for programming-specific colloquialism (e.g., "apps") and verbing of nouns (e.g., "scrollable").
 * The spelling of "artefact" and "artefacts" is as shown.
-* Any reference to a product name should use the product’s preferred capitalization. (e.g., "macOS", "GTK", "pytest", "Pygame", "PyScript").
+* Any reference to a product name should use the product’s preferred capitalization. (e.g., <nospell>"macOS", "GTK", "pytest", "Pygame", "PyScript"</nospell>).
 * If a term is being used "as code", then it should be quoted as inline code, by wrapping it in single backticks, rather than being added to the dictionary.
 
 ## Reference Links
@@ -145,7 +145,7 @@ The following items _should_ be translated:
 
 ## Translations and writing new content
 
-Due to the way the translation files are generated, it is important to include required whitespace in the Markdown syntax for admonitions, notes, tabs, Jinja directives, image captions and alignment, etc.
+Due to the way the translation files are generated, it is important to include required newlines in the Markdown syntax for admonitions, notes, tabs, Jinja directives, image captions and alignment, etc.
 
 ### Admonitions and notes
 Admonitions must be formatted as follows, including ensuring a newline before and after the admonition start and end:
@@ -259,7 +259,7 @@ Caption content.
 
 ## Custom header anchors using reference IDs
 
-By default, Markdown generates an anchor for every header that is the text of the header with spaces and punctuation replaced with `-`. However, if you want something shorter, more memorable, or customised for whatever reason, this is possible using Jinja-formatted attribute IDs.
+By default, Markdown generates an anchor for every header that is the text of the header with spaces and punctuation replaced with `-`. However, if you want something shorter, more memorable, or customized for whatever reason, this is possible using Jinja-formatted attribute IDs.
 
 The syntax is as follows:
 
@@ -328,7 +328,7 @@ Two important notes:
 
 Images can have the width set, and can be aligned left, right, and center (with a caveat on "center").
 
-Setting the width of 300px on an image would be formatted as follows:
+Setting the width of <nospell>300px</nospell> on an image would be formatted as follows:
 
 ```markdown
 ![Image alt text](../path/to/image.png){ width="300px" }
