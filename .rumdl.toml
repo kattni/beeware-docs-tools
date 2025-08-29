@@ -1,0 +1,10 @@
+[global]
+flavor = "mkdocs"
+include = ["**/*.md"]
+exclude = ["docs/en/content_test_bed/*_include.md", "SUMMARY.md"]
+respect-gitignore = true
+
+disable = ["MD013", "MD014",]
+
+[MD033]
+allowed_elements = ["nospell",]

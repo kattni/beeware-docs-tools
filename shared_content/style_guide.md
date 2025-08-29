@@ -148,6 +148,7 @@ The following items _should_ be translated:
 Due to the way the translation files are generated, it is important to include required newlines in the Markdown syntax for admonitions, notes, tabs, Jinja directives, image captions and alignment, etc.
 
 ### Admonitions and notes
+
 Admonitions must be formatted as follows, including ensuring a newline before and after the admonition start and end:
 
 ```markdown
@@ -279,21 +280,11 @@ Once added, you can link to the section from within the same file using a standa
 
 ### Language and code highlighting
 
-You can specify the language for the code contained within the codeblock by including the language name after the first three backticks, with no space between. This results in appropriate code highlighting when the code rendered. For example, to specify Python, you would begin the codeblock with the following:
-
-```
-```python
-```
+You can specify the language for the code contained within the codeblock by including the language name after the first three backticks, with no space between. This results in appropriate code highlighting when the code rendered. For example, to specify Python, you would begin the codeblock with ` ```python`.
 
 ### Console commands and the copy button
 
-If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on what operating system you are referencing, you can include the prompt, and only the command will be copied when clicking the copy button. For example, if you begin a codeblock with:
-
-```
-```console
-```
-
-And include the following content:
+If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on what operating system you are referencing, you can include the prompt, and only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:
 
 ```console
 $ mkdir test
@@ -305,9 +296,8 @@ Then, clicking the copy button on the codeblock will copy only the commands, and
 
 ### Highlighting specific lines of code
 
-Line highlighting:
+You can highlight specific lines of code. For example, to highlight line 2, you would add a space after the language, followed by `{hl_lines="2"}`. So, your codeblock would begin with ` ```python {hl_lines="2"} `. The result is:
 
-```markdown
 ```python {hl_lines="2"}
 import toga
 from toga.style.pack import COLUMN, ROW
