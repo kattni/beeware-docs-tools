@@ -17,7 +17,7 @@ MkDocs renders standard Markdown formatted links. It also supports rendering a r
 Standard Markdown formatted links are as follows:
 
 ```markdown
-[Link text](https://example.com/some_content.txt)
+[Link text](https://example.com/)
 ```
 
 You can also use this format to link to a local file:
