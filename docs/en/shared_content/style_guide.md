@@ -17,7 +17,7 @@ MkDocs renders standard Markdown formatted links. It also supports rendering a r
 Standard Markdown formatted links are as follows:
 
 ```markdown
-[Link text](https://url)
+[Link text](https://example.com/some_content.txt)
 ```
 
 You can also use this format to link to a local file:
@@ -58,16 +58,16 @@ Linking to a class while displaying only the class name is formatted as follows:
 [`ClassName`][module.ClassName]
 ```
 
-Methods and attributes are the same as above, with the method or attribute name included. The following displays the namespace:
+Methods and attributes are the same as above, with the method or attribute name included. You must include the parentheses after the namespace. The following displays the namespace:
 
 ```markdown
-[`module.ClassName.methodname`][]
+[`module.ClassName.methodname()`][]
 ```
 
-The following displays the class and method name only:
+The following displays the class and method name only. This also requires including the parentheses after the name:
 
 ```markdown
-[`Classname.methodname`][module.Classname.methodname]
+[`Classname.methodname()`][module.Classname.methodname]
 ```
 
 Linking to a class (or method) while displaying arbitrary text is formatted as follows:
@@ -116,7 +116,7 @@ The following items should _not_ be translated or updated:
 
 * Commands. For example, in "You should run \`briefcase create\`.", only "You should run" should be translated.
 * Namespaces; class, method, or attribute names. Reference links containing class, method or attribute names should be left as-is, including the backticks.
-* Jinja directives. This is any content wrapped inside `{{ }}` or `{% %}`.
+* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces followed by a percent sign. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for examples.
 * Custom anchors. They are found after headers or above some content, and are formatted as `{ id="anchor" }`.
 * Admonition _syntax_. As shown below, the word "admonition" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See below for information on translating the rest of the content.
 
@@ -230,7 +230,11 @@ Text
 {% endif %}
 ```
 
-There is also syntax for substituting symbols or text. This syntax is a variable wrapped in `{{ }}`, and must include a newline before and after.
+There is also syntax for substituting symbols or text. This syntax is a variable wrapped in a pair of matching double curly braces, and must include a newline before and after.
+
+```markdown
+{{ variable }}
+```
 
 ### Images with caption syntax
 
