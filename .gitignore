@@ -2,6 +2,9 @@
 _build
 comment.md
 
+# Translation workflow
+src/beeware_docs_tools/docs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

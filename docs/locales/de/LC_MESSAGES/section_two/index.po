@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 20:48-0400\n"
+"POT-Creation-Date: 2025-08-29 22:32-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,36 +12,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.15.6\n"
 
-#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_two/index.md:1
+#: docs/en/section_two/index.md:1
 msgid "BeeWare Docs Tools Demo section two"
 msgstr ""
 
-#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_two/index.md:3
+#: docs/en/section_two/index.md:3
 msgid "Images subdirectory"
 msgstr ""
 
-#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_two/index.md:5
+#: docs/en/section_two/index.md:5
 msgid ""
 "Build the French or German translation. The following should be a little "
 "Brutus the Bee."
 msgstr ""
 
-#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_two/index.md:7
+#: docs/en/section_two/index.md:7
 msgid "![Brutus the Bee]{1}"
 msgstr ""
 
-#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_two/index.md:9
+#: docs/en/section_two/index.md:9
 msgid ""
 "The presence of the image in the French and German builds verifies that the "
 "images subdirectories are being properly symlinked for languages other than "
 "English."
 msgstr ""
 
-#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_two/index.md:11
+#: docs/en/section_two/index.md:11
 msgid "`autoref` linking"
 msgstr ""
 
-#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_two/index.md:13
+#: docs/en/section_two/index.md:13
 msgid ""
 "The link provided here should take you to the [Heading font][heading-font] "
 "section of the main page. It is included to verify `autoref` linking."

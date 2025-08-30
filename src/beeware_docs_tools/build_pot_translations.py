@@ -2,7 +2,6 @@ import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 
-
 SOURCE_DIR = Path.cwd()
 
 
@@ -38,6 +37,23 @@ def generate_translated_pot_files(input_dir: Path, output_dir: Path) -> None:
 def main():
     args = parse_args()
 
+    docs_en_directory = Path(__file__).parent / "docs"
+    docs_en_directory.mkdir(parents=True, exist_ok=True)
+
+    try:
+        (Path(__file__).parent / "docs" / "en").symlink_to(
+            SOURCE_DIR / "docs" / "en", target_is_directory=True
+        )
+    except FileExistsError:
+        pass
+
+    try:
+        (Path(__file__).parent / "docs" / "en" / "shared_content").symlink_to(
+            Path(__file__).parent / "shared_content", target_is_directory=True
+        )
+    except FileExistsError:
+        pass
+
     for language in args.language_code:
         print(f"Processing {language}")
         output_directory = SOURCE_DIR / "docs" / "locales" / "templates"
@@ -45,11 +61,11 @@ def main():
         if language != "en":
             output_directory.mkdir(parents=True, exist_ok=True)
             generate_translated_pot_files(
-                input_dir=SOURCE_DIR / "docs" / "en",
+                input_dir=Path("docs") / "en",
                 output_dir=output_directory,
             )
             generate_translated_pot_files(
-                input_dir=Path(__file__).parent / "shared_content",
+                input_dir=Path("docs") / "en" / "shared_content",
                 output_dir=output_directory / "shared_content",
             )
 
