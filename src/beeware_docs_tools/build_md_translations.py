@@ -28,7 +28,7 @@ def parse_args() -> Namespace:
     return args
 
 
-def config_update(update_version=True, base_directory=None, language=None):
+def config_update(update_version=True, language_directory=None, config_directory=None):
     config_file = yaml.load(
         open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
     )
@@ -39,13 +39,13 @@ def config_update(update_version=True, base_directory=None, language=None):
         except KeyError:
             pass
     else:
-        base_path = (base_directory / language / "shared_content").resolve()
+        base_path = (language_directory / "shared_content").resolve()
         config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
             "docs",
             f"{base_path}",
         ]
 
-    with (base_directory / "config.yml").open("w", encoding="utf-8") as config_temp:
+    with (config_directory / "config.yml").open("w", encoding="utf-8") as config_temp:
         yaml.dump(config_file, config_temp)
 
 
@@ -103,7 +103,7 @@ def main():
         # Load the config.yml file, add the version number to extra,
         # and dump the updated copy to the temp directory so it is
         # available relative to the build.
-        config_update(base_directory=temp_md_directory)
+        config_update(config_directory=temp_md_directory)
 
         # If source code directory or directories provided, symlink.
         if args.source_code:
@@ -133,8 +133,8 @@ def main():
             # available relative to the build.
             config_update(
                 update_version=False,
-                base_directory=temp_md_directory,
-                language=language,
+                config_directory=temp_md_directory,
+                language_directory=(temp_md_directory / language),
             )
 
             # Symlink language config to temp directory. docs_dir and INHERIT paths are
@@ -185,6 +185,15 @@ def main():
                 # Symlink English Markdown files for en build.
                 (temp_md_directory / "en").symlink_to(
                     SOURCE_DIR / "docs" / "en", target_is_directory=True
+                )
+
+                # Load the config.yml file, add the base_path to Snippets,
+                # and dump the updated copy to the temp directory so it is
+                # available relative to the build.
+                config_update(
+                    update_version=False,
+                    language_directory=Path(__file__).parent,
+                    config_directory=temp_md_directory,
                 )
 
             output = Path(args.output).resolve()
