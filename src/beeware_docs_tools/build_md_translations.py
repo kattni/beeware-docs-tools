@@ -94,12 +94,6 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
-        # Symlink shared content directory to the temp directory, so it is
-        # available relative to the build.
-        (temp_md_directory / "shared_content").symlink_to(
-            Path(__file__).parent / "shared_content", target_is_directory=True
-        )
-
         # Load the config.yml file, add the version number to extra,
         # and dump the updated copy to the temp directory so it is
         # available relative to the build.
@@ -145,6 +139,12 @@ def main():
             )
 
             if language != "en":
+                # Symlink shared content directory to the temp directory, so it is
+                # available relative to the build.
+                (temp_md_directory / "shared_content").symlink_to(
+                    Path(__file__).parent / "shared_content", target_is_directory=True
+                )
+
                 output_directory.mkdir(parents=True, exist_ok=True)
                 sc_output_directory.mkdir(parents=True, exist_ok=True)
                 generate_translated_md(
@@ -187,6 +187,10 @@ def main():
                     SOURCE_DIR / "docs" / "en", target_is_directory=True
                 )
 
+                (temp_md_directory / "en" / "shared_content").symlink_to(
+                    Path(__file__).parent / "shared_content", target_is_directory=True
+                )
+
                 # Load the config.yml file, add the base_path to Snippets,
                 # and dump the updated copy to the temp directory so it is
                 # available relative to the build.
@@ -203,6 +207,8 @@ def main():
                 if (len(args.language_code) == 1)
                 else (output / language),
             )
+
+            Path(temp_md_directory / "en" / "shared_content").unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
