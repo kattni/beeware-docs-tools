@@ -209,6 +209,7 @@ def main():
             )
 
             Path(temp_md_directory / "en" / "shared_content").unlink(missing_ok=True)
+            Path(temp_md_directory / "shared_content").unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
