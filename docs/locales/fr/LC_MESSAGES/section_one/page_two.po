@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 01:19-0400\n"
+"POT-Creation-Date: 2025-08-29 20:48-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.15.6\n"
 
-#: docs/en/section_one/page_two.md:1
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/page_two.md:1
 msgid "BeeWare Docs Tools Demo section one: page two"
 msgstr ""
 
-#: docs/en/section_one/page_two.md:3
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/page_two.md:3
 msgid "Footer and navigation links"
 msgstr ""
 
-#: docs/en/section_one/page_two.md:5
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/page_two.md:5
 msgid ""
 "Navigation should render at the bottom of the page; "
 "\"BeeWare Docs Tools Demo Section One\" should be on the left, "
@@ -28,17 +28,17 @@ msgid ""
 "navigation links. This confirms the theme configuration has been applied."
 msgstr ""
 
-#: docs/en/section_one/page_two.md:7
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/page_two.md:7
 msgid "Class reference documentation"
 msgstr ""
 
-#: docs/en/section_one/page_two.md:9
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/page_two.md:9
 msgid ""
 "The following should show the reference documentation for the `DocsTest` "
 "class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. "
 "This verifies that the source code directory symlinking is working properly."
 msgstr ""
 
-#: docs/en/section_one/page_two.md:11
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/page_two.md:11
 msgid "::: beeware_docs_tools.docs_test.DocsTest"
 msgstr ""

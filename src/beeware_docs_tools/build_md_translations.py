@@ -28,6 +28,27 @@ def parse_args() -> Namespace:
     return args
 
 
+def config_update(update_version=True, base_directory=None, language=None):
+    config_file = yaml.load(
+        open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
+    )
+    if update_version:
+        try:
+            version = metadata(config_file["extra"]["package_name"])["version"]
+            config_file["extra"]["version"] = version
+        except KeyError:
+            pass
+    else:
+        base_path = (base_directory / language / "shared_content").resolve()
+        config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
+            "docs",
+            f"{base_path}",
+        ]
+
+    with (base_directory / "config.yml").open("w", encoding="utf-8") as config_temp:
+        yaml.dump(config_file, config_temp)
+
+
 def generate_translated_md(
     input_dir: Path, template_dir: Path, output_dir: Path
 ) -> None:
@@ -73,22 +94,16 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
+        # Symlink shared content directory to the temp directory, so it is
+        # available relative to the build.
+        (temp_md_directory / "shared_content").symlink_to(
+            Path(__file__).parent / "shared_content", target_is_directory=True
+        )
+
         # Load the config.yml file, add the version number to extra,
         # and dump the updated copy to the temp directory so it is
         # available relative to the build.
-        config_file = yaml.load(
-            open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
-        )
-        try:
-            version = metadata(config_file["extra"]["package_name"])["version"]
-            config_file["extra"]["version"] = version
-        except KeyError:
-            pass
-
-        with (temp_md_directory / "config.yml").open(
-            "w", encoding="utf-8"
-        ) as config_temp:
-            yaml.dump(config_file, config_temp)
+        config_update(base_directory=temp_md_directory)
 
         # If source code directory or directories provided, symlink.
         if args.source_code:
@@ -106,9 +121,21 @@ def main():
         (temp_md_directory / "overrides").symlink_to(
             Path(__file__).parent / "overrides", target_is_directory=True
         )
+
         for language in args.language_code:
             print(f"Processing {language}")
+
             output_directory = temp_md_directory / language
+            sc_output_directory = output_directory / "shared_content"
+
+            # Load the config.yml file, add the base_path to Snippets,
+            # and dump the updated copy to the temp directory so it is
+            # available relative to the build.
+            config_update(
+                update_version=False,
+                base_directory=temp_md_directory,
+                language=language,
+            )
 
             # Symlink language config to temp directory. docs_dir and INHERIT paths are
             # relative, so to build translations successfully while allowing English
@@ -116,8 +143,10 @@ def main():
             (temp_md_directory / f"mkdocs.{language}.yml").symlink_to(
                 SOURCE_DIR / "docs" / f"mkdocs.{language}.yml"
             )
+
             if language != "en":
                 output_directory.mkdir(parents=True, exist_ok=True)
+                sc_output_directory.mkdir(parents=True, exist_ok=True)
                 generate_translated_md(
                     input_dir=SOURCE_DIR
                     / "docs"
@@ -125,7 +154,18 @@ def main():
                     / language
                     / "LC_MESSAGES",
                     template_dir=SOURCE_DIR / "docs" / "en",
-                    output_dir=temp_md_directory / language,
+                    output_dir=output_directory,
+                )
+
+                generate_translated_md(
+                    input_dir=SOURCE_DIR
+                    / "docs"
+                    / "locales"
+                    / language
+                    / "LC_MESSAGES"
+                    / "shared_content",
+                    template_dir=temp_md_directory / "shared_content",
+                    output_dir=sc_output_directory,
                 )
 
                 # If the documentation includes images or resources, they must be

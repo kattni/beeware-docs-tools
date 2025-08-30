@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 01:19-0400\n"
+"POT-Creation-Date: 2025-08-29 20:48-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.15.6\n"
 
-#: docs/en/section_one/index.md:1
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:1
 msgid "BeeWare Docs Tools Demo section one"
 msgstr ""
 
-#: docs/en/section_one/index.md:3
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:3
 msgid "Non-homepage sidebar logo"
 msgstr ""
 
-#: docs/en/section_one/index.md:5
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:5
 msgid ""
 "The logo icon in the left sidebar should be small on all pages other than "
 "the homepage. The site title and version number should be rendered next to "
@@ -28,15 +28,15 @@ msgid ""
 "smaller font."
 msgstr ""
 
-#: docs/en/section_one/index.md:7
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:7
 msgid "This verifies that the theme is being properly applied."
 msgstr ""
 
-#: docs/en/section_one/index.md:9
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:9
 msgid "Include external markdown from a local file"
 msgstr ""
 
-#: docs/en/section_one/index.md:11
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:11
 msgid ""
 "The following section should have only a header, and a paragraph with inline "
 "code followed by a code block. There should be no text between the code "
@@ -44,31 +44,31 @@ msgid ""
 "is working with local files."
 msgstr ""
 
-#: docs/en/section_one/index.md:13
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:13
 msgid "-8<- \"include_content.md:local-content\""
 msgstr ""
 
-#: docs/en/section_one/index.md:15
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:15
 msgid "Include external markdown from a URL"
 msgstr ""
 
-#: docs/en/section_one/index.md:17
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:17
 msgid ""
 "The following section should have only a header, some text and a Markdown "
 "list. This verifies that the external include extension is working, and that "
 "`url_download` is enabled."
 msgstr ""
 
-#: docs/en/section_one/index.md:19
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:19
 msgid ""
 "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/"
 "main/docs/include_content.md:remote-content -8<-"
 msgstr ""
 
-#: docs/en/section_one/index.md:23
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:23
 msgid "Footer navigation"
 msgstr ""
 
-#: docs/en/section_one/index.md:25
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/section_one/index.md:25
 msgid "Navigate to *Section One - Page Two* for the final check."
 msgstr ""
