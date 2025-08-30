@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 01:19-0400\n"
+"POT-Creation-Date: 2025-08-29 20:48-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,38 +12,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.15.6\n"
 
-#: docs/en/SUMMARY.md:1
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:1
 msgid "BeeWare Docs Tools Demo section one"
 msgstr ""
 
-#: docs/en/SUMMARY.md:1
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:1
 msgid "[BeeWare Docs Tools Demo section one]{1}"
 msgstr ""
 
-#: docs/en/SUMMARY.md:1
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:1
 msgid "[Section one - page two]{1}"
 msgstr ""
 
-#: docs/en/SUMMARY.md:4
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:4
 msgid "[Section two]{1}"
 msgstr ""
 
-#: docs/en/SUMMARY.md:5
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:5
 msgid "[Section three]{1}"
 msgstr ""
 
-#: docs/en/SUMMARY.md:5
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:5
 msgid "./section_three/*"
 msgstr ""
 
-#: docs/en/SUMMARY.md:7
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:7
 msgid "Shared content test bed"
 msgstr ""
 
-#: docs/en/SUMMARY.md:7
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:7
 msgid "[Shared content test bed]{1}"
 msgstr ""
 
-#: docs/en/SUMMARY.md:7
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/SUMMARY.md:7
 msgid "[Style guide]{1}"
 msgstr ""

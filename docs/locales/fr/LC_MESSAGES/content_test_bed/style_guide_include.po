@@ -10,3 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.15.6\n"
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/docs/en/content_test_bed/style_guide_include.md:1
+msgid "-8<- \"style_guide.md\""
+msgstr ""

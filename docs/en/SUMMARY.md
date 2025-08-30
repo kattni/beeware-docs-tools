@@ -5,5 +5,5 @@
 - [Section three](section_three/index.md)
     - ./section_three/*
 - Shared content test bed
-    - [Shared content test bed](shared_content/index.md)
-    - [Style guide](shared_content/style_guide.md)
+    - [Shared content test bed](content_test_bed/index.md)
+    - [Style guide](content_test_bed/style_guide_include.md)
