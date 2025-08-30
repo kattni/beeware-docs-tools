@@ -94,6 +94,9 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
+        if (SOURCE_DIR / "docs" / "en" / "shared_content").exists():
+            Path(SOURCE_DIR / "docs" / "en" / "shared_content").unlink(missing_ok=True)
+
         # Load the config.yml file, add the version number to extra,
         # and dump the updated copy to the temp directory so it is
         # available relative to the build.
@@ -214,7 +217,7 @@ def main():
 
             if language == "en":
                 Path(temp_md_directory / "en" / "shared_content").unlink(
-                    missing_ok=False
+                    missing_ok=True
                 )
 
 

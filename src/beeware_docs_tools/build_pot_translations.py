@@ -44,7 +44,7 @@ def main():
         pass
 
     generate_translated_pot_files(
-        input_dir=Path(__file__).parent / "shared_content",
+        input_dir=Path("docs") / "en" / "shared_content",
         output_dir=Path(__file__).parent / "shared_content" / "locales" / "templates",
     )
 
