@@ -119,6 +119,7 @@ def main():
         for language in args.language_code:
             print(f"Processing {language}")
 
+            # sc_directory = temp_md_directory / language / "shared"
             output_directory = temp_md_directory / language
             sc_output_directory = output_directory / "shared_content"
 
@@ -139,14 +140,17 @@ def main():
             )
 
             if language != "en":
+                # sc_directory.mkdir(parents=True, exist_ok=True)
+                output_directory.mkdir(parents=True, exist_ok=True)
+                sc_output_directory.mkdir(parents=True, exist_ok=True)
                 # Symlink shared content directory to the temp directory, so it is
                 # available relative to the build.
-                (temp_md_directory / "shared_content").symlink_to(
+
+                (temp_md_directory / f"shared_content_{language}").symlink_to(
                     Path(__file__).parent / "shared_content", target_is_directory=True
                 )
 
-                output_directory.mkdir(parents=True, exist_ok=True)
-                sc_output_directory.mkdir(parents=True, exist_ok=True)
+                # Generate translated primary content
                 generate_translated_md(
                     input_dir=SOURCE_DIR
                     / "docs"
@@ -157,14 +161,14 @@ def main():
                     output_dir=output_directory,
                 )
 
+                # Generate translated shared content
                 generate_translated_md(
-                    input_dir=SOURCE_DIR
-                    / "docs"
+                    input_dir=Path(__file__).parent
+                    / "shared_content"
                     / "locales"
                     / language
-                    / "LC_MESSAGES"
-                    / "shared_content",
-                    template_dir=temp_md_directory / "shared_content",
+                    / "LC_MESSAGES",
+                    template_dir=temp_md_directory / f"shared_content_{language}",
                     output_dir=sc_output_directory,
                 )
 
@@ -208,8 +212,10 @@ def main():
                 else (output / language),
             )
 
-            Path(temp_md_directory / "en" / "shared_content").unlink(missing_ok=True)
-            Path(temp_md_directory / "shared_content").unlink(missing_ok=True)
+            if language == "en":
+                Path(temp_md_directory / "en" / "shared_content").unlink(
+                    missing_ok=False
+                )
 
 
 if __name__ == "__main__":
