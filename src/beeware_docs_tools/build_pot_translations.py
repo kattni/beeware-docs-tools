@@ -12,6 +12,7 @@ def generate_translated_pot_files(input_dir: Path, output_dir: Path) -> None:
             f"--output={output_dir}",
             "--pot",
             "--duplicates=merge",
+            "--timestamp",
         ],
         check=True,
     )
