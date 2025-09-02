@@ -1,11 +1,24 @@
 import shutil
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
+import subprocess
 from tempfile import TemporaryDirectory
 
-import subprocess
+# This tool is used to generate updated PO files from updated PO template (POT) files, which are
+# based on the English Markdown content.
 
-SOURCE_DIR = Path.cwd() / "docs" / "locales"
+# The Markdown content can optionally contain external shared content included using the PyMdown
+# Snippets extension. To facilitate translation of the shared content, it is included as part of
+# BeeWare Docs Tools, along with the associated `locales` directory containing the shared content
+# POT and translated PO files. This content is then processed separately from the primary content,
+# and the resulting files are stored within the `docs-tools` repo `src` directory. When BeeWare
+# Docs Tools is installed into a documentation repo, it includes the shared Markdown and PO files.
+# They are then made available to the other translation- and build-tools, so when they are run,
+# they are able to access the translated shared content and build each translated site in a given
+# language.
+
+SOURCE_LOCALES_DIR = Path.cwd() / "docs" / "locales"
+SHARED_LOCALES_DIR = Path(__file__).parent / "shared_content" / "locales"
 
 
 def parse_args() -> Namespace:
@@ -14,7 +27,7 @@ def parse_args() -> Namespace:
     args = parser.parse_args()
 
     for language_code in args.language_code:
-        if not (SOURCE_DIR / f"{language_code}").is_dir():
+        if not (SOURCE_LOCALES_DIR / f"{language_code}").is_dir():
             raise RuntimeError(
                 f'Language code "{language_code}" does not match an existing translation'
             )
@@ -22,9 +35,14 @@ def parse_args() -> Namespace:
     return args
 
 
-def merge_translation_files(
-    source_dir: Path, template_dir: Path, destination_dir: Path
-) -> None:
+def pot_to_po(source_dir: Path, template_dir: Path, destination_dir: Path) -> None:
+    """
+    Run `pot2po` with the provided directories.
+
+    :param source_dir: The directory containing the existing PO files.
+    :param template_dir: The directory containing the PO template (POT) files.
+    :param destination_dir: The output directory for the updated PO files.
+    """
     destination_dir.mkdir(parents=True)
     subprocess.run(
         [
@@ -37,45 +55,64 @@ def merge_translation_files(
     )
 
 
-def main():
+def generate_po_files(shared_content: bool = False) -> None:
+    """
+    Generate PO files from PO template (POT) files.
+
+    :param bool shared_content: True when processing shared content. Defaults to False.
+
+    """
     args = parse_args()
 
-    with TemporaryDirectory() as final_dir:
-        final_dir = Path(final_dir)
+    with TemporaryDirectory() as temp_destination_dir:
+        temp_destination_dir = Path(temp_destination_dir)
 
         for language in args.language_code:
-            print(f"Processing primary {language} content")
-            merge_translation_files(
-                source_dir=SOURCE_DIR / language / "LC_MESSAGES",
-                template_dir=SOURCE_DIR / "templates",
-                destination_dir=final_dir / language / "LC_MESSAGES",
+            print(
+                f"Processing {'primary' if not shared_content else 'shared'} {language} content"
             )
+            lang_lc_msgs_dir = Path(language) / "LC_MESSAGES"
 
-            shutil.copytree(
-                final_dir / language,
-                SOURCE_DIR / language,
-                dirs_exist_ok=True,
-            )
-
-            print(f"Processing shared {language} content")
-            merge_translation_files(
-                source_dir=Path(__file__).parent
-                / "shared_content"
-                / "locales"
-                / language
-                / "LC_MESSAGES",
-                template_dir=Path(__file__).parent
-                / "shared_content"
-                / "locales"
+            # Generates PO files from POT files into a temporary destination directory.
+            pot_to_po(
+                source_dir=(
+                    SOURCE_LOCALES_DIR if not shared_content else SHARED_LOCALES_DIR
+                )
+                / lang_lc_msgs_dir,
+                template_dir=(
+                    SOURCE_LOCALES_DIR if not shared_content else SHARED_LOCALES_DIR
+                )
                 / "templates",
-                destination_dir=final_dir / "shared_content" / language / "LC_MESSAGES",
+                destination_dir=(
+                    temp_destination_dir
+                    if not shared_content
+                    else temp_destination_dir / "shared_content"
+                )
+                / lang_lc_msgs_dir,
             )
 
+            # Copies the contents of the temp destination directory into the final
+            # destination directory.
             shutil.copytree(
-                final_dir / "shared_content",
-                Path(__file__).parent / "shared_content" / "locales",
+                (
+                    temp_destination_dir / language
+                    if not shared_content
+                    else temp_destination_dir / "shared_content"
+                ),
+                (
+                    SOURCE_LOCALES_DIR / language
+                    if not shared_content
+                    else SHARED_LOCALES_DIR
+                ),
                 dirs_exist_ok=True,
             )
+
+
+def main():
+    # Generate primary content PO files
+    generate_po_files()
+    # Generate shared content PO files
+    generate_po_files(shared_content=True)
 
 
 if __name__ == "__main__":

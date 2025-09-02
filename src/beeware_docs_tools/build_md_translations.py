@@ -5,6 +5,18 @@ from pathlib import Path
 import yaml
 from tempfile import TemporaryDirectory
 
+# This tool is used to generate translated Markdown, if a language other than English is provided,
+# and build the documentation site for the provided language.
+
+# The Markdown content can optionally contain external shared content included using the PyMdown
+# Snippets extension. To facilitate translation of the shared content, it is included as part of
+# BeeWare Docs Tools, along with the associated `locales` directory containing the shared content
+# POT and translated PO files. This content is then processed separately from the primary content,
+# and the resulting files are stored within the `docs-tools` repo `src` directory. When BeeWare
+# Docs Tools is installed into a documentation repo, it includes the shared Markdown and PO files.
+# They are then made available to the other translation- and build-tools, so when they are run,
+# they are able to access the translated shared content and build each translated site in a given
+# language.
 
 SOURCE_DIR = Path.cwd()
 
@@ -28,30 +40,17 @@ def parse_args() -> Namespace:
     return args
 
 
-def config_update(update_version=True, language_directory=None, config_directory=None):
-    config_file = yaml.load(
-        open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
-    )
-    if update_version:
-        try:
-            version = metadata(config_file["extra"]["package_name"])["version"]
-            config_file["extra"]["version"] = version
-        except KeyError:
-            pass
-    else:
-        base_path = (language_directory / "shared_content").resolve()
-        config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
-            "docs",
-            f"{base_path}",
-        ]
-
-    with (config_directory / "config.yml").open("w", encoding="utf-8") as config_temp:
-        yaml.dump(config_file, config_temp)
-
-
 def generate_translated_md(
     input_dir: Path, template_dir: Path, output_dir: Path
 ) -> None:
+    """
+    Generate Markdown in a specific language from translated PO files.
+
+    :param input_dir: The directory containing the translated PO files.
+    :param template_dir: The directory containing the original (English) Markdown content.
+    :param output_dir: The directory for the translated Markdown content.
+    :return:
+    """
     subprocess.run(
         [
             "po2md",
@@ -65,6 +64,12 @@ def generate_translated_md(
 
 
 def build_docs(config_file: Path, build_dir: Path) -> None:
+    """
+    Run `mkdocs build` for a given language.
+    :param config_file: The path to the language-specific configuration file.
+    :param build_dir: The output directory for the site content.
+    :return:
+    """
     args = parse_args()
 
     serve_command = [
@@ -94,15 +99,14 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
 
+        # If the script fails in the middle, it can leave this symlink in place
+        # which leads to it failing when the script runs again. This check is
+        # meant to deal with that possibility.
         if (SOURCE_DIR / "docs" / "en" / "shared_content").exists():
             Path(SOURCE_DIR / "docs" / "en" / "shared_content").unlink(missing_ok=True)
 
-        # Load the config.yml file, add the version number to extra,
-        # and dump the updated copy to the temp directory so it is
-        # available relative to the build.
-        config_update(config_directory=temp_md_directory)
-
-        # If source code directory or directories provided, symlink.
+        # If source code directory or directories provided, symlink to the
+        # temp directory so it is available relative to the build.
         if args.source_code:
             for directory in args.source_code:
                 if "/" in directory:
@@ -122,18 +126,31 @@ def main():
         for language in args.language_code:
             print(f"Processing {language}")
 
-            # sc_directory = temp_md_directory / language / "shared"
-            output_directory = temp_md_directory / language
-            sc_output_directory = output_directory / "shared_content"
-
-            # Load the config.yml file, add the base_path to Snippets,
-            # and dump the updated copy to the temp directory so it is
-            # available relative to the build.
-            config_update(
-                update_version=False,
-                config_directory=temp_md_directory,
-                language_directory=(temp_md_directory / language),
+            # Load the config.yml file, add the version_number to extra,
+            # add the base_path to Snippets, and dump the updated copy to
+            # the temp directory so it is available relative to the build.
+            config_file = yaml.load(
+                open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
             )
+
+            try:
+                version = metadata(config_file["extra"]["package_name"])["version"]
+                config_file["extra"]["version"] = version
+            except KeyError:
+                pass
+
+            shared_content_path = (
+                temp_md_directory / language / "shared_content"
+            ).resolve()
+            config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
+                "docs",
+                f"{shared_content_path}",
+            ]
+
+            with (temp_md_directory / "config.yml").open(
+                "w", encoding="utf-8"
+            ) as config_temp:
+                yaml.dump(config_file, config_temp)
 
             # Symlink language config to temp directory. docs_dir and INHERIT paths are
             # relative, so to build translations successfully while allowing English
@@ -143,12 +160,14 @@ def main():
             )
 
             if language != "en":
-                # sc_directory.mkdir(parents=True, exist_ok=True)
+                # Create temp output directories for primary and shared content.
+                output_directory = temp_md_directory / language
+                sc_output_directory = output_directory / "shared_content"
                 output_directory.mkdir(parents=True, exist_ok=True)
                 sc_output_directory.mkdir(parents=True, exist_ok=True)
+
                 # Symlink shared content directory to the temp directory, so it is
                 # available relative to the build.
-
                 (temp_md_directory / f"shared_content_{language}").symlink_to(
                     Path(__file__).parent / "shared_content", target_is_directory=True
                 )
@@ -189,24 +208,16 @@ def main():
                                 path
                             )
             else:
-                # Symlink English Markdown files for en build.
+                # Symlink primary English Markdown files for en build.
                 (temp_md_directory / "en").symlink_to(
                     SOURCE_DIR / "docs" / "en", target_is_directory=True
                 )
-
+                # Symlink shared content English Markdown files for en build.
                 (temp_md_directory / "en" / "shared_content").symlink_to(
                     Path(__file__).parent / "shared_content", target_is_directory=True
                 )
 
-                # Load the config.yml file, add the base_path to Snippets,
-                # and dump the updated copy to the temp directory so it is
-                # available relative to the build.
-                config_update(
-                    update_version=False,
-                    language_directory=Path(__file__).parent,
-                    config_directory=temp_md_directory,
-                )
-
+            # Build documentation in provided language.
             output = Path(args.output).resolve()
             build_docs(
                 config_file=(temp_md_directory / f"mkdocs.{language}.yml"),
