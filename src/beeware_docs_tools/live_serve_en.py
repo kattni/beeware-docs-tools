@@ -16,7 +16,7 @@ SOURCE_DIR = Path.cwd()
 def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("watch_directory", nargs="*")
-    parser.add_argument("--build-with-errors", action="store_true")
+    parser.add_argument("--build-with-warnings", action="store_true")
     parser.add_argument("--source-code", action="append")
     args = parser.parse_args()
 
@@ -38,7 +38,7 @@ def serve_docs(config_location) -> None:
         "docs",
     ]
 
-    if not args.build_with_errors:
+    if not args.build_with_warnings:
         serve_command.extend(["--strict"])
 
     if args.watch_directory:

@@ -25,7 +25,7 @@ def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("language_code", nargs="*")
     parser.add_argument("--output", default=SOURCE_DIR / "_build" / "html")
-    parser.add_argument("--build-with-errors", action="store_true")
+    parser.add_argument("--build-with-warnings", action="store_true")
     parser.add_argument("--source-code", action="append")
     args = parser.parse_args()
     for language_code in args.language_code:
@@ -84,7 +84,7 @@ def build_docs(config_file: Path, build_dir: Path) -> None:
         f"{build_dir}",
     ]
 
-    if not args.build_with_errors:
+    if not args.build_with_warnings:
         serve_command.extend(["--strict"])
 
     subprocess.run(
