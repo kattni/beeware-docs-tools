@@ -1,9 +1,10 @@
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 20:21-0400\n"
+"POT-Creation-Date: 2025-09-03 07:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,36 +14,51 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/section_two/index.md:1
+#, fuzzy
 msgid "BeeWare Docs Tools Demo section two"
-msgstr ""
+msgstr "BeeWare Docs Tools Demo section deux"
 
 #: docs/en/section_two/index.md:3
+#, fuzzy
 msgid "Images subdirectory"
-msgstr ""
+msgstr "Sous-répertoire Images"
 
 #: docs/en/section_two/index.md:5
+#, fuzzy
 msgid ""
 "Build the French or German translation. The following should be a little "
 "Brutus the Bee."
 msgstr ""
+"Construire la traduction française ou allemande. Ce qui suit devrait être un"
+" peu Brutus l'Abeille."
 
 #: docs/en/section_two/index.md:7
+#, fuzzy
 msgid "![Brutus the Bee]{1}"
-msgstr ""
+msgstr "Brutus l'Abeille]{1}"
 
 #: docs/en/section_two/index.md:9
+#, fuzzy
 msgid ""
 "The presence of the image in the French and German builds verifies that the "
 "images subdirectories are being properly symlinked for languages other than "
 "English."
 msgstr ""
+"La présence de l'image dans les versions française et allemande permet de "
+"vérifier que les sous-répertoires images sont correctement reliés par des "
+"liens symboliques pour les langues autres que l'anglais."
 
 #: docs/en/section_two/index.md:11
+#, fuzzy
 msgid "`autoref` linking"
-msgstr ""
+msgstr "Liaison `autoref"
 
 #: docs/en/section_two/index.md:13
+#, fuzzy
 msgid ""
 "The link provided here should take you to the [Heading font][heading-font] "
 "section of the main page. It is included to verify `autoref` linking."
 msgstr ""
+"Le lien fourni ici devrait vous amener à la section [Heading font][heading-"
+"font] de la page principale. Il est inclus pour vérifier les liens "
+"`autoref`."

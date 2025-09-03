@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 20:33-0400\n"
+"POT-Creation-Date: 2025-09-03 09:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,142 +13,225 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/shared_content/style_guide.md:1
+#, fuzzy
 msgid "BeeWare documentation style guide"
-msgstr "BeeWare styleguide für die dokumentation"
+msgstr "Leitfaden für die BeeWare-Dokumentation"
 
 #: docs/en/shared_content/style_guide.md:3
+#, fuzzy
 msgid ""
 "This guide includes information on expected style, MkDocs-specific syntax, "
 "various required tools, and documentation translation, with regard to "
 "writing new content and translating existing content."
 msgstr ""
+"Dieser Leitfaden enthält Informationen über den erwarteten Stil, die MkDocs-"
+"spezifische Syntax, verschiedene erforderliche Werkzeuge und die Übersetzung"
+" der Dokumentation im Hinblick auf das Schreiben neuer Inhalte und die "
+"Übersetzung vorhandener Inhalte."
 
 #: docs/en/shared_content/style_guide.md:5
+#, fuzzy
 msgid "General style"
-msgstr ""
+msgstr "Allgemeiner Stil"
 
 #: docs/en/shared_content/style_guide.md:7
+#, fuzzy
 msgid "Headers and titles should have only the first word capitalized."
 msgstr ""
+"Bei Überschriften und Titeln sollte nur das erste Wort groß geschrieben "
+"werden."
 
 #: docs/en/shared_content/style_guide.md:8
+#, fuzzy
 msgid ""
 "We prefer US spelling, with some liberties for programming-specific "
 "colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
 msgstr ""
+"Wir bevorzugen die US-amerikanische Rechtschreibung, mit einigen Freiheiten "
+"für programmierspezifische Umgangssprache (z. B. \"Apps\") und Verben von "
+"Substantiven (z. B. \"scrollable\")."
 
 #: docs/en/shared_content/style_guide.md:9
+#, fuzzy
 msgid "The spelling of \"artefact\" and \"artefacts\" is as shown."
-msgstr ""
+msgstr "Die Schreibweise von \"Artefakt\" und \"Artefakte\" ist wie gezeigt."
 
 #: docs/en/shared_content/style_guide.md:10
+#, fuzzy
 msgid ""
 "Any reference to a product name should use the product’s preferred "
 "capitalization. (e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", "
 "\"PyScript\"{2})."
 msgstr ""
+"Jeder Verweis auf einen Produktnamen sollte die bevorzugte Großschreibung "
+"des Produkts verwenden. (z.B. {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\","
+" \"PyScript\"{2})."
 
 #: docs/en/shared_content/style_guide.md:11
+#, fuzzy
 msgid ""
 "If a term is being used \"as code\", then it should be quoted as inline "
 "code, by wrapping it in single backticks, rather than being added to the "
 "dictionary."
 msgstr ""
+"Wenn ein Begriff \"als Code\" verwendet wird, dann sollte er als Inline-Code"
+" zitiert werden, indem er in einzelne Backticks eingeschlossen wird, anstatt"
+" dem Wörterbuch hinzugefügt zu werden."
 
 #: docs/en/shared_content/style_guide.md:13
+#, fuzzy
 msgid "Reference Links"
-msgstr ""
+msgstr "Referenz-Links"
 
 #: docs/en/shared_content/style_guide.md:15
+#, fuzzy
 msgid ""
-"MkDocs renders standard Markdown formatted links. It also supports rendering "
-"a reference link syntax that allows you to link to various other elements in "
-"the documentation using a modified Markdown link. This includes linking to, "
-"among other things, standard Markdown header anchors, custom Markdown header "
-"and text anchors, custom reference IDs, documented classes and class methods "
-"or attributes, and specific external documentation references."
+"MkDocs renders standard Markdown formatted links. It also supports rendering"
+" a reference link syntax that allows you to link to various other elements "
+"in the documentation using a modified Markdown link. This includes linking "
+"to, among other things, standard Markdown header anchors, custom Markdown "
+"header and text anchors, custom reference IDs, documented classes and class "
+"methods or attributes, and specific external documentation references."
 msgstr ""
+"MkDocs rendert standardmäßig Markdown-formatierte Links. MkDocs unterstützt "
+"auch die Darstellung einer Referenzlink-Syntax, die es Ihnen ermöglicht, mit"
+" einem modifizierten Markdown-Link auf verschiedene andere Elemente in der "
+"Dokumentation zu verweisen. Dies umfasst unter anderem die Verknüpfung mit "
+"Standard-Markdown-Kopfverankerungen, benutzerdefinierten Markdown-Kopf- und "
+"Textverankerungen, benutzerdefinierten Referenz-IDs, dokumentierten Klassen "
+"und Klassenmethoden oder -attributen sowie spezifischen externen "
+"Dokumentationsverweisen."
 
 #: docs/en/shared_content/style_guide.md:17
+#, fuzzy
 msgid "Standard Markdown formatted links are as follows:"
-msgstr ""
+msgstr "Standardmäßige Markdown-formatierte Links sind wie folgt:"
 
 #: docs/en/shared_content/style_guide.md:23
+#, fuzzy
 msgid "You can also use this format to link to a local file:"
 msgstr ""
+"Sie können dieses Format auch für die Verknüpfung mit einer lokalen Datei "
+"verwenden:"
 
 #: docs/en/shared_content/style_guide.md:29
+#, fuzzy
 msgid "Linking to an anchor _in the same file_ is formatted as follows:"
 msgstr ""
+"Die Verknüpfung mit einem Anker _in derselben Datei_ wird wie folgt "
+"formatiert:"
 
 #: docs/en/shared_content/style_guide.md:35
+#, fuzzy
 msgid "Linking to an anchor _in a different_ file is formatted as follows:"
 msgstr ""
+"Eine Verknüpfung zu einem Anker _in einer anderen_ Datei wird wie folgt "
+"formatiert:"
 
 #: docs/en/shared_content/style_guide.md:41
+#, fuzzy
 msgid ""
-"If you need to link to an anchor in a different file, and the anchor name is "
-"duplicated in multiple files, you can generate a custom anchor for the "
+"If you need to link to an anchor in a different file, and the anchor name is"
+" duplicated in multiple files, you can generate a custom anchor for the "
 "intended content (as shown in the next section), and link to that using the "
 "reference link formatting:"
 msgstr ""
+"Wenn Sie auf einen Anker in einer anderen Datei verlinken müssen und der "
+"Ankername in mehreren Dateien doppelt vorkommt, können Sie einen "
+"benutzerdefinierten Anker für den gewünschten Inhalt erstellen (wie im "
+"nächsten Abschnitt gezeigt) und mit diesem über die Formatierung des "
+"Referenzlinks verlinken:"
 
 #: docs/en/shared_content/style_guide.md:47
+#, fuzzy
 msgid ""
 "There are multiple options for linking to a documented class, or a class "
 "method or attribute, regardless of whether you are linking from the same "
 "file or a separate file. When linking to classes, etc., you must include "
 "backticks in the first set of square brackets to render the name as inline "
-"code. The backticks are not necessary only if you are using custom text that "
-"should not be rendered as inline code. Backticks should never be included in "
-"the second set of square brackets."
+"code. The backticks are not necessary only if you are using custom text that"
+" should not be rendered as inline code. Backticks should never be included "
+"in the second set of square brackets."
 msgstr ""
+"Es gibt mehrere Optionen für die Verknüpfung mit einer dokumentierten "
+"Klasse, einer Klassenmethode oder einem Klassenattribut, unabhängig davon, "
+"ob Sie die Verknüpfung von derselben Datei oder einer separaten Datei aus "
+"vornehmen. Wenn Sie auf Klassen usw. verlinken, müssen Sie Backticks in den "
+"ersten Satz eckiger Klammern einfügen, damit der Name als Inline-Code "
+"dargestellt wird. Die Backticks sind nur dann nicht erforderlich, wenn Sie "
+"benutzerdefinierten Text verwenden, der nicht als Inline-Code wiedergegeben "
+"werden soll. Backticks sollten niemals in den zweiten Satz eckiger Klammern "
+"eingefügt werden."
 
 #: docs/en/shared_content/style_guide.md:49
+#, fuzzy
 msgid ""
 "Linking to a class while displaying the namespace is formatted as follows:"
 msgstr ""
+"Die Verknüpfung mit einer Klasse bei gleichzeitiger Anzeige des Namespace "
+"wird wie folgt formatiert:"
 
 #: docs/en/shared_content/style_guide.md:55
+#, fuzzy
 msgid ""
 "Linking to a class while displaying only the class name is formatted as "
 "follows:"
 msgstr ""
+"Die Verknüpfung mit einer Klasse, bei der nur der Klassenname angezeigt "
+"wird, ist wie folgt formatiert:"
 
 #: docs/en/shared_content/style_guide.md:61
+#, fuzzy
 msgid ""
 "Methods and attributes are the same as above, with the method or attribute "
 "name included. You must include the parentheses after the namespace. The "
 "following displays the namespace:"
 msgstr ""
+"Methoden und Attribute sind die gleichen wie oben, wobei der Name der "
+"Methode oder des Attributs eingeschlossen ist. Nach dem Namespace müssen Sie"
+" die Klammern einfügen. Im Folgenden wird der Namespace angezeigt:"
 
 #: docs/en/shared_content/style_guide.md:67
+#, fuzzy
 msgid ""
 "The following displays the class and method name only. This also requires "
 "including the parentheses after the name:"
 msgstr ""
+"Im Folgenden wird nur der Klassen- und Methodenname angezeigt. Dies "
+"erfordert auch die Einbeziehung der Klammern nach dem Namen:"
 
 #: docs/en/shared_content/style_guide.md:73
+#, fuzzy
 msgid ""
 "Linking to a class (or method) while displaying arbitrary text is formatted "
 "as follows:"
 msgstr ""
+"Die Verknüpfung zu einer Klasse (oder Methode) bei gleichzeitiger Anzeige "
+"von beliebigem Text wird wie folgt formatiert:"
 
 #: docs/en/shared_content/style_guide.md:79
+#, fuzzy
 msgid ""
 "It is also possible to link directly to Python core documentation, as well "
-"as Pillow documentation. For example, to link to the documentation for `int`:"
+"as Pillow documentation. For example, to link to the documentation for "
+"`int`:"
 msgstr ""
+"Es ist auch möglich, direkt auf die Python-Kerndokumentation sowie auf die "
+"Pillow-Dokumentation zu verlinken. Zum Beispiel, um auf die Dokumentation "
+"für `int` zu verlinken:"
 
 #: docs/en/shared_content/style_guide.md:85
+#, fuzzy
 msgid "To link to the Pillow `Image` documentation:"
-msgstr ""
+msgstr "Verknüpfung mit der Pillow `Image`-Dokumentation:"
 
 #: docs/en/shared_content/style_guide.md:91
+#, fuzzy
 msgid "Custom Markdown anchors"
-msgstr ""
+msgstr "Benutzerdefinierte Markdown-Anker"
 
 #: docs/en/shared_content/style_guide.md:93
+#, fuzzy
 msgid ""
 "Markdown generates anchors for all headers (anything on a single line "
 "starting with between one and six `#` symbols), based on the content of the "
@@ -156,362 +240,564 @@ msgid ""
 "a custom anchor, such as, if the header is overly verbose, or you need "
 "something more memorable available for reuse."
 msgstr ""
+"Markdown generiert Anker für alle Überschriften (alles in einer einzigen "
+"Zeile, das mit einem bis sechs `#`-Symbolen beginnt), basierend auf dem "
+"Inhalt der Überschrift. Der für diesen Abschnitt erzeugte Anker ist zum "
+"Beispiel \"custom-markdown-anchors\". Es gibt Situationen, in denen es "
+"sinnvoll ist, stattdessen einen benutzerdefinierten Anker zu setzen, z.B. "
+"wenn die Kopfzeile zu ausführlich ist oder Sie etwas Einprägsameres zur "
+"Wiederverwendung benötigen."
 
 #: docs/en/shared_content/style_guide.md:95
+#, fuzzy
 msgid ""
 "Changing the anchor for this section to `custom-anchors` would be done with "
 "the following formatting:"
 msgstr ""
+"Die Änderung des Ankers für diesen Abschnitt in \"benutzerdefinierte Anker\""
+" würde mit der folgenden Formatierung erfolgen:"
 
 #: docs/en/shared_content/style_guide.md:101
+#, fuzzy
 msgid ""
 "You can also create an anchor on general content, including text and "
 "codeblocks. The following formatting, with newlines above and below, should "
 "be included above the content you wish to link to:"
 msgstr ""
+"Sie können auch einen Anker für allgemeinen Inhalt erstellen, einschließlich"
+" Text und Codeblocks. Die folgende Formatierung, mit Zeilenumbrüchen oben "
+"und unten, sollte über dem Inhalt, auf den Sie verlinken möchten, eingefügt "
+"werden:"
 
 #: docs/en/shared_content/style_guide.md:107
+#, fuzzy
 msgid "/// note | Note"
-msgstr ""
+msgstr "/// note | Notiz"
 
 #: docs/en/shared_content/style_guide.md:109
+#, fuzzy
 msgid ""
 "The reference linking that allows for linking to anchors in separate files "
 "requires that all anchors be unique. If you are creating a custom anchor, "
 "ensure that you are choosing a name that isn't used elsewhere in the "
 "documentation."
 msgstr ""
+"Die Referenzverknüpfung, die die Verknüpfung mit Ankern in separaten Dateien"
+" ermöglicht, erfordert, dass alle Anker eindeutig sind. Wenn Sie einen "
+"benutzerdefinierten Anker erstellen, stellen Sie sicher, dass Sie einen "
+"Namen wählen, der nicht an anderer Stelle in der Dokumentation verwendet "
+"wird."
 
 #: docs/en/shared_content/style_guide.md:111
+#, fuzzy
 msgid "///"
-msgstr ""
+msgstr "///"
 
 #: docs/en/shared_content/style_guide.md:113
+#, fuzzy
 msgid "Translating existing content"
-msgstr ""
+msgstr "Vorhandene Inhalte übersetzen"
 
 #: docs/en/shared_content/style_guide.md:115
+#, fuzzy
 msgid "The following items should _not_ be translated or updated:"
 msgstr ""
+"Die folgenden Punkte sollten _nicht_ übersetzt oder aktualisiert werden:"
 
 #: docs/en/shared_content/style_guide.md:117
+#, fuzzy
 msgid ""
 "Commands. For example, in \"You should run \\`briefcase create\\`.\", only "
 "\"You should run\" should be translated."
 msgstr ""
+"Befehle. Zum Beispiel sollte in \"You should run \\`briefcase create\\`.\" "
+"nur \"You should run\" übersetzt werden."
 
 #: docs/en/shared_content/style_guide.md:118
+#, fuzzy
 msgid ""
 "Namespaces; class, method, or attribute names. Reference links containing "
 "class, method or attribute names should be left as-is, including the "
 "backticks."
 msgstr ""
+"Namensräume; Klassen-, Methoden- oder Attributnamen. Verweislinks, die "
+"Klassen-, Methoden- oder Attributnamen enthalten, sollten so belassen "
+"werden, wie sie sind, einschließlich der Backticks."
 
 #: docs/en/shared_content/style_guide.md:119
+#, fuzzy
 msgid ""
 "Jinja directives. This is any content wrapped inside two pairs of matching "
 "curly braces, or a matching pair of single curly braces followed by a "
 "percent sign. Note: Including an example of the syntax here causes the "
-"Macros plugin to attempt to render it; see the [Macros documentation]{1} for "
-"examples."
+"Macros plugin to attempt to render it; see the [Macros documentation]{1} for"
+" examples."
 msgstr ""
+"Jinja-Anweisungen. Dies ist ein beliebiger Inhalt, der in zwei Paare "
+"passender geschweifter Klammern oder in ein passendes Paar einzelner "
+"geschweifter Klammern, gefolgt von einem Prozentzeichen, eingeschlossen ist."
+" Hinweis: Wenn Sie hier ein Beispiel für die Syntax einfügen, versucht das "
+"Macros-Plugin, diese zu rendern; Beispiele finden Sie in der [Macros-"
+"Dokumentation]{1}."
 
 #: docs/en/shared_content/style_guide.md:120
+#, fuzzy
 msgid ""
 "Custom anchors. They are found after headers or above some content, and are "
 "formatted as `{ id=\"anchor\" }`."
 msgstr ""
+"Benutzerdefinierte Anker. Sie befinden sich nach Überschriften oder über "
+"einem Inhalt und sind als `{ id=\"Anker\" }` formatiert."
 
 #: docs/en/shared_content/style_guide.md:121
+#, fuzzy
 msgid ""
 "Admonition _syntax_. As shown below, the word \"admonition\" should not be "
 "translated. This goes for all styles of admonitions, including notes, "
 "warnings, etc. See below for information on translating the rest of the "
 "content."
 msgstr ""
+"Ermahnung _Syntax_. Wie unten gezeigt, sollte das Wort \"admonition\" nicht "
+"übersetzt werden. Dies gilt für alle Arten von Ermahnungen, einschließlich "
+"Anmerkungen, Warnungen usw. Informationen zur Übersetzung des restlichen "
+"Inhalts finden Sie weiter unten."
 
 #: docs/en/shared_content/style_guide.md:131
+#, fuzzy
 msgid ""
 "Backticks are meant to stay as backticks; they are used for formatting both "
 "inline code and code blocks."
 msgstr ""
+"Backticks sollen als Backticks erhalten bleiben; sie werden zur Formatierung"
+" sowohl von Inline-Code als auch von Codeblöcken verwendet."
 
 #: docs/en/shared_content/style_guide.md:132
+#, fuzzy
 msgid ""
-"The syntax for including external content. This is anything on the same line "
-"as `-8<-`, or on the lines between two `-8<-` on separate lines."
+"The syntax for including external content. This is anything on the same line"
+" as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr ""
+"Die Syntax für die Einbeziehung externer Inhalte. Dies ist alles, was in "
+"derselben Zeile wie `-8<-` oder in den Zeilen zwischen zwei `-8<-` in "
+"getrennten Zeilen steht."
 
 #: docs/en/shared_content/style_guide.md:134
+#, fuzzy
 msgid "The following items _should_ be translated:"
-msgstr ""
+msgstr "Die folgenden Punkte _sollten_ übersetzt werden:"
 
 #: docs/en/shared_content/style_guide.md:136
+#, fuzzy
 msgid ""
-"The admonition titles and content. As shown below, \"Title\" and \"Content.\""
-" should be translated. See above for information on the syntax."
+"The admonition titles and content. As shown below, \"Title\" and "
+"\"Content.\" should be translated. See above for information on the syntax."
 msgstr ""
+"Titel und Inhalt der Ermahnung. Wie unten dargestellt, sollten \"Titel\" und"
+" \"Inhalt\" übersetzt werden. Siehe oben für Informationen über die Syntax."
 
 #: docs/en/shared_content/style_guide.md:146
+#, fuzzy
 msgid "Translations and writing new content"
-msgstr ""
+msgstr "Übersetzungen und Verfassen neuer Inhalte"
 
 #: docs/en/shared_content/style_guide.md:148
+#, fuzzy
 msgid ""
 "Due to the way the translation files are generated, it is important to "
 "include required newlines in the Markdown syntax for admonitions, notes, "
 "tabs, Jinja directives, image captions and alignment, etc."
 msgstr ""
+"Aufgrund der Art und Weise, wie die Übersetzungsdateien generiert werden, "
+"ist es wichtig, die erforderlichen Zeilenumbrüche in die Markdown-Syntax für"
+" Ermahnungen, Notizen, Tabulatoren, Jinja-Direktiven, Bildunterschriften und"
+" Alignment usw. aufzunehmen."
 
 #: docs/en/shared_content/style_guide.md:150
+#, fuzzy
 msgid "Admonitions and notes"
-msgstr ""
+msgstr "Ermahnungen und Hinweise"
 
 #: docs/en/shared_content/style_guide.md:152
+#, fuzzy
 msgid ""
 "Admonitions must be formatted as follows, including ensuring a newline "
 "before and after the admonition start and end:"
 msgstr ""
+"Ermahnungen müssen wie folgt formatiert werden, einschließlich eines "
+"Zeilenumbruchs vor und nach Beginn und Ende der Ermahnung:"
 
 #: docs/en/shared_content/style_guide.md:165
+#, fuzzy
 msgid "Note admonitions require the same formatting and newlines:"
-msgstr ""
+msgstr "Ermahnungen erfordern die gleiche Formatierung und Zeilenumbrüche:"
 
 #: docs/en/shared_content/style_guide.md:175
+#, fuzzy
 msgid ""
 "This format also works for attention, caution, danger, error, tip, hint, "
 "warning admonition types."
 msgstr ""
+"Dieses Format eignet sich auch für die Typen Achtung, Vorsicht, Gefahr, "
+"Fehler, Tipp, Hinweis, Warnung und Ermahnung."
 
 #: docs/en/shared_content/style_guide.md:177
+#, fuzzy
 msgid "Tabbed content"
-msgstr ""
+msgstr "Inhalt der Registerkarten"
 
 #: docs/en/shared_content/style_guide.md:179
+#, fuzzy
 msgid ""
 "Tabbed content is formatted as follows, including a newline included before "
 "the start and after the end of the content block:"
 msgstr ""
+"Der Inhalt von Registerkarten wird wie folgt formatiert, einschließlich "
+"eines Zeilenumbruchs vor dem Beginn und nach dem Ende des Inhaltsblocks:"
 
 #: docs/en/shared_content/style_guide.md:201
+#, fuzzy
 msgid ""
 "A tab with a nested admonition would be formatted as follows, including a "
 "newline before and after the content block:"
 msgstr ""
+"Ein Tabulator mit einer verschachtelten Ermahnung würde wie folgt formatiert"
+" werden, einschließlich eines Zeilenumbruchs vor und nach dem Inhaltsblock:"
 
 #: docs/en/shared_content/style_guide.md:217
+#, fuzzy
 msgid "Jinja directives"
-msgstr ""
+msgstr "Jinja-Richtlinien"
 
 #: docs/en/shared_content/style_guide.md:219
+#, fuzzy
 msgid ""
 "There are a few features of the documentation that use Jinja directives in "
-"the text. Anything using the Jinja directive features needs to be wrapped in "
-"newlines. For example, the BeeWare tutorial contains Jinja conditionals "
+"the text. Anything using the Jinja directive features needs to be wrapped in"
+" newlines. For example, the BeeWare tutorial contains Jinja conditionals "
 "based on variables to determine what admonition to show on the main page. "
 "Those are formatted as follows:"
 msgstr ""
+"In der Dokumentation gibt es einige Funktionen, die Jinja-Direktiven im Text"
+" verwenden. Alles, was die Jinja-Direktiven verwendet, muss in "
+"Zeilenumbrüche eingeschlossen werden. Das BeeWare-Tutorial enthält zum "
+"Beispiel Jinja-Bedingungen, die auf Variablen basieren, um zu bestimmen, "
+"welche Ermahnung auf der Hauptseite angezeigt werden soll. Diese sind wie "
+"folgt formatiert:"
 
 #: docs/en/shared_content/style_guide.md:233
+#, fuzzy
 msgid ""
 "There is also syntax for substituting symbols or text. This syntax is a "
-"variable wrapped in a pair of matching double curly braces, and must include "
-"a newline before and after."
+"variable wrapped in a pair of matching double curly braces, and must include"
+" a newline before and after."
 msgstr ""
+"Es gibt auch eine Syntax für die Ersetzung von Symbolen oder Text. Bei "
+"dieser Syntax handelt es sich um eine Variable, die in ein Paar passender "
+"doppelter geschweifter Klammern eingeschlossen ist und vor und nach der ein "
+"Zeilenumbruch stehen muss."
 
 #: docs/en/shared_content/style_guide.md:239
+#, fuzzy
 msgid "Images with caption syntax"
-msgstr ""
+msgstr "Bilder mit Beschriftungssyntax"
 
 #: docs/en/shared_content/style_guide.md:241
+#, fuzzy
 msgid ""
 "Whether the caption syntax is being utilized for the purposes of centering "
 "an image, or for providing an image caption, it must include newlines "
 "between each section."
 msgstr ""
+"Unabhängig davon, ob die Beschriftungssyntax für die Zentrierung eines "
+"Bildes oder für die Bereitstellung einer Bildunterschrift verwendet wird, "
+"muss sie zwischen den einzelnen Abschnitten Zeilenumbrüche enthalten."
 
 #: docs/en/shared_content/style_guide.md:243
+#, fuzzy
 msgid ""
 "For example, when adding an empty caption to center an image, you should "
 "format it as follows, with a newline before and after the content block:"
 msgstr ""
+"Wenn Sie zum Beispiel eine leere Bildunterschrift hinzufügen, um ein Bild zu"
+" zentrieren, sollten Sie sie wie folgt formatieren, mit einem Zeilenumbruch "
+"vor und nach dem Inhaltsblock:"
 
 #: docs/en/shared_content/style_guide.md:253
+#, fuzzy
 msgid ""
 "Adding a caption to an image also requires a newline before and after, and "
 "is formatted as follows:"
 msgstr ""
+"Das Hinzufügen einer Beschriftung zu einem Bild erfordert ebenfalls einen "
+"Zeilenumbruch vor und nach dem Bild und wird wie folgt formatiert:"
 
 #: docs/en/shared_content/style_guide.md:265
+#, fuzzy
 msgid "Custom header anchors using reference IDs"
-msgstr ""
+msgstr "Benutzerdefinierte Header-Anker mit Referenz-IDs"
 
 #: docs/en/shared_content/style_guide.md:267
+#, fuzzy
 msgid ""
 "By default, Markdown generates an anchor for every header that is the text "
-"of the header with spaces and punctuation replaced with `-`. However, if you "
-"want something shorter, more memorable, or customized for whatever reason, "
+"of the header with spaces and punctuation replaced with `-`. However, if you"
+" want something shorter, more memorable, or customized for whatever reason, "
 "this is possible using Jinja-formatted attribute IDs."
 msgstr ""
+"Standardmäßig generiert Markdown für jede Überschrift einen Anker, der aus "
+"dem Text der Überschrift besteht, wobei Leerzeichen und Interpunktion durch "
+"\"-\" ersetzt werden. Wenn Sie jedoch etwas Kürzeres, Einprägsameres oder "
+"aus irgendeinem Grund etwas Individuelles wollen, ist dies mit Jinja-"
+"formatierten Attribut-IDs möglich."
 
 #: docs/en/shared_content/style_guide.md:269
+#, fuzzy
 msgid "The syntax is as follows:"
-msgstr ""
+msgstr "Die Syntax lautet wie folgt:"
 
 #: docs/en/shared_content/style_guide.md:275
+#, fuzzy
 msgid ""
 "For example, if you wanted to be able to link to this section using `custom-"
 "anchors`, you would format the header as follows:"
 msgstr ""
+"Wenn Sie z.B. mit Hilfe von `custom-anchors` auf diesen Abschnitt verlinken "
+"wollen, würden Sie die Kopfzeile wie folgt formatieren:"
 
 #: docs/en/shared_content/style_guide.md:281
+#, fuzzy
 msgid ""
 "Once added, you can link to the section from within the same file using a "
-"standard Markdown link, or from another file using the reference link syntax."
+"standard Markdown link, or from another file using the reference link "
+"syntax."
 msgstr ""
+"Nach dem Hinzufügen können Sie innerhalb derselben Datei mit einem Standard-"
+"Markdown-Link oder von einer anderen Datei aus mit der Syntax für "
+"Referenzlinks auf den Abschnitt verweisen."
 
 #: docs/en/shared_content/style_guide.md:283
+#, fuzzy
 msgid "Code block tricks"
-msgstr ""
+msgstr "Codeblock-Tricks"
 
 #: docs/en/shared_content/style_guide.md:285
+#, fuzzy
 msgid "Language and code highlighting"
-msgstr ""
+msgstr "Sprache und Codehervorhebung"
 
 #: docs/en/shared_content/style_guide.md:287
+#, fuzzy
 msgid ""
 "You can specify the language for the code contained within the codeblock by "
 "including the language name after the first three backticks, with no space "
 "between. This results in appropriate code highlighting when the code "
-"rendered. For example, to specify Python, you would begin the codeblock with "
-"` ```python`."
+"rendered. For example, to specify Python, you would begin the codeblock with"
+" ` ```python`."
 msgstr ""
+"Sie können die Sprache für den im Codeblock enthaltenen Code angeben, indem "
+"Sie den Sprachnamen nach den ersten drei Backticks einfügen, ohne "
+"Leerzeichen dazwischen. Dies führt zu einer entsprechenden Hervorhebung des "
+"Codes, wenn der Code gerendert wird. Um zum Beispiel Python anzugeben, "
+"beginnen Sie den Codeblock mit ```python``."
 
 #: docs/en/shared_content/style_guide.md:289
+#, fuzzy
 msgid "Console commands and the copy button"
-msgstr ""
+msgstr "Konsolenbefehle und die Schaltfläche Kopieren"
 
 #: docs/en/shared_content/style_guide.md:291
+#, fuzzy
 msgid ""
-"If you are including console commands, or commands with output, if you label "
-"it as `console` or `doscon`, depending on what operating system you are "
-"referencing, you can include the prompt, and only the command will be copied "
-"when clicking the copy button. For example, if you begin a codeblock with ` "
-"```console `, and include the following content:"
+"If you are including console commands, or commands with output, if you label"
+" it as `console` or `doscon`, depending on what operating system you are "
+"referencing, you can include the prompt, and only the command will be copied"
+" when clicking the copy button. For example, if you begin a codeblock with `"
+" ```console `, and include the following content:"
 msgstr ""
+"Wenn Sie Konsolenbefehle oder Befehle mit Ausgabe einschließen, können Sie "
+"die Eingabeaufforderung einschließen, wenn Sie sie als `console` oder "
+"`doscon` bezeichnen, je nachdem, auf welches Betriebssystem Sie sich "
+"beziehen, und nur der Befehl wird kopiert, wenn Sie auf die Schaltfläche "
+"Kopieren klicken. Wenn Sie zum Beispiel einen Codeblock mit \"Konsole\" "
+"beginnen und den folgenden Inhalt einschließen:"
 
 #: docs/en/shared_content/style_guide.md:299
+#, fuzzy
 msgid ""
-"Then, clicking the copy button on the codeblock will copy only the commands, "
-"and ignore the prompts and the output. This allows you to indicate that they "
-"are console commands, while still allowing users to use the copy button "
-"effectively."
+"Then, clicking the copy button on the codeblock will copy only the commands,"
+" and ignore the prompts and the output. This allows you to indicate that "
+"they are console commands, while still allowing users to use the copy button"
+" effectively."
 msgstr ""
+"Wenn Sie dann auf die Kopierschaltfläche des Codeblocks klicken, werden nur "
+"die Befehle kopiert, die Eingabeaufforderungen und die Ausgabe werden "
+"ignoriert. Auf diese Weise können Sie angeben, dass es sich um "
+"Konsolenbefehle handelt, während die Benutzer die Kopierschaltfläche dennoch"
+" effektiv nutzen können."
 
 #: docs/en/shared_content/style_guide.md:301
+#, fuzzy
 msgid "Highlighting specific lines of code"
-msgstr ""
+msgstr "Hervorhebung bestimmter Codezeilen"
 
 #: docs/en/shared_content/style_guide.md:303
+#, fuzzy
 msgid ""
 "You can highlight specific lines of code. For example, to highlight line 2, "
 "you would add a space after the language, followed by `{hl_lines=\"2\"}`. "
 "So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The "
 "result is:"
 msgstr ""
+"Sie können bestimmte Codezeilen hervorheben. Um zum Beispiel Zeile 2 "
+"hervorzuheben, fügen Sie ein Leerzeichen nach der Sprache ein, gefolgt von "
+"`{hl_lines=\"2\"}`. Ihr Codeblock würde also mit ` ```python "
+"{hl_lines=\"2\"} `. Das Ergebnis ist:"
 
 #: docs/en/shared_content/style_guide.md:310
+#, fuzzy
 msgid ""
-"You can highlight multiple different lines. For example, `python {hl_lines="
-"\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also highlight a range "
-"of lines. For example, `python {hl_lines=\"3-8\"}` highlights lines 3 "
-"through 8. You can highlight multiple ranges with, for example, `python "
-"{hl_lines=\"9-18 23-44\"}`."
+"You can highlight multiple different lines. For example, `python "
+"{hl_lines=\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also "
+"highlight a range of lines. For example, `python {hl_lines=\"3-8\"}` "
+"highlights lines 3 through 8. You can highlight multiple ranges with, for "
+"example, `python {hl_lines=\"9-18 23-44\"}`."
 msgstr ""
+"Sie können mehrere verschiedene Zeilen hervorheben. Zum Beispiel würde "
+"`python {hl_lines=\"3 5 9\"}` die Zeilen 3, 5 und 9 hervorheben. Sie können "
+"auch einen Bereich von Zeilen hervorheben. Zum Beispiel hebt `python "
+"{hl_lines=\"3-8\"}` die Zeilen 3 bis 8 hervor. Sie können mehrere Bereiche "
+"hervorheben, z. B. mit `python {hl_lines=\"9-18 23-44\"}`."
 
 #: docs/en/shared_content/style_guide.md:312
+#, fuzzy
 msgid "Using Snippets to include external content"
-msgstr ""
+msgstr "Verwendung von Snippets zur Einbindung externer Inhalte"
 
 #: docs/en/shared_content/style_guide.md:314
+#, fuzzy
 msgid ""
 "For details on how to include external content from a local file or a URL, "
 "see the [Snippets documentation]{1}."
 msgstr ""
+"Wie Sie externe Inhalte aus einer lokalen Datei oder einer URL einbinden, "
+"erfahren Sie in der [Snippets-Dokumentation]{1}."
 
 #: docs/en/shared_content/style_guide.md:316
+#, fuzzy
 msgid "Two important notes:"
-msgstr ""
+msgstr "Zwei wichtige Hinweise:"
 
 #: docs/en/shared_content/style_guide.md:318
+#, fuzzy
 msgid ""
 "We use `-8<-` as the Snippets identifier. The documentation shows several "
 "options; please follow our style."
 msgstr ""
+"Wir verwenden `-8<-` als Snippets-Bezeichner. Die Dokumentation zeigt "
+"mehrere Optionen; bitte folgen Sie unserem Stil."
 
 #: docs/en/shared_content/style_guide.md:319
+#, fuzzy
 msgid ""
 "If you are including external content from a file on GitHub via a URL, you "
 "_must_ use the raw content URL, or it will render the webpage embedded "
 "wherever you include it."
 msgstr ""
+"Wenn Sie externe Inhalte aus einer Datei auf GitHub über eine URL einbinden,"
+" _müssen_ Sie die URL des Rohinhalts verwenden, sonst wird die Webseite "
+"eingebettet dargestellt, wo immer Sie sie einbinden."
 
 #: docs/en/shared_content/style_guide.md:321
+#, fuzzy
 msgid "Image formatting"
-msgstr ""
+msgstr "Bildformatierung"
 
 #: docs/en/shared_content/style_guide.md:323
+#, fuzzy
 msgid ""
-"Images can have the width set, and can be aligned left, right, and center ("
-"with a caveat on \"center\")."
+"Images can have the width set, and can be aligned left, right, and center "
+"(with a caveat on \"center\")."
 msgstr ""
+"Für Bilder kann die Breite festgelegt werden, und sie können links, rechts "
+"und mittig ausgerichtet werden (mit einem Vorbehalt bei \"mittig\")."
 
 #: docs/en/shared_content/style_guide.md:325
+#, fuzzy
 msgid ""
 "Setting the width of {1}300px{2} on an image would be formatted as follows:"
 msgstr ""
+"Die Einstellung der Breite von {1}300px{2} auf einem Bild würde wie folgt "
+"formatiert werden:"
 
 #: docs/en/shared_content/style_guide.md:331
+#, fuzzy
 msgid "Aligning an image left (or right) would be formatted as follows:"
 msgstr ""
+"Ein Bild links (oder rechts) auszurichten, würde folgendermaßen formatiert "
+"werden:"
 
 #: docs/en/shared_content/style_guide.md:337
+#, fuzzy
 msgid ""
 "Aligning an image center is not possible with the `align` attribute. The "
 "workaround is to follow the image with an empty caption, and it will be "
 "centered. You must include newlines between each section, and before and "
 "after. It is formatted as follows:"
 msgstr ""
+"Das Ausrichten eines Bildes in der Mitte ist mit dem Attribut `align` nicht "
+"möglich. Die Abhilfe besteht darin, dem Bild eine leere Beschriftung folgen "
+"zu lassen, damit es zentriert wird. Zwischen den einzelnen Abschnitten sowie"
+" davor und danach müssen Sie Zeilenumbrüche einfügen. Die Beschriftung wird "
+"wie folgt formatiert:"
 
 #: docs/en/shared_content/style_guide.md:347
+#, fuzzy
 msgid "`pyspelling`"
-msgstr ""
+msgstr "Rechtschreibfehler"
 
 #: docs/en/shared_content/style_guide.md:349
-msgid "We use the `pyspelling` spellchecker. It is run during the lint-checks."
+#, fuzzy
+msgid ""
+"We use the `pyspelling` spellchecker. It is run during the lint-checks."
 msgstr ""
+"Wir verwenden die `pyspelling`-Rechtschreibprüfung. Sie wird während der "
+"Lint-Prüfungen ausgeführt."
 
 #: docs/en/shared_content/style_guide.md:351
+#, fuzzy
 msgid ""
 "When `pyspelling` identifies a misspelled word, in most cases, it should be "
 "fixed in the documentation content."
 msgstr ""
+"Wenn `pyspelling` ein falsch geschriebenes Wort identifiziert, sollte es in "
+"den meisten Fällen im Inhalt der Dokumentation korrigiert werden."
 
 #: docs/en/shared_content/style_guide.md:353
+#, fuzzy
 msgid ""
 "In the rare case that it identifies a valid word that isn't in the "
 "`pyspelling` dictionary, you have two options:"
 msgstr ""
+"In dem seltenen Fall, dass ein gültiges Wort gefunden wird, das nicht im "
+"Wörterbuch \"pyspelling\" enthalten ist, haben Sie zwei Möglichkeiten:"
 
 #: docs/en/shared_content/style_guide.md:355
+#, fuzzy
 msgid ""
 "If it is a word that is likely to be reused multiple times, you should add "
 "the word to the `spelling_wordlist` document in the `docs` directory, in "
 "alphabetical order."
 msgstr ""
+"Wenn es sich um ein Wort handelt, das wahrscheinlich mehrfach verwendet "
+"wird, sollten Sie das Wort in alphabetischer Reihenfolge in das Dokument "
+"`spelling_wordlist` im Verzeichnis `docs` aufnehmen."
 
 #: docs/en/shared_content/style_guide.md:356
+#, fuzzy
 msgid ""
 "If it is a word that is unlikely to be used again, you can wrap it in a "
 "`<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline."
 msgstr ""
+"Wenn es sich um ein Wort handelt, das wahrscheinlich nicht wieder verwendet "
+"wird, können Sie es in ein `<nospell>` / `</nospell>`-Tag verpacken, und "
+"`pyspelling` wird es inline ignorieren."

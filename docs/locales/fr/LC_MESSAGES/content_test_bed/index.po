@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 20:21-0400\n"
+"POT-Creation-Date: 2025-09-03 07:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,10 +13,12 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/content_test_bed/index.md:1
+#, fuzzy
 msgid "Shared content test bed"
-msgstr ""
+msgstr "Banc d'essai pour le contenu partagé"
 
 #: docs/en/content_test_bed/index.md:3
+#, fuzzy
 msgid ""
 "This section is included for the purposes of verifying the shared content "
 "provided from this repo for use in the rest of the BeeWare documentation. "
@@ -24,56 +27,91 @@ msgid ""
 "those repos. This means there is a single source when updates are required, "
 "and that change will populate across all repos using that shared content."
 msgstr ""
+"Cette section est incluse dans le but de vérifier le contenu partagé fourni "
+"par ce dépôt pour l'utiliser dans le reste de la documentation BeeWare. Le "
+"\"contenu partagé\" fait référence à des documents ou des sections de "
+"documents qui sont communs à plusieurs autres dépôts. Ils sont stockés ici "
+"pour être inclus dans tous ces dépôts. Cela signifie qu'il n'y a qu'une "
+"seule source lorsque des mises à jour sont nécessaires, et que le changement"
+" sera répercuté dans tous les dépôts utilisant ce contenu partagé."
 
 #: docs/en/content_test_bed/index.md:5
+#, fuzzy
 msgid ""
-"If you are updating existing content, the following steps are not necessary. "
-"You can simply build the test site, and see your updates rendered."
+"If you are updating existing content, the following steps are not necessary."
+" You can simply build the test site, and see your updates rendered."
 msgstr ""
+"Si vous mettez à jour un contenu existant, les étapes suivantes ne sont pas "
+"nécessaires. Vous pouvez simplement créer le site de test et voir le rendu "
+"de vos mises à jour."
 
 #: docs/en/content_test_bed/index.md:7
+#, fuzzy
 msgid ""
 "If you are creating a new shared documentation file in the `shared-content` "
 "directory, complete the following:"
 msgstr ""
+"Si vous créez un nouveau fichier de documentation partagée dans le "
+"répertoire `shared-content`, effectuez les opérations suivantes :"
 
 #: docs/en/content_test_bed/index.md:9
+#, fuzzy
 msgid ""
 "Create a file in the `content_test_bed` that is the same filename as your "
 "new content file, with \"_include\" appended to the end."
 msgstr ""
+"Créez un fichier dans le `content_test_bed` qui a le même nom que votre "
+"nouveau fichier de contenu, avec \"_include\" ajouté à la fin."
 
 #: docs/en/content_test_bed/index.md:9
+#, fuzzy
 msgid "For `style_guide.md`, you would add `style_guide_include.md`."
-msgstr ""
+msgstr "Pour `style_guide.md`, vous devez ajouter `style_guide_include.md`."
 
 #: docs/en/content_test_bed/index.md:11
+#, fuzzy
 msgid ""
 "Using the Snippets syntax, add the filename to `filename_include.md`. The "
 "Snippets syntax for including content is `-8<- \"filename.md\"`."
 msgstr ""
+"En utilisant la syntaxe des Snippets, ajoutez le nom de fichier à "
+"`filename_include.md`. La syntaxe Snippets pour inclure du contenu est `-8<-"
+" \"filename.md\"`."
 
 #: docs/en/content_test_bed/index.md:11
+#, fuzzy
 msgid ""
 "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to "
 "`style_guide_include.md`."
 msgstr ""
+"Pour `style_guide.md`, vous devez ajouter `-8<- \"style_guide.md\"`à "
+"`style_guide_include.md`."
 
 #: docs/en/content_test_bed/index.md:13
+#, fuzzy
 msgid ""
 "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to "
 "include the new `_include` file and path, at the same indentation level as "
 "the other items in that section."
 msgstr ""
+"Mettre à jour la section `Shared content test bed` dans `/docs/SUMMARY.md` "
+"pour inclure le nouveau fichier `_include` et le chemin, au même niveau "
+"d'indentation que les autres éléments de cette section."
 
 #: docs/en/content_test_bed/index.md:13
+#, fuzzy
 msgid ""
-"For `style_guide_include.md`, you would add `- [Style guide]("
-"content_test_bed/style_guide_include.md)`."
+"For `style_guide_include.md`, you would add `- [Style "
+"guide](content_test_bed/style_guide_include.md)`."
 msgstr ""
+"Pour `style_guide_include.md`, vous devez ajouter `- [Style "
+"guide](content_test_bed/style_guide_include.md)`."
 
 #: docs/en/content_test_bed/index.md:16
+#, fuzzy
 msgid ""
 "Once these steps are completed, you can build the test site and view your "
 "new documentation rendered."
 msgstr ""
+"Une fois ces étapes terminées, vous pouvez créer le site de test et "
+"visualiser votre nouvelle documentation rendue."

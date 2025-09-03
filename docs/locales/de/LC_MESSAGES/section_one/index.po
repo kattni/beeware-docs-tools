@@ -1,9 +1,10 @@
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 20:21-0400\n"
+"POT-Creation-Date: 2025-09-03 07:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,62 +14,89 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/section_one/index.md:1
+#, fuzzy
 msgid "BeeWare Docs Tools Demo section one"
-msgstr ""
+msgstr "BeeWare Docs Tools Demo Abschnitt eins"
 
 #: docs/en/section_one/index.md:3
+#, fuzzy
 msgid "Non-homepage sidebar logo"
-msgstr ""
+msgstr "Logo in der Seitenleiste (nicht auf der Homepage)"
 
 #: docs/en/section_one/index.md:5
+#, fuzzy
 msgid ""
 "The logo icon in the left sidebar should be small on all pages other than "
 "the homepage. The site title and version number should be rendered next to "
 "it with the site title in slightly larger font, and the version number in "
 "smaller font."
 msgstr ""
+"Das Logo-Symbol in der linken Seitenleiste sollte auf allen anderen Seiten "
+"als der Startseite klein sein. Der Titel der Website und die Versionsnummer "
+"sollten daneben angezeigt werden, wobei der Titel der Website in etwas "
+"größerer Schrift und die Versionsnummer in kleinerer Schrift dargestellt "
+"werden sollte."
 
 #: docs/en/section_one/index.md:7
+#, fuzzy
 msgid "This verifies that the theme is being properly applied."
-msgstr ""
+msgstr "Damit wird überprüft, ob das Thema richtig angewendet wird."
 
 #: docs/en/section_one/index.md:9
+#, fuzzy
 msgid "Include external markdown from a local file"
-msgstr ""
+msgstr "Externes Markdown aus einer lokalen Datei einbinden"
 
 #: docs/en/section_one/index.md:11
+#, fuzzy
 msgid ""
-"The following section should have only a header, and a paragraph with inline "
-"code followed by a code block. There should be no text between the code "
-"block and the next header. This verifies that the external include extension "
-"is working with local files."
+"The following section should have only a header, and a paragraph with inline"
+" code followed by a code block. There should be no text between the code "
+"block and the next header. This verifies that the external include extension"
+" is working with local files."
 msgstr ""
+"Der folgende Abschnitt sollte nur aus einer Überschrift und einem Absatz mit"
+" Inline-Code, gefolgt von einem Codeblock, bestehen. Zwischen dem Codeblock "
+"und der nächsten Überschrift sollte kein Text stehen. Damit wird "
+"sichergestellt, dass die externe Include-Erweiterung mit lokalen Dateien "
+"arbeitet."
 
 #: docs/en/section_one/index.md:13
+#, fuzzy
 msgid "-8<- \"include_content.md:local-content\""
-msgstr ""
+msgstr "-8<- \"include_content.md:local-content\""
 
 #: docs/en/section_one/index.md:15
+#, fuzzy
 msgid "Include external markdown from a URL"
-msgstr ""
+msgstr "Externes Markdown von einer URL einbinden"
 
 #: docs/en/section_one/index.md:17
+#, fuzzy
 msgid ""
 "The following section should have only a header, some text and a Markdown "
-"list. This verifies that the external include extension is working, and that "
-"`url_download` is enabled."
+"list. This verifies that the external include extension is working, and that"
+" `url_download` is enabled."
 msgstr ""
+"Der folgende Abschnitt sollte nur eine Überschrift, etwas Text und eine "
+"Markdown-Liste enthalten. Damit wird überprüft, ob die externe Include-"
+"Erweiterung funktioniert und ob \"url_download\" aktiviert ist."
 
 #: docs/en/section_one/index.md:19
+#, fuzzy
 msgid ""
-"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/"
-"main/docs/include_content.md:remote-content -8<-"
+"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-"
+"tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
 msgstr ""
+"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-"
+"tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
 
 #: docs/en/section_one/index.md:23
+#, fuzzy
 msgid "Footer navigation"
-msgstr ""
+msgstr "Navigation in der Fußzeile"
 
 #: docs/en/section_one/index.md:25
+#, fuzzy
 msgid "Navigate to *Section One - Page Two* for the final check."
-msgstr ""
+msgstr "Navigieren Sie zu *Abschnitt Eins - Seite Zwei* für die Endkontrolle."

@@ -1,9 +1,10 @@
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 20:21-0400\n"
+"POT-Creation-Date: 2025-09-03 07:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,37 +14,46 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/SUMMARY.md:1
+#, fuzzy
 msgid "BeeWare Docs Tools Demo section one"
-msgstr ""
+msgstr "BeeWare Docs Tools Demo Abschnitt eins"
 
 #: docs/en/SUMMARY.md:1
+#, fuzzy
 msgid "[BeeWare Docs Tools Demo section one]{1}"
-msgstr ""
+msgstr "[BeeWare Docs Tools Demo Abschnitt eins]{1}"
 
 #: docs/en/SUMMARY.md:1
+#, fuzzy
 msgid "[Section one - page two]{1}"
-msgstr ""
+msgstr "[Abschnitt eins - Seite zwei]{1}"
 
 #: docs/en/SUMMARY.md:4
+#, fuzzy
 msgid "[Section two]{1}"
-msgstr ""
+msgstr "[Abschnitt zwei]{1}"
 
 #: docs/en/SUMMARY.md:5
+#, fuzzy
 msgid "[Section three]{1}"
-msgstr ""
+msgstr "[Abschnitt drei]{1}"
 
 #: docs/en/SUMMARY.md:5
+#, fuzzy
 msgid "./section_three/*"
-msgstr ""
+msgstr "./section_three/*"
 
 #: docs/en/SUMMARY.md:7
+#, fuzzy
 msgid "Shared content test bed"
-msgstr ""
+msgstr "Prüfstand für gemeinsam genutzte Inhalte"
 
 #: docs/en/SUMMARY.md:7
+#, fuzzy
 msgid "[Shared content test bed]{1}"
-msgstr ""
+msgstr "[Prüfstand für gemeinsam genutzte Inhalte]{1}"
 
 #: docs/en/SUMMARY.md:7
+#, fuzzy
 msgid "[Style guide]{1}"
-msgstr ""
+msgstr "[Style guide]{1}"

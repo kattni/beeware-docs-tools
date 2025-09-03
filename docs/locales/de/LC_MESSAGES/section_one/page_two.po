@@ -1,9 +1,10 @@
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 20:21-0400\n"
+"POT-Creation-Date: 2025-09-03 07:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,32 +14,48 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/section_one/page_two.md:1
+#, fuzzy
 msgid "BeeWare Docs Tools Demo section one: page two"
-msgstr ""
+msgstr "BeeWare Docs Tools Demo Abschnitt eins: Seite zwei"
 
 #: docs/en/section_one/page_two.md:3
+#, fuzzy
 msgid "Footer and navigation links"
-msgstr ""
+msgstr "Fußzeile und Navigationslinks"
 
 #: docs/en/section_one/page_two.md:5
+#, fuzzy
 msgid ""
-"Navigation should render at the bottom of the page; "
-"\"BeeWare Docs Tools Demo Section One\" should be on the left, "
-"\"Section Two\" should be on the right. The footer should be below the "
-"navigation links. This confirms the theme configuration has been applied."
+"Navigation should render at the bottom of the page; \"BeeWare Docs Tools "
+"Demo Section One\" should be on the left, \"Section Two\" should be on the "
+"right. The footer should be below the navigation links. This confirms the "
+"theme configuration has been applied."
 msgstr ""
+"Die Navigation sollte am unteren Rand der Seite dargestellt werden; "
+"\"BeeWare Docs Tools Demo Section One\" sollte auf der linken Seite, "
+"\"Section Two\" sollte auf der rechten Seite stehen. Die Fußzeile sollte "
+"sich unter den Navigationslinks befinden. Dies bestätigt, dass die "
+"Themenkonfiguration angewendet wurde."
 
 #: docs/en/section_one/page_two.md:7
+#, fuzzy
 msgid "Class reference documentation"
-msgstr ""
+msgstr "Klassenreferenzdokumentation"
 
 #: docs/en/section_one/page_two.md:9
+#, fuzzy
 msgid ""
 "The following should show the reference documentation for the `DocsTest` "
-"class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. "
-"This verifies that the source code directory symlinking is working properly."
+"class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory."
+" This verifies that the source code directory symlinking is working "
+"properly."
 msgstr ""
+"Das Folgende sollte die Referenzdokumentation für die Klasse `DocsTest` "
+"anzeigen, die sich in `docs_test.py` im Verzeichnis `src/beeware_docs_tools`"
+" befindet. Damit wird überprüft, ob das Symlinking des Quellcode-"
+"Verzeichnisses richtig funktioniert."
 
 #: docs/en/section_one/page_two.md:11
+#, fuzzy
 msgid "::: beeware_docs_tools.docs_test.DocsTest"
-msgstr ""
+msgstr "::: beeware_docs_tools.docs_test.DocsTest"

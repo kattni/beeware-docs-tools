@@ -1,9 +1,10 @@
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 20:21-0400\n"
+"POT-Creation-Date: 2025-09-03 07:04+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,36 +14,51 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.15.6\n"
 
 #: docs/en/section_two/index.md:1
+#, fuzzy
 msgid "BeeWare Docs Tools Demo section two"
-msgstr ""
+msgstr "BeeWare Docs Tools Demo Abschnitt zwei"
 
 #: docs/en/section_two/index.md:3
+#, fuzzy
 msgid "Images subdirectory"
-msgstr ""
+msgstr "Unterverzeichnis Images"
 
 #: docs/en/section_two/index.md:5
+#, fuzzy
 msgid ""
 "Build the French or German translation. The following should be a little "
 "Brutus the Bee."
 msgstr ""
+"Erstellen Sie die französische oder deutsche Übersetzung. Das folgende "
+"sollte ein wenig Brutus die Biene sein."
 
 #: docs/en/section_two/index.md:7
+#, fuzzy
 msgid "![Brutus the Bee]{1}"
-msgstr ""
+msgstr "![Brutus die Biene]{1}"
 
 #: docs/en/section_two/index.md:9
+#, fuzzy
 msgid ""
 "The presence of the image in the French and German builds verifies that the "
 "images subdirectories are being properly symlinked for languages other than "
 "English."
 msgstr ""
+"Das Vorhandensein des Bildes in den französischen und deutschen Builds "
+"beweist, dass die Unterverzeichnisse von images für andere Sprachen als "
+"Englisch richtig verlinkt sind."
 
 #: docs/en/section_two/index.md:11
+#, fuzzy
 msgid "`autoref` linking"
-msgstr ""
+msgstr "autoref\"-Verknüpfung"
 
 #: docs/en/section_two/index.md:13
+#, fuzzy
 msgid ""
 "The link provided here should take you to the [Heading font][heading-font] "
 "section of the main page. It is included to verify `autoref` linking."
 msgstr ""
+"Der hier angegebene Link sollte Sie zum Abschnitt [Überschrift-"
+"Schriftart][Überschrift-Schriftart] auf der Hauptseite führen. Er ist "
+"enthalten, um die `autoref`-Verknüpfung zu überprüfen."
