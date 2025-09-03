@@ -15,68 +15,73 @@ from tempfile import TemporaryDirectory
 # language.
 
 
-def markdown_to_pot(input_dir: Path, output_dir: Path, working_dir: Path) -> None:
+def markdown_to_pot(source_path: Path, working_path: Path) -> None:
     """
-    Run `md2po` with provided input and output directories, with `--pot` flag to generate
-    PO template (POT) files.
+    Run `md2po` with provided input and output directories, with `--pot` flag to
+    generate PO template (POT) files.
 
-    :param input_dir: The directory containing the English Markdown files.
-    :param output_dir: The output directory for the generated PO template (POT) files.
-    :param working_dir: The directory considered `/` for the input file call. This ensures
-                        that the location strings are accurate in the POT and PO files.
-
-    `--duplicates=merge` enforces multiple copies of the same string being shown
+    When invoking `md2po`:
+    * `--duplicates=merge` enforces multiple copies of the same string being shown
         once with multiple locations.
-    `--timestamp` ensures that new files are only generated when there is new content.
+    * `--timestamp` ensures that new files are only generated when there is new
+    content.
+
+    :param source_path: The source directory containing the original English
+        Markdown files, and the template folder containing POT files.
+    :param working_path: The directory considered `/` for the input file call.
+        This ensures that the location strings are accurate in the POT and PO
+        files.
     """
+    # Ensure the output directory exists
+    output_path = Path.cwd() / source_path / "locales/template"
+    output_path.mkdir(parents=True, exist_ok=True)
+
     subprocess.run(
         [
             "md2po",
-            f"--input={input_dir}",
-            f"--output={output_dir}",
+            f"--input={source_path}/en",
+            f"--output={output_path / 'translations.pot'}",
             "--pot",
             "--timestamp",
             "--duplicates=merge",
             "--multifile=onefile",
         ],
         check=True,
-        cwd=working_dir,
+        cwd=working_path,
     )
 
 
-def generate_pot_files(docs_directory: Path) -> None:
+def generate_pot_files(source_path: str) -> None:
     """
-    Generate the PO template (POT) files for the content in the provided directory.
+    Generate the PO template (POT) files for the content in the provided
+    directory.
 
-    :param docs_directory: The directory, relative to the project root, containing the `en`
-                            Markdown content and `locales` translation files directories.
+    :param source_path: The directory, relative to the project root, containing
+        the `en` Markdown content and `locales` translation files directories.
     """
     with TemporaryDirectory() as temp_working_directory:
-        temp_working_directory = Path(temp_working_directory)
+        temp_working_path = Path(temp_working_directory)
 
-        (temp_working_directory / docs_directory).parent.mkdir(
-            parents=True, exist_ok=True
-        )
+        (temp_working_path / source_path).parent.mkdir(parents=True, exist_ok=True)
 
         try:
-            (temp_working_directory / docs_directory).symlink_to(
-                Path.cwd() / docs_directory, target_is_directory=True
+            (temp_working_path / source_path).symlink_to(
+                Path.cwd() / source_path, target_is_directory=True
             )
         except FileExistsError:
             pass
 
         markdown_to_pot(
-            input_dir=(docs_directory / "en"),
-            output_dir=(docs_directory / "locales" / "template" / "translations.pot"),
-            working_dir=temp_working_directory,
+            source_path=source_path,
+            working_path=temp_working_path,
         )
 
 
 def main():
     # Generate primary content POT files.
-    generate_pot_files(Path("docs"))
+    generate_pot_files("docs")
     # # Generate shared content POT files.
-    generate_pot_files(Path("src/beeware_docs_tools/shared_content"))
+    generate_pot_files("src/beeware_docs_tools/shared_content")
 
 
 if __name__ == "__main__":
