@@ -96,14 +96,14 @@ def build_docs(config_file: Path, build_dir: Path) -> None:
 def main():
     args = parse_args()
 
+    # If the script fails in the middle, it can leave this symlink in place
+    # which leads to it failing when the script runs again. This check is
+    # meant to deal with that possibility.
+    if (SOURCE_DIR / "docs" / "en" / "shared_content").exists():
+        Path(SOURCE_DIR / "docs" / "en" / "shared_content").unlink(missing_ok=True)
+
     with TemporaryDirectory() as temp_md_directory:
         temp_md_directory = Path(temp_md_directory)
-
-        # If the script fails in the middle, it can leave this symlink in place
-        # which leads to it failing when the script runs again. This check is
-        # meant to deal with that possibility.
-        if (SOURCE_DIR / "docs" / "en" / "shared_content").exists():
-            Path(SOURCE_DIR / "docs" / "en" / "shared_content").unlink(missing_ok=True)
 
         # If source code directory or directories provided, symlink to the
         # temp directory so it is available relative to the build.
@@ -169,7 +169,8 @@ def main():
                 # Symlink shared content directory to the temp directory, so it is
                 # available relative to the build.
                 (temp_md_directory / f"shared_content_{language}").symlink_to(
-                    Path(__file__).parent / "shared_content", target_is_directory=True
+                    Path(__file__).parent / "shared_content" / "en",
+                    target_is_directory=True,
                 )
 
                 # Generate translated primary content
@@ -178,7 +179,7 @@ def main():
                     / "docs"
                     / "locales"
                     / language
-                    / "LC_MESSAGES",
+                    / "translations.po",
                     template_dir=SOURCE_DIR / "docs" / "en",
                     output_dir=output_directory,
                 )
@@ -189,7 +190,7 @@ def main():
                     / "shared_content"
                     / "locales"
                     / language
-                    / "LC_MESSAGES",
+                    / "translations.po",
                     template_dir=temp_md_directory / f"shared_content_{language}",
                     output_dir=sc_output_directory,
                 )
@@ -214,7 +215,8 @@ def main():
                 )
                 # Symlink shared content English Markdown files for en build.
                 (temp_md_directory / "en" / "shared_content").symlink_to(
-                    Path(__file__).parent / "shared_content", target_is_directory=True
+                    Path(__file__).parent / "shared_content" / "en",
+                    target_is_directory=True,
                 )
 
             # Build documentation in provided language.

@@ -73,7 +73,9 @@ def main():
         try:
             version = metadata(config_file["extra"]["package_name"])["version"]
             config_file["extra"]["version"] = version
-            shared_content_path = (Path(__file__).parent / "shared_content").resolve()
+            shared_content_path = (
+                Path(__file__).parent / "shared_content" / "en"
+            ).resolve()
             config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
                 "docs",
                 f"{shared_content_path}",

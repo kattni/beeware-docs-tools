@@ -35,8 +35,9 @@ def markdown_to_pot(input_dir: Path, output_dir: Path, working_dir: Path) -> Non
             f"--input={input_dir}",
             f"--output={output_dir}",
             "--pot",
-            "--duplicates=merge",
             "--timestamp",
+            "--duplicates=merge",
+            "--multifile=onefile",
         ],
         check=True,
         cwd=working_dir,
@@ -66,7 +67,7 @@ def generate_pot_files(docs_directory: Path) -> None:
 
         markdown_to_pot(
             input_dir=(docs_directory / "en"),
-            output_dir=(docs_directory / "locales" / "templates"),
+            output_dir=(docs_directory / "locales" / "template" / "translations.pot"),
             working_dir=temp_working_directory,
         )
 

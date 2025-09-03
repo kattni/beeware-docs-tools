@@ -69,12 +69,9 @@ def generate_po_files(docs_directory: Path) -> None:
 
             # Generates PO files from POT files into a temporary destination directory.
             pot_to_po(
-                source_dir=docs_directory / "locales" / Path(language) / "LC_MESSAGES",
-                template_dir=docs_directory / "locales" / "templates",
-                destination_dir=temp_destination_dir
-                / docs_directory
-                / Path(language)
-                / "LC_MESSAGES",
+                source_dir=docs_directory / "locales" / Path(language),
+                template_dir=docs_directory / "locales" / "template",
+                destination_dir=temp_destination_dir / docs_directory / Path(language),
             )
 
             # Copies the contents of the temp destination directory into the final
