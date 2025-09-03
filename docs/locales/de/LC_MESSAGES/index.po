@@ -1,10 +1,9 @@
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 07:04+0800\n"
+"POT-Creation-Date: 2025-09-01 20:21-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,8 +74,8 @@ msgstr "Symbol für die Seitenleiste der Homepage"
 msgid ""
 "The logo icon in the left sidebar has been rendered. The logo should be the "
 "width of, and of equal height to, the sidebar. The site title should be "
-"rendered below it in slightly larger font than the rest of the sidebar, with"
-" the version number below it in smaller font."
+"rendered below it in slightly larger font than the rest of the sidebar, with "
+"the version number below it in smaller font."
 msgstr ""
 "Das Logo-Symbol in der linken Seitenleiste wurde gerendert. Das Logo sollte "
 "die gleiche Breite und Höhe haben wie die Seitenleiste. Der Titel der "
@@ -154,8 +153,12 @@ msgstr ""
 msgid "/// tab | macOS"
 msgstr "/// tabs | macOS"
 
-#: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59
-#: docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
+#: docs/en/index.md:43
+#: docs/en/index.md:51
+#: docs/en/index.md:59
+#: docs/en/index.md:100
+#: docs/en/index.md:110
+#: docs/en/index.md:120
 #, fuzzy
 msgid "///"
 msgstr "///"
@@ -187,13 +190,13 @@ msgstr ""
 #: docs/en/index.md:69
 #, fuzzy
 msgid ""
-"The copy button on the following codeblock should result in `ls beeware-"
-"docs-tools` being copied to the clipboard. The shell prompt and the output "
-"should not be included."
+"The copy button on the following codeblock should result in `ls beeware-docs-"
+"tools` being copied to the clipboard. The shell prompt and the output should "
+"not be included."
 msgstr ""
-"Die Kopierschaltfläche des folgenden Codeblocks sollte dazu führen, dass `ls"
-" beeware-docs-tools` in die Zwischenablage kopiert wird. Der Shell-Prompt "
-"und die Ausgabe sollten nicht enthalten sein."
+"Die Kopierschaltfläche des folgenden Codeblocks sollte dazu führen, dass `ls "
+"beeware-docs-tools` in die Zwischenablage kopiert wird. Der Shell-Prompt und "
+"die Ausgabe sollten nicht enthalten sein."
 
 #: docs/en/index.md:78
 #, fuzzy
@@ -208,10 +211,10 @@ msgid ""
 "has been set in the MkDocs configuration file, and the version number is "
 "computed and added."
 msgstr ""
-"Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-"
-"tools\"-Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste "
-"geladen wurde und der \"Projektname\" in der MkDocs-Konfigurationsdatei "
-"gesetzt wurde, und die Versionsnummer wird berechnet und hinzugefügt."
+"Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-tools\"-"
+"Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste geladen wurde "
+"und der \"Projektname\" in der MkDocs-Konfigurationsdatei gesetzt wurde, und "
+"die Versionsnummer wird berechnet und hinzugefügt."
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -241,8 +244,8 @@ msgid ""
 "When scrolling down the page, the active header link in the right sidebar "
 "should be light blue in dark mode, and darker blue in light mode."
 msgstr ""
-"Wenn Sie auf der Seite nach unten scrollen, sollte der aktive Header-Link in"
-" der rechten Seitenleiste im dunklen Modus hellblau und im hellen Modus "
+"Wenn Sie auf der Seite nach unten scrollen, sollte der aktive Header-Link in "
+"der rechten Seitenleiste im dunklen Modus hellblau und im hellen Modus "
 "dunkler blau sein."
 
 #: docs/en/index.md:90
@@ -253,14 +256,15 @@ msgstr "Übersetzung Ermahnung"
 #: docs/en/index.md:92
 #, fuzzy
 msgid ""
-"The English-language version of this document should show the \"Translations"
-" are available\" admonition below. The French translation should show the "
-"\"This is a machine translation!\" admonition. The German translation should"
-" show the \"This is a translation!\" admonition for human translations."
+"The English-language version of this document should show the "
+"\"Translations are available\" admonition below. The French translation "
+"should show the \"This is a machine translation!\" admonition. The German "
+"translation should show the \"This is a translation!\" admonition for human "
+"translations."
 msgstr ""
 "Die englischsprachige Version dieses Dokuments sollte den Hinweis "
-"\"Translations are available\" anzeigen. Die französische Übersetzung sollte"
-" den Hinweis \"Dies ist eine maschinelle Übersetzung\" enthalten. Die "
+"\"Translations are available\" anzeigen. Die französische Übersetzung sollte "
+"den Hinweis \"Dies ist eine maschinelle Übersetzung\" enthalten. Die "
 "deutsche Übersetzung sollte den Hinweis \"Dies ist eine Übersetzung\" für "
 "menschliche Übersetzungen enthalten."
 
@@ -283,7 +287,9 @@ msgstr ""
 "Wenn Sie mit der englischen Sprache nicht zurechtkommen, sind Übersetzungen "
 "der Docs Tools in [Français]{1} und [Deutsch]{2} verfügbar."
 
-#: docs/en/index.md:102 docs/en/index.md:112 docs/en/index.md:122
+#: docs/en/index.md:102
+#: docs/en/index.md:112
+#: docs/en/index.md:122
 #, fuzzy
 msgid "{% endif %}"
 msgstr "{% endif %}"
@@ -302,12 +308,12 @@ msgstr "/// Ermahnung | Dies ist eine maschinelle Übersetzung!"
 #, fuzzy
 msgid ""
 "This version of the tutorial has been generated by machine translation. We "
-"know this isn't ideal, but we felt that a bad translation was better than no"
-" translation at all."
+"know this isn't ideal, but we felt that a bad translation was better than no "
+"translation at all."
 msgstr ""
 "Diese Version des Tutorials wurde durch maschinelle Übersetzung erstellt. "
-"Wir wissen, dass dies nicht ideal ist, aber wir waren der Meinung, dass eine"
-" schlechte Übersetzung besser ist als gar keine Übersetzung."
+"Wir wissen, dass dies nicht ideal ist, aber wir waren der Meinung, dass eine "
+"schlechte Übersetzung besser ist als gar keine Übersetzung."
 
 #: docs/en/index.md:114
 #, fuzzy
@@ -326,8 +332,8 @@ msgid ""
 "been reviewed by humans, but newer sections may be generated by machine "
 "translation, or not translated at all."
 msgstr ""
-"Dieses Dokument ist eine Übersetzung der englischen Version. Die Übersetzung"
-" wurde von Menschen überprüft, aber neuere Abschnitte können durch "
+"Dieses Dokument ist eine Übersetzung der englischen Version. Die Übersetzung "
+"wurde von Menschen überprüft, aber neuere Abschnitte können durch "
 "maschinelle Übersetzung erzeugt oder überhaupt nicht übersetzt worden sein."
 
 #: docs/en/index.md:124
@@ -339,14 +345,14 @@ msgstr "Benutzerdefinierte 404-Seite"
 #, fuzzy
 msgid ""
 "Add `nopage` to the end of the URL in your browser to verify the 404 page "
-"exists, and includes the text \"Brutus can't find what you're looking for\"."
-" The current 404 page does not always render the images due to an issue with"
-" MkDocs."
+"exists, and includes the text \"Brutus can't find what you're looking for\". "
+"The current 404 page does not always render the images due to an issue with "
+"MkDocs."
 msgstr ""
 "Fügen Sie `nopage` am Ende der URL in Ihrem Browser ein, um zu überprüfen, "
-"ob die 404-Seite existiert und den Text \"Brutus kann nicht finden, wonach "
-"Sie suchen\" enthält. Die aktuelle 404-Seite zeigt die Bilder aufgrund eines"
-" Problems mit MkDocs nicht immer an."
+"ob die 404-Seite existiert und den Text "
+"\"Brutus kann nicht finden, wonach Sie suchen\" enthält. Die aktuelle 404-"
+"Seite zeigt die Bilder aufgrund eines Problems mit MkDocs nicht immer an."
 
 #: docs/en/index.md:128
 #, fuzzy
@@ -354,9 +360,9 @@ msgid ""
 "*MkDocs builds fail with unrecognized internal links, so you need to "
 "manually verify this check by modifying the URL in your browser.*"
 msgstr ""
-"*MkDocs-Builds schlagen bei nicht erkannten internen Links fehl, so dass Sie"
-" diese Prüfung manuell überprüfen müssen, indem Sie die URL in Ihrem Browser"
-" ändern."
+"*MkDocs-Builds schlagen bei nicht erkannten internen Links fehl, so dass Sie "
+"diese Prüfung manuell überprüfen müssen, indem Sie die URL in Ihrem Browser "
+"ändern."
 
 #: docs/en/index.md:130
 #, fuzzy

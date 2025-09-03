@@ -1,5 +1,6 @@
 import subprocess
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 # This tool is used to generate PO template (POT) files from English Markdown content.
 
@@ -13,22 +14,16 @@ from pathlib import Path
 # they are able to access the translated shared content and build each translated site in a given
 # language.
 
-SOURCE_DIR = Path.cwd()
-SOURCE_DOCS_DIR = SOURCE_DIR / "docs"
-SOURCE_DOCS_EN_DIR = SOURCE_DOCS_DIR / "en"
-LOCAL_DOCS_DIR = Path(__file__).parent / "docs"
-LOCAL_DOCS_EN_DIR = LOCAL_DOCS_DIR / "en"
-LOCAL_SHARED_DIR = Path(__file__).parent / "shared_content"
-DOCS_EN_DIR = Path("docs") / "en"
 
-
-def markdown_to_pot(input_dir: Path, output_dir: Path) -> None:
+def markdown_to_pot(input_dir: Path, output_dir: Path, working_dir: Path) -> None:
     """
     Run `md2po` with provided input and output directories, with `--pot` flag to generate
     PO template (POT) files.
 
     :param input_dir: The directory containing the English Markdown files.
     :param output_dir: The output directory for the generated PO template (POT) files.
+    :param working_dir: The directory considered `/` for the input file call. This ensures
+                        that the location strings are accurate in the POT and PO files.
 
     `--duplicates=merge` enforces multiple copies of the same string being shown
         once with multiple locations.
@@ -44,57 +39,43 @@ def markdown_to_pot(input_dir: Path, output_dir: Path) -> None:
             "--timestamp",
         ],
         check=True,
+        cwd=working_dir,
     )
 
 
-def generate_pot_files(shared_content: bool = False) -> None:
+def generate_pot_files(docs_directory: Path) -> None:
     """
-    Generate the PO template (POT) files for primary or shared content.
+    Generate the PO template (POT) files for the content in the provided directory.
 
-    :param bool shared_content: True when processing shared content. Defaults to False.
-
+    :param docs_directory: The directory, relative to the project root, containing the `en`
+                            Markdown content and `locales` translation files directories.
     """
-    # md2po sets the msgid/msgstr locations to the exact path that is provided as
-    # the input. The following symlinking and subsequent cleanup is necessary for
-    # the locations in the POT (and therefore the PO) files to read `docs/en` on
-    # primary content and `docs/en/shared_content` on shared content.
-    LOCAL_DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    with TemporaryDirectory() as temp_working_directory:
+        temp_working_directory = Path(temp_working_directory)
 
-    # The second symlink relies on the first, so both must happen regardless of
-    # whether primary or shared content is being processed.
-    try:
-        LOCAL_DOCS_EN_DIR.symlink_to(SOURCE_DOCS_EN_DIR, target_is_directory=True)
-    except FileExistsError:
-        pass
+        (temp_working_directory / docs_directory).parent.mkdir(
+            parents=True, exist_ok=True
+        )
 
-    if shared_content:
         try:
-            (LOCAL_DOCS_EN_DIR / "shared_content").symlink_to(
-                LOCAL_SHARED_DIR, target_is_directory=True
+            (temp_working_directory / docs_directory).symlink_to(
+                Path.cwd() / docs_directory, target_is_directory=True
             )
         except FileExistsError:
             pass
 
-    markdown_to_pot(
-        input_dir=(
-            DOCS_EN_DIR if not shared_content else DOCS_EN_DIR / "shared_content"
-        ),
-        output_dir=(SOURCE_DOCS_DIR if not shared_content else LOCAL_SHARED_DIR)
-        / "locales"
-        / "templates",
-    )
-
-    LOCAL_DOCS_EN_DIR.unlink(missing_ok=True)
-    (SOURCE_DOCS_EN_DIR / "shared_content").unlink(missing_ok=True)
-
-    (Path(__file__).parent / "docs").rmdir()
+        markdown_to_pot(
+            input_dir=(docs_directory / "en"),
+            output_dir=(docs_directory / "locales" / "templates"),
+            working_dir=temp_working_directory,
+        )
 
 
 def main():
     # Generate primary content POT files.
-    generate_pot_files()
-    # Generate shared content POT files.
-    generate_pot_files(shared_content=True)
+    generate_pot_files(Path("docs"))
+    # # Generate shared content POT files.
+    generate_pot_files(Path("src/beeware_docs_tools/shared_content"))
 
 
 if __name__ == "__main__":

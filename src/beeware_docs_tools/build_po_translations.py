@@ -17,9 +17,6 @@ from tempfile import TemporaryDirectory
 # they are able to access the translated shared content and build each translated site in a given
 # language.
 
-SOURCE_LOCALES_DIR = Path.cwd() / "docs" / "locales"
-SHARED_LOCALES_DIR = Path(__file__).parent / "shared_content" / "locales"
-
 
 def parse_args() -> Namespace:
     parser = ArgumentParser()
@@ -27,7 +24,7 @@ def parse_args() -> Namespace:
     args = parser.parse_args()
 
     for language_code in args.language_code:
-        if not (SOURCE_LOCALES_DIR / f"{language_code}").is_dir():
+        if not (Path.cwd() / "docs" / "locales" / f"{language_code}").is_dir():
             raise RuntimeError(
                 f'Language code "{language_code}" does not match an existing translation'
             )
@@ -55,11 +52,11 @@ def pot_to_po(source_dir: Path, template_dir: Path, destination_dir: Path) -> No
     )
 
 
-def generate_po_files(shared_content: bool = False) -> None:
+def generate_po_files(docs_directory: Path) -> None:
     """
     Generate PO files from PO template (POT) files.
 
-    :param bool shared_content: True when processing shared content. Defaults to False.
+    :param docs_directory:
 
     """
     args = parse_args()
@@ -68,51 +65,32 @@ def generate_po_files(shared_content: bool = False) -> None:
         temp_destination_dir = Path(temp_destination_dir)
 
         for language in args.language_code:
-            print(
-                f"Processing {'primary' if not shared_content else 'shared'} {language} content"
-            )
-            lang_lc_msgs_dir = Path(language) / "LC_MESSAGES"
+            print(f"Processing {language} content from {docs_directory}")
 
             # Generates PO files from POT files into a temporary destination directory.
             pot_to_po(
-                source_dir=(
-                    SOURCE_LOCALES_DIR if not shared_content else SHARED_LOCALES_DIR
-                )
-                / lang_lc_msgs_dir,
-                template_dir=(
-                    SOURCE_LOCALES_DIR if not shared_content else SHARED_LOCALES_DIR
-                )
-                / "templates",
-                destination_dir=(
-                    temp_destination_dir
-                    if not shared_content
-                    else temp_destination_dir / "shared_content"
-                )
-                / lang_lc_msgs_dir,
+                source_dir=docs_directory / "locales" / Path(language) / "LC_MESSAGES",
+                template_dir=docs_directory / "locales" / "templates",
+                destination_dir=temp_destination_dir
+                / docs_directory
+                / Path(language)
+                / "LC_MESSAGES",
             )
 
             # Copies the contents of the temp destination directory into the final
             # destination directory.
             shutil.copytree(
-                (
-                    temp_destination_dir / language
-                    if not shared_content
-                    else temp_destination_dir / "shared_content"
-                ),
-                (
-                    SOURCE_LOCALES_DIR / language
-                    if not shared_content
-                    else SHARED_LOCALES_DIR
-                ),
+                (temp_destination_dir / docs_directory / language),
+                (docs_directory / "locales" / language),
                 dirs_exist_ok=True,
             )
 
 
 def main():
     # Generate primary content PO files
-    generate_po_files()
+    generate_po_files(Path("docs"))
     # Generate shared content PO files
-    generate_po_files(shared_content=True)
+    generate_po_files(Path("src/beeware_docs_tools/shared_content"))
 
 
 if __name__ == "__main__":
