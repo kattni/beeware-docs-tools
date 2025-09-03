@@ -23,6 +23,7 @@ maintainers = [
 ]
 
 dependencies = [
+    "deepl==1.22.0",
     "markdown-checker==0.2.5",
     "mistletoe==1.4.0",
     "mkdocs-autorefs==1.4.3",
@@ -35,6 +36,7 @@ dependencies = [
     "pyspelling==2.11",
     "python-Levenshtein==0.27.1",
     "PyYAML==6.0.2",
+    "polib==1.2.0",
     "translate-toolkit @ git+https://github.com/translate/translate@aa35159f03f53aa536381643dfafbc2a19a24784",
 ]
 
@@ -57,6 +59,7 @@ build_md_translations = "beeware_docs_tools.build_md_translations:main"
 build_po_translations = "beeware_docs_tools.build_po_translations:main"
 build_pot_translations = "beeware_docs_tools.build_pot_translations:main"
 live_serve_en = "beeware_docs_tools.live_serve_en:main"
+update_machine_translations = "beeware_docs_tools.update_machine_translations:main"
 
 [tool.setuptools]
 include-package-data = true
