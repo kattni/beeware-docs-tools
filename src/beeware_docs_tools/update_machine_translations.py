@@ -75,6 +75,7 @@ def translate(client, path, language):
                         client.translate_text(parts[1], target_lang=language),
                     ]
                 )
+                fuzzy = True
         else:
             translated = client.translate_text(entry.msgid, target_lang=language)
             fuzzy = True
