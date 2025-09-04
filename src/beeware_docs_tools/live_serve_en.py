@@ -59,10 +59,12 @@ def main():
 
         if args.source_code:
             for directory in args.source_code:
-                if "/" in directory:
-                    Path(temp_md_directory / directory).parent.mkdir(
-                        parents=True, exist_ok=True
-                    )
+                # If `directory` includes subdirectories, the parent directory or directories
+                # must be created. If a single directory is provided, this will rely on
+                # `exists_ok=True` to avoid failing.
+                Path(temp_md_directory / directory).parent.mkdir(
+                    parents=True, exist_ok=True
+                )
                 (temp_md_directory / directory).symlink_to(
                     SOURCE_DIR / directory, target_is_directory=True
                 )
@@ -70,18 +72,20 @@ def main():
         config_file = yaml.load(
             open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
         )
+
         try:
             version = metadata(config_file["extra"]["package_name"])["version"]
             config_file["extra"]["version"] = version
-            shared_content_path = (
-                Path(__file__).parent / "shared_content" / "en"
-            ).resolve()
-            config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
-                "docs",
-                f"{shared_content_path}",
-            ]
         except KeyError:
             pass
+
+        shared_content_path = (
+            Path(__file__).parent / "shared_content" / "en"
+        ).resolve()
+        config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
+            "docs",
+            f"{shared_content_path}",
+        ]
 
         with (temp_md_directory / "config.yml").open(
             "w", encoding="utf-8"

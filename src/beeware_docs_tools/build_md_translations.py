@@ -23,30 +23,31 @@ SOURCE_DIR = Path.cwd()
 
 def parse_args() -> Namespace:
     parser = ArgumentParser()
-    parser.add_argument("language_code", nargs="*")
-    parser.add_argument("--output", default=SOURCE_DIR / "_build" / "html")
+    parser.add_argument("language_code", type=Path, nargs="*")
+    parser.add_argument("--output", type=Path, default=SOURCE_DIR / "_build" / "html")
     parser.add_argument("--build-with-warnings", action="store_true")
-    parser.add_argument("--source-code", action="append")
+    parser.add_argument("--source-code", type=Path, action="append")
     args = parser.parse_args()
-    for language_code in args.language_code:
+
+    for language in args.language_code:
         if not (
-            (SOURCE_DIR / "docs" / "locales" / f"{language_code}").is_dir()
-            or language_code == "en"
+            (SOURCE_DIR / "docs" / "locales" / f"{language}").is_dir()
+            or language == Path("en")
         ):
             raise RuntimeError(
-                f'Language code "{language_code}" does not match an existing translation'
+                f'Language code "{language}" does not match an existing translation'
             )
 
     return args
 
 
 def generate_translated_md(
-    input_dir: Path, template_dir: Path, output_dir: Path
+    input_file: Path, template_dir: Path, output_dir: Path
 ) -> None:
     """
     Generate Markdown in a specific language from translated PO files.
 
-    :param input_dir: The directory containing the translated PO files.
+    :param input_file: The directory containing the translated PO file.
     :param template_dir: The directory containing the original (English) Markdown content.
     :param output_dir: The directory for the translated Markdown content.
     :return:
@@ -54,7 +55,7 @@ def generate_translated_md(
     subprocess.run(
         [
             "po2md",
-            f"--input={input_dir}",
+            f"--input={input_file}",
             f"--template={template_dir}",
             f"--output={output_dir}",
             "--fuzzy",
@@ -66,13 +67,14 @@ def generate_translated_md(
 def build_docs(config_file: Path, build_dir: Path) -> None:
     """
     Run `mkdocs build` for a given language.
+
     :param config_file: The path to the language-specific configuration file.
     :param build_dir: The output directory for the site content.
     :return:
     """
     args = parse_args()
 
-    serve_command = [
+    build_command = [
         "python",
         "-m",
         "mkdocs",
@@ -85,10 +87,10 @@ def build_docs(config_file: Path, build_dir: Path) -> None:
     ]
 
     if not args.build_with_warnings:
-        serve_command.extend(["--strict"])
+        build_command.extend(["--strict"])
 
     subprocess.run(
-        serve_command,
+        build_command,
         check=True,
     )
 
@@ -109,10 +111,12 @@ def main():
         # temp directory so it is available relative to the build.
         if args.source_code:
             for directory in args.source_code:
-                if "/" in directory:
-                    Path(temp_md_directory / directory).parent.mkdir(
-                        parents=True, exist_ok=True
-                    )
+                # If directory includes subdirectories, the parent directory
+                # must be created. If a single directory is provided, this
+                # will rely on `exists_ok=True` to avoid failing.
+                Path(temp_md_directory / directory).parent.mkdir(
+                    parents=True, exist_ok=True
+                )
                 (temp_md_directory / directory).symlink_to(
                     SOURCE_DIR / directory, target_is_directory=True
                 )
@@ -159,7 +163,7 @@ def main():
                 SOURCE_DIR / "docs" / f"mkdocs.{language}.yml"
             )
 
-            if language != "en":
+            if language != Path("en"):
                 # Create temp output directories for primary and shared content.
                 output_directory = temp_md_directory / language
                 sc_output_directory = output_directory / "shared_content"
@@ -175,7 +179,7 @@ def main():
 
                 # Generate translated primary content
                 generate_translated_md(
-                    input_dir=SOURCE_DIR
+                    input_file=SOURCE_DIR
                     / "docs"
                     / "locales"
                     / language
@@ -186,7 +190,7 @@ def main():
 
                 # Generate translated shared content
                 generate_translated_md(
-                    input_dir=Path(__file__).parent
+                    input_file=Path(__file__).parent
                     / "shared_content"
                     / "locales"
                     / language

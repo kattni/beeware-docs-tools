@@ -37,7 +37,7 @@ dependencies = [
     "python-Levenshtein==0.27.1",
     "PyYAML==6.0.2",
     "polib==1.2.0",
-    "translate-toolkit @ git+https://github.com/translate/translate@aa35159f03f53aa536381643dfafbc2a19a24784",
+    "translate-toolkit==3.16.0",
 ]
 
 [dependency-groups]

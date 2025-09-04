@@ -23,29 +23,34 @@ def parse_args() -> Namespace:
     parser.add_argument("language_code", nargs="*")
     args = parser.parse_args()
 
-    for language_code in args.language_code:
-        if not (Path.cwd() / "docs" / "locales" / f"{language_code}").is_dir():
+    for language in args.language_code:
+        if not (Path.cwd() / "docs" / "locales" / f"{language}").is_dir():
             raise RuntimeError(
-                f'Language code "{language_code}" does not match an existing translation'
+                f'Language code "{language}" does not match an existing translation'
             )
 
     return args
 
 
-def pot_to_po(source_dir: Path, template_dir: Path, destination_dir: Path) -> None:
+def pot_to_po(
+    source_po_file: Path,
+    pot_file_path_root: Path,
+    destination_dir: Path,
+) -> None:
     """
     Run `pot2po` with the provided directories.
 
-    :param source_dir: The directory containing the existing PO files.
-    :param template_dir: The directory containing the PO template (POT) files.
-    :param destination_dir: The output directory for the updated PO files.
+    :param source_po_file: The existing PO file.
+    :param pot_file_path_root: The directory containing the `locales` directory, relative
+        to the project root.
+    :param destination_dir: The output directory for the updated PO file.
     """
     destination_dir.mkdir(parents=True)
     subprocess.run(
         [
             "pot2po",
-            f"--template={source_dir}",
-            f"--input={template_dir}",
+            f"--template={source_po_file}",
+            f"--input={pot_file_path_root / 'locales' / 'template' / 'translations.pot'}",
             f"--output={destination_dir}",
         ],
         check=True,
@@ -56,7 +61,8 @@ def generate_po_files(docs_directory: Path) -> None:
     """
     Generate PO files from PO template (POT) files.
 
-    :param docs_directory:
+    :param docs_directory: The directory containing the locales directory, relative to the
+        project root.
 
     """
     args = parse_args()
@@ -69,17 +75,18 @@ def generate_po_files(docs_directory: Path) -> None:
 
             # Generates PO files from POT files into a temporary destination directory.
             pot_to_po(
-                source_dir=docs_directory / "locales" / Path(language),
-                template_dir=docs_directory / "locales" / "template",
-                destination_dir=temp_destination_dir / docs_directory / Path(language),
+                source_po_file=docs_directory
+                / "locales"
+                / language
+                / "translations.po",
+                pot_file_path_root=docs_directory,
+                destination_dir=temp_destination_dir / docs_directory / language,
             )
 
-            # Copies the contents of the temp destination directory into the final
-            # destination directory.
-            shutil.copytree(
-                (temp_destination_dir / docs_directory / language),
-                (docs_directory / "locales" / language),
-                dirs_exist_ok=True,
+            # Copies the updated PO file to the `docs` directory.
+            shutil.copyfile(
+                (temp_destination_dir / docs_directory / language / "translations.po"),
+                (docs_directory / "locales" / language / "translations.po"),
             )
 
 

@@ -39,7 +39,7 @@ def markdown_to_pot(source_path: Path, working_path: Path) -> None:
     subprocess.run(
         [
             "md2po",
-            f"--input={source_path}/en",
+            f"--input={source_path / 'en'}",
             f"--output={output_path / 'translations.pot'}",
             "--pot",
             "--timestamp",
@@ -51,37 +51,39 @@ def markdown_to_pot(source_path: Path, working_path: Path) -> None:
     )
 
 
-def generate_pot_files(source_path: str) -> None:
+def generate_pot_files(source: Path) -> None:
     """
     Generate the PO template (POT) files for the content in the provided
     directory.
 
-    :param source_path: The directory, relative to the project root, containing
+    :param source: The directory, relative to the project root, containing
         the `en` Markdown content and `locales` translation files directories.
+        This will become the msg* string location prefix in the generated POT
+        files.
     """
     with TemporaryDirectory() as temp_working_directory:
         temp_working_path = Path(temp_working_directory)
 
-        (temp_working_path / source_path).parent.mkdir(parents=True, exist_ok=True)
+        (temp_working_path / source).parent.mkdir(parents=True, exist_ok=True)
 
         try:
-            (temp_working_path / source_path).symlink_to(
-                Path.cwd() / source_path, target_is_directory=True
+            (temp_working_path / source).symlink_to(
+                Path.cwd() / source, target_is_directory=True
             )
         except FileExistsError:
             pass
 
         markdown_to_pot(
-            source_path=source_path,
+            source_path=source,
             working_path=temp_working_path,
         )
 
 
 def main():
     # Generate primary content POT files.
-    generate_pot_files("docs")
+    generate_pot_files(Path("docs"))
     # # Generate shared content POT files.
-    generate_pot_files("src/beeware_docs_tools/shared_content")
+    generate_pot_files(Path("src/beeware_docs_tools/shared_content"))
 
 
 if __name__ == "__main__":
