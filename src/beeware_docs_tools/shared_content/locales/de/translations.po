@@ -289,7 +289,6 @@ msgstr ""
 "wird."
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:111
-#, fuzzy
 msgid "///"
 msgstr "///"
 

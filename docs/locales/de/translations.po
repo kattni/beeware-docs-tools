@@ -300,23 +300,19 @@ msgstr ""
 "verursacht hat und dass die Kopierschaltfläche wie erwartet funktioniert."
 
 #: docs/en/index.md:37
-#, fuzzy
 msgid "/// tab | macOS"
 msgstr "/// tab | macOS"
 
 #: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59
 #: docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
-#, fuzzy
 msgid "///"
 msgstr "///"
 
 #: docs/en/index.md:45
-#, fuzzy
 msgid "/// tab | Linux"
 msgstr "/// tab | Linux"
 
 #: docs/en/index.md:53
-#, fuzzy
 msgid "/// tab | Windows"
 msgstr "/// tab | Windows"
 
