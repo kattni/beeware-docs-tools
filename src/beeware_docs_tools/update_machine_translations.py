@@ -62,9 +62,14 @@ def translate(client, path, language):
         if entry.msgid.startswith("///"):
             parts = entry.msgid.split("|")
             # Special case - don't attempt to translate "///" markers, and make
-            # sure that "/// tab | Windows" is translated as a proper noun, not
-            # as a glass-covered-hole-in-the-wall.
-            if len(parts) == 1 or parts[1] == " Windows":
+            # sure that well known product-based tab labels aren't translated.
+            if len(parts) == 1 or parts[1] in {
+                " Windows",
+                " macOS",
+                " Linux",
+                " iOS",
+                " Android",
+            }:
                 translated = entry.msgid
                 fuzzy = False
             else:
