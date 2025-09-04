@@ -22,8 +22,9 @@ def parse_args() -> Namespace:
         help="Fail without raising an error if the API key cannot be found",
     )
     parser.add_argument(
-        "--input",
-        dest="input_dir",
+        "--docs",
+        dest="docs_paths",
+        type=Path,
         action="append",
         help=(
             "The path to a documentation set. The provided location should "
@@ -34,15 +35,16 @@ def parse_args() -> Namespace:
 
     args = parser.parse_args()
 
-    for dir in args.input_dir:
-        input_path = Path(dir)
-        if not (input_path / "locales").is_dir():
-            raise RuntimeError(f"Input path {dir} should contain a 'locales' directory")
+    for path in args.docs_paths:
+        if not (path / "locales").is_dir():
+            raise RuntimeError(
+                f"Input path {path} should contain a 'locales' directory"
+            )
 
     for language_code in args.language_code:
-        if not (input_path / "locales" / language_code).exists():
+        if not (path / "locales" / language_code).exists():
             raise RuntimeError(
-                f'A translation for "{language_code}" does not exist in {dir}'
+                f'A translation for "{language_code}" does not exist in {path}'
             )
 
     return args
@@ -90,11 +92,11 @@ def main():
     else:
         for language in args.language_code:
             print(f"Translating {language}:")
-            for dir in args.input_dir:
-                for path in (Path(dir) / "locales" / language).glob("**/*.po"):
-                    translate(client, path, language)
-                if (lang_po := Path(dir) / "locales" / f"{language}.po").is_file():
-                    translate(client, lang_po, language)
+            for path in args.docs_paths:
+                for po_path in (path / "locales" / language).glob("**/*.po"):
+                    translate(client, po_path, language)
+                if (po_path := path / "locales" / f"{language}.po").is_file():
+                    translate(client, po_path, language)
 
 
 if __name__ == "__main__":

@@ -5,7 +5,8 @@ matrix:
     - docs/spelling_wordlist
     output: _build/dictionary/python.dic
   sources:
-  - '**/*.md'
+  - 'docs/**/*.md'
+  - 'src/**/*.md'
   pipeline:
   - pyspelling.filters.markdown:
       markdown_extensions:
