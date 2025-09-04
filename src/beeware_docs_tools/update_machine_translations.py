@@ -59,9 +59,27 @@ def translate(client, path, language):
             f"    {language}:{path.name} "
             f"| {entry.msgid[:50]}{'...' if len(entry.msgid) > 50 else ''}"
         )
-        translated = client.translate_text(entry.msgid, target_lang=language)
+        if entry.msgid.startswith("///"):
+            parts = entry.msgid.split("|")
+            # Special case - don't attempt to translate "///" markers, and make
+            # sure that "/// tab | Windows" is translated as a proper noun, not
+            # as a glass-covered-hole-in-the-wall.
+            if len(parts) == 1 or parts[1] == " Windows":
+                translated = entry.msgid
+                fuzzy = False
+            else:
+                # Only translate the content after the |
+                translated = "|".join(
+                    [
+                        parts[0],
+                        client.translate_text(parts[1], target_lang=language),
+                    ]
+                )
+        else:
+            translated = client.translate_text(entry.msgid, target_lang=language)
+            fuzzy = True
         entry.msgstr = translated.text
-        entry.fuzzy = True
+        entry.fuzzy = fuzzy
 
     po.save(path)
 
