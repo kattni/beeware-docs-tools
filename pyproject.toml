@@ -23,9 +23,7 @@ maintainers = [
 ]
 
 dependencies = [
-    # We use ruff for *our* code formatting, but mkdocstrings (optionally) uses
-    # black to format method prototypes.
-    "black==25.1.0",
+    "deepl==1.22.0",
     "markdown-checker==0.2.5",
     "mistletoe==1.4.0",
     "mkdocs-autorefs==1.4.3",
@@ -38,7 +36,8 @@ dependencies = [
     "pyspelling==2.11",
     "python-Levenshtein==0.27.1",
     "PyYAML==6.0.2",
-    "translate-toolkit @ git+https://github.com/translate/translate@aa35159f03f53aa536381643dfafbc2a19a24784",
+    "polib==1.2.0",
+    "translate-toolkit @ git+https://github.com/kattni/translate@onefile-timestamp",
 ]
 
 [dependency-groups]
@@ -58,7 +57,9 @@ Source = "https://github.com/beeware/beeware-docs-tools/"
 [project.scripts]
 build_md_translations = "beeware_docs_tools.build_md_translations:main"
 build_po_translations = "beeware_docs_tools.build_po_translations:main"
+build_pot_translations = "beeware_docs_tools.build_pot_translations:main"
 live_serve_en = "beeware_docs_tools.live_serve_en:main"
+update_machine_translations = "beeware_docs_tools.update_machine_translations:main"
 
 [tool.setuptools]
 include-package-data = true
