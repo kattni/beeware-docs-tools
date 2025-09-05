@@ -54,11 +54,16 @@ def translate(client, path, language):
     print(f"  {language}: Translate {path.relative_to(Path.cwd())}")
     # 78 is 80, allowing for an open and closing "
     po = polib.pofile(path, wrapwidth=78)
+    changes = 0
     for entry in po.untranslated_entries():
         print(
             f"    {language}:{path.name} "
             f"| {entry.msgid[:50]}{'...' if len(entry.msgid) > 50 else ''}"
         )
+        # If there are any untranslated entries, the translation is dirty, and
+        # will need to be saved.
+        changes += 1
+
         if entry.msgid.startswith("///"):
             parts = entry.msgid.split("|")
             # Special case - don't attempt to translate "///" markers, and make
@@ -87,7 +92,12 @@ def translate(client, path, language):
         entry.msgstr = translated.text
         entry.fuzzy = fuzzy
 
-    po.save(path)
+    # Only save if there are new translations.
+    if changes:
+        print(f"Saving {changes} new machine translations.")
+        po.save(path)
+    else:
+        print("No new machine translations.")
 
 
 def main():
