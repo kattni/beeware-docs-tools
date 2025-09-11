@@ -23,6 +23,7 @@ from tempfile import TemporaryDirectory
 def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("language_code", nargs="*")
+    parser.add_argument("-d", "--docs-directory", type=Path, default="docs")
     args = parser.parse_args()
 
     for language in args.language_code:
@@ -35,8 +36,7 @@ def parse_args() -> Namespace:
 
 
 def pot_to_po(
-    root_path: Path,
-    docs: str,
+    docs: Path,
     language: str,
     output_path: Path,
 ) -> None:
@@ -54,15 +54,15 @@ def pot_to_po(
     subprocess.run(
         [
             "pot2po",
-            f"--template={root_path / docs / f'locales/{language}/translations.po'}",
-            f"--input={root_path / docs / 'locales/template/translations.pot'}",
+            f"--template={Path.cwd() / docs / f'locales/{language}/translations.po'}",
+            f"--input={Path.cwd() / docs / 'locales/template/translations.pot'}",
             f"--output={output_path / docs / language}",
         ],
         check=True,
     )
 
 
-def generate_po_files(root_path: Path, docs: str) -> None:
+def generate_po_files(docs: Path) -> None:
     """
     Generate PO files from PO template (POT) files.
 
@@ -81,7 +81,6 @@ def generate_po_files(root_path: Path, docs: str) -> None:
             # Generates PO files from POT files into a temporary destination
             # directory.
             pot_to_po(
-                root_path=root_path,
                 docs=docs,
                 language=language,
                 output_path=temp_path,
@@ -90,15 +89,14 @@ def generate_po_files(root_path: Path, docs: str) -> None:
             # Copies the updated PO file to the `docs` directory.
             shutil.copyfile(
                 (temp_path / docs / language / "translations.po"),
-                (root_path / docs / f"locales/{language}/translations.po"),
+                (Path.cwd() / docs / f"locales/{language}/translations.po"),
             )
 
 
 def main():
-    # Generate primary content PO files
-    generate_po_files(Path.cwd(), "docs")
-    # Generate shared content PO files
-    generate_po_files(Path(__file__).parent, "shared_content")
+    args = parse_args()
+    # Generate PO files
+    generate_po_files(args.docs_directory)
 
 
 if __name__ == "__main__":
