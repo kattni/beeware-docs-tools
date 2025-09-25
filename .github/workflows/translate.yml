@@ -48,6 +48,8 @@ jobs:
           git config --local user.name "brutusthebee[bot]"
 
       - name: Regenerate PO files
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: |
           tox -e docs-translate
 
