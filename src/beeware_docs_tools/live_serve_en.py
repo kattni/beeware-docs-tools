@@ -80,11 +80,14 @@ def main():
         except KeyError:
             pass
 
+        base_path = config_file["markdown_extensions"]["pymdownx.snippets"].get(
+            "base_path", []
+        )
+
         shared_content_path = (Path(__file__).parent / "shared_content/en").resolve()
-        config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
-            "docs",
-            str(shared_content_path),
-        ]
+        base_path.append(str(shared_content_path))
+
+        config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = base_path
 
         with (temp_md_directory / "config.yml").open(
             "w", encoding="utf-8"

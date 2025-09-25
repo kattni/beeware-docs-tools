@@ -99,12 +99,6 @@ def build_docs(config_file: Path, output_path: Path) -> None:
 def main():
     args = parse_args()
 
-    # If the script fails in the middle, it can leave this symlink in place
-    # which leads to it failing when the script runs again. This check is
-    # meant to deal with that possibility.
-    if (PROJECT_PATH / "docs/en/shared_content").exists():
-        Path(PROJECT_PATH / "docs/en/shared_content").unlink(missing_ok=True)
-
     with TemporaryDirectory() as temp_md_directory:
         temp_md_path = Path(temp_md_directory)
 
@@ -141,13 +135,18 @@ def main():
             except KeyError:
                 pass
 
+            base_path = config_file["markdown_extensions"]["pymdownx.snippets"].get(
+                "base_path", []
+            )
+
             shared_content_path = (
                 temp_md_path / f"{language}/shared_content"
             ).resolve()
-            config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = [
-                "docs",
-                str(shared_content_path),
-            ]
+            base_path.append(str(shared_content_path))
+
+            config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = (
+                base_path
+            )
 
             with (temp_md_path / "config.yml").open(
                 "w", encoding="utf-8"
@@ -202,10 +201,13 @@ def main():
                             relative_path = path.relative_to(en_md_dir)
                             (temp_md_path / language / relative_path).symlink_to(path)
             else:
+                # Create temp en directory
+                (temp_md_path / "en").mkdir()
                 # Symlink primary English Markdown files for en build.
-                (temp_md_path / "en").symlink_to(
-                    PROJECT_PATH / "docs/en", target_is_directory=True
-                )
+                for f in (PROJECT_PATH / "docs/en").iterdir():
+                    (temp_md_path / "en" / f.name).symlink_to(
+                        f, target_is_directory=f.is_dir()
+                    )
                 # Symlink shared content English Markdown files for en build.
                 (temp_md_path / "en/shared_content").symlink_to(
                     Path(__file__).parent / "shared_content/en",
@@ -220,9 +222,6 @@ def main():
                     output if (len(args.language_code) == 1) else (output / language)
                 ),
             )
-
-            if language == "en":
-                Path(temp_md_path / "en/shared_content").unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

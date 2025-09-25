@@ -75,6 +75,8 @@ beeware_docs_tools = [
     "**/*.js",
     "**/*.png",
     "**/*.woff2",
+    "**/*.po",
+    "**/*.md",
 ]
 
 [tool.autocalver]
