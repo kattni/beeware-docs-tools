@@ -1,3 +1,4 @@
+import hashlib
 import os
 import textwrap
 from argparse import ArgumentParser, Namespace
@@ -103,7 +104,9 @@ def translate(client, path, language):
 def main():
     args = parse_args()
     try:
-        client = deepl.DeepLClient(os.environ["DEEPL_API_KEY"])
+        deepl_api_key = os.environ["DEEPL_API_KEY"]
+        print(f"Hash of key: {hashlib.sha256(deepl_api_key.encode()).hexdigest()}")
+        client = deepl.DeepLClient(deepl_api_key)
     except KeyError:
         if args.soft_fail:
             print(
