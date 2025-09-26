@@ -1,4 +1,3 @@
-import hashlib
 import os
 import textwrap
 from argparse import ArgumentParser, Namespace
@@ -56,6 +55,14 @@ def translate(client, path, language):
     # 78 is 80, allowing for an open and closing "
     po = polib.pofile(path, wrapwidth=78)
     changes = 0
+    # DeepL uses some slightly different language variant descriptors.
+    # Map those, using the input languages as a default.
+    deepl_lang = {
+        "pt": "pt-BR",
+        "zh_CN": "pt-HANS",
+        "zh_TW": "zh-HANT",
+    }.get(language, language)
+
     for entry in po.untranslated_entries():
         print(
             f"    {language}:{path.name} "
@@ -83,12 +90,12 @@ def translate(client, path, language):
                 translated = "|".join(
                     [
                         parts[0],
-                        client.translate_text(parts[1], target_lang=language).text,
+                        client.translate_text(parts[1], target_lang=deepl_lang).text,
                     ]
                 )
                 fuzzy = True
         else:
-            translated = client.translate_text(entry.msgid, target_lang=language).text
+            translated = client.translate_text(entry.msgid, target_lang=deepl_lang).text
             fuzzy = True
         entry.msgstr = translated
         entry.fuzzy = fuzzy
@@ -104,9 +111,7 @@ def translate(client, path, language):
 def main():
     args = parse_args()
     try:
-        deepl_api_key = os.environ["DEEPL_API_KEY"]
-        print(f"Hash of key: {hashlib.sha256(deepl_api_key.encode()).hexdigest()}")
-        client = deepl.DeepLClient(deepl_api_key)
+        client = deepl.DeepLClient(os.environ["DEEPL_API_KEY"])
     except KeyError:
         if args.soft_fail:
             print(
