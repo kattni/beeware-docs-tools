@@ -48,6 +48,8 @@ jobs:
           git config --local user.name "brutusthebee[bot]"
 
       - name: Regenerate PO files
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: |
           tox -e docs-translate
 
@@ -67,5 +69,6 @@ jobs:
         run: |
           # Commit the updated PO files.
           git add docs/locales
+          git add src/beeware_docs_tools/shared_content/locales
           git commit -m "Update translations to $(git rev-parse --short HEAD)."
           git push origin

@@ -1,0 +1,785 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-26 00:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.16.1\n"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:1
+#, fuzzy
+msgid "BeeWare documentation style guide"
+msgstr "Guia de estilo da documentação do BeeWare"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:3
+#, fuzzy
+msgid ""
+"This guide includes information on expected style, MkDocs-specific syntax, "
+"various required tools, and documentation translation, with regard to "
+"writing new content and translating existing content."
+msgstr ""
+"Este guia inclui informações sobre o estilo esperado, a sintaxe específica "
+"do MkDocs, as várias ferramentas necessárias e a tradução da documentação, "
+"com relação à redação de novos conteúdos e à tradução de conteúdos "
+"existentes."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:5
+#, fuzzy
+msgid "General style"
+msgstr "Estilo geral"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:7
+#, fuzzy
+msgid "Headers and titles should have only the first word capitalized."
+msgstr ""
+"Os cabeçalhos e títulos devem ter apenas a primeira palavra em letra "
+"maiúscula."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:8
+#, fuzzy
+msgid ""
+"We prefer US spelling, with some liberties for programming-specific "
+"colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
+msgstr ""
+"Preferimos a ortografia dos EUA, com algumas liberdades para o coloquialismo"
+" específico da programação (por exemplo, \"apps\") e a verbalização de "
+"substantivos (por exemplo, \"scrollable\")."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:9
+#, fuzzy
+msgid "The spelling of \"artefact\" and \"artefacts\" is as shown."
+msgstr "A grafia de \"artefact\" e \"artefacts\" é a mostrada."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:10
+#, fuzzy
+msgid ""
+"Any reference to a product name should use the product’s preferred "
+"capitalization. (e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", "
+"\"PyScript\"{2})."
+msgstr ""
+"Qualquer referência a um nome de produto deve usar a capitalização "
+"preferencial do produto. (por exemplo, {1}\"macOS\", \"GTK\", \"pytest\", "
+"\"Pygame\", \"PyScript\"{2})."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:11
+#, fuzzy
+msgid ""
+"If a term is being used \"as code\", then it should be quoted as inline "
+"code, by wrapping it in single backticks, rather than being added to the "
+"dictionary."
+msgstr ""
+"Se um termo estiver sendo usado \"como código\", ele deverá ser citado como "
+"código embutido, envolvendo-o em pontos finais simples, em vez de ser "
+"adicionado ao dicionário."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:13
+#, fuzzy
+msgid "Reference Links"
+msgstr "Links de referência"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:15
+#, fuzzy
+msgid ""
+"MkDocs renders standard Markdown formatted links. It also supports rendering"
+" a reference link syntax that allows you to link to various other elements "
+"in the documentation using a modified Markdown link. This includes linking "
+"to, among other things, standard Markdown header anchors, custom Markdown "
+"header and text anchors, custom reference IDs, documented classes and class "
+"methods or attributes, and specific external documentation references."
+msgstr ""
+"O MkDocs renderiza links padrão formatados em Markdown. Ele também suporta a"
+" renderização de uma sintaxe de link de referência que permite que você crie"
+" links para vários outros elementos na documentação usando um link Markdown "
+"modificado. Isso inclui links para, entre outras coisas, âncoras de "
+"cabeçalho Markdown padrão, âncoras de texto e cabeçalho Markdown "
+"personalizadas, IDs de referência personalizadas, classes documentadas e "
+"métodos ou atributos de classe e referências específicas de documentação "
+"externa."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:17
+#, fuzzy
+msgid "Standard Markdown formatted links are as follows:"
+msgstr "Os links padrão formatados em Markdown são os seguintes:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:23
+#, fuzzy
+msgid "You can also use this format to link to a local file:"
+msgstr "Você também pode usar esse formato para vincular a um arquivo local:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:29
+#, fuzzy
+msgid "Linking to an anchor _in the same file_ is formatted as follows:"
+msgstr ""
+"O link para uma âncora _no mesmo arquivo_ é formatado da seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:35
+#, fuzzy
+msgid "Linking to an anchor _in a different_ file is formatted as follows:"
+msgstr ""
+"O link para uma âncora _em um arquivo diferente_ é formatado da seguinte "
+"forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:41
+#, fuzzy
+msgid ""
+"If you need to link to an anchor in a different file, and the anchor name is"
+" duplicated in multiple files, you can generate a custom anchor for the "
+"intended content (as shown in the next section), and link to that using the "
+"reference link formatting:"
+msgstr ""
+"Se precisar criar um link para uma âncora em um arquivo diferente e o nome "
+"da âncora estiver duplicado em vários arquivos, você poderá gerar uma âncora"
+" personalizada para o conteúdo pretendido (conforme mostrado na próxima "
+"seção) e criar um link para ela usando a formatação de link de referência:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:47
+#, fuzzy
+msgid ""
+"There are multiple options for linking to a documented class, or a class "
+"method or attribute, regardless of whether you are linking from the same "
+"file or a separate file. When linking to classes, etc., you must include "
+"backticks in the first set of square brackets to render the name as inline "
+"code. The backticks are not necessary only if you are using custom text that"
+" should not be rendered as inline code. Backticks should never be included "
+"in the second set of square brackets."
+msgstr ""
+"Há várias opções para vincular a uma classe documentada ou a um método ou "
+"atributo de classe, independentemente de você estar vinculando a partir do "
+"mesmo arquivo ou de um arquivo separado. Ao criar links para classes, etc., "
+"você deve incluir reticências no primeiro conjunto de colchetes para "
+"renderizar o nome como código em linha. Os colchetes só não são necessários "
+"se você estiver usando texto personalizado que não deve ser renderizado como"
+" código em linha. Nunca se deve incluir pontos no segundo conjunto de "
+"colchetes."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:49
+#, fuzzy
+msgid ""
+"Linking to a class while displaying the namespace is formatted as follows:"
+msgstr ""
+"O link para uma classe enquanto exibe o namespace é formatado da seguinte "
+"forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:55
+#, fuzzy
+msgid ""
+"Linking to a class while displaying only the class name is formatted as "
+"follows:"
+msgstr ""
+"A vinculação a uma classe e a exibição apenas do nome da classe são "
+"formatadas da seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:61
+#, fuzzy
+msgid ""
+"Methods and attributes are the same as above, with the method or attribute "
+"name included. You must include the parentheses after the namespace. The "
+"following displays the namespace:"
+msgstr ""
+"Os métodos e atributos são iguais aos anteriores, com o nome do método ou "
+"atributo incluído. Você deve incluir os parênteses após o namespace. O "
+"seguinte exibe o namespace:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:67
+#, fuzzy
+msgid ""
+"The following displays the class and method name only. This also requires "
+"including the parentheses after the name:"
+msgstr ""
+"O seguinte exibe apenas o nome da classe e do método. Isso também requer a "
+"inclusão dos parênteses após o nome:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:73
+#, fuzzy
+msgid ""
+"Linking to a class (or method) while displaying arbitrary text is formatted "
+"as follows:"
+msgstr ""
+"A vinculação a uma classe (ou método) durante a exibição de um texto "
+"arbitrário é formatada da seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:79
+#, fuzzy
+msgid ""
+"It is also possible to link directly to Python core documentation, as well "
+"as Pillow documentation. For example, to link to the documentation for "
+"`int`:"
+msgstr ""
+"Também é possível vincular-se diretamente à documentação principal do "
+"Python, bem como à documentação do Pillow. Por exemplo, para criar um link "
+"para a documentação de `int`:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:85
+#, fuzzy
+msgid "To link to the Pillow `Image` documentation:"
+msgstr "Para criar um link para a documentação do Pillow `Image`:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:91
+#, fuzzy
+msgid "Custom Markdown anchors"
+msgstr "Âncoras Markdown personalizadas"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:93
+#, fuzzy
+msgid ""
+"Markdown generates anchors for all headers (anything on a single line "
+"starting with between one and six `#` symbols), based on the content of the "
+"header. For example, the anchor generated for this section is `custom-"
+"markdown-anchors`. There are situations where it makes sense to instead set "
+"a custom anchor, such as, if the header is overly verbose, or you need "
+"something more memorable available for reuse."
+msgstr ""
+"O Markdown gera âncoras para todos os cabeçalhos (qualquer coisa em uma "
+"única linha que comece com um a seis símbolos `#`), com base no conteúdo do "
+"cabeçalho. Por exemplo, a âncora gerada para esta seção é `custom-markdown-"
+"anchors`. Há situações em que faz sentido definir uma âncora personalizada, "
+"como, por exemplo, se o cabeçalho for muito detalhado ou se você precisar de"
+" algo mais memorável disponível para reutilização."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:95
+#, fuzzy
+msgid ""
+"Changing the anchor for this section to `custom-anchors` would be done with "
+"the following formatting:"
+msgstr ""
+"A alteração da âncora dessa seção para \"âncoras personalizadas\" seria "
+"feita com a seguinte formatação:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:101
+#, fuzzy
+msgid ""
+"You can also create an anchor on general content, including text and "
+"codeblocks. The following formatting, with newlines above and below, should "
+"be included above the content you wish to link to:"
+msgstr ""
+"Você também pode criar uma âncora em conteúdo geral, incluindo texto e "
+"blocos de código. A formatação a seguir, com novas linhas acima e abaixo, "
+"deve ser incluída acima do conteúdo para o qual você deseja criar um link:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:107
+#, fuzzy
+msgid "/// note | Note"
+msgstr "/// note | Observação"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:109
+#, fuzzy
+msgid ""
+"The reference linking that allows for linking to anchors in separate files "
+"requires that all anchors be unique. If you are creating a custom anchor, "
+"ensure that you are choosing a name that isn't used elsewhere in the "
+"documentation."
+msgstr ""
+"A vinculação de referência que permite a vinculação a âncoras em arquivos "
+"separados exige que todas as âncoras sejam exclusivas. Se estiver criando "
+"uma âncora personalizada, certifique-se de escolher um nome que não seja "
+"usado em outra parte da documentação."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:111
+msgid "///"
+msgstr "///"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:113
+#, fuzzy
+msgid "Translating existing content"
+msgstr "Tradução de conteúdo existente"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:115
+#, fuzzy
+msgid "The following items should _not_ be translated or updated:"
+msgstr "Os itens a seguir não devem ser traduzidos ou atualizados:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:117
+#, fuzzy
+msgid ""
+"Commands. For example, in \"You should run \\`briefcase create\\`.\", only "
+"\"You should run\" should be translated."
+msgstr ""
+"Comandos. Por exemplo, em \"You should run \\`briefcase create\\`.\", apenas"
+" \"You should run\" deve ser traduzido."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:118
+#, fuzzy
+msgid ""
+"Namespaces; class, method, or attribute names. Reference links containing "
+"class, method or attribute names should be left as-is, including the "
+"backticks."
+msgstr ""
+"Namespaces; nomes de classes, métodos ou atributos. Os links de referência "
+"que contêm nomes de classe, método ou atributo devem ser deixados como "
+"estão, incluindo os pontos finais."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:119
+#, fuzzy
+msgid ""
+"Jinja directives. This is any content wrapped inside two pairs of matching "
+"curly braces, or a matching pair of single curly braces followed by a "
+"percent sign. Note: Including an example of the syntax here causes the "
+"Macros plugin to attempt to render it; see the [Macros documentation]{1} for"
+" examples."
+msgstr ""
+"Diretivas Jinja. Trata-se de qualquer conteúdo contido em dois pares de "
+"chaves correspondentes ou em um par correspondente de chaves simples seguido"
+" de um sinal de porcentagem. Observação: a inclusão de um exemplo da sintaxe"
+" aqui faz com que o plug-in Macros tente renderizá-la; consulte a "
+"[documentação do Macros]{1} para obter exemplos."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:120
+#, fuzzy
+msgid ""
+"Custom anchors. They are found after headers or above some content, and are "
+"formatted as `{ id=\"anchor\" }`."
+msgstr ""
+"Âncoras personalizadas. Elas são encontradas após os cabeçalhos ou acima de "
+"algum conteúdo e são formatadas como `{ id=\"anchor\" }`."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:121
+#, fuzzy
+msgid ""
+"Admonition _syntax_. As shown below, the word \"admonition\" should not be "
+"translated. This goes for all styles of admonitions, including notes, "
+"warnings, etc. See below for information on translating the rest of the "
+"content."
+msgstr ""
+"Admonition _sintaxe_. Conforme mostrado abaixo, a palavra \"admonition\" não"
+" deve ser traduzida. Isso se aplica a todos os estilos de admoestações, "
+"incluindo notas, avisos, etc. Consulte abaixo as informações sobre a "
+"tradução do restante do conteúdo."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:131
+#, fuzzy
+msgid ""
+"Backticks are meant to stay as backticks; they are used for formatting both "
+"inline code and code blocks."
+msgstr ""
+"Os backticks devem permanecer como backticks; eles são usados para formatar "
+"o código em linha e os blocos de código."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:132
+#, fuzzy
+msgid ""
+"The syntax for including external content. This is anything on the same line"
+" as `-8<-`, or on the lines between two `-8<-` on separate lines."
+msgstr ""
+"A sintaxe para incluir conteúdo externo. Trata-se de qualquer coisa na mesma"
+" linha que `-8<-`, ou nas linhas entre dois `-8<-` em linhas separadas."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:134
+#, fuzzy
+msgid "The following items _should_ be translated:"
+msgstr "Os itens a seguir _devem_ ser traduzidos:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:136
+#, fuzzy
+msgid ""
+"The admonition titles and content. As shown below, \"Title\" and "
+"\"Content.\" should be translated. See above for information on the syntax."
+msgstr ""
+"Os títulos e o conteúdo da advertência. Conforme mostrado abaixo, \"Title\" "
+"(Título) e \"Content\" (Conteúdo) devem ser traduzidos. Consulte acima para "
+"obter informações sobre a sintaxe."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:146
+#, fuzzy
+msgid "Translations and writing new content"
+msgstr "Traduções e redação de novos conteúdos"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:148
+#, fuzzy
+msgid ""
+"Due to the way the translation files are generated, it is important to "
+"include required newlines in the Markdown syntax for admonitions, notes, "
+"tabs, Jinja directives, image captions and alignment, etc."
+msgstr ""
+"Devido à forma como os arquivos de tradução são gerados, é importante "
+"incluir as novas linhas necessárias na sintaxe Markdown para advertências, "
+"notas, guias, diretivas Jinja, legendas e alinhamento de imagens, etc."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:150
+#, fuzzy
+msgid "Admonitions and notes"
+msgstr "Admoestações e notas"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:152
+#, fuzzy
+msgid ""
+"Admonitions must be formatted as follows, including ensuring a newline "
+"before and after the admonition start and end:"
+msgstr ""
+"As admoestações devem ser formatadas da seguinte forma, incluindo a garantia"
+" de uma nova linha antes e depois do início e do fim da admoestação:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:165
+#, fuzzy
+msgid "Note admonitions require the same formatting and newlines:"
+msgstr "As advertências de notas exigem a mesma formatação e novas linhas:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:175
+#, fuzzy
+msgid ""
+"This format also works for attention, caution, danger, error, tip, hint, "
+"warning admonition types."
+msgstr ""
+"Esse formato também funciona para os tipos de advertência de atenção, "
+"cuidado, perigo, erro, dica, sugestão e aviso."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:177
+#, fuzzy
+msgid "Tabbed content"
+msgstr "Conteúdo com guias"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:179
+#, fuzzy
+msgid ""
+"Tabbed content is formatted as follows, including a newline included before "
+"the start and after the end of the content block:"
+msgstr ""
+"O conteúdo com guias é formatado da seguinte forma, incluindo uma nova linha"
+" antes do início e depois do fim do bloco de conteúdo:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:201
+#, fuzzy
+msgid ""
+"A tab with a nested admonition would be formatted as follows, including a "
+"newline before and after the content block:"
+msgstr ""
+"Uma tabulação com uma advertência aninhada seria formatada da seguinte "
+"forma, incluindo uma nova linha antes e depois do bloco de conteúdo:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:217
+#, fuzzy
+msgid "Jinja directives"
+msgstr "Diretrizes Jinja"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:219
+#, fuzzy
+msgid ""
+"There are a few features of the documentation that use Jinja directives in "
+"the text. Anything using the Jinja directive features needs to be wrapped in"
+" newlines. For example, the BeeWare tutorial contains Jinja conditionals "
+"based on variables to determine what admonition to show on the main page. "
+"Those are formatted as follows:"
+msgstr ""
+"Há alguns recursos da documentação que usam as diretivas Jinja no texto. "
+"Qualquer coisa que use os recursos da diretiva Jinja precisa ser envolvida "
+"em novas linhas. Por exemplo, o tutorial do BeeWare contém condicionais "
+"Jinja baseadas em variáveis para determinar qual advertência mostrar na "
+"página principal. Elas são formatadas da seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:233
+#, fuzzy
+msgid ""
+"There is also syntax for substituting symbols or text. This syntax is a "
+"variable wrapped in a pair of matching double curly braces, and must include"
+" a newline before and after."
+msgstr ""
+"Há também uma sintaxe para substituir símbolos ou texto. Essa sintaxe é uma "
+"variável envolvida em um par de chaves duplas correspondentes e deve incluir"
+" uma nova linha antes e depois."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:239
+#, fuzzy
+msgid "Images with caption syntax"
+msgstr "Imagens com sintaxe de legenda"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:241
+#, fuzzy
+msgid ""
+"Whether the caption syntax is being utilized for the purposes of centering "
+"an image, or for providing an image caption, it must include newlines "
+"between each section."
+msgstr ""
+"Se a sintaxe de legenda estiver sendo utilizada para centralizar uma imagem "
+"ou para fornecer uma legenda de imagem, ela deve incluir novas linhas entre "
+"cada seção."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:243
+#, fuzzy
+msgid ""
+"For example, when adding an empty caption to center an image, you should "
+"format it as follows, with a newline before and after the content block:"
+msgstr ""
+"Por exemplo, ao adicionar uma legenda vazia para centralizar uma imagem, "
+"você deve formatá-la da seguinte forma, com uma nova linha antes e depois do"
+" bloco de conteúdo:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:253
+#, fuzzy
+msgid ""
+"Adding a caption to an image also requires a newline before and after, and "
+"is formatted as follows:"
+msgstr ""
+"A adição de uma legenda a uma imagem também requer uma nova linha antes e "
+"depois, e é formatada da seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:265
+#, fuzzy
+msgid "Custom header anchors using reference IDs"
+msgstr "Âncoras de cabeçalho personalizadas usando IDs de referência"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:267
+#, fuzzy
+msgid ""
+"By default, Markdown generates an anchor for every header that is the text "
+"of the header with spaces and punctuation replaced with `-`. However, if you"
+" want something shorter, more memorable, or customized for whatever reason, "
+"this is possible using Jinja-formatted attribute IDs."
+msgstr ""
+"Por padrão, o Markdown gera uma âncora para cada cabeçalho que é o texto do "
+"cabeçalho com espaços e pontuação substituídos por `-`. Entretanto, se você "
+"quiser algo mais curto, mais memorável ou personalizado por qualquer motivo,"
+" isso é possível usando IDs de atributos formatados em Jinja."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:269
+#, fuzzy
+msgid "The syntax is as follows:"
+msgstr "A sintaxe é a seguinte:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:275
+#, fuzzy
+msgid ""
+"For example, if you wanted to be able to link to this section using `custom-"
+"anchors`, you would format the header as follows:"
+msgstr ""
+"Por exemplo, se você quisesse criar um link para essa seção usando `custom-"
+"anchors`, formataria o cabeçalho da seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:281
+#, fuzzy
+msgid ""
+"Once added, you can link to the section from within the same file using a "
+"standard Markdown link, or from another file using the reference link "
+"syntax."
+msgstr ""
+"Depois de adicionada, é possível criar um link para a seção a partir do "
+"mesmo arquivo usando um link Markdown padrão ou a partir de outro arquivo "
+"usando a sintaxe de link de referência."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:283
+#, fuzzy
+msgid "Code block tricks"
+msgstr "Truques de blocos de código"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:285
+#, fuzzy
+msgid "Language and code highlighting"
+msgstr "Destaque de linguagem e código"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:287
+#, fuzzy
+msgid ""
+"You can specify the language for the code contained within the codeblock by "
+"including the language name after the first three backticks, with no space "
+"between. This results in appropriate code highlighting when the code "
+"rendered. For example, to specify Python, you would begin the codeblock with"
+" ` ```python`."
+msgstr ""
+"Você pode especificar o idioma para o código contido no bloco de código "
+"incluindo o nome do idioma após os três primeiros backticks, sem espaço "
+"entre eles. Isso resulta em um destaque de código apropriado quando o código"
+" é renderizado. Por exemplo, para especificar Python, você iniciaria o bloco"
+" de código com ```python``."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:289
+#, fuzzy
+msgid "Console commands and the copy button"
+msgstr "Comandos do console e o botão de cópia"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:291
+#, fuzzy
+msgid ""
+"If you are including console commands, or commands with output, if you label"
+" it as `console` or `doscon`, depending on what operating system you are "
+"referencing, you can include the prompt, and only the command will be copied"
+" when clicking the copy button. For example, if you begin a codeblock with `"
+" ```console `, and include the following content:"
+msgstr ""
+"Se estiver incluindo comandos de console ou comandos com saída, se rotulá-"
+"los como `console` ou `doscon`, dependendo do sistema operacional a que "
+"estiver se referindo, você poderá incluir o prompt, e somente o comando será"
+" copiado quando você clicar no botão de cópia. Por exemplo, se você iniciar "
+"um bloco de código com ```console`` e incluir o seguinte conteúdo:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:299
+#, fuzzy
+msgid ""
+"Then, clicking the copy button on the codeblock will copy only the commands,"
+" and ignore the prompts and the output. This allows you to indicate that "
+"they are console commands, while still allowing users to use the copy button"
+" effectively."
+msgstr ""
+"Em seguida, clicar no botão de cópia no bloco de código copiará apenas os "
+"comandos e ignorará os prompts e a saída. Isso permite indicar que são "
+"comandos do console e, ao mesmo tempo, permite que os usuários usem o botão "
+"de cópia de forma eficaz."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:301
+#, fuzzy
+msgid "Highlighting specific lines of code"
+msgstr "Destaque de linhas específicas de código"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:303
+#, fuzzy
+msgid ""
+"You can highlight specific lines of code. For example, to highlight line 2, "
+"you would add a space after the language, followed by `{hl_lines=\"2\"}`. "
+"So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The "
+"result is:"
+msgstr ""
+"Você pode destacar linhas específicas de código. Por exemplo, para destacar "
+"a linha 2, você adicionaria um espaço após a linguagem, seguido de "
+"`{hl_lines=\"2\"}`. Portanto, seu bloco de código começaria com ` ```python "
+"{hl_lines=\"2\"} `. O resultado é:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:310
+#, fuzzy
+msgid ""
+"You can highlight multiple different lines. For example, `python "
+"{hl_lines=\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also "
+"highlight a range of lines. For example, `python {hl_lines=\"3-8\"}` "
+"highlights lines 3 through 8. You can highlight multiple ranges with, for "
+"example, `python {hl_lines=\"9-18 23-44\"}`."
+msgstr ""
+"Você pode destacar várias linhas diferentes. Por exemplo, `python "
+"{hl_lines=\"3 5 9\"}` destacaria as linhas 3, 5 e 9. Você também pode "
+"destacar um intervalo de linhas. Por exemplo, `python {hl_lines=\"3-8\"}` "
+"destaca as linhas 3 a 8. Você pode destacar vários intervalos com, por "
+"exemplo, `python {hl_lines=\"9-18 23-44\"}`."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:312
+#, fuzzy
+msgid "Using Snippets to include external content"
+msgstr "Uso de snippets para incluir conteúdo externo"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:314
+#, fuzzy
+msgid ""
+"For details on how to include external content from a local file or a URL, "
+"see the [Snippets documentation]{1}."
+msgstr ""
+"Para obter detalhes sobre como incluir conteúdo externo de um arquivo local "
+"ou de um URL, consulte a [Documentação de snippets]{1}."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:316
+#, fuzzy
+msgid "Two important notes:"
+msgstr "Duas observações importantes:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:318
+#, fuzzy
+msgid ""
+"We use `-8<-` as the Snippets identifier. The documentation shows several "
+"options; please follow our style."
+msgstr ""
+"Usamos `-8<-` como identificador de Snippets. A documentação mostra várias "
+"opções; siga nosso estilo."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:319
+#, fuzzy
+msgid ""
+"If you are including external content from a file on GitHub via a URL, you "
+"_must_ use the raw content URL, or it will render the webpage embedded "
+"wherever you include it."
+msgstr ""
+"Se estiver incluindo conteúdo externo de um arquivo no GitHub por meio de um"
+" URL, você _deve_ usar o URL do conteúdo bruto, ou ele renderizará a página "
+"da Web incorporada onde quer que você a inclua."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:321
+#, fuzzy
+msgid "Image formatting"
+msgstr "Formatação de imagens"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:323
+#, fuzzy
+msgid ""
+"Images can have the width set, and can be aligned left, right, and center "
+"(with a caveat on \"center\")."
+msgstr ""
+"As imagens podem ter a largura definida e podem ser alinhadas à esquerda, à "
+"direita e ao centro (com uma ressalva sobre o \"centro\")."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:325
+#, fuzzy
+msgid ""
+"Setting the width of {1}300px{2} on an image would be formatted as follows:"
+msgstr ""
+"A definição da largura de {1}300px{2} em uma imagem seria formatada da "
+"seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:331
+#, fuzzy
+msgid "Aligning an image left (or right) would be formatted as follows:"
+msgstr ""
+"O alinhamento de uma imagem à esquerda (ou à direita) seria formatado da "
+"seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:337
+#, fuzzy
+msgid ""
+"Aligning an image center is not possible with the `align` attribute. The "
+"workaround is to follow the image with an empty caption, and it will be "
+"centered. You must include newlines between each section, and before and "
+"after. It is formatted as follows:"
+msgstr ""
+"O alinhamento central de uma imagem não é possível com o atributo `align`. A"
+" solução alternativa é seguir a imagem com uma legenda vazia, e ela será "
+"centralizada. Você deve incluir novas linhas entre cada seção, antes e "
+"depois. Ele é formatado da seguinte forma:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:347
+#, fuzzy
+msgid "`pyspelling`"
+msgstr "`pyspelling`"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:349
+#, fuzzy
+msgid ""
+"We use the `pyspelling` spellchecker. It is run during the lint-checks."
+msgstr ""
+"Usamos o verificador ortográfico `pyspelling`. Ele é executado durante as "
+"verificações de lint."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:351
+#, fuzzy
+msgid ""
+"When `pyspelling` identifies a misspelled word, in most cases, it should be "
+"fixed in the documentation content."
+msgstr ""
+"Quando `pyspelling` identifica uma palavra com erro ortográfico, na maioria "
+"dos casos, ela deve ser corrigida no conteúdo da documentação."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:353
+#, fuzzy
+msgid ""
+"In the rare case that it identifies a valid word that isn't in the "
+"`pyspelling` dictionary, you have two options:"
+msgstr ""
+"Nos raros casos em que ele identifica uma palavra válida que não está no "
+"dicionário `pyspelling`, você tem duas opções:"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:355
+#, fuzzy
+msgid ""
+"If it is a word that is likely to be reused multiple times, you should add "
+"the word to the `spelling_wordlist` document in the `docs` directory, in "
+"alphabetical order."
+msgstr ""
+"Se for uma palavra que provavelmente será reutilizada várias vezes, você "
+"deverá adicioná-la ao documento `spelling_wordlist` no diretório `docs`, em "
+"ordem alfabética."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:356
+#, fuzzy
+msgid ""
+"If it is a word that is unlikely to be used again, you can wrap it in a "
+"`<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline."
+msgstr ""
+"Se for uma palavra que provavelmente não será usada novamente, você poderá "
+"envolvê-la em uma tag `<nospell>` / `</nospell>`, e o `pyspelling` a "
+"ignorará inline."
