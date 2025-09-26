@@ -69,5 +69,6 @@ jobs:
         run: |
           # Commit the updated PO files.
           git add docs/locales
+          git add src/beeware_docs_tools/shared_content/locales
           git commit -m "Update translations to $(git rev-parse --short HEAD)."
           git push origin
