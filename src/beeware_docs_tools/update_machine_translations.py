@@ -59,7 +59,7 @@ def translate(client, path, language):
     # Map those, using the input languages as a default.
     deepl_lang = {
         "pt": "pt-BR",
-        "zh_CN": "pt-HANS",
+        "zh_CN": "zh-HANS",
         "zh_TW": "zh-HANT",
     }.get(language, language)
 
