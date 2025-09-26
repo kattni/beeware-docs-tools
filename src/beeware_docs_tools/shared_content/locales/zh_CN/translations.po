@@ -1,0 +1,634 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-26 00:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.16.1\n"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:1
+#, fuzzy
+msgid "BeeWare documentation style guide"
+msgstr "BeeWare 文档风格指南"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:3
+#, fuzzy
+msgid ""
+"This guide includes information on expected style, MkDocs-specific syntax, "
+"various required tools, and documentation translation, with regard to "
+"writing new content and translating existing content."
+msgstr "本指南包括有关编写新内容和翻译现有内容的预期风格、MkDocs 特定语法、各种所需工具和文档翻译的信息。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:5
+#, fuzzy
+msgid "General style"
+msgstr "一般风格"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:7
+#, fuzzy
+msgid "Headers and titles should have only the first word capitalized."
+msgstr "页眉和标题的第一个单词应大写。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:8
+#, fuzzy
+msgid ""
+"We prefer US spelling, with some liberties for programming-specific "
+"colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
+msgstr "我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（如 \"scrollable\"）有一定的自由度。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:9
+#, fuzzy
+msgid "The spelling of \"artefact\" and \"artefacts\" is as shown."
+msgstr "artefact \"和 \"artefacts \"的拼写如图所示。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:10
+#, fuzzy
+msgid ""
+"Any reference to a product name should use the product’s preferred "
+"capitalization. (e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", "
+"\"PyScript\"{2})."
+msgstr "任何对产品名称的引用都应使用该产品的首选大写字母。(例如：{1}\"macOS\"、\"GTK\"、\"pytest\"、\"Pygame\"、\"PyScript\"{2}）。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:11
+#, fuzzy
+msgid ""
+"If a term is being used \"as code\", then it should be quoted as inline "
+"code, by wrapping it in single backticks, rather than being added to the "
+"dictionary."
+msgstr "如果一个术语是 \"作为代码 \"使用的，那么它就应该作为内联代码引用，用单个回车键将其包裹起来，而不是添加到字典中。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:13
+#, fuzzy
+msgid "Reference Links"
+msgstr "参考链接"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:15
+#, fuzzy
+msgid ""
+"MkDocs renders standard Markdown formatted links. It also supports rendering"
+" a reference link syntax that allows you to link to various other elements "
+"in the documentation using a modified Markdown link. This includes linking "
+"to, among other things, standard Markdown header anchors, custom Markdown "
+"header and text anchors, custom reference IDs, documented classes and class "
+"methods or attributes, and specific external documentation references."
+msgstr ""
+"MkDocs 可呈现标准 Markdown 格式的链接。它还支持渲染引用链接语法，允许您使用修改后的 Markdown "
+"链接链接到文档中的各种其他元素。这包括链接到标准 Markdown 标题锚点、自定义 Markdown 标题和文本锚点、自定义引用 "
+"ID、文档类和类方法或属性，以及特定的外部文档引用等。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:17
+#, fuzzy
+msgid "Standard Markdown formatted links are as follows:"
+msgstr "标准 Markdown 格式链接如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:23
+#, fuzzy
+msgid "You can also use this format to link to a local file:"
+msgstr "您也可以使用这种格式链接到本地文件："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:29
+#, fuzzy
+msgid "Linking to an anchor _in the same file_ is formatted as follows:"
+msgstr "链接到同一文件中的锚点的格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:35
+#, fuzzy
+msgid "Linking to an anchor _in a different_ file is formatted as follows:"
+msgstr "链接到不同文件中的锚点的格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:41
+#, fuzzy
+msgid ""
+"If you need to link to an anchor in a different file, and the anchor name is"
+" duplicated in multiple files, you can generate a custom anchor for the "
+"intended content (as shown in the next section), and link to that using the "
+"reference link formatting:"
+msgstr ""
+"如果需要链接到不同文件中的锚点，而该锚点名称在多个文件中重复，则可以为目标内容生成自定义锚点（如下一节所示），并使用引用链接格式链接到该锚点："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:47
+#, fuzzy
+msgid ""
+"There are multiple options for linking to a documented class, or a class "
+"method or attribute, regardless of whether you are linking from the same "
+"file or a separate file. When linking to classes, etc., you must include "
+"backticks in the first set of square brackets to render the name as inline "
+"code. The backticks are not necessary only if you are using custom text that"
+" should not be rendered as inline code. Backticks should never be included "
+"in the second set of square brackets."
+msgstr ""
+"无论您是从同一个文件还是从一个单独的文件链接，都有多个选项可用于链接到已记录的类或类方法或属性。链接到类等时，必须在第一组方括号中加上反斜线，以便将名称显示为内联代码。只有在使用不应显示为内联代码的自定义文本时，才不需要使用回车键。绝不能在第二组方括号中加入反斜线。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:49
+#, fuzzy
+msgid ""
+"Linking to a class while displaying the namespace is formatted as follows:"
+msgstr "在显示命名空间的同时链接到类的格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:55
+#, fuzzy
+msgid ""
+"Linking to a class while displaying only the class name is formatted as "
+"follows:"
+msgstr "在只显示类名的情况下链接到类的格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:61
+#, fuzzy
+msgid ""
+"Methods and attributes are the same as above, with the method or attribute "
+"name included. You must include the parentheses after the namespace. The "
+"following displays the namespace:"
+msgstr "方法和属性与上述方法或属性名称相同。命名空间后必须包含括号。下面显示的是命名空间："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:67
+#, fuzzy
+msgid ""
+"The following displays the class and method name only. This also requires "
+"including the parentheses after the name:"
+msgstr "下文仅显示类和方法名称。这也需要在名称后加上括号："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:73
+#, fuzzy
+msgid ""
+"Linking to a class (or method) while displaying arbitrary text is formatted "
+"as follows:"
+msgstr "在显示任意文本的同时链接到类（或方法）的格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:79
+#, fuzzy
+msgid ""
+"It is also possible to link directly to Python core documentation, as well "
+"as Pillow documentation. For example, to link to the documentation for "
+"`int`:"
+msgstr "也可以直接链接到 Python 核心文档和 Pillow 文档。例如，链接到 `int` 的文档："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:85
+#, fuzzy
+msgid "To link to the Pillow `Image` documentation:"
+msgstr "链接到 Pillow `Image` 文档："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:91
+#, fuzzy
+msgid "Custom Markdown anchors"
+msgstr "自定义 Markdown 锚点"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:93
+#, fuzzy
+msgid ""
+"Markdown generates anchors for all headers (anything on a single line "
+"starting with between one and six `#` symbols), based on the content of the "
+"header. For example, the anchor generated for this section is `custom-"
+"markdown-anchors`. There are situations where it makes sense to instead set "
+"a custom anchor, such as, if the header is overly verbose, or you need "
+"something more memorable available for reuse."
+msgstr ""
+"Markdown 会根据标题的内容为所有标题（单行中以 1 到 6 个 `#` 符号开头的任何内容）生成锚。例如，本节生成的锚是 `custom-"
+"markdown-anchors`。在某些情况下，设置自定义锚点是有意义的，例如，如果标题过于冗长，或者你需要一些更容易记住的内容以便重复使用。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:95
+#, fuzzy
+msgid ""
+"Changing the anchor for this section to `custom-anchors` would be done with "
+"the following formatting:"
+msgstr "将该部分的锚改为 \"自定义锚\"，格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:101
+#, fuzzy
+msgid ""
+"You can also create an anchor on general content, including text and "
+"codeblocks. The following formatting, with newlines above and below, should "
+"be included above the content you wish to link to:"
+msgstr "您也可以在一般内容（包括文本和代码块）上创建锚点。在您希望链接的内容上方应包含以下格式，上下换行："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:107
+#, fuzzy
+msgid "/// note | Note"
+msgstr "/// note |备注"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:109
+#, fuzzy
+msgid ""
+"The reference linking that allows for linking to anchors in separate files "
+"requires that all anchors be unique. If you are creating a custom anchor, "
+"ensure that you are choosing a name that isn't used elsewhere in the "
+"documentation."
+msgstr "参考链接允许链接到独立文件中的锚点，这就要求所有锚点都必须是唯一的。如果您要创建自定义锚点，请确保您选择的名称没有在文档的其他地方使用过。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:111
+msgid "///"
+msgstr "///"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:113
+#, fuzzy
+msgid "Translating existing content"
+msgstr "翻译现有内容"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:115
+#, fuzzy
+msgid "The following items should _not_ be translated or updated:"
+msgstr "以下项目不应翻译或更新："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:117
+#, fuzzy
+msgid ""
+"Commands. For example, in \"You should run \\`briefcase create\\`.\", only "
+"\"You should run\" should be translated."
+msgstr "命令。例如，在 \"You should run \\`briefcase create\\`.\" 中，只需翻译 \"You should run\"。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:118
+#, fuzzy
+msgid ""
+"Namespaces; class, method, or attribute names. Reference links containing "
+"class, method or attribute names should be left as-is, including the "
+"backticks."
+msgstr "命名空间；类、方法或属性名称。包含类名、方法名或属性名的引用链接应保持原样，包括回车符。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:119
+#, fuzzy
+msgid ""
+"Jinja directives. This is any content wrapped inside two pairs of matching "
+"curly braces, or a matching pair of single curly braces followed by a "
+"percent sign. Note: Including an example of the syntax here causes the "
+"Macros plugin to attempt to render it; see the [Macros documentation]{1} for"
+" examples."
+msgstr ""
+"Jinja 指令。这是任何包在两对匹配的大括号内的内容，或一对匹配的单个大括号内的内容，后跟一个百分号。注：在此处包含语法示例会导致 Macros "
+"插件尝试呈现该语法；有关示例，请参阅 [Macros 文档]{1}。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:120
+#, fuzzy
+msgid ""
+"Custom anchors. They are found after headers or above some content, and are "
+"formatted as `{ id=\"anchor\" }`."
+msgstr "自定义锚点。它们位于标题之后或某些内容之上，格式为 `{ id=\"anchor\" }`。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:121
+#, fuzzy
+msgid ""
+"Admonition _syntax_. As shown below, the word \"admonition\" should not be "
+"translated. This goes for all styles of admonitions, including notes, "
+"warnings, etc. See below for information on translating the rest of the "
+"content."
+msgstr "训诫_语法。如下所示，\"训诫 \"一词不应翻译。这适用于所有类型的训诫，包括注释、警告等。有关翻译其余内容的信息，请参阅下文。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:131
+#, fuzzy
+msgid ""
+"Backticks are meant to stay as backticks; they are used for formatting both "
+"inline code and code blocks."
+msgstr "回车键应保持回车键的状态，用于格式化内联代码和代码块。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:132
+#, fuzzy
+msgid ""
+"The syntax for including external content. This is anything on the same line"
+" as `-8<-`, or on the lines between two `-8<-` on separate lines."
+msgstr "包含外部内容的语法。这是指与 `-8<-` 在同一行的任何内容，或在两个独立行的 `-8<-` 之间的任何内容。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:134
+#, fuzzy
+msgid "The following items _should_ be translated:"
+msgstr "下列项目_应该_翻译："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:136
+#, fuzzy
+msgid ""
+"The admonition titles and content. As shown below, \"Title\" and "
+"\"Content.\" should be translated. See above for information on the syntax."
+msgstr "训诫的标题和内容。如下图所示，\"标题 \"和 \"内容 \"均应翻译。语法信息见上文。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:146
+#, fuzzy
+msgid "Translations and writing new content"
+msgstr "翻译和撰写新内容"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:148
+#, fuzzy
+msgid ""
+"Due to the way the translation files are generated, it is important to "
+"include required newlines in the Markdown syntax for admonitions, notes, "
+"tabs, Jinja directives, image captions and alignment, etc."
+msgstr "由于翻译文件的生成方式，必须在 Markdown 语法中为训诫、注释、制表符、Jinja 指令、图像标题和对齐方式等加入所需的换行符。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:150
+#, fuzzy
+msgid "Admonitions and notes"
+msgstr "训诫和说明"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:152
+#, fuzzy
+msgid ""
+"Admonitions must be formatted as follows, including ensuring a newline "
+"before and after the admonition start and end:"
+msgstr "训诫语的格式必须如下，包括确保在训诫语开始和结束前后加一个换行符："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:165
+#, fuzzy
+msgid "Note admonitions require the same formatting and newlines:"
+msgstr "注释训诫需要相同的格式和换行符："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:175
+#, fuzzy
+msgid ""
+"This format also works for attention, caution, danger, error, tip, hint, "
+"warning admonition types."
+msgstr "这种格式也适用于注意、告诫、危险、错误、提示、暗示、警告等训诫类型。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:177
+#, fuzzy
+msgid "Tabbed content"
+msgstr "标签式内容"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:179
+#, fuzzy
+msgid ""
+"Tabbed content is formatted as follows, including a newline included before "
+"the start and after the end of the content block:"
+msgstr "标签内容的格式如下，包括在内容块的开始和结束前加入换行符："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:201
+#, fuzzy
+msgid ""
+"A tab with a nested admonition would be formatted as follows, including a "
+"newline before and after the content block:"
+msgstr "带有嵌套告诫的制表符格式如下，包括内容块前后的换行符："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:217
+#, fuzzy
+msgid "Jinja directives"
+msgstr "金贾指令"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:219
+#, fuzzy
+msgid ""
+"There are a few features of the documentation that use Jinja directives in "
+"the text. Anything using the Jinja directive features needs to be wrapped in"
+" newlines. For example, the BeeWare tutorial contains Jinja conditionals "
+"based on variables to determine what admonition to show on the main page. "
+"Those are formatted as follows:"
+msgstr ""
+"文档中有一些功能在文本中使用了 Jinja 指令。任何使用 Jinja 指令功能的内容都需要用换行符包起来。例如，BeeWare 教程包含基于变量的 "
+"Jinja 条件句，用于决定在主页上显示什么告诫。其格式如下"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:233
+#, fuzzy
+msgid ""
+"There is also syntax for substituting symbols or text. This syntax is a "
+"variable wrapped in a pair of matching double curly braces, and must include"
+" a newline before and after."
+msgstr "还有一种语法用于替换符号或文本。这种语法是用一对匹配的双大括号包装一个变量，前后必须包括一个换行符。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:239
+#, fuzzy
+msgid "Images with caption syntax"
+msgstr "带标题语法的图片"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:241
+#, fuzzy
+msgid ""
+"Whether the caption syntax is being utilized for the purposes of centering "
+"an image, or for providing an image caption, it must include newlines "
+"between each section."
+msgstr "无论使用标题语法是为了将图像居中，还是为了提供图像标题，都必须在每个部分之间加入换行符。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:243
+#, fuzzy
+msgid ""
+"For example, when adding an empty caption to center an image, you should "
+"format it as follows, with a newline before and after the content block:"
+msgstr "例如，在添加一个空标题使图像居中时，应按如下格式设置，并在内容块前后各加一个换行符："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:253
+#, fuzzy
+msgid ""
+"Adding a caption to an image also requires a newline before and after, and "
+"is formatted as follows:"
+msgstr "为图像添加标题也需要前后换行，格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:265
+#, fuzzy
+msgid "Custom header anchors using reference IDs"
+msgstr "使用引用 ID 自定义标题锚点"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:267
+#, fuzzy
+msgid ""
+"By default, Markdown generates an anchor for every header that is the text "
+"of the header with spaces and punctuation replaced with `-`. However, if you"
+" want something shorter, more memorable, or customized for whatever reason, "
+"this is possible using Jinja-formatted attribute IDs."
+msgstr ""
+"默认情况下，Markdown 会为每个标题生成一个锚，该锚是标题的文本，空格和标点符号用 `-` "
+"替换。不过，如果您想要更短、更易记或出于某种原因进行自定义，可以使用金沙格式的属性 ID。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:269
+#, fuzzy
+msgid "The syntax is as follows:"
+msgstr "语法如下"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:275
+#, fuzzy
+msgid ""
+"For example, if you wanted to be able to link to this section using `custom-"
+"anchors`, you would format the header as follows:"
+msgstr "例如，如果您希望使用 \"自定义锚点 \"链接到本节，您可以将标题格式化如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:281
+#, fuzzy
+msgid ""
+"Once added, you can link to the section from within the same file using a "
+"standard Markdown link, or from another file using the reference link "
+"syntax."
+msgstr "添加后，您可以使用标准 Markdown 链接从同一文件链接到该部分，或使用引用链接语法从另一个文件链接到该部分。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:283
+#, fuzzy
+msgid "Code block tricks"
+msgstr "代码块技巧"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:285
+#, fuzzy
+msgid "Language and code highlighting"
+msgstr "语言和代码高亮"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:287
+#, fuzzy
+msgid ""
+"You can specify the language for the code contained within the codeblock by "
+"including the language name after the first three backticks, with no space "
+"between. This results in appropriate code highlighting when the code "
+"rendered. For example, to specify Python, you would begin the codeblock with"
+" ` ```python`."
+msgstr ""
+"您可以指定代码块中包含的代码的语言，方法是在前三个回车键后加上语言名称，中间不留空格。这样在渲染代码时就会突出显示相应的代码。例如，要指定 Python"
+" 语言，您可以在代码块的开头使用 ```python`."
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:289
+#, fuzzy
+msgid "Console commands and the copy button"
+msgstr "控制台命令和复制按钮"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:291
+#, fuzzy
+msgid ""
+"If you are including console commands, or commands with output, if you label"
+" it as `console` or `doscon`, depending on what operating system you are "
+"referencing, you can include the prompt, and only the command will be copied"
+" when clicking the copy button. For example, if you begin a codeblock with `"
+" ```console `, and include the following content:"
+msgstr ""
+"如果您要包含控制台命令或带输出的命令，如果您将其标记为 `console` 或 "
+"`doscon`，这取决于您引用的操作系统，您可以包含提示符，并且在单击复制按钮时，只有命令会被复制。例如，如果以 ``console ` "
+"开始代码块，并包含以下内容："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:299
+#, fuzzy
+msgid ""
+"Then, clicking the copy button on the codeblock will copy only the commands,"
+" and ignore the prompts and the output. This allows you to indicate that "
+"they are console commands, while still allowing users to use the copy button"
+" effectively."
+msgstr "然后，点击代码块上的复制按钮将只复制命令，而忽略提示和输出。这样既能表明它们是控制台命令，又能让用户有效使用复制按钮。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:301
+#, fuzzy
+msgid "Highlighting specific lines of code"
+msgstr "突出显示特定代码行"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:303
+#, fuzzy
+msgid ""
+"You can highlight specific lines of code. For example, to highlight line 2, "
+"you would add a space after the language, followed by `{hl_lines=\"2\"}`. "
+"So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The "
+"result is:"
+msgstr ""
+"您可以高亮特定的代码行。例如，要高亮第 2 行，您可以在语言后添加一个空格，然后跟上 `{hl_lines=\"2\"}`。因此，您的代码块将以 "
+"```python {hl_lines=\"2\"}` 开头。`.结果是"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:310
+#, fuzzy
+msgid ""
+"You can highlight multiple different lines. For example, `python "
+"{hl_lines=\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also "
+"highlight a range of lines. For example, `python {hl_lines=\"3-8\"}` "
+"highlights lines 3 through 8. You can highlight multiple ranges with, for "
+"example, `python {hl_lines=\"9-18 23-44\"}`."
+msgstr ""
+"您可以高亮多个不同的行。例如，`python {hl_lines=\"3 5 9\"}`将高亮第 3、5 和 9 "
+"行。您还可以高亮一系列行。例如，`python {hl_lines=\"3-8\"}` 将高亮第 3 行至第 8 行。例如，`python "
+"{hl_lines=\"9-18 23-44\"}`可以高亮多个范围。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:312
+#, fuzzy
+msgid "Using Snippets to include external content"
+msgstr "使用片段包含外部内容"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:314
+#, fuzzy
+msgid ""
+"For details on how to include external content from a local file or a URL, "
+"see the [Snippets documentation]{1}."
+msgstr "有关如何从本地文件或 URL 中包含外部内容的详情，请参阅 [Snippets 文档]{1}。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:316
+#, fuzzy
+msgid "Two important notes:"
+msgstr "两个重要说明："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:318
+#, fuzzy
+msgid ""
+"We use `-8<-` as the Snippets identifier. The documentation shows several "
+"options; please follow our style."
+msgstr "我们使用 `-8<-` 作为 Snippets 标识符。文档中显示了多种选项，请遵循我们的风格。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:319
+#, fuzzy
+msgid ""
+"If you are including external content from a file on GitHub via a URL, you "
+"_must_ use the raw content URL, or it will render the webpage embedded "
+"wherever you include it."
+msgstr ""
+"如果您通过 URL 从 GitHub 上的文件中包含外部内容，您_must_ 必须使用原始内容 URL，否则无论您在哪里包含它，它都会呈现嵌入的网页。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:321
+#, fuzzy
+msgid "Image formatting"
+msgstr "图像格式"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:323
+#, fuzzy
+msgid ""
+"Images can have the width set, and can be aligned left, right, and center "
+"(with a caveat on \"center\")."
+msgstr "图像可以设置宽度，并可以向左、向右和居中对齐（\"居中 \"需要注意）。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:325
+#, fuzzy
+msgid ""
+"Setting the width of {1}300px{2} on an image would be formatted as follows:"
+msgstr "在图像上设置 {1}300px{2} 宽度的格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:331
+#, fuzzy
+msgid "Aligning an image left (or right) would be formatted as follows:"
+msgstr "向左（或向右）对齐图像的格式如下："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:337
+#, fuzzy
+msgid ""
+"Aligning an image center is not possible with the `align` attribute. The "
+"workaround is to follow the image with an empty caption, and it will be "
+"centered. You must include newlines between each section, and before and "
+"after. It is formatted as follows:"
+msgstr ""
+"使用 `align` 属性无法将图像居中对齐。解决方法是在图片后面加上一个空标题，这样图片就会居中对齐。您必须在每个部分之间以及前后加上换行符。格式如下"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:347
+#, fuzzy
+msgid "`pyspelling`"
+msgstr "拼写"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:349
+#, fuzzy
+msgid ""
+"We use the `pyspelling` spellchecker. It is run during the lint-checks."
+msgstr "我们使用 `pyspelling` 拼写检查程序。它在内核检查时运行。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:351
+#, fuzzy
+msgid ""
+"When `pyspelling` identifies a misspelled word, in most cases, it should be "
+"fixed in the documentation content."
+msgstr "当 `pyspelling` 识别出拼写错误的单词时，在大多数情况下，应在文档内容中予以修正。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:353
+#, fuzzy
+msgid ""
+"In the rare case that it identifies a valid word that isn't in the "
+"`pyspelling` dictionary, you have two options:"
+msgstr "在极少数情况下，如果它识别出的有效单词不在 \"拼写 \"字典中，您有两种选择："
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:355
+#, fuzzy
+msgid ""
+"If it is a word that is likely to be reused multiple times, you should add "
+"the word to the `spelling_wordlist` document in the `docs` directory, in "
+"alphabetical order."
+msgstr "如果是可能被多次重复使用的单词，则应按字母顺序将该单词添加到`docs`目录下的`spelling_wordlist`文档中。"
+
+#: src/beeware_docs_tools/shared_content/en/style_guide.md:356
+#, fuzzy
+msgid ""
+"If it is a word that is unlikely to be used again, you can wrap it in a "
+"`<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline."
+msgstr ""
+"如果是不太可能再次使用的单词，可以用 `<nospell>` / `</nospell>` 标记将其包裹起来，这样 `pyspelling` "
+"就会在内联时忽略它。"
