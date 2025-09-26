@@ -139,9 +139,7 @@ def main():
                 "base_path", []
             )
 
-            shared_content_path = (
-                temp_md_path / f"{language}/shared_content"
-            ).resolve()
+            shared_content_path = temp_md_path.resolve()
             base_path.append(str(shared_content_path))
 
             config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = (
@@ -164,7 +162,7 @@ def main():
             if language != "en":
                 # Create temp output directories for primary and shared content.
                 output_path = temp_md_path / language
-                sc_output_path = output_path / "shared_content"
+                sc_output_path = temp_md_path / "shared_content"
                 output_path.mkdir(parents=True, exist_ok=True)
                 sc_output_path.mkdir(parents=True, exist_ok=True)
 
@@ -209,7 +207,7 @@ def main():
                         f, target_is_directory=f.is_dir()
                     )
                 # Symlink shared content English Markdown files for en build.
-                (temp_md_path / "en/shared_content").symlink_to(
+                (temp_md_path / "shared_content").symlink_to(
                     Path(__file__).parent / "shared_content/en",
                     target_is_directory=True,
                 )

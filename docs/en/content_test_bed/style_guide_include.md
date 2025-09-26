@@ -1,1 +1,1 @@
--8<- "style_guide.md"
+-8<- "shared_content/style_guide.md"
