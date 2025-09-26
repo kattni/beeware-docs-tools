@@ -139,9 +139,13 @@ def main():
                 "base_path", []
             )
 
-            shared_content_path = (
-                temp_md_path / f"{language}/shared_content"
-            ).resolve()
+            if language != "en":
+                shared_content_path = (
+                    temp_md_path.resolve() / f"shared_content/{language}"
+                )
+            else:
+                shared_content_path = Path(__file__).parent / "shared_content/en"
+
             base_path.append(str(shared_content_path))
 
             config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = (
@@ -164,16 +168,9 @@ def main():
             if language != "en":
                 # Create temp output directories for primary and shared content.
                 output_path = temp_md_path / language
-                sc_output_path = output_path / "shared_content"
+                sc_output_path = temp_md_path / f"shared_content/{language}"
                 output_path.mkdir(parents=True, exist_ok=True)
                 sc_output_path.mkdir(parents=True, exist_ok=True)
-
-                # Symlink shared content directory to the temp directory, so it is
-                # available relative to the build.
-                (temp_md_path / f"shared_content_{language}").symlink_to(
-                    Path(__file__).parent / "shared_content" / "en",
-                    target_is_directory=True,
-                )
 
                 # Generate translated primary content
                 generate_translated_md(
@@ -208,11 +205,6 @@ def main():
                     (temp_md_path / "en" / f.name).symlink_to(
                         f, target_is_directory=f.is_dir()
                     )
-                # Symlink shared content English Markdown files for en build.
-                (temp_md_path / "en/shared_content").symlink_to(
-                    Path(__file__).parent / "shared_content/en",
-                    target_is_directory=True,
-                )
 
             # Build documentation in provided language.
             output = Path(args.output).resolve()
