@@ -584,6 +584,10 @@ readthedocs-docdiff {
     margin-left: 1rem;
 }
 
+.md-typeset .tabbed-labels {
+    box-shadow: unset;
+}
+
 .tabbed-content .tabbed-block {
     border: 2px solid #777777;
     padding: 0.5rem;
