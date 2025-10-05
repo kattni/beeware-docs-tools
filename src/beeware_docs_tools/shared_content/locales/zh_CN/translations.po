@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 22:25+0000\n"
+"POT-Creation-Date: 2025-10-05 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.16.1\n"
+"X-Generator: Translate Toolkit 3.16.2\n"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:1
 #, fuzzy
@@ -22,8 +22,8 @@ msgid ""
 "This guide includes information on expected style, MkDocs-specific syntax, "
 "various required tools, and documentation translation, with regard to "
 "writing new content and translating existing content."
-msgstr "本指南包括有关编写新内容和翻译现有内容的预期风格、MkDocs "
-"特定语法、各种所需工具和文档翻译的信息。"
+msgstr "本指南包括有关编写新内容和翻译现有内容的预期风格、MkDocs 特定语法、各种所需工"
+"具和文档翻译的信息。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:5
 #, fuzzy
@@ -40,8 +40,8 @@ msgstr "页眉和标题的第一个单词应大写。"
 msgid ""
 "We prefer US spelling, with some liberties for programming-specific "
 "colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
-msgstr "我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（"
-"如 \"scrollable\"）有一定的自由度。"
+msgstr "我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（如"
+" \"scrollable\"）有一定的自由度。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:9
 #, fuzzy
@@ -52,8 +52,8 @@ msgstr "artefact \"和 \"artefacts \"的拼写如图所示。"
 #, fuzzy
 msgid ""
 "Any reference to a product name should use the product’s preferred "
-"capitalization. (e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", "
-"\"PyScript\"{2})."
+"capitalization. "
+"(e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", \"PyScript\"{2})."
 msgstr ""
 "任何对产品名称的引用都应使用该产品的首选大写字母。(例如：{1}\"macOS\"、"
 "\"GTK\"、\"pytest\"、\"Pygame\"、\"PyScript\"{2}）。"
@@ -64,9 +64,8 @@ msgid ""
 "If a term is being used \"as code\", then it should be quoted as inline "
 "code, by wrapping it in single backticks, rather than being added to the "
 "dictionary."
-msgstr "如果一个术语是 \"作为代码 \""
-"使用的，那么它就应该作为内联代码引用，用单个回车键将其包裹起来，而不是添加到"
-"字典中。"
+msgstr "如果一个术语是 \"作为代码 \"使用的，那么它就应该作为内联代码引用，用单个回车"
+"键将其包裹起来，而不是添加到字典中。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:13
 #, fuzzy
@@ -83,10 +82,10 @@ msgid ""
 "and text anchors, custom reference IDs, documented classes and class methods "
 "or attributes, and specific external documentation references."
 msgstr ""
-"MkDocs 可呈现标准 Markdown 格式的链接。它还支持渲染引用链接语法，"
-"允许您使用修改后的 Markdown 链接链接到文档中的各种其他元素。这包括链接到标准 "
-"Markdown 标题锚点、自定义 Markdown 标题和文本锚点、自定义引用 "
-"ID、文档类和类方法或属性，以及特定的外部文档引用等。"
+"MkDocs 可呈现标准 Markdown 格式的链接。它还支持渲染引用链接语法，允许您使用修"
+"改后的 Markdown 链接链接到文档中的各种其他元素。这包括链接到标准 Markdown 标"
+"题锚点、自定义 Markdown 标题和文本锚点、自定义引用 ID、文档类和类方法或属性，"
+"以及特定的外部文档引用等。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:17
 #, fuzzy
@@ -190,17 +189,17 @@ msgstr "自定义 Markdown 锚点"
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:93
 #, fuzzy
 msgid ""
-"Markdown generates anchors for all headers (anything on a single line "
-"starting with between one and six `#` symbols), based on the content of the "
-"header. For example, the anchor generated for this section is `custom-"
-"markdown-anchors`. There are situations where it makes sense to instead set "
-"a custom anchor, such as, if the header is overly verbose, or you need "
-"something more memorable available for reuse."
+"Markdown generates anchors for all headers "
+"(anything on a single line starting with between one and six `#` symbols), "
+"based on the content of the header. For example, the anchor generated for "
+"this section is `custom-markdown-anchors`. There are situations where it "
+"makes sense to instead set a custom anchor, such as, if the header is overly "
+"verbose, or you need something more memorable available for reuse."
 msgstr ""
-"Markdown 会根据标题的内容为所有标题（单行中以 1 到 6 个 `#` "
-"符号开头的任何内容）生成锚。例如，本节生成的锚是 `custom-markdown-"
-"anchors`。在某些情况下，设置自定义锚点是有意义的，例如，如果标题过于冗长，或"
-"者你需要一些更容易记住的内容以便重复使用。"
+"Markdown 会根据标题的内容为所有标题（单行中以 1 到 6 个 `#` 符号开头的任何内"
+"容）生成锚。例如，本节生成的锚是 `custom-markdown-anchors`。在某些情况下，设"
+"置自定义锚点是有意义的，例如，如果标题过于冗长，或者你需要一些更容易记住的内"
+"容以便重复使用。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:95
 #, fuzzy
@@ -274,10 +273,9 @@ msgid ""
 "Macros plugin to attempt to render it; see the [Macros documentation]{1} for "
 "examples."
 msgstr ""
-"Jinja "
-"指令。这是任何包在两对匹配的大括号内的内容，或一对匹配的单个大括号内的内容，"
-"后跟一个百分号。注：在此处包含语法示例会导致 Macros "
-"插件尝试呈现该语法；有关示例，请参阅 [Macros 文档]{1}。"
+"Jinja 指令。这是任何包在两对匹配的大括号内的内容，或一对匹配的单个大括号内的"
+"内容，后跟一个百分号。注：在此处包含语法示例会导致 Macros 插件尝试呈现该语法"
+"；有关示例，请参阅 [Macros 文档]{1}。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:120
 #, fuzzy
@@ -293,9 +291,8 @@ msgid ""
 "translated. This goes for all styles of admonitions, including notes, "
 "warnings, etc. See below for information on translating the rest of the "
 "content."
-msgstr "训诫_语法。如下所示，\"训诫 \""
-"一词不应翻译。这适用于所有类型的训诫，包括注释、警告等。有关翻译其余内容的信"
-"息，请参阅下文。"
+msgstr "训诫_语法。如下所示，\"训诫 \"一词不应翻译。这适用于所有类型的训诫，包括注释"
+"、警告等。有关翻译其余内容的信息，请参阅下文。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:131
 #, fuzzy
@@ -335,8 +332,8 @@ msgid ""
 "Due to the way the translation files are generated, it is important to "
 "include required newlines in the Markdown syntax for admonitions, notes, "
 "tabs, Jinja directives, image captions and alignment, etc."
-msgstr "由于翻译文件的生成方式，必须在 Markdown 语法中为训诫、注释、制表符、Jinja "
-"指令、图像标题和对齐方式等加入所需的换行符。"
+msgstr "由于翻译文件的生成方式，必须在 Markdown 语法中为训诫、注释、制表符、Jinja 指"
+"令、图像标题和对齐方式等加入所需的换行符。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:150
 #, fuzzy
@@ -395,9 +392,9 @@ msgid ""
 "based on variables to determine what admonition to show on the main page. "
 "Those are formatted as follows:"
 msgstr ""
-"文档中有一些功能在文本中使用了 Jinja 指令。任何使用 Jinja "
-"指令功能的内容都需要用换行符包起来。例如，BeeWare 教程包含基于变量的 Jinja "
-"条件句，用于决定在主页上显示什么告诫。其格式如下"
+"文档中有一些功能在文本中使用了 Jinja 指令。任何使用 Jinja 指令功能的内容都需"
+"要用换行符包起来。例如，BeeWare 教程包含基于变量的 Jinja 条件句，用于决定在主"
+"页上显示什么告诫。其格式如下"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:233
 #, fuzzy
@@ -450,10 +447,9 @@ msgid ""
 "want something shorter, more memorable, or customized for whatever reason, "
 "this is possible using Jinja-formatted attribute IDs."
 msgstr ""
-"默认情况下，Markdown 会为每个标题生成一个锚，该锚是标题的文本，"
-"空格和标点符号用 `-` "
-"替换。不过，如果您想要更短、更易记或出于某种原因进行自定义，"
-"可以使用金沙格式的属性 ID。"
+"默认情况下，Markdown 会为每个标题生成一个锚，该锚是标题的文本，空格和标点符号"
+"用 `-` 替换。不过，如果您想要更短、更易记或出于某种原因进行自定义，可以使用金"
+"沙格式的属性 ID。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:269
 #, fuzzy
@@ -472,8 +468,8 @@ msgstr "例如，如果您希望使用 \"自定义锚点 \"链接到本节，您
 msgid ""
 "Once added, you can link to the section from within the same file using a "
 "standard Markdown link, or from another file using the reference link syntax."
-msgstr "添加后，您可以使用标准 Markdown "
-"链接从同一文件链接到该部分，或使用引用链接语法从另一个文件链接到该部分。"
+msgstr "添加后，您可以使用标准 Markdown 链接从同一文件链接到该部分，或使用引用链接语"
+"法从另一个文件链接到该部分。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:283
 #, fuzzy
@@ -512,9 +508,9 @@ msgid ""
 "when clicking the copy button. For example, if you begin a codeblock with ` "
 "```console `, and include the following content:"
 msgstr ""
-"如果您要包含控制台命令或带输出的命令，如果您将其标记为 `console` 或 "
-"`doscon`，这取决于您引用的操作系统，您可以包含提示符，并且在单击复制按钮时，"
-"只有命令会被复制。例如，如果以 ``console ` 开始代码块，并包含以下内容："
+"如果您要包含控制台命令或带输出的命令，如果您将其标记为 `console` 或 `doscon`"
+"，这取决于您引用的操作系统，您可以包含提示符，并且在单击复制按钮时，只有命令"
+"会被复制。例如，如果以 ``console ` 开始代码块，并包含以下内容："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:299
 #, fuzzy
@@ -539,9 +535,9 @@ msgid ""
 "So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The "
 "result is:"
 msgstr ""
-"您可以高亮特定的代码行。例如，要高亮第 2 行，您可以在语言后添加一个空格，"
-"然后跟上 `{hl_lines=\"2\"}`。因此，您的代码块将以 ```python {hl_lines=\"2\"}`"
-" 开头。`.结果是"
+"您可以高亮特定的代码行。例如，要高亮第 2 行，您可以在语言后添加一个空格，然后"
+"跟上 `{hl_lines=\"2\"}`。因此，您的代码块将以 ```python {hl_lines=\"2\"}` 开"
+"头。`.结果是"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:310
 #, fuzzy
@@ -553,8 +549,8 @@ msgid ""
 "{hl_lines=\"9-18 23-44\"}`."
 msgstr ""
 "您可以高亮多个不同的行。例如，`python {hl_lines=\"3 5 9\"}`将高亮第 3、5 和 "
-"9 行。您还可以高亮一系列行。例如，`python {hl_lines=\"3-8\"}` 将高亮第 3 "
-"行至第 8 行。例如，`python {hl_lines=\"9-18 23-44\"}`可以高亮多个范围。"
+"9 行。您还可以高亮一系列行。例如，`python {hl_lines=\"3-8\"}` 将高亮第 3 行至"
+"第 8 行。例如，`python {hl_lines=\"9-18 23-44\"}`可以高亮多个范围。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:312
 #, fuzzy
@@ -578,8 +574,8 @@ msgstr "两个重要说明："
 msgid ""
 "We use `-8<-` as the Snippets identifier. The documentation shows several "
 "options; please follow our style."
-msgstr "我们使用 `-8<-` 作为 Snippets "
-"标识符。文档中显示了多种选项，请遵循我们的风格。"
+msgstr "我们使用 `-8<-` 作为 Snippets 标识符。文档中显示了多种选项，请遵循我们的风格"
+"。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:319
 #, fuzzy
@@ -599,8 +595,8 @@ msgstr "图像格式"
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:323
 #, fuzzy
 msgid ""
-"Images can have the width set, and can be aligned left, right, and center ("
-"with a caveat on \"center\")."
+"Images can have the width set, and can be aligned left, right, and center "
+"(with a caveat on \"center\")."
 msgstr "图像可以设置宽度，并可以向左、向右和居中对齐（\"居中 \"需要注意）。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:325
@@ -622,9 +618,8 @@ msgid ""
 "centered. You must include newlines between each section, and before and "
 "after. It is formatted as follows:"
 msgstr ""
-"使用 `align` "
-"属性无法将图像居中对齐。解决方法是在图片后面加上一个空标题，这样图片就会居中"
-"对齐。您必须在每个部分之间以及前后加上换行符。格式如下"
+"使用 `align` 属性无法将图像居中对齐。解决方法是在图片后面加上一个空标题，这样"
+"图片就会居中对齐。您必须在每个部分之间以及前后加上换行符。格式如下"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:347
 #, fuzzy
@@ -641,8 +636,8 @@ msgstr "我们使用 `pyspelling` 拼写检查程序。它在内核检查时运�
 msgid ""
 "When `pyspelling` identifies a misspelled word, in most cases, it should be "
 "fixed in the documentation content."
-msgstr "当 `pyspelling` "
-"识别出拼写错误的单词时，在大多数情况下，应在文档内容中予以修正。"
+msgstr "当 `pyspelling` 识别出拼写错误的单词时，在大多数情况下，应在文档内容中予以修"
+"正。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:353
 #, fuzzy
@@ -666,5 +661,5 @@ msgid ""
 "If it is a word that is unlikely to be used again, you can wrap it in a "
 "`<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline."
 msgstr ""
-"如果是不太可能再次使用的单词，可以用 `<nospell>` / `</nospell>` "
-"标记将其包裹起来，这样 `pyspelling` 就会在内联时忽略它。"
+"如果是不太可能再次使用的单词，可以用 `<nospell>` / `</nospell>` 标记将其包裹"
+"起来，这样 `pyspelling` 就会在内联时忽略它。"

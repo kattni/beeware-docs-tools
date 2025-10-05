@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 22:25+0000\n"
+"POT-Creation-Date: 2025-10-05 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.16.1\n"
+"X-Generator: Translate Toolkit 3.16.2\n"
 
 #: docs/en/SUMMARY.md:1
 #: docs/en/section_one/index.md:1
@@ -142,11 +142,11 @@ msgstr ""
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
 msgid ""
-"For `style_guide_include.md`, you would add `- [Style guide]("
-"content_test_bed/style_guide_include.md)`."
+"For `style_guide_include.md`, you would add `- [Style guide]"
+"(content_test_bed/style_guide_include.md)`."
 msgstr ""
-"Pour `style_guide_include.md`, vous devez ajouter `- [Style guide]("
-"content_test_bed/style_guide_include.md)`."
+"Pour `style_guide_include.md`, vous devez ajouter `- [Style guide]"
+"(content_test_bed/style_guide_include.md)`."
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -671,8 +671,8 @@ msgid ""
 msgstr ""
 "Cette section et ses enfants sont inclus dans le test de défilement de la "
 "barre latérale. Vérifiez que la barre de défilement est navigable sur les "
-"écrans de petite taille, que vous pouvez faire défiler toute la liste (page "
-"01 - page 12) et qu'elle ne chevauche pas le pied de page."
+"écrans de petite taille, que vous pouvez faire défiler toute la liste "
+"(page 01 - page 12) et qu'elle ne chevauche pas le pied de page."
 
 #: docs/en/section_two/index.md:1
 #, fuzzy
