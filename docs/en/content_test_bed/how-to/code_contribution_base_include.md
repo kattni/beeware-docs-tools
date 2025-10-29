@@ -2,6 +2,6 @@
 
 {% extends "code_contribution_base.md" %}
 
-{% block contribution_topics %}
-Project specific topics.
+{% block contribution_topics_new_feature %}
+Project specific feature additions.
 {% endblock %}

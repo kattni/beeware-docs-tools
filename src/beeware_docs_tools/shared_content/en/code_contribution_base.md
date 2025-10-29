@@ -341,9 +341,13 @@ Now you are ready to start hacking on {{ formal_name }}!
 
 Depending on your level of expertise, or areas of interest, there are a number of ways you can contribute to {{ formal_name }}'s code.
 
+{% block contribution_topics %}
+
+{% block contribution_topics_bug_fix %}
+
 ### Fix a bug
 
-{{ formal_name }}'s issue tracker logs the list of [known issues](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug). Any of these issues are candidates to be worked on. This list can be filtered by platform, so you can focus on issues that affect the platforms you're able to test on. There's also a filter for [good first issues](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) . These have been identified as problems that have a known cause, and we believe the fix *should* be relatively simple (although we might be wrong in our analysis).
+{{ formal_name }}'s issue tracker logs the list of [known issues](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug). Any of these issues are candidates to be worked on. This list can be filtered by platform, so you can focus on issues that affect the platforms you're able to test on. There's also a filter for [good first issues](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) . These have been identified as problems that have a known cause, and we believe the fix *should* be relatively straightforward (although we might be wrong in our analysis).
 
 We don't have any formal process of "claiming" or "assigning" issues; if you're interested in a ticket, leave a comment that says you're working on it. If there's an existing comment that says someone is working on the issue, and that comment is recent, then leave a comment asking if they're still working on the issue. If you don't get a response in a day or two, you can assume the issue is available. If the most recent comment is more than a few weeks old, it's probably safe to assume that the issue is still available to be worked on.
 
@@ -357,9 +361,17 @@ If you're able to fix the problem, you'll need to [add tests][run-test-suite] to
 
 Even if you can't fix the problem, reporting anything you discover as a comment on the ticket is worthwhile. If you can find the source of the problem, but not the fix, that knowledge will often be enough for someone who knows more about a platform to solve the problem. Even a good reproduction case (a sample app that does nothing but reproduce the problem) can be a huge help.
 
+{% endblock %}
+
+{% block contribution_topics_docs %}
+
 ### Contribute improvements to documentation
 
-We've got a [separate contribution guide][contribute-docs] for documentation contributions. This covers how to set up your development environment to build {{ formal_name }}'s documentation, and separate ideas for what to work on.
+We've got a [separate contribution guide][contribute-docs] for documentation contributions. It covers how to set up your development environment to build {{ formal_name }}'s documentation, and separate ideas for what to work on.
+
+{% endblock %}
+
+{% block contribution_topics_new_feature %}
 
 ### Add a new feature
 
@@ -367,9 +379,9 @@ Can you think of a feature that {{ formal_name }} should have? Propose a new API
 
 Again, you'll need to add unit tests for any new features you add.
 
-### Implement an entirely new platform backend
+{% endblock %}
 
-{{ formal_name }} currently has support for 6 platforms, with multiple formats on some backends - but there's room for more! In particular, we'd be interested in seeing a [Snap backend](https://github.com/beeware/briefcase/issues/358) to support Ubuntu's packaging format, or support for Apple's [tvOS](https://github.com/beeware/briefcase/issues/4), [watchOS](https://github.com/beeware/briefcase/issues/5), and [visionOS](https://github.com/beeware/briefcase/issues/2253) platforms.
+{% endblock %}
 
 ## Running tests {% if not config.extra.hide_coverage %}and coverage{% endif %} { #run-test-suite }
 
@@ -957,7 +969,7 @@ Some PRs will introduce multiple features and fix multiple bugs, or introduce mu
 - `789.removal.1.md`
 - `789.removal.2.md`
 
-For more information about `towncrier` and fragment types see [News Fragments](https://towncrier.readthedocs.io/en/stable/tutorial.html#creating-news-fragments). You can also see existing examples of news fragments in the `changes` directory of the {{ formal_name }} repository. If this folder is empty, it's likely because {{ formal_name }} has recently published a new release; change note files are deleted and combined to update the [release notes](../../about/releases.md) with each release. You can look at that file to see the style of comment that is required; you can look at [recently merged PRs](https://github.com/beeware/briefcase/pulls?q=is%3Apr+is%3Amerged) to see how to format your change notes.
+For more information about `towncrier` and fragment types see [News Fragments](https://towncrier.readthedocs.io/en/stable/tutorial.html#creating-news-fragments). You can also see existing examples of news fragments in the `changes` directory of the {{ formal_name }} repository. If this folder is empty, it's likely because {{ formal_name }} has recently published a new release; change note files are deleted and combined to update the [release notes](https://) with each release. You can look at that file to see the style of comment that is required; you can look at [recently merged PRs](https://github.com/beeware/briefcase/pulls?q=is%3Apr+is%3Amerged) to see how to format your change notes.
 
 ### It's not just about writing tests!
 
