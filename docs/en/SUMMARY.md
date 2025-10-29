@@ -7,3 +7,4 @@
 - Shared content test bed
     - [Shared content test bed](content_test_bed/index.md)
     - [Style guide](content_test_bed/style_guide_include.md)
+    - [Code Contribution Base Guide](content_test_bed/contribution_guide_base_include.md)
