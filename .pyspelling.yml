@@ -34,6 +34,10 @@ matrix:
         - open: '{%'
           content: '[\d\D]*'
           close: '%}'
+        # Ignores the Jinja directives and their contents
+        - open: '\['
+          content: '[\d\D]*\[[\d\D]*'
+          close: '\]'
         # Ignore the mkdocstrings calls
         - open: ':::'
           content: '[\d\D]*'

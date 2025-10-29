@@ -2,6 +2,7 @@ copyright: © Russell Keith-Magee
 
 not_in_nav: |
   /index.md
+  /about/releases.md
 
 validation:
   omitted_files: warn
@@ -12,6 +13,9 @@ validation:
 extra:
   project_name: beeware-docs-tools
   package_name: beeware-docs-tools
+  formal_name: "BeeWare Docs Tools"
+  hide_coverage: false
+  macos_only: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/beeware
@@ -79,7 +83,8 @@ plugins:
   autorefs: {}
   literate-nav:
     nav_file: SUMMARY.md
-  macros: {}
+  macros:
+    include_dir: docs
   mkdocstrings:
     default_handler: python
     handlers:
