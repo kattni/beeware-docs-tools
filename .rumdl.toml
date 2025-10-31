@@ -12,7 +12,7 @@ disable = ["MD014",]
 # MD002: First heading should be level 1, found level 2; title will be included in the target page
 # MD034: URL without angle brackets or link formatting; triggers on URLs with Jinja variable included
 # MD041: First line in file should be level 1 heading; title will be included in the target page
-"src/beeware_docs_tools/shared_content/en/*_contribution_base.md" = ["MD002", "MD034", "MD041",]
+"src/beeware_docs_tools/shared_content/en/*_base.md" = ["MD002", "MD034", "MD041",]
 
 [MD013]  # Line length
 line_length = 999999  # Force reflow to paragraph content to remove linebreaks

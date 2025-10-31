@@ -14,8 +14,9 @@ extra:
   project_name: beeware-docs-tools
   package_name: beeware-docs-tools
   formal_name: "BeeWare Docs Tools"
-  hide_coverage: false
-  macos_only: true
+  translated: false # true hides content related to building translations. Default: false.
+  hide_coverage: false  # true hides content related to code coverage. Default: false.
+  macos_only: false  # true hides tabbed content, and displays only macOS instructions. Default: false.
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/beeware
