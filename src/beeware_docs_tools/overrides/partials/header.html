@@ -37,6 +37,11 @@
     <!-- User preference: color palette -->
     {% include "partials/javascripts/palette.html" %}
     </div>
+
+    <!-- Site language selector -->
+    {% if config.extra.alternate %}
+      {% include "partials/alternate.html" %}
+    {% endif %}
     <!-- Button to open search modal -->
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
