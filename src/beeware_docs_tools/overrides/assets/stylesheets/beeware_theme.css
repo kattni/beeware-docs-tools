@@ -331,8 +331,8 @@
     color: unset;
 }
 
-.md-select__list {
-    max-height: unset;
+.md-select__inner {
+    max-height: none;
 }
 
 /* Version number */
