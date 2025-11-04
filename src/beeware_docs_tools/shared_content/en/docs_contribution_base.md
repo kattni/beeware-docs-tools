@@ -156,7 +156,7 @@ To generate a build of all available translations:
 
 {% endif %}
 
-The output of each language build will be in the associated `_build/languagecode` directory, where `languagecode` is the two- or five-character language code associated with the specific language.
+The output of each language build will be in the associated `_build/languagecode` directory, where `languagecode` is the two- or five-character language code associated with the specific language (e.g. `fr` for French, `it` for Italian, etc.).
 
 If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-languagecode`.
 
