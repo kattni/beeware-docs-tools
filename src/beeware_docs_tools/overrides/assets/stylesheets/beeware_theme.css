@@ -335,6 +335,10 @@
     max-height: none;
 }
 
+.md-select__list {
+    max-height: none;
+}
+
 /* Version number */
 .version-number {
     overflow-wrap: anywhere;
