@@ -331,6 +331,10 @@
     color: unset;
 }
 
+.md-select__list {
+    max-height: unset;
+}
+
 /* Version number */
 .version-number {
     overflow-wrap: anywhere;
