@@ -17,6 +17,16 @@ extra:
   translated: false # true hides content related to building translations. Default: false.
   hide_coverage: false  # true hides content related to code coverage. Default: false.
   macos_only: false  # true hides tabbed content, and displays only macOS instructions. Default: false.
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Français
+      link: /fr/
+      lang: fr
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/beeware
