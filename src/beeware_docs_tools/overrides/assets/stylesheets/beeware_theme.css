@@ -336,6 +336,13 @@
     color: unset;
 }
 
+.md-select:focus-within .md-select__inner,
+.md-select:hover .md-select__inner,
+.md-select__inner,
+.md-select__list {
+    max-height: none;
+}
+
 /* Version number */
 .version-number {
     overflow-wrap: anywhere;
