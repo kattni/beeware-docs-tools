@@ -331,10 +331,9 @@
     color: unset;
 }
 
-.md-select__inner {
-    max-height: none;
-}
-
+.md-select:focus-within .md-select__inner,
+.md-select:hover .md-select__inner,
+.md-select__inner,
 .md-select__list {
     max-height: none;
 }
