@@ -10,7 +10,7 @@ This guide includes information on expected style, MkDocs-specific syntax, vario
 * Any reference to a product name should use the product’s preferred capitalization. (e.g., <nospell>"macOS", "GTK", "pytest", "Pygame", "PyScript"</nospell>).
 * If a term is being used "as code", then it should be quoted as inline code, by wrapping it in single backticks, rather than being added to the dictionary.
 
-## Reference Links
+## Reference links
 
 MkDocs renders standard Markdown formatted links. It also supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, standard Markdown header anchors, custom Markdown header and text anchors, custom reference IDs, documented classes and class methods or attributes, and specific external documentation references.
 
@@ -128,7 +128,7 @@ The following items should _not_ be translated or updated:
 
 * Commands. For example, in "You should run \`briefcase create\`.", only "You should run" should be translated.
 * Namespaces; class, method, or attribute names. Reference links containing class, method or attribute names should be left as-is, including the backticks.
-* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces followed by a percent sign. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for examples.
+* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces followed by a percent sign. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for examples. &lcub;&lcub;% %&rcub;&rcub;
 * Custom anchors. They are found after headers or above some content, and are formatted as `{ #anchor }`.
 * Admonition _syntax_. As shown below, the word "admonition" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See below for information on translating the rest of the content.
 
