@@ -1,4 +1,8 @@
-If you experience problems with {{ formal_name }}, [log them on GitHub](https://github.com/beeware/{{ project_name }}/issues). If you want to contribute code, please [fork the code](https://github.com/beeware/{{ project_name }}/fork) and [submit a pull request](https://github.com/beeware/{{ project_name }}/pulls).
+{% set min_py_version = "3.10" %}
+{% set recent_py_version = "3.13" %}
+{% set min_py_version_tag = "310" %}
+
+Want to contribute a bug fix or new feature to {{ formal_name }}? This guide will help you set up a development environment so you can implement and test changes to {{ formal_name}}.
 
 ## Prerequisites  { #dev-environment-prereqs }
 
@@ -12,7 +16,15 @@ You'll need to install the following prerequisites.
 
 {% block macos_prerequisites %}
 
-{{ formal_name }} requires installing Python 3.10+. You will also need a method for managing virtual environments (such as `venv`).
+{{ formal_name }} requires Python {{ min_py_version }}+. You will also need a method for managing virtual environments (such as `venv`).
+
+You can verify the version of Python that you have installed by running:
+
+```console
+$ python3 --version
+```
+
+If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_py_version }}`)
 
 {% endblock %}
 
@@ -24,7 +36,15 @@ You'll need to install the following prerequisites.
 
 {% block linux_prerequisites %}
 
-{{ formal_name }} requires installing Python 3.10+. You will also need a method for managing virtual environments (such as `venv`).
+{{ formal_name }} requires Python {{ min_py_version }}+. You will also need a method for managing virtual environments (such as `venv`).
+
+You can verify the version of Python that you have installed by running:
+
+```console
+$ python3 --version
+```
+
+If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_py_version }}`)
 
 {% endblock %}
 
@@ -34,7 +54,17 @@ You'll need to install the following prerequisites.
 
 {% block windows_prerequisites %}
 
-{{ formal_name }} requires installing Python 3.10+. You will also need a method for managing virtual environments (such as `venv`).
+{{ formal_name }} requires Python {{ min_py_version }}+. You will also need a method for managing virtual environments (such as `venv`).
+
+You can verify the version of Python that you have installed by running:
+
+```doscon
+C:\...>py -3 --version
+```
+
+If you have more than one version of Python installed, you may need to replace the `3` with a specific version number (e.g., `python{{ recent_py_version }}`)
+
+We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Windows often lag usually aren't available for recently released stable Python versions.
 
 {% endblock %}
 
@@ -42,9 +72,9 @@ You'll need to install the following prerequisites.
 
 {% endif %}
 
-## <nospell>tl;dr</nospell> - Dev Quick-Setup { #dev-environment-tldr }
+## <nospell>tl;dr</nospell> - Quick start { #dev-environment-tldr }
 
-Set up the dev environment by running:
+Create your dev environment by running:
 
 {% if not config.extra.macos_only %}
 
@@ -83,7 +113,7 @@ $ . .venv/bin/activate
 ```doscon
 C:\...>git clone https://github.com/beeware/{{ project_name }}.git
 C:\...>cd {{ project_name }}
-C:\...>py -m venv .venv
+C:\...>py -3 -m venv .venv
 C:\...>.venv\Scripts\activate
 (.venv) C:\...>python -m pip install -Ue . --group dev
 (.venv) C:\...>pre-commit install
@@ -130,43 +160,6 @@ Invoke checks and tests by running:
 ## Set up your development environment  { #setup-dev-environment }
 
 The recommended way of setting up your development environment for {{ formal_name }} is to use a [virtual environment](https://docs.python.org/3/library/venv.html), and then install the development version of {{ formal_name }} and its dependencies.
-
-First, ensure that you have Python 3 and pip installed. To do this, run:
-
-{% if not config.extra.macos_only %}
-
-/// tab | macOS
-
-{% endif %}
-
-```console
-$ python --version
-$ python -m pip --version
-```
-
-{% if not config.extra.macos_only %}
-
-///
-
-/// tab | Linux
-
-```console
-$ python --version
-$ python -m pip --version
-```
-
-///
-
-/// tab | Windows
-
-```doscon
-C:\...>python --version
-C:\...>python -m pip --version
-```
-
-///
-
-{% endif %}
 
 ### Clone the {{ formal_name }} repository
 
@@ -250,7 +243,7 @@ $ source .venv/bin/activate
 
 ```doscon
 C:\...>cd {{ project_name }}
-C:\...>python -m venv .venv
+C:\...>py -3 -m venv .venv
 C:\...>.venv\Scripts\activate
 ```
 
@@ -483,7 +476,7 @@ If you're rapidly iterating on a new feature, you don't need to run the full tes
 
 {% endif %}
 
-### Run a subset of tests  { #test-subset }
+### Run a subset of tests { #test-subset }
 
 By default, `tox` will run all tests in the unit test suite. When you're developing your new test, it may be helpful to run *just* that one test. To do this, you can pass in [any `pytest` specifier](https://docs.pytest.org/en/latest/how-to/usage.html#specifying-which-tests-to-run) as an argument to `tox`. These test paths are relative to the `briefcase` directory. For example, to run only the tests in a single file, run:
 
@@ -521,9 +514,9 @@ By default, `tox` will run all tests in the unit test suite. When you're develop
 
 You'll still get a coverage report when running a part of the test suite -but the coverage results will only report the lines of code that were executed by the specific tests you ran.
 
-### Run the test suite for a specific Python version  { #test-py-version }
+### Run the test suite for a specific Python version { #test-py-version }
 
-By default `tox -e py` will run using whatever interpreter resolves as `python` on your machine. If you have multiple Python versions installed, and want to test a specific Python version from the versions you have installed, you can specify a specific Python version to use. For example, to run the test suite on Python 3.10, run:
+By default `tox -e py` will run using whatever interpreter resolves as `python` on your machine. If you have multiple Python versions installed, and want to test a specific Python version from the versions you have installed, you can specify a specific Python version to use. For example, to run the test suite on Python {{ min_py_version }}, run:
 
 {% if not config.extra.macos_only %}
 
@@ -532,7 +525,7 @@ By default `tox -e py` will run using whatever interpreter resolves as `python` 
 {% endif %}
 
 ```console
-(.venv) $ tox -e py310
+(.venv) $ tox -e py{{ min_py_version_tag }}
 ```
 
 {% if not config.extra.macos_only %}
@@ -542,7 +535,7 @@ By default `tox -e py` will run using whatever interpreter resolves as `python` 
 /// tab | Linux
 
 ```console
-(.venv) $ tox -e py310
+(.venv) $ tox -e py{{ min_py_version_tag }}
 ```
 
 ///
@@ -550,7 +543,7 @@ By default `tox -e py` will run using whatever interpreter resolves as `python` 
 /// tab | Windows
 
 ```doscon
-(.venv) C:\...>tox -e py310
+(.venv) C:\...>tox -e py{{ min_py_version_tag }}
 ```
 
 ///
@@ -597,7 +590,7 @@ By default, `tox` will run the pytest suite in single threaded mode. You can spe
 
 {% endif %}
 
-A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line; a [specific Python version][test-py-version] can be used by adding the version to the test target (e.g., `py310-fast` to run fast on Python 3.10).
+A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line; a [specific Python version][test-py-version] can be used by adding the version to the test target (e.g., `py{{ min_py_version_tag }}-fast` to run fast on Python {{ min_py_version }}).
 
 ## Code coverage
 
@@ -617,23 +610,23 @@ Name    Stmts   Miss Branch BrPart   Cover   Missing
 TOTAL    7540      0   1040      0  100.0%
 ```
 
-This tells us that the test suite has executed every possible branching path in the `briefcase` code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase.
+This tells us that the test suite has executed every possible branching path in the code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase.
 
-If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `briefcase/integrations/file.py`, adding some new logic. The coverage report might look something like:
+If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `some/interesting_file.py`, adding some new logic. The coverage report might look something like:
 
 ```console
 Name                                 Stmts   Miss Branch BrPart  Cover   Missing
 --------------------------------------------------------------------------------
-src/briefcase/integrations/file.py     111      1     26      0  98.1%   170, 302-307
+src/some/interesting_file.py           111      1     26      0  98.1%   170, 302-307, 320->335
 --------------------------------------------------------------------------------
 TOTAL                                 7540      1   1726      0  99.9%
 ```
 
-This tells us that line 170, and lines 302-307 are not being executed by the test suite. You'll need to add new tests (or modify an existing test) to restore this coverage.
+This tells us that line 170, lines 302-307, and a branch jumping from line 320 to line 335, are not being executed by the test suite. You'll need to add new tests (or modify an existing test) to restore this coverage.
 
 ### Coverage report for host platform and Python version
 
-You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python 3.11, run:
+You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python {{ min_py_version }}, run:
 
 {% if not config.extra.macos_only %}
 
@@ -642,7 +635,7 @@ You can generate a coverage report for your platform and version of Python. For 
 {% endif %}
 
 ```console
-(.venv) $ tox -m test311
+(.venv) $ tox -m test{{ min_py_version_tag }}
 ```
 
 {% if not config.extra.macos_only %}
@@ -652,7 +645,7 @@ You can generate a coverage report for your platform and version of Python. For 
 /// tab | Linux
 
 ```console
-(.venv) $ tox -m test311
+(.venv) $ tox -m test{{ min_py_version_tag }}
 ```
 
 ///
@@ -660,7 +653,7 @@ You can generate a coverage report for your platform and version of Python. For 
 /// tab | Windows
 
 ```doscon
-(.venv) C:\...>tox -m test311
+(.venv) C:\...>tox -m test{{ min_py_version_tag }}
 ```
 
 ///
@@ -741,7 +734,7 @@ A HTML coverage report can be generated by appending `-html` to any of the cover
 
 {% endif %}
 
-## Submitting a pull request  { #pr-housekeeping }
+## Submitting a pull request { #pr-housekeeping }
 
 Before you submit a pull request, there's a few bits of housekeeping to do.
 
@@ -751,9 +744,9 @@ Before you start working on your change, make sure you've created a branch. By d
 
 While you *can* submit a pull request from your `main` branch, it's preferable if you *don't* do this. If you submit a pull request that is *almost* right, the core team member who reviews your pull request may be able to make the necessary changes, rather than giving feedback asking for a minor change. However, if you submit your pull request from your `main` branch, reviewers are prevented from making modifications.
 
-Instead, you should make your changes on a *feature branch*. A feature branch has a simple name to identify the change that you've made. For example, if you've found a bug in {{ formal_name }}'s binary signing on Windows, you might create a feature branch `fix-windows-signing`. If your bug relates to a specific issue that has been reported, it's also common to reference that issue number in the branch name (e.g., `fix-1234`).
+Instead, you should make your changes on a *feature branch*. A feature branch has a simple name to identify the change that you've made. For example, if you've found a bug that causes a display problem on Windows 11, you might create a feature branch `fix-win11-display`. If your bug relates to a specific issue that has been reported, it's also common to reference that issue number in the branch name (e.g., `fix-1234`).
 
-To create a `fix-windows-signing` feature branch, run:
+To create a `fix-win11-display` feature branch, run:
 
 {% if not config.extra.macos_only %}
 
@@ -762,7 +755,7 @@ To create a `fix-windows-signing` feature branch, run:
 {% endif %}
 
 ```console
-(.venv) $ git switch -c fix-windows-signing
+(.venv) $ git switch -c fix-win11-display
 ```
 
 {% if not config.extra.macos_only %}
@@ -772,7 +765,7 @@ To create a `fix-windows-signing` feature branch, run:
 /// tab | Linux
 
 ```console
-(.venv) $ git switch -c fix-windows-signing
+(.venv) $ git switch -c fix-win11-display
 ```
 
 ///
@@ -780,7 +773,7 @@ To create a `fix-windows-signing` feature branch, run:
 /// tab | Windows
 
 ```doscon
-(.venv) C:\...>git switch -c fix-windows-signing
+(.venv) C:\...>git switch -c fix-win11-display
 ```
 
 ///

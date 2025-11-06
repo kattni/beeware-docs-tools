@@ -16,11 +16,7 @@ To support rapid editing of documentation, {{ formal_name }} has a "live preview
 
 The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` would normally cause a build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview.
 
-/// danger | Builds will fail on `ERROR`
-
 A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered a error, the build will fail, and require a restart.
-
-///
 
 ///
 
@@ -243,7 +239,7 @@ If a valid spelling of a word is identified as misspelled, then add the word to 
 
 - We prefer US spelling, with some liberties for programming-specific colloquialism (e.g., "apps") and verbing of nouns (e.g., "scrollable")
 - Any reference to a product name should use the product's preferred capitalization. (e.g., "macOS", "GTK", "pytest", "Pygame", "PyScript").
-- If a term is being used "as code", then it should be quoted as a literal rather than being added to the dictionary.
+- If a term is being used "as code", then it should be quoted as a literal (`like this`) rather than being added to the dictionary.
 
 ## What to work on?
 
