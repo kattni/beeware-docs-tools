@@ -49,7 +49,7 @@ If you don't find any existing references to your idea, start a [Discussion thre
 
 Once the Discussion thread is opened, the team will respond. We will aim to provide at least an initial impression within one business day. If an idea is especially complex, a more detailed analysis might take up to a week. Events like holidays and conferences might cause those timelines to be slightly longer.
 
-This is your opportunity to participate in a conversation about your idea. We may ask for more details or context. Other members of the community may also get involved in the discussion, providing other perspectives, suggestions or counterproposals. The outcome of this discussion will determine the next steps.
+This is your opportunity to participate in a conversation about your idea. We may ask for more details or context. Other members of the community may also get involved in the discussion, providing other perspectives, suggestions or counter-proposals. The outcome of this discussion will determine the next steps.
 
 It's important to understand that not all ideas will be accepted. The reason this process starts with a proposal is to avoid you putting in all the work, only to find out there is a reason your change won't be accepted.
 

@@ -1,8 +1,8 @@
-{% set min_py_version = "3.10" %}
-{% set recent_py_version = "3.13" %}
-{% set min_py_version_tag = "310" %}
+{% set min_python_version = "3.10" %}
+{% set recent_python_version = "3.13" %}
+{% set min_python_version_tag = "310" %}
 
-Want to contribute a bug fix or new feature to {{ formal_name }}? This guide will help you set up a development environment so you can implement and test changes to {{ formal_name}}.
+Want to contribute a bug fix or new feature to {{ formal_name }}? This guide will help you set up a development environment so you can implement and test changes to {{ formal_name }}.
 
 ## Prerequisites  { #dev-environment-prereqs }
 
@@ -16,7 +16,7 @@ You'll need to install the following prerequisites.
 
 {% block macos_prerequisites %}
 
-{{ formal_name }} requires Python {{ min_py_version }}+. You will also need a method for managing virtual environments (such as `venv`).
+{{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`).
 
 You can verify the version of Python that you have installed by running:
 
@@ -24,7 +24,7 @@ You can verify the version of Python that you have installed by running:
 $ python3 --version
 ```
 
-If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_py_version }}`)
+If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)
 
 {% endblock %}
 
@@ -36,7 +36,7 @@ If you have more than one version of Python installed, you may need to replace `
 
 {% block linux_prerequisites %}
 
-{{ formal_name }} requires Python {{ min_py_version }}+. You will also need a method for managing virtual environments (such as `venv`).
+{{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`).
 
 You can verify the version of Python that you have installed by running:
 
@@ -44,7 +44,7 @@ You can verify the version of Python that you have installed by running:
 $ python3 --version
 ```
 
-If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_py_version }}`)
+If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)
 
 {% endblock %}
 
@@ -54,7 +54,7 @@ If you have more than one version of Python installed, you may need to replace `
 
 {% block windows_prerequisites %}
 
-{{ formal_name }} requires Python {{ min_py_version }}+. You will also need a method for managing virtual environments (such as `venv`).
+{{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`).
 
 You can verify the version of Python that you have installed by running:
 
@@ -62,7 +62,7 @@ You can verify the version of Python that you have installed by running:
 C:\...>py -3 --version
 ```
 
-If you have more than one version of Python installed, you may need to replace the `3` with a specific version number (e.g., `python{{ recent_py_version }}`)
+If you have more than one version of Python installed, you may need to replace the `-3` with a specific version number (e.g., `-python{{ recent_python_version }}`)
 
 We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Windows often lag usually aren't available for recently released stable Python versions.
 
@@ -516,7 +516,7 @@ You'll still get a coverage report when running a part of the test suite -but th
 
 ### Run the test suite for a specific Python version { #test-py-version }
 
-By default `tox -e py` will run using whatever interpreter resolves as `python` on your machine. If you have multiple Python versions installed, and want to test a specific Python version from the versions you have installed, you can specify a specific Python version to use. For example, to run the test suite on Python {{ min_py_version }}, run:
+By default `tox -e py` will run using whatever interpreter resolves as `python` on your machine. If you have multiple Python versions installed, and want to test a specific Python version from the versions you have installed, you can specify a specific Python version to use. For example, to run the test suite on Python {{ min_python_version }}, run:
 
 {% if not config.extra.macos_only %}
 
@@ -525,7 +525,7 @@ By default `tox -e py` will run using whatever interpreter resolves as `python` 
 {% endif %}
 
 ```console
-(.venv) $ tox -e py{{ min_py_version_tag }}
+(.venv) $ tox -e py{{ min_python_version_tag }}
 ```
 
 {% if not config.extra.macos_only %}
@@ -535,7 +535,7 @@ By default `tox -e py` will run using whatever interpreter resolves as `python` 
 /// tab | Linux
 
 ```console
-(.venv) $ tox -e py{{ min_py_version_tag }}
+(.venv) $ tox -e py{{ min_python_version_tag }}
 ```
 
 ///
@@ -543,7 +543,7 @@ By default `tox -e py` will run using whatever interpreter resolves as `python` 
 /// tab | Windows
 
 ```doscon
-(.venv) C:\...>tox -e py{{ min_py_version_tag }}
+(.venv) C:\...>tox -e py{{ min_python_version_tag }}
 ```
 
 ///
@@ -590,7 +590,7 @@ By default, `tox` will run the pytest suite in single threaded mode. You can spe
 
 {% endif %}
 
-A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line; a [specific Python version][test-py-version] can be used by adding the version to the test target (e.g., `py{{ min_py_version_tag }}-fast` to run fast on Python {{ min_py_version }}).
+A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line; a [specific Python version][test-py-version] can be used by adding the version to the test target (e.g., `py{{ min_python_version_tag }}-fast` to run fast on Python {{ min_python_version }}).
 
 ## Code coverage
 
@@ -626,7 +626,7 @@ This tells us that line 170, lines 302-307, and a branch jumping from line 320 t
 
 ### Coverage report for host platform and Python version
 
-You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python {{ min_py_version }}, run:
+You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python {{ min_python_version }}, run:
 
 {% if not config.extra.macos_only %}
 
@@ -635,7 +635,7 @@ You can generate a coverage report for your platform and version of Python. For 
 {% endif %}
 
 ```console
-(.venv) $ tox -m test{{ min_py_version_tag }}
+(.venv) $ tox -m test{{ min_python_version_tag }}
 ```
 
 {% if not config.extra.macos_only %}
@@ -645,7 +645,7 @@ You can generate a coverage report for your platform and version of Python. For 
 /// tab | Linux
 
 ```console
-(.venv) $ tox -m test{{ min_py_version_tag }}
+(.venv) $ tox -m test{{ min_python_version_tag }}
 ```
 
 ///
@@ -653,7 +653,7 @@ You can generate a coverage report for your platform and version of Python. For 
 /// tab | Windows
 
 ```doscon
-(.venv) C:\...>tox -m test{{ min_py_version_tag }}
+(.venv) C:\...>tox -m test{{ min_python_version_tag }}
 ```
 
 ///
