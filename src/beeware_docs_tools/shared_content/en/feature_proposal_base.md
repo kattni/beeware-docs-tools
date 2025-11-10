@@ -41,7 +41,7 @@ So you've got an idea about an improvement for {{ formal_name }} - how do you su
 
 ### Do your research
 
-The first step is to search {{ formal_name }}'s repository for existing [feature issues (issues tagged "enhancement")](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement), [documentation issues (issues tagged "documentation")](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation), or [Discussion threads](https://github.com/beeware/{{ project_name }}/discussions) to see if the idea has been suggested before. If it has, and you have new context or ideas to add, include them in the existing thread. If you would like assistance with your research, you can optionally ask in the #dev channel on the [BeeWare Discord](https://beeware.org/bee/chat/). We may be able to point you in the direction of existing threads, provide context of which you may not be aware, or connect your idea to a separate idea that might not be immediately obvious.
+The first step is to search the {{ formal_name }} issue tracker for existing [feature issues (issues tagged "enhancement")](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement), [documentation issues (issues tagged "documentation")](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation), or [Discussion threads](https://github.com/beeware/{{ project_name }}/discussions) to see if the idea has been suggested before. If it has, and you have new context or ideas to add, include them in the existing thread. If you would like assistance with your research, you can optionally ask in the #dev channel on the [BeeWare Discord](https://beeware.org/bee/chat/). We may be able to point you in the direction of existing threads, provide context of which you may not be aware, or connect your idea to a separate idea that might not be immediately obvious.
 
 ### Discuss the idea
 
@@ -63,7 +63,7 @@ If we determine that your idea isn't a good fit, it doesn't necessarily mean you
 
 ### Convert to a formal feature request
 
-Once the discussion has reached a consensus on the form of a feature, you can create a new [feature request issue](https://github.com/beeware/{{ project_name }}/issues/new/choose), in the {{ formal_name }} repository, that summarizes the discussion, linking to the discussion for context.
+Once the discussion has reached a consensus on the form of a feature, you can create a new [feature request issue](https://github.com/beeware/{{ project_name }}/issues/new/choose), in the {{ formal_name }} issue tracker, that summarizes the discussion, linking to the discussion for context.
 
 ## Implement your idea
 

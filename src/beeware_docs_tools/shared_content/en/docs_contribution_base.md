@@ -241,12 +241,6 @@ If a valid spelling of a word is identified as misspelled, then add the word to 
 - Any reference to a product name should use the product's preferred capitalization. (e.g., "macOS", "GTK", "pytest", "Pygame", "PyScript").
 - If a term is being used "as code", then it should be quoted as a literal (`like this`) rather than being added to the dictionary.
 
-## What to work on?
-
-If you're looking for specific areas to improve, there are [tickets tagged "documentation"](https://github.com/beeware/{{ project_name }}/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation) in {{ formal_name }}'s issue tracker.
-
-However, you don't need to be constrained by these tickets. If you can identify a gap in {{ formal_name }}'s documentation, or an improvement that can be made, start writing! Anything that improves the experience of the end user is a welcome change.
-
 ## Submitting a pull request
 
 Before you submit a pull request, there's a few bits of housekeeping to do. See the section on submitting a pull request in the [code contribution guide][pr-housekeeping] for details on our submission process.
