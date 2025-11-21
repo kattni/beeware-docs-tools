@@ -24,22 +24,22 @@ maintainers = [
 
 dependencies = [
     "click==8.2.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
-    "deepl==1.23.0",
+    "deepl==1.25.0",
     "markdown-checker==0.2.5",
     "mistletoe==1.5.0",
     "mkdocs-autorefs==1.4.3",
     "mkdocs-literate-nav==0.6.2",
-    "mkdocs-macros-plugin==1.4.1",
-    "mkdocs-material==9.6.23",
+    "mkdocs-macros-plugin==1.5.0",
+    "mkdocs-material==9.7.0",
     "mkdocs==1.6.1",
     "mkdocstrings-python==1.18.2",
-    "pymdown-extensions==10.16.1",
+    "pymdown-extensions==10.17.1",
     "pyspelling==2.12",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.14.3",
-    "setuptools-scm==9.2.0",
+    "ruff==0.14.4",
+    "setuptools_scm == 9.2.2",
     "translate-toolkit==3.16.3",
 ]
 
@@ -47,7 +47,7 @@ dependencies = [
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 dev = [
-    "pre-commit == 4.3.0",
+    "pre-commit == 4.4.0",
     "tox-uv == 1.29.0",
 ]
 
