@@ -340,6 +340,7 @@
 .md-select:hover .md-select__inner,
 .md-select__inner,
 .md-select__list {
+.md-select__list {
     max-height: none;
 }
 
