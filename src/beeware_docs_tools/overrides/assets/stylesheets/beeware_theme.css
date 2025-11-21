@@ -604,6 +604,7 @@ readthedocs-docdiff {
 /* Forces only highlighting the important bits of codeblocks */
 .highlight .gp, .highlight .go {
     user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Codeblock copy button styling */
