@@ -4,7 +4,7 @@ You might have the best software in the world - but if nobody knows how to use i
 
 ## Building {{ formal_name }}'s documentation
 
-To build {{ formal_name }}'s documentation, start by ensuring you [have the prerequisites][dev-environment-prereqs], and then [set up a development environment][dev-environment-tldr] (or, for a more detailed explanation of dev environment setup, [start here][setup-dev-environment]).You **must** have a Python 3.12 interpreter installed and available on your path (i.e., `python3.12` must start a Python 3.12 interpreter).
+To build {{ formal_name }}'s documentation, start by ensuring you [have the prerequisites][dev-environment-prereqs], and then [set up a development environment][dev-environment-tldr] (or, for a more detailed explanation of dev environment setup, [start here][setup-dev-environment]). You **must** have a Python 3.12 interpreter installed and available on your path (i.e., `python3.12` must start a Python 3.12 interpreter).
 
 {{ formal_name }} uses `tox` for building documentation. The following `tox` commands must be run from the same location as the `tox.ini` file, which is in the root directory of the project.
 

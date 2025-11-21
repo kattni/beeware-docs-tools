@@ -59,7 +59,7 @@ This doesn't mean it wasn't a good idea! There may be technical reasons it can't
 * It would be difficult to maintain, or maintenance would require access to technology or software that isn't widely available; or
 * It serves a niche audience, but imposes significant overhead on other users.
 
-If we determine that your idea isn't a good fit, it doesn't necessarily mean you should give up on it. While we may reject a *specific* idea, we may be a lot more amenable to adding an plugin interface or other extension point that would allow you to maintain the same feature as an external library. That way you can have the feature, but without the specific maintenance concerns or limitations of the feature becoming a constraint on the project itself.
+If we determine that your idea isn't a good fit, it doesn't necessarily mean you should give up on it. While we may reject a *specific* idea, we may be a lot more amenable to adding a plugin interface or other extension point that would allow you to maintain the same feature as an external library. That way you can have the feature, but without the specific maintenance concerns or limitations of the feature becoming a constraint on the project itself.
 
 ### Convert to a formal feature request
 
@@ -67,4 +67,4 @@ Once the discussion has reached a consensus on the form of a feature, you can cr
 
 ## Implement your idea
 
-You can now start implementing your idea. If your suggestion involves code, you can use [this guide][contribute-code] to walk you through the processof contributing code to {{ formal_name }}. If your suggestion involves documentation, you can use [this guide][contribute-docs] instead.
+You can now start implementing your idea. If your suggestion involves code, you can use [this guide][contribute-code] to walk you through the process of contributing code to {{ formal_name }}. If your suggestion involves documentation, you can use [this guide][contribute-docs] instead.
