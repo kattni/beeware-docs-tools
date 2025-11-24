@@ -1,3 +1,4 @@
+# TODO: DELETE THIS WHEN CONTENT IS MOVED
 
 Want to contribute a bug fix or new feature to {{ formal_name }}? This guide will help you set up a development environment so you can implement and test changes to {{ formal_name }}.
 

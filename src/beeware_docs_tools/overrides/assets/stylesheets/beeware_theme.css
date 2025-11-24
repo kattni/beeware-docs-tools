@@ -340,7 +340,6 @@
 .md-select:hover .md-select__inner,
 .md-select__inner,
 .md-select__list {
-.md-select__list {
     max-height: none;
 }
 
@@ -685,5 +684,7 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 }
 
 /* Indent contents of classes/methods/etc. */
-
-.doc-contents, .doc-signature { margin-left: 2em; }
+.doc-contents,
+.doc-signature {
+    margin-left: 2em;
+}

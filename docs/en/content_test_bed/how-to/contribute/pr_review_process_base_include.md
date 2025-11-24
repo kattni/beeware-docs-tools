@@ -2,4 +2,4 @@
 
 TODO: Update title
 
-{% extends "pr_review_process_base.md" %}
+{% extends "pr_review_process.md" %}

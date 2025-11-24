@@ -1,4 +1,4 @@
-## What can I do?
+## TODO: DELETE THIS WHEN CONTENT IS MOVED
 
 There are many ways to contribute to {{ formal_name }}. You can choose the option that works best for you based on your areas of interest, and level of expertise.
 
