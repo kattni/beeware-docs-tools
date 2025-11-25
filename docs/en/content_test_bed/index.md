@@ -4,7 +4,7 @@ This section is included for the purposes of verifying the shared content provid
 
 If you are updating existing content, the following steps are not necessary. You can simply build the test site, and see your updates rendered.
 
-If you are creating a new shared documentation file in the `shared-content` directory, complete the following:
+If you are creating a new shared documentation file in the `shared-content` directory, that is NOT meant to be included in the `how-to` directory, complete the following:
 
 1. Create a file in the `content_test_bed` that is the same filename as your new content file, with "_include" appended to the end.
    * For `style_guide.md`, you would add `style_guide_include.md`.

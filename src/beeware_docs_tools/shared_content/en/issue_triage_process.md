@@ -1,0 +1,1 @@
+If a bug report has no comments from anyone other than the original reporter, the issue needs to be triaged. Triaging a bug involves taking the information provided by the reporter, and trying to reproduce it. If you can't reproduce the problem, report what you have found as a comment on the ticket, and pick another ticket.
