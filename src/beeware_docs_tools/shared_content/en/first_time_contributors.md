@@ -4,7 +4,7 @@ I assure you - the little voice in your head is wrong. You can contribute code t
 
 ## Impostor syndrome
 
-You're not the first person to have those thoughts, either. Even the members of the core team of this project have these thoughts from time to time. It's called "imposter syndrome", and it's a really common problem. The good news is - we're here to help you get over it.
+You're not the first person to have those thoughts, either. Even the members of the core team of this project have these thoughts from time to time. It's called "impostor syndrome", and it's a really common problem. The good news is - we're here to help you get over it.
 
 This tutorial exists to make sure you know exactly what process you have to follow in order to get your patch merged. In addition to these procedural instructions, this project has a Code of Conduct. This Code of Conduct is there to give you confidence that no matter what mistakes you make, you'll be treated with respect. Everyone makes mistakes - that's a natural part of learning. Our pledge to you is that we are here to help you learn, not to insult or belittle you for learning.
 
