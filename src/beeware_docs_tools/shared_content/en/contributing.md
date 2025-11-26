@@ -64,7 +64,7 @@ Once your changes are ready, you'll [submit a pull request](pr_submit.md) for re
 BeeWare uses Weblate for [translations](translate.md), which requires a few steps to get started.
 
 
-## What's next?
+## What happens next?
 
 ### [The review process](pr_review_process.md)
 

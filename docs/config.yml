@@ -96,7 +96,8 @@ markdown_extensions:
 
 plugins:
   search: {}
-  autorefs: {}
+  autorefs:
+    resolve_closest: true  # autorefs warns of the Usage headings begin duplicates without this - we will have to assign unique ids to all of them otherwise
   literate-nav:
     nav_file: SUMMARY.md
   macros:

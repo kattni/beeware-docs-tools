@@ -22,9 +22,11 @@
                 - [Use the tools](content_test_bed/how-to/contribute/tools_use_process.md)
             - How do I contribute?
                 - [Set up dev environment](content_test_bed/how-to/contribute/dev_environment.md)
+                - [Reproduce an issue](content_test_bed/how-to/contribute/issue_reproduce.md)
                 - [Write, run, and test code](content_test_bed/how-to/contribute/code_run_test.md)
                 - [Write and build docs](content_test_bed/how-to/contribute/docs_build.md)
                 - [Submit a pull request](content_test_bed/how-to/contribute/pr_submit.md)
                 - [Translate content](content_test_bed/how-to/contribute/translate.md)
+            - What happens next?
                 - [Pull request review process](content_test_bed/how-to/contribute/pr_review.md)
                 - [Release process](content_test_bed/how-to/contribute/release_process.md)

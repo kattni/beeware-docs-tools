@@ -1,6 +1,6 @@
 Contributing to {{ formal_name }} requires you to set up a development environment.
 
-## Prerequisites  { #dev-environment-prereqs }
+### Prerequisites  { #dev-environment-prereqs }
 
 You'll need to install the following prerequisites.
 
@@ -68,7 +68,7 @@ We recommend avoiding recently released version of Python (i.e., versions that h
 
 {% endif %}
 
-## <nospell>tl;dr</nospell> - Quick start { #dev-environment-tldr }
+### <nospell>tl;dr</nospell> - Quick start { #dev-environment-tldr }
 
 Create your dev environment by running:
 
@@ -153,11 +153,11 @@ Invoke checks and tests by running:
 
 {% endif %}
 
-## Set up your development environment  { #setup-dev-environment }
+### Set up your development environment  { #setup-dev-environment }
 
 The recommended way of setting up your development environment for {{ formal_name }} is to use a [virtual environment](https://docs.python.org/3/library/venv.html), and then install the development version of {{ formal_name }} and its dependencies.
 
-### Clone the {{ formal_name }} repository
+#### Clone the {{ formal_name }} repository
 
 Next, go to the [{{ formal_name }} page on GitHub](https://github.com/beeware/{{ project_name }}), and, if you haven't already, [fork the repository](https://github.com/beeware/{{ project_name }}/fork) into your own account. Next, click on the "<> Code" button on your fork. If you have the GitHub desktop application installed on your computer, you can select "Open with GitHub Desktop"; otherwise, copy the HTTPS URL provided, and use it to clone the repository to your computer using the command line:
 
@@ -205,7 +205,7 @@ C:\...>git clone https://github.com/<your username>/{{ project_name }}.git
 
 {% endif %}
 
-### Create a virtual environment
+#### Create a virtual environment
 
 To set up a virtual environment, run:
 
@@ -249,7 +249,7 @@ C:\...>.venv\Scripts\activate
 
 Your prompt should now have a `(.venv)` prefix in front of it.
 
-### Install {{ formal_name }}
+#### Install {{ formal_name }}
 
 Now that you have the source code, you can do an [editable install](https://setuptools.pypa.io/en/latest/userguide/development_mode.html) of {{ formal_name }} into your development environment. Run the following command:
 
@@ -285,7 +285,7 @@ Now that you have the source code, you can do an [editable install](https://setu
 
 {% endif %}
 
-### Enable pre-commit
+#### Enable pre-commit
 
 {{ formal_name }} uses a tool called [pre-commit](https://pre-commit.com) to identify simple issues and standardize code formatting. It does this by installing a git hook that automatically runs a series of code linters prior to finalizing any git commit. To enable pre-commit, run:
 

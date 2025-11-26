@@ -7,3 +7,24 @@ If you can reproduce the problem - try to fix it! Work out what combination of c
 Even if you can't fix the problem, reporting anything you discover as a comment on the ticket is worthwhile. If you can find the source of the problem, but not the fix, that knowledge will often be enough for someone who knows more about a platform to solve the problem. A good reproduction case (a sample app that does nothing but reproduce the problem) can be a huge help.
 
 ## Contributing an issue fix
+
+{% macro content(template) %}{% include template %}{% endmacro %}
+{% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
+
+TODO: blurb.
+
+??? abstract "Set up a development environment"
+
+    {{ indented("dev_environment.md") }}
+
+??? abstract "Reproduce the issue"
+
+    {{ indented("issue_reproduce.md") }}
+
+??? abstract "Write, run, and test code"
+
+    {{ indented("code_run_test.md") }}
+
+??? abstract "Submit a pull request"
+
+    {{ indented("pr_submit.md") }}
