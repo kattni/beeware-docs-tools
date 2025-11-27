@@ -1,3 +1,5 @@
+TODO: Add making explicit headers being a rquirement. Write a tool to automatically verify whether there is an explicit header or not, and throw a warning if not.
+
 # BeeWare documentation style guide
 
 This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content.

@@ -6,7 +6,6 @@
     - ./section_three/*
 - Shared content test bed
     - [Shared content test bed](content_test_bed/index.md)
-    - [Style guide](content_test_bed/style_guide_include.md)
     - How-to guides
         - Contribute
             - [Contributing](content_test_bed/how-to/contribute/index.md)
@@ -30,3 +29,6 @@
             - What happens next?
                 - [Pull request review process](content_test_bed/how-to/contribute/pr_review.md)
                 - [Release process](content_test_bed/how-to/contribute/release_process.md)
+            - Style guides
+                - [Code style guide](content_test_bed/how-to/contribute/code_style_guide.md)
+                - [Documentation style guide](content_test_bed/how-to/contribute/docs_style_guide.md)
