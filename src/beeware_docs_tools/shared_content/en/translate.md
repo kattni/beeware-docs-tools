@@ -1,13 +1,4 @@
-
-if it is a language that we don't already have a translation for, we need to set up the translation in our content
-What is the process for adding new translation:
-    tox file, config file
-once you've been added, it is at that point, log onto Weblate and start wroking through strings.
-keep an eye on markup, ligth validation, but it can have issues
-link text can update, link URLs shouldn't
-trying to maintain tone more than word-for-word translation; try to be a bit friendly and colloqual in our English textx, try to maintain the spirit of that in your translations.
-if the English is a particularly strong English idiom, don't feel beholden to maintain the idiom, and if it is a particularly slang or idiomatic term, don't be afriad to tell us we should change the English text, because even for English speakers, sometimes it's difficult to understand. Sometimes we need ot change the english text to make it easier for transaltor and readers.
-Weblate processes everything on stringbystring basis, and batches changes up, every couple of hours, it will submit a bulk PR with all strings that have changed in that interfal. May take a couple of hours to show up on the webiste. essentially any translationo will be live in 4r hours. If not, likely cause, there is a markup error, and docs can't be built for language as a result, any markup problem in any string will block entire translation from being public. can keep an eye on taht by looking at RTD build page for your translation, for example the French translation is (URL HERE). That will show you the state of th emost recent build of that site., point to versions altest and stable. If unable to build, look at build log, and see if you can identify the source of the problem.
+TODO: intro copy
 
 ### Getting started with translating
 
@@ -31,9 +22,9 @@ If the language you plan to help out with doesn't already exist, there is some s
 
 To set up a new language, the following steps must be completed:
 
-* Create the `mkdocs.language-code.yml` file, with language-specific content.
+* Create the `/docs/mkdocs.language-code.yml` file, with language-specific content.
 * Update `tox.ini` to include the new language build commands.
-* Update `config.yml` to include the language under `extra: alternate:`.
+* Update `/docs/config.yml` to include the language under `extra: alternate:`.
 
 **The following demonstrates the necessary changes using German as an example.**
 
@@ -44,7 +35,7 @@ The first thing to do would be to create a new file named `mkdocs.de.yml` in the
 ```yaml
 INHERIT: config.yml
 site_name: BeeWare Demo zu Docs Tools
-site_url: https://tutorial.beeware.org/de
+site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}
 docs_dir: de
 
 theme:
@@ -88,20 +79,33 @@ You need to add the language to `config.yml` for it to show up in the language s
 
 The language name should be translated into the language. The link must include the `/`s.
 
+The new language is now ready to begin translation.
+
 ### Translation guidelines
+
+Once you've been added to the team, it's time to log into Weblate and begin working through translating strings.
+
+#### Tone versus word-for-word translation
+
+It's more important to maintain the tone of the English text than to strive for a word-for-word translation. We try to be friendly and a bit colloquial in our content; try to maintain the spirit of that in your translations.
+
+If the English text contains a strong English idiom, don't feel beholden to maintain the idiom, if there is an analog in your language that would work equally well. If the term or phrase in the English text is a particularly idiomatic or slang term, don't be afraid to tell us we should consider making a change. Even for English speakers, idioms and slang can pose difficulty. Sometimes we need to change the English text to make it more straightforward for translators and readers alike.
+
+#### Should I translate it?
 
 The following items should _not_ be translated or updated:
 
 * Commands. For example, in "You should run \`briefcase create\`.", only "You should run" should be translated.
 * Namespaces; class, method, or attribute names.
-* Reference links containing class, method or attribute names should be left as-is, including the backticks. The example link shown here would not be translated.
+* Link URLs. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com)`, the URL should be skipped for translation.
+* Reference links containing class, method or attribute names. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated.
 
     ```markdown
     [`Class.attribute`][Class.attribute]
     ```
 
-* Reference link link-content, as in `[Link text][link-content]`.
-* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, i.e. &lcub;&lcub; content &rcub;&rcub;, or a matching pair of single curly braces followed by a percent sign, i.e. &lcub;% content %&rcub;. Note: See the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for further details.
+* Reference link link-content. For example, `link-content` would be skipped in the following: `[Link text][link-content]`.
+* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, i.e. &lcub;&lcub; &rcub;&rcub;, or a matching pair of single curly braces followed by a percent sign, i.e. &lcub;% %&rcub;. Note: See the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for further details.
 * Custom anchors. They are found after headers or above some content, and are formatted as `{ #anchor }`.
 * Admonition _syntax_. As shown here, the word "admonition" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content.
 
@@ -113,12 +117,13 @@ The following items should _not_ be translated or updated:
     ///
     ```
 
-* Backticks are meant to stay as backticks; they are used for formatting both inline code and code blocks.
+* Backticks. They are meant to stay as backticks; they are used for formatting both inline code and code blocks.
 * The syntax for including external content. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines.
 
 The following items _should_ be translated:
 
-* Reference link text, as in `[Link text][link-content]`.
+* Link text. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links.
+* Reference link text. For example, `Link text` would be translated in the following: `[Link text][link-content]`.
 * The admonition titles and content. As shown below, "Title" and "Content." should be translated. See above for information on the syntax.
 
     ```markdown
@@ -128,3 +133,9 @@ The following items _should_ be translated:
 
     ///
     ```
+
+### Weblate
+
+Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours.
+
+If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg-fr/](https://app.readthedocs.org/projects/beewareorg-fr/){% else %}[https://app.readthedocs.org/projects/{{ project_name }}-fr/](https://app.readthedocs.org/projects/{{ project_name }}-fr/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem.
