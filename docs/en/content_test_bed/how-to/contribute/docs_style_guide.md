@@ -1,1 +1,1 @@
--8<- "style_guide.md"
+-8<- "docs_style_guide.md"

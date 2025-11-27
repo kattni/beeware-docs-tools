@@ -104,9 +104,27 @@ To link to the Pillow `Image` documentation:
 
 ## Custom Markdown anchors
 
-Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors`. There are situations where it makes sense to instead set a custom anchor, such as, if the header is overly verbose, or you need something more memorable available for reuse.
+Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors`. There are situations where it makes sense to instead set a custom anchor, such as, if you are using the anchor in a reference link, or if the header is overly verbose, and you need something more memorable available for reuse.
 
-Changing the anchor for this section to `custom-anchors` would be done with the following formatting:
+/// danger | Reference links and anchors
+
+Any header that is referenced in text content via a MkDocs reference link *must* have a custom anchor attached. Otherwise, there is the potential to break links when header content is translated.
+
+MkDocs reference links are any links formatted as follows:
+
+```markdown
+[Link text][anchor-name]
+```
+
+///
+
+The general syntax for setting a custom anchor is as follows:
+
+```markdown
+# Header text { #anchor }
+```
+
+For example, customizing the anchor for this section to `custom-anchors` would be done with the following formatting:
 
 ```markdown
 ## Custom Markdown anchors { #custom-anchors }
@@ -118,46 +136,7 @@ You can also create an anchor on general content, including text and codeblocks.
 [](){ #anchor-name }
 ```
 
-/// note | Note
-
-The reference linking that allows for linking to anchors in separate files requires that all anchors be unique. If you are creating a custom anchor, ensure that you are choosing a name that isn't used elsewhere in the documentation.
-
-///
-
-## Translating existing content
-
-The following items should _not_ be translated or updated:
-
-* Commands. For example, in "You should run \`briefcase create\`.", only "You should run" should be translated.
-* Namespaces; class, method, or attribute names. Reference links containing class, method or attribute names should be left as-is, including the backticks.
-* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces followed by a percent sign. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for examples. &lcub;&lcub;% %&rcub;&rcub;
-* Custom anchors. They are found after headers or above some content, and are formatted as `{ #anchor }`.
-* Admonition _syntax_. As shown below, the word "admonition" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See below for information on translating the rest of the content.
-
-    ```markdown
-    /// admonition | Title
-
-    Content.
-
-    ///
-    ```
-
-* Backticks are meant to stay as backticks; they are used for formatting both inline code and code blocks.
-* The syntax for including external content. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines.
-
-The following items _should_ be translated:
-
-* The admonition titles and content. As shown below, "Title" and "Content." should be translated. See above for information on the syntax.
-
-    ```markdown
-    /// admonition | Title
-
-    Content.
-
-    ///
-    ```
-
-## Translations and writing new content
+## Markdown elements that require specific formatting
 
 Due to the way the translation files are generated, it is important to include required newlines in the Markdown syntax for admonitions, notes, tabs, Jinja directives, image captions and alignment, etc.
 
@@ -166,6 +145,8 @@ Due to the way the translation files are generated, it is important to include r
 Admonitions must be formatted as follows, including ensuring a newline before and after the admonition start and end:
 
 ```markdown
+Content above.
+
 /// admonition | Title
 
 Admonition text, including
@@ -174,16 +155,22 @@ multi-line text.
 A second paragraph.
 
 ///
+
+Content below.
 ```
 
 Note admonitions require the same formatting and newlines:
 
 ```markdown
+Content above.
+
 /// note | Note
 
 Note text here.
 
 ///
+
+Content below.
 ```
 
 This format also works for danger, tip, and warning admonition types.
@@ -193,6 +180,8 @@ This format also works for danger, tip, and warning admonition types.
 Tabbed content is formatted as follows, including a newline included before the start and after the end of the content block:
 
 ```markdown
+Content above.
+
 /// tab | Tab one title
 
 Tab one text
@@ -210,11 +199,15 @@ Tab two text.
 Tab three text.
 
 ///
+
+Content below.
 ```
 
 A tab with a nested admonition would be formatted as follows, including a newline before and after the content block:
 
 ```markdown
+Content above.
+
 /// tab | Windows
 
 Tab text.
@@ -226,6 +219,8 @@ Admonition text.
 ///
 
 ///
+
+Content below.
 ```
 
 ### Jinja directives
@@ -233,6 +228,8 @@ Admonition text.
 There are a few features of the documentation that use Jinja directives in the text. Anything using the Jinja directive features needs to be wrapped in newlines. For example, the BeeWare tutorial contains Jinja conditionals based on variables to determine what admonition to show on the main page. Those are formatted as follows:
 
 ```markdown
+Content above.
+
 {% if config.extra.translation_type == "original" %}
 
 /// admonition | Admonition title
@@ -242,12 +239,18 @@ Text
 ///
 
 {% endif %}
+
+Content below.
 ```
 
-There is also syntax for substituting symbols or text. This syntax is a variable wrapped in a pair of matching double curly braces, and must include a newline before and after.
+There is also syntax for substituting symbols or text. This syntax is a variable wrapped in a pair of matching double curly braces, and, if on its own line, must include a newline before and after.
 
 ```markdown
+Content above.
+
 {{ variable }}
+
+Content below.
 ```
 
 ### Images with caption syntax
@@ -257,16 +260,22 @@ Whether the caption syntax is being utilized for the purposes of centering an im
 For example, when adding an empty caption to center an image, you should format it as follows, with a newline before and after the content block:
 
 ```markdown
+Content above.
+
 ![Alt text](/path/to/image.png)
 
 /// caption
 
 ///
+
+Content below.
 ```
 
 Adding a caption to an image also requires a newline before and after, and is formatted as follows:
 
 ```markdown
+Content above.
+
 ![Alt text](/path/to/image.png)
 
 /// caption
@@ -274,25 +283,9 @@ Adding a caption to an image also requires a newline before and after, and is fo
 Caption content.
 
 ///
+
+Content below.
 ```
-
-## Custom header anchors using reference IDs
-
-By default, Markdown generates an anchor for every header that is the text of the header with spaces and punctuation replaced with `-`. However, if you want something shorter, more memorable, or customized for whatever reason, this is possible using Jinja-formatted attribute IDs.
-
-The syntax is as follows:
-
-```markdown
-# Header text { #anchor }
-```
-
-For example, if you wanted to be able to link to this section using `custom-anchors`, you would format the header as follows:
-
-```markdown
-## Custom header anchors and reference IDs { #custom-anchors }
-```
-
-Once added, you can link to the section from within the same file using a standard Markdown link, or from another file using the reference link syntax.
 
 ## Code block tricks
 
@@ -367,7 +360,7 @@ For details on how to include external content from a local file or a URL, see t
 Important notes:
 
 * We use `-8<-` as the Snippets identifier. The documentation shows several options; please follow our style.
-* Files found in BeeWare Docs Tools shared content are treated as "local" content, and should be added using only the filename, i.e. this style guide would be included using `-8<- "style_guide.md"`.
+* Files found in BeeWare Docs Tools shared content are treated as "local" content, and should be added using only the filename, i.e. this style guide would be included using `-8<- "docs_style_guide.md"`.
 * If you are including external content from a file on GitHub via a URL, you _must_ use the raw content URL, or it will render the full webpage embedded wherever you include it.
 
 ## Using Macros to include content from BeeWare Docs Tools shared content
