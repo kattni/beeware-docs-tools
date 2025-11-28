@@ -1,3 +1,5 @@
+TODO: MAKE SURE THIS IS COMPLETE
+
 TODO: Intro
 
 ## Can I contribute?
@@ -46,6 +48,10 @@ Do you have an idea for an app built with Toga? Do you have an existing app that
 ### [Set up a development environment](dev_environment.md)
 
 Before you can begin contributing to BeeWare, you'll need to [set up your development environment](dev_environment.md).
+
+### [Reproduce an issue](issue_reproduce.md)
+
+Before fixing an issue, you'll need to verify it exists by [reproducing the issue](issue_reproduce.md).
 
 ### [Write, run, and test code](code_run_test.md)
 

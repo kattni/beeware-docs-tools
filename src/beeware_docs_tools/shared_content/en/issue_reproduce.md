@@ -1,4 +1,4 @@
-You can't fix a problem if you don't have the problem in the first place. Therefore, you need to be able to reproduce a problem to fix it. In software, problems are commonly referred to as ["bugs"](https://en.wikipedia.org/wiki/Software_bug).
+You can't fix a problem if you don't have the problem in the first place. Therefore, reproducing the issue is a prerequisite to fixing it. In software, problems are commonly referred to as ["bugs"](https://en.wikipedia.org/wiki/Software_bug), and issues are often called "bug reports".
 
 Someone has provided a bug report. You need to validate that the steps the reporter describes are resulting in the bug being reported. Can you reproduce the same result by doing exactly what was described in the report? If you can't, you need to figure out why.
 

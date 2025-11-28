@@ -60,11 +60,3 @@ This doesn't mean it wasn't a good idea! There may be technical reasons it can't
 * It serves a niche audience, but imposes significant overhead on other users.
 
 If we determine that your idea isn't a good fit, it doesn't necessarily mean you should give up on it. While we may reject a *specific* idea, we may be a lot more amenable to adding a plugin interface or other extension point that would allow you to maintain the same feature as an external library. That way you can have the feature, but without the specific maintenance concerns or limitations of the feature becoming a constraint on the project itself.
-
-### Convert to a formal feature request
-
-Once the discussion has reached a consensus on the form of a feature, you can create a new [feature request issue](https://github.com/beeware/{{ project_name }}/issues/new/choose), in the {{ formal_name }} issue tracker, that summarizes the discussion, linking to the discussion for context.
-
-## Implement your idea
-
-You can now start implementing your idea. If your suggestion involves code, you can use [this guide](feature_implement_process.md) to walk you through the process of contributing code to {{ formal_name }}. If your suggestion involves documentation, you can use [this guide](docs_process.md) instead.
