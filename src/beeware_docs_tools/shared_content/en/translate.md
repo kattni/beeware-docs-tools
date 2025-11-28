@@ -105,7 +105,7 @@ The following items should _not_ be translated or updated:
     ```
 
 * Reference link link-content. For example, `link-content` would be skipped in the following: `[Link text][link-content]`.
-* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, i.e. &lcub;&lcub; &rcub;&rcub;, or a matching pair of single curly braces followed by a percent sign, i.e. &lcub;% %&rcub;. Note: See the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for further details.
+* Jinja directives. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for examples.
 * Custom anchors. They are found after headers or above some content, and are formatted as `{ #anchor }`.
 * Admonition _syntax_. As shown here, the word "admonition" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content.
 
