@@ -1,7 +1,5 @@
 
-### Convert to a formal feature request
 
-Once the discussion has reached a consensus on the form of a feature, you can create a new [feature request issue](https://github.com/beeware/{{ project_name }}/issues/new/choose), in the {{ formal_name }} issue tracker, that summarizes the discussion, linking to the discussion for context.
 
 ### Implement your idea
 
