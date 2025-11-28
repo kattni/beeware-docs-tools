@@ -60,3 +60,7 @@ This doesn't mean it wasn't a good idea! There may be technical reasons it can't
 * It serves a niche audience, but imposes significant overhead on other users.
 
 If we determine that your idea isn't a good fit, it doesn't necessarily mean you should give up on it. While we may reject a *specific* idea, we may be a lot more amenable to adding a plugin interface or other extension point that would allow you to maintain the same feature as an external library. That way you can have the feature, but without the specific maintenance concerns or limitations of the feature becoming a constraint on the project itself.
+
+### Proposal issue
+
+You don't have to implement your feature proposal yourself; you can open an issue with the details of what you're proposing. However, simply posting the issue doesn't mean it's going to be implemented for you. You'll need to wait for it to potentially get picked up by someone else interested in the same feature, whether that means another community member or the core team; however this is not guaranteed to happen. If you want the guarantee implementation, you'll need to implement it yourself, or pay someone else to implement it for you.
