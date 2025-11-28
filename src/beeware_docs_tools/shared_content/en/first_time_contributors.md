@@ -16,4 +16,8 @@ So - don't be afraid to contribute. If you've gotten this far, you've demonstrat
 
 Being an open source contributor doesn't just mean writing code. You can help out by writing documentation, tests, or even giving feedback about the project (and yes - that includes giving feedback about the contribution process). Some of these contributions may be the most valuable to the project as a whole, because you're coming to the project with fresh eyes, so you can see the errors and assumptions that seasoned contributors have glossed over.
 
+## The importance of contributions
+
+Open Source Software lives and dies on its contributions. Community contributions are critical to the success of any open source project, and BeeWare is no exception. To the extent that we can, we will provide you with the help you need to contribute. We're more than happy to get you going and help you work through your contribution, regardless of whether this is your first, tenth, or hundredth time contributing. Please don't hesitate to reach out and let us know if you need assistance.
+
 Now it's time to roll up your sleeves, and [choose your first contribution](index.md#what-can-i-do).
