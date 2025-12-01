@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-01 00:04+0000\n"
+"POT-Creation-Date: 2025-12-01 00:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.16.3\n"
+"X-Generator: Translate Toolkit 3.17.2\n"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:1
 #, fuzzy
@@ -40,8 +40,8 @@ msgstr "標題和標題的第一個字應該大寫。"
 msgid ""
 "We prefer US spelling, with some liberties for programming-specific "
 "colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
-msgstr "我們偏好美式拼法，但對於程式特定的口語（例如 \"apps「）和名詞的動詞（例如 」s"
-"crollable\"）則有一些自由度。"
+msgstr "我們偏好美式拼法，但對於程式特定的口語（例如 \"apps「）和名詞的動詞（例如 」"
+"scrollable\"）則有一些自由度。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:9
 #, fuzzy
@@ -52,11 +52,11 @@ msgstr "artefact 「和 」artefacts \"的拼寫如圖所示。"
 #, fuzzy
 msgid ""
 "Any reference to a product name should use the product’s preferred "
-"capitalization. "
-"(e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", \"PyScript\"{2})."
+"capitalization. (e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", "
+"\"PyScript\"{2})."
 msgstr ""
-"任何對產品名稱的引用都應該使用該產品名稱的首字母大寫。(例如，{1}\"macOS\"、"
-"\"GTK\"、\"pytest\"、\"Pygame\"、\"PyScript\"{2}）。"
+"任何對產品名稱的引用都應該使用該產品名稱的首字母大寫。(例如，{1}"
+"\"macOS\"、\"GTK\"、\"pytest\"、\"Pygame\"、\"PyScript\"{2}）。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:11
 #, fuzzy
@@ -191,12 +191,12 @@ msgstr "自訂 Markdown 錨點"
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:93
 #, fuzzy
 msgid ""
-"Markdown generates anchors for all headers "
-"(anything on a single line starting with between one and six `#` symbols), "
-"based on the content of the header. For example, the anchor generated for "
-"this section is `custom-markdown-anchors`. There are situations where it "
-"makes sense to instead set a custom anchor, such as, if the header is overly "
-"verbose, or you need something more memorable available for reuse."
+"Markdown generates anchors for all headers (anything on a single line "
+"starting with between one and six `#` symbols), based on the content of the "
+"header. For example, the anchor generated for this section is `custom-"
+"markdown-anchors`. There are situations where it makes sense to instead set "
+"a custom anchor, such as, if the header is overly verbose, or you need "
+"something more memorable available for reuse."
 msgstr ""
 "Markdown 會根據標題的內容，為所有標題 (以一到六個 `#` 符號開頭的單行上的任何"
 "內容) 產生錨點。例如，本節產生的錨點是 `custom-markdown-anchors`。在某些情況"
@@ -254,8 +254,8 @@ msgid ""
 "Commands. For example, in \"You should run \\`briefcase create\\`.\", only "
 "\"You should run\" should be translated."
 msgstr ""
-"命令。例如，在 \"You should run `briefcase create\\`.「 中，只需翻譯 」You sh"
-"ould run\"。"
+"命令。例如，在 \"You should run `briefcase create\\`.「 中，只需翻譯 」You "
+"should run\"。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:118
 #, fuzzy
@@ -309,8 +309,8 @@ msgstr "反標記應保持為反標記；它們用於格式化內聯程式碼和
 msgid ""
 "The syntax for including external content. This is anything on the same line "
 "as `-8<-`, or on the lines between two `-8<-` on separate lines."
-msgstr "包含外部內容的語法。這是與 `-8<-` 在同一行的任何內容，或是在兩個分行的 `-8<-`"
-" 之間的內容。"
+msgstr "包含外部內容的語法。這是與 `-8<-` 在同一行的任何內容，或是在兩個分行的 `-8<-"
+"` 之間的內容。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:134
 #, fuzzy
@@ -320,8 +320,8 @@ msgstr "下列項目 _ 應該翻譯："
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:136
 #, fuzzy
 msgid ""
-"The admonition titles and content. As shown below, \"Title\" and \"Content.\""
-" should be translated. See above for information on the syntax."
+"The admonition titles and content. As shown below, \"Title\" and "
+"\"Content.\" should be translated. See above for information on the syntax."
 msgstr "訓誡的標題和內容。如下所示，「標題」和「內容。」應該被翻譯。有關語法的資訊，"
 "請參閱上文。"
 
@@ -541,22 +541,22 @@ msgid ""
 "result is:"
 msgstr ""
 "您可以高亮特定的程式碼行。例如，若要高亮第 2 行，您可以在語言後面加上一個空格"
-"，接著是 `{hl_lines=\"2\"}`。因此，您的程式碼區塊會以 ` ``python {hl_lines="
-"\"2\"}` 開頭。`.結果是"
+"，接著是 `{hl_lines=\"2\"}`。因此，您的程式碼區塊會以 ` ``python "
+"{hl_lines=\"2\"}` 開頭。`.結果是"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:310
 #, fuzzy
 msgid ""
-"You can highlight multiple different lines. For example, `python {hl_lines="
-"\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also highlight a range "
-"of lines. For example, `python {hl_lines=\"3-8\"}` highlights lines 3 "
-"through 8. You can highlight multiple ranges with, for example, `python "
-"{hl_lines=\"9-18 23-44\"}`."
+"You can highlight multiple different lines. For example, `python "
+"{hl_lines=\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also "
+"highlight a range of lines. For example, `python {hl_lines=\"3-8\"}` "
+"highlights lines 3 through 8. You can highlight multiple ranges with, for "
+"example, `python {hl_lines=\"9-18 23-44\"}`."
 msgstr ""
 "您可以高亮顯示多個不同的行。例如，`python {hl_lines=\"3 5 9\"}` 將會高亮第 3"
 "、5 和 9 行。您也可以高亮某一行。例如，`python {hl_lines=\"3-8\"}` 會高亮顯示"
-"第 3 行至第 8 行。您可以高亮顯示多個範圍，例如，`python {hl_lines="
-"\"9-18 23-44\"}`。"
+"第 3 行至第 8 行。您可以高亮顯示多個範圍，例如，`python {hl_lines=\"9-18 23-"
+"44\"}`。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:312
 #, fuzzy
@@ -589,8 +589,8 @@ msgid ""
 "_must_ use the raw content URL, or it will render the webpage embedded "
 "wherever you include it."
 msgstr ""
-"如果您在 GitHub 上透過 URL 加入檔案中的外部內容，您 _must_ 必須使用原始內容的"
-" URL，否則無論您在哪裡加入內容，它都會呈現嵌入的網頁。"
+"如果您在 GitHub 上透過 URL 加入檔案中的外部內容，您 _must_ 必須使用原始內容"
+"的 URL，否則無論您在哪裡加入內容，它都會呈現嵌入的網頁。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:321
 #, fuzzy
@@ -658,8 +658,8 @@ msgid ""
 "If it is a word that is likely to be reused multiple times, you should add "
 "the word to the `spelling_wordlist` document in the `docs` directory, in "
 "alphabetical order."
-msgstr "如果是一個可能會被多次重複使用的字，您應該將該字依字母順序加入`docs`目錄中的`"
-"spelling_wordlist`文件。"
+msgstr "如果是一個可能會被多次重複使用的字，您應該將該字依字母順序加入`docs`目錄中"
+"的`spelling_wordlist`文件。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:356
 #, fuzzy
