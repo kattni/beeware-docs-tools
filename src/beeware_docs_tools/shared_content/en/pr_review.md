@@ -2,9 +2,7 @@ TODO: Intro paragraph
 
 Your PR is now passing CI.
 
-For details on the contribution process itself, you'll want to check out the [code contribution][contribute-code] and [documentation contribution][contribute-docs] guides.
-
-## <nospell>tl;dr</nospell> - After submitting a PR
+## <nospell>tl;dr</nospell> - Following a PR
 
 This quick overview outlines the steps you'll need to complete following submission of your pull request.
 
@@ -16,27 +14,34 @@ This quick overview outlines the steps you'll need to complete following submiss
    * Re-request a review when all requested changes have been submitted.
    * Repeat section three until no further changes are needed.
 4. Wait for your PR to be approved and merged. Congratulations!
-5. Wait for a release that includes your submission.
 
-## PR submitted; now what?
+## I submitted my pull request, what now?
 
-After submitting your pull request, you'll need to wait for the review process to begin.
+After submitting your pull request, you'll need to wait for the review process to begin. There are two sides to the review process: providing a review and receiving a review.
 
-## The review process
-
-### Providing a review
+## Providing a review
 
 -8<- "pr_review_process.md"
 
-### Receiving a review
+## Receiving a review
 
-#### Timeline and feedback
+Receiving a review involves three basic steps:
+
+1. Initial feedback and questions.
+2. Change requests.
+3. Approval and merge.
+
+Each step is detailed below. If at any point during the process, beginning to end, you have questions, don't hesitate to ask! We are happy to help.
+
+### Timeline and initial feedback
 
 We aim to begin a review within ten business days, however, with more complicated submissions, that timeline may be extended.
 
-We typically maintain continuity with reviewers on each pull request, which is to say, you'll likely work with the same reviewer for your entire review. This provides a smoother experience for everyone involved. Your reviewer will have context throughout the process, and you'll be able to learn what to expect in terms of response cadence and review style.
+We typically maintain continuity with reviewers on each pull request, which is to say, you'll likely work with the same reviewer for your entire review. This provides a smoother experience for everyone involved. This means your reviewer will have context throughout the process, and you'll be able to learn what to expect in terms of response cadence and review style.
 
-TODO: something about responding to initial feedback and questions. Have we understood what this is doing correctly, can you explain this edge case. There may be questions that come as part of the review process that are not the conclusion of the review. That's the change requests.
+There are often initial comments or questions from a reviewer to establish context for and understanding of the pull request. You may receive some initial questions, such as the following. Have we understood correctly what this contribution is meant to be doing? Can you explain this edge case we've identified?
+
+You can expect us to respond to each exchange within a rolling ten business day timeframe. Responding to feedback and questions is an essential part of the review process. We will expect a response from you before we move to the next step in the process.
 
 ### Change requests
 
@@ -54,8 +59,10 @@ If an issue is particularly complicated, and fixing one will impact another thin
 
 Once you have resolved all the requested changes in a given review, you can re-request a review from your reviewer.
 
-Repeat the three above steps until no further changes are needed.
+Repeat the three steps above until no further changes are needed.
 
-## PR approval and merge
+### Pull request approval and merge
 
-will almost always be merged immediately, unless extenuating circumstances like codependency with another PR
+Once the change requests are completed, the PR will be approved. In most cases, we will immediately merge it. In some cases, there may be extenuating circumstances, such as relying on another not-yet-merged PR, that will lead to a delay. We'll communicate this in the comments, so you'll know the situation.
+
+The next step is the release process.

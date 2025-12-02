@@ -153,7 +153,7 @@ Invoke checks and tests by running:
 
 {% endif %}
 
-### Set up your development environment  { #setup-dev-environment }
+### Set up your development environment  { #dev-environment-set-up }
 
 The recommended way of setting up your development environment for {{ formal_name }} is to use a [virtual environment](https://docs.python.org/3/library/venv.html), and then install the development version of {{ formal_name }} and its dependencies.
 

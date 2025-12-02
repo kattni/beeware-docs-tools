@@ -1,6 +1,8 @@
 ## Building {{ formal_name }}'s documentation
 
-To build {{ formal_name }}'s documentation, start by ensuring you [have the prerequisites][dev-environment-prereqs], and then [set up a development environment][dev-environment-tldr] (or, for a more detailed explanation of dev environment setup, [start here][setup-dev-environment]). You **must** have a Python 3.12 interpreter installed and available on your path (i.e., `python3.12` must start a Python 3.12 interpreter).
+To build {{ formal_name }}'s documentation, start by ensuring you [have the prerequisites][dev-environment-prereqs], and then [follow this quickstart][dev-environment-tldr] to set up a dev environment (or, for a more detailed explanation, [start here][dev-environment-set-up]).
+
+You **must** have a Python {{ docs_python_version }} interpreter installed and available on your path (i.e., `python{{ docs_python_version }}` must start a Python {{ docs_python_version }} interpreter).
 
 {{ formal_name }} uses `tox` for building documentation. The following `tox` commands must be run from the same location as the `tox.ini` file, which is in the root directory of the project.
 
@@ -10,9 +12,9 @@ To support rapid editing of documentation, {{ formal_name }} has a "live preview
 
 /// warning | The live preview will build with warnings!
 
-The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` would normally cause a build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview.
+The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview.
 
-A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered a error, the build will fail, and require a restart.
+A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved.
 
 ///
 
@@ -68,7 +70,7 @@ Running `docs-live` to work with the live server is meant for initial iterating.
 
 ### Local build
 
-Once you're done iterating, you'll want to do a local build of the documentation. This build process is designed to fail if there are any markup problems. This allows you to catch anything you might have missed with the live server.
+Once you're done iterating, you'll need to do a local build of the documentation. This build process is designed to fail if there are any markup problems. This allows you to catch anything you might have missed with the live server.
 
 #### Generating a local build
 
