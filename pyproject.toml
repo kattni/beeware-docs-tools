@@ -32,22 +32,22 @@ dependencies = [
     "mkdocs-macros-plugin==1.5.0",
     "mkdocs-material==9.7.0",
     "mkdocs==1.6.1",
-    "mkdocstrings-python==1.18.2",
-    "pymdown-extensions==10.17.1",
-    "pyspelling==2.12",
+    "mkdocstrings-python==2.0.0",
+    "pymdown-extensions==10.17.2",
+    "pyspelling==2.12.1",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.14.4",
+    "ruff==0.14.7",
     "setuptools_scm==9.2.2",
-    "translate-toolkit==3.16.3",
+    "translate-toolkit==3.17.2",
 ]
 
 [dependency-groups]
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 dev = [
-    "pre-commit == 4.4.0",
+    "pre-commit == 4.5.0",
     "tox-uv == 1.29.0",
 ]
 
