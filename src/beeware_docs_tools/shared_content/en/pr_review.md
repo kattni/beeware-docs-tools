@@ -31,7 +31,7 @@ Receiving a review involves three basic steps:
 2. Change requests.
 3. Approval and merge.
 
-Each step is detailed below. If at any point during the process, beginning to end, you have questions, don't hesitate to ask! We are happy to help.
+Each step is detailed below. If at any point during the process you have questions, don't hesitate to ask! We are happy to help.
 
 ### Timeline and initial feedback
 
@@ -41,7 +41,7 @@ We typically maintain continuity with reviewers on each pull request, which is t
 
 There are often initial comments or questions from a reviewer to establish context for and understanding of the pull request. You may receive some initial questions, such as the following. Have we understood correctly what this contribution is meant to be doing? Can you explain this edge case we've identified?
 
-You can expect us to respond to each exchange within a rolling ten business day timeframe. Responding to feedback and questions is an essential part of the review process. We will expect a response from you before we move to the next step in the process.
+You can expect us to respond to each exchange within a rolling ten business day time frame. Responding to feedback and questions is an essential part of the review process. We will expect a response from you before we move to the next step in the process.
 
 ### Change requests
 

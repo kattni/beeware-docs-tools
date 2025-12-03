@@ -1,4 +1,4 @@
-# BeeWare documentation style guide
+TODO: Consider reordering content
 
 This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content.
 
@@ -104,7 +104,7 @@ To link to the Pillow `Image` documentation:
 
 Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors`. There are situations where it makes sense to instead set a custom anchor, such as, if you are using the anchor in a reference link, or if the header is overly verbose, and you need something more memorable available for reuse.
 
-/// danger | Reference links and anchors
+/// danger | Reference links and custom anchors
 
 Any header that is referenced in text content via a MkDocs reference link *must* have a custom anchor attached. Otherwise, there is the potential to break links when header content is translated.
 
@@ -112,6 +112,12 @@ MkDocs reference links are any links formatted as follows:
 
 ```markdown
 [Link text][anchor-name]
+```
+
+Therefore, an example related header must be formatted as follows:
+
+```markdown
+# Header { #anchor-name }
 ```
 
 ///
@@ -131,7 +137,11 @@ For example, customizing the anchor for this section to `custom-anchors` would b
 You can also create an anchor on general content, including text and codeblocks. The following formatting, with newlines above and below, should be included above the content you wish to link to:
 
 ```markdown
+Content above.
+
 [](){ #anchor-name }
+
+Content below, that is now attached to the anchor above.
 ```
 
 ## Markdown elements that require specific formatting
@@ -285,7 +295,7 @@ Caption content.
 Content below.
 ```
 
-## Code block tricks
+## Code block tips
 
 ### Language and code highlighting
 

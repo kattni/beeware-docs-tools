@@ -1,3 +1,3 @@
-# Writing documentation
+# Adding documentation
 
 {% extends "docs_process.md" %}

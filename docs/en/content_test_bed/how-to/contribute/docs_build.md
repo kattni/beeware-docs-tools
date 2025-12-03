@@ -1,3 +1,3 @@
-# Writing and building documentation
+# Building documentation
 
 {% extends "docs_build.md" %}

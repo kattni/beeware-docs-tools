@@ -22,7 +22,7 @@ Once the source of an issue is identified, the next step is to resolve it. You'l
 
 Once a pull request is submitted, it needs to be reviewed before it can be merged. Regardless of whether you are deeply familiar with the content, there is likely a way you can help with [reviewing a pull request](pr_review_process.md).
 
-### [Propose a new feature](feature_proposal_process.md)
+### [Suggest a new feature](feature_proposal_process.md)
 
 Do you have a suggestion or idea for a new addition to one of the BeeWare tools? You can [propose a new feature](feature_proposal_process.md) for consideration.
 
@@ -30,7 +30,7 @@ Do you have a suggestion or idea for a new addition to one of the BeeWare tools?
 
 Do you have a design in mind for your proposed feature, or have you found an existing feature issue that interests you? You can[implement a new feature](feature_implement_process.md).
 
-### [Write documentation](docs_process.md)
+### [Add documentation](docs_process.md)
 
 No feature is complete until it's well documented. [Writing documentation](docs_process.md) is a way to contribute that doesn't necessarily involve writing code.
 
@@ -53,6 +53,10 @@ Before you can begin contributing to BeeWare, you'll need to [set up your develo
 
 Before fixing an issue, you'll need to verify it exists by [reproducing the issue](issue_reproduce.md).
 
+### [Propose a new feature](feature_proposal.md)
+
+You'll follow these steps to [propose a new feature](feature_proposal.md).
+
 ### [Write, run, and test code](code_run_test.md)
 
 To update or contribute code, you'll need to [write, run, and test your code](code_run_test.md).
@@ -60,6 +64,10 @@ To update or contribute code, you'll need to [write, run, and test your code](co
 ### [Build documentation](docs_build.md)
 
 To update or contribute documentation, you'll need to [build the docs](docs_build.md).
+
+### [Write documentation](docs_contribute.md)
+
+To contribute documentation, you'll [write new content or update existing content](docs_contribute.md).
 
 ### [Submit a pull request](pr_submit.md)
 
@@ -69,13 +77,27 @@ Once your changes are ready, you'll [submit a pull request](pr_submit.md) for re
 
 BeeWare uses Weblate for [translations](translate.md), which requires a few steps to get started.
 
+### [Submit a new issue](issue_submit.md)
+
+If you run into a new problem or bug, it's helpful to [submit an issue](issue_submit.md).
+
 
 ## What happens next?
 
-### [The review process](pr_review_process.md)
+### [Pull request review](pr_review.md)
 
-When a pull request is submitted, the next step is [the review process](pr_review_process.md).
+When a pull request is submitted, the next step is [the PR review](pr_review.md).
 
 ### [The release process](release_process.md)
 
 Merged contributions will go through [the release process](release_process.md).
+
+## Style Guides
+
+### [Code style guide](code_style_guide.md)
+
+These are the guidelines for contributing code to BeeWare projects.
+
+### [Documentation style guide](docs_style_guide.md)
+
+These are the guidelines for contributing documentation to BeeWare projects.

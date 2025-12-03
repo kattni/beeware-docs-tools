@@ -16,7 +16,11 @@ Keep in mind that the BeeWare suite of tools support multiple platforms, so any 
 
 This doesn't mean you need to be responsible for implementing a feature on every platform. If you don't have access to Apple hardware, it's not reasonable for us to expect you to provide a macOS or iOS implementation of a feature. However, as part of the design process, we need to establish that it would be *possible* to implement a feature in the way you describe.
 
-### Suggesting new documentation
+{% block suggesting_new_features %}
+
+{% endblock %}
+
+### Suggesting new documentation { #suggesting-new-docs }
 
 When you have an idea for documentation, you'll want to determine what type of documentation fits your idea. As a starting point, you can ask yourself the following questions:
 

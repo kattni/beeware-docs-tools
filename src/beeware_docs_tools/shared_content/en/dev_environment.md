@@ -10,8 +10,6 @@ You'll need to install the following prerequisites.
 
 {% endif %}
 
-{% block macos_prerequisites %}
-
 {{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`).
 
 You can verify the version of Python that you have installed by running:
@@ -21,6 +19,10 @@ $ python3 --version
 ```
 
 If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)
+
+We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on macOS often lag usually aren't available for recently released stable Python versions.
+
+{% block prerequisites_macos %}
 
 {% endblock %}
 
@@ -30,8 +32,6 @@ If you have more than one version of Python installed, you may need to replace `
 
 /// tab | Linux
 
-{% block linux_prerequisites %}
-
 {{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`).
 
 You can verify the version of Python that you have installed by running:
@@ -42,13 +42,15 @@ $ python3 --version
 
 If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)
 
+We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Linux often lag usually aren't available for recently released stable Python versions.
+
+{% block prerequisites_linux %}
+
 {% endblock %}
 
 ///
 
 /// tab | Windows
-
-{% block windows_prerequisites %}
 
 {{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`).
 
@@ -61,6 +63,8 @@ C:\...>py -3 --version
 If you have more than one version of Python installed, you may need to replace the `-3` with a specific version number (e.g., `-python{{ recent_python_version }}`)
 
 We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Windows often lag usually aren't available for recently released stable Python versions.
+
+{% block prerequisites_windows %}
 
 {% endblock %}
 
@@ -78,14 +82,17 @@ Create your dev environment by running:
 
 {% endif %}
 
+
 ```console
 $ git clone https://github.com/beeware/{{ project_name }}.git
 $ cd {{ project_name }}
 $ python3 -m venv .venv
 $ . .venv/bin/activate
-(.venv) $ python -m pip install -Ue . --group dev
+(.venv) $ python -m pip install -U pip
+{% block tldr_macos_install %}(.venv) $ python -m pip install -Ue . --group dev{% endblock %}
 (.venv) $ pre-commit install
 ```
+
 
 {% if not config.extra.macos_only %}
 
@@ -93,27 +100,37 @@ $ . .venv/bin/activate
 
 /// tab | Linux
 
+{% block tldr_linux %}
+
 ```console
 $ git clone https://github.com/beeware/{{ project_name }}.git
 $ cd {{ project_name }}
 $ python3 -m venv .venv
 $ . .venv/bin/activate
+(.venv) $ python -m pip install -U pip
 (.venv) $ python -m pip install -Ue . --group dev
 (.venv) $ pre-commit install
 ```
 
+{% endblock %}
+
 ///
 
 /// tab | Windows
+
+{% block tldr_windows %}
 
 ```doscon
 C:\...>git clone https://github.com/beeware/{{ project_name }}.git
 C:\...>cd {{ project_name }}
 C:\...>py -3 -m venv .venv
 C:\...>.venv\Scripts\activate
+(.venv) C:\...>python -m pip install -U pip
 (.venv) C:\...>python -m pip install -Ue . --group dev
 (.venv) C:\...>pre-commit install
 ```
+
+{% endblock %}
 
 ///
 
@@ -128,7 +145,7 @@ Invoke checks and tests by running:
 {% endif %}
 
 ```console
-(.venv) $ tox p
+(.venv) $ tox
 ```
 
 {% if not config.extra.macos_only %}
@@ -138,7 +155,7 @@ Invoke checks and tests by running:
 /// tab | Linux
 
 ```console
-(.venv) $ tox p
+(.venv) $ tox
 ```
 
 ///
@@ -146,7 +163,7 @@ Invoke checks and tests by running:
 /// tab | Windows
 
 ```doscon
-(.venv) C:\...>tox p
+(.venv) C:\...>tox
 ```
 
 ///
@@ -207,7 +224,7 @@ C:\...>git clone https://github.com/<your username>/{{ project_name }}.git
 
 #### Create a virtual environment
 
-To set up a virtual environment, run:
+To set up a virtual environment and upgrade `pip`, run:
 
 {% if not config.extra.macos_only %}
 
@@ -219,6 +236,7 @@ To set up a virtual environment, run:
 $ cd {{ project_name }}
 $ python3 -m venv .venv
 $ source .venv/bin/activate
+(.venv) $ python -m pip install -U pip
 ```
 
 {% if not config.extra.macos_only %}
@@ -231,6 +249,7 @@ $ source .venv/bin/activate
 $ cd {{ project_name }}
 $ python3 -m venv .venv
 $ source .venv/bin/activate
+(.venv) $ python -m pip install -U pip
 ```
 
 ///
@@ -241,6 +260,7 @@ $ source .venv/bin/activate
 C:\...>cd {{ project_name }}
 C:\...>py -3 -m venv .venv
 C:\...>.venv\Scripts\activate
+(.venv) $ python -m pip install -U pip
 ```
 
 ///
@@ -259,9 +279,13 @@ Now that you have the source code, you can do an [editable install](https://setu
 
 {% endif %}
 
+{% block install_macos_tool %}
+
 ```console
 (.venv) $ python -m pip install -Ue . --group dev
 ```
+
+{% endblock %}
 
 {% if not config.extra.macos_only %}
 
@@ -269,17 +293,25 @@ Now that you have the source code, you can do an [editable install](https://setu
 
 /// tab | Linux
 
+{% block install_linux_tool %}
+
 ```console
 (.venv) $ python -m pip install -Ue . --group dev
 ```
+
+{% endblock %}
 
 ///
 
 /// tab | Windows
 
+{% block install_windows_tool %}
+
 ```doscon
 (.venv) C:\...>python -m pip install -Ue . --group dev
 ```
+
+{% endblock %}
 
 ///
 
