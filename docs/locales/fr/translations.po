@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 01:31+0000\n"
+"POT-Creation-Date: 2025-12-01 00:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.16.3\n"
+"X-Generator: Translate Toolkit 3.17.2\n"
 
 #: docs/en/SUMMARY.md:1
 #: docs/en/section_one/index.md:1
@@ -400,17 +400,16 @@ msgstr "Traduction admonition"
 #: docs/en/index.md:92
 #, fuzzy
 msgid ""
-"The English-language version of this document should show the "
-"\"Translations are available\" admonition below. The French translation "
-"should show the \"This is a machine translation!\" admonition. The German "
-"translation should show the \"This is a translation!\" admonition for human "
-"translations."
+"The English-language version of this document should show the \"Translations "
+"are available\" admonition below. The French translation should show the "
+"\"This is a machine translation!\" admonition. The German translation should "
+"show the \"This is a translation!\" admonition for human translations."
 msgstr ""
 "La version anglaise de ce document devrait afficher l'avertissement "
 "\"Translations are available\" ci-dessous. La traduction française doit "
 "afficher l'avertissement \"Ceci est une traduction automatique\". La "
-"traduction allemande doit afficher l'avertissement "
-"\"Ceci est une traduction\" pour les traductions humaines."
+"traduction allemande doit afficher l'avertissement \"Ceci est une "
+"traduction\" pour les traductions humaines."
 
 #: docs/en/index.md:94
 #, fuzzy
@@ -494,9 +493,9 @@ msgid ""
 "MkDocs."
 msgstr ""
 "Ajoutez `nopage` à la fin de l'URL dans votre navigateur pour vérifier que "
-"la page 404 existe, et qu'elle contient le texte "
-"\"Brutus ne peut pas trouver ce que vous cherchez\". La page 404 actuelle ne "
-"rend pas toujours les images en raison d'un problème avec MkDocs."
+"la page 404 existe, et qu'elle contient le texte \"Brutus ne peut pas "
+"trouver ce que vous cherchez\". La page 404 actuelle ne rend pas toujours "
+"les images en raison d'un problème avec MkDocs."
 
 #: docs/en/index.md:128
 #, fuzzy
@@ -624,15 +623,15 @@ msgstr "Pied de page et liens de navigation"
 #: docs/en/section_one/page_two.md:5
 #, fuzzy
 msgid ""
-"Navigation should render at the bottom of the page; "
-"\"BeeWare Docs Tools Demo Section One\" should be on the left, "
-"\"Section Two\" should be on the right. The footer should be below the "
-"navigation links. This confirms the theme configuration has been applied."
+"Navigation should render at the bottom of the page; \"BeeWare Docs Tools "
+"Demo Section One\" should be on the left, \"Section Two\" should be on the "
+"right. The footer should be below the navigation links. This confirms the "
+"theme configuration has been applied."
 msgstr ""
-"La navigation doit s'effectuer au bas de la page ; "
-"\"BeeWare Docs Tools Demo Section One\" doit se trouver à gauche, "
-"\"Section Two\" à droite. Le pied de page doit se trouver sous les liens de "
-"navigation. Cela confirme que la configuration du thème a été appliquée."
+"La navigation doit s'effectuer au bas de la page ; \"BeeWare Docs Tools Demo "
+"Section One\" doit se trouver à gauche, \"Section Two\" à droite. Le pied de "
+"page doit se trouver sous les liens de navigation. Cela confirme que la "
+"configuration du thème a été appliquée."
 
 #: docs/en/section_one/page_two.md:7
 #, fuzzy
@@ -691,8 +690,8 @@ msgid ""
 msgstr ""
 "Cette section et ses enfants sont inclus dans le test de défilement de la "
 "barre latérale. Vérifiez que la barre de défilement est navigable sur les "
-"écrans de petite taille, que vous pouvez faire défiler toute la liste "
-"(page 01 - page 12) et qu'elle ne chevauche pas le pied de page."
+"écrans de petite taille, que vous pouvez faire défiler toute la liste (page "
+"01 - page 12) et qu'elle ne chevauche pas le pied de page."
 
 #: docs/en/section_two/index.md:1
 #, fuzzy
@@ -740,6 +739,6 @@ msgid ""
 "The link provided here should take you to the [Heading font][heading-font] "
 "section of the main page. It is included to verify `autoref` linking."
 msgstr ""
-"Le lien fourni ici devrait vous amener à la section [Police des titres]"
-"[police-des-titres] de la page principale. Il est inclus pour vérifier les "
-"liens `autoref`."
+"Le lien fourni ici devrait vous amener à la section [Police des "
+"titres][police-des-titres] de la page principale. Il est inclus pour "
+"vérifier les liens `autoref`."
