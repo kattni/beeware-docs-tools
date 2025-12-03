@@ -20,7 +20,7 @@
                 - [Translate content](content_test_bed/how-to/contribute/translate_process.md)
                 - [Use the tools](content_test_bed/how-to/contribute/tools_use_process.md)
             - How do I contribute?
-                - [Setting up dev environment](content_test_bed/how-to/contribute/dev_environment.md)
+                - [Setting up a development environment](content_test_bed/how-to/contribute/dev_environment.md)
                 - [Reproducing an issue](content_test_bed/how-to/contribute/issue_reproduce.md)
                 - [Writing, running, and testing code](content_test_bed/how-to/contribute/code_run_test.md)
                 - [Building documentation](content_test_bed/how-to/contribute/docs_build.md)
