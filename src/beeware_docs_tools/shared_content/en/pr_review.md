@@ -21,7 +21,7 @@ After submitting your pull request, you'll need to wait for the review process t
 
 ## Providing a review
 
--8<- "pr_review_process.md"
+-8<- "pr_review_provide_process.md"
 
 ## Receiving a review
 
@@ -45,11 +45,17 @@ You can expect us to respond to each exchange within a rolling ten business day 
 
 ### Change requests
 
-Most of the time, your reviewer is going to request changes on your pull request. This isn't a reflection of your work, it's simply part of the process.
+Most of the time, your reviewer is going to request changes on your pull request. This isn't necessarily a reflection of your work, it's simply part of the process.
 
 #### Work through requested changes
 
 Your reviewer will post comments to your PR. These comments can be general, on a specific file, or on a specific line or lines of code. They will sometimes include directly suggested changes that you can apply to your PR through the GitHub UI. Typically, they will be questions, requests for clarification, or guidance on updates.
+
+/// note | Marking a conversation as resolved
+
+During the discussion part of the feedback process, you should never mark a conversation started by your reviewer as "resolved". Marking the conversation as resolved is the responsibility of the reviewer. It's up to them to determine whether the identified problem has been solved.
+
+///
 
 #### Submit all requested changes
 
@@ -64,5 +70,3 @@ Repeat the three steps above until no further changes are needed.
 ### Pull request approval and merge
 
 Once the change requests are completed, the PR will be approved. In most cases, we will immediately merge it. In some cases, there may be extenuating circumstances, such as relying on another not-yet-merged PR, that will lead to a delay. We'll communicate this in the comments, so you'll know the situation.
-
-The next step is the release process.

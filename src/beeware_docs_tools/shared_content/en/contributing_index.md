@@ -18,9 +18,9 @@ If an issue has no comments from anyone other than the original reporter, it nee
 
 Once the source of an issue is identified, the next step is to resolve it. You'll need to work through the process of [fixing an issue](issue_fix_process.md).
 
-### [Review a pull request](pr_review_process.md)
+### [Review a pull request](pr_review_provide_process.md)
 
-Once a pull request is submitted, it needs to be reviewed before it can be merged. Regardless of whether you are deeply familiar with the content, there is likely a way you can help with [reviewing a pull request](pr_review_process.md).
+Once a pull request is submitted, it needs to be reviewed before it can be merged. Regardless of whether you are deeply familiar with the content, there is likely a way you can help with [reviewing a pull request](pr_review_provide_process.md).
 
 ### [Suggest a new feature](feature_proposal_process.md)
 

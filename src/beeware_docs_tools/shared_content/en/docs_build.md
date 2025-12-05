@@ -1,5 +1,3 @@
-### Building {{ formal_name }}'s documentation
-
 To build {{ formal_name }}'s documentation, start by ensuring you [have the prerequisites][dev-environment-prereqs], and then [follow this quickstart][dev-environment-tldr] to set up a dev environment (or, for a more detailed explanation, [start here][dev-environment-set-up]).
 
 You **must** have a Python {{ docs_python_version }} interpreter installed and available on your path (i.e., `python{{ docs_python_version }}` must start a Python {{ docs_python_version }} interpreter).

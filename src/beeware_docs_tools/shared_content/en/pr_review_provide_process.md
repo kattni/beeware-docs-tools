@@ -1,5 +1,7 @@
 TODO: Intro.
 
+TODO: NO JINJA
+
 /// info | Review expectations
 
 You should expect the following from anyone reviewing your submissions, and you should engage in the following when you are reviewing submissions from others.

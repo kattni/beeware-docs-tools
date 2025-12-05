@@ -17,6 +17,10 @@ TODO: blurb.
 
     {{ indented("dev_environment.md") }}
 
+??? abstract "Work from a branch"
+
+    {{ indented("git_feature_branch.md") }}
+
 ??? abstract "Reproduce the issue"
 
     {{ indented("issue_reproduce.md") }}
@@ -28,3 +32,7 @@ TODO: blurb.
 ??? abstract "Submit a pull request"
 
     {{ indented("pr_submit.md") }}
+
+??? abstract "Add a change note"
+
+    {{ indented("pr_change_note.md") }}

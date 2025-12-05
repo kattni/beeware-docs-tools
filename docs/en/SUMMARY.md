@@ -13,7 +13,7 @@
             - What can I do?
                 - [Triage an issue](content_test_bed/how-to/contribute/issue_triage_process.md)
                 - [Fix an issue](content_test_bed/how-to/contribute/issue_fix_process.md)
-                - [Review a pull request](content_test_bed/how-to/contribute/pr_review_process.md)
+                - [Review a pull request](content_test_bed/how-to/contribute/pr_review_provide_process.md)
                 - [Propose a new feature](content_test_bed/how-to/contribute/feature_proposal_process.md)
                 - [Implement a new feature](content_test_bed/how-to/contribute/feature_implement_process.md)
                 - [Write documentation](content_test_bed/how-to/contribute/docs_process.md)
@@ -22,10 +22,12 @@
             - How do I contribute?
                 - [Setting up a development environment](content_test_bed/how-to/contribute/dev_environment.md)
                 - [Reproducing an issue](content_test_bed/how-to/contribute/issue_reproduce.md)
+                - [Working from a branch](content_test_bed/how-to/contribute/git_feature_branch.md)
                 - [Writing, running, and testing code](content_test_bed/how-to/contribute/code_run_test.md)
                 - [Building documentation](content_test_bed/how-to/contribute/docs_build.md)
                 - [Writing documentation](content_test_bed/how-to/contribute/docs_contribute.md)
                 - [Submitting a pull request](content_test_bed/how-to/contribute/pr_submit.md)
+                - [Adding a change note](content_test_bed/how-to/contribute/pr_change_note.md)
                 - [Submitting a new issue](content_test_bed/how-to/contribute/issue_submit.md)
                 - [Proposing a new feature](content_test_bed/how-to/contribute/feature_proposal.md)
                 - [Translating content](content_test_bed/how-to/contribute/translate.md)

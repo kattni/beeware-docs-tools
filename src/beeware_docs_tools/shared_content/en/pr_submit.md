@@ -1,48 +1,4 @@
-Before you submit a pull request, there's a few bits of housekeeping to do.
-
-### Submit from a feature branch, not your `main` branch
-
-Before you start working on your change, make sure you've created a branch. By default, when you clone your repository fork, you'll be checked out on your `main` branch. This is a direct copy of {{ formal_name }}'s `main` branch.
-
-While you *can* submit a pull request from your `main` branch, it's preferable if you *don't* do this. If you submit a pull request that is *almost* right, the core team member who reviews your pull request may be able to make the necessary changes, rather than giving feedback asking for a minor change. However, if you submit your pull request from your `main` branch, reviewers are prevented from making modifications.
-
-Instead, you should make your changes on a *feature branch*. A feature branch has a simple name to identify the change that you've made. For example, if you've found a bug that causes a display problem on Windows 11, you might create a feature branch `fix-win11-display`. If your bug relates to a specific issue that has been reported, it's also common to reference that issue number in the branch name (e.g., `fix-1234`).
-
-To create a `fix-win11-display` feature branch, run:
-
-{% if not config.extra.macos_only %}
-
-/// tab | macOS
-
-{% endif %}
-
-```console
-(.venv) $ git switch -c fix-win11-display
-```
-
-{% if not config.extra.macos_only %}
-
-///
-
-/// tab | Linux
-
-```console
-(.venv) $ git switch -c fix-win11-display
-```
-
-///
-
-/// tab | Windows
-
-```doscon
-(.venv) C:\...>git switch -c fix-win11-display
-```
-
-///
-
-{% endif %}
-
-Commit your changes to this branch, then push to GitHub and create a pull request.
+Now that you've committed all your changes, there are a number of important steps to the process of submitting your PR.
 
 ### Working with pre-commit
 
@@ -193,35 +149,120 @@ codespell................................................................Passed
 
 {% endif %}
 
-Once everything passes, you're ready for the next steps.
+Once everything passes, you're ready to push to GitHub.
 
-### Add change information for release notes
+### Push your changes to GitHub and create your pull request
 
-When you submit this change as a pull request, you need to add a *change note*. {{ formal_name }} uses [`towncrier`](https://pypi.org/project/towncrier/) to automate building the release notes for each release. Every pull request must include at least one file in the `changes/` directory that provides a short description of the change implemented by the pull request.
+The first time you push to GitHub, you'll be provided a URL that takes you directly to the GitHub page to create a new pull request. Follow the URL and create your pull request.
 
-The change note should be in Markdown format, in a file that has name of the format `<id>.<fragment type>.md`. If the change you are proposing will fix a bug or implement a feature for which there is an existing issue number, the ID will be the number of that ticket. If the change has no corresponding issue, the PR number can be used as the ID. You won't know this PR number until you push the pull request, so the first CI pass will fail the `towncrier` check; add the change note and push a PR update and CI should then pass.
+The following shows an example of what to expect on `push`, with the URL highlighted.
 
-There are five allowed fragment types:
+{% if not config.extra.macos_only %}
 
-- `feature`: The PR adds a new behavior or capability that wasn't previously possible (e.g., adding support for a new packaging format, or a new feature in an existing packaging format);
-- `bugfix`: The PR fixes a bug in the existing implementation;
-- `doc`: The PR is an significant improvement to documentation;
-- `removal`; The PR represents a backwards incompatible change in the {{ formal_name }} API; or
-- `misc`; A minor or administrative change (e.g., fixing a typo, a minor language clarification, or updating a dependency version) that doesn't need to be announced in the release notes.
+/// tab | macOS
 
-This description in the change note should be a high level summary of the change from the perspective of the user, not a deep technical description or implementation detail. It is distinct from a commit message - a commit message describes what has been done so that future developers can follow the reasoning for a change; the change note is a "user facing" description. For example, if you fix a bug related to project naming, the commit message might read:
+{% endif %}
 
-> Disallow project names that begin with a number.
+```console {hl_lines="11"}
+(.venv) $ git push origin fix-win11-build
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:
+remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build
+remote:
+To https://github.com/<your GitHub username>/{{ formal_name }}.git
+ * [new branch]      fix-win11-build -> fix-win11-build
+```
 
-The corresponding change note would read something like:
+{% if not config.extra.macos_only %}
 
-> Project names can no longer begin with a number.
+///
 
-Some PRs will introduce multiple features and fix multiple bugs, or introduce multiple backwards incompatible changes. In that case, the PR may have multiple change note files. If you need to associate two fragment types with the same ID, you can append a numerical suffix. For example, if PR 789 added a feature described by ticket 123, closed a bug described by ticket 234, and also made two backwards incompatible changes, you might have 4 change note files:
+/// tab | Linux
 
-- `123.feature.md`
-- `234.bugfix.md`
-- `789.removal.1.md`
-- `789.removal.2.md`
+```console {hl_lines="11"}
+(.venv) $ git push origin fix-win11-build
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:
+remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build
+remote:
+To https://github.com/<your GitHub username>/{{ formal_name }}.git
+ * [new branch]      fix-win11-build -> fix-win11-build
+```
 
-For more information about `towncrier` and fragment types see [News Fragments](https://towncrier.readthedocs.io/en/stable/tutorial.html#creating-news-fragments). You can also see existing examples of news fragments in the `changes` directory of the {{ formal_name }} repository. If this folder is empty, it's likely because {{ formal_name }} has recently published a new release; change note files are deleted and combined to update the [release notes]() with each release. You can look at that file to see the style of comment that is required; you can look at [recently merged PRs](https://github.com/beeware/briefcase/pulls?q=is%3Apr+is%3Amerged) to see how to format your change notes.
+///
+
+/// tab | Windows
+
+```doscon {hl_lines="11"}
+(.venv) C:\...>git push origin fix-win11-build
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:
+remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build
+remote:
+To https://github.com/<your GitHub username>/{{ formal_name }}.git
+ * [new branch]      fix-win11-build -> fix-win11-build
+```
+
+///
+
+{% endif %}
+
+If you've previously pushed the current branch to GitHub, you won't receive the URL again. However, you have options.
+
+- Navigate to the upstream repository, click on "Pull Requests" followed by "New pull request", choose your branch, and verify everything is as you expect it.
+- Navigate to the upstream repository, locate the banner above the list of files that indicates the repo has "had recent pushes", and click the "Compare & pull request" button.
+- Use the GitHub CLI `gh pr create` command, and fill out the prompts.
+- Use the GitHub CLI `gh pr create --web` command to open a web browser to the PR creation page.
+
+Any of these options will enable you to create your new pull request.
+
+TODO: Explain `gh`
+
+### Pull request content
+
+A pull request title must be applicable, clear, and concise; avoid TODO: finish.
+
+The PR description must clearly reflect the changes in the PR. A person who doesn't have any context should be able to read your description and understand why the change is being made.
+
+If there are any reproduction cases, or any testing regimen that you used that are not already a part of the changes present in the PR, they must be explained and included in the PR. The explanation should include how to run them, and what to do to reproduce the desired outcome.
+
+### Continuous integration
+
+*Continuous integration*, or *CI*, is what we use to run automated checks on your pull request, for example, checking formatting, running the test suite, and verifying the documentation builds. There are any number of changes that can result in CI failures. Broadly speaking, we won't review a PR that isn't passing CI; if you push and CI fails, we won't begin your review until it is passing. If your changes result in a failure, it is your responsibility to look into the reason, and resolve the issue.
+
+If you click on the failure link in your PR, it will take you to the log. The log often provides all the information you need to figure out what caused the failure. TODO: finish.
+
+If you find yourself in a situation where you need help getting CI to pass, you need to leave a comment on the PR letting us know.
+
+/// note | The `pre-commit` and `towncrier` checks
+
+If either the `pre-commit` or `towncrier` checks fail, it will block most of the rest of the CI checks from running. You'll need to resolve the applicable issues before the full set of checks will run.
+
+///
+
+The process of submitting your PR is not done until it's passing CI, or you can provide an explanation for why it's not.
+
+If you see a failure, and you're certain it's unrelated to your changes, add a comment to your PR to that effect, and we will look into it.
+
+We have limited CI resources. It is important to understand that every time you push to the branch, CI will start. If you're going to make a large number of changes, queue them up locally, and submit them together. This will minimize the load on the CI system.

@@ -1,5 +1,7 @@
 These are the steps to follow to write your documentation contribution to {{ formal_name }}.
 
+Ensure you are able to [build the documentation](docs_build.md) before beginning to write.
+
 ### Existing documentation
 
 If you're editing the existing docs, you'll need to locate the file in the `/docs/en` directory. The file structure follows the page structure, so you can locate the file using the documentation URL.
