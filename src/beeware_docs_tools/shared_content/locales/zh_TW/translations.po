@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-01 00:28+0000\n"
+"POT-Creation-Date: 2025-12-07 22:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.17.2\n"
+"X-Generator: Translate Toolkit 3.17.4\n"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:1
 #, fuzzy
@@ -22,7 +22,8 @@ msgid ""
 "This guide includes information on expected style, MkDocs-specific syntax, "
 "various required tools, and documentation translation, with regard to "
 "writing new content and translating existing content."
-msgstr "本指南包括有關撰寫新內容和翻譯現有內容的預期風格、MkDocs 特定語法、各種所需工"
+msgstr ""
+"本指南包括有關撰寫新內容和翻譯現有內容的預期風格、MkDocs 特定語法、各種所需工"
 "具和文檔翻譯等資訊。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:5
@@ -40,7 +41,8 @@ msgstr "標題和標題的第一個字應該大寫。"
 msgid ""
 "We prefer US spelling, with some liberties for programming-specific "
 "colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
-msgstr "我們偏好美式拼法，但對於程式特定的口語（例如 \"apps「）和名詞的動詞（例如 」"
+msgstr ""
+"我們偏好美式拼法，但對於程式特定的口語（例如 \"apps「）和名詞的動詞（例如 」"
 "scrollable\"）則有一些自由度。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:9
@@ -64,7 +66,8 @@ msgid ""
 "If a term is being used \"as code\", then it should be quoted as inline "
 "code, by wrapping it in single backticks, rather than being added to the "
 "dictionary."
-msgstr "如果一個詞彙是 「作為代碼 」使用的，那麼它應該作為內嵌代碼引述，用單反撇"
+msgstr ""
+"如果一個詞彙是 「作為代碼 」使用的，那麼它應該作為內嵌代碼引述，用單反撇"
 "(single backticks)包住它，而不是加入字典中。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:13
@@ -153,7 +156,8 @@ msgid ""
 "Methods and attributes are the same as above, with the method or attribute "
 "name included. You must include the parentheses after the namespace. The "
 "following displays the namespace:"
-msgstr "方法和屬性與上述相同，並包含方法或屬性名稱。您必須在命名空間後加上括號。以下"
+msgstr ""
+"方法和屬性與上述相同，並包含方法或屬性名稱。您必須在命名空間後加上括號。以下"
 "顯示命名空間："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:67
@@ -175,7 +179,8 @@ msgstr "連結至類 (或方法)，同時顯示任意文字的格式如下："
 msgid ""
 "It is also possible to link directly to Python core documentation, as well "
 "as Pillow documentation. For example, to link to the documentation for `int`:"
-msgstr "也可以直接鏈接到 Python 核心文檔以及 Pillow 文檔。例如，連結到 `int` 的說明文"
+msgstr ""
+"也可以直接鏈接到 Python 核心文檔以及 Pillow 文檔。例如，連結到 `int` 的說明文"
 "件："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:85
@@ -216,7 +221,8 @@ msgid ""
 "You can also create an anchor on general content, including text and "
 "codeblocks. The following formatting, with newlines above and below, should "
 "be included above the content you wish to link to:"
-msgstr "您也可以在一般內容上建立錨點，包括文字和程式塊。在您想要連結的內容上方，應包"
+msgstr ""
+"您也可以在一般內容上建立錨點，包括文字和程式塊。在您想要連結的內容上方，應包"
 "含以下格式，並在上方和下方加上換行符："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:107
@@ -231,7 +237,8 @@ msgid ""
 "requires that all anchors be unique. If you are creating a custom anchor, "
 "ensure that you are choosing a name that isn't used elsewhere in the "
 "documentation."
-msgstr "參考連結允許在不同的檔案中連結到錨點，這要求所有的錨點都必須是唯一的。如果您"
+msgstr ""
+"參考連結允許在不同的檔案中連結到錨點，這要求所有的錨點都必須是唯一的。如果您"
 "要建立自訂的錨點，請確保您選擇的名稱未在文件的其他地方使用。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:111
@@ -263,7 +270,8 @@ msgid ""
 "Namespaces; class, method, or attribute names. Reference links containing "
 "class, method or attribute names should be left as-is, including the "
 "backticks."
-msgstr "命名空間；類、方法或屬性名稱。包含類別、方法或屬性名稱的參考連結應保持原樣，"
+msgstr ""
+"命名空間；類、方法或屬性名稱。包含類別、方法或屬性名稱的參考連結應保持原樣，"
 "包括後撇號。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:119
@@ -309,7 +317,8 @@ msgstr "反標記應保持為反標記；它們用於格式化內聯程式碼和
 msgid ""
 "The syntax for including external content. This is anything on the same line "
 "as `-8<-`, or on the lines between two `-8<-` on separate lines."
-msgstr "包含外部內容的語法。這是與 `-8<-` 在同一行的任何內容，或是在兩個分行的 `-8<-"
+msgstr ""
+"包含外部內容的語法。這是與 `-8<-` 在同一行的任何內容，或是在兩個分行的 `-8<-"
 "` 之間的內容。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:134
@@ -322,7 +331,8 @@ msgstr "下列項目 _ 應該翻譯："
 msgid ""
 "The admonition titles and content. As shown below, \"Title\" and "
 "\"Content.\" should be translated. See above for information on the syntax."
-msgstr "訓誡的標題和內容。如下所示，「標題」和「內容。」應該被翻譯。有關語法的資訊，"
+msgstr ""
+"訓誡的標題和內容。如下所示，「標題」和「內容。」應該被翻譯。有關語法的資訊，"
 "請參閱上文。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:146
@@ -336,7 +346,8 @@ msgid ""
 "Due to the way the translation files are generated, it is important to "
 "include required newlines in the Markdown syntax for admonitions, notes, "
 "tabs, Jinja directives, image captions and alignment, etc."
-msgstr "由於翻譯檔案的產生方式，在 Markdown 語法中加入必要的換行線對於訓誡、註解、標"
+msgstr ""
+"由於翻譯檔案的產生方式，在 Markdown 語法中加入必要的換行線對於訓誡、註解、標"
 "籤、Jinja 指令、圖片標題和對齊方式等是很重要的。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:150
@@ -406,7 +417,8 @@ msgid ""
 "There is also syntax for substituting symbols or text. This syntax is a "
 "variable wrapped in a pair of matching double curly braces, and must include "
 "a newline before and after."
-msgstr "也有替代符號或文字的語法。此語法是以一對匹配的雙大括弧包覆變數，且必須在變數"
+msgstr ""
+"也有替代符號或文字的語法。此語法是以一對匹配的雙大括弧包覆變數，且必須在變數"
 "前後加上換行。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:239
@@ -420,7 +432,8 @@ msgid ""
 "Whether the caption syntax is being utilized for the purposes of centering "
 "an image, or for providing an image caption, it must include newlines "
 "between each section."
-msgstr "無論標題語法是用來將影像居中，或是提供影像標題，都必須在每一節之間加入換行符"
+msgstr ""
+"無論標題語法是用來將影像居中，或是提供影像標題，都必須在每一節之間加入換行符"
 "。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:243
@@ -428,7 +441,8 @@ msgstr "無論標題語法是用來將影像居中，或是提供影像標題，
 msgid ""
 "For example, when adding an empty caption to center an image, you should "
 "format it as follows, with a newline before and after the content block:"
-msgstr "例如，在新增空標題以使圖片居中時，您應該使用以下格式，並在內容區塊前後加上換"
+msgstr ""
+"例如，在新增空標題以使圖片居中時，您應該使用以下格式，並在內容區塊前後加上換"
 "行："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:253
@@ -465,7 +479,8 @@ msgstr "語法如下："
 msgid ""
 "For example, if you wanted to be able to link to this section using `custom-"
 "anchors`, you would format the header as follows:"
-msgstr "例如，如果您希望能夠使用 `custom-anchors` 連結至本節，您可以將標頭格式化如下"
+msgstr ""
+"例如，如果您希望能夠使用 `custom-anchors` 連結至本節，您可以將標頭格式化如下"
 "："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:281
@@ -473,7 +488,8 @@ msgstr "例如，如果您希望能夠使用 `custom-anchors` 連結至本節，
 msgid ""
 "Once added, you can link to the section from within the same file using a "
 "standard Markdown link, or from another file using the reference link syntax."
-msgstr "新增後，您可以使用標準 Markdown 連結從同一個檔案中連結到該區段，或使用參考連"
+msgstr ""
+"新增後，您可以使用標準 Markdown 連結從同一個檔案中連結到該區段，或使用參考連"
 "結語法從另一個檔案中連結到該區段。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:283
@@ -524,7 +540,8 @@ msgid ""
 "and ignore the prompts and the output. This allows you to indicate that they "
 "are console commands, while still allowing users to use the copy button "
 "effectively."
-msgstr "然後，點選代碼塊上的複製按鈕，將只複製命令，而忽略提示和輸出。這可讓您指出它"
+msgstr ""
+"然後，點選代碼塊上的複製按鈕，將只複製命令，而忽略提示和輸出。這可讓您指出它"
 "們是控制台指令，同時仍可讓使用者有效地使用複製按鈕。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:301
@@ -641,7 +658,8 @@ msgstr "我們使用 `pyspelling` 拼字檢查器。它會在內部檢查時執�
 msgid ""
 "When `pyspelling` identifies a misspelled word, in most cases, it should be "
 "fixed in the documentation content."
-msgstr "當 `pyspelling` 識別出拼寫錯誤的單字時，在大多數情況下，應該在文件內容中加以"
+msgstr ""
+"當 `pyspelling` 識別出拼寫錯誤的單字時，在大多數情況下，應該在文件內容中加以"
 "修正。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:353
@@ -649,7 +667,8 @@ msgstr "當 `pyspelling` 識別出拼寫錯誤的單字時，在大多數情況�
 msgid ""
 "In the rare case that it identifies a valid word that isn't in the "
 "`pyspelling` dictionary, you have two options:"
-msgstr "在罕見的情況下，如果它識別出一個不在 `pyspelling` 字典中的有效詞彙，您有兩個"
+msgstr ""
+"在罕見的情況下，如果它識別出一個不在 `pyspelling` 字典中的有效詞彙，您有兩個"
 "選擇："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:355
@@ -658,7 +677,8 @@ msgid ""
 "If it is a word that is likely to be reused multiple times, you should add "
 "the word to the `spelling_wordlist` document in the `docs` directory, in "
 "alphabetical order."
-msgstr "如果是一個可能會被多次重複使用的字，您應該將該字依字母順序加入`docs`目錄中"
+msgstr ""
+"如果是一個可能會被多次重複使用的字，您應該將該字依字母順序加入`docs`目錄中"
 "的`spelling_wordlist`文件。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:356

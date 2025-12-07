@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-01 00:28+0000\n"
+"POT-Creation-Date: 2025-12-07 22:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.17.2\n"
+"X-Generator: Translate Toolkit 3.17.4\n"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:1
 #, fuzzy
@@ -22,7 +22,8 @@ msgid ""
 "This guide includes information on expected style, MkDocs-specific syntax, "
 "various required tools, and documentation translation, with regard to "
 "writing new content and translating existing content."
-msgstr "本指南包括有关编写新内容和翻译现有内容的预期风格、MkDocs 特定语法、各种所需工"
+msgstr ""
+"本指南包括有关编写新内容和翻译现有内容的预期风格、MkDocs 特定语法、各种所需工"
 "具和文档翻译的信息。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:5
@@ -40,7 +41,8 @@ msgstr "页眉和标题的第一个单词应大写。"
 msgid ""
 "We prefer US spelling, with some liberties for programming-specific "
 "colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
-msgstr "我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（"
+msgstr ""
+"我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（"
 "如 \"scrollable\"）有一定的自由度。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:9
@@ -64,7 +66,8 @@ msgid ""
 "If a term is being used \"as code\", then it should be quoted as inline "
 "code, by wrapping it in single backticks, rather than being added to the "
 "dictionary."
-msgstr "如果一个术语是 \"作为代码 \"使用的，那么它就应该作为内联代码引用，用单个回车"
+msgstr ""
+"如果一个术语是 \"作为代码 \"使用的，那么它就应该作为内联代码引用，用单个回车"
 "键将其包裹起来，而不是添加到字典中。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:13
@@ -114,7 +117,8 @@ msgid ""
 "duplicated in multiple files, you can generate a custom anchor for the "
 "intended content (as shown in the next section), and link to that using the "
 "reference link formatting:"
-msgstr "如果需要链接到不同文件中的锚点，而该锚点名称在多个文件中重复，则可以为目标内"
+msgstr ""
+"如果需要链接到不同文件中的锚点，而该锚点名称在多个文件中重复，则可以为目标内"
 "容生成自定义锚点（如下一节所示），并使用引用链接格式链接到该锚点："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:47
@@ -152,7 +156,8 @@ msgid ""
 "Methods and attributes are the same as above, with the method or attribute "
 "name included. You must include the parentheses after the namespace. The "
 "following displays the namespace:"
-msgstr "方法和属性与上述方法或属性名称相同。命名空间后必须包含括号。下面显示的是命名"
+msgstr ""
+"方法和属性与上述方法或属性名称相同。命名空间后必须包含括号。下面显示的是命名"
 "空间："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:67
@@ -214,7 +219,8 @@ msgid ""
 "You can also create an anchor on general content, including text and "
 "codeblocks. The following formatting, with newlines above and below, should "
 "be included above the content you wish to link to:"
-msgstr "您也可以在一般内容（包括文本和代码块）上创建锚点。在您希望链接的内容上方应包"
+msgstr ""
+"您也可以在一般内容（包括文本和代码块）上创建锚点。在您希望链接的内容上方应包"
 "含以下格式，上下换行："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:107
@@ -229,7 +235,8 @@ msgid ""
 "requires that all anchors be unique. If you are creating a custom anchor, "
 "ensure that you are choosing a name that isn't used elsewhere in the "
 "documentation."
-msgstr "参考链接允许链接到独立文件中的锚点，这就要求所有锚点都必须是唯一的。如果您要"
+msgstr ""
+"参考链接允许链接到独立文件中的锚点，这就要求所有锚点都必须是唯一的。如果您要"
 "创建自定义锚点，请确保您选择的名称没有在文档的其他地方使用过。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:111
@@ -261,7 +268,8 @@ msgid ""
 "Namespaces; class, method, or attribute names. Reference links containing "
 "class, method or attribute names should be left as-is, including the "
 "backticks."
-msgstr "命名空间；类、方法或属性名称。包含类名、方法名或属性名的引用链接应保持原样，"
+msgstr ""
+"命名空间；类、方法或属性名称。包含类名、方法名或属性名的引用链接应保持原样，"
 "包括回车符。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:119
@@ -291,7 +299,8 @@ msgid ""
 "translated. This goes for all styles of admonitions, including notes, "
 "warnings, etc. See below for information on translating the rest of the "
 "content."
-msgstr "训诫_语法。如下所示，\"训诫 \"一词不应翻译。这适用于所有类型的训诫，包括注释"
+msgstr ""
+"训诫_语法。如下所示，\"训诫 \"一词不应翻译。这适用于所有类型的训诫，包括注释"
 "、警告等。有关翻译其余内容的信息，请参阅下文。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:131
@@ -306,7 +315,8 @@ msgstr "回车键应保持回车键的状态，用于格式化内联代码和代
 msgid ""
 "The syntax for including external content. This is anything on the same line "
 "as `-8<-`, or on the lines between two `-8<-` on separate lines."
-msgstr "包含外部内容的语法。这是指与 `-8<-` 在同一行的任何内容，或在两个独立行的 `-"
+msgstr ""
+"包含外部内容的语法。这是指与 `-8<-` 在同一行的任何内容，或在两个独立行的 `-"
 "8<-` 之间的任何内容。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:134
@@ -332,7 +342,8 @@ msgid ""
 "Due to the way the translation files are generated, it is important to "
 "include required newlines in the Markdown syntax for admonitions, notes, "
 "tabs, Jinja directives, image captions and alignment, etc."
-msgstr "由于翻译文件的生成方式，必须在 Markdown 语法中为训诫、注释、制表符、Jinja 指"
+msgstr ""
+"由于翻译文件的生成方式，必须在 Markdown 语法中为训诫、注释、制表符、Jinja 指"
 "令、图像标题和对齐方式等加入所需的换行符。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:150
@@ -402,7 +413,8 @@ msgid ""
 "There is also syntax for substituting symbols or text. This syntax is a "
 "variable wrapped in a pair of matching double curly braces, and must include "
 "a newline before and after."
-msgstr "还有一种语法用于替换符号或文本。这种语法是用一对匹配的双大括号包装一个变量，"
+msgstr ""
+"还有一种语法用于替换符号或文本。这种语法是用一对匹配的双大括号包装一个变量，"
 "前后必须包括一个换行符。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:239
@@ -416,7 +428,8 @@ msgid ""
 "Whether the caption syntax is being utilized for the purposes of centering "
 "an image, or for providing an image caption, it must include newlines "
 "between each section."
-msgstr "无论使用标题语法是为了将图像居中，还是为了提供图像标题，都必须在每个部分之间"
+msgstr ""
+"无论使用标题语法是为了将图像居中，还是为了提供图像标题，都必须在每个部分之间"
 "加入换行符。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:243
@@ -424,7 +437,8 @@ msgstr "无论使用标题语法是为了将图像居中，还是为了提供图
 msgid ""
 "For example, when adding an empty caption to center an image, you should "
 "format it as follows, with a newline before and after the content block:"
-msgstr "例如，在添加一个空标题使图像居中时，应按如下格式设置，并在内容块前后各加一个"
+msgstr ""
+"例如，在添加一个空标题使图像居中时，应按如下格式设置，并在内容块前后各加一个"
 "换行符："
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:253
@@ -468,7 +482,8 @@ msgstr "例如，如果您希望使用 \"自定义锚点 \"链接到本节，您
 msgid ""
 "Once added, you can link to the section from within the same file using a "
 "standard Markdown link, or from another file using the reference link syntax."
-msgstr "添加后，您可以使用标准 Markdown 链接从同一文件链接到该部分，或使用引用链接语"
+msgstr ""
+"添加后，您可以使用标准 Markdown 链接从同一文件链接到该部分，或使用引用链接语"
 "法从另一个文件链接到该部分。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:283
@@ -519,7 +534,8 @@ msgid ""
 "and ignore the prompts and the output. This allows you to indicate that they "
 "are console commands, while still allowing users to use the copy button "
 "effectively."
-msgstr "然后，点击代码块上的复制按钮将只复制命令，而忽略提示和输出。这样既能表明它们"
+msgstr ""
+"然后，点击代码块上的复制按钮将只复制命令，而忽略提示和输出。这样既能表明它们"
 "是控制台命令，又能让用户有效使用复制按钮。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:301
@@ -574,7 +590,8 @@ msgstr "两个重要说明："
 msgid ""
 "We use `-8<-` as the Snippets identifier. The documentation shows several "
 "options; please follow our style."
-msgstr "我们使用 `-8<-` 作为 Snippets 标识符。文档中显示了多种选项，请遵循我们的风格"
+msgstr ""
+"我们使用 `-8<-` 作为 Snippets 标识符。文档中显示了多种选项，请遵循我们的风格"
 "。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:319
@@ -636,7 +653,8 @@ msgstr "我们使用 `pyspelling` 拼写检查程序。它在内核检查时运�
 msgid ""
 "When `pyspelling` identifies a misspelled word, in most cases, it should be "
 "fixed in the documentation content."
-msgstr "当 `pyspelling` 识别出拼写错误的单词时，在大多数情况下，应在文档内容中予以修"
+msgstr ""
+"当 `pyspelling` 识别出拼写错误的单词时，在大多数情况下，应在文档内容中予以修"
 "正。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:353
@@ -652,7 +670,8 @@ msgid ""
 "If it is a word that is likely to be reused multiple times, you should add "
 "the word to the `spelling_wordlist` document in the `docs` directory, in "
 "alphabetical order."
-msgstr "如果是可能被多次重复使用的单词，则应按字母顺序将该单词添加到`docs`目录下"
+msgstr ""
+"如果是可能被多次重复使用的单词，则应按字母顺序将该单词添加到`docs`目录下"
 "的`spelling_wordlist`文档中。"
 
 #: src/beeware_docs_tools/shared_content/en/style_guide.md:356
