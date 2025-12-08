@@ -102,7 +102,7 @@ plugins:
   literate-nav:
     nav_file: SUMMARY.md
   macros:
-    include_dir: docs
+    include_dir: {}
   mkdocstrings:
     default_handler: python
     handlers:
