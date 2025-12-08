@@ -1,12 +1,3 @@
-TODO: Consider reordering content
-
-Cross-referencing
-* starts with top level standard MD links
-* reference to another file
-* If you want to reference a section of another document or API, there are other considerations.
-subsection - reference other sections (Custom Markdown Anchors goes here)
-subsection - referencing API terms (Reference Links)
-
 This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content.
 
 ## General style
