@@ -72,104 +72,6 @@ We recommend avoiding recently released version of Python (i.e., versions that h
 
 {% endif %}
 
-### <nospell>tl;dr</nospell> - Quick start { #dev-environment-tldr }
-
-Create your dev environment by running:
-
-{% if not config.extra.macos_only %}
-
-/// tab | macOS
-
-{% endif %}
-
-
-```console
-$ git clone https://github.com/beeware/{{ project_name }}.git
-$ cd {{ project_name }}
-$ python3 -m venv .venv
-$ . .venv/bin/activate
-(.venv) $ python -m pip install -U pip
-{% block tldr_macos_install %}(.venv) $ python -m pip install -Ue . --group dev{% endblock %}
-(.venv) $ pre-commit install
-```
-
-
-{% if not config.extra.macos_only %}
-
-///
-
-/// tab | Linux
-
-{% block tldr_linux %}
-
-```console
-$ git clone https://github.com/beeware/{{ project_name }}.git
-$ cd {{ project_name }}
-$ python3 -m venv .venv
-$ . .venv/bin/activate
-(.venv) $ python -m pip install -U pip
-(.venv) $ python -m pip install -Ue . --group dev
-(.venv) $ pre-commit install
-```
-
-{% endblock %}
-
-///
-
-/// tab | Windows
-
-{% block tldr_windows %}
-
-```doscon
-C:\...>git clone https://github.com/beeware/{{ project_name }}.git
-C:\...>cd {{ project_name }}
-C:\...>py -3 -m venv .venv
-C:\...>.venv\Scripts\activate
-(.venv) C:\...>python -m pip install -U pip
-(.venv) C:\...>python -m pip install -Ue . --group dev
-(.venv) C:\...>pre-commit install
-```
-
-{% endblock %}
-
-///
-
-{% endif %}
-
-Invoke checks and tests by running:
-
-{% if not config.extra.macos_only %}
-
-/// tab | macOS
-
-{% endif %}
-
-```console
-(.venv) $ tox
-```
-
-{% if not config.extra.macos_only %}
-
-///
-
-/// tab | Linux
-
-```console
-(.venv) $ tox
-```
-
-///
-
-/// tab | Windows
-
-```doscon
-(.venv) C:\...>tox
-```
-
-///
-
-{% endif %}
-
 ### Set up your development environment  { #dev-environment-set-up }
 
 The recommended way of setting up your development environment for {{ formal_name }} is to use a [virtual environment](https://docs.python.org/3/library/venv.html), and then install the development version of {{ formal_name }} and its dependencies.
@@ -282,7 +184,7 @@ Now that you have the source code, you can do an [editable install](https://setu
 {% block install_macos_tool %}
 
 ```console
-(.venv) $ python -m pip install -Ue . --group dev
+(.venv) $ python -m pip install -U -e . --group dev
 ```
 
 {% endblock %}
@@ -296,7 +198,7 @@ Now that you have the source code, you can do an [editable install](https://setu
 {% block install_linux_tool %}
 
 ```console
-(.venv) $ python -m pip install -Ue . --group dev
+(.venv) $ python -m pip install -U -e . --group dev
 ```
 
 {% endblock %}
@@ -308,7 +210,7 @@ Now that you have the source code, you can do an [editable install](https://setu
 {% block install_windows_tool %}
 
 ```doscon
-(.venv) C:\...>python -m pip install -Ue . --group dev
+(.venv) C:\...>python -m pip install -U -e . --group dev
 ```
 
 {% endblock %}

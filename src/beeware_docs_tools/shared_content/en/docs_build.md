@@ -1,4 +1,4 @@
-To build {{ formal_name }}'s documentation, start by ensuring you [have the prerequisites][dev-environment-prereqs], and then [follow this quickstart][dev-environment-tldr] to set up a dev environment (or, for a more detailed explanation, [start here][dev-environment-set-up]).
+To build {{ formal_name }}'s documentation, start by ensuring you [have the prerequisites][dev-environment-prereqs], and then [set up a development environment][dev-environment-set-up].
 
 You **must** have a Python {{ docs_python_version }} interpreter installed and available on your path (i.e., `python{{ docs_python_version }}` must start a Python {{ docs_python_version }} interpreter).
 
@@ -148,11 +148,9 @@ To generate a build of all available translations:
 
 {% endif %}
 
-The output of each language build will be in the associated `_build/html/languagecode` directory, where `languagecode` is the two- or five-character language code associated with the specific language (e.g. `fr` for French, `it` for Italian, etc.).
+The output of each language build will be in the associated `_build/html/<languagecode>` directory, where `<languagecode>` is the two- or five-character language code associated with the specific language (e.g. `fr` for French, `it` for Italian, etc.).
 
-If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-languagecode`.
-
-For example, to build the documentation in only French:
+If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-<languagecode>`. For example, to build only the French documentation, run:
 
 {% if not config.extra.macos_only %}
 
@@ -192,7 +190,7 @@ The output of a single-language build will be in the `_build` directory.
 
 ### Documentation linting
 
-The build process will identify Markdown problems, but {{ formal_name }} performs some additional "lint" checks. To run the lint checks:
+The build process will identify Markdown problems, but {{ formal_name }} performs some additional checks for style and formatting, known as "linting". To run the lint checks:
 
 {% if not config.extra.macos_only %}
 

@@ -2,9 +2,9 @@ This guide includes information and guidelines for writing code for {{ formal_na
 
 ### Code style
 
-We follow [PEP8](https://peps.python.org/pep-0008/). Keep in mind, the most important part is [section 0: A Foolish Consistency is the Hobgoblin of Little Minds](https://peps.python.org/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds). There are situations where remaining consistent with PEP8 doesn't make sense, and it is important to understand that, when applicable, it is acceptable, and sometimes preferred, to write code that isn't in line with the rules listed. Knowing *when to be inconsistent* with those rules is as important as maintaining consistency in most situations.
+BeeWare follows [PEP 8](https://peps.python.org/pep-0008/) in our codebase. We use [Ruff](https://docs.astral.sh/ruff/) to enforce PEP 8 conventions where possible. When you commit your code, pre-commit will run checks, including Ruff. Where possible, this will autoformat your code to ensure it meets our formatting and style standards. You can set up some IDEs to automatically run Ruff on save, which can help with the process.
 
-In most cases, we use Ruff. When you commit your code, pre-commit will run its checks, including Ruff. This will autoformat your code to bring it in line with our standards. You can set up some IDEs to automatically run Ruff on save, which can help with the process.
+Keep in mind that the most important part of PEP 8 is [Section 0: A Foolish Consistency is the Hobgoblin of Little Minds](https://peps.python.org/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds). There are situations where remaining consistent with PEP 8 doesn't make sense, and it is important to understand that, when applicable, it is acceptable, and sometimes preferred, to write code that isn't in line with the rules listed. Knowing *when to be inconsistent* with those rules is as important as maintaining consistency in most situations.
 
 We follow US spelling for API naming, variables, etc.
 
