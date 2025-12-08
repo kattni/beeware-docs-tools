@@ -1,5 +1,12 @@
 TODO: Consider reordering content
 
+Cross-referencing
+* starts with top level standard MD links
+* reference to another file
+* If you want to reference a section of another document or API, there are other considerations.
+subsection - reference other sections (Custom Markdown Anchors goes here)
+subsection - referencing API terms (Reference Links)
+
 This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content.
 
 ## General style
@@ -10,11 +17,13 @@ This guide includes information on expected style, MkDocs-specific syntax, vario
 * Any reference to a product name should use the product’s preferred capitalization. (e.g., <nospell>"macOS", "GTK", "pytest", "Pygame", "PyScript"</nospell>).
 * If a term is being used "as code", then it should be quoted as inline code, by wrapping it in single backticks, rather than being added to the dictionary.
 
-## Reference links
+## Cross-referencing information
 
-MkDocs renders standard Markdown formatted links. It also supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, standard Markdown header anchors, custom Markdown header and text anchors, custom reference IDs, documented classes and class methods or attributes, and specific external documentation references.
+You are regularly going to have good reason to reference other existing information in the documentation. This section covers the various ways you can do that, each of which are based on the type of information being referenced.
 
-Standard Markdown formatted links are as follows:
+MkDocs renders standard Markdown formatted links.
+
+Standard Markdown formatted web hyperlinks are as follows:
 
 ```markdown
 [Link text](https://example.com/)
@@ -26,23 +35,65 @@ You can also use this format to link to a local file:
 [Link text](path/to/file.md)
 ```
 
-Linking to an anchor _in the same file_ is formatted as follows:
+Referencing specific sections of files, or API documentation requires using the MkDocs reference link format.
+
+### Custom Markdown anchors and content cross-referencing
+
+Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors`. However, due to the way that our translations work, anytime a section header is referenced, it must have a custom anchor.
+
+MkDocs supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors.
+
+MkDocs reference links are any links formatted as follows:
+
+```markdown
+[Link text][link-target]
+```
+
+/// danger | Custom header and content anchors are required
+
+Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation *must* have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated.
+
+///
+
+If you need to link to a header anchor, you will need to generate a custom anchor for the intended content. The general syntax for setting a custom anchor is as follows:
+
+```markdown
+# Header text { #anchor-name }
+```
+
+For example, customizing the anchor for this section to `custom-anchors` would be done with the following formatting:
+
+```markdown
+## Custom Markdown anchors { #custom-anchors }
+```
+
+You can also create an anchor on general content, including text and codeblocks. The following formatting, with newlines above and below, should be included above the content to which you wish to link:
+
+```markdown
+Content above.
+
+[](){ #anchor-name }
+
+Content below, that is now attached to the anchor above.
+```
+
+Once the custom anchors are created, you can link to them from within the same document, or in other parts of the documentation.
+
+Standard Markdown is used to link to an anchor _in the same file_, which is formatted as follows:
 
 ```markdown
 [Link text](#anchor-name)
 ```
 
-Linking to an anchor _in a different_ file is formatted as follows:
+Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:
 
 ```markdown
 [Link text][anchor-name]
 ```
 
-If you need to link to an anchor in a different file, and the anchor name is duplicated in multiple files, you can generate a custom anchor for the intended content (as shown in the next section), and link to that using the reference link formatting:
+### API reference links
 
-```markdown
-[Link text][custom-anchor-name]
-```
+The MkDocs reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references.
 
 There are multiple options for linking to a documented class, or a class method or attribute, regardless of whether you are linking from the same file or a separate file. When linking to classes, etc., you must include backticks in the first set of square brackets to render the name as inline code. The backticks are not necessary only if you are using custom text that should not be rendered as inline code. Backticks should never be included in the second set of square brackets.
 
@@ -98,50 +149,6 @@ To link to the Pillow `Image` documentation:
 
 ```markdown
 [`PIL.Image.Image`][]
-```
-
-## Custom Markdown anchors
-
-Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors`. There are situations where it makes sense to instead set a custom anchor, such as, if you are using the anchor in a reference link, or if the header is overly verbose, and you need something more memorable available for reuse.
-
-/// danger | Reference links and custom anchors
-
-Any header that is referenced in text content via a MkDocs reference link *must* have a custom anchor attached. Otherwise, there is the potential to break links when header content is translated.
-
-MkDocs reference links are any links formatted as follows:
-
-```markdown
-[Link text][anchor-name]
-```
-
-Therefore, an example related header must be formatted as follows:
-
-```markdown
-# Header { #anchor-name }
-```
-
-///
-
-The general syntax for setting a custom anchor is as follows:
-
-```markdown
-# Header text { #anchor }
-```
-
-For example, customizing the anchor for this section to `custom-anchors` would be done with the following formatting:
-
-```markdown
-## Custom Markdown anchors { #custom-anchors }
-```
-
-You can also create an anchor on general content, including text and codeblocks. The following formatting, with newlines above and below, should be included above the content you wish to link to:
-
-```markdown
-Content above.
-
-[](){ #anchor-name }
-
-Content below, that is now attached to the anchor above.
 ```
 
 ## Code block tips
