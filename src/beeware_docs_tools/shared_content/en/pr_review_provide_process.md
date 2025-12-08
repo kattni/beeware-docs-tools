@@ -4,7 +4,7 @@ TODO: NO JINJA
 
 /// info | Review expectations
 
-You should expect the following from anyone reviewing your submissions, and you should engage in the following when you are reviewing submissions from others.
+You should expect the following from anyone reviewing your submissions, including from members of the core team, and you should engage in the following when you are reviewing submissions from others.
 
 ///
 
@@ -18,5 +18,8 @@ Before engaging in a review, THINK. As reviewers, we should consider whether the
 * Necessary. The expectation is that the author will read everything we post; we must respect their time and effort by only posting necessary replies.
 * Kind. There are multiple ways to present the same feedback; we need to ensure we are choosing to be kind, supportive, and constructive with our words.
 
+TODO: segue.
 
-if the code does something particularly clever, or introduces an API that you didn't know about, when in the middle of a PR where everything is going wrong, pointing out a positive part of the contribution.
+It is entirely possible to THINK, while providing a thorough review. Contributors won't have the opportunity to improve if they are unaware of areas needing improvement.
+
+It's important to remember to provide positive feedback in addition to identifying the areas needing improvement. If, for example, the changes are especially helpful, do something particularly clever, or you are introduced to an API that you didn't know about, let the author know! Never underestimate the effect of pointing out something someone has done correctly or well, in the middle of a situation where everything else you've pointed out are issues that need to be resolved.

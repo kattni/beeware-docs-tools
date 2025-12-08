@@ -8,6 +8,7 @@ Yes! We have opportunities for folks at every experience level to contribute. Wh
 
 Is this your first time contributing to an open source project? We're here to help! We have [advice for first-time contributors](first_time_contributors.md) to help with getting past any initial fears and concerns.
 
+
 ## What can I do?
 
 ### [Triage an issue](issue_triage_process.md)
@@ -53,6 +54,10 @@ Before you can begin contributing to BeeWare, you'll need to [set up your develo
 
 Before fixing an issue, you'll need to verify it exists by [reproducing the issue](issue_reproduce.md).
 
+### [Work from a branch](git_feature_branch.md)
+
+When preparing to submit a contribution, always [work from a branch](git_feature_branch.md).
+
 ### [Propose a new feature](feature_proposal.md)
 
 You'll follow these steps to [propose a new feature](feature_proposal.md).
@@ -73,6 +78,10 @@ To contribute documentation, you'll [write new content or update existing conten
 
 Once your changes are ready, you'll [submit a pull request](pr_submit.md) for review.
 
+### [Add a change note](pr_change_note.md)
+
+Every pull request should be accompanied by a [change note](pr_change_note.md).
+
 ### [Translate](translate.md)
 
 BeeWare uses Weblate for [translations](translate.md), which requires a few steps to get started.
@@ -91,6 +100,7 @@ When a pull request is submitted, the next step is [the PR review](pr_review.md)
 ### [The release process](release_process.md)
 
 Merged contributions will go through [the release process](release_process.md).
+
 
 ## Style Guides
 

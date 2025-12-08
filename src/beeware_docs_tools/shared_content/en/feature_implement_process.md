@@ -6,6 +6,8 @@ You are not responsible for implementing your feature for all platforms, however
 
 {% endif %}
 
+TODO: More - needs feedback
+
 ### Contributing a new feature
 
 {% macro content(template) %}{% include template %}{% endmacro %}

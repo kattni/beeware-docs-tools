@@ -144,6 +144,35 @@ Content above.
 Content below, that is now attached to the anchor above.
 ```
 
+## Code block tips
+
+### Language and code highlighting
+
+You can specify the language for the code contained within the codeblock by including the language name after the first three backticks, with no space between. This results in appropriate code highlighting when the code rendered. For example, to specify Python, you would begin the codeblock with ` ```python`.
+
+### Console commands and the copy button
+
+If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on what operating system you are referencing, you can include the prompt, and only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:
+
+```console
+$ mkdir test
+$ ls
+test
+```
+
+Then, clicking the copy button on the codeblock will copy only the commands, and ignore the prompts and the output. This allows you to indicate that they are console commands, while still allowing users to use the copy button effectively.
+
+### Highlighting specific lines of code
+
+You can highlight specific lines of code. For example, to highlight line 2, you would add a space after the language, followed by `{hl_lines="2"}`. So, your codeblock would begin with ` ```python {hl_lines="2"} `. The result is:
+
+```python {hl_lines="2"}
+import toga
+from toga.style.pack import COLUMN, ROW
+```
+
+You can highlight multiple different lines. For example, `python {hl_lines="3 5 9"}` would highlight lines 3, 5 and 9. You can also highlight a range of lines. For example, `python {hl_lines="3-8"}` highlights lines 3 through 8. You can highlight multiple ranges with, for example, `python {hl_lines="9-18 23-44"}`.
+
 ## Markdown elements that require specific formatting
 
 Due to the way the translation files are generated, it is important to include required newlines in the Markdown syntax for admonitions, notes, tabs, Jinja directives, image captions and alignment, etc.
@@ -261,70 +290,7 @@ Content above.
 Content below.
 ```
 
-### Images with caption syntax
-
-Whether the caption syntax is being utilized for the purposes of centering an image, or for providing an image caption, it must include newlines between each section.
-
-For example, when adding an empty caption to center an image, you should format it as follows, with a newline before and after the content block:
-
-```markdown
-Content above.
-
-![Alt text](/path/to/image.png)
-
-/// caption
-
-///
-
-Content below.
-```
-
-Adding a caption to an image also requires a newline before and after, and is formatted as follows:
-
-```markdown
-Content above.
-
-![Alt text](/path/to/image.png)
-
-/// caption
-
-Caption content.
-
-///
-
-Content below.
-```
-
-## Code block tips
-
-### Language and code highlighting
-
-You can specify the language for the code contained within the codeblock by including the language name after the first three backticks, with no space between. This results in appropriate code highlighting when the code rendered. For example, to specify Python, you would begin the codeblock with ` ```python`.
-
-### Console commands and the copy button
-
-If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on what operating system you are referencing, you can include the prompt, and only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:
-
-```console
-$ mkdir test
-$ ls
-test
-```
-
-Then, clicking the copy button on the codeblock will copy only the commands, and ignore the prompts and the output. This allows you to indicate that they are console commands, while still allowing users to use the copy button effectively.
-
-### Highlighting specific lines of code
-
-You can highlight specific lines of code. For example, to highlight line 2, you would add a space after the language, followed by `{hl_lines="2"}`. So, your codeblock would begin with ` ```python {hl_lines="2"} `. The result is:
-
-```python {hl_lines="2"}
-import toga
-from toga.style.pack import COLUMN, ROW
-```
-
-You can highlight multiple different lines. For example, `python {hl_lines="3 5 9"}` would highlight lines 3, 5 and 9. You can also highlight a range of lines. For example, `python {hl_lines="3-8"}` highlights lines 3 through 8. You can highlight multiple ranges with, for example, `python {hl_lines="9-18 23-44"}`.
-
-## Image formatting
+### Image formatting
 
 Images can have the width set, and can be aligned left, right, and center (with a caveat on "center").
 
@@ -340,28 +306,41 @@ Aligning an image left (or right) would be formatted as follows:
 ![Image alt text](../path/to/image.png){ align=left }
 ```
 
+Adding a caption to an image requires a newline before and after, and is formatted as follows:
+
+```markdown
+Content above.
+
+![Alt text](/path/to/image.png)
+
+/// caption
+
+Caption content.
+
+///
+
+Content below.
+```
+
 Aligning an image center is not possible with the `align` attribute. The workaround is to follow the image with an empty caption, and it will be centered. You must include newlines between each section, and before and after. It is formatted as follows:
 
 ```markdown
+Content above.
+
 ![Image alt text](../path/to/image.png)
 
 /// caption
 
 ///
+
+Content below.
 ```
 
-## `pyspelling`
+## Plugins with specific Markdown formatting
 
-We use the `pyspelling` spellchecker. It is run during the lint-checks.
+The following sections cover how to utilize plugins that require specific Markdown formatting.
 
-When `pyspelling` identifies a misspelled word, in most cases, it should be fixed in the documentation content.
-
-In the rare case that it identifies a valid word that isn't in the `pyspelling` dictionary, you have two options:
-
-1. If it is a word that is likely to be reused multiple times, you should add the word to the `spelling_wordlist` document in the `docs` directory, in alphabetical order.
-2. If it is a word that is unlikely to be used again, you can wrap it in a `<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline.
-
-## Using Snippets to include external content
+### Using Snippets to include external content
 
 For details on how to include external content from a local file or a URL, see the [Snippets extension documentation](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/). Snippets should be used as long as the document does not contain Jinja directives that need to be executed (the Jinja execution happens alongside the Snippets processing, and therefore any Jinja in the file will not be processed). Snippets is necessary if you want to be able to use delimiters that allow you to include specific parts of a file separately, e.g. the source document is divided up into sections to be injected separately from each other.
 
@@ -371,7 +350,7 @@ Important notes:
 * Files found in BeeWare Docs Tools shared content are treated as "local" content, and should be added using only the filename, i.e. this style guide would be included using `-8<- "docs_style_guide.md"`.
 * If you are including external content from a file on GitHub via a URL, you _must_ use the raw content URL, or it will render the full webpage embedded wherever you include it.
 
-## Using Macros to include content from BeeWare Docs Tools shared content
+### Using Macros to include content from BeeWare Docs Tools shared content
 
 You can also include content from the BeeWare Docs tools shared content directory using the [Macros MkDocs plugin](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/). This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/#1-variable) works with this method.
 
@@ -390,3 +369,14 @@ There are options for including content using Macros:
     ```
 
     This allows you to use Jinja's `block` mechanism to override sections of a document.
+
+## `pyspelling`
+
+We use the `pyspelling` spellchecker. It is run during the lint-checks.
+
+When `pyspelling` identifies a misspelled word, in most cases, it should be fixed in the documentation content.
+
+In the rare case that it identifies a valid word that isn't in the `pyspelling` dictionary, you have two options:
+
+1. If it is a word that is likely to be reused multiple times, you should add the word to the `spelling_wordlist` document in the `docs` directory, in alphabetical order.
+2. If it is a word that is unlikely to be used again, you can wrap it in a `<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline.
