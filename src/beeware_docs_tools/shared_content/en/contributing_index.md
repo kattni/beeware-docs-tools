@@ -29,7 +29,7 @@ Do you have a suggestion or idea for a new addition to one of the BeeWare tools?
 
 ### [Implement a new feature](feature_implement_process.md)
 
-Do you have a design in mind for your proposed feature, or have you found an existing feature issue that interests you? You can[implement a new feature](feature_implement_process.md).
+Do you have a design in mind for your proposed feature, or have you found an existing feature issue that interests you? You can [implement a new feature](feature_implement_process.md).
 
 ### [Add documentation](docs_process.md)
 
@@ -57,6 +57,8 @@ Before fixing an issue, you'll need to verify it exists by [reproducing the issu
 ### [Work from a branch](git_feature_branch.md)
 
 When preparing to submit a contribution, always [work from a branch](git_feature_branch.md).
+
+### TODO: add maintain_focus
 
 ### [Propose a new feature](feature_proposal.md)
 

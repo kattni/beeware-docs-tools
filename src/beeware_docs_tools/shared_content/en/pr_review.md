@@ -51,7 +51,7 @@ Most of the time, your reviewer is going to request changes on your pull request
 
 Your reviewer will post comments to your PR. These comments can be general, on a specific file, or on a specific line or lines of code. They will sometimes include directly suggested changes that you can apply to your PR through the GitHub UI. Typically, they will be questions, requests for clarification, or guidance on updates.
 
-/// note | Marking a conversation as resolved
+/// info | Marking a conversation as resolved
 
 During the discussion part of the feedback process, you should never mark a conversation started by your reviewer as "resolved". Marking the conversation as resolved is the responsibility of the reviewer. It's up to them to determine whether the identified problem has been solved.
 

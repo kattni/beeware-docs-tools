@@ -30,7 +30,7 @@ Referencing specific sections of files, or API documentation requires using the 
 
 ### Custom Markdown anchors and content cross-referencing
 
-Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors`. However, due to the way that our translations work, anytime a section header is referenced, it must have a custom anchor.
+Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors-and-content-cross---referencing`. However, due to the way that our translations work, anytime a section header is referenced, it must have a custom anchor.
 
 MkDocs supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors.
 

@@ -10,7 +10,9 @@ There are five allowed fragment types:
 - `removal`; The PR represents a backwards incompatible change in the {{ formal_name }} API; or
 - `misc`; A minor or administrative change (e.g., fixing a typo, a minor language clarification, or updating a dependency version) that doesn't need to be announced in the release notes.
 
-This description in the change note should be a high level summary of the change from the perspective of the user, not a deep technical description or implementation detail. It is distinct from a commit message - a commit message describes what has been done so that future developers can follow the reasoning for a change; the change note is a "user facing" description. For example, if you fix a bug related to project naming, the commit message might read:
+This description in the change note should be a high level summary of the change from the perspective of the user, not a deep technical description or implementation detail. It is distinct from a commit message - a commit message describes what has been done so that future developers can follow the reasoning for a change; the change note is a description meant to be read and understood by users, who may not have development experience.
+
+For example, if you fix a bug related to project naming, the commit message might read:
 
 > Disallow project names that begin with a number.
 

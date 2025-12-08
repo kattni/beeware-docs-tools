@@ -239,13 +239,14 @@ Any of these options will enable you to create your new pull request.
 
 ??? info | The GitHub CLI: `gh`
 
-    GitHub provides the [GitHub CLI](https://cli.github.com/), which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [documention](https://cli.github.com/manual/) covers all the features. TODO: More?
+    GitHub provides the [GitHub CLI](https://cli.github.com/), which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [documention](https://cli.github.com/manual/) covers all the features.
 
 ### Pull request content
 
-A pull request title must be applicable, clear, and concise; avoid TODO: finish.
+TODO: finish
+A pull request title must be informative, clear, and concise. Try to keep it short if possible, but longer titles are acceptable, if needed. A good PR title should give a person without any context a reasonably solid idea of what to expect from your PR.
 
-The PR description must clearly reflect the changes in the PR. A person who doesn't have any context should be able to read your description and understand why the change is being made.
+The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others.
 
 If there are any reproduction cases, or any testing regimen that you used that are not already a part of the changes present in the PR, they must be explained and included in the PR. The explanation should include how to run them, and what to do to reproduce the desired outcome.
 
@@ -253,7 +254,9 @@ If there are any reproduction cases, or any testing regimen that you used that a
 
 *Continuous integration*, or *CI*, is what we use to run automated checks on your pull request, for example, checking formatting, running the test suite, and verifying the documentation builds. There are any number of changes that can result in CI failures. Broadly speaking, we won't review a PR that isn't passing CI; if you push and CI fails, we won't begin your review until it is passing. If your changes result in a failure, it is your responsibility to look into the reason, and resolve the issue.
 
-If you click on the failure link in your PR, it will take you to the log. The log often provides all the information you need to figure out what caused the failure. TODO: finish.
+When CI fails, the failure links will show up at the bottom of the PR page, under the heading "Some checks were not successful". You'll see a list of failed checks, which, will show up at the top of the list of all checks if there are passing checks as well. If you click on the failure link, it will take you to the log. The log often provides all the information you need to figure out what caused the failure. Read through the log and try to figure out why the failure is occurring, and then do what's necessary to resolve it.
+
+To trigger a new CI run, you need to push new changes to your branch.
 
 If you find yourself in a situation where you need help getting CI to pass, you need to leave a comment on the PR letting us know.
 

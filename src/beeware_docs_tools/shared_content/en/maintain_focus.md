@@ -1,0 +1,13 @@
+The concept of "scope creep" happens when the actual scope of a contribution grows significantly beyond the original scope. It happens to everyone. It is a concept that is all too familiar to seasoned developers; we've all done it multiple times, and experienced all the issues that come with it.
+
+Avoiding scope creep isn't simply a matter of limiting an increase in the amount of work involved. The larger a contribution gets, the more difficult it is to work with. This is especially true if it begins to spread out into unrelated tangents. You may struggle to keep up with all the moving parts, which means overall quality may be diminished. Reviews become more challenging when the reviewer needs to deal with multiple, potentially unrelated, contexts. It's also more difficult for you as a contributor to follow the review threads. Finally, from a technical standpoint, GitHub will physically slow down as the size and content of a PR continues to scale, meaning navigating the files through the GitHub interface and attempting to leave review comments starts to experience an increasing delay.
+
+Scope creep can sneak up on you. You may find a new bug in the process of working on your current bugfix, and want to fix it as part of your current contribution. You may come up with a new idea during development, and see how it relates to your current contribution. Essentially, anytime you find a reason to add anything to your contribution that isn't within the original proposal, you're probably heading into scope creep.
+
+You have two options in this situation: file an issue to track the new bug or idea, or submit the new bugfix or idea as a separate pull request. In terms of a new bug, if you're unsure how to fix it, the first option makes the most sense; you're already working on a contribution, and spinning off into trying to troubleshoot something new isn't ideal. If you are certain you how to fix it, the second option may make sense.
+
+In almost all cases, your best bet is to go with the first option. If it's something you know you'll want to work on, or a bug that you are certain you know how to fix, indicate that in the issue. It'll be there when you're done with your current contribution, and setting it aside enables you to focus on your current contribution and see it through.
+
+Ensuring your contribution remains within the original scope helps everyone involved, including you.
+
+TODO: Finish

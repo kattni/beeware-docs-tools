@@ -1,4 +1,4 @@
-TODO: intro sentence
+Writing up a good issue or bug report can make all the difference in the ability to troubleshoot it. These are the steps to follow to submit a bug report to {{ formal_name }}.
 
 ### Start with a discussion
 
@@ -27,7 +27,7 @@ Quite often the process of developing a good bug report will reveal the source o
 
 ### Submitting the report
 
-Navigate to the [{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues), click the "New issue" button, and choose "Bug report" to begin the process.
+Navigate to the [{{ formal_name }} issues list]{% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}(https://github.com/beeware/{{ project_name }}/issues), click the "New issue" button, and choose "Bug report" to begin the process.
 
 **You must fill out *all the sections* in the issue template.** We provide the template as a prompt to help you provide the necessary information. Remember, you can (and should!) always provide more information than the template requires, but at the very minimum, we need all the information present in the template.
 

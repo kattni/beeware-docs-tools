@@ -1,4 +1,4 @@
-TODO: intro copy
+These are the steps to follow to begin contributing translated content to {{ formal_name }}.
 
 ### Getting started with translating
 
@@ -16,9 +16,9 @@ In both cases, leave a message including the following information:
 
 Once we have this info, we'll get you added to the team.
 
-### New translations
+### Adding a new translation
 
-If the language you plan to help out with doesn't already exist, there is some setup necessary on our end before you can get started.
+If the language you plan to help out with doesn't already exist, there is some set up necessary on our end before you can get started.
 
 To set up a new language, the following steps must be completed:
 
@@ -51,7 +51,7 @@ Here's what is going on in this file:
 * The `site_name` value is translated.
 * The `site_url` value is the project site URL, followed by the language code.
 * The `docs_dir` should be the language code.
-* The `theme: language:` value should be the language code, as specified by the MkDocs Material theme. The list can be found [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/). For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences.
+* The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/). For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences.
 * The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%.
 
 #### The update to `tox.ini`
@@ -83,7 +83,7 @@ The new language is now ready to begin translation.
 
 ### Translation guidelines
 
-Once you've been added to the team, it's time to log into Weblate and begin working through translating strings.
+Once you've been added to the team, it's time to log into [Weblate](https://hosted.weblate.org/projects/beeware/) and begin working through translating strings.
 
 #### Tone versus word-for-word translation
 
@@ -135,6 +135,8 @@ The following items _should_ be translated:
     ```
 
 ### Weblate
+
+We use [Weblate](https://hosted.weblate.org/projects/beeware/) for our content translation. When we add a new translation, we use [DeepL](https://www.deepl.com/en/translator) for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation.
 
 Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours.
 
