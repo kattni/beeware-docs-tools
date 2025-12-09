@@ -1,6 +1,12 @@
-TODO: munge preamble to be "might" for website deployment
+{% if config.extra.website %}
 
-{{ formal_name }} uses [`towncrier`](https://pypi.org/project/towncrier/) to assist in building the release notes for each release. When you submit a pull request, it must include a *change note* - this change note will becomes the entry in the release notes describing the change that has been made.
+Many BeeWare tools use [`towncrier`](https://pypi.org/project/towncrier/) to assist in building the release notes for each release. When you submit a pull request to one of the applicable tools, it will need to include a *change note* - this change note will become the entry in the release notes describing the change that has been made.
+
+{% else %}
+
+{{ formal_name }} uses [`towncrier`](https://pypi.org/project/towncrier/) to assist in building the release notes for each release. When you submit a pull request, it must include a *change note* - this change note will become the entry in the release notes describing the change that has been made.
+
+{% endif %}
 
 Every pull request must include at least one file in the `changes/` directory that provides a short description of the change implemented by the pull request. The change note should be in Markdown format, in a file that has name of the format `<id>.<fragment type>.md`. If the change you are proposing will fix a bug or implement a feature for which there is an existing issue number, the ID will be the number of that ticket. If the change has no corresponding issue, the PR number can be used as the ID. You won't know this PR number until you push the pull request, so the first CI pass will fail the `towncrier` check; add the change note and push a PR update and CI should then pass.
 
@@ -8,7 +14,7 @@ There are five fragment types:
 
 - `feature`: The PR adds a new behavior or capability that wasn't previously possible (e.g., adding support for a new packaging format, or a new feature in an existing packaging format);
 - `bugfix`: The PR fixes a bug in the existing implementation;
-- `doc`: The PR is an significant improvement to documentation;
+- `doc`: The PR is a significant improvement to documentation;
 - `removal`; The PR represents a backwards incompatible change in the {{ formal_name }} API; or
 - `misc`; A minor or administrative change (e.g., fixing a typo, a minor language clarification, or updating a dependency version) that doesn't need to be announced in the release notes.
 

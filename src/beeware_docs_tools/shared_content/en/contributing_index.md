@@ -1,6 +1,4 @@
-TODO: MAKE SURE THIS IS COMPLETE
-
-TODO: Intro
+There are plenty of ways to contribute to {{ formal_name }} and BeeWare as a whole. These guides cover everything you need to know to provide your contribution.
 
 ## Can I contribute?
 
@@ -58,9 +56,9 @@ Before fixing an issue, you'll need to verify it exists by [reproducing the issu
 
 When preparing to submit a contribution, always [work from a branch](how/git_feature_branch.md).
 
-### [Maintain contribution focus](how/scope_creep.md)
+### [Avoid scope creep](how/scope_creep.md)
 
-It's important to avoid scope creep, and [maintain focus](how/scope_creep.md) with your contribution.
+It's important to maintain focus, and [avoid scope creep](how/scope_creep.md) with your contribution.
 
 ### [Propose a new feature](how/feature_proposal.md)
 
@@ -85,6 +83,10 @@ Once your changes are ready, you'll [submit a pull request](how/pr_submit.md) fo
 ### [Add a change note](how/pr_change_note.md)
 
 Every pull request should be accompanied by a [change note](how/pr_change_note.md).
+
+### [Provide a review](how/pr_review_provide.md)
+
+If you're comfortable, you can [provide a review](how/pr_review_provide.md).
 
 ### [Translate](how/translate.md)
 

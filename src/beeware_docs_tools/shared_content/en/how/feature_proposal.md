@@ -27,3 +27,7 @@ If we determine that your idea isn't a good fit, it doesn't necessarily mean you
 Once the discussion has reached a consensus on the form of a feature, you can create a new [feature request issue](https://github.com/beeware/{{ project_name }}/issues/new/choose), in the {{ formal_name }} issue tracker, that summarizes the discussion, linking to the discussion for context.
 
 You don't have to implement your feature proposal yourself; you can open an issue with the details of what you're proposing. However, simply posting the issue doesn't mean it's going to be implemented for you. You'll need to wait for it to potentially get picked up by someone else interested in the same feature, whether that means another community member or the core team; however this is not guaranteed to happen. If you want the guarantee implementation, you'll need to implement it yourself, or pay someone else to implement it for you.
+
+{% block end_matter %}
+
+{% endblock %}

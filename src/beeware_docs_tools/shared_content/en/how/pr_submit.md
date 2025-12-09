@@ -243,7 +243,6 @@ Any of these options will enable you to create your new pull request.
 
 ### Pull request content
 
-TODO: finish
 A pull request title must be informative, clear, and concise. Try to keep it short if possible, but longer titles are acceptable, if needed. A good PR title should give a person without any context a reasonably solid idea of what to expect from your PR.
 
 The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others.
@@ -271,3 +270,7 @@ If you see a failure, and you're certain it's unrelated to your changes, add a c
 We have limited CI resources. It is important to understand that every time you push to the branch, CI will start. If you're going to make a large number of changes, queue them up locally, and submit them together. This will minimize the load on the CI system.
 
 The process of submitting your PR is not done until it's passing CI, or you can provide an explanation for why it's not.
+
+{% block end_matter %}
+
+{% endblock %}

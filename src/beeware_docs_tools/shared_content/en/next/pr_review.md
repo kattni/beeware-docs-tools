@@ -17,9 +17,18 @@ This quick overview outlines the steps you'll need to complete following submiss
 
 After submitting your pull request, you'll need to wait for the review process to begin. There are two sides to the review process: providing a review and receiving a review.
 
+/// admonition | Review expectations
+    type: info
+
+You should expect anyone reviewing your submissions to follow these guidelines, including from members of the core team, and you should follow them when you are reviewing submissions from others.
+
+If you feel your reviewer is straying from these expectations, you have options. If you feel comfortable raising the issue yourself on the PR, you can do so. If you don't feel comfortable, please reach out to the [BeeWare Code of Conduct Response Team](https://beeware.org/bee/coc). We will review your report, and follow up with your reviewer. The follow-up will reflect the reported action; a minor transgression may result in a discussion, whereas a major violation may result in something more serious.
+
+///
+
 ## Providing a review
 
-TODO link to the page instead. ^^
+Everyone is welcome to provide a review on any pull request. The BeeWare core team follows [these guidelines](../how/pr_review_provide.md). Anyone offering to provide a review is expected to follow the same.
 
 ## Receiving a review
 
