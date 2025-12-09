@@ -1,7 +1,7 @@
 [global]
 flavor = "mkdocs"
 include = ["**/*.md"]
-exclude = ["docs/en/content_test_bed/*_include.md", "docs/en/SUMMARY.md"]
+exclude = ["docs/en/content_test_bed/*_include.md", "docs/en/SUMMARY.md", "comment.md"]
 respect-gitignore = true
 
 # Disable rules:

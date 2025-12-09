@@ -1,5 +1,4 @@
 matrix:
-# TODO: Remove TODO from spelling_wordlist
 - name: markdown
   dictionary:
     wordlists:

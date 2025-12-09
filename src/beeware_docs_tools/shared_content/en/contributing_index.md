@@ -6,7 +6,6 @@ Yes! We have opportunities for folks at every experience level to contribute. Wh
 
 Is this your first time contributing to an open source project? We're here to help! We have [advice for first-time contributors](first_time_contributors.md) to help with getting past any initial fears and concerns.
 
-
 ## What can I do?
 
 ### [Triage an issue](what/issue_triage_process.md)
@@ -40,7 +39,6 @@ BeeWare maintains various documentation in multiple languages. If you know a lan
 ### [Use the tools](what/tools_use_process.md)
 
 Do you have an idea for an app built with Toga? Do you have an existing app that could be packaged with Briefcase? You can [use the tools](what/tools_use_process.md) and provide feedback on your experience.
-
 
 ## How do I contribute?
 
@@ -96,7 +94,6 @@ BeeWare uses Weblate for [translations](how/translate.md), which requires a few 
 
 If you run into a new problem or bug, it's helpful to [submit an issue](how/issue_submit.md).
 
-
 ## What happens next?
 
 ### [Pull request review](next/pr_review.md)
@@ -106,7 +103,6 @@ When a pull request is submitted, the next step is [the PR review](next/pr_revie
 ### [The release process](next/release.md)
 
 Merged contributions will go through [the release process](next/release.md).
-
 
 ## Style Guides
 

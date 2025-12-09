@@ -16,6 +16,7 @@ Before beginning any documentation contribution, it's important to identify whic
 As an example, consider the task of writing documentation about baking cookies.
 
 ### Tutorial
+
 A tutorial is an introduction, particularly one focused at beginners, the goal of which should be getting the reader from a clean starting point to a finished product. It requires very specific instructions, and detailed explanations that put the tutorial steps in context. You must assume nothing about the reader's experience with the tool being explained, although it's reasonable to assume some basic Python proficiency.
 
 The tutorial should contain regular checkpoints where the reader can establish that they have succeeded in doing what has been described. At each checkpoint, success criteria should be clear. Known failure cases should be clearly outlined, including explanations of any likely errors or problems the reader might experience. Things that change as a result of actions the reader has taken should be pointed out, even if seemingly obvious. Repetition is encouraged, especially if you're trying to establish a best practice or common processes. Explanations of internals should be avoided, as should alternative paths to the same outcome.

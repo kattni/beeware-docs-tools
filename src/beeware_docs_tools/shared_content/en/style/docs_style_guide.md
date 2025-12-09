@@ -40,7 +40,7 @@ MkDocs reference links are any links formatted as follows:
 
 /// danger | Custom header and content anchors are required
 
-Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation *must* have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated.
+Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated.
 
 ///
 
