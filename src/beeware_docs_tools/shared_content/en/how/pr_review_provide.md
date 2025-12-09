@@ -1,14 +1,4 @@
-TODO: Intro.
-
-TODO: NO JINJA
-
-/// info | Review expectations
-
-You should expect the following from anyone reviewing your submissions, including from members of the core team, and you should engage in the following when you are reviewing submissions from others.
-
-///
-
-TODO: segue.
+Everyone is welcome to review any contribution to the BeeWare project. There are some important considerations to be aware of before getting started.
 
 Before engaging in a review, THINK. As reviewers, we should consider whether the response we're about to send is:
 
@@ -18,8 +8,8 @@ Before engaging in a review, THINK. As reviewers, we should consider whether the
 * Necessary. The expectation is that the author will read everything we post; we must respect their time and effort by only posting when necessary.
 * Kind. There are multiple ways to present the same feedback; we need to ensure we are choosing to be kind, supportive, and constructive with our words.
 
-TODO: segue.
-
 It is entirely possible to THINK, while also providing an effective review. The concepts discussed above to not preclude pointing out any issues you find with a PR. Contributors won't have the opportunity to improve if they are unaware of areas needing improvement. The important thing is to remain aware of *how* you are presenting this feedback.
 
 It's important to remember to provide positive feedback in addition to identifying the areas needing improvement. If, for example, the changes are especially helpful, do something particularly clever, or you are introduced to an API that you didn't know about, let the author know! Never underestimate the effect of pointing out something someone has done correctly or well, in the middle of a situation where everything else you've pointed out are issues that need to be resolved.
+
+the github user interface has the suggestion optikon on smaller pieces of code, keep in mind the suggestioons tha tyou make won't run through pre-commit etc, so the larger the change is, the more difficult it is to do through this mechanism

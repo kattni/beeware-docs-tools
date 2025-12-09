@@ -19,7 +19,7 @@ After submitting your pull request, you'll need to wait for the review process t
 
 ## Providing a review
 
--8<- "what/pr_review_provide_process.md"
+TODO link to the page instead. ^^
 
 ## Receiving a review
 
@@ -49,7 +49,8 @@ Most of the time, your reviewer is going to request changes on your pull request
 
 Your reviewer will post comments to your PR. These comments can be general, on a specific file, or on a specific line or lines of code. They will sometimes include directly suggested changes that you can apply to your PR through the GitHub UI. Typically, they will be questions, requests for clarification, or guidance on updates.
 
-/// info | Marking a conversation as resolved
+/// admonition | Marking a conversation as resolved
+    type: info
 
 During the discussion part of the feedback process, you should never mark a conversation started by your reviewer as "resolved". Marking the conversation as resolved is the responsibility of the reviewer. It's up to them to determine whether the identified problem has been solved.
 

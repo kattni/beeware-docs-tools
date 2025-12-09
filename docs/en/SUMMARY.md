@@ -13,7 +13,7 @@
             - What can I do?
                 - [Triage an issue](content_test_bed/how-to/contribute/what/issue_triage_process.md)
                 - [Fix an issue](content_test_bed/how-to/contribute/what/issue_fix_process.md)
-                - [Review a pull request](content_test_bed/how-to/contribute/what/pr_review_provide_process.md)
+                - [Review a pull request](content_test_bed/how-to/contribute/what/pr_review_process.md)
                 - [Propose a new feature](content_test_bed/how-to/contribute/what/feature_proposal_process.md)
                 - [Implement a new feature](content_test_bed/how-to/contribute/what/feature_implement_process.md)
                 - [Write documentation](content_test_bed/how-to/contribute/what/docs_process.md)
@@ -29,12 +29,13 @@
                 - [Writing documentation](content_test_bed/how-to/contribute/how/docs_contribute.md)
                 - [Submitting a pull request](content_test_bed/how-to/contribute/how/pr_submit.md)
                 - [Adding a change note](content_test_bed/how-to/contribute/how/pr_change_note.md)
+                - [Providing a review](content_test_bed/how-to/contribute/how/pr_review_provide.md)
                 - [Submitting a new issue](content_test_bed/how-to/contribute/how/issue_submit.md)
                 - [Proposing a new feature](content_test_bed/how-to/contribute/how/feature_proposal.md)
                 - [Translating content](content_test_bed/how-to/contribute/how/translate.md)
             - What happens next?
                 - [Pull request review process](content_test_bed/how-to/contribute/next/pr_review.md)
-                - [Release process](content_test_bed/how-to/contribute/next/release_process.md)
+                - [Release process](content_test_bed/how-to/contribute/next/release.md)
             - Style guides
                 - [Code style guide](content_test_bed/how-to/contribute/style/code_style_guide.md)
                 - [Documentation style guide](content_test_bed/how-to/contribute/style/docs_style_guide.md)

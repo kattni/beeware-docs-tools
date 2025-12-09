@@ -11,8 +11,6 @@ Even if you can't fix the problem, reporting anything you discover as a comment 
 {% macro content(template) %}{% include template %}{% endmacro %}
 {% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
 
-TODO: blurb.
-
 ??? abstract "Set up a development environment"
 
     {{ indented("how/dev_environment.md") }}
