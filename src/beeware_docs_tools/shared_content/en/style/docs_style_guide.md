@@ -10,11 +10,9 @@ This guide includes information on expected style, MkDocs-specific syntax, vario
 
 ## Cross-referencing information
 
-You are regularly going to have good reason to reference other existing information in the documentation. This section covers the various ways you can do that, each of which are based on the type of information being referenced.
+You should cross-reference content in documentation whenever possible. This section covers the various ways you can do that, each of which are based on the type of information being referenced.
 
-MkDocs renders standard Markdown formatted links.
-
-Standard Markdown formatted web hyperlinks are as follows:
+MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:
 
 ```markdown
 [Link text](https://example.com/)
@@ -150,7 +148,7 @@ You can specify the language for the code contained within the codeblock by incl
 
 ### Console commands and the copy button
 
-If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on what operating system you are referencing, you can include the prompt, and only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:
+If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on whether you're describing a Unix-like (including macOS) operating system, or Windows. You can include the prompt provided by the operating system; only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:
 
 ```console
 $ mkdir test
@@ -290,7 +288,7 @@ Content below.
 
 ### Image formatting
 
-Images can have the width set, and can be aligned left, right, and center (with a caveat on "center").
+Images can have the width set, and can be aligned left, right, and center (with a caveat on "center"). Images should always include meaningful alt text for accessibility purposes.
 
 Setting the width of <nospell>300px</nospell> on an image would be formatted as follows:
 
@@ -309,7 +307,7 @@ Adding a caption to an image requires a newline before and after, and is formatt
 ```markdown
 Content above.
 
-![Alt text](/path/to/image.png)
+![Image alt text](/path/to/image.png)
 
 /// caption
 

@@ -12,4 +12,4 @@ It is entirely possible to THINK, while also providing an effective review. The 
 
 It's important to remember to provide positive feedback in addition to identifying the areas needing improvement. If, for example, the changes are especially helpful, do something particularly clever, or you are introduced to an API that you didn't know about, let the author know! Never underestimate the effect of pointing out something someone has done correctly or well, in the middle of a situation where everything else you've pointed out are issues that need to be resolved.
 
-the github user interface has the suggestion optikon on smaller pieces of code, keep in mind the suggestioons tha tyou make won't run through pre-commit etc, so the larger the change is, the more difficult it is to do through this mechanism
+The GitHub user interface has the suggestion optikon on smaller pieces of code, keep in mind the suggestions that you make won't run through pre-commit etc, so the larger the change is, the more difficult it is to do through this mechanism

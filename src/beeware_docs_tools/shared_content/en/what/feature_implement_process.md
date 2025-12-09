@@ -1,8 +1,8 @@
-With the proposal process concluded, if you have a complete design, it's time to start writing.
+Once the [proposal process](feature_proposal_process.md) has concluded, you should have a complete design for a new feature. That means it's time to start writing!
 
 {% if not config.extra.macos_only %}
 
-You are not responsible for implementing your feature for all platforms, however, the design process should validate that it will run on other platforms. Further, you will need to stub it out for all platforms. Essentially, there needs to exist an implementation for at least one platform, but that likely means there will need to be some kind of implementation for all other platforms, which can be as simple as `raise NotImplemented` or logging that the behavior doesn't work.
+If your feature requires a platform-specific implementation, the proposal process should have validated that the idea *could* be implemented on all platforms. However, as the person implementing a new feature for the first time, you are not responsible for implementing the new feature for all platforms. You need to provide a complete implementation for *at least* one platform, including tests. For any other platforms, you will need to provide a "stub" implementation - an implementation that provides the bare interface definition, but raises a `NotImplementedError` or outputs a log message that the behavior isn't implemented on that platform.
 
 {% endif %}
 
