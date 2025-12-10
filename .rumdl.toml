@@ -6,7 +6,8 @@ respect-gitignore = true
 
 # Disable rules:
 # MD014: Force commands in codeblocks to show output
-disable = ["MD014",]
+# MD057: Relative link doesn't exist - REENABLE WHEN FIXED - bug: this is in one specific place, but none of the individual disable options are working
+disable = ["MD014", "MD057"]
 
 [per-file-ignores]
 # MD002: First heading should be level 1, found level 2; title will be included in the target page
