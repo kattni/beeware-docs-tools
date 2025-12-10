@@ -240,7 +240,7 @@ Any of these options will enable you to create your new pull request.
 /// admonition | The GitHub CLI: `gh`
     type: info
 
-GitHub provides the [GitHub CLI](https://cli.github.com/), which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [GitHub CLI documention](https://cli.github.com/manual/) covers all the features.
+GitHub provides the [GitHub CLI](https://cli.github.com/), which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [GitHub CLI documentation](https://cli.github.com/manual/) covers all the features.
 
 ///
 
