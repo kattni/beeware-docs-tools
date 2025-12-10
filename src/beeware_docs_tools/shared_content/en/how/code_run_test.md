@@ -1,5 +1,3 @@
-### Write your code
-
 You'll need to write the code necessary for triaging or fixing a bug, or for a feature implementation.
 
 We have a [code style guide](../style/code_style_guide.md) that outlines our guidelines for writing code for BeeWare.

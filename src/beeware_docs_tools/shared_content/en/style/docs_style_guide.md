@@ -197,7 +197,7 @@ Note admonitions require the same formatting and newlines:
 ```markdown
 Content above.
 
-/// note | Note
+/// note | Note title
 
 Note text here.
 
@@ -206,7 +206,22 @@ Note text here.
 Content below.
 ```
 
-This format also works for danger, tip, and warning admonition types.
+When applying any of the other [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types), you add a `type` directive below the title line, formatted as follows:
+
+```markdown
+Content above.
+
+/// admonition | Info title
+    type: info
+
+Info text here.
+
+///
+
+Content below.
+```
+
+Supported types include: abstract, info, tip, success, question, warning, failure, danger, bug, example, and quote.
 
 ### Tabbed content
 
@@ -255,6 +270,22 @@ Admonition text.
 
 Content below.
 ```
+
+### Collapsed content
+
+Collapsed content is formatted as follows, including newlines, with content tabbed in as shown:
+
+```markdown
+Content above.
+
+??? note "Collapsed content title"
+
+    Collapsed content.
+
+Content below.
+```
+
+All [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types) are available for use with collapsed content.
 
 ### Jinja directives
 
