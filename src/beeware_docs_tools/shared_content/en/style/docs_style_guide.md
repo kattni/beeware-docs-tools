@@ -275,6 +275,7 @@ Content below.
 
 Collapsed content is formatted as follows, including newlines, with content tabbed in as shown:
 
+<!-- rumdl-disable MD031 -->
 ```markdown
 Content above.
 
@@ -284,6 +285,7 @@ Content above.
 
 Content below.
 ```
+<!-- rumdl-enable MD031 -->
 
 All [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types) are available for use with collapsed content.
 
