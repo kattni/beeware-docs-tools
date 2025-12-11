@@ -11,12 +11,12 @@
             - [Contributing](content_test_bed/how-to/contribute/index.md)
             - [First-time contributors](content_test_bed/how-to/contribute/first_time_contributors.md)
             - What can I do?
-                - [Triage an issue](content_test_bed/how-to/contribute/what/triage.md)
-                - [Review a pull request](content_test_bed/how-to/contribute/what/review_pr.md)
-                - [Propose a new feature](content_test_bed/how-to/contribute/what/propose_feature.md)
                 - [Fix an issue](content_test_bed/how-to/contribute/what/fix_issue.md)
                 - [Implement a new feature](content_test_bed/how-to/contribute/what/implement_feature.md)
                 - [Write documentation](content_test_bed/how-to/contribute/what/write_docs.md)
+                - [Triage an issue](content_test_bed/how-to/contribute/what/triage.md)
+                - [Review a pull request](content_test_bed/how-to/contribute/what/review_pr.md)
+                - [Propose a new feature](content_test_bed/how-to/contribute/what/propose_feature.md)
                 - [Translate content](content_test_bed/how-to/contribute/what/translate.md)
                 - [Use the tools](content_test_bed/how-to/contribute/what/use_tools.md)
             - How do I contribute?

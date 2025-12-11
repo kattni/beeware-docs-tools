@@ -8,9 +8,21 @@ Is this your first time contributing to an open source project? We're here to he
 
 ## What can I do?
 
+### [Fix an issue](what/fix_issue.md)
+
+The most obvious contribution you can make is to [write code to fix a known issue](what/fix_issue.md).
+
+### [Implement a new feature](what/implement_feature.md)
+
+Is {{ formal_name }} missing a feature that you'd like to see? You can [implement a new feature](what/implement_feature.md).
+
+### [Write documentation](what/write_docs.md)
+
+No feature is complete until it's well documented. [Writing documentation](what/write_docs.md) is a way to contribute that doesn't involve writing code.
+
 ### [Triage an issue](what/triage.md)
 
-If an issue has no comments from anyone other than the original reporter, it needs to be triaged. [Triaging an issue](what/triage.md) involves taking the information provided by the reporter, and trying to reproduce it.
+Every time someone reports a new issue, that issue needs to be triaged. [Triaging an issue](what/triage.md) involves taking the information provided by the reporter, and trying to reproduce the problem they describe.
 
 ### [Review a pull request](what/review_pr.md)
 
@@ -19,18 +31,6 @@ Once a pull request is submitted, it needs to be reviewed before it can be merge
 ### [Suggest a new feature](what/propose_feature.md)
 
 Do you have a suggestion or idea for a new addition to one of the BeeWare tools? You can [propose a new feature](what/propose_feature.md) for consideration.
-
-### [Fix an issue](what/fix_issue.md)
-
-Once the source of an issue is identified, the next step is to resolve it. You'll need to work through the process of [fixing an issue](what/fix_issue.md).
-
-### [Implement a new feature](what/implement_feature.md)
-
-Do you have a design in mind for your proposed feature, or have you found an existing feature issue that interests you? You can [implement a new feature](what/implement_feature.md).
-
-### [Write documentation](what/write_docs.md)
-
-No feature is complete until it's well documented. [Writing documentation](what/write_docs.md) is a way to contribute that doesn't necessarily involve writing code.
 
 ### [Translate content](what/translate.md)
 
@@ -68,7 +68,7 @@ To update or contribute code, you'll need to [write, run, and test your code](ho
 
 ### [Build documentation](how/build_docs.md)
 
-To update or contribute documentation, you'll need to [build the docs](how/build_docs.md).
+To update or contribute to documentation, you'll need to be able to [build the docs](how/build_docs.md).
 
 ### [Write documentation](how/write_docs.md)
 
@@ -84,7 +84,7 @@ Once your changes are ready, you'll [submit a pull request](how/submit_pr.md) fo
 
 ### [Provide a review](how/review_pr.md)
 
-If you're comfortable, you can [provide a review](how/review_pr.md).
+If you're comfortable, you can [provide a review of someone else's contribution](how/review_pr.md).
 
 ### [Translate content](how/translate.md)
 
