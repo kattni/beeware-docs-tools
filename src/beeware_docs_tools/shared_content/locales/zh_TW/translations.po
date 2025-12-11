@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 05:58+0000\n"
+"POT-Creation-Date: 2025-12-11 07:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2731,8 +2731,8 @@ msgstr "這是您第一次參與開放原始碼專案嗎？我們可以幫到您
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:9
 #, fuzzy
-msgid "What can I do?"
-msgstr "我能做些什麼？"
+msgid "What can I do? { #what-can-i-do }"
+msgstr "我能做什麼？{ #what-can-i-do }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:11
 #, fuzzy
@@ -4955,6 +4955,10 @@ msgstr "摘要 「建立文件」"
 #, fuzzy
 msgid "??? abstract \"Writing documentation\""
 msgstr "摘要 「撰寫文件」"
+
+#, fuzzy
+#~ msgid "What can I do?"
+#~ msgstr "我能做些什麼？"
 
 #, fuzzy
 #~ msgid "BeeWare documentation style guide"

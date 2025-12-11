@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 05:58+0000\n"
+"POT-Creation-Date: 2025-12-11 07:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3342,8 +3342,8 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:9
 #, fuzzy
-msgid "What can I do?"
-msgstr "¿Qué puedo hacer?"
+msgid "What can I do? { #what-can-i-do }"
+msgstr "¿Qué puedo hacer? { #qué-puedo-hacer }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:11
 #, fuzzy
@@ -6086,6 +6086,10 @@ msgstr "Resumen \"Construir documentación\""
 #, fuzzy
 msgid "??? abstract \"Writing documentation\""
 msgstr "Resumen \"Escribir documentación\""
+
+#, fuzzy
+#~ msgid "What can I do?"
+#~ msgstr "¿Qué puedo hacer?"
 
 #, fuzzy
 #~ msgid "BeeWare documentation style guide"
