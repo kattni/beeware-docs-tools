@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-08 02:14+0000\n"
+"POT-Creation-Date: 2025-12-11 05:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,8 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.17.4\n"
 
-#: docs/en/SUMMARY.md:1
-#: docs/en/section_one/index.md:1
+#: docs/en/SUMMARY.md:1 docs/en/section_one/index.md:1
 #, fuzzy
 msgid "BeeWare Docs Tools Demo section one"
 msgstr "BeeWare Docs Tools Demo Abschnitt eins"
@@ -42,8 +42,7 @@ msgstr "[Abschnitt drei]{1}"
 msgid "./section_three/*"
 msgstr "./section_three/*"
 
-#: docs/en/SUMMARY.md:7
-#: docs/en/content_test_bed/index.md:1
+#: docs/en/SUMMARY.md:7 docs/en/content_test_bed/index.md:1
 #, fuzzy
 msgid "Shared content test bed"
 msgstr "Prüfstand für gemeinsam genutzte Inhalte"
@@ -55,8 +54,591 @@ msgstr "[Prüfstand für gemeinsam genutzte Inhalte]{1}"
 
 #: docs/en/SUMMARY.md:7
 #, fuzzy
-msgid "[Style guide]{1}"
-msgstr "[Style guide]{1}"
+msgid "How-to guides"
+msgstr "Anleitungen"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Contribute"
+msgstr "Beitragen"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Contributing]{1}"
+msgstr "[Mitwirkend]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[First-time contributors]{1}"
+msgstr "[Erstmalige Beitragszahler]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What can I do?"
+msgstr "Was kann ich tun?"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Fix an issue]{1}"
+msgstr "[Ein Problem beheben]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Implement a new feature]{1}"
+msgstr "[Implementierung einer neuen Funktion]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Write documentation]{1}"
+msgstr "[Write documentation]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Triage an issue]{1}"
+msgstr "[Triage eines Problems]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Review a pull request]{1}"
+msgstr "[Eine Pull-Anfrage überprüfen]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Propose a new feature]{1}"
+msgstr "[Vorschlag für ein neues Merkmal]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translate content]{1}"
+msgstr "[Inhalt übersetzen]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Use the tools]{1}"
+msgstr "[Benutze die Werkzeuge]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "How do I contribute?"
+msgstr "Wie kann ich einen Beitrag leisten?"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Setting up a development environment]{1}"
+msgstr "[Einrichten einer Entwicklungsumgebung]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Reproducing an issue]{1}"
+msgstr "[Reproduzieren einer Ausgabe]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Working from a branch]{1}"
+msgstr "[Von einer Verzweigung aus arbeiten]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Avoiding scope creep]{1}"
+msgstr "[Vermeidung der schleichenden Ausweitung des Geltungsbereichs]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing, running, and testing code]{1}"
+msgstr "[Schreiben, Ausführen und Testen von Code]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Building documentation]{1}"
+msgstr "[Gebäudedokumentation]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing documentation]{1}"
+msgstr "[Dokumentation schreiben]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Adding a change note]{1}"
+msgstr "[Hinzufügen einer Änderungsnotiz]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a pull request]{1}"
+msgstr "[Einen Pull-Request einreichen]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Providing a review]{1}"
+msgstr "[Bereitstellung einer Rezension]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a new issue]{1}"
+msgstr "[Einreichung einer neuen Ausgabe]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Proposing a new feature]{1}"
+msgstr "[Vorschlag für ein neues Merkmal]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translating content]{1}"
+msgstr "[Inhalt übersetzen]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What happens next?"
+msgstr "Wie geht es weiter?"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Pull request review process]{1}"
+msgstr "[Pull-Request-Überprüfungsprozess]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Release process]{1}"
+msgstr "[Freigabeprozess]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Style guides"
+msgstr "Style Guides"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Code style guide]{1}"
+msgstr "[Guide Style Code]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Documentation style guide]{1}"
+msgstr "[Documentation style guide]{1}"
+
+#: docs/en/about/releases.md:1
+#, fuzzy
+msgid "Place-holder file"
+msgstr "Platzhalter-Datei"
+
+#: docs/en/about/releases.md:3
+#, fuzzy
+msgid ""
+"This file is included purely to satisfy the link in the "
+"`code_contribution_base.md` file. It is excluded from nav."
+msgstr ""
+"Diese Datei ist nur enthalten, um den Link in der Datei "
+"`code_contribution_base.md` zu erfüllen. Sie ist von nav ausgeschlossen."
+
+#: docs/en/content_test_bed/how-to/contribute/first_time_contributors.md:1
+#, fuzzy
+msgid "First-time contributors"
+msgstr "Erstmalige Beitragszahler"
+
+#: docs/en/content_test_bed/how-to/contribute/first_time_contributors.md:3
+#, fuzzy
+msgid "{% extends \"contribute/first_time_contributors.md\" %}"
+msgstr "{% extends \"contribute/first_time_contributors.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:1
+#, fuzzy
+msgid "Work from a feature branch, not your `main` branch"
+msgstr ""
+"Arbeiten Sie von einem Funktionszweig aus, nicht von Ihrem \"Hauptzweig\"."
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/branches.md\" %}"
+msgstr "{% erweitert \"beitrag/how/zweige.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:1
+#, fuzzy
+msgid "Building documentation"
+msgstr "Bauunterlagen"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/build_docs.md\" %}"
+msgstr "{% erweitert \"contribute/how/build_docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:5
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:5
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:5
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:5
+#, fuzzy
+msgid "{% block front_matter %}"
+msgstr "{% block front_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:7
+#, fuzzy
+msgid ""
+"Before you build the documentation, and have a [development environment]{1} "
+"set up."
+msgstr ""
+"Bevor Sie die Dokumentation erstellen, müssen Sie eine "
+"[Entwicklungsumgebung]{1} einrichten."
+
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:9
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:15
+#: docs/en/content_test_bed/how-to/contribute/how/propose_feature.md:9
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:9
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:15
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:17
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:9
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:15
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:9
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:15
+#, fuzzy
+msgid "{% endblock %}"
+msgstr "{% endblock %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:11
+#: docs/en/content_test_bed/how-to/contribute/how/propose_feature.md:5
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:11
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:5
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:11
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:11
+#, fuzzy
+msgid "{% block end_matter %}"
+msgstr "{% block end_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:13
+#, fuzzy
+msgid ""
+"Once you have successfully built the docs, you are ready to [write "
+"documentation]{1}."
+msgstr ""
+"Sobald Sie die Dokumente erfolgreich erstellt haben, können Sie "
+"[Dokumentation schreiben]{1}."
+
+#: docs/en/content_test_bed/how-to/contribute/how/change_note.md:1
+#, fuzzy
+msgid "Adding change information for release notes"
+msgstr "Hinzufügen von Änderungsinformationen für Versionshinweise"
+
+#: docs/en/content_test_bed/how-to/contribute/how/change_note.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/change_note.md\" %}"
+msgstr "{% extends \"contribute/how/change_note.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev_environment.md:1
+#, fuzzy
+msgid "Setting up a development environment"
+msgstr "Einrichten einer Entwicklungsumgebung"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev_environment.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/dev_environment.md\" %}"
+msgstr "{% erweitert \"contribute/how/dev_environment.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new_issue.md:1
+#, fuzzy
+msgid "Submitting a new issue"
+msgstr "Einreichen einer neuen Ausgabe"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new_issue.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/new_issue.md\" %}"
+msgstr "{% extends \"contribute/how/new_issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose_feature.md:1
+#: docs/en/content_test_bed/how-to/contribute/what/propose_feature.md:1
+#, fuzzy
+msgid "Proposing a new feature"
+msgstr "Vorschlag für eine neue Funktion"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose_feature.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/propose_feature.md\" %}"
+msgstr "{% erweitert \"beitrag/how/propose_feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose_feature.md:7
+#, fuzzy
+msgid ""
+"If you are interested, you can begin [implementing your new feature]{1}."
+msgstr ""
+"Wenn Sie Interesse haben, können Sie mit der [Implementierung Ihrer neuen "
+"Funktion]{1} beginnen."
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:1
+#, fuzzy
+msgid "Reproducing an issue"
+msgstr "Reproduzieren eines Problems"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/reproduce_issue.md\" %}"
+msgstr "{% extends \"contribute/how/reproduce_issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:7
+#, fuzzy
+msgid ""
+"To begin reproducing an issue, you will need a [development environment]{1} "
+"set up."
+msgstr ""
+"Um ein Problem zu reproduzieren, müssen Sie eine [Entwicklungsumgebung]{1} "
+"einrichten."
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:13
+#, fuzzy
+msgid ""
+"At this point, you might choose to try to [fix the issue]{1} you've just "
+"reproduced; alternatively, you can write up your findings and try to "
+"reproduce another issue."
+msgstr ""
+"An dieser Stelle können Sie versuchen, das soeben reproduzierte Problem zu "
+"[beheben]{1}; alternativ können Sie Ihre Ergebnisse aufschreiben und "
+"versuchen, ein anderes Problem zu reproduzieren."
+
+#: docs/en/content_test_bed/how-to/contribute/how/review_pr.md:1
+#: docs/en/content_test_bed/how-to/contribute/what/review_pr.md:1
+#, fuzzy
+msgid "Providing a pull request review"
+msgstr "Überprüfung von Pull-Anfragen bereitstellen"
+
+#: docs/en/content_test_bed/how-to/contribute/how/review_pr.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/review_pr.md\" %}"
+msgstr "{% extends \"contribute/how/review_pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope_creep.md:1
+#, fuzzy
+msgid "Avoiding scope creep"
+msgstr "Vermeidung der schleichenden Ausweitung des Umfangs"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope_creep.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/scope_creep.md\" %}"
+msgstr "{% extends \"contribute/how/scope_creep.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:1
+#, fuzzy
+msgid "Submitting a pull request"
+msgstr "Einreichen einer Pull-Anfrage"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/submit_pr.md\" %}"
+msgstr "{% extends \"contribute/how/submit_pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:7
+#, fuzzy
+msgid "{% if config.extra.website %}"
+msgstr "{% if config.extra.website %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:9
+#, fuzzy
+msgid ""
+"Your pull request may require additional content, such as a [change "
+"note]{1}, before it can be [reviewed]{2}."
+msgstr ""
+"Ihre Pull-Anfrage benötigt möglicherweise zusätzlichen Inhalt, wie z.B. eine"
+" [Änderungsnotiz]{1}, bevor sie [geprüft]{2} werden kann."
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:11
+#, fuzzy
+msgid "{% else %}"
+msgstr "{% else %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:13
+#, fuzzy
+msgid ""
+"As part of submitting a pull request, you'll need to include a [change "
+"note]{1} before it can be [the reviewed]{2}."
+msgstr ""
+"Wenn Sie eine Pull-Anfrage einreichen, müssen Sie eine [Änderungsnotiz]{1} "
+"beifügen, bevor sie [geprüft]{2} werden kann."
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:15
+#: docs/en/index.md:102 docs/en/index.md:112 docs/en/index.md:122
+#, fuzzy
+msgid "{% endif %}"
+msgstr "{% endif %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:1
+#: docs/en/content_test_bed/how-to/contribute/what/translate.md:1
+#, fuzzy
+msgid "Translating content"
+msgstr "Inhalte übersetzen"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/translate.md\" %}"
+msgstr "{% erweitert \"beitrag/how/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:1
+#, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "Schreiben, Ausführen und Testen von Code"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/write_code.md\" %}"
+msgstr "{% erweitert \"beitrag/how/write_code.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:7
+#, fuzzy
+msgid ""
+"To begin working on code, ensure you have a [development environment]{1} set"
+" up, and you are [working on a branch]{2}"
+msgstr ""
+"Um mit der Arbeit am Code zu beginnen, stellen Sie sicher, dass Sie eine "
+"[Entwicklungsumgebung]{1} eingerichtet haben und Sie [an einer "
+"Verzweigung]{2} arbeiten."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_code.md:13
+#, fuzzy
+msgid ""
+"Once you have everything working, you can [submit a pull request]{1} with "
+"your changes."
+msgstr ""
+"Sobald Sie alles zum Laufen gebracht haben, können Sie [einen Pull-Request "
+"einreichen]{1} mit Ihren Änderungen."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:1
+#, fuzzy
+msgid "Writing documentation"
+msgstr "Dokumentation schreiben"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:3
+#, fuzzy
+msgid "{% extends \"contribute/how/write_docs.md\" %}"
+msgstr "{% extends \"contribute/how/write_docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:7
+#, fuzzy
+msgid ""
+"Before you begin writing documentation, ensure you are able to [build the "
+"documentation]{1}, and you are [working on a branch]{2}."
+msgstr ""
+"Bevor Sie mit dem Schreiben der Dokumentation beginnen, stellen Sie sicher, "
+"dass Sie in der Lage sind, [die Dokumentation zu erstellen]{1}, und dass Sie"
+" [auf einem Zweig arbeiten]{2}."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:13
+#, fuzzy
+msgid ""
+"Once you are happy with your new documentation, you can [submit a pull "
+"request]{1} with your proposed changes."
+msgstr ""
+"Sobald Sie mit Ihrer neuen Dokumentation zufrieden sind, können Sie [eine "
+"Pull-Anfrage]{1} mit Ihren Änderungsvorschlägen einreichen."
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:1
+#, fuzzy
+msgid "Contributing to {{ formal_name }}"
+msgstr "Beitrag zu {{ formal_name }}"
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:3
+#, fuzzy
+msgid "{% extends \"contribute/index.md\" %}"
+msgstr "{% erweitert \"beitrag/index.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr_review.md:1
+#, fuzzy
+msgid "Receiving a pull request review"
+msgstr "Überprüfung einer Pull-Anfrage erhalten"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr_review.md:3
+#, fuzzy
+msgid "{% extends \"contribute/next/pr_review.md\" %}"
+msgstr "{% extends \"contribute/next/pr_review.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:1
+#, fuzzy
+msgid "The release process"
+msgstr "Der Freigabeprozess"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:3
+#, fuzzy
+msgid "{% extends \"contribute/next/release.md\" %}"
+msgstr "{% extends \"contribute/next/release.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code_style_guide.md:1
+#, fuzzy
+msgid "Code style guide"
+msgstr "Code style guide"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code_style_guide.md:3
+#, fuzzy
+msgid "{% extends \"contribute/style/code_style_guide.md\" %}"
+msgstr "{% erweitert \"contribute/style/code_style_guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs_style_guide.md:1
+#, fuzzy
+msgid "Documentation style guide"
+msgstr "Documentation style guide"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs_style_guide.md:3
+#, fuzzy
+msgid "{% extends \"contribute/style/docs_style_guide.md\" %}"
+msgstr "{% erweitert \"contribute/style/docs_style_guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix_issue.md:1
+#, fuzzy
+msgid "Fixing an issue"
+msgstr "Behebung eines Problems"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix_issue.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/fix_issue.md\" %}"
+msgstr "{% erweitert \"contribute/what/fix_issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement_feature.md:1
+#, fuzzy
+msgid "Implementing a new feature"
+msgstr "Implementierung einer neuen Funktion"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement_feature.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/implement_feature.md\" %}"
+msgstr "{% extends \"contribute/what/implement_feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/propose_feature.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/propose_feature.md\" %}"
+msgstr "{% extends \"contribute/what/propose_feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/review_pr.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/review_pr.md\" %}"
+msgstr "{% extends \"contribute/what/review_pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/translate.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/translate.md\" %}"
+msgstr "{% extends \"contribute/what/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:1
+#, fuzzy
+msgid "Triaging an issue"
+msgstr "Behandlung eines Problems"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/triage.md\" %}"
+msgstr "{% extends \"contribute/what/triage.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use_tools.md:1
+#, fuzzy
+msgid "Using the tools"
+msgstr "Verwendung der Werkzeuge"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use_tools.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/use_tools.md\" %}"
+msgstr "{% extends \"contribute/what/use_tools.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write_docs.md:1
+#, fuzzy
+msgid "Adding documentation"
+msgstr "Hinzufügen von Dokumentation"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write_docs.md:3
+#, fuzzy
+msgid "{% extends \"contribute/what/write_docs.md\" %}"
+msgstr "{% extends \"contribute/what/write_docs.md\" %}"
 
 #: docs/en/content_test_bed/index.md:3
 #, fuzzy
@@ -71,8 +653,8 @@ msgstr ""
 "Dieser Abschnitt dient dazu, die von diesem Repository bereitgestellten "
 "gemeinsamen Inhalte für die Verwendung in der übrigen BeeWare-Dokumentation "
 "zu überprüfen. \"Gemeinsame Inhalte\" beziehen sich auf Dokumente oder "
-"Abschnitte von Dokumenten, die in mehreren anderen Repos vorhanden sind. Sie "
-"werden hier gespeichert, um in diese Repos aufgenommen zu werden. Das "
+"Abschnitte von Dokumenten, die in mehreren anderen Repos vorhanden sind. Sie"
+" werden hier gespeichert, um in diese Repos aufgenommen zu werden. Das "
 "bedeutet, dass es eine einzige Quelle gibt, wenn Aktualisierungen "
 "erforderlich sind, und dass diese Änderungen in alle Repos übernommen "
 "werden, die diese gemeinsamen Inhalte verwenden."
@@ -80,21 +662,23 @@ msgstr ""
 #: docs/en/content_test_bed/index.md:5
 #, fuzzy
 msgid ""
-"If you are updating existing content, the following steps are not necessary. "
-"You can simply build the test site, and see your updates rendered."
+"If you are updating existing content, the following steps are not necessary."
+" You can simply build the test site, and see your updates rendered."
 msgstr ""
-"Wenn Sie bestehende Inhalte aktualisieren, sind die folgenden Schritte nicht "
-"erforderlich. Sie können einfach die Test-Site erstellen und sehen, wie Ihre "
-"Aktualisierungen gerendert werden."
+"Wenn Sie bestehende Inhalte aktualisieren, sind die folgenden Schritte nicht"
+" erforderlich. Sie können einfach die Test-Site erstellen und sehen, wie "
+"Ihre Aktualisierungen gerendert werden."
 
 #: docs/en/content_test_bed/index.md:7
 #, fuzzy
 msgid ""
 "If you are creating a new shared documentation file in the `shared-content` "
-"directory, complete the following:"
+"directory, that is NOT meant to be included in the `how-to` directory, "
+"complete the following:"
 msgstr ""
 "Wenn Sie eine neue gemeinsame Dokumentationsdatei im Verzeichnis `shared-"
-"content` erstellen, gehen Sie wie folgt vor:"
+"content` erstellen, die NICHT in das Verzeichnis `how-to` aufgenommen werden"
+" soll, gehen Sie wie folgt vor:"
 
 #: docs/en/content_test_bed/index.md:9
 #, fuzzy
@@ -136,18 +720,19 @@ msgid ""
 "include the new `_include` file and path, at the same indentation level as "
 "the other items in that section."
 msgstr ""
-"Aktualisieren Sie den Abschnitt `Shared content test bed` in `/docs/"
-"SUMMARY.md`, um die neue `_include` Datei und den Pfad auf der gleichen "
-"Einrückungsebene wie die anderen Elemente in diesem Abschnitt aufzunehmen."
+"Aktualisieren Sie den Abschnitt `Shared content test bed` in "
+"`/docs/SUMMARY.md`, um die neue `_include` Datei und den Pfad auf der "
+"gleichen Einrückungsebene wie die anderen Elemente in diesem Abschnitt "
+"aufzunehmen."
 
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
 msgid ""
-"For `style_guide_include.md`, you would add `- [Style guide]"
-"(content_test_bed/style_guide_include.md)`."
+"For `style_guide_include.md`, you would add `- [Style "
+"guide](content_test_bed/style_guide_include.md)`."
 msgstr ""
-"Für `style_guide_include.md` würden Sie `- [Style guide](content_test_bed/"
-"style_guide_include.md)` hinzufügen."
+"Für `style_guide_include.md` würden Sie `- [Style "
+"guide](content_test_bed/style_guide_include.md)` hinzufügen."
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -155,13 +740,8 @@ msgid ""
 "Once these steps are completed, you can build the test site and view your "
 "new documentation rendered."
 msgstr ""
-"Sobald diese Schritte abgeschlossen sind, können Sie die Test-Site erstellen "
-"und Ihre neue Dokumentation gerendert betrachten."
-
-#: docs/en/content_test_bed/style_guide_include.md:1
-#, fuzzy
-msgid "-8<- \"style_guide.md\""
-msgstr "-8<- \"style_guide.md\""
+"Sobald diese Schritte abgeschlossen sind, können Sie die Test-Site erstellen"
+" und Ihre neue Dokumentation gerendert betrachten."
 
 #: docs/en/index.md:1
 #, fuzzy
@@ -225,8 +805,8 @@ msgstr "Symbol für die Seitenleiste der Homepage"
 msgid ""
 "The logo icon in the left sidebar has been rendered. The logo should be the "
 "width of, and of equal height to, the sidebar. The site title should be "
-"rendered below it in slightly larger font than the rest of the sidebar, with "
-"the version number below it in smaller font."
+"rendered below it in slightly larger font than the rest of the sidebar, with"
+" the version number below it in smaller font."
 msgstr ""
 "Das Logo-Symbol in der linken Seitenleiste wurde gerendert. Das Logo sollte "
 "die gleiche Breite und Höhe haben wie die Seitenleiste. Der Titel der "
@@ -303,12 +883,8 @@ msgstr ""
 msgid "/// tab | macOS"
 msgstr "/// tab | macOS"
 
-#: docs/en/index.md:43
-#: docs/en/index.md:51
-#: docs/en/index.md:59
-#: docs/en/index.md:100
-#: docs/en/index.md:110
-#: docs/en/index.md:120
+#: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59
+#: docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
 msgid "///"
 msgstr "///"
 
@@ -337,13 +913,13 @@ msgstr ""
 #: docs/en/index.md:69
 #, fuzzy
 msgid ""
-"The copy button on the following codeblock should result in `ls beeware-docs-"
-"tools` being copied to the clipboard. The shell prompt and the output should "
-"not be included."
+"The copy button on the following codeblock should result in `ls beeware-"
+"docs-tools` being copied to the clipboard. The shell prompt and the output "
+"should not be included."
 msgstr ""
-"Die Kopierschaltfläche des folgenden Codeblocks sollte dazu führen, dass `ls "
-"beeware-docs-tools` in die Zwischenablage kopiert wird. Der Shell-Prompt und "
-"die Ausgabe sollten nicht enthalten sein."
+"Die Kopierschaltfläche des folgenden Codeblocks sollte dazu führen, dass `ls"
+" beeware-docs-tools` in die Zwischenablage kopiert wird. Der Shell-Prompt "
+"und die Ausgabe sollten nicht enthalten sein."
 
 #: docs/en/index.md:78
 #, fuzzy
@@ -358,10 +934,10 @@ msgid ""
 "has been set in the MkDocs configuration file, and the version number is "
 "computed and added."
 msgstr ""
-"Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-tools\"-"
-"Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste geladen wurde "
-"und der \"Projektname\" in der MkDocs-Konfigurationsdatei gesetzt wurde, und "
-"die Versionsnummer wird berechnet und hinzugefügt."
+"Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-"
+"tools\"-Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste "
+"geladen wurde und der \"Projektname\" in der MkDocs-Konfigurationsdatei "
+"gesetzt wurde, und die Versionsnummer wird berechnet und hinzugefügt."
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -391,8 +967,8 @@ msgid ""
 "When scrolling down the page, the active header link in the right sidebar "
 "should be light blue in dark mode, and darker blue in light mode."
 msgstr ""
-"Wenn Sie auf der Seite nach unten scrollen, sollte der aktive Header-Link in "
-"der rechten Seitenleiste im dunklen Modus hellblau und im hellen Modus "
+"Wenn Sie auf der Seite nach unten scrollen, sollte der aktive Header-Link in"
+" der rechten Seitenleiste im dunklen Modus hellblau und im hellen Modus "
 "dunkler blau sein."
 
 #: docs/en/index.md:90
@@ -403,14 +979,14 @@ msgstr "Übersetzung Ermahnung"
 #: docs/en/index.md:92
 #, fuzzy
 msgid ""
-"The English-language version of this document should show the \"Translations "
-"are available\" admonition below. The French translation should show the "
-"\"This is a machine translation!\" admonition. The German translation should "
-"show the \"This is a translation!\" admonition for human translations."
+"The English-language version of this document should show the \"Translations"
+" are available\" admonition below. The French translation should show the "
+"\"This is a machine translation!\" admonition. The German translation should"
+" show the \"This is a translation!\" admonition for human translations."
 msgstr ""
 "Die englischsprachige Version dieses Dokuments sollte den Hinweis "
-"\"Translations are available\" anzeigen. Die französische Übersetzung sollte "
-"den Hinweis \"Dies ist eine maschinelle Übersetzung\" enthalten. Die "
+"\"Translations are available\" anzeigen. Die französische Übersetzung sollte"
+" den Hinweis \"Dies ist eine maschinelle Übersetzung\" enthalten. Die "
 "deutsche Übersetzung sollte den Hinweis \"Dies ist eine Übersetzung\" für "
 "menschliche Übersetzungen enthalten."
 
@@ -433,13 +1009,6 @@ msgstr ""
 "Wenn Sie mit der englischen Sprache nicht zurechtkommen, sind Übersetzungen "
 "der Docs Tools in [Français]{1} und [Deutsch]{2} verfügbar."
 
-#: docs/en/index.md:102
-#: docs/en/index.md:112
-#: docs/en/index.md:122
-#, fuzzy
-msgid "{% endif %}"
-msgstr "{% endif %}"
-
 #: docs/en/index.md:104
 #, fuzzy
 msgid "{% if config.extra.translation_type == \"machine\" %}"
@@ -454,12 +1023,12 @@ msgstr "/// admonition | Dies ist eine maschinelle Übersetzung!"
 #, fuzzy
 msgid ""
 "This version of the tutorial has been generated by machine translation. We "
-"know this isn't ideal, but we felt that a bad translation was better than no "
-"translation at all."
+"know this isn't ideal, but we felt that a bad translation was better than no"
+" translation at all."
 msgstr ""
 "Diese Version des Tutorials wurde durch maschinelle Übersetzung erstellt. "
-"Wir wissen, dass dies nicht ideal ist, aber wir waren der Meinung, dass eine "
-"schlechte Übersetzung besser ist als gar keine Übersetzung."
+"Wir wissen, dass dies nicht ideal ist, aber wir waren der Meinung, dass eine"
+" schlechte Übersetzung besser ist als gar keine Übersetzung."
 
 #: docs/en/index.md:114
 #, fuzzy
@@ -478,8 +1047,8 @@ msgid ""
 "been reviewed by humans, but newer sections may be generated by machine "
 "translation, or not translated at all."
 msgstr ""
-"Dieses Dokument ist eine Übersetzung der englischen Version. Die Übersetzung "
-"wurde von Menschen überprüft, aber neuere Abschnitte können durch "
+"Dieses Dokument ist eine Übersetzung der englischen Version. Die Übersetzung"
+" wurde von Menschen überprüft, aber neuere Abschnitte können durch "
 "maschinelle Übersetzung erzeugt oder überhaupt nicht übersetzt worden sein."
 
 #: docs/en/index.md:124
@@ -491,14 +1060,14 @@ msgstr "Benutzerdefinierte 404-Seite"
 #, fuzzy
 msgid ""
 "Add `nopage` to the end of the URL in your browser to verify the 404 page "
-"exists, and includes the text \"Brutus can't find what you're looking for\". "
-"The current 404 page does not always render the images due to an issue with "
-"MkDocs."
+"exists, and includes the text \"Brutus can't find what you're looking for\"."
+" The current 404 page does not always render the images due to an issue with"
+" MkDocs."
 msgstr ""
 "Fügen Sie `nopage` am Ende der URL in Ihrem Browser ein, um zu überprüfen, "
 "ob die 404-Seite existiert und den Text \"Brutus kann nicht finden, wonach "
-"Sie suchen\" enthält. Die aktuelle 404-Seite zeigt die Bilder aufgrund eines "
-"Problems mit MkDocs nicht immer an."
+"Sie suchen\" enthält. Die aktuelle 404-Seite zeigt die Bilder aufgrund eines"
+" Problems mit MkDocs nicht immer an."
 
 #: docs/en/index.md:128
 #, fuzzy
@@ -506,9 +1075,9 @@ msgid ""
 "*MkDocs builds fail with unrecognized internal links, so you need to "
 "manually verify this check by modifying the URL in your browser.*"
 msgstr ""
-"*MkDocs-Builds schlagen bei nicht erkannten internen Links fehl, so dass Sie "
-"diese Prüfung manuell überprüfen müssen, indem Sie die URL in Ihrem Browser "
-"ändern."
+"*MkDocs-Builds schlagen bei nicht erkannten internen Links fehl, so dass Sie"
+" diese Prüfung manuell überprüfen müssen, indem Sie die URL in Ihrem Browser"
+" ändern."
 
 #: docs/en/index.md:130
 #, fuzzy
@@ -564,13 +1133,13 @@ msgstr "Externes Markdown aus einer lokalen Datei einbinden"
 #: docs/en/section_one/index.md:11
 #, fuzzy
 msgid ""
-"The following section should have only a header, and a paragraph with inline "
-"code followed by a code block. There should be no text between the code "
-"block and the next header. This verifies that the external include extension "
-"is working with local files."
+"The following section should have only a header, and a paragraph with inline"
+" code followed by a code block. There should be no text between the code "
+"block and the next header. This verifies that the external include extension"
+" is working with local files."
 msgstr ""
-"Der folgende Abschnitt sollte nur aus einer Überschrift und einem Absatz mit "
-"Inline-Code, gefolgt von einem Codeblock, bestehen. Zwischen dem Codeblock "
+"Der folgende Abschnitt sollte nur aus einer Überschrift und einem Absatz mit"
+" Inline-Code, gefolgt von einem Codeblock, bestehen. Zwischen dem Codeblock "
 "und der nächsten Überschrift sollte kein Text stehen. Damit wird "
 "sichergestellt, dass die externe Include-Erweiterung mit lokalen Dateien "
 "arbeitet."
@@ -589,28 +1158,28 @@ msgstr "Externes Markdown von einer URL einbinden"
 #, fuzzy
 msgid ""
 "The following section should have only a header, some text and a Markdown "
-"list. This verifies that the external include extension is working, and that "
-"`url_download` is enabled."
+"list. This verifies that the external include extension is working, and that"
+" `url_download` is enabled."
 msgstr ""
 "Der folgende Abschnitt sollte nur eine Überschrift, etwas Text und eine "
 "Markdown-Liste enthalten. Damit wird überprüft, ob die externe Include-"
 "Erweiterung funktioniert und ob \"url_download\" aktiviert ist."
 
-#: docs/en/section_one/index.md:19
+#: docs/en/section_one/index.md:21
 #, fuzzy
 msgid ""
-"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/"
-"main/docs/include_content.md:remote-content -8<-"
+"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-"
+"tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
 msgstr ""
-"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/"
-"main/docs/include_content.md:remote-content -8<-"
+"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-"
+"tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
 
-#: docs/en/section_one/index.md:23
+#: docs/en/section_one/index.md:27
 #, fuzzy
 msgid "Footer navigation"
 msgstr "Navigation in der Fußzeile"
 
-#: docs/en/section_one/index.md:25
+#: docs/en/section_one/index.md:29
 #, fuzzy
 msgid "Navigate to *Section One - Page Two* for the final check."
 msgstr "Navigieren Sie zu *Abschnitt Eins - Seite Zwei* für die Endkontrolle."
@@ -648,12 +1217,13 @@ msgstr "Klassenreferenzdokumentation"
 #, fuzzy
 msgid ""
 "The following should show the reference documentation for the `DocsTest` "
-"class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. "
-"This verifies that the source code directory symlinking is working properly."
+"class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory."
+" This verifies that the source code directory symlinking is working "
+"properly."
 msgstr ""
 "Das Folgende sollte die Referenzdokumentation für die Klasse `DocsTest` "
-"anzeigen, die sich in `docs_test.py` im Verzeichnis `src/beeware_docs_tools` "
-"befindet. Damit wird überprüft, ob das Symlinking des Quellcode-"
+"anzeigen, die sich in `docs_test.py` im Verzeichnis `src/beeware_docs_tools`"
+" befindet. Damit wird überprüft, ob das Symlinking des Quellcode-"
 "Verzeichnisses richtig funktioniert."
 
 #: docs/en/section_one/page_two.md:11
@@ -695,8 +1265,8 @@ msgid ""
 "the footer."
 msgstr ""
 "Dieser Abschnitt und seine untergeordneten Abschnitte sind für den Test der "
-"Bildlaufleiste enthalten. Vergewissern Sie sich, dass die Bildlaufleiste auf "
-"Displays mit geringerer Höhe navigierbar ist, dass Sie die gesamte Liste "
+"Bildlaufleiste enthalten. Vergewissern Sie sich, dass die Bildlaufleiste auf"
+" Displays mit geringerer Höhe navigierbar ist, dass Sie die gesamte Liste "
 "(Seite 01 - Seite 12) blättern können und dass sie die Fußzeile nicht "
 "überlappt."
 
@@ -749,3 +1319,19 @@ msgstr ""
 "Der hier angegebene Link sollte Sie zum Abschnitt [Überschrift-"
 "Schriftart][schriftart-der-uberschrift] auf der Hauptseite führen. Er ist "
 "enthalten, um die `autoref`-Verknüpfung zu überprüfen."
+
+#, fuzzy
+#~ msgid "[Style guide]{1}"
+#~ msgstr "[Style guide]{1}"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you are creating a new shared documentation file in the `shared-content` "
+#~ "directory, complete the following:"
+#~ msgstr ""
+#~ "Wenn Sie eine neue gemeinsame Dokumentationsdatei im Verzeichnis `shared-"
+#~ "content` erstellen, gehen Sie wie folgt vor:"
+
+#, fuzzy
+#~ msgid "-8<- \"style_guide.md\""
+#~ msgstr "-8<- \"style_guide.md\""
