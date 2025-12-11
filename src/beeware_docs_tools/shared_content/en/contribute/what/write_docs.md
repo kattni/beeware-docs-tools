@@ -74,10 +74,10 @@ A reference guide in baking might describe the types of sugar that could be used
 
     {{ indented("contribute/how/write_docs.md") }}
 
-??? abstract "Submit a pull request"
-
-    {{ indented("contribute/how/submit_pr.md") }}
-
 ??? abstract "Add a change note"
 
     {{ indented("contribute/how/change_note.md") }}
+
+??? abstract "Submit a pull request"
+
+    {{ indented("contribute/how/submit_pr.md") }}

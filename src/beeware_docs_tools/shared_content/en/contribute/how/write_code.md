@@ -1,4 +1,8 @@
-You'll need to write the code necessary for triaging or fixing a bug, or for a feature implementation.
+
+Fixing a bug or implementing a feature will require you to write some new code.
+
+{% block front_matter %}
+{% endblock %}
 
 We have a [code style guide](../style/code_style_guide.md) that outlines our guidelines for writing code for BeeWare.
 
@@ -401,5 +405,4 @@ Although we ensure that we test all of our code, the task isn't *just* about mai
 As you develop tests, you should be checking that the core module is internally **consistent** as well. If you notice any method names that aren't internally consistent (e.g., something called `on_select` in one module, but called `on_selected` in another), or where the data isn't being handled consistently, flag it and bring it to our attention by raising a ticket. Or, if you're confident that you know what needs to be done, create a pull request that fixes the problem you've found.
 
 {% block end_matter %}
-
 {% endblock %}

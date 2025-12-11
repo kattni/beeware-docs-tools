@@ -27,10 +27,10 @@ If your feature requires a platform-specific implementation, the proposal proces
 
     {{ indented("contribute/how/write_code.md") }}
 
-??? abstract "Submit a pull request"
-
-    {{ indented("contribute/how/submit_pr.md") }}
-
 ??? abstract "Add a change note"
 
     {{ indented("contribute/how/change_note.md") }}
+
+??? abstract "Submit a pull request"
+
+    {{ indented("contribute/how/submit_pr.md") }}

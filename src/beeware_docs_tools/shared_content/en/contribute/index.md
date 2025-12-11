@@ -12,10 +12,6 @@ Is this your first time contributing to an open source project? We're here to he
 
 If an issue has no comments from anyone other than the original reporter, it needs to be triaged. [Triaging an issue](what/triage.md) involves taking the information provided by the reporter, and trying to reproduce it.
 
-### [Fix an issue](what/fix_issue.md)
-
-Once the source of an issue is identified, the next step is to resolve it. You'll need to work through the process of [fixing an issue](what/fix_issue.md).
-
 ### [Review a pull request](what/review_pr.md)
 
 Once a pull request is submitted, it needs to be reviewed before it can be merged. Regardless of whether you are deeply familiar with the content, there is likely a way you can help with [reviewing a pull request](what/review_pr.md).
@@ -23,6 +19,10 @@ Once a pull request is submitted, it needs to be reviewed before it can be merge
 ### [Suggest a new feature](what/propose_feature.md)
 
 Do you have a suggestion or idea for a new addition to one of the BeeWare tools? You can [propose a new feature](what/propose_feature.md) for consideration.
+
+### [Fix an issue](what/fix_issue.md)
+
+Once the source of an issue is identified, the next step is to resolve it. You'll need to work through the process of [fixing an issue](what/fix_issue.md).
 
 ### [Implement a new feature](what/implement_feature.md)
 
@@ -74,19 +74,19 @@ To update or contribute documentation, you'll need to [build the docs](how/build
 
 To contribute documentation, you'll [write new content or update existing content](how/write_docs.md).
 
-### [Submit a pull request](how/submit_pr.md)
-
-Once your changes are ready, you'll [submit a pull request](how/submit_pr.md) for review.
-
 ### [Add a change note](how/change_note.md)
 
 Every pull request should be accompanied by a [change note](how/change_note.md).
+
+### [Submit a pull request](how/submit_pr.md)
+
+Once your changes are ready, you'll [submit a pull request](how/submit_pr.md) for review.
 
 ### [Provide a review](how/review_pr.md)
 
 If you're comfortable, you can [provide a review](how/review_pr.md).
 
-### [Translate](how/translate.md)
+### [Translate content](how/translate.md)
 
 BeeWare uses Weblate for [translations](how/translate.md), which requires a few steps to get started.
 

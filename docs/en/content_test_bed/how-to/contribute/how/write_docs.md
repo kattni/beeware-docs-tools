@@ -1,8 +1,12 @@
 # Writing documentation
 
-Before you begin writing documentation, ensure you are able to [build the documentation](build_docs.md)
-
 {% extends "contribute/how/write_docs.md" %}
+
+{% block front_matter %}
+
+Before you begin writing documentation, ensure you are able to [build the documentation](build_docs.md), and you are [working on a branch](branches.md).
+
+{% endblock %}
 
 {% block end_matter %}
 

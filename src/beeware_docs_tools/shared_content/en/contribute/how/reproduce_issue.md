@@ -2,6 +2,9 @@ You can't fix a problem if you don't have the problem in the first place. Theref
 
 Someone has provided a bug report. You need to validate that the steps the reporter describes are resulting in the bug being reported. Can you reproduce the same result by doing exactly what was described in the report? If you can't, you need to figure out why.
 
+{% block front_matter %}
+{% endblock %}
+
 ### Bugs in code
 
 In an ideal situation, you will have the same setup as the person who reported the bug, you will follow the steps, and you will be able to reproduce the bug as described. In many cases, though, it won't be so straightforward. Many bug reports include only vague explanations, and a vague set of conditions. The problem is that many bugs vary based on the set of conditions involved, including how they're interacted with, various preconditions, operating system, operating system version, CPU architecture, or whether the user's machine is old and slow or new and fast. The more information we have about the situation surrounding the bug, the better. Try and reproduce the set of conditions that the reporter has provided. If you're unable to do so, your next step may need to be requesting more information from the person who reported the bug.
@@ -29,5 +32,4 @@ If you *can't* reproduce the issue, then you also leave a comment, detailing wha
 Lastly, you can provide any recommendations you may have to the core team. If you think the original report is in error, suggest that the issue should be closed; if you have a theory about the cause of the issue, you can suggest that as well. Your comments will help the core team work out how to progress the issue to the next step.
 
 {% block end_matter %}
-
 {% endblock %}

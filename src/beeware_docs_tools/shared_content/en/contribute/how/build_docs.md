@@ -1,4 +1,7 @@
-These are the steps to build {{ formal_name }}'s documentation.
+Before making any changes to {{ formal_name }}'s documentation, it is helpful to confirm that you can build the existing documentation.
+
+{% block front_matter %}
+{% endblock %}
 
 You **must** have a Python {{ docs_python_version }} interpreter installed and available on your path (i.e., `python{{ docs_python_version }}` must start a Python {{ docs_python_version }} interpreter).
 
@@ -237,5 +240,4 @@ If a valid spelling of a word is identified as misspelled, then add the word to 
 - If a term is being used "as code", then it should be quoted as a literal (`like this`) rather than being added to the dictionary.
 
 {% block end_matter %}
-
 {% endblock %}

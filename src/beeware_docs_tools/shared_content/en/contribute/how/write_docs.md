@@ -1,4 +1,8 @@
+
 These are the steps to follow to write your documentation contribution to {{ formal_name }}.
+
+{% block front_matter %}
+{% endblock %}
 
 ### Updating existing documentation
 
@@ -29,5 +33,4 @@ You can now open the desired file into your editor, and begin writing.
 We have a [documentation style guide](../style/docs_style_guide.md) that outlines our guidelines for writing documentation for BeeWare.
 
 {% block end_matter %}
-
 {% endblock %}

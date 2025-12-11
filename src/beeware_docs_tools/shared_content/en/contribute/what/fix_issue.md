@@ -43,10 +43,10 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 **When you're ready to submit your contribution:**
 
-??? abstract "Submit a pull request"
-
-    {{ indented("contribute/how/submit_pr.md") }}
-
 ??? abstract "Add a change note"
 
     {{ indented("contribute/how/change_note.md") }}
+
+??? abstract "Submit a pull request"
+
+    {{ indented("contribute/how/submit_pr.md") }}
