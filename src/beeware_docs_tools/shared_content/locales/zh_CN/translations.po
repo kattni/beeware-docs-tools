@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 07:11+0000\n"
+"POT-Creation-Date: 2025-12-11 07:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -260,6 +260,8 @@ msgstr "/// tab | macOS"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:152
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:166
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:231
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:41
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:99
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:9
 msgid "{% endif %}"
 msgstr "{% endif %}"
@@ -2735,7 +2737,7 @@ msgid ""
 msgstr "{{ formal_name }} 是否缺少您希望看到的功能？您可以 [实现新功能]{1}。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:19
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:73
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:77
 #, fuzzy
 msgid "[Write documentation]{1}"
 msgstr "{1}[编写文件｝"
@@ -2786,24 +2788,29 @@ msgid ""
 msgstr "您对 BeeWare 工具的新功能有建议或想法吗？您可以[提出新功能]{1}，以供考虑。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:35
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:89
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:93
+msgid "{% if config.extra.translated %}"
+msgstr "{% if config.extra.translated %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:37
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:95
 #, fuzzy
 msgid "[Translate content]{1}"
 msgstr "[Translate content]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:37
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:39
 #, fuzzy
 msgid ""
 "BeeWare maintains various documentation in multiple languages. If you know a"
 " language other than English, you can help with [translating content]{1}."
 msgstr "BeeWare 以多种语言维护各种文档。如果您会英语以外的语言，您可以帮助我们[翻译内容]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:39
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:43
 #, fuzzy
 msgid "[Use the tools]{1}"
 msgstr "[使用工具"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:41
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:45
 #, fuzzy
 msgid ""
 "Do you have an idea for an app built with Toga? Do you have an existing app "
@@ -2811,196 +2818,196 @@ msgid ""
 "provide feedback on your experience."
 msgstr "您是否有使用 Toga 构建应用程序的想法？您是否有可与公文包打包的现有应用程序？您可以 [使用这些工具]{1}，并提供使用体验反馈。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:43
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:47
 #, fuzzy
 msgid "How do I contribute?"
 msgstr "如何捐款？"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:45
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:49
 #, fuzzy
 msgid "[Set up a development environment]{1}"
 msgstr "[设置开发环境]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:47
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:51
 #, fuzzy
 msgid ""
 "Before you can begin contributing to BeeWare, you'll need to [set up your "
 "development environment]{1}."
 msgstr "在开始为 BeeWare 做出贡献之前，您需要[设置开发环境]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:49
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:53
 #, fuzzy
 msgid "[Reproduce an issue]{1}"
 msgstr "[重现问题]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:51
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:55
 #, fuzzy
 msgid ""
 "Before fixing an issue, you'll need to [verify it exists]{1}. Reproducing an"
 " issue is also an important part of triage."
 msgstr "修复问题前，您需要[验证问题是否存在]{1}。重现问题也是分流的一个重要部分。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:53
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:57
 #, fuzzy
 msgid "[Work from a branch]{1}"
 msgstr "[从分支机构开始工作]{1}......"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:55
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:59
 #, fuzzy
 msgid ""
 "When preparing to submit a contribution, always [work from a branch]{1}."
 msgstr "准备投稿时，请务必[从分支开始工作]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:57
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:61
 #, fuzzy
 msgid "[Avoid scope creep]{1}"
 msgstr "[避免范围蠕变]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:59
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:63
 #, fuzzy
 msgid ""
 "It's important to maintain focus, and [avoid scope creep]{1} with your "
 "contribution."
 msgstr "重要的是要保持专注，[避免范围蠕变]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:61
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:65
 #, fuzzy
 msgid "[Propose a new feature]{1}"
 msgstr "[提出一项新功能]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:63
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:67
 #, fuzzy
 msgid "You'll follow these steps to [propose a new feature]{1}."
 msgstr "您将按照以下步骤[提出新功能]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:65
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:69
 #, fuzzy
 msgid "[Write, run, and test code]{1}"
 msgstr "[编写、运行和测试代码]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:67
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:71
 #, fuzzy
 msgid ""
 "To update or contribute code, you'll need to [write, run, and test your "
 "code]{1}."
 msgstr "要更新或贡献代码，您需要[编写、运行和测试您的代码]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:69
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:73
 #, fuzzy
 msgid "[Build documentation]{1}"
 msgstr "{1}[构建文档｝"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:71
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:75
 #, fuzzy
 msgid ""
 "To update or contribute to documentation, you'll need to be able to [build "
 "the docs]{1}."
 msgstr "要更新或贡献文档，您需要能够[构建文档]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:75
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:79
 #, fuzzy
 msgid ""
 "To contribute documentation, you'll [write new content or update existing "
 "content]{1}."
 msgstr "要贡献文档，您需要[编写新内容或更新现有内容]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:77
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:81
 #, fuzzy
 msgid "[Add a change note]{1}"
 msgstr "{1}[添加更改说明｝"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:79
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:83
 #, fuzzy
 msgid "Every pull request should be accompanied by a [change note]{1}."
 msgstr "每个拉取请求都应附有[变更注释]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:81
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:85
 #, fuzzy
 msgid "[Submit a pull request]{1}"
 msgstr "[提交拉取请求]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:83
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:87
 #, fuzzy
 msgid ""
 "Once your changes are ready, you'll [submit a pull request]{1} for review."
 msgstr "修改完成后，您将[提交拉取请求]{1}以供审核。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:85
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:89
 #, fuzzy
 msgid "[Provide a review]{1}"
 msgstr "[提供评论]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:87
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:91
 #, fuzzy
 msgid ""
 "If you're comfortable, you can [provide a review of someone else's "
 "contribution]{1}."
 msgstr "如果你愿意，可以[对他人的贡献进行评论]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:91
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:97
 #, fuzzy
 msgid ""
 "BeeWare uses Weblate for [translations]{1}, which requires a few steps to "
 "get started."
 msgstr "BeeWare 使用 Weblate 进行 [翻译]{1}，需要几个步骤才能开始使用。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:93
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:101
 #, fuzzy
 msgid "[Submit a new issue]{1}"
 msgstr "[提交新问题]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:95
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:103
 #, fuzzy
 msgid ""
 "If you run into a new problem or bug, it's helpful to [submit an issue]{1}."
 msgstr "如果您遇到新问题或错误，请[提交问题]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:97
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:105
 #, fuzzy
 msgid "What happens next?"
 msgstr "接下来会发生什么？"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:99
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:107
 #, fuzzy
 msgid "[Pull request review]{1}"
 msgstr "{1}[拉取请求审查｝"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:101
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:109
 #, fuzzy
 msgid "When a pull request is submitted, the next step is [the PR review]{1}."
 msgstr "提交拉取请求后，下一步就是[PR 审核]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:103
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:111
 #, fuzzy
 msgid "[The release process]{1}"
 msgstr "[释放过程]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:105
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:113
 #, fuzzy
 msgid "Merged contributions will go through [the release process]{1}."
 msgstr "合并后的贡献将进入[发布流程]{1}。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:107
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:115
 #, fuzzy
 msgid "Style Guides"
 msgstr "风格指南"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:109
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:117
 #, fuzzy
 msgid "[Code style guide]{1}"
 msgstr "{1}[指南样式代码｝"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:111
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:119
 #, fuzzy
 msgid "These are the guidelines for contributing code to BeeWare projects."
 msgstr "以下是为BeeWare项目贡献代码的指导原则。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:113
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:121
 #, fuzzy
 msgid "[Documentation style guide]{1}"
 msgstr "[文件样式指南]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:115
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:123
 #, fuzzy
 msgid ""
 "These are the guidelines for contributing documentation to BeeWare projects."

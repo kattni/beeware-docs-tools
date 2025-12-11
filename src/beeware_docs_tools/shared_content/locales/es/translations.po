@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 07:11+0000\n"
+"POT-Creation-Date: 2025-12-11 07:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -307,6 +307,8 @@ msgstr "/// tab | macOS"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:152
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:166
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:231
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:41
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:99
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:9
 msgid "{% endif %}"
 msgstr "{% endif %}"
@@ -3374,7 +3376,7 @@ msgstr ""
 "[implementar una nueva función]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:19
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:73
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:77
 #, fuzzy
 msgid "[Write documentation]{1}"
 msgstr "[Escribir documentación]{1}"
@@ -3439,12 +3441,17 @@ msgstr ""
 "consideración."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:35
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:89
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:93
+msgid "{% if config.extra.translated %}"
+msgstr "{% if config.extra.translated %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:37
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:95
 #, fuzzy
 msgid "[Translate content]{1}"
 msgstr "[Traducir contenido]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:37
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:39
 #, fuzzy
 msgid ""
 "BeeWare maintains various documentation in multiple languages. If you know a"
@@ -3453,12 +3460,12 @@ msgstr ""
 "BeeWare mantiene documentación en varios idiomas. Si conoce un idioma "
 "distinto del inglés, puede ayudar [traduciendo contenidos]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:39
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:43
 #, fuzzy
 msgid "[Use the tools]{1}"
 msgstr "[Usa las herramientas]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:41
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:45
 #, fuzzy
 msgid ""
 "Do you have an idea for an app built with Toga? Do you have an existing app "
@@ -3469,17 +3476,17 @@ msgstr ""
 "aplicación existente que podría empaquetarse con Briefcase? Puedes [utilizar"
 " las herramientas]{1} y comentar tu experiencia."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:43
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:47
 #, fuzzy
 msgid "How do I contribute?"
 msgstr "¿Cómo puedo contribuir?"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:45
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:49
 #, fuzzy
 msgid "[Set up a development environment]{1}"
 msgstr "[Configurar un entorno de desarrollo]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:47
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:51
 #, fuzzy
 msgid ""
 "Before you can begin contributing to BeeWare, you'll need to [set up your "
@@ -3488,12 +3495,12 @@ msgstr ""
 "Antes de empezar a contribuir a BeeWare, tendrá que [configurar su entorno "
 "de desarrollo]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:49
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:53
 #, fuzzy
 msgid "[Reproduce an issue]{1}"
 msgstr "[Reproducir un problema]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:51
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:55
 #, fuzzy
 msgid ""
 "Before fixing an issue, you'll need to [verify it exists]{1}. Reproducing an"
@@ -3502,12 +3509,12 @@ msgstr ""
 "Antes de solucionar un problema, tendrás que [verificar que existe]{1}. "
 "Reproducir un problema también es una parte importante del triaje."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:53
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:57
 #, fuzzy
 msgid "[Work from a branch]{1}"
 msgstr "[Trabaja desde una rama]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:55
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:59
 #, fuzzy
 msgid ""
 "When preparing to submit a contribution, always [work from a branch]{1}."
@@ -3515,12 +3522,12 @@ msgstr ""
 "Cuando se prepare para enviar una contribución, trabaje siempre [a partir de"
 " una rama]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:57
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:61
 #, fuzzy
 msgid "[Avoid scope creep]{1}"
 msgstr "[Evitar la ampliación del ámbito de aplicación]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:59
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:63
 #, fuzzy
 msgid ""
 "It's important to maintain focus, and [avoid scope creep]{1} with your "
@@ -3529,22 +3536,22 @@ msgstr ""
 "Es importante mantener la concentración y [evitar que se desborde el "
 "alcance]{1} de tu contribución."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:61
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:65
 #, fuzzy
 msgid "[Propose a new feature]{1}"
 msgstr "[Proponer una nueva característica]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:63
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:67
 #, fuzzy
 msgid "You'll follow these steps to [propose a new feature]{1}."
 msgstr "Seguirás estos pasos para [proponer una nueva función]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:65
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:69
 #, fuzzy
 msgid "[Write, run, and test code]{1}"
 msgstr "[Escribir, ejecutar y probar código]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:67
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:71
 #, fuzzy
 msgid ""
 "To update or contribute code, you'll need to [write, run, and test your "
@@ -3553,12 +3560,12 @@ msgstr ""
 "Para actualizar o aportar código, tendrás que [escribir, ejecutar y probar "
 "tu código]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:69
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:73
 #, fuzzy
 msgid "[Build documentation]{1}"
 msgstr "[Documentación de construcción]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:71
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:75
 #, fuzzy
 msgid ""
 "To update or contribute to documentation, you'll need to be able to [build "
@@ -3567,7 +3574,7 @@ msgstr ""
 "Para actualizar la documentación o contribuir a ella, tendrás que poder "
 "[crear los documentos]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:75
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:79
 #, fuzzy
 msgid ""
 "To contribute documentation, you'll [write new content or update existing "
@@ -3576,22 +3583,22 @@ msgstr ""
 "Para contribuir a la documentación, deberá [escribir nuevos contenidos o "
 "actualizar los existentes]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:77
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:81
 #, fuzzy
 msgid "[Add a change note]{1}"
 msgstr "[Añadir una nota de cambio]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:79
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:83
 #, fuzzy
 msgid "Every pull request should be accompanied by a [change note]{1}."
 msgstr "Cada pull request debe ir acompañada de una [nota de cambio]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:81
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:85
 #, fuzzy
 msgid "[Submit a pull request]{1}"
 msgstr "[Submit a pull request]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:83
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:87
 #, fuzzy
 msgid ""
 "Once your changes are ready, you'll [submit a pull request]{1} for review."
@@ -3599,12 +3606,12 @@ msgstr ""
 "Una vez que tus cambios estén listos, [enviarás un pull request]{1} para su "
 "revisión."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:85
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:89
 #, fuzzy
 msgid "[Provide a review]{1}"
 msgstr "[Proporcione una reseña]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:87
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:91
 #, fuzzy
 msgid ""
 "If you're comfortable, you can [provide a review of someone else's "
@@ -3613,7 +3620,7 @@ msgstr ""
 "Si se siente cómodo, puede [hacer una crítica de la contribución de otra "
 "persona]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:91
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:97
 #, fuzzy
 msgid ""
 "BeeWare uses Weblate for [translations]{1}, which requires a few steps to "
@@ -3622,12 +3629,12 @@ msgstr ""
 "BeeWare utiliza Weblate para [traducciones]{1}, lo que requiere unos pocos "
 "pasos para empezar."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:93
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:101
 #, fuzzy
 msgid "[Submit a new issue]{1}"
 msgstr "[Presentar una nueva edición]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:95
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:103
 #, fuzzy
 msgid ""
 "If you run into a new problem or bug, it's helpful to [submit an issue]{1}."
@@ -3635,57 +3642,57 @@ msgstr ""
 "Si te encuentras con un nuevo problema o fallo, es útil [enviar una "
 "incidencia]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:97
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:105
 #, fuzzy
 msgid "What happens next?"
 msgstr "¿Y ahora qué?"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:99
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:107
 #, fuzzy
 msgid "[Pull request review]{1}"
 msgstr "[Pull request review]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:101
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:109
 #, fuzzy
 msgid "When a pull request is submitted, the next step is [the PR review]{1}."
 msgstr ""
 "Cuando se envía un pull request, el siguiente paso es [la revisión del "
 "PR]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:103
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:111
 #, fuzzy
 msgid "[The release process]{1}"
 msgstr "[El proceso de liberación]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:105
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:113
 #, fuzzy
 msgid "Merged contributions will go through [the release process]{1}."
 msgstr ""
 "Las contribuciones fusionadas pasarán por [el proceso de publicación]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:107
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:115
 #, fuzzy
 msgid "Style Guides"
 msgstr "Guías de estilo"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:109
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:117
 #, fuzzy
 msgid "[Code style guide]{1}"
 msgstr "[Código de estilo de la guía]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:111
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:119
 #, fuzzy
 msgid "These are the guidelines for contributing code to BeeWare projects."
 msgstr ""
 "Estas son las directrices para contribuir con código a los proyectos "
 "BeeWare."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:113
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:121
 #, fuzzy
 msgid "[Documentation style guide]{1}"
 msgstr "[Libro de estilo de la documentación]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:115
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:123
 #, fuzzy
 msgid ""
 "These are the guidelines for contributing documentation to BeeWare projects."
