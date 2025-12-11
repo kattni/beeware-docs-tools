@@ -6,7 +6,7 @@ respect-gitignore = true
 
 # Disable rules:
 # MD014: Force commands in codeblocks to show output
-# MD057: Relative link doesn't exist - REENABLE WHEN FIXED - bug: this is in one specific place, but none of the individual disable options are working
+# MD057: Relative link doesn't exist - REENABLE WHEN BUG FIXED
 disable = ["MD014", "MD057"]
 
 [per-file-ignores]
