@@ -42,4 +42,4 @@ If you're unsure about any of this, don't worry! Submit your idea, and let us kn
 
 ??? abstract "Proposing a new feature"
 
-    {{ indented("how/feature_proposal.md") }}
+    {{ indented("contribute/how/propose_feature.md") }}

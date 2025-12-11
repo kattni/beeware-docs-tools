@@ -1,3 +1,3 @@
 # Documentation style guide
 
-{% extends "style/docs_style_guide.md" %}
+{% extends "contribute/style/docs_style_guide.md" %}

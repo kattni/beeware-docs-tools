@@ -1,3 +1,3 @@
 # The release process
 
-{% extends "next/release.md" %}
+{% extends "contribute/next/release.md" %}

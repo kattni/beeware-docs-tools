@@ -1,3 +1,3 @@
 # Receiving a pull request review
 
-{% extends "next/pr_review.md" %}
+{% extends "contribute/next/pr_review.md" %}

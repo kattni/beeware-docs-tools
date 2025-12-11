@@ -1,3 +1,3 @@
 # First-time contributors
 
-{% extends "first_time_contributors.md" %}
+{% extends "contribute/first_time_contributors.md" %}

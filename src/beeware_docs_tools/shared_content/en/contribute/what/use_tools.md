@@ -13,8 +13,8 @@ If you do experience any problems, start a new discussion topic, as it may be th
 
 ??? abstract "Submit a new issue"
 
-    {{ indented("how/issue_submit.md") }}
+    {{ indented("contribute/how/new_issue.md") }}
 
 ??? abstract "Propose a new feature"
 
-    {{ indented("how/feature_proposal.md") }}
+    {{ indented("contribute/how/propose_feature.md") }}

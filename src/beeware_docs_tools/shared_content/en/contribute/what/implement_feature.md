@@ -1,4 +1,4 @@
-Once the [proposal process](feature_proposal_process.md) has concluded, you should have a complete design for a new feature. That means it's time to start writing!
+Once the [proposal process](propose_feature.md) has concluded, you should have a complete design for a new feature. That means it's time to start writing!
 
 {% if not config.extra.macos_only %}
 
@@ -13,24 +13,24 @@ If your feature requires a platform-specific implementation, the proposal proces
 
 ??? abstract "Set up a development environment"
 
-    {{ indented("how/dev_environment.md") }}
+    {{ indented("contribute/how/dev_environment.md") }}
 
 ??? abstract "Work from a branch"
 
-    {{ indented("how/git_feature_branch.md") }}
+    {{ indented("contribute/how/branches.md") }}
 
 ??? abstract "Avoid scope creep"
 
-    {{ indented("how/scope_creep.md") }}
+    {{ indented("contribute/how/scope_creep.md") }}
 
 ??? abstract "Implement a new code feature"
 
-    {{ indented("how/code_run_test.md") }}
+    {{ indented("contribute/how/write_code.md") }}
 
 ??? abstract "Submit a pull request"
 
-    {{ indented("how/pr_submit.md") }}
+    {{ indented("contribute/how/submit_pr.md") }}
 
 ??? abstract "Add a change note"
 
-    {{ indented("how/pr_change_note.md") }}
+    {{ indented("contribute/how/change_note.md") }}

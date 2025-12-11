@@ -15,38 +15,38 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 ??? abstract "Set up a development environment"
 
-    {{ indented("how/dev_environment.md") }}
+    {{ indented("contribute/how/dev_environment.md") }}
 
 ??? abstract "Work from a branch"
 
-    {{ indented("how/git_feature_branch.md") }}
+    {{ indented("contribute/how/branches.md") }}
 
 ??? abstract "Reproduce the issue"
 
-    {{ indented("how/issue_reproduce.md") }}
+    {{ indented("contribute/how/reproduce_issue.md") }}
 
 **If fixing the issue requires changes to code:**
 
 ??? abstract "Write, run, and test code"
 
-    {{ indented("how/code_run_test.md") }}
+    {{ indented("contribute/how/write_code.md") }}
 
 **If fixing the issue requires changes to documentation:**
 
 ??? abstract "Build documentation"
 
-    {{ indented("how/docs_build.md") }}
+    {{ indented("contribute/how/build_docs.md") }}
 
 ??? abstract "Write documentation"
 
-    {{ indented("how/docs_contribute.md") }}
+    {{ indented("contribute/how/write_docs.md") }}
 
 **When you're ready to submit your contribution:**
 
 ??? abstract "Submit a pull request"
 
-    {{ indented("how/pr_submit.md") }}
+    {{ indented("contribute/how/submit_pr.md") }}
 
 ??? abstract "Add a change note"
 
-    {{ indented("how/pr_change_note.md") }}
+    {{ indented("contribute/how/change_note.md") }}

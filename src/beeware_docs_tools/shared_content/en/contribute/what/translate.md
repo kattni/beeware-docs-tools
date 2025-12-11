@@ -13,4 +13,4 @@ We use [DeepL](https://www.deepl.com/en/translator) for machine translation to p
 
 ??? abstract "Translate content"
 
-    {{ indented("how/translate.md") }}
+    {{ indented("contribute/how/translate.md") }}

@@ -52,32 +52,32 @@ A reference guide in baking might describe the types of sugar that could be used
 
 ??? abstract "Proposing new documentation"
 
-    {{ indented("how/feature_proposal.md") }}
+    {{ indented("contribute/how/propose_feature.md") }}
 
 ??? abstract "Set up a development environment"
 
-    {{ indented("how/dev_environment.md") }}
+    {{ indented("contribute/how/dev_environment.md") }}
 
 ??? abstract "Work from a branch"
 
-    {{ indented("how/git_feature_branch.md") }}
+    {{ indented("contribute/how/branches.md") }}
 
 ??? abstract "Avoid scope creep"
 
-    {{ indented("how/scope_creep.md") }}
+    {{ indented("contribute/how/scope_creep.md") }}
 
 ??? abstract "Building documentation"
 
-    {{ indented("how/docs_build.md") }}
+    {{ indented("contribute/how/build_docs.md") }}
 
 ??? abstract "Writing documentation"
 
-    {{ indented("how/docs_contribute.md") }}
+    {{ indented("contribute/how/write_docs.md") }}
 
 ??? abstract "Submit a pull request"
 
-    {{ indented("how/pr_submit.md") }}
+    {{ indented("contribute/how/submit_pr.md") }}
 
 ??? abstract "Add a change note"
 
-    {{ indented("how/pr_change_note.md") }}
+    {{ indented("contribute/how/change_note.md") }}

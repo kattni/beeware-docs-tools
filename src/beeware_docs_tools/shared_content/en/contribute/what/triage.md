@@ -9,6 +9,6 @@ Triaging an issue does not mean you are expected to fix it. Depending on the iss
 {% macro content(template) %}{% include template %}{% endmacro %}
 {% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
 
-??? abstract "Triage the issue"
+??? abstract "Reproduce the issue"
 
-    {{ indented("how/issue_reproduce.md") }}
+    {{ indented("contribute/how/reproduce_issue.md") }}
