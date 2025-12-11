@@ -4,6 +4,8 @@ Once the [proposal process](propose_feature.md) has concluded, you should have a
 
 If your feature requires a platform-specific implementation, the proposal process should have validated that the idea *could* be implemented on all platforms. However, as the person implementing a new feature for the first time, you are not responsible for implementing the new feature for all platforms. You need to provide a complete implementation for *at least* one platform, including tests. For any other platforms, you will need to provide a "stub" implementation - an implementation that provides the bare interface definition, but raises a `NotImplementedError` or outputs a log message that the behavior isn't implemented on that platform.
 
+An important part of implementing a new feature is ensuring that feature is fully documented. At a minimum this means ensuring that there is API documentation; but it may also require adding a how-to or topic guide.
+
 {% endif %}
 
 ### Contributing new functionality
@@ -23,9 +25,17 @@ If your feature requires a platform-specific implementation, the proposal proces
 
     {{ indented("contribute/how/scope_creep.md") }}
 
-??? abstract "Implement a new code feature"
+??? abstract "Implement the new feature"
 
     {{ indented("contribute/how/write_code.md") }}
+
+??? abstract "Build documentation"
+
+    {{ indented("contribute/how/build_docs.md") }}
+
+??? abstract "Write documentation"
+
+    {{ indented("contribute/how/write_docs.md") }}
 
 ??? abstract "Add a change note"
 
