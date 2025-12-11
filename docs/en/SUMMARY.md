@@ -6,4 +6,36 @@
     - ./section_three/*
 - Shared content test bed
     - [Shared content test bed](content_test_bed/index.md)
-    - [Style guide](content_test_bed/style_guide_include.md)
+    - How-to guides
+        - Contribute
+            - [Contributing](content_test_bed/how-to/contribute/index.md)
+            - [First-time contributors](content_test_bed/how-to/contribute/first_time_contributors.md)
+            - What can I do?
+                - [Fix an issue](content_test_bed/how-to/contribute/what/fix_issue.md)
+                - [Implement a new feature](content_test_bed/how-to/contribute/what/implement_feature.md)
+                - [Write documentation](content_test_bed/how-to/contribute/what/write_docs.md)
+                - [Triage an issue](content_test_bed/how-to/contribute/what/triage.md)
+                - [Review a pull request](content_test_bed/how-to/contribute/what/review_pr.md)
+                - [Propose a new feature](content_test_bed/how-to/contribute/what/propose_feature.md)
+                - [Translate content](content_test_bed/how-to/contribute/what/translate.md)
+                - [Use the tools](content_test_bed/how-to/contribute/what/use_tools.md)
+            - How do I contribute?
+                - [Setting up a development environment](content_test_bed/how-to/contribute/how/dev_environment.md)
+                - [Reproducing an issue](content_test_bed/how-to/contribute/how/reproduce_issue.md)
+                - [Working from a branch](content_test_bed/how-to/contribute/how/branches.md)
+                - [Avoiding scope creep](content_test_bed/how-to/contribute/how/scope_creep.md)
+                - [Writing, running, and testing code](content_test_bed/how-to/contribute/how/write_code.md)
+                - [Building documentation](content_test_bed/how-to/contribute/how/build_docs.md)
+                - [Writing documentation](content_test_bed/how-to/contribute/how/write_docs.md)
+                - [Adding a change note](content_test_bed/how-to/contribute/how/change_note.md)
+                - [Submitting a pull request](content_test_bed/how-to/contribute/how/submit_pr.md)
+                - [Providing a review](content_test_bed/how-to/contribute/how/review_pr.md)
+                - [Submitting a new issue](content_test_bed/how-to/contribute/how/new_issue.md)
+                - [Proposing a new feature](content_test_bed/how-to/contribute/how/propose_feature.md)
+                - [Translating content](content_test_bed/how-to/contribute/how/translate.md)
+            - What happens next?
+                - [Pull request review process](content_test_bed/how-to/contribute/next/pr_review.md)
+                - [Release process](content_test_bed/how-to/contribute/next/release.md)
+            - Style guides
+                - [Code style guide](content_test_bed/how-to/contribute/style/code_style_guide.md)
+                - [Documentation style guide](content_test_bed/how-to/contribute/style/docs_style_guide.md)
