@@ -30,7 +30,7 @@ If you feel your reviewer is straying from these expectations, and you feel comf
 
 ## Providing a review
 
-Everyone is welcome to provide a review on any pull request. [These guidelines](../how/review_pr.md) describe our expecations of a review, regardless of whether it's provieded by a core team member or a member of the community.
+Everyone is welcome to provide a review on any pull request. [These guidelines](../how/review_pr.md) describe our expectations of a review, regardless of whether it's provided by a core team member or a member of the community.
 
 A core team member will always need to provide the final review; but reviews from community members can be a helpful way to streamline the process - ideally, the review from the core team would be a formality after community reviews have identified all the major problems.
 
@@ -46,7 +46,7 @@ Each step is detailed below. If at any point during the process you have questio
 
 ### Timeline and initial feedback
 
-The core team aims to ensure that every pull requests receives a review within ten business days. However, with more complicated submissions, or whena pull request is submitted when parts of the team are on leave, that timeline may be extended.
+The core team aims to ensure that every pull requests receives a review within ten business days. However, with more complicated submissions, or when a pull request is submitted when parts of the team are on leave, that timeline may be extended.
 
 We typically maintain continuity with reviewers on each pull request - that is, you'll likely work with the same reviewer for your entire review. This means your reviewer will have context throughout the process, and you'll be able to learn what to expect in terms of response cadence and review style. If your initial reviewer identifies that they don't have the necessary expertise to review your pull requests, or they know that will be unavailable for some reason, they may pass responsibility for your pull request to another team member.
 
@@ -56,7 +56,7 @@ You can expect us to respond to each exchange within a rolling ten business day 
 
 Most of the time, your reviewer is going to request changes on your pull request. This isn't necessarily a reflection of your work, it's simply part of the process.
 
-If a the initial review reveals a significant number of problems, the first review may not be comprehensive. Instead, it will focus on providing high level direction on the work required to get the pull request into a mergable state. The review process may include questions to clarify the purpose and scope of the work that has been attempted.
+If the initial review reveals a significant number of problems, the first review may not be comprehensive. Instead, it will focus on providing high level direction on the work required to get the pull request into a mergeable state. The review process may include questions to clarify the purpose and scope of the work that has been attempted.
 
 #### Work through requested changes
 

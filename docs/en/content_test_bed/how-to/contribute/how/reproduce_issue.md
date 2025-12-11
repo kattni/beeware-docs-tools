@@ -1,4 +1,4 @@
-# Reproducing an issuex
+# Reproducing an issue
 
 {% extends "contribute/how/reproduce_issue.md" %}
 

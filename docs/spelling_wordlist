@@ -16,12 +16,14 @@ CLI
 codebase
 codeblock
 codeblocks
+CPython
 Cutive
 DeepL
 Deutsch
 Dev
 dev
 Diataxis
+else's
 Français
 GTK
 Homebrew
@@ -33,6 +35,7 @@ Jinja's
 lifecycle
 linters
 macOS
+mergeable
 MkDocs
 Namespaces
 namespace
@@ -43,6 +46,7 @@ PRs
 PyScript
 Pygame
 pytest
+rebase
 repo
 repos
 reStructuredText
