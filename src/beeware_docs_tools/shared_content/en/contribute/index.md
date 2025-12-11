@@ -32,9 +32,13 @@ Once a pull request is submitted, it needs to be reviewed before it can be merge
 
 Do you have a suggestion or idea for a new addition to one of the BeeWare tools? You can [propose a new feature](what/propose_feature.md) for consideration.
 
+{% if config.extra.translated %}
+
 ### [Translate content](what/translate.md)
 
 BeeWare maintains various documentation in multiple languages. If you know a language other than English, you can help with [translating content](what/translate.md).
+
+{% endif %}
 
 ### [Use the tools](what/use_tools.md)
 
@@ -86,9 +90,13 @@ Once your changes are ready, you'll [submit a pull request](how/submit_pr.md) fo
 
 If you're comfortable, you can [provide a review of someone else's contribution](how/review_pr.md).
 
+{% if config.extra.translated %}
+
 ### [Translate content](how/translate.md)
 
 BeeWare uses Weblate for [translations](how/translate.md), which requires a few steps to get started.
+
+{% endif %}
 
 ### [Submit a new issue](how/new_issue.md)
 
