@@ -6,7 +6,7 @@ Fixing a bug or implementing a feature will require you to write some new code.
 
 We have a [code style guide](../style/code_style_guide.md) that outlines our guidelines for writing code for BeeWare.
 
-#### Test-driven development
+### Test-driven development
 
 A good way to ensure your code is going to do what you expect it to, is to first write a test case to test for it. This test case should fail initially, as the code it is testing for is not yet present. You can then write the code changes needed to make the test pass, and know that what you've written is solving the problem you are expecting it to.
 
