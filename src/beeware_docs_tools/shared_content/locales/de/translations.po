@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 07:14+0000\n"
+"POT-Creation-Date: 2025-12-12 07:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,26 +238,26 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:11
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:21
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:25
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:35
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:81
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:91
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:123
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:133
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:159
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:169
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:199
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:209
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:24
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:34
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:80
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:90
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:122
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:132
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:158
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:168
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:198
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:208
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:7
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:29
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:83
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:97
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:131
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:144
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:178
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:192
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:226
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:237
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:28
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:80
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:94
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:128
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:141
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:175
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:189
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:223
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:234
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:7
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:32
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:86
@@ -269,16 +269,16 @@ msgid "{% if not config.extra.macos_only %}"
 msgstr "{% if not config.extra.macos_only %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:13
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:27
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:83
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:125
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:161
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:201
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:26
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:82
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:124
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:160
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:200
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:9
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:85
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:133
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:180
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:228
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:82
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:130
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:177
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:225
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:9
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:88
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:164
@@ -287,28 +287,28 @@ msgstr "/// tab | macOS"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:15
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:41
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:29
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:55
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:85
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:113
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:127
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:153
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:163
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:189
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:193
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:203
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:229
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:28
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:54
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:84
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:112
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:126
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:152
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:162
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:188
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:192
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:202
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:228
 #: src/beeware_docs_tools/shared_content/en/contribute/how/change_note.md:9
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:11
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:73
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:87
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:125
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:135
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:170
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:182
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:220
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:230
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:259
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:70
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:84
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:122
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:132
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:167
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:179
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:217
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:227
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:256
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:11
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:82
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:90
@@ -317,45 +317,44 @@ msgstr "/// tab | macOS"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:231
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:41
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:99
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:9
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:12
 msgid "{% endif %}"
 msgstr "{% endif %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:21
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:37
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:45
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:53
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:71
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:93
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:101
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:109
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:135
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:143
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:151
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:171
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:179
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:187
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:211
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:219
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:227
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:31
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:51
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:71
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:99
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:111
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:123
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:146
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:157
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:168
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:194
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:206
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:218
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:239
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:248
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:257
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:36
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:44
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:52
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:70
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:92
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:100
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:108
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:134
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:142
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:150
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:170
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:178
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:186
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:210
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:218
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:226
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:30
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:49
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:68
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:96
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:108
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:120
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:143
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:154
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:165
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:191
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:203
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:215
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:236
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:245
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:254
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:34
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:57
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:80
@@ -365,26 +364,22 @@ msgstr "{% endif %}"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:187
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:208
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:229
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:247
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:277
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:29
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:70
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:83
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:276
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:45
 msgid "///"
 msgstr "///"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:25
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:39
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:95
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:137
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:173
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:213
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:33
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:101
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:148
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:196
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:241
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:38
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:94
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:136
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:172
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:212
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:32
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:98
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:145
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:193
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:238
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:36
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:112
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:189
@@ -392,16 +387,16 @@ msgid "/// tab | Linux"
 msgstr "/// tab | Linux"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:33
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:47
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:103
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:145
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:181
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:221
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:53
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:113
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:159
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:208
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:250
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:46
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:102
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:144
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:180
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:220
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:51
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:110
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:156
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:205
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:247
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:59
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:132
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:210
@@ -461,50 +456,17 @@ msgstr ""
 "Um die schnelle Bearbeitung der Dokumentation zu unterstützen, verfügt {{ "
 "formal_name }} über einen \"Live-Vorschau\"-Modus."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:14
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:15
 #, fuzzy
-msgid ""
-"/// admonition | The live preview will build with warnings! type: warning"
-msgstr ""
-"/// admonition | Die Live-Vorschau wird mit Warnungen erstellt! type: "
-"warning"
+msgid "!!! warning \"The live preview will build with warnings!\""
+msgstr "!!! warning \"Die Live-Vorschau wird mit Warnungen erstellt!\""
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:17
-#, fuzzy
-msgid ""
-"The live serve is available for iterating on your documentation updates. "
-"While you're in the process of updating things, you may introduce a markup "
-"issue. Issues considered a `WARNING` will cause a standard build to fail, "
-"however, the live serve is set up to indicate warnings in the console "
-"output, while continuing to build. This allows you to iterate without "
-"needing to restart the live preview."
-msgstr ""
-"Der Live-Serve steht Ihnen zur Verfügung, um Ihre "
-"Dokumentationsaktualisierungen zu wiederholen. Während Sie Dinge "
-"aktualisieren, können Sie ein Auszeichnungsproblem einführen. Probleme, die "
-"als `WARNING` eingestuft werden, führen dazu, dass ein Standard-Build "
-"fehlschlägt. Der Live-Serve ist jedoch so eingerichtet, dass er Warnungen in"
-" der Konsolenausgabe anzeigt, während der Build fortgesetzt wird. So können "
-"Sie iterieren, ohne die Live-Vorschau neu starten zu müssen."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:19
-#, fuzzy
-msgid ""
-"A `WARNING` is different from an `ERROR`. If you introduce an issue that is "
-"considered an `ERROR`, the live serve will fail, and require a restart. It "
-"will not start up again until the `WARNING` issue is resolved."
-msgstr ""
-"Eine `WARNING` unterscheidet sich von einem `ERROR`. Wenn Sie ein Problem "
-"einführen, das als \"ERROR\" eingestuft wird, schlägt der Live-Service fehl "
-"und erfordert einen Neustart. Er wird erst dann wieder gestartet, wenn das "
-"`WARNING`-Problem behoben ist."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:23
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:22
 #, fuzzy
 msgid "To start the live server:"
 msgstr "So starten Sie den Live-Server:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:57
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:56
 #, fuzzy
 msgid ""
 "This will build the documentation, start a web server to serve the "
@@ -515,7 +477,7 @@ msgstr ""
 "Dokumentation bereitzustellen, und das Dateisystem auf Änderungen an der "
 "Dokumentationsquelle überwacht."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:59
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:58
 #, fuzzy
 msgid ""
 "Once the server is started, you'll see something like the following in the "
@@ -524,7 +486,7 @@ msgstr ""
 "Sobald der Server gestartet ist, sehen Sie in der Konsolenausgabe etwas wie "
 "das Folgende:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:65
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:64
 #, fuzzy
 msgid ""
 "Open a browser, and navigate to the URL provided. Now you can begin "
@@ -537,12 +499,12 @@ msgstr ""
 "Änderung festgestellt wird, wird die Dokumentation neu erstellt, und jeder "
 "Browser, der die geänderte Seite anzeigt, wird automatisch aktualisiert."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:67
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:66
 #, fuzzy
 msgid "/// note | `docs-live` is an initial step"
 msgstr "/// note | docs-live\" ist ein erster Schritt"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:69
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:68
 #, fuzzy
 msgid ""
 "Running `docs-live` to work with the live server is meant for initial "
@@ -553,12 +515,12 @@ msgstr ""
 "erste Iterationen gedacht. Sie sollten *immer* einen lokalen Build "
 "ausführen, bevor Sie einen Pull-Request einreichen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:73
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:72
 #, fuzzy
 msgid "Local build"
 msgstr "Lokales Gebäude"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:75
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:74
 #, fuzzy
 msgid ""
 "Once you're done iterating, you'll need to do a local build of the "
@@ -571,17 +533,17 @@ msgstr ""
 "bei Auszeichnungsproblemen fehlschlägt. So können Sie alles auffangen, was "
 "Sie auf dem Live-Server übersehen haben könnten."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:77
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:76
 #, fuzzy
 msgid "Generating a local build"
 msgstr "Erzeugen eines lokalen Builds"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:79
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:78
 #, fuzzy
 msgid "To generate a local build:"
 msgstr "Um ein lokales Build zu erstellen:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:111
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:110
 #, fuzzy
 msgid ""
 "The output of this build will be in the `_build` directory in the root of "
@@ -590,16 +552,16 @@ msgstr ""
 "Die Ausgabe dieses Builds befindet sich im Verzeichnis `_build` im "
 "Stammverzeichnis des Projekts."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:115
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:114
 msgid "{% if not config.extra.translated %}"
 msgstr "{% if not config.extra.translated %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:117
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:116
 #, fuzzy
 msgid "Generating a local translated build"
 msgstr "Erzeugen eines lokal übersetzten Builds"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:119
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:118
 #, fuzzy
 msgid ""
 "{{ formal_name }}'s documentation is translated into multiple languages. "
@@ -612,12 +574,12 @@ msgstr ""
 "anderen Sprach-Builds führen. Es ist wichtig, dass Sie überprüfen, ob alle "
 "Builds funktionieren, bevor Sie einen Pull Request einreichen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:121
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:120
 #, fuzzy
 msgid "To generate a build of all available translations:"
 msgstr "Um ein Build aller verfügbaren Übersetzungen zu erstellen:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:155
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:154
 #, fuzzy
 msgid ""
 "The output of each language build will be in the associated "
@@ -630,7 +592,7 @@ msgstr ""
 "fünfstellige Sprachcode ist, der der jeweiligen Sprache zugeordnet ist (z.B."
 " `fr` für Französisch, `it` für Italienisch, usw.)."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:157
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:156
 #, fuzzy
 msgid ""
 "If you find an issue with a single build, you can run that individual build "
@@ -642,7 +604,7 @@ msgstr ""
 "ausführen. Um zum Beispiel nur die französische Dokumentation zu erstellen, "
 "führen Sie aus:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:191
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:190
 #, fuzzy
 msgid ""
 "The output of a single-language build will be in the `_build` directory."
@@ -650,12 +612,12 @@ msgstr ""
 "Die Ausgabe eines einsprachigen Builds befindet sich im Verzeichnis "
 "`_build`."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:195
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:194
 #, fuzzy
 msgid "Documentation linting"
 msgstr "Linting der Dokumentation"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:197
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:196
 #, fuzzy
 msgid ""
 "The build process will identify Markdown problems, but {{ formal_name }} "
@@ -666,23 +628,23 @@ msgstr ""
 "führt einige zusätzliche Prüfungen für Stil und Formatierung durch, die als "
 "\"Linting\" bekannt sind. So führen Sie die Lint-Prüfungen durch:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:231
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:230
 #, fuzzy
 msgid "This will validate the documentation does not contain:"
 msgstr ""
 "Dadurch wird sichergestellt, dass die Dokumentation keine Angaben enthält:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:233
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:232
 #, fuzzy
 msgid "dead hyperlinks"
 msgstr "tote Hyperlinks"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:234
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:233
 #, fuzzy
 msgid "misspelled words"
 msgstr "falsch geschriebene Wörter"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:236
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:235
 #, fuzzy
 msgid ""
 "If a valid spelling of a word is identified as misspelled, then add the word"
@@ -694,7 +656,7 @@ msgstr ""
 " das Wort in das Wörterbuch der Rechtschreibprüfung aufgenommen. Denken Sie "
 "beim Hinzufügen zu dieser Liste daran:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:238
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:237
 #, fuzzy
 msgid ""
 "We prefer US spelling, with some liberties for programming-specific "
@@ -704,7 +666,7 @@ msgstr ""
 "für programmierspezifische Umgangssprache (z. B. \"Apps\") und Verben von "
 "Substantiven (z. B. \"scrollable\")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:239
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:238
 #, fuzzy
 msgid ""
 "Any reference to a product name should use the product's preferred "
@@ -715,7 +677,7 @@ msgstr ""
 "des Produkts verwenden. (z. B. \"macOS\", \"GTK\", \"pytest\", \"Pygame\", "
 "\"PyScript\")."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:240
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:239
 #, fuzzy
 msgid ""
 "If a term is being used \"as code\", then it should be quoted as a literal "
@@ -724,8 +686,10 @@ msgstr ""
 "Wenn ein Begriff \"als Code\" verwendet wird, sollte er als Literal zitiert "
 "werden (`wie dies`) und nicht in das Wörterbuch aufgenommen werden."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:242
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:241
+#: src/beeware_docs_tools/shared_content/en/contribute/how/propose_feature.md:31
 #: src/beeware_docs_tools/shared_content/en/contribute/how/reproduce_issue.md:34
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:282
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_docs.md:35
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
@@ -979,8 +943,8 @@ msgid "You'll need to install the following prerequisites."
 msgstr "Sie müssen die folgenden Voraussetzungen installieren."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:13
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:35
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:55
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:34
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:53
 #, fuzzy
 msgid ""
 "{{ formal_name }} requires Python {{ min_python_version }}+. You will also "
@@ -990,8 +954,8 @@ msgstr ""
 "auch eine Methode zur Verwaltung virtueller Umgebungen (wie `venv`)."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:15
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:37
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:57
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:36
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:55
 #, fuzzy
 msgid ""
 "You can verify the version of Python that you have installed by running:"
@@ -1000,7 +964,7 @@ msgstr ""
 "indem Sie diese ausführen:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:21
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:43
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:42
 #, fuzzy
 msgid ""
 "If you have more than one version of Python installed, you may need to "
@@ -1026,24 +990,10 @@ msgstr ""
 " kürzlich veröffentlichte stabile Python-Versionen verfügbar sind."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:25
-msgid "{% block prerequisites_macos %}"
-msgstr "{% block prerequisites_macos %}"
+msgid "{% block prerequisites_macos %} {% endblock %}"
+msgstr "{% block prerequisites_macos %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:27
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:49
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:69
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:190
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:204
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:216
-#: src/beeware_docs_tools/shared_content/en/contribute/how/propose_feature.md:33
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:285
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:13
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:25
-#, fuzzy
-msgid "{% endblock %}"
-msgstr "{% endblock %}"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:45
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:44
 #, fuzzy
 msgid ""
 "We recommend avoiding recently released version of Python (i.e., versions "
@@ -1057,11 +1007,11 @@ msgstr ""
 "Unterstützung von Python unter Linux benötigt werden, oft nicht für kürzlich"
 " veröffentlichte stabile Python-Versionen verfügbar sind."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:47
-msgid "{% block prerequisites_linux %}"
-msgstr "{% block prerequisites_linux %}"
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:46
+msgid "{% block prerequisites_linux %} {% endblock %}"
+msgstr "{% block prerequisites_linux %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:63
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:61
 #, fuzzy
 msgid ""
 "If you have more than one version of Python installed, you may need to "
@@ -1072,7 +1022,7 @@ msgstr ""
 "möglicherweise die `-3` durch eine bestimmte Versionsnummer ersetzen (z.B. "
 "`-python{{ recent_python_version }}`)"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:65
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:63
 #, fuzzy
 msgid ""
 "We recommend avoiding recently released version of Python (i.e., versions "
@@ -1086,16 +1036,16 @@ msgstr ""
 "Unterstützung von Python unter Windows benötigt werden, in der Regel nicht "
 "für kürzlich veröffentlichte stabile Python-Versionen verfügbar sind."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:67
-msgid "{% block prerequisites_windows %}"
-msgstr "{% block prerequisites_windows %}"
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:65
+msgid "{% block prerequisites_windows %} {% endblock %}"
+msgstr "{% block prerequisites_windows %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:75
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:72
 #, fuzzy
 msgid "Set up your development environment { #dev-environment-set-up }"
 msgstr "Richten Sie Ihre Entwicklungsumgebung ein { #dev-environment-set-up }"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:77
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:74
 #, fuzzy
 msgid ""
 "The recommended way of setting up your development environment for {{ "
@@ -1106,12 +1056,12 @@ msgstr ""
 "[virtuellen Umgebung]{1} einzurichten und dann die Entwicklungsversion von "
 "{{ formal_name }} und seine Abhängigkeiten zu installieren."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:79
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:76
 #, fuzzy
 msgid "Clone the {{ formal_name }} repository"
 msgstr "Klonen Sie das {{ formal_name }} Repository"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:81
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:78
 #, fuzzy
 msgid ""
 "Next, go to the [{{ formal_name }} page on "
@@ -1133,45 +1083,45 @@ msgstr ""
 "und verwenden sie, um das Repository über die Befehlszeile auf Ihren "
 "Computer zu klonen:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:89
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:103
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:115
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:86
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:100
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:112
 #, fuzzy
 msgid "Fork the {{ formal_name }} repository, and then:"
 msgstr "Forken Sie das {{ formal_name }} Repository, und dann:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:95
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:109
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:121
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:92
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:106
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:118
 #, fuzzy
 msgid "(substituting your GitHub username)"
 msgstr "(ersetzen Sie Ihren GitHub-Benutzernamen)"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:127
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:124
 #, fuzzy
 msgid "Create a virtual environment"
 msgstr "Erstellen einer virtuellen Umgebung"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:129
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:126
 #, fuzzy
 msgid "To set up a virtual environment and upgrade `pip`, run:"
 msgstr ""
 "Um eine virtuelle Umgebung einzurichten und `pip` zu aktualisieren, führen "
 "Sie aus:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:172
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:169
 #, fuzzy
 msgid "Your prompt should now have a `(.venv)` prefix in front of it."
 msgstr ""
 "Ihre Eingabeaufforderung sollte nun ein Präfix `(.venv)` vorangestellt "
 "haben."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:174
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:171
 #, fuzzy
 msgid "Install {{ formal_name }}"
 msgstr "Installieren Sie {{ formal_name }}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:176
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:173
 #, fuzzy
 msgid ""
 "Now that you have the source code, you can do an [editable install]{1} of {{"
@@ -1182,24 +1132,31 @@ msgstr ""
 "Installation]{1} von {{ formal_name }} in Ihrer Entwicklungsumgebung "
 "durchführen. Führen Sie den folgenden Befehl aus:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:184
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:181
 msgid "{% block install_macos_tool %}"
 msgstr "{% block install_macos_tool %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:198
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:187
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:201
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:213
+#, fuzzy
+msgid "{% endblock %}"
+msgstr "{% endblock %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:195
 msgid "{% block install_linux_tool %}"
 msgstr "{% block install_linux_tool %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:210
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:207
 msgid "{% block install_windows_tool %}"
 msgstr "{% block install_windows_tool %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:222
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:219
 #, fuzzy
 msgid "Enable pre-commit"
 msgstr "Pre-Commit aktivieren"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:224
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:221
 #, fuzzy
 msgid ""
 "{{ formal_name }} uses a tool called [pre-commit]{1} to identify simple "
@@ -1213,7 +1170,7 @@ msgstr ""
 "Code-Linters ausführt, bevor ein Git-Commit abgeschlossen wird. Um pre-"
 "commit zu aktivieren, führen Sie aus:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:261
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:258
 #, fuzzy
 msgid "Now you are ready to start hacking on {{ formal_name }}!"
 msgstr "Jetzt können Sie mit dem Hacken von {{ formal_name }} beginnen!"
@@ -1817,11 +1774,6 @@ msgstr ""
 "jedoch nicht garantiert. Wenn Sie die garantierte Implementierung wünschen, "
 "müssen Sie sie selbst implementieren oder jemanden bezahlen, der sie für Sie"
 " implementiert."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/propose_feature.md:31
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:283
-msgid "{% block end_matter %}"
-msgstr "{% block end_matter %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/reproduce_issue.md:1
 #, fuzzy
@@ -2433,29 +2385,17 @@ msgid "Any of these options will enable you to create your new pull request."
 msgstr ""
 "Mit jeder dieser Optionen können Sie Ihre neue Pull-Anfrage erstellen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:242
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:243
 #, fuzzy
-msgid "/// admonition | The GitHub CLI: `gh` type: info"
-msgstr "/// admonition | Das GitHub CLI: `gh` Typ: info"
+msgid "!!! info \"The GitHub CLI: `gh`\""
+msgstr "!!! info \"Das GitHub CLI: `gh`\""
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:245
-#, fuzzy
-msgid ""
-"GitHub provides the [GitHub CLI]{1}, which gives you access to many of the "
-"features of GitHub from your terminal, through the `gh` command. The [GitHub"
-" CLI documentation]{2} covers all the features."
-msgstr ""
-"GitHub stellt die [GitHub CLI]{1} zur Verfügung, mit der Sie von Ihrem "
-"Terminal aus über den Befehl \"gh\" auf viele Funktionen von GitHub "
-"zugreifen können. Die [GitHub CLI-Dokumentation]{2} behandelt alle "
-"Funktionen."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:249
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:248
 #, fuzzy
 msgid "Pull request content"
 msgstr "Inhalt der Pull-Anfrage"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:251
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:250
 #, fuzzy
 msgid ""
 "A pull request title must be informative, clear, and concise. Try to keep it"
@@ -2469,7 +2409,7 @@ msgstr ""
 "jeglichen Kontext eine einigermaßen solide Vorstellung davon geben, welcher "
 "Fehler oder welche Funktion durch Ihren PR implementiert wird."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:253
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:252
 #, fuzzy
 msgid ""
 "The PR description must clearly reflect the changes in the PR. A person "
@@ -2489,7 +2429,7 @@ msgstr ""
 " geschieht, und die Vermeidung dieser Dinge macht die Beschreibung für "
 "andere leichter verständlich."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:255
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:254
 #, fuzzy
 msgid ""
 "If there are any reproduction cases, or any testing regimen that you used "
@@ -2503,7 +2443,7 @@ msgstr ""
 " wie man sie durchführt und was man tun muss, um das gewünschte Ergebnis zu "
 "reproduzieren."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:257
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:256
 #, fuzzy
 msgid ""
 "If your pull request will resolve issue #1234, you should include the text "
@@ -2523,12 +2463,12 @@ msgstr ""
 " Nummer ein Präfix voranstellen - zum Beispiel würde `python/cpython#1234` "
 "auf die Ausgabe 1234 im CPython Repository verweisen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:259
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:258
 #, fuzzy
 msgid "Continuous integration"
 msgstr "Kontinuierliche Integration"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:261
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:260
 #, fuzzy
 msgid ""
 "*Continuous integration*, or *CI*, is the process of running automated "
@@ -2542,7 +2482,7 @@ msgstr ""
 "Code richtig formatiert ist, aber auch die Durchführung der Testsuite und "
 "die Erstellung der Dokumentation."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:263
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:262
 #, fuzzy
 msgid ""
 "There are any number of changes that can result in CI failures. Broadly "
@@ -2558,7 +2498,7 @@ msgstr ""
 "Änderungen zu einem Fehler führen, liegt es in Ihrer Verantwortung, den "
 "Grund zu untersuchen und das Problem zu beheben."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:265
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:264
 #, fuzzy
 msgid ""
 "When CI fails, the failure links will show up at the bottom of the PR page, "
@@ -2580,7 +2520,7 @@ msgstr ""
 " und versuchen Sie herauszufinden, warum der Fehler auftritt, und tun Sie "
 "dann das Nötige, um ihn zu beheben."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:267
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:266
 #, fuzzy
 msgid ""
 "Occasionally, a CI check will fail for reasons that are unrelated to your "
@@ -2596,14 +2536,14 @@ msgstr ""
 "er nichts mit Ihren Änderungen zu tun hat, fügen Sie Ihrem PR einen "
 "entsprechenden Kommentar hinzu, und wir werden uns die Sache ansehen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:269
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:268
 #, fuzzy
 msgid "To trigger a new CI run, you need to push new changes to your branch."
 msgstr ""
 "Um einen neuen CI-Lauf auszulösen, müssen Sie neue Änderungen in Ihren Zweig"
 " übertragen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:271
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:270
 #, fuzzy
 msgid ""
 "If you find yourself in a situation where you need help getting CI to pass, "
@@ -2613,12 +2553,12 @@ msgstr ""
 "eine Informatisierung zu erreichen, hinterlassen Sie einen Kommentar auf der"
 " PR-Website, und wir werden tun, was wir können, um zu helfen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:273
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:272
 #, fuzzy
 msgid "/// note | The `pre-commit` and `towncrier` checks"
 msgstr "/// note | Die \"Pre-Commit\"- und \"Citycrier\"-Kontrollen"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:275
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:274
 #, fuzzy
 msgid ""
 "If either the `pre-commit` or `towncrier` checks fail, it will block most of"
@@ -2630,7 +2570,7 @@ msgstr ""
 "entsprechenden Probleme beheben, bevor der gesamte Satz von Prüfungen "
 "ausgeführt werden kann."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:279
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:278
 #, fuzzy
 msgid ""
 "We have limited CI resources. It is important to understand that every time "
@@ -2646,7 +2586,7 @@ msgstr ""
 "Übergabe in einem Batch ausführen, um die Belastung unseres CI-Systems zu "
 "minimieren."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:281
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:280
 #, fuzzy
 msgid ""
 "The process of submitting your PR is not done until it's passing CI, or you "
@@ -3855,46 +3795,15 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:22
 #, fuzzy
-msgid "/// admonition | Review expectations type: info"
-msgstr "/// admonition | Überprüfung der Erwartungen Typ: info"
+msgid "!!! info \"Review expectations\""
+msgstr "!!! info \"Erwartungen überprüfen\""
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:25
-#, fuzzy
-msgid ""
-"You should expect anyone reviewing your submissions to follow these "
-"guidelines, including reviews from members of the core team. You should also"
-" follow these guidelines when you are reviewing submissions from others."
-msgstr ""
-"Sie sollten erwarten, dass jeder, der Ihre Beiträge begutachtet, diese "
-"Richtlinien befolgt, auch die Mitglieder des Kernteams. Sie sollten diese "
-"Richtlinien auch befolgen, wenn Sie Beiträge von anderen prüfen."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:27
-#, fuzzy
-msgid ""
-"If you feel your reviewer is straying from these expectations, and you feel "
-"comfortable raising the issue yourself on the pull request, you can do so. "
-"If you don't feel comfortable, please reach out to the [BeeWare Code of "
-"Conduct Response Team]{1}. We will review your report, and follow up with "
-"your reviewer. The follow-up will reflect the reported action; a minor "
-"transgression may result in a discussion, whereas a major violation may "
-"result in something more serious."
-msgstr ""
-"Wenn Sie das Gefühl haben, dass Ihr Prüfer von diesen Erwartungen abweicht, "
-"und Sie sich wohl dabei fühlen, das Problem selbst in der Pull-Anfrage "
-"anzusprechen, können Sie dies tun. Wenn Sie sich dabei nicht wohl fühlen, "
-"wenden Sie sich bitte an das [BeeWare Code of Conduct Response Team]{1}. Wir"
-" werden Ihren Bericht prüfen und uns mit Ihrem Prüfer in Verbindung setzen. "
-"Das Follow-up wird die gemeldete Aktion widerspiegeln; ein kleinerer Verstoß"
-" kann zu einer Diskussion führen, während ein größerer Verstoß zu etwas "
-"Ernsterem führen kann."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:31
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:28
 #, fuzzy
 msgid "Providing a review"
 msgstr "Eine Bewertung abgeben"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:33
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:30
 #, fuzzy
 msgid ""
 "Everyone is welcome to provide a review on any pull request. [These "
@@ -3906,7 +3815,7 @@ msgstr ""
 "unabhängig davon, ob sie von einem Mitglied des Kernteams oder einem "
 "Mitglied der Gemeinschaft durchgeführt wird."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:35
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:32
 #, fuzzy
 msgid ""
 "A core team member will always need to provide the final review; but reviews"
@@ -3921,32 +3830,32 @@ msgstr ""
 "Überprüfung durch die Gemeinschaft alle wichtigen Probleme identifiziert "
 "hat."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:37
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:34
 #, fuzzy
 msgid "Receiving a review"
 msgstr "Erhalt einer Bewertung"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:39
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:36
 #, fuzzy
 msgid "Receiving a review involves three basic steps:"
 msgstr "Der Erhalt einer Überprüfung umfasst drei grundlegende Schritte:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:41
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:38
 #, fuzzy
 msgid "Initial feedback and questions."
 msgstr "Erste Rückmeldungen und Fragen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:42
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:39
 #, fuzzy
 msgid "Change requests."
 msgstr "Änderungswünsche."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:43
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:40
 #, fuzzy
 msgid "Approval and merge."
 msgstr "Genehmigung und Zusammenführung."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:45
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:42
 #, fuzzy
 msgid ""
 "Each step is detailed below. If at any point during the process you have "
@@ -3956,12 +3865,12 @@ msgstr ""
 "irgendeinem Zeitpunkt des Prozesses Fragen haben, zögern Sie nicht zu "
 "fragen! Wir helfen Ihnen gerne weiter."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:47
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:44
 #, fuzzy
 msgid "Timeline and initial feedback"
 msgstr "Zeitplan und erstes Feedback"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:49
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:46
 #, fuzzy
 msgid ""
 "The core team aims to ensure that every pull requests receives a review "
@@ -3974,7 +3883,7 @@ msgstr ""
 "eingereicht wird, während Teile des Teams im Urlaub sind, kann sich diese "
 "Frist jedoch verlängern."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:51
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:48
 #, fuzzy
 msgid ""
 "We typically maintain continuity with reviewers on each pull request - that "
@@ -3996,7 +3905,7 @@ msgstr ""
 "irgendeinem Grund nicht verfügbar sein wird, kann er die Verantwortung für "
 "Ihren Pull-Request an ein anderes Teammitglied abgeben."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:53
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:50
 #, fuzzy
 msgid ""
 "You can expect us to respond to each exchange within a rolling ten business "
@@ -4009,12 +3918,12 @@ msgstr ""
 "wesentlicher Bestandteil des Überprüfungsprozesses. Wir erwarten eine "
 "Antwort von Ihnen, bevor wir zum nächsten Schritt des Prozesses übergehen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:55
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:52
 #, fuzzy
 msgid "Change requests"
 msgstr "Änderungswünsche"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:57
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:54
 #, fuzzy
 msgid ""
 "Most of the time, your reviewer is going to request changes on your pull "
@@ -4025,7 +3934,7 @@ msgstr ""
 "verlangen. Dies ist nicht unbedingt ein Spiegelbild Ihrer Arbeit, es ist "
 "einfach Teil des Prozesses."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:59
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:56
 #, fuzzy
 msgid ""
 "If the initial review reveals a significant number of problems, the first "
@@ -4042,12 +3951,12 @@ msgstr ""
 "beinhalten, um den Zweck und den Umfang der Arbeit zu klären, die versucht "
 "worden ist."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:61
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:58
 #, fuzzy
 msgid "Work through requested changes"
 msgstr "Bearbeitung der Änderungswünsche"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:63
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:60
 #, fuzzy
 msgid ""
 "Your reviewer will post comments to your pull request. These comments can be"
@@ -4063,27 +3972,12 @@ msgstr ""
 "Pull-Anfrage anwenden können. In der Regel handelt es sich um Fragen, Bitten"
 " um Klärung oder Hinweise zu Aktualisierungen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:65
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:62
 #, fuzzy
-msgid "/// admonition | Marking a conversation as resolved type: info"
-msgstr ""
-"/// admonition | Kennzeichnung einer Unterhaltung als gelöst Typ: info"
+msgid "!!! info \"Marking a conversation as resolved\""
+msgstr "!!! info \"Gespräch als gelöst markieren\""
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:68
-#, fuzzy
-msgid ""
-"During the discussion part of the feedback process, you should never mark a "
-"conversation started by your reviewer as \"resolved\". Marking the "
-"conversation as resolved is the responsibility of the reviewer. It's up to "
-"them to determine whether the identified problem has been solved."
-msgstr ""
-"Während des Diskussionsteils des Feedback-Prozesses sollten Sie niemals eine"
-" von Ihrem Prüfer begonnene Unterhaltung als \"gelöst\" markieren. Die "
-"Kennzeichnung des Gesprächs als \"gelöst\" liegt in der Verantwortung des "
-"Beurteilers. Es liegt in seiner Verantwortung zu entscheiden, ob das Problem"
-" gelöst wurde."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:72
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:66
 #, fuzzy
 msgid ""
 "If the review reveals a systematic problem (e.g., a naming inconsistency "
@@ -4103,12 +3997,12 @@ msgstr ""
 "könnte, sollten Sie das Problem beheben, wo auch immer es auftritt. Wenn Sie"
 " sich unsicher sind, bitten Sie den Prüfer um eine Klarstellung."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:74
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:68
 #, fuzzy
 msgid "Submit all requested changes"
 msgstr "Alle gewünschten Änderungen einreichen"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:76
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:70
 #, fuzzy
 msgid ""
 "Once you've worked through all the requested changes, you can push an update"
@@ -4122,33 +4016,17 @@ msgstr ""
 "funktioniert, posten Sie einen Kommentar mit der Bitte um eine aktualisierte"
 " Überprüfung und das Kernteam wird sich Ihre Pull-Anfrage erneut ansehen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:78
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:72
 #, fuzzy
-msgid "/// admonition | Push, don't force or rebase type: info"
-msgstr "/// admonition | Schieben, nicht erzwingen oder umbasen Typ: info"
+msgid "!!! info \"Push, don't force or rebase\""
+msgstr "!!! info \"Drücken, nicht erzwingen oder zurücksetzen\""
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:81
-#, fuzzy
-msgid ""
-"When you're updating your pull request during a review, it is important to "
-"leave the commit history intact. It doesn't matter if there's a huge list of"
-" commits; they are all squashed when we merge the pull request. If you force"
-" push or rebase your pull request in the middle of a review, you may be "
-"removing important context needed by your reviewer."
-msgstr ""
-"Wenn Sie Ihren Pull Request während einer Überprüfung aktualisieren, ist es "
-"wichtig, die Commit History intakt zu lassen. Es spielt keine Rolle, ob es "
-"eine riesige Liste von Commits gibt; sie werden alle zerquetscht, wenn wir "
-"die Pull-Anfrage zusammenführen. Wenn Sie einen Push oder ein Rebase Ihres "
-"Pull Request mitten in einer Überprüfung erzwingen, entfernen Sie "
-"möglicherweise wichtigen Kontext, der von Ihrem Prüfer benötigt wird."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:85
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:76
 #, fuzzy
 msgid "Re-request a review"
 msgstr "Erneut eine Bewertung anfordern"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:87
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:78
 #, fuzzy
 msgid ""
 "Once you have resolved all the requested changes in a given review, and CI "
@@ -4169,12 +4047,12 @@ msgstr ""
 "bereit für eine vollständige Überprüfung sind, sollten Sie genau angeben, "
 "was Sie suchen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:89
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:80
 #, fuzzy
 msgid "Pull request approval and merge"
 msgstr "Genehmigung von Pull-Anfragen und Zusammenführung"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:91
+#: src/beeware_docs_tools/shared_content/en/contribute/next/pr_review.md:82
 #, fuzzy
 msgid ""
 "Once you've responded to all the change requests are completed, the pull "
@@ -4302,15 +4180,15 @@ msgstr ""
 "Rechtschreibung."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:11
-msgid "{% block code_style %}"
-msgstr "{% block code_style %}"
+msgid "{% block code_style %} {% endblock %}"
+msgstr "{% block code_style %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:15
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:14
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Zu vermeidende Dinge"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:17
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:16
 #, fuzzy
 msgid ""
 "We try to avoid `utils` modules as much as possible, with the understanding "
@@ -4802,28 +4680,29 @@ msgstr "Ermahnungen erfordern die gleiche Formatierung und Zeilenumbrüche:"
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:209
 #, fuzzy
 msgid ""
-"When applying any of the other [supported admonition types]{1}, you add a "
-"`type` directive below the title line, formatted as follows:"
+"When using any of the other [supported admonition types]{1}, you'll use the "
+"following format. Ensure the admonition content is tabbed over four spaces, "
+"as follows:"
 msgstr ""
-"Wenn Sie eine der anderen [unterstützten Ermahnungsarten]{1} anwenden, fügen"
-" Sie unter der Titelzeile die Anweisung `Typ` ein, die wie folgt formatiert "
-"ist:"
+"Wenn Sie eine der anderen [unterstützten Mahnungsarten]{1} verwenden, "
+"benutzen Sie das folgende Format. Stellen Sie sicher, dass der Inhalt der "
+"Ermahnung mit vier Leerzeichen versehen ist, wie folgt:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:224
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:223
 #, fuzzy
 msgid ""
 "Supported types include: abstract, info, tip, success, question, warning, "
 "failure, danger, bug, example, and quote."
 msgstr ""
-"Unterstützt werden folgende Typen: abstract, info, tip, success, question, warning, "
-"failure, danger, bug, example, und quote."
+"Unterstützt werden folgende Typen: abstract, info, tip, success, question, "
+"warning, failure, danger, bug, example, und quote."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:226
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:225
 #, fuzzy
 msgid "Tabbed content"
 msgstr "Inhalt der Registerkarten"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:228
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:227
 #, fuzzy
 msgid ""
 "Tabbed content is formatted as follows, including a newline included before "
@@ -4832,7 +4711,7 @@ msgstr ""
 "Der Inhalt von Registerkarten wird wie folgt formatiert, einschließlich "
 "eines Zeilenumbruchs vor dem Beginn und nach dem Ende des Inhaltsblocks:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:254
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:253
 #, fuzzy
 msgid ""
 "A tab with a nested admonition would be formatted as follows, including a "
@@ -4841,12 +4720,12 @@ msgstr ""
 "Ein Tabulator mit einer verschachtelten Ermahnung würde wie folgt formatiert"
 " werden, einschließlich eines Zeilenumbruchs vor und nach dem Inhaltsblock:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:274
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:273
 #, fuzzy
 msgid "Collapsed content"
 msgstr "Zusammengeklappter Inhalt"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:276
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:275
 #, fuzzy
 msgid ""
 "Collapsed content is formatted as follows, including newlines, with content "
@@ -4855,7 +4734,7 @@ msgstr ""
 "Der eingeklappte Inhalt wird wie folgt formatiert, einschließlich der "
 "Zeilenumbrüche, wobei der Inhalt wie gezeigt mit Tabulatoren versehen ist:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:290
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:289
 #, fuzzy
 msgid ""
 "All [supported admonition types]{1} are available for use with collapsed "
@@ -4864,12 +4743,12 @@ msgstr ""
 "Alle [unterstützten Mahnungsarten]{1} sind für die Verwendung mit "
 "eingeklapptem Inhalt verfügbar."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:292
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:291
 #, fuzzy
 msgid "Jinja directives"
 msgstr "Jinja-Richtlinien"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:294
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:293
 #, fuzzy
 msgid ""
 "There are a few features of the documentation that use Jinja directives in "
@@ -4885,7 +4764,7 @@ msgstr ""
 "welche Ermahnung auf der Hauptseite angezeigt werden soll. Diese sind wie "
 "folgt formatiert:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:312
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:311
 #, fuzzy
 msgid ""
 "There is also syntax for substituting symbols or text. This syntax is a "
@@ -4897,12 +4776,12 @@ msgstr ""
 "doppelter geschweifter Klammern eingeschlossen ist und, wenn sie in einer "
 "eigenen Zeile steht, einen Zeilenumbruch davor und danach enthalten muss."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:322
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:321
 #, fuzzy
 msgid "Image formatting"
 msgstr "Bildformatierung"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:324
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:323
 #, fuzzy
 msgid ""
 "Images can have the width set, and can be aligned left, right, and center "
@@ -4914,7 +4793,7 @@ msgstr ""
 "sollten aus Gründen der Barrierefreiheit immer einen aussagekräftigen Alt-"
 "Text enthalten."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:326
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:325
 #, fuzzy
 msgid ""
 "Setting the width of {1}300px{2} on an image would be formatted as follows:"
@@ -4922,14 +4801,14 @@ msgstr ""
 "Die Einstellung der Breite von {1}300px{2} auf einem Bild würde wie folgt "
 "formatiert werden:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:332
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:331
 #, fuzzy
 msgid "Aligning an image left (or right) would be formatted as follows:"
 msgstr ""
 "Ein Bild links (oder rechts) auszurichten, würde folgendermaßen formatiert "
 "werden:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:338
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:337
 #, fuzzy
 msgid ""
 "Adding a caption to an image requires a newline before and after, and is "
@@ -4938,7 +4817,7 @@ msgstr ""
 "Das Hinzufügen einer Bildunterschrift zu einem Bild erfordert einen "
 "Zeilenumbruch vor und nach dem Bild und wird wie folgt formatiert:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:354
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:353
 #, fuzzy
 msgid ""
 "Aligning an image center is not possible with the `align` attribute. The "
@@ -4952,12 +4831,12 @@ msgstr ""
 " davor und danach müssen Sie Zeilenumbrüche einfügen. Die Beschriftung wird "
 "wie folgt formatiert:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:368
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:367
 #, fuzzy
 msgid "Plugins with specific Markdown formatting"
 msgstr "Plugins mit spezieller Markdown-Formatierung"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:370
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:369
 #, fuzzy
 msgid ""
 "The following sections cover how to utilize plugins that require specific "
@@ -4966,12 +4845,12 @@ msgstr ""
 "In den folgenden Abschnitten wird die Verwendung von Plugins beschrieben, "
 "die eine bestimmte Markdown-Formatierung erfordern."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:372
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:371
 #, fuzzy
 msgid "Using Snippets to include external content"
 msgstr "Verwendung von Snippets zur Einbindung externer Inhalte"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:374
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:373
 #, fuzzy
 msgid ""
 "For details on how to include external content from a local file or a URL, "
@@ -4993,12 +4872,12 @@ msgstr ""
 "Teile einer Datei separat einzubinden, z. B. wenn das Quelldokument in "
 "Abschnitte unterteilt ist, die getrennt voneinander injiziert werden sollen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:376
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:375
 #, fuzzy
 msgid "Important notes:"
 msgstr "Wichtige Hinweise:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:378
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:377
 #, fuzzy
 msgid ""
 "We use `-8<-` as the Snippets identifier. The documentation shows several "
@@ -5007,7 +4886,7 @@ msgstr ""
 "Wir verwenden `-8<-` als Snippets-Bezeichner. Die Dokumentation zeigt "
 "mehrere Optionen; bitte folgen Sie unserem Stil."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:379
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:378
 #, fuzzy
 msgid ""
 "Files found in BeeWare Docs Tools shared content are treated as \"local\" "
@@ -5021,7 +4900,7 @@ msgstr ""
 " der Inhalt in einem Unterverzeichnis befindet, nur das Verzeichnis und den "
 "Dateinamen, wie in `-8<- \"style/docs_style_guide.md\"`."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:380
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:379
 #, fuzzy
 msgid ""
 "If you are including external content from a file on GitHub via a URL, you "
@@ -5032,14 +4911,14 @@ msgstr ""
 " _müssen_ Sie die URL des Rohinhalts verwenden, sonst wird die gesamte "
 "Webseite eingebettet, wo immer Sie sie einbinden."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:382
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:381
 #, fuzzy
 msgid "Using Macros to include content from BeeWare Docs Tools shared content"
 msgstr ""
 "Verwendung von Makros zur Einbindung von Inhalten aus BeeWare Docs Tools "
 "freigegebenen Inhalten"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:384
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:383
 #, fuzzy
 msgid ""
 "You can also include content from the BeeWare Docs tools shared content "
@@ -5055,12 +4934,12 @@ msgstr ""
 "funktioniert nicht mit externen Inhalten über eine URL. Der [Macros-"
 "Variablen-Ersetzungsmechanismus]{2} funktioniert mit dieser Methode."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:386
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:385
 #, fuzzy
 msgid "There are options for including content using Macros:"
 msgstr "Es gibt Optionen für die Einbindung von Inhalten mithilfe von Makros:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:388
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:387
 #, fuzzy
 msgid ""
 "Use [the `include` Jinja syntax]{1} if you want to include the document with"
@@ -5069,7 +4948,7 @@ msgstr ""
 "Verwenden Sie [die `include` Jinja-Syntax]{1}, wenn Sie das Dokument ohne "
 "weitere manuelle Änderungen einbinden wollen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:390
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:389
 #, fuzzy
 msgid ""
 "Use [the `extends` Jinja syntax]{1} if you have included Jinja `block` "
@@ -5080,12 +4959,12 @@ msgstr ""
 "`block` in das Dokument aufgenommen haben, die es Ihnen ermöglicht, "
 "bestimmte Abschnitte zu überschreiben oder zu ergänzen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:392
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:391
 #, fuzzy
 msgid "`pyspelling`"
 msgstr "Rechtschreibfehler"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:394
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:393
 #, fuzzy
 msgid ""
 "We use the `pyspelling` spellchecker. It is run during the lint-checks."
@@ -5093,7 +4972,7 @@ msgstr ""
 "Wir verwenden die `pyspelling`-Rechtschreibprüfung. Sie wird während der "
 "Lint-Prüfungen ausgeführt."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:396
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:395
 #, fuzzy
 msgid ""
 "When `pyspelling` identifies a misspelled word, in most cases, it should be "
@@ -5102,7 +4981,7 @@ msgstr ""
 "Wenn `pyspelling` ein falsch geschriebenes Wort identifiziert, sollte es in "
 "den meisten Fällen im Inhalt der Dokumentation korrigiert werden."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:398
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:397
 #, fuzzy
 msgid ""
 "In the rare case that it identifies a valid word that isn't in the "
@@ -5111,7 +4990,7 @@ msgstr ""
 "In dem seltenen Fall, dass ein gültiges Wort gefunden wird, das nicht im "
 "Wörterbuch \"pyspelling\" enthalten ist, haben Sie zwei Möglichkeiten:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:400
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:399
 #, fuzzy
 msgid ""
 "If it is a word that is likely to be reused multiple times, you should add "
@@ -5122,7 +5001,7 @@ msgstr ""
 "wird, sollten Sie das Wort in alphabetischer Reihenfolge in das Dokument "
 "`spelling_wordlist` im Verzeichnis `docs` aufnehmen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:401
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:400
 #, fuzzy
 msgid ""
 "If it is a word that is unlikely to be used again, you can wrap it in a "
@@ -5238,8 +5117,8 @@ msgid "Contributing an issue fix"
 msgstr "Eine Problemlösung beitragen"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:13
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:13
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:40
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:16
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:39
 #: src/beeware_docs_tools/shared_content/en/contribute/what/review_pr.md:17
 #: src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:11
 #: src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:9
@@ -5254,14 +5133,14 @@ msgstr ""
 "indented(template) %}{{ content(template)|indent }}{% endmacro %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:16
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:16
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:19
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:57
 #, fuzzy
 msgid "??? abstract \"Set up a development environment\""
 msgstr "??? abstract \"Entwicklungsumgebung einrichten\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:20
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:20
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:23
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:61
 #, fuzzy
 msgid "??? abstract \"Work from a branch\""
@@ -5291,13 +5170,13 @@ msgstr ""
 "erfordert:**"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:36
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:32
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:35
 #, fuzzy
 msgid "??? abstract \"Build documentation\""
 msgstr "??? abstract \"Dokumentation erstellen\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:40
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:36
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:39
 #, fuzzy
 msgid "??? abstract \"Write documentation\""
 msgstr "??? abstract \"Dokumentation schreiben\""
@@ -5308,14 +5187,14 @@ msgid "**When you're ready to submit your contribution:**"
 msgstr "**Wenn Sie bereit sind, Ihren Beitrag einzureichen:**"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:46
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:40
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:43
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:77
 #, fuzzy
 msgid "??? abstract \"Add a change note\""
 msgstr "??? abstract \"Änderungsnotiz hinzufügen\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:50
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:44
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:47
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:81
 #, fuzzy
 msgid "??? abstract \"Submit a pull request\""
@@ -5368,18 +5247,22 @@ msgstr ""
 "bedeutet zumindest, dass es eine API-Dokumentation gibt, aber es kann auch "
 "erforderlich sein, eine Anleitung oder ein Themenhandbuch hinzuzufügen."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:11
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:9
+msgid "{% block specific_feature_ideas %} {% endblock %}"
+msgstr "{% block specific_feature_ideas %} {% endblock %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:14
 #, fuzzy
 msgid "Contributing new functionality"
 msgstr "Beitrag zu neuen Funktionen"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:24
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:27
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:65
 #, fuzzy
 msgid "??? abstract \"Avoid scope creep\""
 msgstr "??? abstract \"Vermeiden von Umfangsvermehrung\""
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:28
+#: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:31
 #, fuzzy
 msgid "??? abstract \"Implement the new feature\""
 msgstr "??? abstract \"Implementierung der neuen Funktion\""
@@ -5532,15 +5415,15 @@ msgstr ""
 " von Ihnen beschriebene Weise zu implementieren."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:23
-msgid "{% block suggesting_new_features %}"
-msgstr "{% block suggesting_new_features %}"
+msgid "{% block suggesting_new_features %} {% endblock %}"
+msgstr "{% block suggesting_new_features %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:27
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:26
 #, fuzzy
 msgid "Suggesting new documentation { #suggesting-new-docs }"
 msgstr "Vorschlagen neuer Dokumentation { #suggesting-new-docs }"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:29
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:28
 #, fuzzy
 msgid ""
 "Another thing you might want to suggest is an improvement to documentation. "
@@ -5552,7 +5435,7 @@ msgstr ""
 "Dokumentation für {{ formal_name }} haben, sollten Sie diese "
 "berücksichtigen:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:31
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:30
 #, fuzzy
 msgid ""
 "Does your suggestion overlap with existing documentation? Are you proposing "
@@ -5562,7 +5445,7 @@ msgstr ""
 "einen neuen Leitfaden oder eine Ergänzung zu einem bestehenden Leitfaden "
 "vor?"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:32
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:31
 #, fuzzy
 msgid ""
 "How does it fit into the rest of the BeeWare ecosystem? Is this project the "
@@ -5574,7 +5457,7 @@ msgstr ""
 "in einem anderen Projekt dokumentieren und auf diese Dokumentation "
 "verweisen?"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:33
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:32
 #, fuzzy
 msgid ""
 "Is there a high-level concept that needs explanation before any specific "
@@ -5583,7 +5466,7 @@ msgstr ""
 "Gibt es ein übergeordnetes Konzept, das erklärt werden muss, bevor "
 "spezifische Anweisungen sinnvoll sind?"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:34
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:33
 #, fuzzy
 msgid ""
 "Does the topic make sense for us to explain, or has someone else already "
@@ -5592,7 +5475,7 @@ msgstr ""
 "Ist es für uns sinnvoll, das Thema zu erläutern, oder hat es jemand anders "
 "bereits irgendwo behandelt, auf den wir uns beziehen können?"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:36
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:35
 #, fuzzy
 msgid ""
 "If you're unsure about any of this, don't worry! Submit your idea, and let "
@@ -5605,12 +5488,12 @@ msgstr ""
 "sich unsicher sind. Wir können Ihnen dann helfen, Ihre Ideen in eine Form zu"
 " bringen, die zur BeeWare-Dokumentation passt."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:38
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:37
 #, fuzzy
 msgid "Contributing a feature proposal"
 msgstr "Einen Funktionsvorschlag einreichen"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:43
+#: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:42
 #, fuzzy
 msgid "??? abstract \"Proposing a new feature\""
 msgstr "??? abstract \"Vorschlag für eine neue Funktion\""
@@ -6210,6 +6093,153 @@ msgstr "??? abstract \"Baudokumentation\""
 #, fuzzy
 msgid "??? abstract \"Writing documentation\""
 msgstr "??? abstract \"Dokumentation schreiben\""
+
+#, fuzzy
+#~ msgid ""
+#~ "/// admonition | The live preview will build with warnings! type: warning"
+#~ msgstr ""
+#~ "/// admonition | Die Live-Vorschau wird mit Warnungen erstellt! type: "
+#~ "warning"
+
+#, fuzzy
+#~ msgid ""
+#~ "The live serve is available for iterating on your documentation updates. "
+#~ "While you're in the process of updating things, you may introduce a markup "
+#~ "issue. Issues considered a `WARNING` will cause a standard build to fail, "
+#~ "however, the live serve is set up to indicate warnings in the console "
+#~ "output, while continuing to build. This allows you to iterate without "
+#~ "needing to restart the live preview."
+#~ msgstr ""
+#~ "Der Live-Serve steht Ihnen zur Verfügung, um Ihre "
+#~ "Dokumentationsaktualisierungen zu wiederholen. Während Sie Dinge "
+#~ "aktualisieren, können Sie ein Auszeichnungsproblem einführen. Probleme, die "
+#~ "als `WARNING` eingestuft werden, führen dazu, dass ein Standard-Build "
+#~ "fehlschlägt. Der Live-Serve ist jedoch so eingerichtet, dass er Warnungen in"
+#~ " der Konsolenausgabe anzeigt, während der Build fortgesetzt wird. So können "
+#~ "Sie iterieren, ohne die Live-Vorschau neu starten zu müssen."
+
+#, fuzzy
+#~ msgid ""
+#~ "A `WARNING` is different from an `ERROR`. If you introduce an issue that is "
+#~ "considered an `ERROR`, the live serve will fail, and require a restart. It "
+#~ "will not start up again until the `WARNING` issue is resolved."
+#~ msgstr ""
+#~ "Eine `WARNING` unterscheidet sich von einem `ERROR`. Wenn Sie ein Problem "
+#~ "einführen, das als \"ERROR\" eingestuft wird, schlägt der Live-Service fehl "
+#~ "und erfordert einen Neustart. Er wird erst dann wieder gestartet, wenn das "
+#~ "`WARNING`-Problem behoben ist."
+
+#~ msgid "{% block prerequisites_macos %}"
+#~ msgstr "{% block prerequisites_macos %}"
+
+#~ msgid "{% block prerequisites_linux %}"
+#~ msgstr "{% block prerequisites_linux %}"
+
+#~ msgid "{% block prerequisites_windows %}"
+#~ msgstr "{% block prerequisites_windows %}"
+
+#~ msgid "{% block end_matter %}"
+#~ msgstr "{% block end_matter %}"
+
+#, fuzzy
+#~ msgid "/// admonition | The GitHub CLI: `gh` type: info"
+#~ msgstr "/// admonition | Das GitHub CLI: `gh` Typ: info"
+
+#, fuzzy
+#~ msgid ""
+#~ "GitHub provides the [GitHub CLI]{1}, which gives you access to many of the "
+#~ "features of GitHub from your terminal, through the `gh` command. The [GitHub"
+#~ " CLI documentation]{2} covers all the features."
+#~ msgstr ""
+#~ "GitHub stellt die [GitHub CLI]{1} zur Verfügung, mit der Sie von Ihrem "
+#~ "Terminal aus über den Befehl \"gh\" auf viele Funktionen von GitHub "
+#~ "zugreifen können. Die [GitHub CLI-Dokumentation]{2} behandelt alle "
+#~ "Funktionen."
+
+#, fuzzy
+#~ msgid "/// admonition | Review expectations type: info"
+#~ msgstr "/// admonition | Überprüfung der Erwartungen Typ: info"
+
+#, fuzzy
+#~ msgid ""
+#~ "You should expect anyone reviewing your submissions to follow these "
+#~ "guidelines, including reviews from members of the core team. You should also"
+#~ " follow these guidelines when you are reviewing submissions from others."
+#~ msgstr ""
+#~ "Sie sollten erwarten, dass jeder, der Ihre Beiträge begutachtet, diese "
+#~ "Richtlinien befolgt, auch die Mitglieder des Kernteams. Sie sollten diese "
+#~ "Richtlinien auch befolgen, wenn Sie Beiträge von anderen prüfen."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you feel your reviewer is straying from these expectations, and you feel "
+#~ "comfortable raising the issue yourself on the pull request, you can do so. "
+#~ "If you don't feel comfortable, please reach out to the [BeeWare Code of "
+#~ "Conduct Response Team]{1}. We will review your report, and follow up with "
+#~ "your reviewer. The follow-up will reflect the reported action; a minor "
+#~ "transgression may result in a discussion, whereas a major violation may "
+#~ "result in something more serious."
+#~ msgstr ""
+#~ "Wenn Sie das Gefühl haben, dass Ihr Prüfer von diesen Erwartungen abweicht, "
+#~ "und Sie sich wohl dabei fühlen, das Problem selbst in der Pull-Anfrage "
+#~ "anzusprechen, können Sie dies tun. Wenn Sie sich dabei nicht wohl fühlen, "
+#~ "wenden Sie sich bitte an das [BeeWare Code of Conduct Response Team]{1}. Wir"
+#~ " werden Ihren Bericht prüfen und uns mit Ihrem Prüfer in Verbindung setzen. "
+#~ "Das Follow-up wird die gemeldete Aktion widerspiegeln; ein kleinerer Verstoß"
+#~ " kann zu einer Diskussion führen, während ein größerer Verstoß zu etwas "
+#~ "Ernsterem führen kann."
+
+#, fuzzy
+#~ msgid "/// admonition | Marking a conversation as resolved type: info"
+#~ msgstr ""
+#~ "/// admonition | Kennzeichnung einer Unterhaltung als gelöst Typ: info"
+
+#, fuzzy
+#~ msgid ""
+#~ "During the discussion part of the feedback process, you should never mark a "
+#~ "conversation started by your reviewer as \"resolved\". Marking the "
+#~ "conversation as resolved is the responsibility of the reviewer. It's up to "
+#~ "them to determine whether the identified problem has been solved."
+#~ msgstr ""
+#~ "Während des Diskussionsteils des Feedback-Prozesses sollten Sie niemals eine"
+#~ " von Ihrem Prüfer begonnene Unterhaltung als \"gelöst\" markieren. Die "
+#~ "Kennzeichnung des Gesprächs als \"gelöst\" liegt in der Verantwortung des "
+#~ "Beurteilers. Es liegt in seiner Verantwortung zu entscheiden, ob das Problem"
+#~ " gelöst wurde."
+
+#, fuzzy
+#~ msgid "/// admonition | Push, don't force or rebase type: info"
+#~ msgstr "/// admonition | Schieben, nicht erzwingen oder umbasen Typ: info"
+
+#, fuzzy
+#~ msgid ""
+#~ "When you're updating your pull request during a review, it is important to "
+#~ "leave the commit history intact. It doesn't matter if there's a huge list of"
+#~ " commits; they are all squashed when we merge the pull request. If you force"
+#~ " push or rebase your pull request in the middle of a review, you may be "
+#~ "removing important context needed by your reviewer."
+#~ msgstr ""
+#~ "Wenn Sie Ihren Pull Request während einer Überprüfung aktualisieren, ist es "
+#~ "wichtig, die Commit History intakt zu lassen. Es spielt keine Rolle, ob es "
+#~ "eine riesige Liste von Commits gibt; sie werden alle zerquetscht, wenn wir "
+#~ "die Pull-Anfrage zusammenführen. Wenn Sie einen Push oder ein Rebase Ihres "
+#~ "Pull Request mitten in einer Überprüfung erzwingen, entfernen Sie "
+#~ "möglicherweise wichtigen Kontext, der von Ihrem Prüfer benötigt wird."
+
+#~ msgid "{% block code_style %}"
+#~ msgstr "{% block code_style %}"
+
+#, fuzzy
+#~ msgid ""
+#~ "When applying any of the other [supported admonition types]{1}, you add a "
+#~ "`type` directive below the title line, formatted as follows:"
+#~ msgstr ""
+#~ "Wenn Sie eine der anderen [unterstützten Ermahnungsarten]{1} anwenden, fügen"
+#~ " Sie unter der Titelzeile die Anweisung `Typ` ein, die wie folgt formatiert "
+#~ "ist:"
+
+#~ msgid "{% block suggesting_new_features %}"
+#~ msgstr "{% block suggesting_new_features %}"
 
 #, fuzzy
 #~ msgid "What can I do?"

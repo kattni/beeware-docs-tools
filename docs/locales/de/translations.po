@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-11 07:14+0000\n"
+"POT-Creation-Date: 2025-12-12 07:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,8 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.17.4\n"
 
-#: docs/en/SUMMARY.md:1
-#: docs/en/section_one/index.md:1
+#: docs/en/SUMMARY.md:1 docs/en/section_one/index.md:1
 #, fuzzy
 msgid "BeeWare Docs Tools Demo section one"
 msgstr "BeeWare Docs Tools Demo Abschnitt eins"
@@ -42,8 +42,7 @@ msgstr "[Abschnitt drei]{1}"
 msgid "./section_three/*"
 msgstr "./section_three/*"
 
-#: docs/en/SUMMARY.md:7
-#: docs/en/content_test_bed/index.md:1
+#: docs/en/SUMMARY.md:7 docs/en/content_test_bed/index.md:1
 #, fuzzy
 msgid "Shared content test bed"
 msgstr "Prüfstand für gemeinsam genutzte Inhalte"
@@ -273,8 +272,8 @@ msgid ""
 "Before you build the documentation, and have a [development environment]{1} "
 "set up."
 msgstr ""
-"Bevor Sie die Dokumentation erstellen, müssen Sie eine [Entwicklungsumgebung]"
-"{1} einrichten."
+"Bevor Sie die Dokumentation erstellen, müssen Sie eine "
+"[Entwicklungsumgebung]{1} einrichten."
 
 #: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:9
 #: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:15
@@ -417,11 +416,11 @@ msgstr "{% if config.extra.website %}"
 #: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:9
 #, fuzzy
 msgid ""
-"Your pull request may require additional content, such as a [change note]{1}"
-", before it can be [reviewed]{2}."
+"Your pull request may require additional content, such as a [change "
+"note]{1}, before it can be [reviewed]{2}."
 msgstr ""
-"Ihre Pull-Anfrage benötigt möglicherweise zusätzlichen Inhalt, wie z.B. eine "
-"[Änderungsnotiz]{1}, bevor sie [geprüft]{2} werden kann."
+"Ihre Pull-Anfrage benötigt möglicherweise zusätzlichen Inhalt, wie z.B. eine"
+" [Änderungsnotiz]{1}, bevor sie [geprüft]{2} werden kann."
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:11
 #, fuzzy
@@ -431,16 +430,14 @@ msgstr "{% else %}"
 #: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:13
 #, fuzzy
 msgid ""
-"As part of submitting a pull request, you'll need to include a [change note]"
-"{1} before it can be [the reviewed]{2}."
+"As part of submitting a pull request, you'll need to include a [change "
+"note]{1} before it can be [reviewed]{2}."
 msgstr ""
 "Wenn Sie eine Pull-Anfrage einreichen, müssen Sie eine [Änderungsnotiz]{1} "
 "beifügen, bevor sie [geprüft]{2} werden kann."
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:15
-#: docs/en/index.md:102
-#: docs/en/index.md:112
-#: docs/en/index.md:122
+#: docs/en/index.md:102 docs/en/index.md:112 docs/en/index.md:122
 #, fuzzy
 msgid "{% endif %}"
 msgstr "{% endif %}"
@@ -467,12 +464,12 @@ msgstr "{% extends \"contribute/how/write_code.md\" %}"
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:7
 #, fuzzy
 msgid ""
-"To begin working on code, ensure you have a [development environment]{1} set "
-"up, and you are [working on a branch]{2}"
+"To begin working on code, ensure you have a [development environment]{1} set"
+" up, and you are [working on a branch]{2}"
 msgstr ""
 "Um mit der Arbeit am Code zu beginnen, stellen Sie sicher, dass Sie eine "
-"[Entwicklungsumgebung]{1} eingerichtet haben und Sie [an einer Verzweigung]"
-"{2} arbeiten."
+"[Entwicklungsumgebung]{1} eingerichtet haben und Sie [an einer "
+"Verzweigung]{2} arbeiten."
 
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:13
 #, fuzzy
@@ -499,8 +496,8 @@ msgid ""
 "documentation]{1}, and you are [working on a branch]{2}."
 msgstr ""
 "Bevor Sie mit dem Schreiben der Dokumentation beginnen, stellen Sie sicher, "
-"dass Sie in der Lage sind, [die Dokumentation zu erstellen]{1}, und dass Sie "
-"[auf einem Zweig arbeiten]{2}."
+"dass Sie in der Lage sind, [die Dokumentation zu erstellen]{1}, und dass Sie"
+" [auf einem Zweig arbeiten]{2}."
 
 #: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:13
 #, fuzzy
@@ -626,8 +623,8 @@ msgstr ""
 "Dieser Abschnitt dient dazu, die von diesem Repository bereitgestellten "
 "gemeinsamen Inhalte für die Verwendung in der übrigen BeeWare-Dokumentation "
 "zu überprüfen. \"Gemeinsame Inhalte\" beziehen sich auf Dokumente oder "
-"Abschnitte von Dokumenten, die in mehreren anderen Repos vorhanden sind. Sie "
-"werden hier gespeichert, um in diese Repos aufgenommen zu werden. Das "
+"Abschnitte von Dokumenten, die in mehreren anderen Repos vorhanden sind. Sie"
+" werden hier gespeichert, um in diese Repos aufgenommen zu werden. Das "
 "bedeutet, dass es eine einzige Quelle gibt, wenn Aktualisierungen "
 "erforderlich sind, und dass diese Änderungen in alle Repos übernommen "
 "werden, die diese gemeinsamen Inhalte verwenden."
@@ -635,12 +632,12 @@ msgstr ""
 #: docs/en/content_test_bed/index.md:5
 #, fuzzy
 msgid ""
-"If you are updating existing content, the following steps are not necessary. "
-"You can simply build the test site, and see your updates rendered."
+"If you are updating existing content, the following steps are not necessary."
+" You can simply build the test site, and see your updates rendered."
 msgstr ""
-"Wenn Sie bestehende Inhalte aktualisieren, sind die folgenden Schritte nicht "
-"erforderlich. Sie können einfach die Test-Site erstellen und sehen, wie Ihre "
-"Aktualisierungen gerendert werden."
+"Wenn Sie bestehende Inhalte aktualisieren, sind die folgenden Schritte nicht"
+" erforderlich. Sie können einfach die Test-Site erstellen und sehen, wie "
+"Ihre Aktualisierungen gerendert werden."
 
 #: docs/en/content_test_bed/index.md:7
 #, fuzzy
@@ -650,8 +647,8 @@ msgid ""
 "complete the following:"
 msgstr ""
 "Wenn Sie eine neue gemeinsame Dokumentationsdatei im Verzeichnis `shared-"
-"content` erstellen, die NICHT in das Verzeichnis `how-to` aufgenommen werden "
-"soll, gehen Sie wie folgt vor:"
+"content` erstellen, die NICHT in das Verzeichnis `how-to` aufgenommen werden"
+" soll, gehen Sie wie folgt vor:"
 
 #: docs/en/content_test_bed/index.md:9
 #, fuzzy
@@ -693,18 +690,19 @@ msgid ""
 "include the new `_include` file and path, at the same indentation level as "
 "the other items in that section."
 msgstr ""
-"Aktualisieren Sie den Abschnitt `Shared content test bed` in `/docs/"
-"SUMMARY.md`, um die neue `_include` Datei und den Pfad auf der gleichen "
-"Einrückungsebene wie die anderen Elemente in diesem Abschnitt aufzunehmen."
+"Aktualisieren Sie den Abschnitt `Shared content test bed` in "
+"`/docs/SUMMARY.md`, um die neue `_include` Datei und den Pfad auf der "
+"gleichen Einrückungsebene wie die anderen Elemente in diesem Abschnitt "
+"aufzunehmen."
 
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
 msgid ""
-"For `style_guide_include.md`, you would add `- [Style guide]"
-"(content_test_bed/style_guide_include.md)`."
+"For `style_guide_include.md`, you would add `- [Style "
+"guide](content_test_bed/style_guide_include.md)`."
 msgstr ""
-"Für `style_guide_include.md` würden Sie `- [Style guide](content_test_bed/"
-"style_guide_include.md)` hinzufügen."
+"Für `style_guide_include.md` würden Sie `- [Style "
+"guide](content_test_bed/style_guide_include.md)` hinzufügen."
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -712,8 +710,8 @@ msgid ""
 "Once these steps are completed, you can build the test site and view your "
 "new documentation rendered."
 msgstr ""
-"Sobald diese Schritte abgeschlossen sind, können Sie die Test-Site erstellen "
-"und Ihre neue Dokumentation gerendert betrachten."
+"Sobald diese Schritte abgeschlossen sind, können Sie die Test-Site erstellen"
+" und Ihre neue Dokumentation gerendert betrachten."
 
 #: docs/en/index.md:1
 #, fuzzy
@@ -777,8 +775,8 @@ msgstr "Symbol für die Seitenleiste der Homepage"
 msgid ""
 "The logo icon in the left sidebar has been rendered. The logo should be the "
 "width of, and of equal height to, the sidebar. The site title should be "
-"rendered below it in slightly larger font than the rest of the sidebar, with "
-"the version number below it in smaller font."
+"rendered below it in slightly larger font than the rest of the sidebar, with"
+" the version number below it in smaller font."
 msgstr ""
 "Das Logo-Symbol in der linken Seitenleiste wurde gerendert. Das Logo sollte "
 "die gleiche Breite und Höhe haben wie die Seitenleiste. Der Titel der "
@@ -855,12 +853,8 @@ msgstr ""
 msgid "/// tab | macOS"
 msgstr "/// tab | macOS"
 
-#: docs/en/index.md:43
-#: docs/en/index.md:51
-#: docs/en/index.md:59
-#: docs/en/index.md:100
-#: docs/en/index.md:110
-#: docs/en/index.md:120
+#: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59
+#: docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
 msgid "///"
 msgstr "///"
 
@@ -889,13 +883,13 @@ msgstr ""
 #: docs/en/index.md:69
 #, fuzzy
 msgid ""
-"The copy button on the following codeblock should result in `ls beeware-docs-"
-"tools` being copied to the clipboard. The shell prompt and the output should "
-"not be included."
+"The copy button on the following codeblock should result in `ls beeware-"
+"docs-tools` being copied to the clipboard. The shell prompt and the output "
+"should not be included."
 msgstr ""
-"Die Kopierschaltfläche des folgenden Codeblocks sollte dazu führen, dass `ls "
-"beeware-docs-tools` in die Zwischenablage kopiert wird. Der Shell-Prompt und "
-"die Ausgabe sollten nicht enthalten sein."
+"Die Kopierschaltfläche des folgenden Codeblocks sollte dazu führen, dass `ls"
+" beeware-docs-tools` in die Zwischenablage kopiert wird. Der Shell-Prompt "
+"und die Ausgabe sollten nicht enthalten sein."
 
 #: docs/en/index.md:78
 #, fuzzy
@@ -910,10 +904,10 @@ msgid ""
 "has been set in the MkDocs configuration file, and the version number is "
 "computed and added."
 msgstr ""
-"Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-tools\"-"
-"Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste geladen wurde "
-"und der \"Projektname\" in der MkDocs-Konfigurationsdatei gesetzt wurde, und "
-"die Versionsnummer wird berechnet und hinzugefügt."
+"Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-"
+"tools\"-Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste "
+"geladen wurde und der \"Projektname\" in der MkDocs-Konfigurationsdatei "
+"gesetzt wurde, und die Versionsnummer wird berechnet und hinzugefügt."
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -943,8 +937,8 @@ msgid ""
 "When scrolling down the page, the active header link in the right sidebar "
 "should be light blue in dark mode, and darker blue in light mode."
 msgstr ""
-"Wenn Sie auf der Seite nach unten scrollen, sollte der aktive Header-Link in "
-"der rechten Seitenleiste im dunklen Modus hellblau und im hellen Modus "
+"Wenn Sie auf der Seite nach unten scrollen, sollte der aktive Header-Link in"
+" der rechten Seitenleiste im dunklen Modus hellblau und im hellen Modus "
 "dunkler blau sein."
 
 #: docs/en/index.md:90
@@ -955,14 +949,14 @@ msgstr "Übersetzung Ermahnung"
 #: docs/en/index.md:92
 #, fuzzy
 msgid ""
-"The English-language version of this document should show the \"Translations "
-"are available\" admonition below. The French translation should show the "
-"\"This is a machine translation!\" admonition. The German translation should "
-"show the \"This is a translation!\" admonition for human translations."
+"The English-language version of this document should show the \"Translations"
+" are available\" admonition below. The French translation should show the "
+"\"This is a machine translation!\" admonition. The German translation should"
+" show the \"This is a translation!\" admonition for human translations."
 msgstr ""
 "Die englischsprachige Version dieses Dokuments sollte den Hinweis "
-"\"Translations are available\" anzeigen. Die französische Übersetzung sollte "
-"den Hinweis \"Dies ist eine maschinelle Übersetzung\" enthalten. Die "
+"\"Translations are available\" anzeigen. Die französische Übersetzung sollte"
+" den Hinweis \"Dies ist eine maschinelle Übersetzung\" enthalten. Die "
 "deutsche Übersetzung sollte den Hinweis \"Dies ist eine Übersetzung\" für "
 "menschliche Übersetzungen enthalten."
 
@@ -999,12 +993,12 @@ msgstr "/// admonition | Dies ist eine maschinelle Übersetzung!"
 #, fuzzy
 msgid ""
 "This version of the tutorial has been generated by machine translation. We "
-"know this isn't ideal, but we felt that a bad translation was better than no "
-"translation at all."
+"know this isn't ideal, but we felt that a bad translation was better than no"
+" translation at all."
 msgstr ""
 "Diese Version des Tutorials wurde durch maschinelle Übersetzung erstellt. "
-"Wir wissen, dass dies nicht ideal ist, aber wir waren der Meinung, dass eine "
-"schlechte Übersetzung besser ist als gar keine Übersetzung."
+"Wir wissen, dass dies nicht ideal ist, aber wir waren der Meinung, dass eine"
+" schlechte Übersetzung besser ist als gar keine Übersetzung."
 
 #: docs/en/index.md:114
 #, fuzzy
@@ -1023,8 +1017,8 @@ msgid ""
 "been reviewed by humans, but newer sections may be generated by machine "
 "translation, or not translated at all."
 msgstr ""
-"Dieses Dokument ist eine Übersetzung der englischen Version. Die Übersetzung "
-"wurde von Menschen überprüft, aber neuere Abschnitte können durch "
+"Dieses Dokument ist eine Übersetzung der englischen Version. Die Übersetzung"
+" wurde von Menschen überprüft, aber neuere Abschnitte können durch "
 "maschinelle Übersetzung erzeugt oder überhaupt nicht übersetzt worden sein."
 
 #: docs/en/index.md:124
@@ -1036,14 +1030,14 @@ msgstr "Benutzerdefinierte 404-Seite"
 #, fuzzy
 msgid ""
 "Add `nopage` to the end of the URL in your browser to verify the 404 page "
-"exists, and includes the text \"Brutus can't find what you're looking for\". "
-"The current 404 page does not always render the images due to an issue with "
-"MkDocs."
+"exists, and includes the text \"Brutus can't find what you're looking for\"."
+" The current 404 page does not always render the images due to an issue with"
+" MkDocs."
 msgstr ""
 "Fügen Sie `nopage` am Ende der URL in Ihrem Browser ein, um zu überprüfen, "
 "ob die 404-Seite existiert und den Text \"Brutus kann nicht finden, wonach "
-"Sie suchen\" enthält. Die aktuelle 404-Seite zeigt die Bilder aufgrund eines "
-"Problems mit MkDocs nicht immer an."
+"Sie suchen\" enthält. Die aktuelle 404-Seite zeigt die Bilder aufgrund eines"
+" Problems mit MkDocs nicht immer an."
 
 #: docs/en/index.md:128
 #, fuzzy
@@ -1051,9 +1045,9 @@ msgid ""
 "*MkDocs builds fail with unrecognized internal links, so you need to "
 "manually verify this check by modifying the URL in your browser.*"
 msgstr ""
-"*MkDocs-Builds schlagen bei nicht erkannten internen Links fehl, so dass Sie "
-"diese Prüfung manuell überprüfen müssen, indem Sie die URL in Ihrem Browser "
-"ändern."
+"*MkDocs-Builds schlagen bei nicht erkannten internen Links fehl, so dass Sie"
+" diese Prüfung manuell überprüfen müssen, indem Sie die URL in Ihrem Browser"
+" ändern."
 
 #: docs/en/index.md:130
 #, fuzzy
@@ -1109,13 +1103,13 @@ msgstr "Externes Markdown aus einer lokalen Datei einbinden"
 #: docs/en/section_one/index.md:11
 #, fuzzy
 msgid ""
-"The following section should have only a header, and a paragraph with inline "
-"code followed by a code block. There should be no text between the code "
-"block and the next header. This verifies that the external include extension "
-"is working with local files."
+"The following section should have only a header, and a paragraph with inline"
+" code followed by a code block. There should be no text between the code "
+"block and the next header. This verifies that the external include extension"
+" is working with local files."
 msgstr ""
-"Der folgende Abschnitt sollte nur aus einer Überschrift und einem Absatz mit "
-"Inline-Code, gefolgt von einem Codeblock, bestehen. Zwischen dem Codeblock "
+"Der folgende Abschnitt sollte nur aus einer Überschrift und einem Absatz mit"
+" Inline-Code, gefolgt von einem Codeblock, bestehen. Zwischen dem Codeblock "
 "und der nächsten Überschrift sollte kein Text stehen. Damit wird "
 "sichergestellt, dass die externe Include-Erweiterung mit lokalen Dateien "
 "arbeitet."
@@ -1134,8 +1128,8 @@ msgstr "Externes Markdown von einer URL einbinden"
 #, fuzzy
 msgid ""
 "The following section should have only a header, some text and a Markdown "
-"list. This verifies that the external include extension is working, and that "
-"`url_download` is enabled."
+"list. This verifies that the external include extension is working, and that"
+" `url_download` is enabled."
 msgstr ""
 "Der folgende Abschnitt sollte nur eine Überschrift, etwas Text und eine "
 "Markdown-Liste enthalten. Damit wird überprüft, ob die externe Include-"
@@ -1144,11 +1138,11 @@ msgstr ""
 #: docs/en/section_one/index.md:21
 #, fuzzy
 msgid ""
-"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/"
-"main/docs/include_content.md:remote-content -8<-"
+"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-"
+"tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
 msgstr ""
-"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/"
-"main/docs/include_content.md:remote-content -8<-"
+"-8<- https://raw.githubusercontent.com/beeware/beeware-docs-"
+"tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
 
 #: docs/en/section_one/index.md:27
 #, fuzzy
@@ -1193,12 +1187,13 @@ msgstr "Klassenreferenzdokumentation"
 #, fuzzy
 msgid ""
 "The following should show the reference documentation for the `DocsTest` "
-"class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. "
-"This verifies that the source code directory symlinking is working properly."
+"class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory."
+" This verifies that the source code directory symlinking is working "
+"properly."
 msgstr ""
 "Das Folgende sollte die Referenzdokumentation für die Klasse `DocsTest` "
-"anzeigen, die sich in `docs_test.py` im Verzeichnis `src/beeware_docs_tools` "
-"befindet. Damit wird überprüft, ob das Symlinking des Quellcode-"
+"anzeigen, die sich in `docs_test.py` im Verzeichnis `src/beeware_docs_tools`"
+" befindet. Damit wird überprüft, ob das Symlinking des Quellcode-"
 "Verzeichnisses richtig funktioniert."
 
 #: docs/en/section_one/page_two.md:11
@@ -1240,8 +1235,8 @@ msgid ""
 "the footer."
 msgstr ""
 "Dieser Abschnitt und seine untergeordneten Abschnitte sind für den Test der "
-"Bildlaufleiste enthalten. Vergewissern Sie sich, dass die Bildlaufleiste auf "
-"Displays mit geringerer Höhe navigierbar ist, dass Sie die gesamte Liste "
+"Bildlaufleiste enthalten. Vergewissern Sie sich, dass die Bildlaufleiste auf"
+" Displays mit geringerer Höhe navigierbar ist, dass Sie die gesamte Liste "
 "(Seite 01 - Seite 12) blättern können und dass sie die Fußzeile nicht "
 "überlappt."
 
@@ -1294,6 +1289,14 @@ msgstr ""
 "Der hier angegebene Link sollte Sie zum Abschnitt [Überschrift-"
 "Schriftart][schriftart-der-uberschrift] auf der Hauptseite führen. Er ist "
 "enthalten, um die `autoref`-Verknüpfung zu überprüfen."
+
+#, fuzzy
+#~ msgid ""
+#~ "As part of submitting a pull request, you'll need to include a [change "
+#~ "note]{1} before it can be [the reviewed]{2}."
+#~ msgstr ""
+#~ "Wenn Sie eine Pull-Anfrage einreichen, müssen Sie eine [Änderungsnotiz]{1} "
+#~ "beifügen, bevor sie [geprüft]{2} werden kann."
 
 #, fuzzy
 #~ msgid "[Style guide]{1}"
