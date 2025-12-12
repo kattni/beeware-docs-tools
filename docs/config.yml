@@ -94,6 +94,7 @@ markdown_extensions:
     permalink: true
     title: On this page
   attr_list: {}
+  admonition: {}  # Enabled for all admonition types EXCEPT note and admonition (which defaults to note)
 
 plugins:
   search: {}
