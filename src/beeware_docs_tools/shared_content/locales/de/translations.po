@@ -4816,7 +4816,7 @@ msgid ""
 "failure, danger, bug, example, and quote."
 msgstr ""
 "Unterstützt werden folgende Typen: abstract, info, tip, success, question, warning, "
-"failure, danger, bug, example, and quote."
+"failure, danger, bug, example, und quote."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs_style_guide.md:226
 #, fuzzy
@@ -5300,7 +5300,7 @@ msgstr "??? abstract \"Dokumentation erstellen\""
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:36
 #, fuzzy
 msgid "??? abstract \"Write documentation\""
-msgstr "??? abstract \"Write documentation\" (Dokumentation schreiben)"
+msgstr "??? abstract \"Dokumentation schreiben\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:44
 #, fuzzy

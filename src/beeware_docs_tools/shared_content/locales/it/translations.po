@@ -5683,7 +5683,7 @@ msgstr "Contribuire alle traduzioni"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:14
 #, fuzzy
 msgid "??? abstract \"Translate content\""
-msgstr "Astratto \"Traduci contenuto\""
+msgstr "??? abstract \"Traduci contenuto\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:1
 #, fuzzy
