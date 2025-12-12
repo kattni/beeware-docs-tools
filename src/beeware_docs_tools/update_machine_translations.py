@@ -1,4 +1,5 @@
 import os
+import re
 import textwrap
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
@@ -94,6 +95,22 @@ def translate(client, path, language):
                     ]
                 )
                 fuzzy = True
+        elif entry.msgid.startswith("???"):
+            # Only translate the content after collapse indicator
+            parts = entry.msgid.split(" ", 2)
+            translated = " ".join(
+                [
+                    parts[0],
+                    parts[1],
+                    client.translate_text(parts[2], target_lang=deepl_lang).text,
+                ]
+            )
+            fuzzy = True
+        elif match := re.match("(.*)( { #[-\w]* })", entry.msgid):
+            # A title with an explicit anchor should only translate the
+            title = client.translate_text(match.group(1), target_lang=deepl_lang).text
+            translated = f"{title}{match.group(2)}"
+            fuzzy = True
         elif (entry.msgid.startswith("{{") and entry.msgid.endswith("}}")) or (
             entry.msgid.startswith("{%") and entry.msgid.endswith("%}")
         ):

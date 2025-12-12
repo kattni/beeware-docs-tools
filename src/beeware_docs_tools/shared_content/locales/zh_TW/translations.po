@@ -4217,20 +4217,20 @@ msgstr ""
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:57
 #, fuzzy
 msgid "??? abstract \"Set up a development environment\""
-msgstr "摘要 「設定開發環境」"
+msgstr "??? abstract 「設定開發環境」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:20
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:20
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:61
 #, fuzzy
 msgid "??? abstract \"Work from a branch\""
-msgstr "抽象的 「在樹枝上工作」"
+msgstr "??? abstract 「在樹枝上工作」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:24
 #: src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:12
 #, fuzzy
 msgid "??? abstract \"Reproduce the issue\""
-msgstr "摘要 「重現問題」"
+msgstr "??? abstract 「重現問題」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:28
 #, fuzzy
@@ -4240,7 +4240,7 @@ msgstr "**如果修復問題需要變更程式碼：**"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:30
 #, fuzzy
 msgid "??? abstract \"Write, run, and test code\""
-msgstr "摘要 「編寫、執行並測試程式碼」"
+msgstr "??? abstract 「編寫、執行並測試程式碼」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:34
 #, fuzzy
@@ -4251,13 +4251,13 @@ msgstr "**如果修正問題需要變更文件：**"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:32
 #, fuzzy
 msgid "??? abstract \"Build documentation\""
-msgstr "摘要 「建立文件」"
+msgstr "??? abstract 「建立文件」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:40
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:36
 #, fuzzy
 msgid "??? abstract \"Write documentation\""
-msgstr "摘要「撰寫文件"
+msgstr "??? abstract 「撰寫文件"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:44
 #, fuzzy
@@ -4269,14 +4269,14 @@ msgstr "**當您準備好提交您的貢獻時：**"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:77
 #, fuzzy
 msgid "??? abstract \"Add a change note\""
-msgstr "摘要 「新增變更備註」"
+msgstr "??? abstract 「新增變更備註」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:50
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:44
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:81
 #, fuzzy
 msgid "??? abstract \"Submit a pull request\""
-msgstr "摘要 「提交拉取請求」"
+msgstr "??? abstract 「提交拉取請求」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:1
 #, fuzzy
@@ -4318,12 +4318,12 @@ msgstr "貢獻新功能"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:65
 #, fuzzy
 msgid "??? abstract \"Avoid scope creep\""
-msgstr "抽象的「避免範圍擴大」？"
+msgstr "??? abstract「避免範圍擴大」？"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:28
 #, fuzzy
 msgid "??? abstract \"Implement the new feature\""
-msgstr "摘要 「執行新功能」"
+msgstr "??? abstract 「執行新功能」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:1
 #, fuzzy
@@ -4501,7 +4501,7 @@ msgstr "貢獻功能提案"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:43
 #, fuzzy
 msgid "??? abstract \"Proposing a new feature\""
-msgstr "摘要 「提出新功能」"
+msgstr "??? abstract 「提出新功能」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/review_pr.md:1
 #, fuzzy
@@ -4575,7 +4575,7 @@ msgstr "貢獻一個拉取請求檢閱"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/review_pr.md:20
 #, fuzzy
 msgid "??? abstract \"Providing a pull request review\""
-msgstr "摘要 「提供拉取請求檢閱」"
+msgstr "??? abstract 「提供拉取請求檢閱」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:1
 #, fuzzy
@@ -4623,7 +4623,7 @@ msgstr "貢獻翻譯"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:14
 #, fuzzy
 msgid "??? abstract \"Translate content\""
-msgstr "摘要 「翻譯內容」"
+msgstr "??? abstract 「翻譯內容」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:1
 #, fuzzy
@@ -4709,12 +4709,12 @@ msgstr "貢獻工具的使用"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/use_tools.md:14
 #, fuzzy
 msgid "??? abstract \"Submit a new issue\""
-msgstr "摘要 「提交新問題」"
+msgstr "??? abstract 「提交新問題」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/use_tools.md:18
 #, fuzzy
 msgid "??? abstract \"Propose a new feature\""
-msgstr "摘要 「提出新功能」"
+msgstr "??? abstract 「提出新功能」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:1
 #, fuzzy
@@ -4951,17 +4951,17 @@ msgstr "貢獻文件"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:53
 #, fuzzy
 msgid "??? abstract \"Proposing new documentation\""
-msgstr "摘要 「提出新文件」"
+msgstr "??? abstract 「提出新文件」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:69
 #, fuzzy
 msgid "??? abstract \"Building documentation\""
-msgstr "摘要 「建立文件」"
+msgstr "??? abstract 「建立文件」"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:73
 #, fuzzy
 msgid "??? abstract \"Writing documentation\""
-msgstr "摘要 「撰寫文件」"
+msgstr "??? abstract 「撰寫文件」"
 
 #, fuzzy
 #~ msgid "What can I do?"

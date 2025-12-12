@@ -5143,20 +5143,20 @@ msgstr ""
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:57
 #, fuzzy
 msgid "??? abstract \"Set up a development environment\""
-msgstr "Resumo \"Configurar um ambiente de desenvolvimento\""
+msgstr "??? abstract \"Configurar um ambiente de desenvolvimento\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:20
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:20
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:61
 #, fuzzy
 msgid "??? abstract \"Work from a branch\""
-msgstr "Resumo \"Trabalhe em uma filial\""
+msgstr "??? abstract \"Trabalhe em uma filial\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:24
 #: src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:12
 #, fuzzy
 msgid "??? abstract \"Reproduce the issue\""
-msgstr "Resumo \"Reproduza o problema\""
+msgstr "??? abstract \"Reproduza o problema\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:28
 #, fuzzy
@@ -5166,7 +5166,7 @@ msgstr "**Se a correção do problema exigir alterações no código:**"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:30
 #, fuzzy
 msgid "??? abstract \"Write, run, and test code\""
-msgstr "Resumo \"Escreva, execute e teste o código\""
+msgstr "??? abstract \"Escreva, execute e teste o código\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:34
 #, fuzzy
@@ -5177,13 +5177,13 @@ msgstr "**Se a correção do problema exigir alterações na documentação:**"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:32
 #, fuzzy
 msgid "??? abstract \"Build documentation\""
-msgstr "Resumo \"Construir documentação\""
+msgstr "??? abstract \"Construir documentação\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:40
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:36
 #, fuzzy
 msgid "??? abstract \"Write documentation\""
-msgstr "Resumo \"Escreva a documentação"
+msgstr "??? abstract \"Escreva a documentação"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:44
 #, fuzzy
@@ -5195,7 +5195,7 @@ msgstr "**Quando você estiver pronto para enviar sua contribuição:**"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:77
 #, fuzzy
 msgid "??? abstract \"Add a change note\""
-msgstr "Resumo \"Adicionar uma nota de alteração\""
+msgstr "??? abstract \"Adicionar uma nota de alteração\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix_issue.md:50
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:44
@@ -5260,12 +5260,12 @@ msgstr "Contribuir com novas funcionalidades"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:65
 #, fuzzy
 msgid "??? abstract \"Avoid scope creep\""
-msgstr "Resumo \"Evite o aumento do escopo\""
+msgstr "??? abstract \"Evite o aumento do escopo\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:28
 #, fuzzy
 msgid "??? abstract \"Implement the new feature\""
-msgstr "Resumo \"Implementar o novo recurso\""
+msgstr "??? abstract \"Implementar o novo recurso\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:1
 #, fuzzy
@@ -5488,7 +5488,7 @@ msgstr "Contribuir com uma proposta de recurso"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:43
 #, fuzzy
 msgid "??? abstract \"Proposing a new feature\""
-msgstr "Resumo \"Propondo um novo recurso\""
+msgstr "??? abstract \"Propondo um novo recurso\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/review_pr.md:1
 #, fuzzy
@@ -5581,7 +5581,7 @@ msgstr "Contribuir com uma revisão de pull request"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/review_pr.md:20
 #, fuzzy
 msgid "??? abstract \"Providing a pull request review\""
-msgstr "Resumo \"Fornecendo uma revisão de pull request\""
+msgstr "??? abstract \"Fornecendo uma revisão de pull request\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:1
 #, fuzzy
@@ -5641,7 +5641,7 @@ msgstr "Traduções contributivas"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:14
 #, fuzzy
 msgid "??? abstract \"Translate content\""
-msgstr "Resumo \"Traduzir conteúdo\""
+msgstr "??? abstract \"Traduzir conteúdo\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:1
 #, fuzzy
@@ -5748,12 +5748,12 @@ msgstr "Contribuição para o uso da ferramenta"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/use_tools.md:14
 #, fuzzy
 msgid "??? abstract \"Submit a new issue\""
-msgstr "Resumo \"Enviar uma nova edição\""
+msgstr "??? abstract \"Enviar uma nova edição\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/use_tools.md:18
 #, fuzzy
 msgid "??? abstract \"Propose a new feature\""
-msgstr "Resumo \"Proponha um novo recurso\""
+msgstr "??? abstract \"Proponha um novo recurso\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:1
 #, fuzzy
@@ -6064,17 +6064,17 @@ msgstr "Contribuição com documentação"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:53
 #, fuzzy
 msgid "??? abstract \"Proposing new documentation\""
-msgstr "Resumo \"Propondo nova documentação\""
+msgstr "??? abstract \"Propondo nova documentação\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:69
 #, fuzzy
 msgid "??? abstract \"Building documentation\""
-msgstr "Resumo \"Construção de documentação\""
+msgstr "??? abstract \"Construção de documentação\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write_docs.md:73
 #, fuzzy
 msgid "??? abstract \"Writing documentation\""
-msgstr "Resumo \"Escrevendo documentação\""
+msgstr "??? abstract \"Escrevendo documentação\""
 
 #, fuzzy
 #~ msgid "What can I do?"
