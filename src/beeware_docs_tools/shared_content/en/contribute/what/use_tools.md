@@ -6,7 +6,7 @@ However, if you're not successful, let us know what went wrong. Was there a miss
 
 If you do experience any problems, start a new discussion topic, as it may be the start of a new issue or feature proposal.
 
-### Contributing tool usage
+## Contributing tool usage
 
 {% macro content(template) %}{% include template %}{% endmacro %}
 {% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}

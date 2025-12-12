@@ -12,7 +12,7 @@ Yes! You can offer a review on any pull request you see open on {{ formal_name }
 
 As a first-time contributor, you should feel free to review any pull request you find, even if it was submitted by a core team member. If you're a novice, you might be missing some larger project context; but we aim to keep the codebase approachable regardless of your level of experience. If there's something in the code that doesn't make sense, that might indicate there's a need for more documentation (either in the code, or as standalone design documentation).
 
-### Contributing a pull request review
+## Contributing a pull request review
 
 {% macro content(template) %}{% include template %}{% endmacro %}
 {% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}

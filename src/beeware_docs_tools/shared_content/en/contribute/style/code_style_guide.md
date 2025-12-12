@@ -9,7 +9,6 @@ Keep in mind that the most important part of PEP 8 is [Section 0: A Foolish Cons
 We follow US spelling for API naming, variables, etc.
 
 {% block code_style %}
-
 {% endblock %}
 
 ### Things to avoid
