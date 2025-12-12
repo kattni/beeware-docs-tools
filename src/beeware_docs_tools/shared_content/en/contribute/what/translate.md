@@ -6,7 +6,7 @@ We use Weblate to manage our translations. Weblate is a tool that lets us treat 
 
 We use [DeepL](https://www.deepl.com/en/translator) for machine translation to produce a first pass at translations. Machine translations are far from perfect, but they're usually good enough as a first draft. The expectation is that these machine translations will be edited, reviewed, and improved as necessary.
 
-### Contributing translations
+## Contributing translations
 
 {% macro content(template) %}{% include template %}{% endmacro %}
 {% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}

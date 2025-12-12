@@ -23,7 +23,6 @@ If you have more than one version of Python installed, you may need to replace `
 We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on macOS often lag usually aren't available for recently released stable Python versions.
 
 {% block prerequisites_macos %}
-
 {% endblock %}
 
 {% if not config.extra.macos_only %}
@@ -45,7 +44,6 @@ If you have more than one version of Python installed, you may need to replace `
 We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Linux often lag usually aren't available for recently released stable Python versions.
 
 {% block prerequisites_linux %}
-
 {% endblock %}
 
 ///
@@ -65,7 +63,6 @@ If you have more than one version of Python installed, you may need to replace t
 We recommend avoiding recently released version of Python (i.e., versions that have a ".0" or ".1" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Windows often lag usually aren't available for recently released stable Python versions.
 
 {% block prerequisites_windows %}
-
 {% endblock %}
 
 ///

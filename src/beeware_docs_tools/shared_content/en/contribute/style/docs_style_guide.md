@@ -206,20 +206,19 @@ Note text here.
 Content below.
 ```
 
-When applying any of the other [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types), you add a `type` directive below the title line, formatted as follows:
+When using any of the other [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types), you'll use the following format. Ensure the admonition content is tabbed over four spaces, as follows:
 
+<!-- rumdl-disable MD031 -->
 ```markdown
 Content above.
 
-/// admonition | Info title
-    type: info
+!!! info "Info title"
 
-Info text here.
-
-///
+    Info text here.
 
 Content below.
 ```
+<!-- rumdl-disable MD031 -->
 
 Supported types include: abstract, info, tip, success, question, warning, failure, danger, bug, example, and quote.
 
