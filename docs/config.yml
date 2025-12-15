@@ -53,6 +53,8 @@ theme:
     - toc.follow
     - navigation.indexes
     - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
