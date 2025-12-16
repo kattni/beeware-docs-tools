@@ -34,7 +34,7 @@
 {% endif %}
 
 <!-- Navigation path (breadcrumbs) -->
-{% if depth %}
+{% if depth =< 1 %}
   <nav class="md-path" aria-label="{{ lang.t('nav') }}" {{ hidden }}>
     <ol class="md-path__list">
 
