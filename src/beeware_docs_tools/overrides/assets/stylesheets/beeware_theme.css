@@ -109,6 +109,10 @@ h1.title-index a.headerlink,
     justify-content: center;
 }
 
+.sidebar-index {
+    background-color: light-dark(#E9ECEF, #282D32);
+}
+
 @media screen and (min-width: 690px) {
     .intro-block-index {
         display: flex;
@@ -134,7 +138,6 @@ h1.title-index a.headerlink,
         flex-direction: column;
         flex: 30%;
         padding: 15px;
-        background-color: light-dark(#E9ECEF, #282D32);
         height: fit-content;
         border-radius: 15px;
         margin: 1.5rem 0 0 0.5rem;
