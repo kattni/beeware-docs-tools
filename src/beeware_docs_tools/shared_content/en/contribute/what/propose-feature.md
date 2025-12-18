@@ -41,4 +41,4 @@ If you're unsure about any of this, don't worry! Submit your idea, and let us kn
 
 ??? abstract "Proposing a new feature"
 
-    {{ indented("contribute/how/propose_feature.md") }}
+    {{ indented("contribute/how/propose-feature.md") }}
