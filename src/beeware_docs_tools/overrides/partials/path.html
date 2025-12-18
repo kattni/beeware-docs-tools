@@ -34,18 +34,20 @@
 {% endif %}
 
 <!-- Navigation path (breadcrumbs) -->
-{% if depth > 1 %}
+{% if depth %}
   <nav class="md-path" aria-label="{{ lang.t('nav') }}" {{ hidden }}>
     <ol class="md-path__list">
 
-      <!-- Render homepage first, if available -->
       {% if nav.homepage %}
+        <!-- Render homepage -->
         {{ item.render(nav.homepage) }}
       {% endif %}
 
       <!-- Render ancestors in reverse -->
       {% for nav_item in page.ancestors | reverse %}
-        {{ item.render(nav_item) }}
+        {% if not loop.last or page.title != nav_item.title %}
+          {{ item.render(nav_item) }}
+        {% endif %}
       {% endfor %}
     </ol>
   </nav>
