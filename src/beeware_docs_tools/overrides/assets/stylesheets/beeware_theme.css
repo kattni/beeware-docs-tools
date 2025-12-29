@@ -89,6 +89,7 @@ nav.md-tabs, .md-header {
 .md-search {
     margin-left: 1rem;
 }
+
 input.md-search__input,
 .md-search__suggest,
 .md-search-result__meta {
@@ -151,6 +152,10 @@ a.md-nav__link[for]:hover {
     font-size: 3rem;
 }
 
+.md-typeset h2 {
+    font-size: 2.35rem;
+}
+
 .md-typeset h3 {
     font-size: 1.875rem;
 }
@@ -176,12 +181,11 @@ a.md-nav__link,
 a.md-nav__link[for]:focus,
 a.md-nav__link[for]:hover {
     color: light-dark(#084AFF, #526CFE);
-.md-typeset h2 {
-    font-size: 2.35rem;
 }
 
 .md-nav__item a.md-nav__link--active {
     color: light-dark(#30314B, #96ACEE)
+}
 
 .md-main__inner {
     margin-top: unset;
@@ -412,7 +416,7 @@ and (min-width: 1600px) {
 }
 
 .md-nav {
-    font-size: 0.96rem;
+    font-size: 1rem;
 }
 
 .md-footer {
