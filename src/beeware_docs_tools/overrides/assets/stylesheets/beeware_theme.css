@@ -14,8 +14,19 @@
     --md-primary-fg-color--dark:  #343A40;
 }
 
+/* Disables dynamic font sizing, in favor of being able to more reliably keep */
+/* content at a 40rem width. */
+html {
+    font-size: unset;
+}
+
 /* The theme setting the font size on the body is an accessibility issue. */
 body {
+    font-size: 1rem;
+}
+
+/* Setting overall font size to 1rem. */
+.md-typeset {
     font-size: 1rem;
 }
 
@@ -30,6 +41,21 @@ body {
 
 nav.md-tabs, .md-header {
     background-color: var(--md-primary-fg-color);
+}
+
+.md-header__title {
+    font-size: 1.24rem;
+    line-height: 3.3rem;
+    height: 3.3rem;
+}
+
+.md-tabs__link {
+    font-size: 0.97rem;
+    margin-top: 0.7rem;
+}
+
+.md-header__button.md-logo img {
+    height: 2rem;
 }
 
 .md-header {
@@ -54,20 +80,62 @@ nav.md-tabs, .md-header {
     transition: unset;
 }
 
+.md-icon svg {
+    height: 1.65rem;
+    width: 1.65rem;
+}
+
 /* Search */
-input.md-search__input, .md-search__suggest, .md-search-result__meta {
+.md-search {
+    margin-left: 1rem;
+}
+input.md-search__input,
+.md-search__suggest,
+.md-search-result__meta {
     font-family: 'Cutive', serif;
 }
 
+input.md-search__input,
+.md-search__suggest {
+    font-size: 1.21rem;
+}
+
+.md-search-result__meta {
+    padding: 1rem 0.8rem 0.4rem 0.8rem;
+    line-height: 2rem;
+    font-size: 0.88rem;
+}
+
+.md-search__form {
+    height: 2.5rem;
+}
+
+@media screen and (min-width: 60em) {
+  .md-search__inner {
+      width: unset;
+  }
+}
+
 /* Link colors */
-.md-typeset a, a.md-nav__link {
+/* Remove link color from section headers that are not links */
+.md-nav__link[for]:focus,
+.md-nav__link[for]:hover {
+    color: unset;
+}
+
+/* Only color section header links as links */
+.md-typeset a,
+a.md-nav__link,
+a.md-nav__link[for]:focus,
+a.md-nav__link[for]:hover {
     color: light-dark(#084AFF, #526CFE);
 }
 
-.md-nav__item .md-nav__link--active {
-    color: light-dark(#30314B, #96ACEE);
+.md-nav__item a.md-nav__link--active {
+    color: light-dark(#30314B, #96ACEE)
 }
 
+/* Header fonts */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -76,6 +144,28 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
 .md-typeset h6 {
     font-family: 'Cutive', serif;
     color: var(--md-typeset-color);
+}
+
+/* Update header font sizes to match sizes before dynamic sizing was disabled. */
+.md-typeset h1 {
+    font-size: 3rem;
+}
+
+.md-typeset h2 {
+    font-size: 2.35rem;
+}
+
+.md-typeset h3 {
+    font-size: 1.875rem;
+}
+
+.md-typeset h4 {
+    font-size: 1.2rem;
+}
+
+.md-typeset h5,
+.md-typeset h6 {
+    font-size: 0.96rem;
 }
 
 .md-main__inner {
@@ -293,6 +383,10 @@ and (min-width: 1600px) {
     padding-top: 12px;
 }
 
+.md-grid {
+    max-width: 74rem;
+}
+
 .md-content__inner {
     padding-top: 8px;
     margin-top: -54px;
@@ -300,6 +394,10 @@ and (min-width: 1600px) {
 
 .md-content__inner::before {
     height: 0;
+}
+
+.md-nav {
+    font-size: 0.96rem;
 }
 
 .md-footer {
