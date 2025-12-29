@@ -532,15 +532,19 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 }
 
 .md-footer__title {
-    font-size: .6rem;
+    font-size: 0.9rem;
 }
 
 .md-footer__direction {
-    font-size: .6rem
+    font-size: 0.9rem;
 }
 
 .md-footer__button {
     margin: 0 0 0.2rem 0;
+}
+
+.md-copyright {
+    font-size: 1rem;
 }
 
 /* Indent contents of classes/methods/etc. */
