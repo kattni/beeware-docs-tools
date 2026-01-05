@@ -55,7 +55,6 @@ theme:
     - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.path
     - search.suggest
     - search.highlight
     - search.share

@@ -117,6 +117,30 @@ input.md-search__input,
   }
 }
 
+/* Cleans up vertical spacing on breadcrumbs. */
+.md-path {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-path {
+        flex: 54%;
+        margin-right: 2.5rem;
+        margin: 0 0.8rem;
+  }
+}
+
+/* Forces all titles to line up, including pages without breadcrumbs. */
+.md-path__list {
+    margin-top: 1.5rem;
+}
+
+.md-path__item {
+    margin-top: -0.8rem;
+}
+
 /* Link colors */
 /* Remove link color from section headers that are not links */
 .md-nav__link[for]:focus,
@@ -145,6 +169,7 @@ a.md-nav__link[for]:hover {
 .md-typeset h6 {
     font-family: 'Cutive', serif;
     color: var(--md-typeset-color);
+    clear: both;
 }
 
 /* Update header font sizes to match sizes before dynamic sizing was disabled. */
@@ -256,21 +281,17 @@ a.md-nav__link[for]:hover {
     margin-right: 0.2rem;
 }
 
-.small .site-name {
-    font-size: 24px;
-}
-
 /* Embiggen homepage logo */
 .md-nav__title .md-nav__button.md-logo img {
     height: unset;
 }
 
 /* Embiggen sidebar drawer logo and match sidebar */
-.md-nav__title.small .md-nav__button.md-logo img {
-    height: unset;
-    max-width: unset;
-    width: 74px;
-}
+/*.md-nav__title.small .md-nav__button.md-logo img {*/
+/*    height: unset;*/
+/*    max-width: unset;*/
+/*    width: 74px;*/
+/*}*/
 
 /* The menu button for the sidebar drawer to display the sidebar on smaller displays */
 .mobile-drawer-button-site-name {
@@ -323,12 +344,20 @@ and (min-width: 1220px) {
     .site-name {
         font-size: 19px;
     }
+
+    .sidebar-logo {
+        width: 50px;
+    }
 }
 
 @media screen and (max-width: 1999.99px)
 and (min-width: 1600px) {
     .site-name {
         font-size: 21px;
+    }
+
+    .sidebar-logo {
+        width: 74px;
     }
 }
 
@@ -374,13 +403,36 @@ and (min-width: 1600px) {
     }
 
     .site-name {
-        font-size: 24px;
+        font-size: 50px;
     }
 
     .md-nav__title .md-nav__button.md-logo img {
         height: unset;
         max-width: unset;
         width: 74px;
+    }
+}
+
+/* Sidebar drawer */
+@media screen and (max-width: 76.2344em) {
+    [dir="ltr"] .md-sidebar--primary {
+        width: 12.1rem;
+    }
+
+    .md-nav__title .md-nav__button.md-logo img {
+        width: 50px;
+    }
+
+    .site-name {
+        font-size: 1rem;
+    }
+
+    .version-number {
+        font-size: 0.65rem;
+    }
+
+    .md-nav__link {
+        font-size: 1rem;
     }
 }
 
@@ -400,10 +452,11 @@ and (min-width: 1600px) {
 
 .md-sidebar {
     padding-top: 12px;
+    width: 16rem;
 }
 
 .md-grid {
-    max-width: 74rem;
+    max-width: 75rem;
 }
 
 .md-content__inner {
@@ -427,6 +480,7 @@ and (min-width: 1600px) {
 @media screen and (min-width: 60em) {
     .md-sidebar__scrollwrap {
         margin-top: -54px;
+        padding-bottom: 4rem;  /* SCROLLBAR BUGFIX TODO: Separate PR */
     }
 }
 
