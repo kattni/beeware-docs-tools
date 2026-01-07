@@ -30,6 +30,11 @@ body {
     font-size: 1rem;
 }
 
+/* Remove header markers to avoid spacing issues with longer headers. Use the ToC instead. */
+.md-typeset .headerlink {
+    display: none;
+}
+
 /* Disable header shadow */
 .md-header--shadow {
     box-shadow: unset;
@@ -172,17 +177,22 @@ a.md-nav__link[for]:hover {
     clear: both;
 }
 
-/* Update header font sizes to match sizes before dynamic sizing was disabled. */
+/* Update font sizes to match sizes before dynamic sizing was disabled. */
+/* Headers */
 .md-typeset h1 {
     font-size: 3rem;
+    margin-bottom: 0.64rem;
 }
 
 .md-typeset h2 {
     font-size: 2.35rem;
+    margin-bottom: 0.64rem;
+    margin-top: 2rem;
 }
 
 .md-typeset h3 {
-    font-size: 1.875rem;
+    font-size: 1.6rem;
+    margin: 2rem 0 0 0;
 }
 
 .md-typeset h4 {
@@ -192,6 +202,17 @@ a.md-nav__link[for]:hover {
 .md-typeset h5,
 .md-typeset h6 {
     font-size: 0.96rem;
+}
+
+/* Admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+   font-size: 1rem;
+}
+
+/* Tabs */
+.md-typeset .tabbed-labels > label {
+    font-size: 1rem;
 }
 
 /* Link colors */
@@ -480,7 +501,7 @@ and (min-width: 1600px) {
 @media screen and (min-width: 60em) {
     .md-sidebar__scrollwrap {
         margin-top: -54px;
-        padding-bottom: 4rem;  /* SCROLLBAR BUGFIX TODO: Separate PR */
+        padding-bottom: 4rem; /* Scrollbar bugfix; TODO: Merge in when PR is merged */
     }
 }
 
@@ -562,6 +583,15 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
     padding-top: 1px;
 }
 
+.md-search-result .md-typeset h1 {
+    font-size: 1.6rem;
+}
+
+.md-search-result .md-typeset h2,
+.md-search-result .md-typeset {
+    font-size: 1rem;
+}
+
 /* Footer and footer navigation color */
 .md-footer, .md-footer-meta {
     background-color: light-dark(#f5f5f5, #343A40);
@@ -599,6 +629,14 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 
 .md-copyright {
     font-size: 1rem;
+}
+
+.md-social__link svg {
+    max-height: 1.2rem;
+}
+
+.footer-link {
+    margin: 0.1rem 0 0 0.3rem;
 }
 
 /* Indent contents of classes/methods/etc. */

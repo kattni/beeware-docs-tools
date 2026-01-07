@@ -20,6 +20,7 @@ def parse_args() -> Namespace:
     parser.add_argument("watch_directories", nargs="*")
     parser.add_argument("--strict", action="store_true")
     parser.add_argument("--source-code", action="append")
+    parser.add_argument("--port", type=int, default=8037)
     args = parser.parse_args()
 
     return args
@@ -29,6 +30,7 @@ def serve_docs(
     output_path: Path,
     strict: bool,
     watch_directories: list[str],
+    port: int,
 ) -> None:
     serve_command = [
         "python",
@@ -40,6 +42,8 @@ def serve_docs(
         str(output_path / "mkdocs.en.yml"),
         "--watch",
         "docs",
+        "--dev-addr",
+        f"localhost:{port}",
     ]
 
     if strict:
@@ -69,7 +73,7 @@ def main():
             target_is_directory=True,
         )
 
-        serve_docs(temp_md_path, args.strict, args.watch_directories)
+        serve_docs(temp_md_path, args.strict, args.watch_directories, args.port)
 
 
 if __name__ == "__main__":
