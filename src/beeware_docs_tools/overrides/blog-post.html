@@ -41,12 +41,23 @@
             <!-- Back to overview link -->
             <div class="md-post__back">
               <div class="md-nav__title md-nav__container">
+                {% if page.categories %}
+                  {% for category in page.categories %}
+                   <a href="{{ category.url | url }}" class=" md-nav__link">
+                   {% include ".icons/material/arrow-left.svg" %}
+                   <span class="md-ellipsis">
+                    Back to&nbsp;{{- category.title -}}
+                   </span>
+                  </a>
+                  {% endfor %}
+                  {% else %}
                 <a href="{{ page.parent.url | url }}" class=" md-nav__link">
                   {% include ".icons/material/arrow-left.svg" %}
                   <span class="md-ellipsis">
                     Back to News
                   </span>
                 </a>
+                  {% endif %}
               </div>
             </div>
 
