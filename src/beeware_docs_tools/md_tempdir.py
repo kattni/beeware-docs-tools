@@ -75,5 +75,9 @@ def symlink_from_temp(project_path, temp_md_path, source_code, config_file):
         module_name = "main"
 
     macros_path = project_path / f"docs/{module_name}.py"
+    symlink_path = temp_md_path / f"{module_name}.py"
     if macros_path.is_file():
-        (temp_md_path / f"{module_name}.py").symlink_to(macros_path)
+        symlink_path.parent.mkdir(parents=True, exist_ok=True)
+        symlink_path.symlink_to(macros_path)
+    else:
+        raise FileNotFoundError(f"Specified macros module {macros_path} doesn't exist.")

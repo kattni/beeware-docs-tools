@@ -42,6 +42,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://beeware.org/bee/chat/
       name: BeeWare on Discord
+  generator: false
 
 theme:
   name: material

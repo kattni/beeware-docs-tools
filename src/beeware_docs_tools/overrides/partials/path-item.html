@@ -39,12 +39,14 @@
       <!-- Recurse, first item has further nested items -->
       {{ render(first, ref) }}
     {% else %}
-      <!-- Nested navigation item -->
-      <li class="md-path__item">
-        <a href="{{ first.url | url }}" class="md-path__link">
-          {{ render_content(ref) }}
-        </a>
-      </li>
+        <!-- Nested navigation item -->
+        {% if page.url != first.url %}
+          <li class="md-path__item">
+            <a href="{{ first.url | url }}" class="md-path__link">
+              {{ render_content(ref) }}
+            </a>
+          </li>
+        {% endif %}
     {% endif %}
 
   {% else %}
