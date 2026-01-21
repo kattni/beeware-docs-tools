@@ -36,7 +36,7 @@
             <img src="{{ author.avatar | url }}" alt="{{ author.name }}" />
           </span>
           <div class="author-name">
-            <a href="{{ author.url }}">{{ author.name }}</a>
+            <a href="{{ author.url | url }}">{{ author.name }}</a>
               {% if not loop.last %}|{% endif %}
           </div>
         {% endfor %}
