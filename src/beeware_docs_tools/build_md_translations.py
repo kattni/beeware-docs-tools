@@ -133,12 +133,15 @@ def main():
                 # for the relative links in the translated Markdown to function the
                 # same way they do in the original Markdown files. This finds all
                 # images and resources subdirectories, and symlinks them.
-                for name in ["images", "resources"]:
+                for name in ["images", "resources", "*.yml", "*.css"]:
                     en_md_dir = PROJECT_PATH / "docs/en"
                     for path in en_md_dir.glob(f"**/{name}"):
-                        if path.is_dir():
-                            relative_path = path.relative_to(en_md_dir)
-                            (temp_md_path / language / relative_path).symlink_to(path)
+                        relative_path = path.relative_to(en_md_dir)
+                        (temp_md_path / language / relative_path).parent.mkdir(
+                            parents=True, exist_ok=True
+                        )
+                        (temp_md_path / language / relative_path).symlink_to(path)
+
             else:
                 # Symlink to en directory
                 #

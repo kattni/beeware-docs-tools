@@ -22,12 +22,13 @@ from tempfile import TemporaryDirectory
 def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("-d", "--docs-directory", type=Path, default="docs")
+    parser.add_argument("-x", "--exclude", action="append", type=Path, default=[])
     args = parser.parse_args()
 
     return args
 
 
-def markdown_to_pot(docs: Path, working_path: Path) -> None:
+def markdown_to_pot(docs: Path, working_path: Path, excludes: list[Path]) -> None:
     """
     Run `md2po` with provided input and output directories, with `--pot` flag to
     generate PO template (POT) files.
@@ -49,22 +50,25 @@ def markdown_to_pot(docs: Path, working_path: Path) -> None:
     output_path = Path.cwd() / docs / "locales/template"
     output_path.mkdir(parents=True, exist_ok=True)
 
+    md2po_command = [
+        "md2po",
+        f"--input={docs / 'en'}",
+        f"--output={output_path / 'translations.pot'}",
+        "--pot",
+        "--timestamp",
+        "--duplicates=merge",
+        "--multifile=onefile",
+    ] + [f"--exclude={p}" for p in excludes]
+
+    print(md2po_command)
     subprocess.run(
-        [
-            "md2po",
-            f"--input={docs / 'en'}",
-            f"--output={output_path / 'translations.pot'}",
-            "--pot",
-            "--timestamp",
-            "--duplicates=merge",
-            "--multifile=onefile",
-        ],
+        md2po_command,
         check=True,
         cwd=working_path,
     )
 
 
-def generate_pot_files(docs: Path) -> None:
+def generate_pot_files(docs: Path, excludes: list[Path]) -> None:
     """
     Generate the PO template (POT) files for the content in the provided
     directory.
@@ -87,16 +91,15 @@ def generate_pot_files(docs: Path) -> None:
         except FileExistsError:
             pass
 
-        markdown_to_pot(
-            docs=docs,
-            working_path=temp_working_path,
-        )
+        markdown_to_pot(docs=docs, working_path=temp_working_path, excludes=excludes)
 
 
 def main():
     args = parse_args()
     # Generate POT files.
-    generate_pot_files(args.docs_directory.resolve().relative_to(Path.cwd()))
+    generate_pot_files(
+        args.docs_directory.resolve().relative_to(Path.cwd()), args.exclude
+    )
 
 
 if __name__ == "__main__":
