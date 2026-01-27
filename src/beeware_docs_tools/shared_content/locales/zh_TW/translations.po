@@ -2367,7 +2367,7 @@ msgstr "除非有完善的文件記錄，否則任何功能都不算完整。[�
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:26
 #, fuzzy
 msgid "[Triage an issue]{1}"
-msgstr "[處理問題"
+msgstr "[處理問題]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:28
 #, fuzzy
@@ -2568,7 +2568,7 @@ msgstr "BeeWare 使用 Weblate 進行 [翻譯]{1}，需要幾個步驟才能開�
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:104
 #, fuzzy
 msgid "[Submit a new issue]{1}"
-msgstr "{1}[提交新問題]"
+msgstr "[提交新問題]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:106
 #, fuzzy
