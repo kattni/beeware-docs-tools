@@ -222,9 +222,28 @@ a.md-nav__link[for]:hover {
     color: unset;
 }
 
+.md-select:focus-within .md-select__inner,
+.md-select:hover .md-select__inner {
+    max-height: none;
+}
+
+.md-select__list {
+    font-size: 1rem;
+    font-family: 'Cutive', serif;
+}
+
+.md-select__item {
+    line-height: 2.5rem;
+}
+
+.md-select__inner {
+    background-color: light-dark(#E9ECEF, #282D32);
+}
+
 /* Version number */
 .version-number {
     overflow-wrap: anywhere;
+    font-size: 12px;
     font-size: 12px;
     font-weight: normal;
     margin-top: 0.2rem;
@@ -453,7 +472,7 @@ and (min-width: 1600px) {
 }
 
 .md-grid {
-    max-width: 75rem;
+    max-width: 79.4rem;
 }
 
 .md-content__inner {
