@@ -2421,7 +2421,7 @@ msgstr "BeeWare 以多種語言維護各種文件。如果您懂英語以外的�
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:46
 #, fuzzy
 msgid "[Use the tools]{1}"
-msgstr "[使用工具"
+msgstr "[使用工具]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:48
 #, fuzzy
