@@ -75,33 +75,33 @@ aria-label="{{ lang.t('header') }}"
     <ul class="md-tabs__list">
     {% if not config.extra.website %}
     <li class="md-tabs__item">
-      <a href="https://beeware.org/about" class="md-tabs__link">
-        About
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}about" class="md-tabs__link">
+          {{ config.extra.header.About | default("About") }}
       </a>
     </li>
     <li class="md-tabs__item md-tabs__item--active">
-      <a href="https://beeware.org/documentation" class="md-tabs__link">
-        Documentation
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}documentation" class="md-tabs__link">
+          {{ config.extra.header.Documentation | default("Documentation") }}
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/community" class="md-tabs__link">
-        Community
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}community" class="md-tabs__link">
+          {{ config.extra.header.Community | default("Community") }}
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/contributing" class="md-tabs__link">
-        Contributing
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}contributing" class="md-tabs__link">
+          {{ config.extra.header.Contributing | default("Contributing") }}
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/news" class="md-tabs__link">
-        News
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}news" class="md-tabs__link">
+          {{ config.extra.header.News | default("News") }}
       </a>
     </li>
     <li class="md-tabs__item">
-      <a href="https://beeware.org/membership" class="md-tabs__link">
-        Sponsor
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}membership" class="md-tabs__link">
+          {{ config.extra.header.Sponsor | default("Sponsor") }}
       </a>
     </li>
     {% else %}

@@ -79,5 +79,3 @@ def symlink_from_temp(project_path, temp_md_path, source_code, config_file):
     if macros_path.is_file():
         symlink_path.parent.mkdir(parents=True, exist_ok=True)
         symlink_path.symlink_to(macros_path)
-    else:
-        raise FileNotFoundError(f"Specified macros module {macros_path} doesn't exist.")
