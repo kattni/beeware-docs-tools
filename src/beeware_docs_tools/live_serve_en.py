@@ -64,9 +64,9 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_path = Path(temp_md_directory)
 
-        config_file = load_config(PROJECT_PATH)
-        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config_file)
-        save_config(PROJECT_PATH, temp_md_path, config_file)
+        config = load_config(PROJECT_PATH)
+        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config)
+        save_config(PROJECT_PATH, temp_md_path, config)
 
         (temp_md_path / "en").symlink_to(
             PROJECT_PATH / "docs/en",

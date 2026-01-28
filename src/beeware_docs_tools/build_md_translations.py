@@ -99,13 +99,13 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_path = Path(temp_md_directory)
 
-        config_file = load_config(PROJECT_PATH)
-        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config_file)
+        config = load_config(PROJECT_PATH)
+        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config)
 
         for language in args.language_code:
             print(f"Processing {language}")
 
-            save_config(PROJECT_PATH, temp_md_path, config_file, language)
+            save_config(PROJECT_PATH, temp_md_path, config, language)
 
             if language != "en":
                 # Create temp output directories for primary and shared content.
