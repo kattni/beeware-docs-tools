@@ -9,9 +9,9 @@ theme:
 extra:
   translation_type: machine
   header:
-    - About: À propos
-    - Documentation: Documentation
-    - Community: Communauté
-    - Contributing: Contribuant
-    - News: Nouvelles
-    - Sponsor: Mécène
+    About: À propos
+    Documentation: Documentation
+    Community: Communauté
+    Contributing: Contribuant
+    News: Nouvelles
+    Sponsor: Mécène
