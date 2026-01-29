@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 03:06+0000\n"
+"POT-Creation-Date: 2026-01-29 04:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3308,16 +3308,16 @@ msgstr "代码风格"
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:5
 #, fuzzy
 msgid ""
-"BeeWare follows [PEP 8]{1} in our codebase. We use [Ruff]{2} to enforce PEP "
-"8 conventions where possible. When you commit your code, pre-commit will run"
-" checks, including Ruff. Where possible, this will autoformat your code to "
+"BeeWare follows [PEP 8]{1} in our codebase, except with the line length "
+"expanded from 79 to 88 characters. We use [Ruff]{2} to enforce PEP 8 "
+"conventions where possible. When you commit your code, pre-commit will run "
+"checks, including Ruff. Where possible, this will autoformat your code to "
 "ensure it meets our formatting and style standards. You can set up some IDEs"
 " to automatically run Ruff on save, which can help with the process."
 msgstr ""
-"BeeWare 在代码库中遵循 [PEP 8]{1} 的规定。我们尽可能使用 [Ruff]{2} 来执行 PEP 8 的约定。当您提交代码时，pre-"
-"commit 会进行检查，包括 "
-"Ruff。在可能的情况下，这将自动格式化您的代码，确保其符合我们的格式和样式标准。您可以将某些集成开发环境设置为在保存时自动运行 "
-"Ruff，这对整个过程会有所帮助。"
+"BeeWare 在代码库中遵循 [PEP 8]{1} 规范，但行长度从 79 扩展至 88 个字符。 我们尽可能使用[Ruff]{2}工具强制执行PEP"
+" 8规范。提交代码时，pre-"
+"commit会自动运行包括Ruff在内的检查程序。该工具会自动格式化代码以确保符合我们的格式与风格标准。您可配置某些IDE在保存时自动运行Ruff，这将有效提升开发效率。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:7
 #, fuzzy
@@ -3358,6 +3358,22 @@ msgid ""
 msgstr ""
 "我们尽量避免使用 `utils` 模块，但也知道有时它们是不可避免的。首选的替代方法是在源代码的其他地方为该功能找到合适的位置，而不是使用 "
 "`utils` 模块。"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#, fuzzy
+msgid ""
+"Declaring an abstract base class as inheriting from [`ABC`]{1} (and "
+"decorating its abstract methods with `@abstractmethod`) checks and enforces "
+"that subclasses implement the necessary methods. However, this checking "
+"introduces a small (but nonzero) overhead at runtime. Therefore, we only "
+"follow this pattern for base classes intended to be subclassed by users. "
+"When writing base classes intended only for internal use, there's no need to"
+" inherit from `ABC`, and abstract methods should raise `NotImplementedError`"
+" instead of being decorated."
+msgstr ""
+"声明抽象基类继承自[`ABC`]{1}（并用`@abstractmethod`装饰其抽象方法）可检查并强制要求子类实现必要方法。但此检查会在运行时引入微小（但非零）开销。"
+" "
+"因此，我们仅在基础类需供用户派生时采用此模式。若编写仅供内部使用的基类，则无需继承自`ABC`，且抽象方法应抛出`NotImplementedError`异常而非添加装饰器。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:1
 #, fuzzy
@@ -4860,6 +4876,19 @@ msgstr "??? abstract \"建立文档\""
 #, fuzzy
 msgid "??? abstract \"Writing documentation\""
 msgstr "??? abstract \"编写文件\""
+
+#, fuzzy
+#~ msgid ""
+#~ "BeeWare follows [PEP 8]{1} in our codebase. We use [Ruff]{2} to enforce PEP "
+#~ "8 conventions where possible. When you commit your code, pre-commit will run"
+#~ " checks, including Ruff. Where possible, this will autoformat your code to "
+#~ "ensure it meets our formatting and style standards. You can set up some IDEs"
+#~ " to automatically run Ruff on save, which can help with the process."
+#~ msgstr ""
+#~ "BeeWare 在代码库中遵循 [PEP 8]{1} 的规定。我们尽可能使用 [Ruff]{2} 来执行 PEP 8 的约定。当您提交代码时，pre-"
+#~ "commit 会进行检查，包括 "
+#~ "Ruff。在可能的情况下，这将自动格式化您的代码，确保其符合我们的格式和样式标准。您可以将某些集成开发环境设置为在保存时自动运行 "
+#~ "Ruff，这对整个过程会有所帮助。"
 
 #, fuzzy
 #~ msgid ""
