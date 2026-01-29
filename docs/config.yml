@@ -84,9 +84,36 @@ theme:
 markdown_extensions:
   pymdownx.highlight: {}
   pymdownx.superfences: {}
-  pymdownx.blocks.admonition: {}
+  pymdownx.blocks.admonition:
+    types:
+      - note
+      - abstract
+      - info
+      - tip
+      - success
+      - question
+      - warning
+      - failure
+      - danger
+      - bug
+      - example
+      - quote
   pymdownx.blocks.caption: {}
-  pymdownx.details: {}
+  pymdownx.blocks.details:
+    types:
+      - {name: details-note, class: note}
+      - {name: details-abstract, class: abstract}
+      - {name: details-info, class: info}
+      - {name: details-tip, class: tip}
+      - {name: details-success, class: success}
+      - {name: details-question, class: question}
+      - {name: details-warning, class: warning}
+      - {name: details-failure, class: failure}
+      - {name: details-danger, class: danger}
+      - {name: details-bug, class: bug}
+      - {name: details-example, class: example}
+      - {name: details-quote, class: quote}
+#  pymdownx.details: {}
   pymdownx.blocks.tab:
     alternate_style: true
   pymdownx.snippets:
@@ -97,7 +124,6 @@ markdown_extensions:
     permalink: true
     title: On this page
   attr_list: {}
-  admonition: {}  # Enabled for all admonition types EXCEPT note and admonition (which defaults to note)
 
 plugins:
   search: {}
