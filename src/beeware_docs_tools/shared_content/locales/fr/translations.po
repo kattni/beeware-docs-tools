@@ -4453,13 +4453,13 @@ msgstr "??? abstract \"Configurer un environnement de développement\""
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:61
 #, fuzzy
 msgid "??? abstract \"Work from a branch\""
-msgstr "??? abstract \"Travailler à partir d'une succursale\"."
+msgstr "??? abstract \"Travailler à partir d'une succursale\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:24
 #: src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:12
 #, fuzzy
 msgid "??? abstract \"Reproduce the issue\""
-msgstr "??? abstract \"Reproduire le problème\"."
+msgstr "??? abstract \"Reproduire le problème\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:28
 #, fuzzy
@@ -4469,7 +4469,7 @@ msgstr "**Si la résolution du problème nécessite des modifications du code:**
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:30
 #, fuzzy
 msgid "??? abstract \"Write, run, and test code\""
-msgstr "??? abstract \"Écrire, exécuter et tester le code\"."
+msgstr "??? abstract \"Écrire, exécuter et tester le code\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:34
 #, fuzzy
@@ -4508,7 +4508,7 @@ msgstr "??? abstract \"Ajouter une note de modification\""
 #, fuzzy
 msgid "??? abstract \"Submit a pull request\""
 msgstr ""
-"??? abstract \"Submit a pull request\" (Soumettre une demande d'extraction)"
+"??? abstract \"Soumettre une demande d'extraction\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:1
 #, fuzzy
@@ -4572,14 +4572,13 @@ msgstr "Contribuer à la création de nouvelles fonctionnalités"
 #: src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:65
 #, fuzzy
 msgid "??? abstract \"Avoid scope creep\""
-msgstr "??? abstract \"Éviter les dérives\"."
+msgstr "??? abstract \"Éviter les dérives\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:31
 #, fuzzy
 msgid "??? abstract \"Implement the new feature\""
 msgstr ""
-"abstract \"Implement the new feature\" (mettre en œuvre la nouvelle "
-"fonctionnalité)"
+"??? abstract \"Mettre en œuvre la nouvelle fonctionnalité\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:1
 #, fuzzy
