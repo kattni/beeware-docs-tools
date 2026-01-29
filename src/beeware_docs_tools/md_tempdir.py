@@ -1,6 +1,7 @@
 from pathlib import Path
 from importlib.metadata import metadata
 
+import polib
 import yaml
 
 
@@ -17,6 +18,48 @@ def load_config(project_path):
         pass
 
     return config
+
+
+def translate(po):
+    """Generate a translator function using the provided PO file."""
+
+    def _translate(entry):
+        po_entry = po.find(entry)
+        if po_entry:
+            translated = po_entry.msgstr
+            if translated:
+                return translated
+        return entry
+
+    return _translate
+
+
+def process_nav(entry, fn):
+    """Recursively walk a nav definition, calling a function on human-readable strings.
+
+    :param entry: A node in a navigation tree
+    :param fn: A function that takes a single human-readable string, and returns
+        a "processed" string.
+    """
+    if isinstance(entry, dict):
+        # Recursively translate all keys, and all list values. otherwise return
+        # values as is (as they will be a file reference)
+        return {
+            process_nav(child, fn): process_nav(value, fn)
+            if isinstance(value, list)
+            else value
+            for child, value in entry.items()
+        }
+    elif isinstance(entry, list):
+        # Recursively translate any dictionary in a list;
+        # otherwise return as-is (as it will be a file reference)
+        return [
+            process_nav(child, fn) if isinstance(child, dict) else child
+            for child in entry
+        ]
+    else:
+        # The entry must be a string. Process it.
+        return fn(entry)
 
 
 def save_config(project_path, temp_md_path, config, language="en"):
@@ -37,7 +80,7 @@ def save_config(project_path, temp_md_path, config, language="en"):
     with (temp_md_path / "config.yml").open("w", encoding="utf-8") as config_f:
         yaml.dump(config, config_f)
 
-    # Build the the language configuration into the temp directory. docs_dir and
+    # Build the language configuration into the temp directory. docs_dir and
     # INHERIT paths are relative, so to build translations successfully while
     # allowing English to build on its own, files must be available relative to
     # the build. For the main website, we also need to generate a translated
@@ -48,17 +91,11 @@ def save_config(project_path, temp_md_path, config, language="en"):
             Loader=yaml.SafeLoader,
         )
 
-        translated_nav = []
-        for en_content, translated in zip(
+        po = polib.pofile(project_path / f"docs/locales/{language}/translations.po")
+        mkdocs_config["nav"] = process_nav(
             config["nav"],
-            mkdocs_config["nav"],
-            strict=True,
-        ):
-            translated_nav.append(
-                {translated[original]: en_content[original] for original in en_content}
-            )
-
-        mkdocs_config["nav"] = translated_nav
+            translate(po),
+        )
 
         with (temp_md_path / f"mkdocs.{language}.yml").open(
             "w", encoding="utf-8"
