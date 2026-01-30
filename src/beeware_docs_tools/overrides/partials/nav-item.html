@@ -136,16 +136,9 @@
     {% endif %}
     {% set index = _.index %}
 
-    <!-- Navigation tabs -->
-<!--    {% if "navigation.tabs" in features %}-->
-
-<!--      &lt;!&ndash; Render 1st level active item as section &ndash;&gt;-->
-<!--      {% if level == 1 and nav_item.active %}-->
-<!--        {% set class = class ~ " md-nav__item&#45;&#45;section" %}-->
-<!--        {% set is_section = true %}-->
-<!--      {% endif %}-->
 
       <!-- Navigation tabs + sections -->
+    {% if config.extra.website %}
       {% if "navigation.sections" in features %}
 
         <!-- Render 2nd level items with nested items as sections -->
@@ -153,17 +146,16 @@
           {% set class = class ~ " md-nav__item--section" %}
           {% set is_section = true %}
         {% endif %}
+
+
+
+      <!-- Render 1st level items with nested items as sections -->
+      {% if level == 1 %}
+        {% set class = class ~ " md-nav__item--section" %}
+        {% set is_section = true %}
       {% endif %}
-
-    <!-- Navigation sections -->
-<!--    {% elif "navigation.sections" in features %}-->
-
-<!--      &lt;!&ndash; Render 1st level items with nested items as sections &ndash;&gt;-->
-<!--      {% if level == 1 %}-->
-<!--        {% set class = class ~ " md-nav__item&#45;&#45;section" %}-->
-<!--        {% set is_section = true %}-->
-<!--      {% endif %}-->
-<!--    {% endif %}-->
+     {% endif %}
+    {% endif %}
 
     <!-- Navigation pruning -->
     {% if "navigation.prune" in features %}
