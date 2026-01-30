@@ -137,7 +137,8 @@
     {% set index = _.index %}
 
 
-      <!-- Navigation sections -->
+    <!-- Navigation sections originally interacted with tabs in an undesirable way. -->
+    <!-- sections is only enabled on the website, so this is only necessary there. -->
     {% if config.extra.website and "navigation.sections" in features %}
         <!-- Render 1st and 2nd level items with nested items as sections -->
         {% if level == 1 or (level == 2 and parent.active) %}
