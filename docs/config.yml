@@ -113,7 +113,6 @@ markdown_extensions:
       - {name: details-bug, class: bug}
       - {name: details-example, class: example}
       - {name: details-quote, class: quote}
-#  pymdownx.details: {}
   pymdownx.blocks.tab:
     alternate_style: true
   pymdownx.snippets:
@@ -124,6 +123,8 @@ markdown_extensions:
     permalink: true
     title: On this page
   attr_list: {}
+  smarty:
+    smart_quotes: false
 
 plugins:
   search: {}
