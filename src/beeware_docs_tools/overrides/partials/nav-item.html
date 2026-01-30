@@ -137,24 +137,13 @@
     {% set index = _.index %}
 
 
-      <!-- Navigation tabs + sections -->
-    {% if config.extra.website %}
-      {% if "navigation.sections" in features %}
-
-        <!-- Render 2nd level items with nested items as sections -->
-        {% if level == 2 and parent.active %}
+      <!-- Navigation sections -->
+    {% if config.extra.website and "navigation.sections" in features %}
+        <!-- Render 1st and 2nd level items with nested items as sections -->
+        {% if level == 1 or (level == 2 and parent.active) %}
           {% set class = class ~ " md-nav__item--section" %}
           {% set is_section = true %}
         {% endif %}
-
-
-
-      <!-- Render 1st level items with nested items as sections -->
-      {% if level == 1 %}
-        {% set class = class ~ " md-nav__item--section" %}
-        {% set is_section = true %}
-      {% endif %}
-     {% endif %}
     {% endif %}
 
     <!-- Navigation pruning -->
