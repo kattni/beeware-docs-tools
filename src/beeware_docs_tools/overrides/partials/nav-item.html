@@ -136,7 +136,45 @@
     {% endif %}
     {% set index = _.index %}
 
-<!-- Removed changes to sidebar related to enabling navigation tabs. -->
+    <!-- Navigation tabs -->
+<!--    {% if "navigation.tabs" in features %}-->
+
+<!--      &lt;!&ndash; Render 1st level active item as section &ndash;&gt;-->
+<!--      {% if level == 1 and nav_item.active %}-->
+<!--        {% set class = class ~ " md-nav__item&#45;&#45;section" %}-->
+<!--        {% set is_section = true %}-->
+<!--      {% endif %}-->
+
+      <!-- Navigation tabs + sections -->
+      {% if "navigation.sections" in features %}
+
+        <!-- Render 2nd level items with nested items as sections -->
+        {% if level == 2 and parent.active %}
+          {% set class = class ~ " md-nav__item--section" %}
+          {% set is_section = true %}
+        {% endif %}
+      {% endif %}
+
+    <!-- Navigation sections -->
+<!--    {% elif "navigation.sections" in features %}-->
+
+<!--      &lt;!&ndash; Render 1st level items with nested items as sections &ndash;&gt;-->
+<!--      {% if level == 1 %}-->
+<!--        {% set class = class ~ " md-nav__item&#45;&#45;section" %}-->
+<!--        {% set is_section = true %}-->
+<!--      {% endif %}-->
+<!--    {% endif %}-->
+
+    <!-- Navigation pruning -->
+    {% if "navigation.prune" in features %}
+
+      <!-- Prune item if it is not a section and not active -->
+      {% if not is_section and not nav_item.active %}
+        {% set class = class ~ " md-nav__item--pruned" %}
+        {% set is_pruned = true %}
+      {% endif %}
+    {% endif %}
+
 
     <!-- Nested navigation item -->
     <li class="{{ class }} md-nav__item--nested">
