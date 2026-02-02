@@ -133,12 +133,12 @@ markdown_extensions:
     repo_url_shorthand: true
     normalize_issue_symbols: true
   # Python Markdown Extensions
-  toc:  # Enables the ToC, in the left sidebar, in the documentation.
-    permalink: true
-    title: On this page
   attr_list: {}  # Enables setting explicit anchors, and CSS classes, etc.
   smarty:  # Enables easy em and en dashes.
     smart_quotes: false
+  toc:  # Enables the ToC, in the left sidebar, in the documentation.
+    permalink: true
+    title: On this page
 
 plugins:
   search: {}

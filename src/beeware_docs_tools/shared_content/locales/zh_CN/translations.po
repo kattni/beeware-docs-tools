@@ -2324,7 +2324,7 @@ msgstr ""
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:12
 #, fuzzy
 msgid "What can I do? { #what-can-i-do }"
-msgstr "我能做什么？{ #what-can-i-do }"
+msgstr "我能做什么？ { #what-can-i-do }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:14
 #, fuzzy

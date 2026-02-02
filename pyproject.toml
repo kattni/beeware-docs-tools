@@ -25,6 +25,7 @@ maintainers = [
 dependencies = [
     "click==8.2.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
     "deepl==1.27.0",
+    "griffe @ git+https://github.com/mkdocstrings/griffe@1fde0d2317c9098055ab313c8a0a992032194830", # Bullets in docstrings fix
     "markdown-checker==0.2.5",
     "mistletoe==1.5.1",
     "mkdocs-autorefs==1.4.3",
