@@ -54,7 +54,7 @@ def parse_args() -> Namespace:
 def translate(client, path, language):
     print(f"  {language}: Translate {path.relative_to(Path.cwd())}")
     # 78 is 80, allowing for an open and closing "
-    po = polib.pofile(path, wrapwidth=78)
+    po = polib.pofile(path, wrapwidth=100000)
     changes = 0
     # DeepL uses some slightly different language variant descriptors.
     # Map those, using the input languages as a default.
@@ -100,18 +100,32 @@ def translate(client, path, language):
             title = client.translate_text(match.group(1), target_lang=deepl_lang).text
             translated = f"{title}{match.group(2)}"
             fuzzy = True
-        elif (entry.msgid.startswith("{{") and entry.msgid.endswith("}}")) or (
-            entry.msgid.startswith("{%") and entry.msgid.endswith("%}")
-        ):
-            # If a string *only* contains Jinja content, use the string verbatim,
-            # and mark the string as fully translated.
-            translated = entry.msgid
-            fuzzy = False
         elif any((jinja in entry.msgid) for jinja in ["{{", "}}", "{%", "%}"]):
-            # If a string contains Jinja content, use the string verbatim,
-            # but mark the string as fuzzy.
-            translated = entry.msgid
-            fuzzy = True
+            # If a string contains Jinja content, build a version of the string where
+            # Jinja content has been replaced with {}. Translate *that* string, then
+            # use format() to push the Jinja tag content back in.
+            between = []
+            tags = []
+            last = 0
+            jinja_re = re.compile(r"{{.*?}}|{%.*?%}")
+            while match := jinja_re.search(entry.msgid, pos=last):
+                between.extend([entry.msgid[last : match.start()], "{}"])
+                last = match.end()
+                tags.append(match.group())
+
+            between.append(entry.msgid[last:])
+            between = "".join(between)
+            if between == "{}":
+                # If a string *only* contains Jinja content, use the string verbatim,
+                # and mark the string as fully translated.
+                translated = entry.msgid
+                fuzzy = False
+            else:
+                # Translate the text with dummy placeholders
+                raw_trans = client.translate_text(between, target_lang=deepl_lang).text
+                # Substitute back in the tag content
+                translated = raw_trans.format(*tags)
+                fuzzy = True
         else:
             translated = client.translate_text(entry.msgid, target_lang=deepl_lang).text
             fuzzy = True
