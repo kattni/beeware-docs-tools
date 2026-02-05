@@ -73,9 +73,13 @@ Once the custom anchors are created, you can link to them from within the same d
 
 Standard Markdown is used to link to an anchor _in the same file_, which is formatted as follows:
 
+<!-- rumdl-disable MD051 -->
+
 ```markdown
 [Link text](#anchor-name)
 ```
+
+<!-- rumdl-enable MD051 -->
 
 Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:
 
@@ -185,8 +189,7 @@ Content above.
 
 /// admonition | Title
 
-Admonition text, including
-multi-line text.
+Admonition text.
 
 A second paragraph.
 
