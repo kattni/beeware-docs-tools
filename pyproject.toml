@@ -56,6 +56,10 @@ tox-uv = [
     "tox-uv == 1.29.0",
 ]
 
+wlc = [
+    "wlc == 1.17.2",
+]
+
 dev = [
     {include-group = "pre-commit"},
     {include-group = "tox-uv"},
@@ -64,6 +68,11 @@ dev = [
 test = [
     "pytest == 9.0.2",
     "pytest-xdist == 3.8.0",
+]
+
+translate = [
+    {include-group = "tox-uv"},
+    {include-group = "wlc"},
 ]
 
 [project.urls]
