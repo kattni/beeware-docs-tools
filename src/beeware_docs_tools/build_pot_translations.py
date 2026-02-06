@@ -3,6 +3,7 @@ from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+import polib
 import yaml
 
 from .md_tempdir import process_nav
@@ -102,6 +103,10 @@ def markdown_to_pot(docs: Path, working_path: Path, excludes: list[Path]) -> Non
         check=True,
         cwd=working_path,
     )
+
+    # Resave with a long wrap width to remove word wraps.
+    po = polib.pofile(output_path, wrapwidth=100000)
+    po.save(output_path)
 
 
 def generate_pot_files(docs: Path, excludes: list[Path]) -> None:

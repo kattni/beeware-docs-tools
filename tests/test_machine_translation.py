@@ -29,7 +29,7 @@ msgstr ""
     for i, input in enumerate(data):
         content.append(f"""
 #: docs/en/file{i}.md:1
-msgid "{input}"
+msgid "{input.replace('"', '\\"')}"
 msgstr ""
 """)
 
@@ -102,6 +102,48 @@ def mock_translation(value):
             "SOME {{ text }} {% if website %} WEBSITE VALUE {% else %} OTHER VALUE {% endif %} IS USED",
             True,
             id="jinja-complex",
+        ),
+        pytest.param(
+            "Here is some [link text]({% if value %}conditional{% else %}link{% endif %}) and some other content",
+            "Here is some [link text]{} and some other content",
+            "HERE IS SOME [LINK TEXT]({% if value %}conditional{% else %}link{% endif %}) AND SOME OTHER CONTENT",
+            True,
+            id="jinja-in-link",
+        ),
+        pytest.param(
+            "This text contains `examples` of `code literals` that shouldn't be translated",
+            "This text contains {} of {} that shouldn't be translated",
+            "THIS TEXT CONTAINS `examples` OF `code literals` THAT SHOULDN'T BE TRANSLATED",
+            True,
+            id="code-literal",
+        ),
+        pytest.param(
+            'This text contains `complex code ```python {hl_lines="2"}` that shouldn\'t be translated',
+            "This text contains {} that shouldn't be translated",
+            'THIS TEXT CONTAINS `complex code ```python {hl_lines="2"}` THAT SHOULDN\'T BE TRANSLATED',
+            True,
+            id="code-literal-complex",
+        ),
+        pytest.param(
+            "Some text [with a link]{1} ending with {% endif %} and `a literal`",
+            "Some text [with a link]{} ending with {} and {}",
+            "SOME TEXT [WITH A LINK]{1} ENDING WITH {% endif %} AND `a literal`",
+            True,
+            id="mixed-content-1",
+        ),
+        pytest.param(
+            "Some text [`with a literal link`]{1} ending with {% endif %} and `a literal`",
+            "Some text [{}]{} ending with {} and {}",
+            "SOME TEXT [`with a literal link`]{1} ENDING WITH {% endif %} AND `a literal`",
+            True,
+            id="mixed-content-2",
+        ),
+        pytest.param(
+            "(.venv) python -m something",
+            None,
+            "(.venv) python -m something",
+            False,
+            id="multiline-code",
         ),
     ],
 )
