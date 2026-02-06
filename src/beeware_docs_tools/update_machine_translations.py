@@ -147,11 +147,20 @@ def translate(client, path, language):
                     # the substitution process, but it's near impossible to recover,
                     # so ignore the string and move on.
                     print("        DeepL failed to handle this correctly...")
+                    print("        input: ", entry.msgid)
+                    print("        raw: ", raw_trans)
+                    translated = None
+
+                except Exception:
+                    print("input: ", entry.msgid)
+                    print("raw: ", raw_trans)
+                    raise
         else:
             translated = client.translate_text(entry.msgid, target_lang=deepl_lang).text
             fuzzy = True
-        entry.msgstr = translated
-        entry.fuzzy = fuzzy
+        if translated:
+            entry.msgstr = translated
+            entry.fuzzy = fuzzy
 
         # Save every 10 translations in case of a crash.
         if changes % 10 == 0:
