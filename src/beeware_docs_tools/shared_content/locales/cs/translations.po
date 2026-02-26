@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-06 11:52+0800\n"
+"POT-Creation-Date: 2026-02-26 04:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -697,8 +697,8 @@ msgstr "Odeslání zprávy"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
 #, fuzzy
-msgid "Navigate to the [{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues), click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr "Přejděte na [seznam problémů](https://github.com/beeware/{{ formal_name }}/issues), klikněte na tlačítko „Nový problém“ a vyberte možnost „Hlášení chyby“, abyste zahájili proces."
+msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
+msgstr "Přejděte na seznam problémů projektu {% if config.extra.website %}[seznam problémů](https://github.com/beeware/{% else %}/issues) {{ formal_name }}, klikněte na tlačítko „Nový problém“ a vyberte možnost „Hlášení chyby“, abyste zahájili proces."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy
@@ -1367,70 +1367,70 @@ msgstr "**Odkazy obsahující názvy tříd, metod nebo atributů**. Tyto odkazy
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:103
 #, fuzzy
-msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following: `[Link text][link-content]`."
-msgstr "**Obsah odkazu Reference**. Například `link-content` by bylo v následujícím případě přeskočeno: `[Link text][link-content]`."
+msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
+msgstr "**Obsah odkazu Reference**. Například `link-content` by bylo v následujícím příkladu přeskočeno:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:104
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:109
 #, fuzzy
 msgid "**Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation]{1} for examples."
 msgstr "**Jinja direktivy**. Jedná se o jakýkoli obsah uzavřený mezi dvěma páry shodných složených závorek nebo mezi párem shodných jednoduchých složených závorek s procenty na obou koncích. Poznámka: Pokud sem vložíte příklad syntaxe, plugin Macros se pokusí jej vykreslit; příklady najdete v [dokumentaci k makrům]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:105
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:110
 #, fuzzy
 msgid "**Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`."
 msgstr "**Vlastní kotvy**. Nacházejí se za záhlavími nebo nad určitým obsahem a jsou formátovány jako `{ #anchor }`."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:106
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:111
 #, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**Syntaxe napomenutí**. V následujícím příkladu by slovo „napomenutí“ nemělo být překládáno. To platí pro všechny styly napomenutí, včetně poznámek, varování atd. Informace o překladu zbytku obsahu naleznete v následující části."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:116
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
 #, fuzzy
 msgid "**Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks."
 msgstr "**Zpětné lomítko**. Mají zůstat jako zpětná lomítka; používají se pro formátování jak vloženého kódu, tak bloků kódu."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:117
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:122
 #, fuzzy
 msgid "**The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr "**Syntaxe pro zahrnutí externího obsahu**. Jedná se o cokoli na stejném řádku jako `-8<-` nebo na řádcích mezi dvěma `-8<-` na samostatných řádcích."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:119
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:124
 #, fuzzy
 msgid "The following items _should_ be translated:"
 msgstr "Následující položky by měly být přeloženy:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:126
 #, fuzzy
 msgid "**Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links."
 msgstr "**Text odkazu**. V syntaxi odkazu se text uvádí před URL adresou a je uzavřen v závorkách, jako v `[Link text](URL)`. Standardní odkazy Markdown by se měly v Weblate zobrazovat jako `[Link text]{1}`, kde `1` je pozice odkazu v řetězci s odkazem na jiné možné odkazy."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:122
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:127
 #, fuzzy
-msgid "**Reference link text**. For example, `Link text` would be translated in the following: `[Link text][link-content]`."
-msgstr "**Text odkazu**. Například `Link text` by bylo přeloženo následovně: `[Link text][link-content]`."
+msgid "**Reference link text**. For example, `Link text` would be translated in the following:"
+msgstr "**Text odkazu**. Například `Link text` by bylo přeloženo následovně:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:133
 #, fuzzy
 msgid "**Admonition titles and content**. In the previous admonition example, \"Page Title\" and \"Content.\" should be translated."
 msgstr "**Názvy a obsah napomenutí**. V předchozím příkladu napomenutí je třeba přeložit „Název stránky“ a „Obsah“."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:125
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:135
 #, fuzzy
 msgid "Weblate"
 msgstr "Weblate"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:127
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:137
 #, fuzzy
 msgid "We use [Weblate]{1} for our content translation. When we add a new translation, we use [DeepL]{2} for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation."
 msgstr "Pro překlad obsahu používáme [Weblate]{1}. Když přidáváme nový překlad, používáme [DeepL]{2} pro strojový překlad, abychom vytvořili první verzi překladu. To znamená, že obsah, který budete překládat, je obvykle již strojově přeložen. Očekává se, že jako překladatel budete stávající strojový překlad zkontrolovat, upravit a vylepšit."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:129
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:139
 #, fuzzy
 msgid "Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours."
 msgstr "Weblate zpracovává vše po jednotlivých řetězcích. Změny seskupuje a každých pár hodin odešle hromadný commit se všemi řetězci, které se v daném intervalu změnily. Může tedy trvat několik hodin, než se vaše změny projeví na webových stránkách, ale můžete očekávat, že aktualizace se objeví do čtyř hodin."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:131
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:141
 #, fuzzy
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg-fr/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}-fr/](https://app.readthedocs.org/projects/{{ project_name }}-fr/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
 msgstr "Pokud se vaše změny ani po uplynutí této doby nezobrazí, pravděpodobnou příčinou je chyba v značkách, která vede k selhání sestavení dokumentace pro daný jazyk. Jakýkoli problém se značkami v jakémkoli řetězci zablokuje zveřejnění celého překladu. Můžete sledovat stránku sestavení pro váš jazyk, abyste zjistili, zda se sestavení podařilo. Odkaz je formátován podobně jako tento odkaz na francouzskou stránku sestavení {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg-fr/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}-fr/](https://app.readthedocs.org/projects/{{ project_name }}-fr/){% endif %}; změňte kód jazyka na svůj jazyk, abyste zobrazili příslušnou stránku sestavení. Zobrazí se stav nejnovějšího sestavení webu. Pokud sestavení selže, podívejte se do protokolu sestavení a zkuste zjistit příčinu problému."

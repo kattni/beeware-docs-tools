@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 04:17+0000\n"
+"POT-Creation-Date: 2026-02-26 04:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -699,8 +699,8 @@ msgstr "Soumission du rapport"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
 #, fuzzy
-msgid "Navigate to the [{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues), click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr "Accédez à la liste des problèmes [{{nom_formel }}] (https://github.com/beeware/{nom_du_projet }}/problèmes), cliquez sur le bouton \"Nouveau problème\" et choisissez \"Rapport de bogue\" pour commencer le processus."
+msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
+msgstr "Accédez à la liste des problèmes du projet {% if config.extra.website %}[{% else %} liste des problèmes](https://github.com/beeware/{{ formal_name }}/issues) {{ project_name }}, cliquez sur le bouton « Nouveau problème » et sélectionnez « Rapport de bogue » pour lancer le processus."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy
@@ -1369,70 +1369,70 @@ msgstr "**Liens de référence contenant des noms de classes, de méthodes ou d'
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:103
 #, fuzzy
-msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following: `[Link text][link-content]`."
-msgstr "**Le contenu d'un lien de référence**. Par exemple, `contenu du lien` serait ignoré dans ce qui suit : `[Texte du lien][contenu du lien]`."
+msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
+msgstr "**Le contenu d'un lien de référence**. Par exemple, `link-content` serait ignoré dans l'exemple suivant :"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:104
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:109
 #, fuzzy
 msgid "**Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation]{1} for examples."
 msgstr "**Directives Jinja**. Il s'agit de tout contenu placé à l'intérieur de deux paires d'accolades correspondantes, ou d'une paire d'accolades correspondantes avec des signes de pourcentage à chaque extrémité. Note : L'inclusion d'un exemple de la syntaxe ici entraîne une tentative de rendu par le plugin Macros ; voir la [documentation Macros]{1} pour des exemples."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:105
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:110
 #, fuzzy
 msgid "**Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`."
 msgstr "**Ancres personnalisées**. Elles se trouvent après les en-têtes ou au-dessus d'un contenu, et sont formatées comme `{ #anchor }`."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:106
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:111
 #, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**Syntaxe de l'admonition**. Dans l'exemple suivant, le mot \"admonition\" ne doit pas être traduit. Cela vaut pour tous les types d'admonitions, y compris les notes, les avertissements, etc. Voir la section suivante pour plus d'informations sur la traduction du reste du contenu."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:116
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
 #, fuzzy
 msgid "**Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks."
 msgstr "**Backticks**. Ils sont destinés à rester des backticks ; ils sont utilisés pour formater à la fois le code en ligne et les blocs de code."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:117
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:122
 #, fuzzy
 msgid "**The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr "**La syntaxe pour inclure du contenu externe**. Il s'agit de tout ce qui se trouve sur la même ligne que `-8<-`, ou sur les lignes entre deux `-8<-` sur des lignes séparées."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:119
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:124
 #, fuzzy
 msgid "The following items _should_ be translated:"
 msgstr "Les éléments suivants _devraient_ être traduits :"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:126
 #, fuzzy
 msgid "**Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links."
 msgstr "**Texte du lien**. Dans la syntaxe des liens, le texte vient avant l'URL, et est placé entre crochets, comme dans `[Texte du lien](URL)`. Les liens Markdown standards devraient apparaître dans Weblate comme `[Texte du lien]{1}`, où `1` est la position du lien dans la chaîne en référence à d'autres liens possibles."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:122
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:127
 #, fuzzy
-msgid "**Reference link text**. For example, `Link text` would be translated in the following: `[Link text][link-content]`."
-msgstr "**Texte du lien de référence**. Par exemple, `Texte du lien` serait traduit comme suit : `[Texte du lien][contenu du lien]`."
+msgid "**Reference link text**. For example, `Link text` would be translated in the following:"
+msgstr "**Texte du lien de référence**. Par exemple, `Link text` serait traduit comme suit :"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:133
 #, fuzzy
 msgid "**Admonition titles and content**. In the previous admonition example, \"Page Title\" and \"Content.\" should be translated."
 msgstr "**Titres et contenu des admonitions**. Dans l'exemple précédent, les mots \"Titre de la page\" et \"Contenu\" doivent être traduits."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:125
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:135
 #, fuzzy
 msgid "Weblate"
 msgstr "Weblate"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:127
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:137
 #, fuzzy
 msgid "We use [Weblate]{1} for our content translation. When we add a new translation, we use [DeepL]{2} for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation."
 msgstr "Nous utilisons [Weblate]{1} pour la traduction du contenu. Lorsque nous ajoutons une nouvelle traduction, nous utilisons [DeepL]{2} pour la traduction automatique afin de produire une première série de traductions. En d'autres termes, le contenu que vous allez traduire est généralement déjà traduit par une machine. Nous attendons de vous, en tant que traducteur, que vous révisiez, corrigiez et amélioriez la traduction automatique existante."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:129
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:139
 #, fuzzy
 msgid "Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours."
 msgstr "Weblate traite tout sur une base chaîne par chaîne. Il regroupe les changements, et toutes les deux heures, il soumettra un commit groupé avec toutes les chaînes qui ont été modifiées dans cet intervalle. Ainsi, il peut s'écouler quelques heures avant que vos changements n'apparaissent sur le site web, mais vous pouvez vous attendre à ce que la mise à jour apparaisse dans un délai de quatre heures."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:131
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:141
 #, fuzzy
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg-fr/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}-fr/](https://app.readthedocs.org/projects/{{ project_name }}-fr/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
 msgstr "Si, après ce délai, vos modifications ne sont toujours pas apparues, il s'agit probablement d'une erreur de balisage, qui a entraîné un échec dans la construction des documents pour cette langue. Tout problème de balisage dans une chaîne de caractères bloque la publication de l'ensemble de la traduction. Vous pouvez garder un œil sur la page de construction de votre langue pour voir si elle a été construite avec succès. Le lien est formaté de manière similaire à ce lien vers la page de construction française {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg-fr/]{1}{% else %}[https://app.readthedocs.org/projects/{nom_du_projet }}-fr/](https://app.readthedocs.org/projects/{nom_du_projet }}-fr/){% endif %} ; remplacez le code de la langue par celui de votre langue pour afficher la page de construction appropriée. Cette page indique l'état de la dernière version du site. Si la construction échoue, consultez le journal de construction et essayez d'identifier la source du problème."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-06 11:52+0800\n"
+"POT-Creation-Date: 2026-02-26 04:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -697,8 +697,8 @@ msgstr "보고서 제출"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
 #, fuzzy
-msgid "Navigate to the [{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues), click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr "[{{ formal_name }} 이슈 목록](https://github.com/beeware/{{ project_name }}/issues)으로 이동하여 \"새 이슈\" 버튼을 클릭한 후 \"버그 보고\"를 선택하여 프로세스를 시작하세요."
+msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
+msgstr "{% if config.extra.website %}프로젝트 이슈 목록{% else %}[{{ formal_name }} 이슈 목록](https://github.com/beeware/{{ project_name }}/issues)으로 이동하여 \"새 이슈\" 버튼을 클릭한 후 \"버그 보고\"를 선택하여 프로세스를 시작하세요."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy
@@ -1367,70 +1367,70 @@ msgstr "**클래스, 메서드 또는 속성 이름이 포함된 참조 링크**
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:103
 #, fuzzy
-msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following: `[Link text][link-content]`."
-msgstr "**참조 링크의 링크 내용**. 예를 들어, `link-content`는 다음에서 생략됩니다: `[Link text][link-content]`."
+msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
+msgstr "**참조 링크의 링크 내용**. 예를 들어, `link-content`는 다음에서 생략됩니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:104
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:109
 #, fuzzy
 msgid "**Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation]{1} for examples."
 msgstr "**진자 지시어**. 이는 두 쌍의 일치하는 중괄호로 감싸진 모든 콘텐츠, 또는 양 끝에 퍼센트 기호가 포함된 일치하는 한 쌍의 중괄호를 의미합니다. 참고: 여기에 구문 예시를 포함하면 매크로 플러그인이 이를 렌더링하려고 시도합니다. 예시는 [매크로 문서]{1}을 참조하십시오."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:105
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:110
 #, fuzzy
 msgid "**Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`."
 msgstr "**사용자 정의 앵커**. 헤더 뒤나 특정 콘텐츠 위에 위치하며, `{ #anchor }` 형식으로 표시됩니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:106
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:111
 #, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**주의 사항 구문**. 다음 예시에서 \"주의 사항\"이라는 단어는 번역하지 않아야 합니다. 이는 메모, 경고 등 모든 유형의 주의 사항에 적용됩니다. 나머지 내용 번역에 관한 정보는 다음 섹션을 참조하십시오."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:116
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
 #, fuzzy
 msgid "**Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks."
 msgstr "**백틱**. 백틱은 그대로 유지되어야 하며, 인라인 코드와 코드 블록 양쪽의 서식을 지정하는 데 사용됩니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:117
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:122
 #, fuzzy
 msgid "**The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr "**외부 콘텐츠 포함 구문**. 이는 `-8<-`과 같은 줄에 있거나, 별도의 줄에 있는 두 `-8<-` 사이의 줄에 있는 모든 것을 의미합니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:119
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:124
 #, fuzzy
 msgid "The following items _should_ be translated:"
 msgstr "다음 항목들은 반드시 번역되어야 합니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:126
 #, fuzzy
 msgid "**Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links."
 msgstr "**링크 텍스트**. 링크 구문에서 텍스트는 URL 앞에 위치하며, `[Link text](URL)`와 같이 대괄호로 묶입니다. 표준 마크다운 링크는 Weblate에서 `[Link text]{1}`로 표시되어야 하며, 여기서 `1`는 문자열 내에서 다른 가능한 링크를 기준으로 한 링크의 위치를 나타냅니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:122
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:127
 #, fuzzy
-msgid "**Reference link text**. For example, `Link text` would be translated in the following: `[Link text][link-content]`."
-msgstr "**참조 링크 텍스트**. 예를 들어, `Link text`는 다음과 같이 번역됩니다: `[Link text][link-content]`."
+msgid "**Reference link text**. For example, `Link text` would be translated in the following:"
+msgstr "**참조 링크 텍스트**. 예를 들어, `Link text`는 다음과 같이 번역됩니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:133
 #, fuzzy
 msgid "**Admonition titles and content**. In the previous admonition example, \"Page Title\" and \"Content.\" should be translated."
 msgstr "**경고 제목과 내용**. 이전 경고 예시에서 \"페이지 제목\"과 \"내용\"은 번역되어야 합니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:125
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:135
 #, fuzzy
 msgid "Weblate"
 msgstr "웹레이트"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:127
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:137
 #, fuzzy
 msgid "We use [Weblate]{1} for our content translation. When we add a new translation, we use [DeepL]{2} for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation."
 msgstr "저희는 콘텐츠 번역에 [Weblate]{1}을 사용합니다. 새 번역을 추가할 때 [DeepL]{2}의 기계 번역을 활용해 초안을 생성합니다. 즉, 일반적으로 번역하실 콘텐츠는 이미 기계 번역된 상태입니다. 번역가로서 기존 기계 번역을 검토하고 수정하며 개선해 주시길 기대합니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:129
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:139
 #, fuzzy
 msgid "Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours."
 msgstr "Weblate는 모든 작업을 문자열 단위로 처리합니다. 변경 사항을 일괄 처리하여 몇 시간마다 해당 시간 동안 변경된 모든 문자열을 포함하는 대량 커밋을 제출합니다. 따라서 변경 사항이 웹사이트에 반영되기까지 몇 시간이 소요될 수 있으나, 최대 4시간 이내에 업데이트가 표시될 것으로 예상할 수 있습니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:131
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:141
 #, fuzzy
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg-fr/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}-fr/](https://app.readthedocs.org/projects/{{ project_name }}-fr/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
 msgstr "해당 시간 이후에도 변경 사항이 반영되지 않았다면, 해당 언어의 문서 빌드 실패를 초래하는 마크업 오류가 원인일 가능성이 높습니다. 어떤 문자열의 마크업 문제라도 전체 번역 공개를 차단합니다. 해당 언어의 빌드 페이지에서 빌드 성공 여부를 확인할 수 있습니다. 해당 링크는 프랑스어 빌드 페이지 링크와 유사한 형식입니다. {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg-fr/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}-fr/](https://app.readthedocs.org/projects/{{ project_name }}-fr/){% endif %}; 언어 코드를 원하는 언어로 변경하면 해당 언어의 빌드 페이지를 볼 수 있습니다. 이 페이지에서는 사이트의 최신 빌드 상태를 확인할 수 있습니다. 빌드가 실패할 경우 빌드 로그를 확인하여 문제의 원인을 파악해 보세요."
