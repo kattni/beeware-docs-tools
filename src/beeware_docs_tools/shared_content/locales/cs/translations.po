@@ -698,7 +698,7 @@ msgstr "Odeslání zprávy"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
 #, fuzzy
 msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr "Přejděte na seznam problémů projektu {% if config.extra.website %}[seznam problémů](https://github.com/beeware/{% else %}/issues) {{ formal_name }}, klikněte na tlačítko „Nový problém“ a vyberte možnost „Hlášení chyby“, abyste zahájili proces."
+msgstr "Přejděte na seznam {% if config.extra.website %}problémů projektu{% else %}[seznam problémů](https://github.com/beeware/{{ project_name }}/issues){% endif %}, klikněte na tlačítko „Nový problém“ a vyberte možnost „Hlášení chyby“, abyste zahájili proces."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy

@@ -700,7 +700,7 @@ msgstr "Soumission du rapport"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
 #, fuzzy
 msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr "Accédez à la liste des problèmes du projet {% if config.extra.website %}[{% else %} liste des problèmes](https://github.com/beeware/{{ formal_name }}/issues) {{ project_name }}, cliquez sur le bouton « Nouveau problème » et sélectionnez « Rapport de bogue » pour lancer le processus."
+msgstr "Accédez à la {% if config.extra.website %}liste des problèmes du projet{% else %}[{{ formal_name }}liste des problèmes](https://github.com/beeware/{{ formal_name }}/issues){% endif %}, cliquez sur le bouton « Nouveau problème » et sélectionnez « Rapport de bogue » pour lancer le processus."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy

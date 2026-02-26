@@ -698,7 +698,7 @@ msgstr "보고서 제출"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
 #, fuzzy
 msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr "{% if config.extra.website %}프로젝트 이슈 목록{% else %}[{{ formal_name }} 이슈 목록](https://github.com/beeware/{{ project_name }}/issues)으로 이동하여 \"새 이슈\" 버튼을 클릭한 후 \"버그 보고\"를 선택하여 프로세스를 시작하세요."
+msgstr "{% if config.extra.website %}프로젝트 이슈 목록{% else %}[{{ formal_name }} 이슈 목록](https://github.com/beeware/{{ project_name }}/issues)으로{% endif %} 이동하여 \"새 이슈\" 버튼을 클릭한 후 \"버그 보고\"를 선택하여 프로세스를 시작하세요."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy
