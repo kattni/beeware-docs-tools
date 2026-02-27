@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
@@ -162,11 +163,17 @@ def main():
             output = Path(args.output).resolve()
             build_docs(
                 config_file=temp_md_path / f"mkdocs.{language}.yml",
-                output_path=(
-                    output if (len(args.language_code) == 1) else (output / language)
-                ),
+                output_path=output / language,
                 build_with_warnings=args.build_with_warnings,
             )
+
+        # If we've built EN, move the content into the root.
+        if "en" in args.language_code:
+            en_output = output / "en"
+            for path in en_output.iterdir():
+                shutil.rmtree(output / path.name, ignore_errors=True)
+                shutil.move(path, output / path.name)
+            shutil.rmtree(en_output)
 
 
 if __name__ == "__main__":
