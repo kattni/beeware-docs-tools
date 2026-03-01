@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-28 04:59+0000\n"
+"POT-Creation-Date: 2026-03-01 17:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -404,8 +404,9 @@ msgid "`789.removal.2.md`"
 msgstr "`789.removal.2.md`"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:38
+#, fuzzy
 msgid "For more information about `towncrier` and fragment types see [News Fragments]{1}. You can also see existing examples of news fragments in the `changes` directory of the {{ formal_name }} repository. If this folder is empty, it's likely because {{ formal_name }} has recently published a new release; change note files are deleted and combined to update the [release notes](https://github.com/beeware/{{ project_name }}/releases) with each release. You can look at that file to see the style of comment that is required; you can look at [recently merged PRs](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) to see how to format your change notes."
-msgstr ""
+msgstr "`towncrier`およびフラグメントタイプの詳細については、[ニュースフラグメント]{1}を参照してください。また、`changes`リポジトリの{{ formal_name }}ディレクトリ内に既存のニュースフラグメントの例があります。 このフォルダが空の場合、{{ formal_name }} が最近新バージョンをリリースしたためと考えられます。変更履歴ファイルは削除され、各リリースごとに [リリースノート](https://github.com/beeware/{{ project_name }}/releases) の更新に統合されます。 必要なコメントのスタイルを確認するにはそのファイルを参照してください。変更ノートのフォーマット方法については、[最近マージされたプルリクエスト](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) を参照してください。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:1
 #, fuzzy
