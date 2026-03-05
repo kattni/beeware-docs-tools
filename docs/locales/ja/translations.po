@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 03:24+0000\n"
+"POT-Creation-Date: 2026-03-05 04:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -872,10 +872,50 @@ msgstr "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/h
 
 #: docs/en/section_one/index.md:27
 #, fuzzy
+msgid "Table font rendering"
+msgstr "表のフォントの描画"
+
+#: docs/en/section_one/index.md:29
+#, fuzzy
+msgid "Verify that the font in the following table is rendering at the same size as the rest of the font."
+msgstr "以下の表のフォントが、他のフォントと同じサイズで表示されていることを確認してください。"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 1"
+msgstr "第1列"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 2"
+msgstr "第2列"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 1"
+msgstr "行1"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 2"
+msgstr "2行目"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 3"
+msgstr "3行目"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 4"
+msgstr "行4"
+
+#: docs/en/section_one/index.md:38
+#, fuzzy
 msgid "Footer navigation"
 msgstr "フッターナビゲーション"
 
-#: docs/en/section_one/index.md:29
+#: docs/en/section_one/index.md:40
 #, fuzzy
 msgid "Navigate to *Section One - Page Two* for the final check."
 msgstr "最終確認のため、*セクション1 - ページ2* に移動してください。"
@@ -907,20 +947,25 @@ msgstr "以下は、`DocsTest` ディレクトリ内の `docs_test.py` にある
 
 #: docs/en/section_one/page_two.md:11
 #, fuzzy
+msgid "Verify that the text in the parameter table is rendering at the same size as the rest of the font."
+msgstr "パラメータテーブル内のテキストが、フォントの他の部分と同じサイズで表示されていることを確認してください。"
+
+#: docs/en/section_one/page_two.md:13
+#, fuzzy
 msgid "::: beeware_docs_tools.docs_test.DocsTest"
 msgstr "::: beeware_docs_tools.docs_test.DocsTest"
 
-#: docs/en/section_one/page_two.md:13
+#: docs/en/section_one/page_two.md:15
 #, fuzzy
 msgid "Macro functionality"
 msgstr "マクロ機能"
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:17
 #, fuzzy
 msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
 msgstr "以下は「Brutus says \"Hello world!\"」と表示されるはずです。これにより、MkDocs-Macros経由で定義されたグローバル変数とマクロが利用可能であることが確認できます。"
 
-#: docs/en/section_one/page_two.md:17
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }}は「{{ say_hello() }}」と言っている"

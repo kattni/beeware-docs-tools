@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 03:24+0000\n"
+"POT-Creation-Date: 2026-03-05 04:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -872,10 +872,50 @@ msgstr "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/h
 
 #: docs/en/section_one/index.md:27
 #, fuzzy
+msgid "Table font rendering"
+msgstr "테이블 글꼴 렌더링"
+
+#: docs/en/section_one/index.md:29
+#, fuzzy
+msgid "Verify that the font in the following table is rendering at the same size as the rest of the font."
+msgstr "다음 표의 글꼴이 나머지 글꼴과 동일한 크기로 렌더링되는지 확인하십시오."
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 1"
+msgstr "1번 열"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 2"
+msgstr "2열"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 1"
+msgstr "1행"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 2"
+msgstr "2행"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 3"
+msgstr "3행"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 4"
+msgstr "4행"
+
+#: docs/en/section_one/index.md:38
+#, fuzzy
 msgid "Footer navigation"
 msgstr "푸터 내비게이션"
 
-#: docs/en/section_one/index.md:29
+#: docs/en/section_one/index.md:40
 #, fuzzy
 msgid "Navigate to *Section One - Page Two* for the final check."
 msgstr "최종 확인을 위해 *섹션 1 - 페이지 2*로 이동하십시오."
@@ -907,20 +947,25 @@ msgstr "다음은 `DocsTest` 디렉터리 내 `docs_test.py`에 위치한 `src/b
 
 #: docs/en/section_one/page_two.md:11
 #, fuzzy
+msgid "Verify that the text in the parameter table is rendering at the same size as the rest of the font."
+msgstr "매개변수 테이블의 텍스트가 나머지 글꼴과 동일한 크기로 렌더링되는지 확인하십시오."
+
+#: docs/en/section_one/page_two.md:13
+#, fuzzy
 msgid "::: beeware_docs_tools.docs_test.DocsTest"
 msgstr "::: beeware_docs_tools.docs_test.DocsTest"
 
-#: docs/en/section_one/page_two.md:13
+#: docs/en/section_one/page_two.md:15
 #, fuzzy
 msgid "Macro functionality"
 msgstr "매크로 기능"
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:17
 #, fuzzy
 msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
 msgstr "다음은 'Brutus says \"Hello world!\"'라고 표시되어야 합니다. 이는 MkDocs-Macros를 통해 정의된 전역 변수와 매크로가 사용 가능함을 확인시켜 줍니다."
 
-#: docs/en/section_one/page_two.md:17
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }}는 \"{{ say_hello() }}\"라고 말한다."

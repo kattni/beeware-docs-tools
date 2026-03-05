@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 03:24+0000\n"
+"POT-Creation-Date: 2026-03-05 04:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -872,10 +872,50 @@ msgstr "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/h
 
 #: docs/en/section_one/index.md:27
 #, fuzzy
+msgid "Table font rendering"
+msgstr "Representación de fuentes en tablas"
+
+#: docs/en/section_one/index.md:29
+#, fuzzy
+msgid "Verify that the font in the following table is rendering at the same size as the rest of the font."
+msgstr "Comprueba que la fuente de la siguiente tabla se muestra con el mismo tamaño que el resto de fuentes."
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 1"
+msgstr "Columna 1"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 2"
+msgstr "Columna 2"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 1"
+msgstr "Fila 1"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 2"
+msgstr "Fila 2"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 3"
+msgstr "Fila 3"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 4"
+msgstr "Fila 4"
+
+#: docs/en/section_one/index.md:38
+#, fuzzy
 msgid "Footer navigation"
 msgstr "Navegación en el pie de página"
 
-#: docs/en/section_one/index.md:29
+#: docs/en/section_one/index.md:40
 #, fuzzy
 msgid "Navigate to *Section One - Page Two* for the final check."
 msgstr "Vaya a la *Sección uno - Página dos* para realizar la comprobación final."
@@ -907,20 +947,25 @@ msgstr "Lo siguiente debería mostrar la documentación de referencia para la cl
 
 #: docs/en/section_one/page_two.md:11
 #, fuzzy
+msgid "Verify that the text in the parameter table is rendering at the same size as the rest of the font."
+msgstr "Comprueba que el texto de la tabla de parámetros se muestra con el mismo tamaño que el resto de la fuente."
+
+#: docs/en/section_one/page_two.md:13
+#, fuzzy
 msgid "::: beeware_docs_tools.docs_test.DocsTest"
 msgstr "::: beeware_docs_tools.docs_test.DocsTest"
 
-#: docs/en/section_one/page_two.md:13
+#: docs/en/section_one/page_two.md:15
 #, fuzzy
 msgid "Macro functionality"
 msgstr "Funcionalidad macro"
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:17
 #, fuzzy
 msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
 msgstr "Lo siguiente debería decir «Brutus dice \"¡Hola mundo!\"». Esto confirma que las variables globales y las macros definidas a través de MkDocs-Macros están disponibles."
 
-#: docs/en/section_one/page_two.md:17
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }} dice «{{ say_hello() }}»."
