@@ -8,6 +8,8 @@ Navigation should render at the bottom of the page; "BeeWare Docs Tools Demo Sec
 
 The following should show the reference documentation for the `DocsTest` class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. This verifies that the source code directory symlinking is working properly.
 
+Verify that the text in the parameter table is rendering at the same size as the rest of the font.
+
 ::: beeware_docs_tools.docs_test.DocsTest
 
 ## Macro functionality
