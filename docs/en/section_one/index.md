@@ -24,6 +24,17 @@ https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/doc
 
 <!-- rumdl-enable MD013 MD034 -->
 
+## Table font rendering
+
+Verify that the font in the following table is rendering at the same size as the rest of the font.
+
+| Column 1 | Column 2 |
+|----------|----------|
+| Row 1    | Row 1    |
+| Row 2    | Row 2    |
+| Row 3    | Row 3    |
+| Row 4    | Row 4    |
+
 ## Footer navigation
 
 Navigate to *Section One - Page Two* for the final check.
