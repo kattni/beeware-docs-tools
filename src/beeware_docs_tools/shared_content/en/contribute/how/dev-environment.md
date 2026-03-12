@@ -121,6 +121,55 @@ C:\...>git clone https://github.com/<your username>/{{ project_name }}.git
 
 {% endif %}
 
+#### Set an upstream repository
+
+After cloning your fork, add the BeeWare repository as an `upstream` remote. This gives your local clone a reference to the original repository, making it easier to sync updates over time.
+
+You'll also need tags from `upstream` so tools like Toga and Briefcase can resolve accurate version numbers:
+
+{% if not config.extra.macos_only %}
+
+/// tab | macOS
+
+{% endif %}
+
+```console
+$ git remote add upstream https://github.com/beeware/{{ project_name }}.git
+$ git fetch --tags upstream
+```
+
+{% if not config.extra.macos_only %}
+
+///
+
+/// tab | Linux
+
+```console
+$ git remote add upstream https://github.com/beeware/{{ project_name }}.git
+$ git fetch --tags upstream
+```
+
+///
+
+/// tab | Windows
+
+```doscon
+C:\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git
+C:\...>git fetch --tags upstream
+```
+
+///
+
+{% endif %}
+
+If you want your fork to include those tags as well, you can push them:
+
+```console
+$ git push --tags
+```
+
+This can be useful if you make a fresh clone later and want tags to be available from your fork.
+
 #### Create a virtual environment
 
 To set up a virtual environment and upgrade `pip`, run:
