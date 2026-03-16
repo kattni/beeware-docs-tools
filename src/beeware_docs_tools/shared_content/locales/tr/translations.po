@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 06:54+0000\n"
+"POT-Creation-Date: 2026-03-16 23:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -721,8 +721,9 @@ msgid "Submitting the report"
 msgstr "Raporun sunulması"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
+#, fuzzy
 msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr ""
+msgstr "{% if config.extra.website %}Proje sorunları listesi{% else %}[{{ formal_name }} sorunlar listesi](https://github.com/beeware/{{ project_name }}/issues){% endif %} sayfasına gidin, \"Yeni sorun\" düğmesine tıklayın ve süreci başlatmak için \"Hata raporu\" seçeneğini seçin."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy
@@ -2109,8 +2110,8 @@ msgstr "Bu kılavuz, {{ formal_name }} için kod yazmaya ilişkin bilgiler ve y�
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:3
 #, fuzzy
-msgid "Code style"
-msgstr "Kod stili"
+msgid "Code style { #code-style }"
+msgstr "Kod stili { #code-style }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:5
 #, fuzzy
@@ -2124,25 +2125,65 @@ msgstr "PEP 8'in en önemli kısmının [Bölüm 0: Aptalca Tutarlılık Küçü
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:9
 #, fuzzy
+msgid "One manifestation of this can be seen in naming conventions. BeeWare libraries frequently need to bridge to other languages. When building wrappers to other languages, it is desirable (and in some cases, required) to follow the naming conventions of the target language, rather than Python. For example, when calling or referencing Java code, functions should follow Java's preference of `mixedCase`, rather than the PEP 8 preference for `snake_case`."
+msgstr "Bunun bir örneği, adlandırma kurallarında görülebilir. BeeWare kütüphaneleri sıklıkla diğer dillerle entegrasyon kurmak zorundadır. Diğer dillere yönelik sarmalayıcılar oluşturulurken, Python yerine hedef dilin adlandırma kurallarına uymak tercih edilir (ve bazı durumlarda zorunludur). Örneğin, Java kodunu çağırırken veya referans verirken, işlevler PEP 8'in `mixedCase` tercihini değil, Java'nın `snake_case` tercihini benimsemelidir."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#, fuzzy
 msgid "We follow US spelling for API naming, variables, etc."
 msgstr "API adlandırma, değişkenler vb. için ABD yazım kurallarını takip ediyoruz."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:13
 #, fuzzy
 msgid "{% block code_style %} {% endblock %}"
 msgstr "{% block code_style %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:14
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#, fuzzy
+msgid "There are also some BeeWare-specific additions to PEP 8:"
+msgstr "PEP 8'e BeeWare'e özgü bazı eklemeler de yapılmıştır:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#, fuzzy
+msgid "Splitting long function calls { #split-long-function-calls }"
+msgstr "Uzun işlev çağrılarını bölme { #split-long-function-calls }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:20
+#, fuzzy
+msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
+msgstr "Birden fazla argüman içeren bir işlev çağrısı tek bir satıra sığmadığında, her argümanı ayrı bir satıra yerleştirin ve son argümanın sonuna virgül ekleyin. Ruff, birden fazla argümanın tek bir satıra sığdırılmasına izin verir (ve bunu önerir):"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
+#, fuzzy
+msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
+msgstr "Bu biçim kullanılmamalıdır. Bunun yerine, son argümana sondan virgül ekleyerek argümanları her satıra bir tane olacak şekilde dağıtın:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
+#, fuzzy
+msgid "Splitting long strings { #split-long-strings }"
+msgstr "Uzun dizeleri bölme { #split-long-strings }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:40
+#, fuzzy
+msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
+msgstr "Bir dize argümanının satır uzunluğu kısıtlamalarına uymak için satırlara bölünmesi gerektiğinde, birleştirilmiş dize sabitlerini parantez içine alın; böylece dizenin tek bir argüman olduğu açıkça anlaşılır. Yani, şu şekilde yazmayı tercih ederiz:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
+#, fuzzy
+msgid "over:"
+msgstr "yukarıda:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Kaçınılması gerekenler"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:64
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Bazen kaçınılmaz olduklarını bilerek, `utils` modüllerini mümkün olduğunca kullanmamaya çalışıyoruz. Tercih edilen alternatif, `utils` modülünü kullanmak yerine, kaynak kodun başka bir yerinde bu özelliği bulmaktır."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:66
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Genel bir kural olarak, uygulamanın daha hızlı başlatılması için pahalı başlatma kodlarını önlemeye veya ertelemeye çalışırız. Örneğin, toga-core paketindeki modüller \"tembel yükleme\" ile çalışır; yani, önceden değil, yalnızca talep edildiğinde içe aktarılır. Bu, başlatma sürecini hızlandırır ve yalnızca uygulamanın gerçekten kullandığı şeyler için zaman harcanmasını sağlar."

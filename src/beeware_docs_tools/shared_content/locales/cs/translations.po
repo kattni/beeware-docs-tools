@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 06:54+0000\n"
+"POT-Creation-Date: 2026-03-16 23:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2116,8 +2116,8 @@ msgstr "Tato příručka obsahuje informace a pokyny pro psaní kódu pro {{ for
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:3
 #, fuzzy
-msgid "Code style"
-msgstr "Styl kódu"
+msgid "Code style { #code-style }"
+msgstr "Styl kódu { #code-style }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:5
 #, fuzzy
@@ -2131,25 +2131,65 @@ msgstr "Mějte na paměti, že nejdůležitější částí PEP 8 je [Sekce 0: P
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:9
 #, fuzzy
+msgid "One manifestation of this can be seen in naming conventions. BeeWare libraries frequently need to bridge to other languages. When building wrappers to other languages, it is desirable (and in some cases, required) to follow the naming conventions of the target language, rather than Python. For example, when calling or referencing Java code, functions should follow Java's preference of `mixedCase`, rather than the PEP 8 preference for `snake_case`."
+msgstr "Jedním z projevů tohoto přístupu jsou konvence pojmenování. Knihovny BeeWare často potřebují propojit s jinými jazyky. Při vytváření obalových funkcí pro jiné jazyky je žádoucí (a v některých případech i nezbytné) řídit se konvencemi pojmenování cílového jazyka, nikoli jazyka Python. Například při volání nebo odkazování na kód v Javě by funkce měly používat v Javě preferované značky `mixedCase`, nikoli značky `snake_case`, které doporučuje PEP 8."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#, fuzzy
 msgid "We follow US spelling for API naming, variables, etc."
 msgstr "Při pojmenovávání API, proměnných atd. se řídíme americkým pravopisem."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:13
 #, fuzzy
 msgid "{% block code_style %} {% endblock %}"
 msgstr "{% block code_style %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:14
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#, fuzzy
+msgid "There are also some BeeWare-specific additions to PEP 8:"
+msgstr "K PEP 8 existují také některé doplňky specifické pro BeeWare:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#, fuzzy
+msgid "Splitting long function calls { #split-long-function-calls }"
+msgstr "Rozdělení dlouhých volání funkcí { #split-long-function-calls }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:20
+#, fuzzy
+msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
+msgstr "Pokud se volání funkce s více než jedním argumentem nevejde na jeden řádek, umístěte každý argument na samostatný řádek a za poslední argument vložte čárku. Ruff povoluje (a dokonce doporučuje) formátování více argumentů na jednom řádku s přenosem:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
+#, fuzzy
+msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
+msgstr "Tento styl by se neměl používat. Místo toho rozložte argumenty tak, aby byl každý na samostatném řádku, a to přidáním čárky na konec posledního argumentu:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
+#, fuzzy
+msgid "Splitting long strings { #split-long-strings }"
+msgstr "Rozdělení dlouhých řetězců { #split-long-strings }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:40
+#, fuzzy
+msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
+msgstr "Pokud je třeba řetězcový argument rozdělit na více řádků, aby splňoval požadavky na délku řádku, uzavřete zřetězené řetězcové literály do závorek, aby bylo zřejmé, že se jedná o jediný argument. Upřednostňujeme tedy:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
+#, fuzzy
+msgid "over:"
+msgstr "přes:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Věci, kterým je třeba se vyhnout"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:64
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Snažíme se co nejvíce vyhýbat modulům `utils`, ale chápeme, že někdy jsou nevyhnutelné. Preferovanou alternativou je najít danou funkci jinde ve zdrojovém kódu, místo použití modulu `utils`."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:66
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Obecně se snažíme vyhnout nebo odložit jakýkoli nákladný inicializační kód, abychom dosáhli rychlejšího spuštění aplikace. Například moduly v balíčku toga-core jsou „načítány až při potřebě“ – jsou importovány až po vyžádání, nikoli předem. To urychluje spuštění a čas se věnuje pouze tomu, co aplikace skutečně používá."

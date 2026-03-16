@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 06:54+0000\n"
+"POT-Creation-Date: 2026-03-16 23:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -659,8 +659,9 @@ msgid "Inline code is rendered in the same color as the surrounding font. This c
 msgstr "内联代码以与周围字体相同的颜色呈现。这证实了主题并未引发任何意外变化。"
 
 #: docs/en/index.md:29
+#, fuzzy
 msgid "This is text with `inline code` here and `inline code` here."
-msgstr ""
+msgstr "这是一段包含 `inline code` 和 `inline code` 的文本。"
 
 #: docs/en/index.md:31
 #, fuzzy

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 06:54+0000\n"
+"POT-Creation-Date: 2026-03-16 23:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2112,8 +2112,8 @@ msgstr "Dieser Leitfaden enthält Informationen und Richtlinien zum Schreiben vo
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:3
 #, fuzzy
-msgid "Code style"
-msgstr "Code-Stil"
+msgid "Code style { #code-style }"
+msgstr "Codierungsstil { #code-style }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:5
 #, fuzzy
@@ -2127,24 +2127,64 @@ msgstr "Denken Sie daran, dass der wichtigste Teil von PEP 8 [Abschnitt 0: Eine 
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:9
 #, fuzzy
+msgid "One manifestation of this can be seen in naming conventions. BeeWare libraries frequently need to bridge to other languages. When building wrappers to other languages, it is desirable (and in some cases, required) to follow the naming conventions of the target language, rather than Python. For example, when calling or referencing Java code, functions should follow Java's preference of `mixedCase`, rather than the PEP 8 preference for `snake_case`."
+msgstr "Dies zeigt sich unter anderem in den Namenskonventionen. BeeWare-Bibliotheken müssen häufig eine Brücke zu anderen Sprachen schlagen. Beim Erstellen von Wrappern für andere Sprachen ist es wünschenswert (und in manchen Fällen sogar erforderlich), die Namenskonventionen der Zielsprache zu befolgen und nicht die von Python. Wenn beispielsweise Java-Code aufgerufen oder referenziert wird, sollten Funktionen der in Java bevorzugten Schreibweise `mixedCase` folgen und nicht der in PEP 8 empfohlenen Schreibweise `snake_case`."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#, fuzzy
 msgid "We follow US spelling for API naming, variables, etc."
 msgstr "Wir halten uns bei der Benennung von APIs, Variablen usw. an die US-Rechtschreibung."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:13
 msgid "{% block code_style %} {% endblock %}"
 msgstr "{% block code_style %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:14
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#, fuzzy
+msgid "There are also some BeeWare-specific additions to PEP 8:"
+msgstr "Es gibt außerdem einige BeeWare-spezifische Ergänzungen zu PEP 8:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#, fuzzy
+msgid "Splitting long function calls { #split-long-function-calls }"
+msgstr "Aufteilung langer Funktionsaufrufe { #split-long-function-calls }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:20
+#, fuzzy
+msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
+msgstr "Wenn ein Funktionsaufruf mit mehr als einem Argument nicht in eine einzige Zeile passt, setzen Sie jedes Argument in eine eigene Zeile und fügen Sie am Ende des letzten Arguments ein Komma ein. Ruff erlaubt (und schlägt vor) eine Formatierung mit mehreren Argumenten in einer umgebrochenen Zeile:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
+#, fuzzy
+msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
+msgstr "Dieser Stil sollte nicht verwendet werden. Verteilen Sie die Argumente stattdessen auf jeweils eine Zeile, indem Sie am Ende des letzten Arguments ein Komma setzen:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
+#, fuzzy
+msgid "Splitting long strings { #split-long-strings }"
+msgstr "Lange Zeichenfolgen aufteilen { #split-long-strings }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:40
+#, fuzzy
+msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
+msgstr "Wenn ein String-Argument auf mehrere Zeilen aufgeteilt werden muss, um die Anforderungen an die Zeilenlänge zu erfüllen, setzen Sie die verketteten String-Literale in Klammern, damit klar ist, dass es sich um ein einziges Argument handelt. Das heißt, wir bevorzugen:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
+#, fuzzy
+msgid "over:"
+msgstr "übersetzt:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Zu vermeidende Dinge"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:64
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Wir versuchen, \"utils\"-Module so weit wie möglich zu vermeiden, mit dem Verständnis, dass sie manchmal unvermeidbar sind. Die bevorzugte Alternative ist, die Funktion an anderer Stelle im Quellcode zu finden, anstatt ein \"utils\"-Modul zu verwenden."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:66
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Generell versuchen wir, teuren Initialisierungscode zu vermeiden oder aufzuschieben, um einen schnelleren Start der App zu erreichen. Beispielsweise werden Module im toga-core-Paket „lazy loaded“ – sie werden erst bei Bedarf importiert und nicht alle im Voraus. Dies beschleunigt den Start und es wird nur Zeit für das aufgewendet, was die App tatsächlich nutzt."

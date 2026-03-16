@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 06:54+0000\n"
+"POT-Creation-Date: 2026-03-16 23:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,8 +88,9 @@ msgid "Working off your main branch also makes it difficult for *you* after you 
 msgstr "メインブランチで作業すると、最初のプルリクエストを完了した後の*あなた*自身にとっても困難になります。2つ目のプルリクエストに取り組む場合、2つ目の貢献の基盤となるアップストリームプロジェクトのメインブランチの「クリーンな」コピーが必要になります。最初の貢献を`main`ブランチから行った場合、そのクリーンなバージョンはもはや利用できません。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:7
+#, fuzzy
 msgid "Instead, you should make your changes on a *feature branch*. A feature branch has a simple name to identify the change that you've made. For example, if you're fixing a bug that causes build issues on Windows 11, you might create a feature branch `fix-win11-build`. If your bug relates to a specific issue that has been reported, it's also common to reference that issue number in the branch name (e.g., `fix-1234`)."
-msgstr ""
+msgstr "その代わりに、変更は *機能ブランチ* で行うべきです。機能ブランチには、行った変更を識別するためのシンプルな名前が付けられます。 たとえば、Windows 11でのビルドに問題を引き起こすバグを修正する場合、`fix-win11-build`というフィーチャーブランチを作成します。バグが報告済みの特定の課題に関連している場合は、ブランチ名にその課題番号を含めることも一般的です（例：`fix-1234`）。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:9
 #, fuzzy
@@ -1395,8 +1396,9 @@ msgid "**Namespaces**, such as class, method, or attribute names."
 msgstr "**名前空間**（クラス名、メソッド名、属性名など）。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:108
+#, fuzzy
 msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com)`, the URL should be skipped for translation."
-msgstr ""
+msgstr "**リンクURL**。標準的なMarkdown形式のリンクは、Weblate上では `[Link text]{1}` の形式で表示されます。ここで、`1` は、その文字列内の他のリンクとの位置関係を示すものです。もし文字列内に完全なURLが `[Link text](https://example.com)` の形式で含まれている場合、そのURLは翻訳対象から除外されます。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:109
 #, fuzzy
@@ -2108,8 +2110,8 @@ msgstr "このガイドには、{{ formal_name }} のコードを書くための
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:3
 #, fuzzy
-msgid "Code style"
-msgstr "コードスタイル"
+msgid "Code style { #code-style }"
+msgstr "コーディングスタイル { #code-style }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:5
 #, fuzzy
@@ -2123,25 +2125,65 @@ msgstr "PEP 8で最も重要な部分は[セクション0: 愚かな一貫性は
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:9
 #, fuzzy
+msgid "One manifestation of this can be seen in naming conventions. BeeWare libraries frequently need to bridge to other languages. When building wrappers to other languages, it is desirable (and in some cases, required) to follow the naming conventions of the target language, rather than Python. For example, when calling or referencing Java code, functions should follow Java's preference of `mixedCase`, rather than the PEP 8 preference for `snake_case`."
+msgstr "この傾向は、命名規則にも表れています。BeeWareライブラリは、他の言語との橋渡しを必要とすることがよくあります。他の言語向けのラッパーを構築する際には、Pythonの命名規則ではなく、対象言語の命名規則に従うことが望ましい（場合によっては必須）です。例えば、Javaコードを呼び出したり参照したりする場合、関数名はPEP 8で推奨されている`mixedCase`ではなく、Javaで推奨されている`snake_case`に従うべきです。"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#, fuzzy
 msgid "We follow US spelling for API naming, variables, etc."
 msgstr "APIの命名規則、変数名などについては米国式スペルを採用します。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:11
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:13
 #, fuzzy
 msgid "{% block code_style %} {% endblock %}"
 msgstr "{% block code_style %} {% endblock %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:14
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#, fuzzy
+msgid "There are also some BeeWare-specific additions to PEP 8:"
+msgstr "また、PEP 8にはBeeWare固有の追加事項もいくつかあります："
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#, fuzzy
+msgid "Splitting long function calls { #split-long-function-calls }"
+msgstr "長い関数呼び出しの分割 { #split-long-function-calls }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:20
+#, fuzzy
+msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
+msgstr "引数が複数ある関数呼び出しが1行に収まらない場合は、各引数をそれぞれ別の行に配置し、最後の引数の後にコンマを付けます。Ruffでは、改行を挟んで1行に複数の引数を並べる形式も許可されており（また、その形式を推奨します）："
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
+#, fuzzy
+msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
+msgstr "この書き方は避けてください。代わりに、最後の引数の後にコンマを付け、引数を1行に1つずつ配置してください："
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
+#, fuzzy
+msgid "Splitting long strings { #split-long-strings }"
+msgstr "長い文字列の分割 { #split-long-strings }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:40
+#, fuzzy
+msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
+msgstr "文字列引数を、行の長さの制限を満たすために複数行に分割する必要がある場合は、連結された文字列リテラルを括弧で囲み、その文字列が単一の引数であることを明確にしてください。つまり、次のような記述を推奨します："
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
+#, fuzzy
+msgid "over:"
+msgstr "以上："
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
 #, fuzzy
 msgid "Things to avoid"
 msgstr "避けるべきこと"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:16
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:64
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "可能な限り`utils`モジュールは避けるように努めていますが、場合によっては避けられないこともあると認識しています。望ましい代替策は、`utils`モジュールを使用する代わりに、ソースコード内の別の場所でその機能を実現できる箇所を見つけることです。"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:66
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "一般的なルールとして、アプリの起動を高速化するため、高コストな初期化コードは回避または遅延させるよう努めています。例えば、toga-coreパッケージのモジュールは「遅延読み込み」されており、最初から全て読み込まれるのではなく、要求された時点で初めてインポートされます。これにより起動が高速化され、アプリが実際に使用している部分のみに時間を費やすことができます。"
@@ -2522,8 +2564,9 @@ msgid "We use `-8<-` as the Snippets identifier. The documentation shows several
 msgstr "スニペット識別子として`-8<-`を使用します。ドキュメントには複数のオプションが記載されていますが、当社のスタイルに従ってください。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:366
+#, fuzzy
 msgid "Files found in BeeWare Docs Tools shared content are treated as \"local\" content. Therefore, you will either use only the filename, as in `-8<- \"docs-style-guide.md\"`, or if the content is in a subdirectory, only the directory and filename, as in `-8<- \"style/docs-style-guide.md\"`."
-msgstr ""
+msgstr "BeeWare Docs Toolsの共有コンテンツ内にあるファイルは、「ローカル」コンテンツとして扱われます。そのため、`-8<- \"docs-style-guide.md\"`のようにファイル名のみを使用するか、コンテンツがサブディレクトリにある場合は、`-8<- \"style/docs-style-guide.md\"`のようにディレクトリ名とファイル名の両方を指定する必要があります。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:367
 #, fuzzy
@@ -2880,8 +2923,9 @@ msgid "Can I review?"
 msgstr "確認してもいいですか？"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:11
+#, fuzzy
 msgid "Yes! You can offer a review on any pull request you see open on {{ formal_name }}."
-msgstr ""
+msgstr "はい！{{ formal_name }}で公開中のプルリクエストなら、どれでもレビューを依頼できます。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:13
 #, fuzzy
