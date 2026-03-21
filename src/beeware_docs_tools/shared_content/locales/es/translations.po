@@ -599,9 +599,8 @@ msgid "If you need to include a long block of text, you can make it collapsed co
 msgstr "Si necesita incluir un bloque largo de texto largo, puede convertirlo en contenido colapsado utilizando la sintaxis siguiente:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:63
-#, fuzzy
 msgid "Once you've provided as much information as you can, click \"Create\" to submit the report."
-msgstr "Una vez que haya proporcionado toda la información posible, haga clic en \"Crear\" para enviar el informe."
+msgstr "Una vez que haya proporcionado toda la información posible, pulse en «Crear» para enviar el informe."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:65
 msgid "/// warning | Using the GitHub CLI to create an issue"
