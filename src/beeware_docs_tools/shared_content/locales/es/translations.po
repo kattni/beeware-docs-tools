@@ -1,6 +1,6 @@
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-24 11:10+0000\nPO-Revision-Date: 2026-03-26 09:09+0000\nLast-Translator: Francisco Serrador <fserrador@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-03-24 11:10+0000\nPO-Revision-Date: 2026-03-26 09:10+0000\nLast-Translator: Francisco Serrador <fserrador@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17-dev\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -1967,9 +1967,8 @@ msgid "You can highlight specific lines of code. For example, to highlight line 
 msgstr "Puede resaltar líneas específicas de código. Por ejemplo, para resaltar la línea 2, añadiría un espacio después del lenguaje, seguido de `{hl_lines=\"2\"}`. Así, su bloque de código comenzaría con ` ``python {hl_lines=\"2\"} `. El resultado es:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:173
-#, fuzzy
 msgid "You can highlight multiple different lines. For example, `python {hl_lines=\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also highlight a range of lines. For example, `python {hl_lines=\"3-8\"}` highlights lines 3 through 8. You can highlight multiple ranges with, for example, `python {hl_lines=\"9-18 23-44\"}`."
-msgstr "Puede resaltar varias líneas diferentes. Por ejemplo, `python {hl_lines=\"3 5 9\"}` resaltaría las líneas 3, 5 y 9. También puedes resaltar un rango de líneas. Por ejemplo, `python {hl_lines=\"3-8\"}` resalta las líneas 3 a 8. Puedes resaltar múltiples rangos con, por ejemplo, `python {hl_lines=\"9-18 23-44\"}`."
+msgstr "Puede resaltar varias líneas diferentes. Por ejemplo, `python {hl_lines=\"3 5 9\"}` resaltaría las líneas 3, 5 y 9. También puedes resaltar un rango de líneas. Por ejemplo, `python {hl_lines=\"3-8\"}` resalta las líneas 3 a 8. Puedes destacar múltiples intervalos con, p.ej., `python {hl_lines=\"9-18 23-44\"}`."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:175
 msgid "Markdown elements that require specific formatting"
