@@ -25,7 +25,6 @@ maintainers = [
 dependencies = [
     "click==8.2.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
     "deepl==1.28.0",
-    "griffe @ git+https://github.com/mkdocstrings/griffe@1fde0d2317c9098055ab313c8a0a992032194830", # Bullets in docstrings fix
     "markdown-checker==0.2.5",
     "mistletoe==1.5.1",
     "mkdocs-autorefs==1.4.4",
@@ -35,7 +34,7 @@ dependencies = [
     "mkdocs-rss-plugin==1.17.9",
     "mkdocs==1.6.1",
     "mkdocstrings-python==2.0.3",
-    "pymdown-extensions==10.21",
+    "pymdown-extensions==10.21.2",
     "pyspelling==2.12.1",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
@@ -97,7 +96,7 @@ filterwarnings = [
 [tool.rumdl]
 flavor = "mkdocs"
 include = ["**/*.md"]
-exclude = ["docs/en/SUMMARY.md", "comment.md"]
+exclude = ["docs/en/SUMMARY.md", "comment.md", "CODE_OF_CONDUCT.md"]
 respect-gitignore = true
 
 # Disable rules:
