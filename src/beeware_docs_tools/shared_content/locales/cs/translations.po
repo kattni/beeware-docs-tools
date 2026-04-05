@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-31 07:10+0000\n"
+"POT-Creation-Date: 2026-04-05 21:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.2\n"
+"X-Generator: Translate Toolkit 3.19.3\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 #, fuzzy
@@ -109,6 +109,10 @@ msgstr "/// tab | macOS"
 msgid "{% endif %}"
 msgstr "{% endif %}"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:17 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:27
+msgid "(.venv) $ git switch -c fix-win11-build"
+msgstr "(.venv) $ git switch -c fix-win11-build"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:20 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:44 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:52 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:142 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:170 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:178 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:186 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:218 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:68 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:96 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:120 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:143 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:161 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:203 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:214 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:240 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:252 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:264 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:285 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:294 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:303 src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:77 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:246 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:276 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:28 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:68 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:80 src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:48 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:17 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:23 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:29 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:37 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:45 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:51 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:59 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:65 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:20 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:26 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:32 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:38 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:44 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:50 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:56 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:62 src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:43 src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:13 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:60 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:66 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:72 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:78 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:96
 msgid "///"
 msgstr "///"
@@ -120,6 +124,10 @@ msgstr "/// tab | Linux"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:33 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:46 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:102 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:144 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:180 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:220 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:51 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:205 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:254 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:296 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:59 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:210
 msgid "/// tab | Windows"
 msgstr "/// tab | Windows"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:35
+msgid "(.venv) C:\\...>git switch -c fix-win11-build"
+msgstr "(.venv) C:\\...>git switch -c fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:1
 #, fuzzy
@@ -171,6 +179,16 @@ msgstr "`WARNING` se liší od `ERROR`. Pokud zavedete problém, který je pova�
 msgid "To start the live server:"
 msgstr "Spuštění živého serveru:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:40
+#, fuzzy
+msgid "(venv) $ tox -e docs-live"
+msgstr "(venv) $ tox -e docs-live"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:48
+#, fuzzy
+msgid "(venv) C:\\...>tox -e docs-live"
+msgstr "(venv) C:\\...>tox -e docs-live"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:56
 #, fuzzy
 msgid "This will build the documentation, start a web server to serve the documentation, and watch the file system for any changes to the documentation source."
@@ -180,6 +198,11 @@ msgstr "Tím se vytvoří dokumentace, spustí se webový server pro poskytován
 #, fuzzy
 msgid "Once the server is started, you'll see something like the following in the console output:"
 msgstr "Po spuštění serveru se v konzoli zobrazí následující výstup:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:60
+#, fuzzy
+msgid "INFO    -  [11:18:51] Serving on http://127.0.0.1:8000/"
+msgstr "INFO    -  [11:18:51] Obsluhuje na adrese http://127.0.0.1:8000/"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:64
 #, fuzzy
@@ -216,6 +239,16 @@ msgstr "Generování lokální sestavení"
 msgid "To generate a local build:"
 msgstr "Pro vytvoření lokální sestavení:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:86 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:96
+#, fuzzy
+msgid "(venv) $ tox -e docs"
+msgstr "(venv) $ tox -e docs"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:104
+#, fuzzy
+msgid "(venv) C:\\...>tox -e docs"
+msgstr "(venv) C:\\...>tox -e docs"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:110
 #, fuzzy
 msgid "The output of this build will be in the `_build` directory in the root of the project."
@@ -240,6 +273,16 @@ msgstr "Dokumentace {{ formal_name }}' je přeložena do několika jazyků. Aktu
 msgid "To generate a build of all available translations:"
 msgstr "Chcete-li vygenerovat sestavení všech dostupných překladů:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:128 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:138
+#, fuzzy
+msgid "(venv) $ tox -e docs-all"
+msgstr "(sloveso) $ tox -e docs-all"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:146
+#, fuzzy
+msgid "(venv) C:\\...>tox -e docs-all"
+msgstr "(venv) C:\\...>tox -e docs-all"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:154
 #, fuzzy
 msgid "The output of each language build will be in the associated `_build/html/<languagecode>` directory, where `<languagecode>` is the two- or five-character language code associated with the specific language (e.g. `fr` for French, `it` for Italian, etc.)."
@@ -249,6 +292,16 @@ msgstr "Výstup každé jazykové sestavy bude umístěn v příslušném adres�
 #, fuzzy
 msgid "If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-<languagecode>`. For example, to build only the French documentation, run:"
 msgstr "Pokud narazíte na problém s jednotlivou sestavou, můžete ji spustit samostatně pomocí příkazu `tox -e docs-<languagecode>`. Chcete-li například sestavit pouze francouzskou dokumentaci, spusťte:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:164 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:174
+#, fuzzy
+msgid "(venv) $ tox -e docs-fr"
+msgstr "(venv) $ tox -e docs-fr"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:182
+#, fuzzy
+msgid "(venv) C:\\...>tox -e docs-fr"
+msgstr "(venv) C:\\...>tox -e docs-fr"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:190
 #, fuzzy
@@ -264,6 +317,16 @@ msgstr "Kontrola dokumentace"
 #, fuzzy
 msgid "The build process will identify Markdown problems, but {{ formal_name }} performs some additional checks for style and formatting, known as \"linting\". To run the lint checks:"
 msgstr "Proces sestavení identifikuje problémy s Markdownem, ale {{ formal_name }} provádí některé další kontroly stylu a formátování, známé jako „linting“. Chcete-li spustit kontroly lintingu:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:204 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:214
+#, fuzzy
+msgid "(venv) $ tox -e docs-lint"
+msgstr "(venv) $ tox -e docs-lint"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:222
+#, fuzzy
+msgid "(venv) C:\\...>tox -e docs-lint"
+msgstr "(venv) C:\\...>tox -e docs-lint"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:230
 #, fuzzy
@@ -434,6 +497,11 @@ msgstr "{{ formal_name }} vyžaduje Python {{ min_python_version }}+. Budete tak
 msgid "You can verify the version of Python that you have installed by running:"
 msgstr "Verzi nainstalovaného Pythonu můžete ověřit spuštěním:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:17 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:38
+#, fuzzy
+msgid "$ python3 --version"
+msgstr "Python 3.8.10 (výchozí, 20. července 2020, 16:16:00)"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:21 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:42
 #, fuzzy
 msgid "If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)"
@@ -458,6 +526,11 @@ msgstr "Doporučujeme se vyhnout nedávno vydané verzi Pythonu (tj. verzím, kt
 #, fuzzy
 msgid "{% block prerequisites_linux %} {% endblock %}"
 msgstr "{% block prerequisites_linux %} {% endblock %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:57
+#, fuzzy
+msgid "C:\\...>py -3 --version"
+msgstr "C:\\...>py -3 --version"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:61
 #, fuzzy
@@ -499,10 +572,20 @@ msgstr "Dále přejděte na stránku [{{ formal_name }} na GitHubu](https://gith
 msgid "Fork the {{ formal_name }} repository, and then:"
 msgstr "Rozdělte repozitář {{ formal_name }} a poté:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:88 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:102
+#, fuzzy
+msgid "$ git clone https://github.com/<your username>/{{ project_name }}.git"
+msgstr "$ git clone https://github.com/<vaše uživatelské jméno>/{{ project_name }}.git"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:106 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:118
 #, fuzzy
 msgid "(substituting your GitHub username)"
 msgstr "(nahraďte svým uživatelským jménem na GitHubu)"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:114
+#, fuzzy
+msgid "C:\\...>git clone https://github.com/<your username>/{{ project_name }}.git"
+msgstr "C:\\...>git clone https://github.com/<vaše uživatelské jméno>/{{ project_name }}.git"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:124
 #, fuzzy
@@ -519,10 +602,33 @@ msgstr "Po naklonování vaší větve přidejte repozitář BeeWare jako vzdál
 msgid "You'll also need tags from `upstream` so tools like Toga and Briefcase can resolve accurate version numbers:"
 msgstr "Budete také potřebovat tagy z `upstream`, aby nástroje jako Toga a Briefcase mohly určit přesná čísla verzí:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:136 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:147
+#, fuzzy
+msgid ""
+"$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
+"$ git fetch --tags upstream"
+msgstr ""
+"$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
+"$ git fetch --tags upstream"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:156
+#, fuzzy
+msgid ""
+"C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
+"C:\\...>git fetch --tags upstream"
+msgstr ""
+"C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
+"C:\\...>git fetch --tags upstream"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:165
 #, fuzzy
 msgid "If you want your fork to include those tags as well, you can push them:"
 msgstr "Pokud chcete, aby vaše vidlice také obsahovala tyto tagy, můžete je odeslat:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:167
+#, fuzzy
+msgid "$ git push --tags"
+msgstr "$ git push --tags"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:171
 #, fuzzy
@@ -538,6 +644,32 @@ msgstr "Vytvořte virtuální prostředí"
 #, fuzzy
 msgid "To set up a virtual environment and upgrade `pip`, run:"
 msgstr "Chcete-li nastavit virtuální prostředí a upgradovat `pip`, spusťte:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:183 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:196
+#, fuzzy
+msgid ""
+"$ cd {{ project_name }}\n"
+"$ python3 -m venv .venv\n"
+"$ source .venv/bin/activate\n"
+"(.venv) $ python -m pip install -U pip"
+msgstr ""
+"$ cd {{ project_name }}\n"
+"$ python3 -m venv .venv\n"
+"$ source .venv/bin/activate\n"
+"(.venv) $ python -m pip install -U pip"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:207
+#, fuzzy
+msgid ""
+"C:\\...>cd {{ project_name }}\n"
+"C:\\...>py -3 -m venv .venv\n"
+"C:\\...>.venv\\Scripts\\activate\n"
+"(.venv) $ python -m pip install -U pip"
+msgstr ""
+"C:\\...>cd {{ project_name }}\n"
+"C:\\...>py -3 -m venv .venv\n"
+"C:\\...>.venv\\Scripts\\activate\n"
+"(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:218
 #, fuzzy
@@ -558,6 +690,10 @@ msgstr "Nyní, když máte zdrojový kód, můžete provést [editovatelnou inst
 msgid "{% block install_macos_tool %}"
 msgstr "{% block install_macos_tool %}"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:232 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:246
+msgid "(.venv) $ python -m pip install -U -e . --group dev"
+msgstr "(.venv) $ python -m pip install -U -e . --group dev"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:236 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:250 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:262
 msgid "{% endblock %}"
 msgstr "{% endblock %}"
@@ -570,6 +706,10 @@ msgstr "{% block install_linux_tool %}"
 msgid "{% block install_windows_tool %}"
 msgstr "{% block install_windows_tool %}"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:258
+msgid "(.venv) C:\\...>python -m pip install -U -e . --group dev"
+msgstr "(.venv) C:\\...>python -m pip install -U -e . --group dev"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:268
 #, fuzzy
 msgid "Enable pre-commit"
@@ -579,6 +719,22 @@ msgstr "Povolit předběžné potvrzení"
 #, fuzzy
 msgid "{{ formal_name }} uses a tool called [pre-commit]{1} to identify simple issues and standardize code formatting. It does this by installing a git hook that automatically runs a series of code linters prior to finalizing any git commit. To enable pre-commit, run:"
 msgstr "{{ formal_name }} používá nástroj nazvaný [pre-commit]{1}, který identifikuje jednoduché problémy a standardizuje formátování kódu. Toho dosahuje instalací git hooku, který automaticky spustí sérii linterů kódu před finalizací jakéhokoli git commitu. Chcete-li povolit pre-commit, spusťte:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:278 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:289
+msgid ""
+"(.venv) $ pre-commit install\n"
+"pre-commit installed at .git/hooks/pre-commit"
+msgstr ""
+"(.venv) $ pre-commit install\n"
+"pre-commit installed at .git/hooks/pre-commit"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:298
+msgid ""
+"(.venv) C:\\...>pre-commit install\n"
+"pre-commit installed at .git/hooks/pre-commit"
+msgstr ""
+"(.venv) C:\\...>pre-commit install\n"
+"pre-commit installed at .git/hooks/pre-commit"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:307
 #, fuzzy
@@ -740,6 +896,19 @@ msgstr "Pokud vkládáte kód a můžete jej reprodukovat pomocí existujícího
 msgid "If you need to include a long block of text, you can make it collapsed content using the following syntax:"
 msgstr "Pokud potřebujete vložit dlouhý blok textu, můžete jej skrýt pomocí následující syntaxe:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:56
+#, fuzzy
+msgid ""
+"<details>\n"
+"<summary>Collapsed content title</summary>\n"
+"Long block of text.\n"
+"</details>"
+msgstr ""
+"<details>\n"
+"<summary>Název sbaleného obsahu</summary>\n"
+"Dlouhý textový blok.\n"
+"</details>"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:63
 #, fuzzy
 msgid "Once you've provided as much information as you can, click \"Create\" to submit the report."
@@ -759,6 +928,11 @@ msgstr "Při přímém použití příkazového řádku GitHub CLI (`gh`) se vyt
 #, fuzzy
 msgid "**If you are going to use `gh` to create a new issue, please use the following:**"
 msgstr "**Pokud chcete pomocí `gh` vytvořit nový úkol, použijte prosím následující:**"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:71
+#, fuzzy
+msgid "gh issue create --web"
+msgstr "gh issue create --web"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:75
 #, fuzzy
@@ -1025,10 +1199,142 @@ msgstr "Práce s pre-commit"
 msgid "When you commit any change, pre-commit will run automatically. If there are any issues found with the commit, this will cause your commit to fail. Where possible, pre-commit will make the changes needed to correct the problems it has found. In the following example, a code formatting issue was found by the `ruff` check:"
 msgstr "Při potvrzení jakékoli změny se automaticky spustí pre-commit. Pokud jsou v potvrzení nalezeny nějaké problémy, potvrzení selže. Pokud je to možné, pre-commit provede změny potřebné k opravě nalezených problémů. V následujícím příkladu byla kontrolou `ruff` nalezena chyba ve formátování kódu:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:13 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:38
+msgid ""
+"(.venv) $ git add some/interesting_file.py\n"
+"(.venv) $ git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Failed\n"
+"- hook id: ruff-format\n"
+"- files were modified by this hook\n"
+"\n"
+"1 file reformatted, 488 files left unchanged\n"
+"\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed"
+msgstr ""
+"(.venv) $ git add some/interesting_file.py\n"
+"(.venv) $ git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Failed\n"
+"- hook id: ruff-format\n"
+"- files were modified by this hook\n"
+"\n"
+"1 file reformatted, 488 files left unchanged\n"
+"\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:61
+msgid ""
+"(.venv) C:\\...>git add some/interesting_file.py\n"
+"(.venv) C:\\...>git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Failed\n"
+"- hook id: ruff-format\n"
+"- files were modified by this hook\n"
+"\n"
+"1 file reformatted, 488 files left unchanged\n"
+"\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed"
+msgstr ""
+"(.venv) C:\\...>git add some/interesting_file.py\n"
+"(.venv) C:\\...>git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Failed\n"
+"- hook id: ruff-format\n"
+"- files were modified by this hook\n"
+"\n"
+"1 file reformatted, 488 files left unchanged\n"
+"\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:84
 #, fuzzy
 msgid "In this case, `ruff` automatically fixed the problem; so you can then re-add any files that were modified as a result of the pre-commit checks, and re-commit the change. However, some checks will require you to make manual modifications. Once you've made those changes, re-add any modified files, and re-commit."
 msgstr "V tomto případě `ruff` problém automaticky vyřešilo; můžete tedy znovu přidat všechny soubory, které byly upraveny v důsledku kontrol před odesláním, a změnu znovu odeslat. Některé kontroly však budou vyžadovat ruční úpravy. Jakmile tyto změny provedete, znovu přidejte všechny upravené soubory a znovu je odešlete."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:114
+msgid ""
+"(.venv) $ git add some/interesting_file.py\n"
+"(.venv) $ git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Passed\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed\n"
+"[bugfix e3e0f73] Minor change\n"
+"1 file changed, 4 insertions(+), 2 deletions(-)"
+msgstr ""
+"(.venv) $ git add some/interesting_file.py\n"
+"(.venv) $ git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Passed\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed\n"
+"[bugfix e3e0f73] Minor change\n"
+"1 file changed, 4 insertions(+), 2 deletions(-)"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:134
+msgid ""
+"(.venv) C:\\...>git add some\\interesting_file.py\n"
+"(.venv) C:\\...>git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Passed\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed\n"
+"[bugfix e3e0f73] Minor change\n"
+"1 file changed, 4 insertions(+), 2 deletions(-)"
+msgstr ""
+"(.venv) C:\\...>git add some\\interesting_file.py\n"
+"(.venv) C:\\...>git commit -m \"Minor change\"\n"
+"check toml...............................................................Passed\n"
+"check yaml...............................................................Passed\n"
+"check for case conflicts.................................................Passed\n"
+"check docstring is first.................................................Passed\n"
+"fix end of files.........................................................Passed\n"
+"trim trailing whitespace.................................................Passed\n"
+"ruff format..............................................................Passed\n"
+"ruff check...............................................................Passed\n"
+"codespell................................................................Passed\n"
+"[bugfix e3e0f73] Minor change\n"
+"1 file changed, 4 insertions(+), 2 deletions(-)"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:154
 #, fuzzy
@@ -1049,6 +1355,70 @@ msgstr "Při prvním odeslání na GitHub vám bude poskytnuta URL adresa, kter�
 #, fuzzy
 msgid "The following shows an example of what to expect on `push`, with the URL highlighted."
 msgstr "Následující příklad ukazuje, co můžete očekávat na `push`, s vyznačenou URL adresou."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:168 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:191
+msgid ""
+"(.venv) $ git push\n"
+"Enumerating objects: 15, done.\n"
+"Counting objects: 100% (15/15), done.\n"
+"Delta compression using up to 24 threads\n"
+"Compressing objects: 100% (6/6), done.\n"
+"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
+"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
+"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
+"remote:\n"
+"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
+"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
+"remote:\n"
+"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
+" * [new branch]      fix-win11-build -> fix-win11-build"
+msgstr ""
+"(.venv) $ git push\n"
+"Enumerating objects: 15, done.\n"
+"Counting objects: 100% (15/15), done.\n"
+"Delta compression using up to 24 threads\n"
+"Compressing objects: 100% (6/6), done.\n"
+"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
+"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
+"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
+"remote:\n"
+"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
+"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
+"remote:\n"
+"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
+" * [new branch]      fix-win11-build -> fix-win11-build"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:212
+msgid ""
+"(.venv) C:\\...>git push\n"
+"Enumerating objects: 15, done.\n"
+"Counting objects: 100% (15/15), done.\n"
+"Delta compression using up to 24 threads\n"
+"Compressing objects: 100% (6/6), done.\n"
+"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
+"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
+"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
+"remote:\n"
+"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
+"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
+"remote:\n"
+"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
+" * [new branch]      fix-win11-build -> fix-win11-build"
+msgstr ""
+"(.venv) C:\\...>git push\n"
+"Enumerating objects: 15, done.\n"
+"Counting objects: 100% (15/15), done.\n"
+"Delta compression using up to 24 threads\n"
+"Compressing objects: 100% (6/6), done.\n"
+"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
+"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
+"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
+"remote:\n"
+"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
+"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
+"remote:\n"
+"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
+" * [new branch]      fix-win11-build -> fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:233
 #, fuzzy
@@ -1255,6 +1625,47 @@ msgstr "Nový konfigurační soubor MkDocs"
 msgid "First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:"
 msgstr "Nejprve vytvořte nový soubor s názvem `mkdocs.de.yml` v adresáři `docs` s následujícím obsahem:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:31
+#, fuzzy
+msgid ""
+"INHERIT: config.yml\n"
+"site_name: {{ formal_name }} Dokumentation\n"
+"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
+"docs_dir: de\n"
+"\n"
+"theme:\n"
+"  language: de\n"
+"\n"
+"extra:\n"
+"  language_url: de/\n"
+"  translation_type: machine\n"
+"  header:\n"
+"    About: Über\n"
+"    Documentation: Dokumentation\n"
+"    Community: Gemeinschaft\n"
+"    Contributing: Mitwirken\n"
+"    News: Neuigkeiten\n"
+"    Sponsor: Förderer"
+msgstr ""
+"INHERIT: config.yml\n"
+"site_name: {{ formal_name }} Dokumentace\n"
+"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
+"docs_dir: de\n"
+"\n"
+"theme:\n"
+"  language: de\n"
+"\n"
+"extra:\n"
+"  language_url: de/\n"
+"  translation_type: machine\n"
+"  header:\n"
+"    About: O nás\n"
+"    Documentation: Dokumentace\n"
+"    Community: Komunita\n"
+"    Contributing: Přispívání\n"
+"    News: Novinky\n"
+"    Sponsor: Sponzoři"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:52
 #, fuzzy
 msgid "Here's what is going on in this file:"
@@ -1355,6 +1766,17 @@ msgstr "Aktualizace `config.yml`"
 msgid "Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:"
 msgstr "Přidejte jazyk do `config.yml`, aby se zobrazil v nabídce pro výběr jazyka v záhlaví. Najděte sekci začínající `extra:`, a poté vyhledejte podsekci začínající `alternate:`. Pro němčinu byste přidali následující:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:80
+#, fuzzy
+msgid ""
+"- name: Deutsch\n"
+"      link: /de/\n"
+"      lang: de"
+msgstr ""
+"- název: Němčina\n"
+" odkaz: /de/\n"
+" jazyk: de"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:86
 #, fuzzy
 msgid "The language name should be translated into the language. The link must include the `/`s."
@@ -1425,10 +1847,20 @@ msgstr "**Odkazy URL**. Standardní odkazy Markdown by se měly v Weblate zobraz
 msgid "**Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated."
 msgstr "**Odkazy obsahující názvy tříd, metod nebo atributů**. Tyto odkazy by měly zůstat beze změny, včetně zpětných lomítek. Žádná část zde uvedeného příkladu odkazu by neměla být překládána."
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:109
+#, fuzzy
+msgid "[`Class.attribute`][Class.attribute]"
+msgstr "[`Class.attribute`][Třída.atribut]"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:115
 #, fuzzy
 msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
 msgstr "**Obsah odkazu Reference**. Například `link-content` by bylo v následujícím příkladu přeskočeno:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:115 src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:139
+#, fuzzy
+msgid "[Link text][link-content]"
+msgstr "[Text odkazu][obsah odkazu]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
 #, fuzzy
@@ -1444,6 +1876,21 @@ msgstr "**Vlastní kotvy**. Nacházejí se za záhlavími nebo nad určitým obs
 #, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**Syntaxe napomenutí**. V následujícím příkladu by slovo „napomenutí“ nemělo být překládáno. To platí pro všechny styly napomenutí, včetně poznámek, varování atd. Informace o překladu zbytku obsahu naleznete v následující části."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:123
+#, fuzzy
+msgid ""
+"/// admonition | Page Title\n"
+"\n"
+"Content.\n"
+"\n"
+"///"
+msgstr ""
+"/// admonition | Název stránky\n"
+"\n"
+"Obsah.\n"
+"\n"
+"///"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:133
 #, fuzzy
@@ -1500,6 +1947,17 @@ msgstr "Pokud se vaše změny ani po uplynutí této doby nezobrazí, pravděpod
 msgid "TOTAL 7540 0 1040 0 100.0%"
 msgstr "CELKEM 7540 0 1040 0 100,0 %"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:2
+#, fuzzy
+msgid ""
+"This tells us that the test suite has executed every possible branching path in the code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase.\n"
+"\n"
+"If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `some/interesting_file.py`, adding some new logic. The coverage report might look something like:"
+msgstr ""
+"To nám říká, že testovací sada prověřila všechny možné větvení v kódu. Nejedná se sice o 100% záruku, že v kódu nejsou žádné chyby, ale znamená to, že jsme otestovali každý řádek kódu v kódové základně.\n"
+"\n"
+"Pokud provedete změny v kódové základně, je možné, že v tomto pokrytí vznikne mezera. Když k tomu dojde, zpráva o pokrytí vám sdělí, které řádky se neprovádějí. Řekněme například, že jsme provedli změnu v `some/interesting_file.py`, kde jsme přidali novou logiku. Zpráva o pokrytí by mohla vypadat nějak takto:"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:9
 #, fuzzy
 msgid "Name Stmts Miss Branch BrPart Cover Missing"
@@ -1515,15 +1973,96 @@ msgstr "src/some/interesting_file.py 111 1 26 0 98,1 % 170, 302–307, 320->335"
 msgid "TOTAL 7540 1 1726 0 99.9%"
 msgstr "CELKEM 7540 1 1726 0 99,9 %"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:14
+#, fuzzy
+msgid ""
+"This tells us that line 170, lines 302-307, and a branch jumping from line 320 to line 335, are not being executed by the test suite. You'll need to add new tests (or modify an existing test) to restore this coverage.\n"
+"\n"
+"#### Coverage report for host platform and Python version\n"
+"\n"
+"You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python {{ min_python_version }}, run:\n"
+"\n"
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"/// tab | macOS\n"
+"\n"
+"{% endif %}"
+msgstr ""
+"Z toho vyplývá, že řádek 170, řádky 302–307 a skok z řádku 320 na řádek 335 nejsou testovací sadou prováděny. K obnovení tohoto pokrytí budete muset přidat nové testy (nebo upravit stávající test).\n"
+"\n"
+"#### Zpráva o pokrytí pro hostitelskou platformu a verzi Pythonu\n"
+"\n"
+"Můžete vygenerovat zprávu o pokrytí pro vaši platformu a verzi Pythonu. Chcete-li například spustit testovací sadu a vygenerovat zprávu o pokrytí pro Python {{ min_python_version }}, spusťte:\n"
+"\n"
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"/// záložka | macOS\n"
+"\n"
+"{% endif %}"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:29 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:39
 #, fuzzy
 msgid "(.venv) $ tox -m test{{ min_python_version_tag }}"
 msgstr "(.venv) $ tox -m test{{ min_python_version_tag }}"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:66 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:102
+#, fuzzy
+msgid ""
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"///\n"
+"\n"
+"/// tab | Linux"
+msgstr ""
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"///\n"
+"\n"
+"/// záložka | Linux"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:40 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:76 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:112
+msgid ""
+"///\n"
+"\n"
+"/// tab | Windows"
+msgstr ""
+"///\n"
+"\n"
+"/// tab | Windows"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:47
 #, fuzzy
 msgid "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
 msgstr "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:48
+#, fuzzy
+msgid ""
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"#### Coverage report for host platform\n"
+"\n"
+"If all supported versions of Python are available to `tox`, then coverage for the host platform can be reported by running:\n"
+"\n"
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"/// tab | macOS\n"
+"\n"
+"{% endif %}"
+msgstr ""
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"#### Coverage report for host platform\n"
+"\n"
+"If all supported versions of Python are available to `tox`, then coverage for the host platform can be reported by running:\n"
+"\n"
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"/// tab | macOS"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:75
 #, fuzzy
@@ -1535,6 +2074,35 @@ msgstr "(.venv) $ tox p -m test-platform"
 msgid "(.venv) C:\\...>tox p -m test-platform"
 msgstr "(.venv) C:\\...>tox p -m test-platform"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:84
+#, fuzzy
+msgid ""
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"#### Coverage reporting in HTML\n"
+"\n"
+"A HTML coverage report can be generated by appending `-html` to any of the coverage `tox` environment names, for instance:\n"
+"\n"
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"/// tab | macOS\n"
+"\n"
+"{% endif %}"
+msgstr ""
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"#### Coverage reporting in HTML\n"
+"\n"
+"A HTML coverage report can be generated by appending `-html` to any of the coverage `tox` environment names, for instance:\n"
+"\n"
+"{% if not config.extra.macos_only %}\n"
+"\n"
+"/// tab | macOS"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:101 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:111
 #, fuzzy
 msgid "(.venv) $ tox -e coverage-platform-html"
@@ -1544,6 +2112,44 @@ msgstr "(.venv) $ tox -e coverage-platform-html"
 #, fuzzy
 msgid "(.venv) C:\\...>tox -e coverage-platform-html"
 msgstr "(.venv) C:\\...>tox -e coverage-platform-html"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:120
+msgid ""
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"{% block testing_additional %}\n"
+"{% endblock %}\n"
+"\n"
+"### It's not just about writing tests!\n"
+"\n"
+"Although we ensure that we test all of our code, the task isn't *just* about maintaining that level of testing. Part of the task is to audit the code as you go. You could write a comprehensive set of tests for a concrete life jacket... but a concrete life jacket would still be useless for the purpose it was intended!\n"
+"\n"
+"As you develop tests, you should be checking that the core module is internally **consistent** as well. If you notice any method names that aren't internally consistent (e.g., something called `on_select` in one module, but called `on_selected` in another), or where the data isn't being handled consistently, flag it and bring it to our attention by raising a ticket. Or, if you're confident that you know what needs to be done, create a pull request that fixes the problem you've found.\n"
+"\n"
+"{% block end_matter %}\n"
+"{% endblock %}"
+msgstr ""
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"{% block testing_additional %}\n"
+"{% endblock %}\n"
+"\n"
+"### It's not just about writing tests!\n"
+"\n"
+"Although we ensure that we test all of our code, the task isn't *just* about maintaining that level of testing. Part of the task is to audit the code as you go. You could write a comprehensive set of tests for a concrete life jacket... but a concrete life jacket would still be useless for the purpose it was intended!\n"
+"\n"
+"As you develop tests, you should be checking that the core module is internally **consistent** as well. If you notice any method names that aren't internally consistent (e.g., something called `on_select` in one module, but called `on_selected` in another), or where the data isn't being handled consistently, flag it and bring it to our attention by raising a ticket. Or, if you're confident that you know what needs to be done, create a pull request that fixes the problem you've found.\n"
+"\n"
+"{% block end_matter %}\n"
+"{% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:2
 #, fuzzy
@@ -1580,10 +2186,20 @@ msgstr "Dokument budete muset vytvořit na příslušném místě v adresáři `
 msgid "Then, you'll need to update the `docs/en/SUMMARY.md` file to include your new file. `SUMMARY.md` is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. If you locate the section where you intend to include `new_doc.md`, you do not need to change anything in `SUMMARY.md` if you see a wildcard path listed. For example:"
 msgstr "Poté budete muset aktualizovat soubor `docs/en/SUMMARY.md`, aby zahrnoval váš nový soubor. Soubor `SUMMARY.md` je uspořádán tak, aby v zásadě odrážel strukturu adresáře `docs/en`, ale co je důležitější, přímo určuje strukturu levého postranního panelu. Pokud najdete sekci, do které chcete zahrnout `new_doc.md`, nemusíte v souboru `SUMMARY.md` nic měnit, pokud vidíte uvedenou cestu se zástupnými znaky. Například:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:19
+#, fuzzy
+msgid "- ./path/to/directory/*"
+msgstr "- ./cesta/k/adresáři/*"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:23
 #, fuzzy
 msgid "If the section where you intend to include `new_doc.md` is a list of individual Markdown links, you'll need to add an explicit link to yours. For example:"
 msgstr "Pokud je část, do které chcete vložit `new_doc.md`, seznamem jednotlivých odkazů Markdown, budete muset přidat explicitní odkaz na ten svůj. Například:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:25
+#, fuzzy
+msgid "- [My new document](new_doc.md)"
+msgstr "- [Můj nový dokument](new_doc.md)"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:29
 #, fuzzy
@@ -2179,10 +2795,36 @@ msgstr "Rozdělení dlouhých volání funkcí { #split-long-function-calls }"
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "Pokud se volání funkce s více než jedním argumentem nevejde na jeden řádek, umístěte každý argument na samostatný řádek a za poslední argument vložte čárku. Ruff povoluje (a dokonce doporučuje) formátování více argumentů na jednom řádku s přenosem:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:22
+#, fuzzy
+msgid ""
+"my_function(\n"
+"    arg1, arg2, arg3\n"
+")"
+msgstr ""
+"my_function(\n"
+"    arg1, arg2, arg3\n"
+")"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "Tento styl by se neměl používat. Místo toho rozložte argumenty tak, aby byl každý na samostatném řádku, a to přidáním čárky na konec posledního argumentu:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:30
+#, fuzzy
+msgid ""
+"my_function(\n"
+"    arg1,\n"
+"    arg2,\n"
+"    arg3,\n"
+")"
+msgstr ""
+"my_function(\n"
+"    arg1,\n"
+"    arg2,\n"
+"    arg3,\n"
+")"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
 #, fuzzy
@@ -2194,10 +2836,44 @@ msgstr "Rozdělení dlouhých řetězců { #split-long-strings }"
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "Pokud je třeba řetězcový argument rozdělit na více řádků, aby splňoval požadavky na délku řádku, uzavřete zřetězené řetězcové literály do závorek, aby bylo zřejmé, že se jedná o jediný argument. Upřednostňujeme tedy:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:42
+#, fuzzy
+msgid ""
+"my_function(\n"
+"    (\n"
+"        \"this is a very long string \"\n"
+"        \"that is wrapped over two lines\"\n"
+"    ),\n"
+"    second_argument,\n"
+")"
+msgstr ""
+"my_function(\n"
+"    (\n"
+" \"toto je velmi dlouhý řetězec\"\n"
+" \"který se rozkládá na dva řádky\"\n"
+"    ),\n"
+"    second_argument,\n"
+")"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
 #, fuzzy
 msgid "over:"
 msgstr "přes:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:54
+#, fuzzy
+msgid ""
+"my_function(\n"
+"    \"this is a very long string \"\n"
+"    \"that is wrapped over two lines\",\n"
+"    second_argument,\n"
+")"
+msgstr ""
+"my_function(\n"
+"    \"toto je velmi dlouhý řetězec\",\n"
+"    \"který je rozložen do dvou řádků\",\n"
+"    second_argument,\n"
+")"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
 #, fuzzy
@@ -2279,10 +2955,20 @@ msgstr "V dokumentaci byste měli pokud možno používat křížové odkazy na 
 msgid "MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
 msgstr "MkDocs vykresluje standardní odkazy ve formátu Markdown. Standardní webové hypertextové odkazy ve formátu Markdown mají následující podobu:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:20
+#, fuzzy
+msgid "[Link text](https://example.com/)"
+msgstr "[Text odkazu](https://example.com/)"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:24
 #, fuzzy
 msgid "You can also use this format to link to a local file:"
 msgstr "Tento formát můžete také použít pro odkaz na místní soubor:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:26
+#, fuzzy
+msgid "[Link text](path/to/file.md)"
+msgstr "[Text odkazu](cesta/k/souboru.md)"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:30
 #, fuzzy
@@ -2309,6 +2995,11 @@ msgstr "MkDocs podporuje vykreslování syntaxe odkazů, která umožňuje propo
 msgid "MkDocs reference links are any links formatted as follows:"
 msgstr "Odkazy MkDocs jsou jakékoli odkazy ve formátu:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:40
+#, fuzzy
+msgid "[Link text][link-target]"
+msgstr "[Text odkazu][Cíl odkazu]"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:44
 #, fuzzy
 msgid "/// warning | Custom header and content anchors are required"
@@ -2324,15 +3015,40 @@ msgstr "Každá sekce záhlaví nebo obsahu, na kterou se odkazuje v textovém o
 msgid "If you need to link to a header anchor, you will need to generate a custom anchor for the intended content. The general syntax for setting a custom anchor is as follows:"
 msgstr "Pokud potřebujete odkazovat na kotvu v záhlaví, budete muset pro daný obsah vytvořit vlastní kotvu. Obecná syntaxe pro nastavení vlastní kotvy je následující:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:52
+#, fuzzy
+msgid "# Header text { #anchor-name }"
+msgstr "# Text záhlaví { #anchor-name }"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:56
 #, fuzzy
 msgid "For example, customizing the anchor for this section to `custom-anchors` would be done with the following formatting:"
 msgstr "Například přizpůsobení kotvy pro tuto sekci na `custom-anchors` by se provedlo pomocí následujícího formátování:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:58
+#, fuzzy
+msgid "## Custom Markdown anchors { #custom-anchors }"
+msgstr "## Vlastní kotvy v Markdownu { #custom-anchors }"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:62
 #, fuzzy
 msgid "You can also create an anchor on general content, including text and codeblocks. The following formatting, with newlines above and below, should be included above the content to which you wish to link:"
 msgstr "Můžete také vytvořit odkaz na obecný obsah, včetně textu a bloků kódu. Následující formátování s novými řádky nad a pod by mělo být zahrnuto nad obsahem, na který chcete odkazovat:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:64
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"[](){ #anchor-name }\n"
+"\n"
+"Content below, that is now attached to the anchor above."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"[](){ #anchor-name }\n"
+"\n"
+"Obsah dole, který je nyní připojen k výše uvedené kotvě."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:72
 #, fuzzy
@@ -2344,10 +3060,20 @@ msgstr "Jakmile jsou vlastní kotvy vytvořeny, můžete na ně odkazovat ze ste
 msgid "Standard Markdown is used to link to an anchor _in the same file_, which is formatted as follows:"
 msgstr "Standardní Markdown se používá k odkazování na kotvu _ve stejném souboru_, která je formátována následovně:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:76
+#, fuzzy
+msgid "[Link text](#anchor-name)"
+msgstr "[Text odkazu](#anchor-name)"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:80
 #, fuzzy
 msgid "Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:"
 msgstr "Odkaz na kotvu v samostatném dokumentu používá styl odkazu MkDocs, který je formátován následovně:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:82
+#, fuzzy
+msgid "[Link text][anchor-name]"
+msgstr "[Text odkazu][název odkazu]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:86
 #, fuzzy
@@ -2369,45 +3095,90 @@ msgstr "Existuje několik možností pro odkazování na dokumentovanou třídu,
 msgid "Linking to a class while displaying the namespace is formatted as follows:"
 msgstr "Odkaz na třídu při zobrazení jmenného prostoru je formátován následovně:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:94
+#, fuzzy
+msgid "[`module.ClassName`][]"
+msgstr "[`module.ClassName`][]"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:98
 #, fuzzy
 msgid "Linking to a class while displaying only the class name is formatted as follows:"
 msgstr "Odkaz na třídu při zobrazení pouze názvu třídy je formátován následovně:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:100
+#, fuzzy
+msgid "[`ClassName`][module.ClassName]"
+msgstr "[`ClassName`][module.ClassName]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:104
 #, fuzzy
 msgid "Attributes are the same as above, with the attribute name included. The following displays the namespace:"
 msgstr "Atributy jsou stejné jako výše, včetně názvu atributu. Následující příklad zobrazuje jmenný prostor:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:106
+#, fuzzy
+msgid "[`module.ClassName.attributename`][]"
+msgstr "[`module.ClassName.attributename`][]"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:110
 #, fuzzy
 msgid "As with classes, displaying only the attribute name is formatted as follows:"
 msgstr "Stejně jako u tříd je zobrazení pouze názvu atributu formátováno následovně:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:112
+#, fuzzy
+msgid "[`attributename`][module.ClassName.attributename]"
+msgstr "[`attributename`][název_modulu.název_atributu]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:116
 #, fuzzy
 msgid "Methods should be displayed with `()` after the namespace, and therefore must be handled differently than attributes. The following is the appropriate way to link to a method:"
 msgstr "Metody by měly být zobrazeny s `()` za jmenným prostorem, a proto musí být zpracovány jinak než atributy. Následující postup je správným způsobem pro odkazování na metodu:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:118
+#, fuzzy
+msgid "[`module.ClassName.methodname()`][module.ClassName.methodname]"
+msgstr "[`module.ClassName.methodname()`][název_modulu.název_metody]"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:122
 #, fuzzy
 msgid "The following displays the class and method name only. This also requires including the parentheses after the name:"
 msgstr "Následující příklad zobrazuje pouze název třídy a metody. To také vyžaduje zahrnutí závorek za názvem:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:124
+#, fuzzy
+msgid "[`Classname.methodname()`][module.Classname.methodname]"
+msgstr "[`Classname.methodname()`][název_modulu.název_metody]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:128
 #, fuzzy
 msgid "You can link to a class, method, or attribute while displaying arbitrary text, using the same method with the applicable namespace. Doing this with a class is formatted as follows:"
 msgstr "Můžete odkazovat na třídu, metodu nebo atribut a zároveň zobrazovat libovolný text pomocí stejné metody s příslušným jmenným prostorem. U třídy se to formátuje následovně:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:130
+#, fuzzy
+msgid "[link text][module.ClassName]"
+msgstr "[text odkazu][module.ClassName]"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:134
 #, fuzzy
 msgid "It is also possible to link directly to Python core documentation, as well as Pillow documentation. For example, to link to the documentation for `int`:"
 msgstr "Je také možné odkazovat přímo na dokumentaci jádra Pythonu, stejně jako na dokumentaci Pillow. Například pro odkaz na dokumentaci pro `int`:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:136
+#, fuzzy
+msgid "[`int`][]"
+msgstr "[`int`][]"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:140
 #, fuzzy
 msgid "To link to the Pillow `Image` documentation:"
 msgstr "Odkaz na dokumentaci Pillow `Image`:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:142
+#, fuzzy
+msgid "[`PIL.Image.Image`][]"
+msgstr "[`PIL.Image.Image`][]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:146
 #, fuzzy
@@ -2434,6 +3205,17 @@ msgstr "Příkazy konzole a tlačítko kopírování"
 msgid "If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on whether you're describing a Unix-like (including macOS) operating system, or Windows. You can include the prompt provided by the operating system; only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:"
 msgstr "Pokud zahrnujete příkazy konzole nebo příkazy s výstupem, označte je jako `console` nebo `doscon`, v závislosti na tom, zda popisujete operační systém typu Unix (včetně macOS) nebo Windows. Můžete zahrnout výzvu poskytovanou operačním systémem; po kliknutí na tlačítko Kopírovat se zkopíruje pouze příkaz. Například pokud začnete blok kódu znaky ` ```console ` a zahrnete následující obsah:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:156
+#, fuzzy
+msgid ""
+"$ mkdir test\n"
+"$ ls\n"
+"test"
+msgstr ""
+"$ mkdir test\n"
+"$ ls\n"
+"test"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:162
 #, fuzzy
 msgid "Then, clicking the copy button on the codeblock will copy only the commands, and ignore the prompts and the output. This allows you to indicate that they are console commands, while still allowing users to use the copy button effectively."
@@ -2448,6 +3230,15 @@ msgstr "Zvýraznění konkrétních řádků kódu"
 #, fuzzy
 msgid "You can highlight specific lines of code. For example, to highlight line 2, you would add a space after the language, followed by `{hl_lines=\"2\"}`. So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The result is:"
 msgstr "Můžete zvýraznit konkrétní řádky kódu. Chcete-li například zvýraznit řádek 2, přidejte za jazyk mezeru a za ni `{hl_lines=\"2\"}`. Váš blok kódu tak bude začínat ` ```python {hl_lines=\"2\"} `. Výsledek je následující:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:168
+#, fuzzy
+msgid ""
+"import toga\n"
+"from toga.style.pack import COLUMN, ROW"
+msgstr ""
+"import toga\n"
+"from toga.style.pack import COLUMN, ROW"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:173
 #, fuzzy
@@ -2474,10 +3265,60 @@ msgstr "Napomenutí a poznámky"
 msgid "Admonitions must be formatted as follows, including ensuring a newline before and after the admonition start and end:"
 msgstr "Upozornění musí být formátována následovně, včetně zajištění nového řádku před a za začátkem a koncem upozornění:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:183
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"/// admonition | Title\n"
+"\n"
+"Admonition text.\n"
+"\n"
+"A second paragraph.\n"
+"\n"
+"///\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"/// upozornění | Název\n"
+"\n"
+"Text upozornění.\n"
+"\n"
+"Druhý odstavec.\n"
+"\n"
+"///\n"
+"\n"
+"Obsah dole."
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:197
 #, fuzzy
 msgid "This works the same way with any supported admonition type. For example, note admonitions require the same formatting and newlines:"
 msgstr "To funguje stejným způsobem u všech podporovaných typů upozornění. Například poznámky k upozorněním vyžadují stejné formátování a nové řádky:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:199
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"/// note | Note title\n"
+"\n"
+"Note text here.\n"
+"\n"
+"///\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"/// poznámka | Název poznámky\n"
+"\n"
+"Zde zadejte text poznámky.\n"
+"\n"
+"///\n"
+"\n"
+"Obsah dole."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:211
 #, fuzzy
@@ -2494,10 +3335,92 @@ msgstr "Obsah v záložkách"
 msgid "Tabbed content is formatted as follows, including a newline included before the start and after the end of the content block:"
 msgstr "Obsah s tabulátory je formátován následovně, včetně nového řádku před začátkem a po konci bloku obsahu:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:217
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"/// tab | Tab one title\n"
+"\n"
+"Tab one text\n"
+"\n"
+"///\n"
+"\n"
+"/// tab | Tab two title\n"
+"\n"
+"Tab two text.\n"
+"\n"
+"///\n"
+"\n"
+"/// tab | Tab three title\n"
+"\n"
+"Tab three text.\n"
+"\n"
+"///\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"/// záložka | Název první záložky\n"
+"\n"
+"Text první záložky\n"
+"\n"
+"///\n"
+"\n"
+"/// záložka | Název druhé záložky\n"
+"\n"
+"Text druhé záložky.\n"
+"\n"
+"///\n"
+"\n"
+"/// záložka | Název třetí záložky\n"
+"\n"
+"Text třetí záložky.\n"
+"\n"
+"///\n"
+"\n"
+"Obsah dole."
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:241
 #, fuzzy
 msgid "A tab with a nested admonition would be formatted as follows, including a newline before and after the content block:"
 msgstr "Záložka s vnořeným upozorněním by byla formátována následovně, včetně nového řádku před a za blokem obsahu:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:243
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"/// tab | Windows\n"
+"\n"
+"Tab text.\n"
+"\n"
+"/// admonition | Admonition\n"
+"\n"
+"Admonition text.\n"
+"\n"
+"///\n"
+"\n"
+"///\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"/// záložka | Windows\n"
+"\n"
+"Text záložky.\n"
+"\n"
+"/// upozornění | Upozornění\n"
+"\n"
+"Text upozornění.\n"
+"\n"
+"///\n"
+"\n"
+"///\n"
+"\n"
+"Obsah dole."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:261
 #, fuzzy
@@ -2508,6 +3431,29 @@ msgstr "Sbalený obsah"
 #, fuzzy
 msgid "Collapsed content is formatted as follows, including newlines:"
 msgstr "Sbalený obsah je formátován následovně, včetně nových řádků:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:265
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"/// details-note | Collapsed content title\n"
+"\n"
+"Collapsed content.\n"
+"\n"
+"///\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"/// details-note | Název sbaleného obsahu\n"
+"\n"
+"Sbalený obsah.\n"
+"\n"
+"///\n"
+"\n"
+"Obsah dole."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:277
 #, fuzzy
@@ -2524,10 +3470,56 @@ msgstr "Jinja direktivy"
 msgid "There are a few features of the documentation that use Jinja directives in the text. Anything using the Jinja directive features needs to be wrapped in newlines. For example, the BeeWare tutorial contains Jinja conditionals based on variables to determine what admonition to show on the main page. Those are formatted as follows:"
 msgstr "V dokumentaci je několik prvků, které v textu používají direktivy Jinja. Vše, co používá prvky direktivy Jinja, musí být zabaleno do nových řádků. Například tutoriál BeeWare obsahuje podmíněné výrazy Jinja založené na proměnných, které určují, jaké upozornění se má zobrazit na hlavní stránce. Ty jsou formátovány následovně:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:283
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"{% if config.extra.translation_type == \"original\" %}\n"
+"\n"
+"/// admonition | Admonition title\n"
+"\n"
+"Text\n"
+"\n"
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"{% if config.extra.translation_type == \"original\" %}\n"
+"\n"
+"/// upozornění | Název upozornění\n"
+"\n"
+"Text\n"
+"\n"
+"///\n"
+"\n"
+"{% endif %}\n"
+"\n"
+"Obsah dole."
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:299
 #, fuzzy
 msgid "There is also syntax for substituting symbols or text. This syntax is a variable wrapped in a pair of matching double curly braces, and, if on its own line, must include a newline before and after."
 msgstr "Existuje také syntaxe pro nahrazování symbolů nebo textu. Tato syntaxe je proměnná uzavřená v páru shodných dvojitých složených závorek a pokud je na samostatném řádku, musí před a za ní být nový řádek."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:301
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"{{ variable }}\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"{{ variable }}\n"
+"\n"
+"Obsah dole."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:309
 #, fuzzy
@@ -2544,20 +3536,80 @@ msgstr "U obrázků lze nastavit šířku a zarovnat je vlevo, vpravo nebo na st
 msgid "Setting the width of {1}300px{2} on an image would be formatted as follows:"
 msgstr "Nastavení šířky {1}300px{2} u obrázku by bylo formátováno následovně:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:315
+#, fuzzy
+msgid "![Image alt text](../path/to/image.png){ width=\"300px\" }"
+msgstr "![Alternativní text obrázku](../cesta/k/obrázku.png){ width=\"300px\" }"
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:319
 #, fuzzy
 msgid "Aligning an image left (or right) would be formatted as follows:"
 msgstr "Zarovnání obrázku vlevo (nebo vpravo) by bylo formátováno následovně:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:321
+#, fuzzy
+msgid "![Image alt text](../path/to/image.png){ align=left }"
+msgstr "![Alternativní text obrázku](../cesta/k/obrázku.png){ align=left }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:325
 #, fuzzy
 msgid "Adding a caption to an image requires a newline before and after, and is formatted as follows:"
 msgstr "Přidání popisku k obrázku vyžaduje nový řádek před a za popiskem a je formátováno následovně:"
 
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:327
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"![Image alt text](/path/to/image.png)\n"
+"\n"
+"/// caption\n"
+"\n"
+"Caption content.\n"
+"\n"
+"///\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"![Alternativní text obrázku](/cesta/k/obrázku.png)\n"
+"\n"
+"/// popisek\n"
+"\n"
+"Obsah popisku.\n"
+"\n"
+"///\n"
+"\n"
+"Obsah dole."
+
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:341
 #, fuzzy
 msgid "Aligning an image center is not possible with the `align` attribute. The workaround is to follow the image with an empty caption, and it will be centered. You must include newlines between each section, and before and after. It is formatted as follows:"
 msgstr "Zarovnání středu obrázku pomocí atributu `align` není možné. Řešením je vložit za obrázek prázdný titulek, který bude zarovnán na střed. Mezi jednotlivými částmi a před a za nimi musíte vložit nové řádky. Formátování je následující:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:343
+#, fuzzy
+msgid ""
+"Content above.\n"
+"\n"
+"![Image alt text](../path/to/image.png)\n"
+"\n"
+"/// caption\n"
+"\n"
+"///\n"
+"\n"
+"Content below."
+msgstr ""
+"Obsah nahoře.\n"
+"\n"
+"![Alternativní text obrázku](../cesta/k/obrázku.png)\n"
+"\n"
+"/// popisek\n"
+"\n"
+"///\n"
+"\n"
+"Obsah dole."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:355
 #, fuzzy
