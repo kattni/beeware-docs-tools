@@ -250,7 +250,7 @@ By default, `tox` will run the pytest suite in single threaded mode. You can spe
 
 A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line; a [specific Python version][test-py-version] can be used by adding the version to the test target (e.g., `py{{ min_python_version_tag }}-fast` to run fast on Python {{ min_python_version }}).
 
-### Code coverage
+### Code coverage { #code-coverage }
 
 {{ formal_name }} maintains 100% branch coverage in its codebase. When you add or modify code in the project, you must add test code to ensure coverage of any changes you make.
 
@@ -262,22 +262,26 @@ Of note, coverage reporting across Python versions can be a bit quirky. For inst
 
 At the end of the coverage test output there should be a report of the coverage data that was gathered:
 
+<!-- The extra space at the start of this line is needed to prevent translate-toolkit from parsing the dashes as a markdown document split -->
+
 ```console
-Name    Stmts   Miss Branch BrPart   Cover   Missing
-----------------------------------------------------
-TOTAL    7540      0   1040      0  100.0%
+ Name    Stmts   Miss Branch BrPart   Cover   Missing
+ ---------------------------------------------------
+ TOTAL    7540      0   1040      0  100.0%
 ```
 
 This tells us that the test suite has executed every possible branching path in the code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase.
 
 If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `some/interesting_file.py`, adding some new logic. The coverage report might look something like:
 
+<!-- The extra space at the start of this line is needed to prevent translate-toolkit from parsing the dashes as a markdown document split -->
+
 ```console
-Name                                 Stmts   Miss Branch BrPart  Cover   Missing
---------------------------------------------------------------------------------
-src/some/interesting_file.py           111      1     26      0  98.1%   170, 302-307, 320->335
---------------------------------------------------------------------------------
-TOTAL                                 7540      1   1726      0  99.9%
+ Name                                 Stmts   Miss Branch BrPart  Cover   Missing
+ -------------------------------------------------------------------------------
+ src/some/interesting_file.py           111      1     26      0  98.1%   170, 302-307, 320->335
+ -------------------------------------------------------------------------------
+ TOTAL                                 7540      1   1726      0  99.9%
 ```
 
 This tells us that line 170, lines 302-307, and a branch jumping from line 320 to line 335, are not being executed by the test suite. You'll need to add new tests (or modify an existing test) to restore this coverage.

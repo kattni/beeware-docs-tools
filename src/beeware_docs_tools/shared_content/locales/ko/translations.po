@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-06 22:33+0000\n"
+"POT-Creation-Date: 2026-04-07 15:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.3\n"
+"X-Generator: Translate Toolkit 3.18.1\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 #, fuzzy
@@ -97,44 +97,36 @@ msgstr "대신 변경 사항은 *기능 브랜치*에서 수행해야 합니다.
 msgid "To create a `fix-win11-build` feature branch, run:"
 msgstr "`fix-win11-build` 기능 브랜치를 생성하려면 다음을 실행하세요:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:21 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:24 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:122 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:158 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:168 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:198 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:7 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:28 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:94 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:141 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:177 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:190 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:224 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:238 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:272 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:283 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:7 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:32 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:86 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:185 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:3
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:21 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:24 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:122 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:158 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:168 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:198 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:7 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:28 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:94 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:141 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:177 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:190 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:224 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:238 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:272 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:283 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:7 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:32 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:86 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:185 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:45 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:55 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:98 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:144 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:179 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:189 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:219 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:293 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:303 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:329 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:339 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:365 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:375 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:3
 msgid "{% if not config.extra.macos_only %}"
 msgstr "{% if not config.extra.macos_only %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:13 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:26 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:124 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:160 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:200 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:179 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:274 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:88 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:164
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:13 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:26 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:124 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:160 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:200 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:179 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:274 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:88 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:164 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:47 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:136 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:181 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:221 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:295 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:331 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:367
 msgid "/// tab | macOS"
 msgstr "/// tab | macOS"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:15 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:41 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:28 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:112 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:188 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:202 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:122 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:163 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:181 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:216 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:266 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:90 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:166 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:231 src/beeware_docs_tools/shared_content/en/contribute/index.md:11 src/beeware_docs_tools/shared_content/en/contribute/index.md:45 src/beeware_docs_tools/shared_content/en/contribute/index.md:103 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:12
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:15 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:41 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:28 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:112 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:188 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:202 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:122 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:163 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:181 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:216 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:266 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:90 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:166 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:37 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:75 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:83 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:102 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:128 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:138 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:164 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:173 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:183 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:209 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:223 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:249 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:297 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:323 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:333 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:359 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:369 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:395 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:397 src/beeware_docs_tools/shared_content/en/contribute/index.md:11 src/beeware_docs_tools/shared_content/en/contribute/index.md:45 src/beeware_docs_tools/shared_content/en/contribute/index.md:103 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:12
 msgid "{% endif %}"
 msgstr "{% endif %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:17 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:27
-msgid "(.venv) $ git switch -c fix-win11-build"
-msgstr "(.venv) $ git switch -c fix-win11-build"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:20 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:44 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:52 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:142 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:170 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:178 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:186 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:218 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:68 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:96 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:120 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:143 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:161 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:203 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:214 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:240 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:252 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:264 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:285 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:294 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:303 src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:77 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:246 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:276 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:28 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:68 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:80 src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:48 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:17 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:23 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:29 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:37 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:45 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:51 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:59 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:65 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:20 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:26 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:32 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:38 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:44 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:50 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:56 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:62 src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:43 src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:13 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:60 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:66 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:72 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:78 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:96
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:20 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:44 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:52 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:142 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:170 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:178 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:186 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:218 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:68 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:96 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:120 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:143 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:161 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:203 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:214 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:240 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:252 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:264 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:285 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:294 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:303 src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:77 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:246 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:73 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:118 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:146 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:191 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:199 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:207 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:239 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:247 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:313 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:321 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:341 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:349 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:357 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:377 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:385 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:393 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:28 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:68 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:80 src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:48 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:17 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:23 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:29 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:37 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:45 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:51 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:59 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:65 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:20 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:26 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:32 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:38 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:44 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:50 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:56 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:62 src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:43 src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:13 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:60 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:66 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:72 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:78 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:96
 msgid "///"
 msgstr "///"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:25 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:38 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:94 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:136 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:172 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:212 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:32 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:98 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:145 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:194 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:242 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:287 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:112 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:189
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:25 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:38 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:94 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:136 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:172 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:212 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:32 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:98 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:145 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:194 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:242 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:287 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:112 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:189 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:59 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:112 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:148 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:193 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:233 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:307 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:343 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:379
 msgid "/// tab | Linux"
 msgstr "/// tab | Linux"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:33 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:46 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:102 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:144 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:180 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:220 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:51 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:205 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:254 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:296 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:59 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:210
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:33 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:46 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:102 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:144 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:180 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:220 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:51 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:205 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:254 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:296 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:59 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:67 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:120 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:156 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:201 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:241 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:315 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:351 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:387
 msgid "/// tab | Windows"
 msgstr "/// tab | Windows"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:35
-msgid "(.venv) C:\\...>git switch -c fix-win11-build"
-msgstr "(.venv) C:\\...>git switch -c fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:1
 #, fuzzy
 msgid "Before making any changes to {{ formal_name }}'s documentation, it is helpful to confirm that you can build the existing documentation."
 msgstr "{{ formal_name }}'의 문서에 변경 사항을 적용하기 전에 기존 문서를 빌드할 수 있는지 확인하는 것이 좋습니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:3 src/beeware_docs_tools/shared_content/en/contribute/how/reproduce-issue.md:5 src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:4
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:3 src/beeware_docs_tools/shared_content/en/contribute/how/reproduce-issue.md:5 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:4 src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:4
 #, fuzzy
 msgid "{% block front_matter %} {% endblock %}"
 msgstr "{% block front_matter %} {% endblock %}"
@@ -179,16 +171,6 @@ msgstr "`WARNING`는 `ERROR`와 다릅니다. `ERROR`로 간주되는 문제를 
 msgid "To start the live server:"
 msgstr "라이브 서버를 시작하려면:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:40
-#, fuzzy
-msgid "(venv) $ tox -e docs-live"
-msgstr "(venv) $ tox -e docs-live"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:48
-#, fuzzy
-msgid "(venv) C:\\...>tox -e docs-live"
-msgstr "(venv) C:\\...>tox -e docs-live"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:56
 #, fuzzy
 msgid "This will build the documentation, start a web server to serve the documentation, and watch the file system for any changes to the documentation source."
@@ -198,11 +180,6 @@ msgstr "이 명령은 문서를 빌드하고, 문서를 제공하기 위해 웹 
 #, fuzzy
 msgid "Once the server is started, you'll see something like the following in the console output:"
 msgstr "서버가 시작되면 콘솔 출력에 다음과 같은 내용이 표시됩니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:60
-#, fuzzy
-msgid "INFO    -  [11:18:51] Serving on http://127.0.0.1:8000/"
-msgstr "정보    -  [11:18:51] http://127.0.0.1:8000/에서 서비스 중"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:64
 #, fuzzy
@@ -239,16 +216,6 @@ msgstr "로컬 빌드 생성"
 msgid "To generate a local build:"
 msgstr "로컬 빌드를 생성하려면:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:86 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:96
-#, fuzzy
-msgid "(venv) $ tox -e docs"
-msgstr "(venv) $ tox -e docs"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:104
-#, fuzzy
-msgid "(venv) C:\\...>tox -e docs"
-msgstr "(venv) C:\\...>tox -e docs"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:110
 #, fuzzy
 msgid "The output of this build will be in the `_build` directory in the root of the project."
@@ -273,16 +240,6 @@ msgstr "{{ formal_name }}'s 문서가 여러 언어로 번역됩니다. 영어 �
 msgid "To generate a build of all available translations:"
 msgstr "사용 가능한 모든 번역에 대한 빌드를 생성하려면:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:128 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:138
-#, fuzzy
-msgid "(venv) $ tox -e docs-all"
-msgstr "(동사) $ tox -e docs-all"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:146
-#, fuzzy
-msgid "(venv) C:\\...>tox -e docs-all"
-msgstr "(venv) C:\\...>tox -e docs-all"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:154
 #, fuzzy
 msgid "The output of each language build will be in the associated `_build/html/<languagecode>` directory, where `<languagecode>` is the two- or five-character language code associated with the specific language (e.g. `fr` for French, `it` for Italian, etc.)."
@@ -292,16 +249,6 @@ msgstr "각 언어 빌드의 결과물은 해당 `_build/html/<languagecode>` �
 #, fuzzy
 msgid "If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-<languagecode>`. For example, to build only the French documentation, run:"
 msgstr "단일 빌드에서 문제를 발견한 경우, `tox -e docs-<languagecode>`를 실행하여 해당 개별 빌드를 따로 실행할 수 있습니다. 예를 들어, 프랑스어 문서만 빌드하려면 다음을 실행하세요:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:164 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:174
-#, fuzzy
-msgid "(venv) $ tox -e docs-fr"
-msgstr "(venv) $ tox -e docs-fr"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:182
-#, fuzzy
-msgid "(venv) C:\\...>tox -e docs-fr"
-msgstr "(venv) C:\\...>tox -e docs-fr"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:190
 #, fuzzy
@@ -317,16 +264,6 @@ msgstr "문서 린팅"
 #, fuzzy
 msgid "The build process will identify Markdown problems, but {{ formal_name }} performs some additional checks for style and formatting, known as \"linting\". To run the lint checks:"
 msgstr "빌드 프로세스는 마크다운 문제를 식별하지만, {{ formal_name }}는 스타일과 서식을 위한 추가 검사를 수행하며 이를 \"린팅\"이라고 합니다. 린팅 검사를 실행하려면:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:204 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:214
-#, fuzzy
-msgid "(venv) $ tox -e docs-lint"
-msgstr "(venv) $ tox -e docs-lint"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:222
-#, fuzzy
-msgid "(venv) C:\\...>tox -e docs-lint"
-msgstr "(venv) C:\\...>tox -e docs-lint"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:230
 #, fuzzy
@@ -363,7 +300,7 @@ msgstr "제품명에 대한 모든 언급은 해당 제품의 권장 대소문�
 msgid "If a term is being used \"as code\", then it should be quoted as a literal (`like this`) rather than being added to the dictionary."
 msgstr "어떤 용어가 \"암호\"로 사용되고 있다면, 사전(dictionary)에 추가하기보다는 리터럴(`like this`)로 인용해야 합니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:282 src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:35
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:282 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:35
 #, fuzzy
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
@@ -497,11 +434,6 @@ msgstr "{{ formal_name }}는 Python {{ min_python_version }}+이 필요합니다
 msgid "You can verify the version of Python that you have installed by running:"
 msgstr "설치된 Python 버전을 확인하려면 다음 명령어를 실행하세요:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:17 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:38
-#, fuzzy
-msgid "$ python3 --version"
-msgstr "Python 3.8.10 (기본, 2020년 7월 20일, 16:16:00)"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:21 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:42
 #, fuzzy
 msgid "If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)"
@@ -526,11 +458,6 @@ msgstr "최근에 출시된 Python 버전(예: 3.14.0과 같이 \".0\" 또는 \"
 #, fuzzy
 msgid "{% block prerequisites_linux %} {% endblock %}"
 msgstr "{% block prerequisites_linux %} {% endblock %}"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:57
-#, fuzzy
-msgid "C:\\...>py -3 --version"
-msgstr "C:\\...>py -3 --version"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:61
 #, fuzzy
@@ -572,20 +499,10 @@ msgstr "다음으로 GitHub의 [{{ formal_name }} 페이지](https://github.com/
 msgid "Fork the {{ formal_name }} repository, and then:"
 msgstr "{{ formal_name }} 저장소를 포크한 후 다음을 수행하세요:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:88 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:102
-#, fuzzy
-msgid "$ git clone https://github.com/<your username>/{{ project_name }}.git"
-msgstr "$ git clone https://github.com/<사용자 이름>/{{ project_name }}.git"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:106 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:118
 #, fuzzy
 msgid "(substituting your GitHub username)"
 msgstr "(GitHub 사용자 이름을 대체)"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:114
-#, fuzzy
-msgid "C:\\...>git clone https://github.com/<your username>/{{ project_name }}.git"
-msgstr "C:\\...>git clone https://github.com/<사용자 이름>/{{ project_name }}.git"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:124
 #, fuzzy
@@ -602,33 +519,10 @@ msgstr "포크를 복제한 후 BeeWare 저장소를 `upstream` 원격 저장소
 msgid "You'll also need tags from `upstream` so tools like Toga and Briefcase can resolve accurate version numbers:"
 msgstr "또한 Toga나 Briefcase 같은 도구가 정확한 버전 번호를 확인할 수 있도록 `upstream`에서 태그가 필요합니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:136 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:147
-#, fuzzy
-msgid ""
-"$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"$ git fetch --tags upstream"
-msgstr ""
-"$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"$ git fetch --tags upstream"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:156
-#, fuzzy
-msgid ""
-"C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"C:\\...>git fetch --tags upstream"
-msgstr ""
-"C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"C:\\...>git fetch --tags upstream"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:165
 #, fuzzy
 msgid "If you want your fork to include those tags as well, you can push them:"
 msgstr "포크에 해당 태그도 포함시키고 싶다면, 해당 태그를 푸시할 수 있습니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:167
-#, fuzzy
-msgid "$ git push --tags"
-msgstr "$ git push --tags"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:171
 #, fuzzy
@@ -644,32 +538,6 @@ msgstr "가상 환경 생성"
 #, fuzzy
 msgid "To set up a virtual environment and upgrade `pip`, run:"
 msgstr "가상 환경을 설정하고 `pip`를 업그레이드하려면 다음을 실행하십시오:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:183 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:196
-#, fuzzy
-msgid ""
-"$ cd {{ project_name }}\n"
-"$ python3 -m venv .venv\n"
-"$ source .venv/bin/activate\n"
-"(.venv) $ python -m pip install -U pip"
-msgstr ""
-"$ cd {{ project_name }}\n"
-"$ python3 -m venv .venv\n"
-"$ source .venv/bin/activate\n"
-"(.venv) $ python -m pip install -U pip"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:207
-#, fuzzy
-msgid ""
-"C:\\...>cd {{ project_name }}\n"
-"C:\\...>py -3 -m venv .venv\n"
-"C:\\...>.venv\\Scripts\\activate\n"
-"(.venv) $ python -m pip install -U pip"
-msgstr ""
-"C:\\...>cd {{ project_name }}\n"
-"C:\\...>py -3 -m venv .venv\n"
-"C:\\...>.venv\\Scripts\\activate\n"
-"(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:218
 #, fuzzy
@@ -690,11 +558,7 @@ msgstr "이제 소스 코드를 확보했으므로, 개발 환경에 {1}을 [edi
 msgid "{% block install_macos_tool %}"
 msgstr "{% block install_macos_tool %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:232 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:246
-msgid "(.venv) $ python -m pip install -U -e . --group dev"
-msgstr "(.venv) $ python -m pip install -U -e . --group dev"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:236 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:250 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:262
+#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:236 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:250 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:262 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:39
 msgid "{% endblock %}"
 msgstr "{% endblock %}"
 
@@ -706,10 +570,6 @@ msgstr "{% block install_linux_tool %}"
 msgid "{% block install_windows_tool %}"
 msgstr "{% block install_windows_tool %}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:258
-msgid "(.venv) C:\\...>python -m pip install -U -e . --group dev"
-msgstr "(.venv) C:\\...>python -m pip install -U -e . --group dev"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:268
 #, fuzzy
 msgid "Enable pre-commit"
@@ -719,22 +579,6 @@ msgstr "프리커밋 활성화"
 #, fuzzy
 msgid "{{ formal_name }} uses a tool called [pre-commit]{1} to identify simple issues and standardize code formatting. It does this by installing a git hook that automatically runs a series of code linters prior to finalizing any git commit. To enable pre-commit, run:"
 msgstr "{{ formal_name }}는 [pre-commit]{1}이라는 도구를 사용하여 간단한 문제를 식별하고 코드 서식을 표준화합니다. 이는 git 커밋을 최종 확정하기 전에 일련의 코드 린터를 자동으로 실행하는 git 훅을 설치함으로써 이루어집니다. pre-commit을 활성화하려면 다음 명령을 실행하세요:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:278 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:289
-msgid ""
-"(.venv) $ pre-commit install\n"
-"pre-commit installed at .git/hooks/pre-commit"
-msgstr ""
-"(.venv) $ pre-commit install\n"
-"pre-commit installed at .git/hooks/pre-commit"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:298
-msgid ""
-"(.venv) C:\\...>pre-commit install\n"
-"pre-commit installed at .git/hooks/pre-commit"
-msgstr ""
-"(.venv) C:\\...>pre-commit install\n"
-"pre-commit installed at .git/hooks/pre-commit"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:307
 #, fuzzy
@@ -896,19 +740,6 @@ msgstr "코드를 포함할 때, BeeWare 튜토리얼과 같은 기존 예제로
 msgid "If you need to include a long block of text, you can make it collapsed content using the following syntax:"
 msgstr "긴 텍스트 블록을 포함해야 하는 경우, 다음 구문을 사용하여 접힌 콘텐츠로 만들 수 있습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:56
-#, fuzzy
-msgid ""
-"<details>\n"
-"<summary>Collapsed content title</summary>\n"
-"Long block of text.\n"
-"</details>"
-msgstr ""
-"<details>\n"
-"<summary>접힌 콘텐츠 제목</summary>\n"
-"긴 텍스트 블록.\n"
-"</details>"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:63
 #, fuzzy
 msgid "Once you've provided as much information as you can, click \"Create\" to submit the report."
@@ -928,11 +759,6 @@ msgstr "GitHub CLI(`gh`)를 직접 사용하면 우리가 만든 템플릿이 �
 #, fuzzy
 msgid "**If you are going to use `gh` to create a new issue, please use the following:**"
 msgstr "**`gh`를 사용하여 새 이슈를 생성할 경우, 다음 형식을 사용해 주세요:**"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:71
-#, fuzzy
-msgid "gh issue create --web"
-msgstr "gh issue create --web"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:75
 #, fuzzy
@@ -1199,142 +1025,10 @@ msgstr "프리커밋 작업"
 msgid "When you commit any change, pre-commit will run automatically. If there are any issues found with the commit, this will cause your commit to fail. Where possible, pre-commit will make the changes needed to correct the problems it has found. In the following example, a code formatting issue was found by the `ruff` check:"
 msgstr "변경 사항을 커밋할 때 pre-commit이 자동으로 실행됩니다. 커밋에 문제가 발견되면 커밋이 실패하게 됩니다. 가능한 경우 pre-commit은 발견된 문제를 수정하기 위해 필요한 변경을 수행합니다. 다음 예시에서는 `ruff` 검사로 코드 포맷팅 문제가 발견되었습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:13 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:38
-msgid ""
-"(.venv) $ git add some/interesting_file.py\n"
-"(.venv) $ git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Failed\n"
-"- hook id: ruff-format\n"
-"- files were modified by this hook\n"
-"\n"
-"1 file reformatted, 488 files left unchanged\n"
-"\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed"
-msgstr ""
-"(.venv) $ git add some/interesting_file.py\n"
-"(.venv) $ git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Failed\n"
-"- hook id: ruff-format\n"
-"- files were modified by this hook\n"
-"\n"
-"1 file reformatted, 488 files left unchanged\n"
-"\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:61
-msgid ""
-"(.venv) C:\\...>git add some/interesting_file.py\n"
-"(.venv) C:\\...>git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Failed\n"
-"- hook id: ruff-format\n"
-"- files were modified by this hook\n"
-"\n"
-"1 file reformatted, 488 files left unchanged\n"
-"\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed"
-msgstr ""
-"(.venv) C:\\...>git add some/interesting_file.py\n"
-"(.venv) C:\\...>git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Failed\n"
-"- hook id: ruff-format\n"
-"- files were modified by this hook\n"
-"\n"
-"1 file reformatted, 488 files left unchanged\n"
-"\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:84
 #, fuzzy
 msgid "In this case, `ruff` automatically fixed the problem; so you can then re-add any files that were modified as a result of the pre-commit checks, and re-commit the change. However, some checks will require you to make manual modifications. Once you've made those changes, re-add any modified files, and re-commit."
 msgstr "이 경우 `ruff`가 자동으로 문제를 해결했습니다. 따라서 프리커밋 검사 결과 수정된 파일을 다시 추가하고 변경 사항을 재커밋할 수 있습니다. 다만 일부 검사는 수동 수정이 필요할 수 있습니다. 해당 수정을 완료한 후 수정된 파일을 다시 추가하고 재커밋하십시오."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:114
-msgid ""
-"(.venv) $ git add some/interesting_file.py\n"
-"(.venv) $ git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Passed\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed\n"
-"[bugfix e3e0f73] Minor change\n"
-"1 file changed, 4 insertions(+), 2 deletions(-)"
-msgstr ""
-"(.venv) $ git add some/interesting_file.py\n"
-"(.venv) $ git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Passed\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed\n"
-"[bugfix e3e0f73] Minor change\n"
-"1 file changed, 4 insertions(+), 2 deletions(-)"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:134
-msgid ""
-"(.venv) C:\\...>git add some\\interesting_file.py\n"
-"(.venv) C:\\...>git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Passed\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed\n"
-"[bugfix e3e0f73] Minor change\n"
-"1 file changed, 4 insertions(+), 2 deletions(-)"
-msgstr ""
-"(.venv) C:\\...>git add some\\interesting_file.py\n"
-"(.venv) C:\\...>git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Passed\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed\n"
-"[bugfix e3e0f73] Minor change\n"
-"1 file changed, 4 insertions(+), 2 deletions(-)"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:154
 #, fuzzy
@@ -1355,70 +1049,6 @@ msgstr "GitHub에 처음 푸시할 때, 새 풀 리퀘스트를 생성할 수 �
 #, fuzzy
 msgid "The following shows an example of what to expect on `push`, with the URL highlighted."
 msgstr "다음은 `push`에서 예상되는 내용의 예시이며, URL이 강조 표시되어 있습니다."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:168 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:191
-msgid ""
-"(.venv) $ git push\n"
-"Enumerating objects: 15, done.\n"
-"Counting objects: 100% (15/15), done.\n"
-"Delta compression using up to 24 threads\n"
-"Compressing objects: 100% (6/6), done.\n"
-"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
-"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
-"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
-"remote:\n"
-"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
-"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
-"remote:\n"
-"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
-" * [new branch]      fix-win11-build -> fix-win11-build"
-msgstr ""
-"(.venv) $ git push\n"
-"Enumerating objects: 15, done.\n"
-"Counting objects: 100% (15/15), done.\n"
-"Delta compression using up to 24 threads\n"
-"Compressing objects: 100% (6/6), done.\n"
-"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
-"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
-"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
-"remote:\n"
-"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
-"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
-"remote:\n"
-"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
-" * [new branch]      fix-win11-build -> fix-win11-build"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:212
-msgid ""
-"(.venv) C:\\...>git push\n"
-"Enumerating objects: 15, done.\n"
-"Counting objects: 100% (15/15), done.\n"
-"Delta compression using up to 24 threads\n"
-"Compressing objects: 100% (6/6), done.\n"
-"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
-"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
-"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
-"remote:\n"
-"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
-"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
-"remote:\n"
-"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
-" * [new branch]      fix-win11-build -> fix-win11-build"
-msgstr ""
-"(.venv) C:\\...>git push\n"
-"Enumerating objects: 15, done.\n"
-"Counting objects: 100% (15/15), done.\n"
-"Delta compression using up to 24 threads\n"
-"Compressing objects: 100% (6/6), done.\n"
-"Writing objects: 100% (8/8), 689 bytes | 689.00 KiB/s, done.\n"
-"Total 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\n"
-"remote: Resolving deltas: 100% (4/4), completed with 4 local objects.\n"
-"remote:\n"
-"remote: Create a pull request for 'fix-win11-build' on GitHub by visiting:\n"
-"remote:      https://github.com/<your GitHub username>/{{ formal_name }}/pull/new/fix-win11-build\n"
-"remote:\n"
-"To https://github.com/<your GitHub username>/{{ formal_name }}.git\n"
-" * [new branch]      fix-win11-build -> fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:233
 #, fuzzy
@@ -1625,47 +1255,6 @@ msgstr "새로운 MkDocs 구성 파일"
 msgid "First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:"
 msgstr "먼저, `mkdocs.de.yml` 디렉토리에 `docs`라는 새 파일을 생성하고 다음 내용을 입력하세요:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:31
-#, fuzzy
-msgid ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Dokumentation\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
-"\n"
-"theme:\n"
-"  language: de\n"
-"\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: Über\n"
-"    Documentation: Dokumentation\n"
-"    Community: Gemeinschaft\n"
-"    Contributing: Mitwirken\n"
-"    News: Neuigkeiten\n"
-"    Sponsor: Förderer"
-msgstr ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} 문서\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
-"\n"
-"theme:\n"
-"  language: de\n"
-"\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: 소개\n"
-"    Documentation: 문서\n"
-"    Community: 커뮤니티\n"
-"    Contributing: 기여하기\n"
-"    News: 소식\n"
-"    Sponsor: 후원자"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:52
 #, fuzzy
 msgid "Here's what is going on in this file:"
@@ -1766,17 +1355,6 @@ msgstr "업데이트 `config.yml`"
 msgid "Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:"
 msgstr "언어를 `config.yml`에 추가하면 헤더의 언어 선택기에 표시됩니다. `extra:`로 시작하는 섹션을 찾은 후, `alternate:`로 시작하는 하위 섹션을 찾으세요. 독일어의 경우 다음과 같이 추가합니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:80
-#, fuzzy
-msgid ""
-"- name: Deutsch\n"
-"      link: /de/\n"
-"      lang: de"
-msgstr ""
-"- name: 독일어\n"
-" link: /de/\n"
-" lang: de"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:86
 #, fuzzy
 msgid "The language name should be translated into the language. The link must include the `/`s."
@@ -1847,20 +1425,10 @@ msgstr "**네임스페이스**, 예를 들어 클래스, 메서드 또는 속성
 msgid "**Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated."
 msgstr "**클래스, 메서드 또는 속성 이름이 포함된 참조 링크**. 백틱(`)을 포함한 이 링크들은 그대로 유지해야 합니다. 여기에 표시된 예시 링크의 모든 부분은 번역되지 않습니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:109
-#, fuzzy
-msgid "[`Class.attribute`][Class.attribute]"
-msgstr "[`Class.attribute`][클래스.속성]"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:115
 #, fuzzy
 msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
 msgstr "**참조 링크의 링크 내용**. 예를 들어, `link-content`는 다음에서 생략됩니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:115 src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:139
-#, fuzzy
-msgid "[Link text][link-content]"
-msgstr "[링크 텍스트][링크 내용]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:121
 #, fuzzy
@@ -1876,21 +1444,6 @@ msgstr "**사용자 정의 앵커**. 헤더 뒤나 특정 콘텐츠 위에 위�
 #, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**주의 사항 구문**. 다음 예시에서 \"주의 사항\"이라는 단어는 번역하지 않아야 합니다. 이는 메모, 경고 등 모든 유형의 주의 사항에 적용됩니다. 나머지 내용 번역에 관한 정보는 다음 섹션을 참조하십시오."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:123
-#, fuzzy
-msgid ""
-"/// admonition | Page Title\n"
-"\n"
-"Content.\n"
-"\n"
-"///"
-msgstr ""
-"/// admonition | 페이지 제목\n"
-"\n"
-"내용.\n"
-"\n"
-"///"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:133
 #, fuzzy
@@ -1942,210 +1495,283 @@ msgstr "Weblate는 모든 작업을 문자열 단위로 처리합니다. 변경 
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
 msgstr "해당 시간 이후에도 변경 사항이 반영되지 않았다면, 해당 언어의 문서 빌드 실패를 초래한 마크업 오류가 원인일 가능성이 높습니다. 어떤 문자열의 마크업 문제라도 전체 번역 공개를 차단합니다. 해당 언어의 빌드 페이지에서 빌드 성공 여부를 확인할 수 있습니다. 해당 링크는 프랑스어 빌드 페이지 링크와 유사한 형식입니다. {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; 언어 코드를 해당 언어로 변경하면 해당 언어의 빌드 페이지를 볼 수 있습니다. 이 페이지에는 사이트의 최신 빌드 상태가 표시됩니다. 빌드가 실패한 경우 빌드 로그를 확인하여 문제의 원인을 파악할 수 있는지 살펴보세요."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:1
-#, fuzzy
-msgid "TOTAL 7540 0 1040 0 100.0%"
-msgstr "총계 7540 0 1040 0 100.0%"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:2
 #, fuzzy
-msgid ""
-"This tells us that the test suite has executed every possible branching path in the code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase.\n"
-"\n"
-"If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `some/interesting_file.py`, adding some new logic. The coverage report might look something like:"
-msgstr ""
-"이는 테스트 스위트가 코드 내의 모든 가능한 분기 경로를 실행했음을 의미합니다. 이것이 버그가 전혀 없다는 것을 100% 보장하는 것은 아니지만, 코드베이스의 모든 코드 줄이 실행되고 있음을 의미합니다.\n"
-"\n"
-"코드베이스에 변경 사항을 적용하면 커버리지에 공백이 생길 수 있습니다. 이런 경우 커버리지 보고서를 통해 어떤 줄이 실행되지 않는지 확인할 수 있습니다. 예를 들어, `some/interesting_file.py`에 새로운 로직을 추가하는 변경을 가했다고 가정해 봅시다. 커버리지 보고서는 다음과 같이 표시될 수 있습니다:"
+msgid "Fixing a bug or implementing a feature will require you to write some new code."
+msgstr "버그를 수정하거나 기능을 구현하려면 새로운 코드를 작성해야 합니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:7
+#, fuzzy
+msgid "We have a [code style guide]{1} that outlines our guidelines for writing code for BeeWare."
+msgstr "BeeWare용 코드 작성 지침을 정리한 [코드 스타일 가이드]{1}가 마련되어 있습니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:9
 #, fuzzy
-msgid "Name Stmts Miss Branch BrPart Cover Missing"
-msgstr "이름 명세서 분실 지점 지점 부분 커버 미포함"
+msgid "Test-driven development"
+msgstr "테스트 주도 개발"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:11
 #, fuzzy
-msgid "src/some/interesting_file.py 111 1 26 0 98.1% 170, 302-307, 320->335"
-msgstr "src/some/interesting_file.py 111 1 26 0 98.1% 170, 302-307, 320->335"
+msgid "A good way to ensure your code is going to do what you expect it to, is to first write a test case to test for it. This test case should fail initially, as the code it is testing for is not yet present. You can then write the code changes needed to make the test pass, and know that what you've written is solving the problem you are expecting it to."
+msgstr "코드가 의도한 대로 동작하는지 확인하는 좋은 방법은 먼저 해당 기능을 테스트할 테스트 케이스를 작성하는 것입니다. 테스트 대상 코드가 아직 구현되지 않았기 때문에, 이 테스트 케이스는 처음에는 실패해야 합니다. 그런 다음 테스트가 통과되도록 필요한 코드 수정을 가하면, 작성한 코드가 의도한 문제를 해결하고 있음을 확인할 수 있습니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:13
 #, fuzzy
-msgid "TOTAL 7540 1 1726 0 99.9%"
-msgstr "총계 7540 1 1726 0 99.9%"
+msgid "Run your code"
+msgstr "코드를 실행하세요"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:14
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:15
 #, fuzzy
-msgid ""
-"This tells us that line 170, lines 302-307, and a branch jumping from line 320 to line 335, are not being executed by the test suite. You'll need to add new tests (or modify an existing test) to restore this coverage.\n"
-"\n"
-"#### Coverage report for host platform and Python version\n"
-"\n"
-"You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python {{ min_python_version }}, run:\n"
-"\n"
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"/// tab | macOS\n"
-"\n"
-"{% endif %}"
-msgstr ""
-"이는 170행, 302~307행, 그리고 320행에서 335행으로 이동하는 분기문이 테스트 스위트에 의해 실행되지 않고 있음을 의미합니다. 이 커버리지를 복원하려면 새로운 테스트를 추가하거나 기존 테스트를 수정해야 합니다.\n"
-"\n"
-"#### 호스트 플랫폼 및 Python 버전에 대한 커버리지 보고서\n"
-"\n"
-"사용 중인 플랫폼과 Python 버전에 대한 커버리지 보고서를 생성할 수 있습니다. 예를 들어, 테스트 스위트를 실행하고 Python {{ min_python_version }}에 대한 커버리지 보고서를 생성하려면 다음을 실행하십시오:\n"
-"\n"
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"/// 탭 | macOS\n"
-"\n"
-"{% endif %}"
+msgid "Once your code is written, you need to ensure it runs. You'll need to manually run your code to verify it is doing what you expect. If you haven't already, you'll want to write a test case for your changes; as mentioned above, this test should fail if your code is commented out or not present."
+msgstr "코드를 작성한 후에는 제대로 실행되는지 확인해야 합니다. 코드를 직접 실행하여 예상한 대로 동작하는지 검증해야 합니다. 아직 하지 않았다면, 변경 사항에 대한 테스트 케이스를 작성하는 것이 좋습니다. 앞서 언급했듯이, 코드가 주석 처리되었거나 존재하지 않을 경우 이 테스트는 실패해야 합니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:29 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:39
-msgid "(.venv) $ tox -m test{{ min_python_version_tag }}"
-msgstr "(.venv) $ tox -m test{{ min_python_version_tag }}"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:66 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:102
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:17
 #, fuzzy
-msgid ""
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"///\n"
-"\n"
-"/// tab | Linux"
-msgstr ""
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"///\n"
-"\n"
-"/// tab | Linux"
+msgid "You'll add your test case to the test suite, so it can be run alongside the other tests. The next step is to run the test suite."
+msgstr "테스트 케이스를 테스트 스위트에 추가하면 다른 테스트들과 함께 실행할 수 있습니다. 다음 단계는 테스트 스위트를 실행하는 것입니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:40 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:76 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:112
-msgid ""
-"///\n"
-"\n"
-"/// tab | Windows"
-msgstr ""
-"///\n"
-"\n"
-"/// tab | Windows"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:47
-msgid "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
-msgstr "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:48
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:19
 #, fuzzy
-msgid ""
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"#### Coverage report for host platform\n"
-"\n"
-"If all supported versions of Python are available to `tox`, then coverage for the host platform can be reported by running:\n"
-"\n"
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"/// tab | macOS\n"
-"\n"
-"{% endif %}"
-msgstr ""
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"#### Coverage report for host platform\n"
-"\n"
-"If all supported versions of Python are available to `tox`, then coverage for the host platform can be reported by running:\n"
-"\n"
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"/// tab | macOS\n"
-"{% endif %}"
+msgid "Running tests {% if not config.extra.hide_coverage %}and coverage{% endif %} { #run-test-suite }"
+msgstr "테스트 실행 {% if not config.extra.hide_coverage %} 및 커버리지 {% endif %} { #run-test-suite }"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:75
-msgid "(.venv) $ tox p -m test-platform"
-msgstr "(.venv) $ tox p -m test-platform"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:83
-msgid "(.venv) C:\\...>tox p -m test-platform"
-msgstr "(.venv) C:\\...>tox p -m test-platform"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:84
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:21
 #, fuzzy
-msgid ""
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"#### Coverage reporting in HTML\n"
-"\n"
-"A HTML coverage report can be generated by appending `-html` to any of the coverage `tox` environment names, for instance:\n"
-"\n"
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"/// tab | macOS\n"
-"\n"
-"{% endif %}"
-msgstr ""
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"#### Coverage reporting in HTML\n"
-"\n"
-"A HTML coverage report can be generated by appending `-html` to any of the coverage `tox` environment names, for instance:\n"
-"\n"
-"{% if not config.extra.macos_only %}\n"
-"\n"
-"/// tab | macOS\n"
-"{% endif %}"
+msgid "{{ formal_name }} uses [`tox`]{1} to manage the testing process and [`pytest`]{2} for its own test suite."
+msgstr "{{ formal_name }}는 테스트 프로세스를 관리하기 위해 [`tox`]{1}를 사용하고, 자체 테스트 스위트에는 [`pytest`]{2}를 사용합니다."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:101 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:111
-msgid "(.venv) $ tox -e coverage-platform-html"
-msgstr "(.venv) $ tox -e coverage-platform-html"
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:23
+#, fuzzy
+msgid "The default `tox` command includes running:"
+msgstr "기본 `tox` 명령어에는 다음 작업이 포함됩니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:119
-msgid "(.venv) C:\\...>tox -e coverage-platform-html"
-msgstr "(.venv) C:\\...>tox -e coverage-platform-html"
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:25
+#, fuzzy
+msgid "pre-commit hooks"
+msgstr "커밋 전 훅"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:120
-msgid ""
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"{% block testing_additional %}\n"
-"{% endblock %}\n"
-"\n"
-"### It's not just about writing tests!\n"
-"\n"
-"Although we ensure that we test all of our code, the task isn't *just* about maintaining that level of testing. Part of the task is to audit the code as you go. You could write a comprehensive set of tests for a concrete life jacket... but a concrete life jacket would still be useless for the purpose it was intended!\n"
-"\n"
-"As you develop tests, you should be checking that the core module is internally **consistent** as well. If you notice any method names that aren't internally consistent (e.g., something called `on_select` in one module, but called `on_selected` in another), or where the data isn't being handled consistently, flag it and bring it to our attention by raising a ticket. Or, if you're confident that you know what needs to be done, create a pull request that fixes the problem you've found.\n"
-"\n"
-"{% block end_matter %}\n"
-"{% endblock %}"
-msgstr ""
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"{% block testing_additional %}\n"
-"{% endblock %}\n"
-"\n"
-"### It's not just about writing tests!\n"
-"\n"
-"Although we ensure that we test all of our code, the task isn't *just* about maintaining that level of testing. Part of the task is to audit the code as you go. You could write a comprehensive set of tests for a concrete life jacket... but a concrete life jacket would still be useless for the purpose it was intended!\n"
-"\n"
-"As you develop tests, you should be checking that the core module is internally **consistent** as well. If you notice any method names that aren't internally consistent (e.g., something called `on_select` in one module, but called `on_selected` in another), or where the data isn't being handled consistently, flag it and bring it to our attention by raising a ticket. Or, if you're confident that you know what needs to be done, create a pull request that fixes the problem you've found.\n"
-"\n"
-"{% block end_matter %}\n"
-"{% endblock %}"
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:26
+#, fuzzy
+msgid "`towncrier` release note check"
+msgstr "`towncrier` 릴리스 노트 확인"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:27
+#, fuzzy
+msgid "documentation linting"
+msgstr "문서 코드 검사"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:29
+msgid "{% block testing_tox_command %}"
+msgstr "{% block testing_tox_command %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:31
+#, fuzzy
+msgid "test suite for available Python versions"
+msgstr "사용 가능한 Python 버전을 위한 테스트 모음"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:33 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:79 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:169 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:213
+msgid "{% if not config.extra.hide_coverage %}"
+msgstr "{% if not config.extra.hide_coverage %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:35
+#, fuzzy
+msgid "code coverage reporting"
+msgstr "코드 커버리지 보고"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:41
+#, fuzzy
+msgid "This is essentially what is run by CI when you submit a pull request."
+msgstr "이것이 바로 풀 리퀘스트를 제출할 때 CI에서 실행되는 작업의 핵심입니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:43
+#, fuzzy
+msgid "To run the full test suite, run:"
+msgstr "전체 테스트 모음을 실행하려면 다음 명령을 실행하십시오:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:77
+#, fuzzy
+msgid "The full test suite can take a while to run. You can speed it up considerably by running `tox` in parallel, by running `tox p` (or `tox run-parallel`). When you run the test suite in parallel, you'll get less feedback on the progress of the test suite as it runs, but you'll still get a summary of any problems found at the end of the test run. You should get some output indicating that tests have been run. You may see `SKIPPED` tests, but shouldn't ever get any `FAIL` or `ERROR` test results. We run our full test suite before merging every patch. If that process discovers any problems, we don't merge the patch. If you do find a test error or failure, either there's something odd in your test environment, or you've found an edge case that we haven't seen before - either way, let us know!"
+msgstr "전체 테스트 스위트를 실행하는 데는 시간이 다소 걸릴 수 있습니다. `tox`을 병렬로 실행하거나 `tox p` (또는 `tox run-parallel`)을 실행하면 속도를 상당히 높일 수 있습니다. 테스트 스위트를 병렬로 실행하면 진행 상황에 대한 피드백은 줄어들지만, 테스트 실행이 끝난 후에는 발견된 문제에 대한 요약 정보를 여전히 확인할 수 있습니다. 테스트가 실행되었음을 나타내는 출력 결과가 표시되어야 합니다. `SKIPPED` 테스트가 표시될 수는 있지만, `FAIL` 또는 `ERROR` 테스트 결과는 절대 나타나지 않아야 합니다. 우리는 모든 패치를 병합하기 전에 전체 테스트 스위트를 실행합니다. 이 과정에서 문제가 발견되면 해당 패치는 병합하지 않습니다. 만약 테스트 오류나 실패를 발견했다면, 테스트 환경에 문제가 있거나 우리가 이전에 보지 못했던 극단적인 사례를 발견한 것입니다. 어느 쪽이든 저희에게 알려주세요!"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:81
+#, fuzzy
+msgid "In addition to the tests passing, this should report [100% test coverage][code-coverage]."
+msgstr "테스트가 통과되는 것 외에도, [100% 테스트 커버리지][code-coverage]가 보고되어야 합니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:85
+#, fuzzy
+msgid "{% block testing_running_additional %} {% endblock %}"
+msgstr "{% block testing_running_additional %} {% endblock %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:88
+#, fuzzy
+msgid "Running test variations"
+msgstr "테스트 변형 실행"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:90
+#, fuzzy
+msgid "Run tests for multiple versions of Python"
+msgstr "여러 버전의 파이썬에 대해 테스트 실행하기"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:92
+#, fuzzy
+msgid "By default, many of the `tox` commands will attempt to run the test suite multiple times, once for each Python version supported by {{ formal_name }}. To do this, though, each of the Python versions must be installed on your machine and available to `tox`'s Python [discovery]{1} process. In general, if a version of Python is available via `PATH`, then `tox` should be able to find and use it."
+msgstr "기본적으로 많은 `tox` 명령어는 {{ formal_name }}가 지원하는 각 Python 버전에 대해 한 번씩, 총 여러 번 테스트 스위트를 실행하려고 시도합니다. 하지만 이를 위해서는 각 Python 버전이 사용자의 컴퓨터에 설치되어 있어야 하며, `tox`의 Python [탐색]{1} 프로세스에서 이를 감지할 수 있어야 합니다. 일반적으로, 특정 Python 버전이 `PATH`를 통해 사용 가능한 경우, `tox`는 이를 찾아서 사용할 수 있어야 합니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:94
+#, fuzzy
+msgid "Run only the test suite"
+msgstr "테스트 스위트만 실행"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:96
+#, fuzzy
+msgid "If you're rapidly iterating on a new feature, you don't need to run the full test suite; you can run *only* the unit tests. To do this, run:"
+msgstr "새로운 기능을 빠르게 반복 개발하고 있다면 전체 테스트 스위트를 실행할 필요는 없으며, *단순히* 단위 테스트만 실행하면 됩니다. 이를 위해 다음 명령어를 실행하세요:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:130
+#, fuzzy
+msgid "Run a subset of tests { #test-subset }"
+msgstr "테스트의 일부만 실행하기 { #test-subset }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:132
+#, fuzzy
+msgid "By default, `tox` will run all tests in the unit test suite. When you're developing your new test, it may be helpful to run *just* that one test. To do this, you can pass in [any `pytest` specifier]{1} as an argument to `tox`. These test paths are relative to the `briefcase` directory. For example, to run only the tests in a single file, run:"
+msgstr "기본적으로 `tox`는 단위 테스트 모음에 포함된 모든 테스트를 실행합니다. 새로운 테스트를 개발할 때는 해당 테스트 *하나만* 실행하는 것이 유용할 수 있습니다. 이를 위해 `pytest`에 [임의의 {1} 지정자]`tox`를 인수로 전달할 수 있습니다. 이러한 테스트 경로는 `briefcase` 디렉터리를 기준으로 합니다. 예를 들어, 단일 파일에 포함된 테스트만 실행하려면 다음 명령을 실행하세요:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:166
+#, fuzzy
+msgid "{% block testing_subset_additional %} {% endblock %}"
+msgstr "{% block testing_subset_additional %} {% endblock %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:171
+#, fuzzy
+msgid "You'll still get a coverage report when running a part of the test suite - but the coverage results will only report the lines of code that were executed by the specific tests you ran."
+msgstr "테스트 스위트의 일부만 실행하더라도 커버리지 보고서는 여전히 생성되지만, 커버리지 결과에는 실행한 특정 테스트에서 실제로 실행된 코드 줄만 표시됩니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:175
+#, fuzzy
+msgid "Run the test suite for a specific Python version { #test-py-version }"
+msgstr "특정 Python 버전에 대한 테스트 모음을 실행합니다 { #test-py-version }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:177
+#, fuzzy
+msgid "By default `tox -e py` will run using whatever interpreter resolves as `python` on your machine. If you have multiple Python versions installed, and want to test a specific Python version from the versions you have installed, you can specify a specific Python version to use. For example, to run the test suite on Python {{ min_python_version }}, run:"
+msgstr "기본적으로 `tox -e py`는 사용자의 컴퓨터에서 `python`로 해석되는 인터프리터를 사용하여 실행됩니다. 여러 버전의 파이썬이 설치되어 있고, 설치된 버전 중 특정 버전을 사용하여 테스트를 실행하려면 사용할 파이썬 버전을 명시적으로 지정할 수 있습니다. 예를 들어, 파이썬 {{ min_python_version }}에서 테스트 모음을 실행하려면 다음 명령을 실행하십시오:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:211
+#, fuzzy
+msgid "A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line."
+msgstr "명령줄에 `--`와 테스트 사양을 추가하면 [테스트 집합][test-subset]을 실행할 수 있습니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:215
+#, fuzzy
+msgid "Run the test suite without coverage (fast)"
+msgstr "커버리지 분석 없이 테스트 스위트 실행 (빠름)"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:217
+#, fuzzy
+msgid "By default, `tox` will run the pytest suite in single threaded mode. You can speed up the execution of the test suite by running the test suite in parallel. This mode does not produce coverage files due to complexities in capturing coverage within spawned processes. To run a single python version in \"fast\" mode, run:"
+msgstr "기본적으로 `tox`는 단일 스레드 모드에서 pytest 테스트 스위트를 실행합니다. 테스트 스위트를 병렬로 실행하면 실행 속도를 높일 수 있습니다. 이 모드는 생성된 프로세스 내에서 커버리지를 캡처하는 것이 복잡하기 때문에 커버리지 파일을 생성하지 않습니다. 단일 Python 버전을 \"fast\" 모드로 실행하려면 다음 명령을 실행하십시오:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:251
+#, fuzzy
+msgid "A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line; a [specific Python version][test-py-version] can be used by adding the version to the test target (e.g., `py{{ min_python_version_tag }}-fast` to run fast on Python {{ min_python_version }})."
+msgstr "명령줄에 `--`와 테스트 사양을 추가하면 [테스트의 일부][test-subset]를 실행할 수 있으며, 테스트 대상에 버전을 추가하면 [특정 Python 버전][test-py-version]을 사용할 수 있습니다(예: Python `py{{ min_python_version_tag }}-fast`에서 fast를 실행하려면 {{ min_python_version }}를 추가)."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:253
+#, fuzzy
+msgid "Code coverage { #code-coverage }"
+msgstr "코드 커버리지 { #code-coverage }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:255
+#, fuzzy
+msgid "{{ formal_name }} maintains 100% branch coverage in its codebase. When you add or modify code in the project, you must add test code to ensure coverage of any changes you make."
+msgstr "{{ formal_name }}는 코드베이스에서 100%의 브랜치 커버리지를 유지하고 있습니다. 프로젝트에서 코드를 추가하거나 수정할 때는, 변경 사항이 모두 테스트를 통과하도록 테스트 코드를 반드시 추가해야 합니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:257
+#, fuzzy
+msgid "However, {{ formal_name }} targets multiple platforms, as well as multiple versions of Python, so full coverage cannot be verified on a single platform and Python version. To accommodate this, several conditional coverage rules are defined in the `tool.coverage.coverage_conditional_plugin.rules` section of `pyproject.toml` (e.g., `no-cover-if-is-windows` can be used to flag a block of code that won't be executed when running the test suite on Windows). These rules are used to identify sections of code that are only covered on particular platforms or Python versions."
+msgstr "그러나 {{ formal_name }}는 여러 플랫폼과 다양한 Python 버전을 대상으로 하므로, 단일 플랫폼 및 Python 버전에서만으로는 전체 커버리지를 검증할 수 없습니다. 이를 해결하기 위해 `tool.coverage.coverage_conditional_plugin.rules`의 `pyproject.toml` 섹션에는 여러 조건부 커버리지 규칙이 정의되어 있습니다(예: `no-cover-if-is-windows`는 Windows에서 테스트 스위트를 실행할 때 실행되지 않는 코드 블록을 표시하는 데 사용할 수 있습니다). 이러한 규칙은 특정 플랫폼이나 Python 버전에서만 커버되는 코드 섹션을 식별하는 데 사용됩니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:259
+#, fuzzy
+msgid "Of note, coverage reporting across Python versions can be a bit quirky. For instance, if coverage files are produced using one version of Python but coverage reporting is done on another, the report may include false positives for missed branches. Because of this, coverage reporting should always use the oldest version Python used to produce the coverage files."
+msgstr "특히, 서로 다른 Python 버전을 사용해 커버리지 보고서를 작성할 경우 다소 예기치 않은 결과가 발생할 수 있습니다. 예를 들어, 커버리지 파일을 생성할 때는 특정 버전의 Python을 사용했으나 보고서를 생성할 때는 다른 버전을 사용한 경우, 보고서에 누락된 분기에 대한 오탐이 포함될 수 있습니다. 따라서 커버리지 보고서를 작성할 때는 항상 커버리지 파일을 생성하는 데 사용된 Python 버전 중 가장 오래된 버전을 사용해야 합니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:261
+#, fuzzy
+msgid "Understanding coverage results"
+msgstr "보장 범위 결과 이해하기"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:263
+#, fuzzy
+msgid "At the end of the coverage test output there should be a report of the coverage data that was gathered:"
+msgstr "커버리지 테스트 출력물의 마지막 부분에는 수집된 커버리지 데이터에 대한 보고서가 나와야 합니다:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:273
+#, fuzzy
+msgid "This tells us that the test suite has executed every possible branching path in the code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase."
+msgstr "이는 테스트 스위트가 코드 내의 모든 가능한 분기 경로를 실행했음을 의미합니다. 이것이 버그가 전혀 없다는 것을 100% 보장하는 것은 아니지만, 코드베이스의 모든 코드 줄을 실제로 테스트하고 있다는 뜻입니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:275
+#, fuzzy
+msgid "If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `some/interesting_file.py`, adding some new logic. The coverage report might look something like:"
+msgstr "코드베이스에 변경 사항을 적용하면 커버리지에 공백이 생길 수 있습니다. 이런 경우 커버리지 보고서를 통해 어떤 줄이 실행되지 않는지 확인할 수 있습니다. 예를 들어, `some/interesting_file.py`에 새로운 로직을 추가하는 변경을 가했다고 가정해 봅시다. 커버리지 보고서는 다음과 같이 표시될 수 있습니다:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:287
+#, fuzzy
+msgid "This tells us that line 170, lines 302-307, and a branch jumping from line 320 to line 335, are not being executed by the test suite. You'll need to add new tests (or modify an existing test) to restore this coverage."
+msgstr "이는 170행, 302~307행, 그리고 320행에서 335행으로 이동하는 분기문이 테스트 스위트에 의해 실행되지 않고 있음을 의미합니다. 이 커버리지를 복원하려면 새로운 테스트를 추가하거나 기존 테스트를 수정해야 합니다."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:289
+#, fuzzy
+msgid "Coverage report for host platform and Python version"
+msgstr "호스트 플랫폼 및 Python 버전에 대한 지원 현황 보고서"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:291
+#, fuzzy
+msgid "You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python {{ min_python_version }}, run:"
+msgstr "사용 중인 플랫폼과 Python 버전에 대한 커버리지 보고서를 생성할 수 있습니다. 예를 들어, 테스트 스위트를 실행하고 Python {{ min_python_version }}에 대한 커버리지 보고서를 생성하려면 다음 명령을 실행하세요:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:325
+#, fuzzy
+msgid "Coverage report for host platform"
+msgstr "호스트 플랫폼에 대한 커버리지 보고서"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:327
+#, fuzzy
+msgid "If all supported versions of Python are available to `tox`, then coverage for the host platform can be reported by running:"
+msgstr "`tox`에서 지원되는 모든 Python 버전을 사용할 수 있다면, 다음 명령을 실행하여 호스트 플랫폼에 대한 커버리지 결과를 확인할 수 있습니다:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:361
+#, fuzzy
+msgid "Coverage reporting in HTML"
+msgstr "HTML 형식의 보도 내용"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:363
+#, fuzzy
+msgid "A HTML coverage report can be generated by appending `-html` to any of the coverage `tox` environment names, for instance:"
+msgstr "커버리지 `-html` 환경 이름 뒤에 `tox`를 추가하면 HTML 커버리지 보고서를 생성할 수 있습니다. 예를 들어:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:399
+#, fuzzy
+msgid "{% block testing_additional %} {% endblock %}"
+msgstr "{% block testing_additional %} {% endblock %}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:402
+#, fuzzy
+msgid "It's not just about writing tests!"
+msgstr "단순히 테스트를 작성하는 것만이 전부가 아닙니다!"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:404
+#, fuzzy
+msgid "Although we ensure that we test all of our code, the task isn't *just* about maintaining that level of testing. Part of the task is to audit the code as you go. You could write a comprehensive set of tests for a concrete life jacket... but a concrete life jacket would still be useless for the purpose it was intended!"
+msgstr "비록 우리가 모든 코드를 철저히 테스트하고는 있지만, 이 작업은 *단순히* 그 수준의 테스트를 유지하는 데 그치는 것이 아닙니다. 작업의 일부는 개발 과정에서 코드를 지속적으로 점검하는 것입니다. 콘크리트 구명조끼를 위한 포괄적인 테스트 세트를 작성할 수는 있겠지만… 그런 구명조끼는 본래의 용도에는 여전히 쓸모가 없을 테니까요!"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:406
+#, fuzzy
+msgid "As you develop tests, you should be checking that the core module is internally **consistent** as well. If you notice any method names that aren't internally consistent (e.g., something called `on_select` in one module, but called `on_selected` in another), or where the data isn't being handled consistently, flag it and bring it to our attention by raising a ticket. Or, if you're confident that you know what needs to be done, create a pull request that fixes the problem you've found."
+msgstr "테스트를 개발할 때는 핵심 모듈이 내부적으로도 **일관성**을 유지하는지 확인해야 합니다. 내부적으로 일관성이 없는 메서드 이름(예: 한 모듈에서는 `on_select`이라고 불리지만 다른 모듈에서는 `on_selected`이라고 불리는 경우)이나 데이터가 일관성 없이 처리되는 부분을 발견하면, 이를 표시해 두고 티켓을 생성하여 저희에게 알려주십시오. 또는 해결 방법을 확실히 알고 있다면, 발견한 문제를 수정하는 풀 리퀘스트를 생성해 주십시오."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:2
 msgid "These are the steps to follow to write your documentation contribution to {{ formal_name }}."
@@ -2181,20 +1807,10 @@ msgstr "문서는 `docs/en` 디렉토리 내 적절한 위치에 생성해야 �
 msgid "Then, you'll need to update the `docs/en/SUMMARY.md` file to include your new file. `SUMMARY.md` is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. If you locate the section where you intend to include `new_doc.md`, you do not need to change anything in `SUMMARY.md` if you see a wildcard path listed. For example:"
 msgstr "그런 다음, 새 파일을 포함하도록 `docs/en/SUMMARY.md` 파일을 업데이트해야 합니다. `SUMMARY.md`는 기본적으로 `docs/en` 디렉터리 구조를 반영하도록 구성되어 있지만, 더 중요한 것은 왼쪽 사이드바의 구조를 직접 결정한다는 점입니다. `new_doc.md`를 포함하려는 섹션을 찾았을 때, 와일드카드 경로가 나열되어 있다면 `SUMMARY.md`에서 아무것도 변경할 필요가 없습니다. 예를 들어:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:19
-#, fuzzy
-msgid "- ./path/to/directory/*"
-msgstr "- ./디렉터리 경로/*"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:23
 #, fuzzy
 msgid "If the section where you intend to include `new_doc.md` is a list of individual Markdown links, you'll need to add an explicit link to yours. For example:"
 msgstr "`new_doc.md`를 포함하려는 섹션이 개별 마크다운 링크 목록인 경우, 해당 링크를 명시적으로 추가해야 합니다. 예를 들어:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:25
-#, fuzzy
-msgid "- [My new document](new_doc.md)"
-msgstr "- [새 문서](new_doc.md)"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:29
 #, fuzzy
@@ -2790,36 +2406,10 @@ msgstr "긴 함수 호출 분할하기 { #split-long-function-calls }"
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "인수가 두 개 이상인 함수 호출이 한 줄에 다 들어가지 않을 경우, 각 인수를 별도의 줄에 배치하고 마지막 인수의 뒤에는 쉼표를 붙이십시오. Ruff는 여러 인수를 한 줄에 줄바꿈하여 배치하는 형식을 허용하며(그리고 이를 권장합니다):"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:22
-#, fuzzy
-msgid ""
-"my_function(\n"
-"    arg1, arg2, arg3\n"
-")"
-msgstr ""
-"my_function(\n"
-"    arg1, arg2, arg3\n"
-")"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "이 방식은 사용하지 마십시오. 대신, 마지막 인자에 쉼표를 추가하여 인자들을 한 줄에 하나씩 나열하십시오:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:30
-#, fuzzy
-msgid ""
-"my_function(\n"
-"    arg1,\n"
-"    arg2,\n"
-"    arg3,\n"
-")"
-msgstr ""
-"my_function(\n"
-"    arg1,\n"
-"    arg2,\n"
-"    arg3,\n"
-")"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
 #, fuzzy
@@ -2831,43 +2421,10 @@ msgstr "긴 문자열 분할 { #split-long-strings }"
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "문자열 인수를 줄 길이 제한을 충족하기 위해 여러 줄로 나누어야 할 경우, 연결된 문자열 리터럴을 괄호로 묶어 해당 문자열이 단일 인수임을 명확히 표시해야 합니다. 즉, 다음과 같은 형식을 권장합니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:42
-#, fuzzy
-msgid ""
-"my_function(\n"
-"    (\n"
-"        \"this is a very long string \"\n"
-"        \"that is wrapped over two lines\"\n"
-"    ),\n"
-"    second_argument,\n"
-")"
-msgstr ""
-"my_function(\n"
-"    (\n"
-" \"이것은 두 줄에 걸쳐 있는\"\n"
-" \"매우 긴 문자열입니다\"\n"
-"    ),\n"
-"    second_argument,\n"
-")"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
 #, fuzzy
 msgid "over:"
 msgstr "번역:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:54
-#, fuzzy
-msgid ""
-"my_function(\n"
-"    \"this is a very long string \"\n"
-"    \"that is wrapped over two lines\",\n"
-"    second_argument,\n"
-")"
-msgstr ""
-"my_function(\n"
-"    \"이것은 두 줄로 나뉘어 있는 매우 긴 문자열입니다\",\n"
-"    second_argument,\n"
-")"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
 #, fuzzy
@@ -2949,20 +2506,10 @@ msgstr "문서에서 가능한 경우 항상 내용을 상호 참조해야 합�
 msgid "MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
 msgstr "MkDocs는 표준 마크다운 형식의 링크를 렌더링합니다. 표준 마크다운 형식의 웹 하이퍼링크는 다음과 같습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:20
-#, fuzzy
-msgid "[Link text](https://example.com/)"
-msgstr "[링크 텍스트](https://example.com/)"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:24
 #, fuzzy
 msgid "You can also use this format to link to a local file:"
 msgstr "이 형식을 사용하여 로컬 파일에 링크할 수도 있습니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:26
-#, fuzzy
-msgid "[Link text](path/to/file.md)"
-msgstr "[링크 텍스트](path/to/file.md)"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:30
 #, fuzzy
@@ -2989,11 +2536,6 @@ msgstr "MkDocs는 수정된 마크다운 링크를 사용하여 문서 내 다�
 msgid "MkDocs reference links are any links formatted as follows:"
 msgstr "MkDocs 참조 링크는 다음과 같이 형식화된 모든 링크입니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:40
-#, fuzzy
-msgid "[Link text][link-target]"
-msgstr "[링크 텍스트][링크 대상]"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:44
 #, fuzzy
 msgid "/// warning | Custom header and content anchors are required"
@@ -3009,40 +2551,15 @@ msgstr "BeeWare 문서에서 MkDocs 참조 링크를 통해 텍스트 콘텐츠�
 msgid "If you need to link to a header anchor, you will need to generate a custom anchor for the intended content. The general syntax for setting a custom anchor is as follows:"
 msgstr "헤더 앵커로 연결해야 하는 경우, 해당 콘텐츠에 대한 사용자 지정 앵커를 생성해야 합니다. 사용자 지정 앵커를 설정하는 일반적인 구문은 다음과 같습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:52
-#, fuzzy
-msgid "# Header text { #anchor-name }"
-msgstr "# 헤더 텍스트 { #anchor-name }"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:56
 #, fuzzy
 msgid "For example, customizing the anchor for this section to `custom-anchors` would be done with the following formatting:"
 msgstr "예를 들어, 이 섹션의 앵커를 `custom-anchors`로 맞춤 설정하려면 다음과 같은 서식으로 처리합니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:58
-#, fuzzy
-msgid "## Custom Markdown anchors { #custom-anchors }"
-msgstr "## 사용자 정의 마크다운 앵커 { #custom-anchors }"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:62
 #, fuzzy
 msgid "You can also create an anchor on general content, including text and codeblocks. The following formatting, with newlines above and below, should be included above the content to which you wish to link:"
 msgstr "일반 콘텐츠(텍스트 및 코드 블록 포함)에도 앵커를 생성할 수 있습니다. 링크를 설정하려는 콘텐츠 상단에 다음 서식을 포함해야 합니다. 서식에는 상하에 줄바꿈이 포함되어야 합니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:64
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"[](){ #anchor-name }\n"
-"\n"
-"Content below, that is now attached to the anchor above."
-msgstr ""
-"위의 콘텐츠.\n"
-"\n"
-"[](){ #anchor-name }\n"
-"\n"
-"아래의 콘텐츠로, 이제 위의 앵커에 연결되어 있습니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:72
 #, fuzzy
@@ -3054,20 +2571,10 @@ msgstr "사용자 정의 앵커가 생성되면 동일한 문서 내에서 또�
 msgid "Standard Markdown is used to link to an anchor _in the same file_, which is formatted as follows:"
 msgstr "표준 마크다운은 동일한 파일 내의 앵커로 연결하는 데 사용되며, 다음과 같이 형식화됩니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:76
-#, fuzzy
-msgid "[Link text](#anchor-name)"
-msgstr "[링크 텍스트](#anchor-name)"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:80
 #, fuzzy
 msgid "Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:"
 msgstr "다른 문서의 앵커에 링크하는 것은 MkDocs 참조 링크 스타일을 사용하며, 다음과 같이 형식화됩니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:82
-#, fuzzy
-msgid "[Link text][anchor-name]"
-msgstr "[링크 텍스트][앵커 이름]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:86
 #, fuzzy
@@ -3089,90 +2596,45 @@ msgstr "문서화된 클래스나 클래스 메서드, 속성에 링크하는 �
 msgid "Linking to a class while displaying the namespace is formatted as follows:"
 msgstr "네임스페이스를 표시하면서 클래스에 링크하는 형식은 다음과 같습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:94
-#, fuzzy
-msgid "[`module.ClassName`][]"
-msgstr "[`module.ClassName`][]"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:98
 #, fuzzy
 msgid "Linking to a class while displaying only the class name is formatted as follows:"
 msgstr "클래스 이름만 표시하면서 클래스에 연결하는 형식은 다음과 같습니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:100
-#, fuzzy
-msgid "[`ClassName`][module.ClassName]"
-msgstr "[`ClassName`][module.ClassName]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:104
 #, fuzzy
 msgid "Attributes are the same as above, with the attribute name included. The following displays the namespace:"
 msgstr "속성은 위와 동일하며, 속성 이름이 포함됩니다. 다음은 네임스페이스를 표시합니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:106
-#, fuzzy
-msgid "[`module.ClassName.attributename`][]"
-msgstr "[`module.ClassName.attributename`][]"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:110
 #, fuzzy
 msgid "As with classes, displaying only the attribute name is formatted as follows:"
 msgstr "클래스와 마찬가지로 속성 이름만 표시하는 형식은 다음과 같습니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:112
-#, fuzzy
-msgid "[`attributename`][module.ClassName.attributename]"
-msgstr "[`attributename`][module.ClassName.attributename]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:116
 #, fuzzy
 msgid "Methods should be displayed with `()` after the namespace, and therefore must be handled differently than attributes. The following is the appropriate way to link to a method:"
 msgstr "메서드는 네임스페이스 뒤에 `()`로 표시되어야 하므로, 속성과는 다르게 처리해야 합니다. 메서드에 연결하는 적절한 방법은 다음과 같습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:118
-#, fuzzy
-msgid "[`module.ClassName.methodname()`][module.ClassName.methodname]"
-msgstr "[`module.ClassName.methodname()`][module.ClassName.methodname]"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:122
 #, fuzzy
 msgid "The following displays the class and method name only. This also requires including the parentheses after the name:"
 msgstr "다음은 클래스와 메서드 이름만 표시합니다. 또한 이름 뒤에 괄호를 포함해야 합니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:124
-#, fuzzy
-msgid "[`Classname.methodname()`][module.Classname.methodname]"
-msgstr "[`Classname.methodname()`][module.Classname.methodname]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:128
 #, fuzzy
 msgid "You can link to a class, method, or attribute while displaying arbitrary text, using the same method with the applicable namespace. Doing this with a class is formatted as follows:"
 msgstr "적용 가능한 네임스페이스와 동일한 메서드를 사용하여 임의의 텍스트를 표시하면서 클래스, 메서드 또는 속성에 링크할 수 있습니다. 클래스에 대해 이 작업을 수행하는 형식은 다음과 같습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:130
-#, fuzzy
-msgid "[link text][module.ClassName]"
-msgstr "[링크 텍스트][module.ClassName]"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:134
 #, fuzzy
 msgid "It is also possible to link directly to Python core documentation, as well as Pillow documentation. For example, to link to the documentation for `int`:"
 msgstr "파이썬 핵심 문서 및 Pillow 문서로도 직접 링크할 수 있습니다. 예를 들어, `int` 문서로 링크하려면:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:136
-#, fuzzy
-msgid "[`int`][]"
-msgstr "[`int`][]"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:140
 #, fuzzy
 msgid "To link to the Pillow `Image` documentation:"
 msgstr "Pillow `Image` 문서에 연결하려면:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:142
-#, fuzzy
-msgid "[`PIL.Image.Image`][]"
-msgstr "[`PIL.Image.Image`][]"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:146
 #, fuzzy
@@ -3199,17 +2661,6 @@ msgstr "콘솔 명령어와 복사 버튼"
 msgid "If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on whether you're describing a Unix-like (including macOS) operating system, or Windows. You can include the prompt provided by the operating system; only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:"
 msgstr "콘솔 명령어나 출력 명령어를 포함하는 경우, Unix 계열(macOS 포함) 운영체제를 설명하는지 Windows를 설명하는지에 따라 `console` 또는 `doscon`로 표시하십시오. 운영체제에서 제공하는 프롬프트를 포함할 수 있으며, 복사 버튼을 클릭하면 명령어만 복사됩니다. 예를 들어, 코드 블록을 ` ```console `로 시작하고 다음과 같은 내용을 포함하는 경우:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:156
-#, fuzzy
-msgid ""
-"$ mkdir test\n"
-"$ ls\n"
-"test"
-msgstr ""
-"$ mkdir test\n"
-"$ ls\n"
-"test"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:162
 #, fuzzy
 msgid "Then, clicking the copy button on the codeblock will copy only the commands, and ignore the prompts and the output. This allows you to indicate that they are console commands, while still allowing users to use the copy button effectively."
@@ -3224,15 +2675,6 @@ msgstr "특정 코드 줄 강조 표시"
 #, fuzzy
 msgid "You can highlight specific lines of code. For example, to highlight line 2, you would add a space after the language, followed by `{hl_lines=\"2\"}`. So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The result is:"
 msgstr "특정 코드 줄을 강조 표시할 수 있습니다. 예를 들어, 2번째 줄을 강조하려면 언어 뒤에 공백을 추가한 다음 `{hl_lines=\"2\"}`를 붙입니다. 따라서 코드 블록은 ` ```python {hl_lines=\"2\"} `로 시작하게 됩니다. 결과는 다음과 같습니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:168
-#, fuzzy
-msgid ""
-"import toga\n"
-"from toga.style.pack import COLUMN, ROW"
-msgstr ""
-"import toga\n"
-"from toga.style.pack import COLUMN, ROW"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:173
 #, fuzzy
@@ -3259,60 +2701,10 @@ msgstr "경고와 주의사항"
 msgid "Admonitions must be formatted as follows, including ensuring a newline before and after the admonition start and end:"
 msgstr "경고문은 다음과 같이 서식을 지정해야 하며, 경고문 시작과 끝 부분 앞뒤에 반드시 줄바꿈을 포함해야 합니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:183
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"/// admonition | Title\n"
-"\n"
-"Admonition text.\n"
-"\n"
-"A second paragraph.\n"
-"\n"
-"///\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"/// 주의사항 | 제목\n"
-"\n"
-"주의사항 본문.\n"
-"\n"
-"두 번째 단락.\n"
-"\n"
-"///\n"
-"\n"
-"아래의 내용."
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:197
 #, fuzzy
 msgid "This works the same way with any supported admonition type. For example, note admonitions require the same formatting and newlines:"
 msgstr "이것은 지원되는 모든 경고 유형에 동일하게 적용됩니다. 예를 들어, 노트 경고도 동일한 서식과 줄바꿈을 요구합니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:199
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"/// note | Note title\n"
-"\n"
-"Note text here.\n"
-"\n"
-"///\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"/// 메모 | 메모 제목\n"
-"\n"
-"메모 내용을 여기에 입력하세요.\n"
-"\n"
-"///\n"
-"\n"
-"아래의 내용."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:211
 #, fuzzy
@@ -3329,92 +2721,10 @@ msgstr "탭으로 구분된 콘텐츠"
 msgid "Tabbed content is formatted as follows, including a newline included before the start and after the end of the content block:"
 msgstr "탭으로 구분된 콘텐츠는 다음과 같이 서식이 지정되며, 콘텐츠 블록 시작 전과 종료 후에는 줄바꿈이 포함됩니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:217
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"/// tab | Tab one title\n"
-"\n"
-"Tab one text\n"
-"\n"
-"///\n"
-"\n"
-"/// tab | Tab two title\n"
-"\n"
-"Tab two text.\n"
-"\n"
-"///\n"
-"\n"
-"/// tab | Tab three title\n"
-"\n"
-"Tab three text.\n"
-"\n"
-"///\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"/// tab | 탭 1 제목\n"
-"\n"
-"탭 1 본문\n"
-"\n"
-"///\n"
-"\n"
-"/// tab | 탭 2 제목\n"
-"\n"
-"탭 2 본문.\n"
-"\n"
-"///\n"
-"\n"
-"/// tab | 탭 3 제목\n"
-"\n"
-"탭 3 본문.\n"
-"\n"
-"///\n"
-"\n"
-"아래의 내용."
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:241
 #, fuzzy
 msgid "A tab with a nested admonition would be formatted as follows, including a newline before and after the content block:"
 msgstr "중첩된 경고가 포함된 탭은 다음과 같이 서식이 지정되며, 콘텐츠 블록 앞뒤에 줄바꿈이 포함됩니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:243
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"/// tab | Windows\n"
-"\n"
-"Tab text.\n"
-"\n"
-"/// admonition | Admonition\n"
-"\n"
-"Admonition text.\n"
-"\n"
-"///\n"
-"\n"
-"///\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"/// tab | Windows\n"
-"\n"
-"탭 텍스트.\n"
-"\n"
-"/// 주의사항 | 주의사항\n"
-"\n"
-"주의사항 텍스트.\n"
-"\n"
-"///\n"
-"\n"
-"///\n"
-"\n"
-"아래의 내용."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:261
 #, fuzzy
@@ -3425,29 +2735,6 @@ msgstr "접힌 콘텐츠"
 #, fuzzy
 msgid "Collapsed content is formatted as follows, including newlines:"
 msgstr "접힌 콘텐츠는 다음과 같이 서식화되며, 줄바꿈을 포함합니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:265
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"/// details-note | Collapsed content title\n"
-"\n"
-"Collapsed content.\n"
-"\n"
-"///\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"/// details-note | 접힌 콘텐츠 제목\n"
-"\n"
-"접힌 콘텐츠.\n"
-"\n"
-"///\n"
-"\n"
-"아래의 내용."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:277
 #, fuzzy
@@ -3464,56 +2751,10 @@ msgstr "진자 지침"
 msgid "There are a few features of the documentation that use Jinja directives in the text. Anything using the Jinja directive features needs to be wrapped in newlines. For example, the BeeWare tutorial contains Jinja conditionals based on variables to determine what admonition to show on the main page. Those are formatted as follows:"
 msgstr "문서에는 텍스트 내에서 Jinja 지시어를 사용하는 몇 가지 기능이 있습니다. Jinja 지시어 기능을 사용하는 모든 내용은 줄바꿈으로 감싸야 합니다. 예를 들어, BeeWare 튜토리얼에는 메인 페이지에 표시할 경고를 결정하기 위해 변수를 기반으로 한 Jinja 조건문이 포함되어 있습니다. 해당 내용은 다음과 같이 형식화됩니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:283
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"{% if config.extra.translation_type == \"original\" %}\n"
-"\n"
-"/// admonition | Admonition title\n"
-"\n"
-"Text\n"
-"\n"
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"{% if config.extra.translation_type == \"original\" %}\n"
-"\n"
-"/// 권고 | 권고 제목\n"
-"\n"
-"본문\n"
-"\n"
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"아래의 내용."
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:299
 #, fuzzy
 msgid "There is also syntax for substituting symbols or text. This syntax is a variable wrapped in a pair of matching double curly braces, and, if on its own line, must include a newline before and after."
 msgstr "기호나 텍스트를 대체하는 구문도 존재합니다. 이 구문은 쌍으로 된 중괄호로 감싸진 변수이며, 단독 행에 있을 경우 앞뒤로 줄바꿈을 포함해야 합니다."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:301
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"{{ variable }}\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"{{ variable }}\n"
-"\n"
-"아래의 내용."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:309
 #, fuzzy
@@ -3530,80 +2771,20 @@ msgstr "이미지는 너비를 설정할 수 있으며, 왼쪽, 오른쪽, 중�
 msgid "Setting the width of {1}300px{2} on an image would be formatted as follows:"
 msgstr "이미지의 너비를 {1}300px{2}로 설정하는 형식은 다음과 같습니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:315
-#, fuzzy
-msgid "![Image alt text](../path/to/image.png){ width=\"300px\" }"
-msgstr "![이미지 대체 텍스트](../이미지 경로.png){ width=\"300px\" }"
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:319
 #, fuzzy
 msgid "Aligning an image left (or right) would be formatted as follows:"
 msgstr "이미지를 왼쪽(또는 오른쪽)에 정렬하는 형식은 다음과 같습니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:321
-#, fuzzy
-msgid "![Image alt text](../path/to/image.png){ align=left }"
-msgstr "![이미지 대체 텍스트](../이미지 경로.png){ align=left }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:325
 #, fuzzy
 msgid "Adding a caption to an image requires a newline before and after, and is formatted as follows:"
 msgstr "이미지에 캡션을 추가하려면 앞뒤에 줄바꿈이 필요하며, 다음과 같이 서식이 지정됩니다:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:327
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"![Image alt text](/path/to/image.png)\n"
-"\n"
-"/// caption\n"
-"\n"
-"Caption content.\n"
-"\n"
-"///\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"![이미지 대체 텍스트](/이미지 경로.png)\n"
-"\n"
-"/// 설명\n"
-"\n"
-"설명 내용.\n"
-"\n"
-"///\n"
-"\n"
-"아래의 내용."
-
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:341
 #, fuzzy
 msgid "Aligning an image center is not possible with the `align` attribute. The workaround is to follow the image with an empty caption, and it will be centered. You must include newlines between each section, and before and after. It is formatted as follows:"
 msgstr "`align` 속성으로는 이미지 중심 정렬이 불가능합니다. 해결 방법은 이미지 뒤에 빈 캡션을 추가하면 중앙 정렬됩니다. 각 섹션 사이와 앞뒤에 반드시 줄바꿈을 포함해야 합니다. 형식은 다음과 같습니다:"
-
-#: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:343
-#, fuzzy
-msgid ""
-"Content above.\n"
-"\n"
-"![Image alt text](../path/to/image.png)\n"
-"\n"
-"/// caption\n"
-"\n"
-"///\n"
-"\n"
-"Content below."
-msgstr ""
-"위의 내용.\n"
-"\n"
-"![이미지 대체 텍스트](../이미지 경로.png)\n"
-"\n"
-"/// 설명\n"
-"\n"
-"///\n"
-"\n"
-"아래의 내용."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:355
 #, fuzzy
