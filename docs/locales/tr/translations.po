@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 15:11+0800\n"
+"POT-Creation-Date: 2026-04-07 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.18.1\n"
+"X-Generator: Translate Toolkit 3.19.3\n"
 
 #: docs/en/SUMMARY.md:1
 #, fuzzy
@@ -682,6 +682,11 @@ msgstr "Bu, temanın istenmeyen değişikliklere neden olmadığını ve kopyala
 msgid "/// tab | macOS"
 msgstr "/// tab | macOS"
 
+#: docs/en/index.md:39 docs/en/index.md:47
+#, fuzzy
+msgid "$ git clone https://github.com/beeware/beeware-theme.git"
+msgstr "$ git clone https://github.com/beeware/beeware-theme.git"
+
 #: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59 docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
 msgid "///"
 msgstr "///"
@@ -694,6 +699,11 @@ msgstr "/// tab | Linux"
 msgid "/// tab | Windows"
 msgstr "/// tab | Windows"
 
+#: docs/en/index.md:55
+#, fuzzy
+msgid "C:\\...>git clone https://github.com/beeware/beeware-theme.git"
+msgstr "C:\\...>git clone https://github.com/beeware/beeware-theme.git"
+
 #: docs/en/index.md:61
 #, fuzzy
 msgid "Code copy button behavior"
@@ -704,10 +714,28 @@ msgstr "Kod kopyalama düğmesi davranışı"
 msgid "The copy button on the following codeblock should result in `from pathlib import Path` being copied to the clipboard."
 msgstr "Aşağıdaki kod bloğundaki kopyala düğmesi, `from pathlib import Path` 'nin panoya kopyalanmasını sağlamalıdır."
 
+#: docs/en/index.md:65
+#, fuzzy
+msgid "from pathlib import Path"
+msgstr "from pathlib import Path"
+
 #: docs/en/index.md:69
 #, fuzzy
 msgid "The copy button on the following codeblock should result in `ls beeware-docs-tools` being copied to the clipboard. The shell prompt and the output should not be included."
 msgstr "Aşağıdaki kod bloğundaki kopyala düğmesi, `ls beeware-docs-tools` 'nin panoya kopyalanmasını sağlamalıdır. Kabuk istemini ve çıktıyı dahil etmemelisiniz."
+
+#: docs/en/index.md:71
+#, fuzzy
+msgid ""
+"(venv) $ ls beeware-docs-tools\n"
+"_build\t\t\tlocales\t\t\trequirements.dev.txt\ttox.ini\n"
+"docs\t\t\tpyproject.toml\t\trequirements.docs.txt\n"
+"LICENSE\t\t\tREADME.md\t\tsrc"
+msgstr ""
+"(venv) $ ls beeware-docs-tools\n"
+"_build locales requirements.dev.txt  tox.ini\n"
+"docs pyproject.toml    requirements.docs.txt\n"
+"LICENSE README.md    src"
 
 #: docs/en/index.md:78
 #, fuzzy
