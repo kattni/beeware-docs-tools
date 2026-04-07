@@ -1,16 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 07:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.3\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-04-07 07:12+0000\nPO-Revision-Date: 2026-04-07 07:23+0000\nLast-Translator: Russell Keith-Magee <russell@keith-magee.com>\nLanguage-Team: German <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17-dev\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 #, fuzzy
@@ -2427,9 +2417,8 @@ msgid "Is {{ formal_name }} missing a feature that you'd like to see? You can [i
 msgstr "Fehlt {{ formal_name }} eine Funktion, die Sie gerne sehen würden? Sie können [eine neue Funktion einführen]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:23 src/beeware_docs_tools/shared_content/en/contribute/index.md:81
-#, fuzzy
 msgid "[Write documentation]{1}"
-msgstr "[Write documentation]{1}"
+msgstr "[Dokumentation schreiben]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:25
 #, fuzzy
@@ -3952,7 +3941,6 @@ msgid "{% include \"contribute/how/build-docs.md\" %}"
 msgstr "{% include \"contribute/how/build-docs.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:47 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:46
-#, fuzzy
 msgid "/// details-abstract | Write documentation"
 msgstr "/// details-abstract | Dokumentation schreiben"
 
