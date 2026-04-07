@@ -89,7 +89,7 @@ msgstr "[Implementierung einer neuen Funktion]{1}"
 #: docs/en/SUMMARY.md:7
 #, fuzzy
 msgid "[Write documentation]{1}"
-msgstr "[Write documentation]{1}"
+msgstr "[Dokumentation schreiben]{1}"
 
 #: docs/en/SUMMARY.md:7
 #, fuzzy
