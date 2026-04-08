@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 07:27+0000\n"
-"PO-Revision-Date: 2026-03-28 09:09+0000\n"
-"Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.3\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-04-07 07:27+0000\nPO-Revision-Date: 2026-04-09 01:53+0000\nLast-Translator: Francisco Serrador <fserrador@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17-dev\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -173,7 +161,6 @@ msgid "Once the server is started, you'll see something like the following in th
 msgstr "Una vez iniciado el servidor, verá algo como lo siguiente en la salida de la consola:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:60
-#, fuzzy
 msgid "INFO    -  [11:18:51] Serving on http://127.0.0.1:8000/"
 msgstr "INFO    -  [11:18:51] Servido en http://127.0.0.1:8000/"
 
@@ -236,9 +223,8 @@ msgid "To generate a build of all available translations:"
 msgstr "Para generar una compilación de todas las traducciones disponibles:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:128 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:138
-#, fuzzy
 msgid "(venv) $ tox -e docs-all"
-msgstr "(verbo) $ tox -e docs-all"
+msgstr "(venv) $ tox -e docs-all"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:146
 #, fuzzy
@@ -426,9 +412,8 @@ msgid "You can verify the version of Python that you have installed by running:"
 msgstr "Puedes verificar la versión de Python que tienes instalada ejecutando:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:17 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:38
-#, fuzzy
 msgid "$ python3 --version"
-msgstr "Python 3.8.10 (predeterminado, 20 de julio de 2020, 16:16:00)"
+msgstr "$ python3 --version"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:21 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:42
 msgid "If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)"
@@ -514,29 +499,22 @@ msgid "You'll also need tags from `upstream` so tools like Toga and Briefcase ca
 msgstr "También necesitarás etiquetas desde `upstream` tales que las herramientas como Toga y Briefcase puedan resolver números de versión precisos:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:136 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:147
-#, fuzzy
 msgid ""
 "$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
 "$ git fetch --tags upstream"
-msgstr ""
-"$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"$ git fetch --tags upstream"
+msgstr "$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n$ git fetch --tags upstream"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:156
-#, fuzzy
 msgid ""
 "C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
 "C:\\...>git fetch --tags upstream"
-msgstr ""
-"C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"C:\\...>git fetch --tags upstream"
+msgstr "C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\nC:\\...>git fetch --tags upstream"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:165
 msgid "If you want your fork to include those tags as well, you can push them:"
 msgstr "Si quieres que tu bifurcación también incluya esas etiquetas, puedes subirlas a:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:167
-#, fuzzy
 msgid "$ git push --tags"
 msgstr "$ git push --tags"
 
@@ -566,17 +544,12 @@ msgstr ""
 "(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:207
-#, fuzzy
 msgid ""
 "C:\\...>cd {{ project_name }}\n"
 "C:\\...>py -3 -m venv .venv\n"
 "C:\\...>.venv\\Scripts\\activate\n"
 "(.venv) $ python -m pip install -U pip"
-msgstr ""
-"C:\\...>cd {{ project_name }}\n"
-"C:\\...>py -3 -m venv .venv\n"
-"C:\\...>.venv\\Scripts\\activate\n"
-"(.venv) $ python -m pip install -U pip"
+msgstr "C:\\...>cd {{ project_name }}\nC:\\...>py -3 -m venv .venv\nC:\\...>.venv\\Scripts\\activate\n(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:218
 msgid "Your prompt should now have a `(.venv)` prefix in front of it."
