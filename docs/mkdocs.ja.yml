@@ -1,6 +1,6 @@
 INHERIT: config.yml
 site_name: BeeWare ドキュメントツール
-site_url: https://beeware-docs-tools.readthedocs.io/ja/
+site_url: !ENV READTHEDOCS_CANONICAL_URL
 docs_dir: ja
 
 theme:
