@@ -23,14 +23,7 @@
 {% extends "base.html" %}
 
 {% block styles %}
-    <link rel="stylesheet" href="https://beeware.org/assets/stylesheets/main.484c7ddc.min.css" />
-    {% if config.theme.palette %}
-        {% set palette = config.theme.palette %}
-            <link
-              rel="stylesheet"
-              href="https://beeware.org/assets/stylesheets/palette.ab4e12ef.min.css"
-            />
-    {% endif %}
+    {{ super() }}
     <link rel="stylesheet" type="text/css" href="https://beeware.org/assets/stylesheets/beeware_theme.css">
 {% endblock %}
 
