@@ -1,5 +1,6 @@
 INHERIT: config.yml
 site_name: ابزارهای اسناد BeeWare
+site_url: !ENV READTHEDOCS_CANONICAL_URL
 docs_dir: fa
 
 theme:

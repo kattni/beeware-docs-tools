@@ -1,5 +1,3 @@
-site_url: !ENV READTHEDOCS_CANONICAL_URL
-
 copyright: © Russell Keith-Magee
 
 not_in_nav: |

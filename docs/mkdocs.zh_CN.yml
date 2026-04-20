@@ -1,5 +1,6 @@
 INHERIT: config.yml
 site_name: BeeWare 文档工具
+site_url: !ENV READTHEDOCS_CANONICAL_URL
 docs_dir: zh_CN
 
 theme:
