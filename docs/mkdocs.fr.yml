@@ -1,6 +1,5 @@
 INHERIT: config.yml
 site_name: BeeWare Outils Docs
-site_url: !ENV READTHEDOCS_CANONICAL_URL
 docs_dir: fr
 
 theme:

@@ -1,6 +1,5 @@
 INHERIT: config.yml
 site_name: BeeWare Docs Tools
-site_url: https://beeware-docs-tools.readthedocs.io/ko/
 docs_dir: ko
 
 theme:
