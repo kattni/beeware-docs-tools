@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 02:00+0000\n"
+"POT-Creation-Date: 2026-04-24 04:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr "{% if not config.extra.macos_only %}"
 msgid "/// tab | macOS"
 msgstr "/// tab | macOS"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:15 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:41 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:28 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:112 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:188 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:202 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:122 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:163 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:181 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:216 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:266 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:90 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:166 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:37 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:75 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:83 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:102 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:128 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:138 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:164 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:173 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:183 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:209 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:223 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:249 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:297 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:323 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:333 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:359 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:369 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:395 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:397 src/beeware_docs_tools/shared_content/en/contribute/index.md:11 src/beeware_docs_tools/shared_content/en/contribute/index.md:45 src/beeware_docs_tools/shared_content/en/contribute/index.md:103 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:12
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:15 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:41 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:28 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:112 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:188 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:202 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:9 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:84 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:122 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:163 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:181 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:216 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:228 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:266 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:82 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:90 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:166 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:37 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:75 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:83 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:102 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:128 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:138 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:164 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:173 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:183 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:209 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:223 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:249 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:297 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:323 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:333 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:359 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:369 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:395 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:397 src/beeware_docs_tools/shared_content/en/contribute/index.md:11 src/beeware_docs_tools/shared_content/en/contribute/index.md:51 src/beeware_docs_tools/shared_content/en/contribute/index.md:109 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:12
 msgid "{% endif %}"
 msgstr "{% endif %}"
 
@@ -113,7 +113,7 @@ msgstr "{% endif %}"
 msgid "(.venv) $ git switch -c fix-win11-build"
 msgstr "(.venv) $ git switch -c fix-win11-build"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:20 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:44 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:52 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:142 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:170 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:178 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:186 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:218 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:68 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:96 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:120 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:143 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:161 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:203 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:214 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:240 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:252 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:264 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:285 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:294 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:303 src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:77 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:246 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:73 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:118 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:146 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:191 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:199 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:207 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:239 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:247 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:313 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:321 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:341 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:349 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:357 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:377 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:385 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:393 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:28 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:68 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:80 src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:48 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:17 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:23 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:29 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:37 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:45 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:51 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:59 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:65 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:20 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:26 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:32 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:38 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:44 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:50 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:56 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:62 src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:43 src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:13 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:60 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:66 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:72 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:78 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:96
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:20 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:44 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:52 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:142 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:170 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:178 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:186 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:218 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:49 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:68 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:96 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:120 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:143 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:152 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:161 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:192 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:203 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:214 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:240 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:252 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:264 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:285 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:294 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:303 src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:77 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:246 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:73 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:118 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:146 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:191 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:199 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:207 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:239 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:247 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:313 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:321 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:341 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:349 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:357 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:377 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:385 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:393 src/beeware_docs_tools/shared_content/en/contribute/index.md:17 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:28 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:68 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:80 src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:48 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:17 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:23 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:29 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:37 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:45 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:51 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:59 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:65 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:20 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:26 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:32 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:38 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:44 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:50 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:56 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:62 src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:43 src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:13 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:60 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:66 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:72 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:78 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:96
 msgid "///"
 msgstr "///"
 
@@ -254,7 +254,7 @@ msgstr "(venv) C:\\...>tox -e docs"
 msgid "The output of this build will be in the `_build` directory in the root of the project."
 msgstr "سيكون ناتج هذا البناء في دليل `_build` في جذر المشروع."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:114 src/beeware_docs_tools/shared_content/en/contribute/index.md:39 src/beeware_docs_tools/shared_content/en/contribute/index.md:97
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:114 src/beeware_docs_tools/shared_content/en/contribute/index.md:45 src/beeware_docs_tools/shared_content/en/contribute/index.md:103
 msgid "{% if config.extra.translated %}"
 msgstr "{% if config.extra.translated %}"
 
@@ -2405,260 +2405,285 @@ msgstr "هل هذه هي المرة الأولى التي تساهم فيها ف
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:13
 #, fuzzy
+msgid "/// note | Using AI and autonomous tools"
+msgstr "/// note | استخدام الذكاء الاصطناعي والأدوات ذاتية التشغيل"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:15
+#, fuzzy
+msgid "The BeeWare Project neither encourages nor prohibits the use of AI tools when making contributions. However, if you do use an AI tool we require that you declare what tools you have used. Our [AI Policy]{1} contains full details of your obligations."
+msgstr "لا يشجع مشروع BeeWare استخدام أدوات الذكاء الاصطناعي عند تقديم المساهمات، ولا يحظره. ومع ذلك، إذا استخدمت أداة ذكاء اصطناعي، فإننا نطلب منك الإفصاح عن الأدوات التي استخدمتها. وتحتوي [سياسة الذكاء الاصطناعي]{1} الخاصة بنا على التفاصيل الكاملة لالتزاماتك."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:19
+#, fuzzy
 msgid "What can I do? { #what-can-i-do }"
 msgstr "ماذا يمكنني أن أفعل؟ { #what-can-i-do }"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:15
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:21
 #, fuzzy
 msgid "[Fix an issue]{1}"
 msgstr "[إصلاح مشكلة]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:17
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:23
 #, fuzzy
 msgid "The most obvious contribution you can make is to [write code to fix a known issue]{1}."
 msgstr "أكثر مساهمة واضحة يمكنك تقديمها هي [كتابة كود لإصلاح مشكلة معروفة]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:19
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:25
 #, fuzzy
 msgid "[Implement a new feature]{1}"
 msgstr "[تنفيذ ميزة جديدة]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:21
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:27
 #, fuzzy
 msgid "Is {{ formal_name }} missing a feature that you'd like to see? You can [implement a new feature]{1}."
 msgstr "هل تفتقد {{ formal_name }} ميزة تود رؤيتها؟ يمكنك [تنفيذ ميزة جديدة]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:23 src/beeware_docs_tools/shared_content/en/contribute/index.md:81
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:29 src/beeware_docs_tools/shared_content/en/contribute/index.md:87
 #, fuzzy
 msgid "[Write documentation]{1}"
 msgstr "[كتابة الوثائق]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:25
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:31
 #, fuzzy
 msgid "No feature is complete until it's well documented. [Writing documentation]{1} is a way to contribute that doesn't involve writing code."
 msgstr "لا تكتمل أي ميزة حتى يتم توثيقها جيدًا. [كتابة الوثائق]{1} هي طريقة للمساهمة لا تتطلب كتابة كود."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:27
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:33
 #, fuzzy
 msgid "[Triage an issue]{1}"
 msgstr "[تصنيف مشكلة]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:29
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:35
 #, fuzzy
 msgid "Every time someone reports a new issue, that issue needs to be triaged. [Triaging an issue]{1} involves taking the information provided by the reporter, and trying to reproduce the problem they describe."
 msgstr "في كل مرة يبلغ فيها شخص ما عن مشكلة جديدة، يجب فرز هذه المشكلة. [فرز المشكلة]{1} يتضمن أخذ المعلومات التي قدمها المبلغ، ومحاولة إعادة إنتاج المشكلة التي وصفها."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:31
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:37
 #, fuzzy
 msgid "[Review a pull request]{1}"
 msgstr "[مراجعة طلب سحب]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:33
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:39
 #, fuzzy
 msgid "Once a pull request is submitted, it needs to be reviewed before it can be merged. Regardless of whether you are deeply familiar with the content, there is likely a way you can help with [reviewing a pull request]{1}."
 msgstr "بمجرد تقديم طلب السحب، يجب مراجعته قبل دمجه. بغض النظر عما إذا كنت على دراية تامة بالمحتوى، فمن المحتمل أن هناك طريقة يمكنك من خلالها المساعدة في [مراجعة طلب السحب]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:35
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:41
 #, fuzzy
 msgid "[Suggest a new feature]{1}"
 msgstr "[اقترح ميزة جديدة]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:37
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:43
 #, fuzzy
 msgid "Do you have a suggestion or idea for a new addition to one of the BeeWare tools? You can [propose a new feature]{1} for consideration."
 msgstr "هل لديك اقتراح أو فكرة لإضافة جديدة إلى إحدى أدوات BeeWare؟ يمكنك [اقتراح ميزة جديدة]{1} للنظر فيها."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:41 src/beeware_docs_tools/shared_content/en/contribute/index.md:99
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:47 src/beeware_docs_tools/shared_content/en/contribute/index.md:105
 #, fuzzy
 msgid "[Translate content]{1}"
 msgstr "[ترجمة المحتوى]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:43
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:49
 #, fuzzy
 msgid "BeeWare maintains various documentation in multiple languages. If you know a language other than English, you can help with [translating content]{1}."
 msgstr "تحتفظ BeeWare بوثائق متنوعة بعدة لغات. إذا كنت تعرف لغة أخرى غير الإنجليزية، يمكنك المساعدة في [ترجمة المحتوى]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:47
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:53
 #, fuzzy
 msgid "[Use the tools]{1}"
 msgstr "[استخدم الأدوات]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:49
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:55
 #, fuzzy
 msgid "Do you have an idea for an app built with Toga? Do you have an existing app that could be packaged with Briefcase? You can [use the tools]{1} and provide feedback on your experience."
 msgstr "هل لديك فكرة لتطبيق تم إنشاؤه باستخدام Toga؟ هل لديك تطبيق حالي يمكن تجميعه مع Briefcase؟ يمكنك [استخدام الأدوات]{1} وتقديم ملاحظاتك حول تجربتك."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:51
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:57
 #, fuzzy
 msgid "How do I contribute?"
 msgstr "كيف يمكنني المساهمة؟"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:53
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:59
 #, fuzzy
 msgid "[Set up a development environment]{1}"
 msgstr "[إعداد بيئة التطوير]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:55
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:61
 #, fuzzy
 msgid "Before you can begin contributing to BeeWare, you'll need to [set up your development environment]{1}."
 msgstr "قبل أن تبدأ المساهمة في BeeWare، ستحتاج إلى [إعداد بيئة التطوير الخاصة بك]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:57
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:63
 #, fuzzy
 msgid "[Reproduce an issue]{1}"
 msgstr "[إعادة إنتاج مشكلة]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:59
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:65
 #, fuzzy
 msgid "Before fixing an issue, you'll need to [verify it exists]{1}. Reproducing an issue is also an important part of triage."
 msgstr "قبل إصلاح مشكلة ما، ستحتاج إلى [التحقق من وجودها]{1}. إعادة إنتاج المشكلة هو أيضًا جزء مهم من عملية الفرز."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:61
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:67
 #, fuzzy
 msgid "[Work from a branch]{1}"
 msgstr "[العمل من فرع]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:63
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:69
 #, fuzzy
 msgid "When preparing to submit a contribution, always [work from a branch]{1}."
 msgstr "عند الاستعداد لتقديم مساهمة، اعمل دائمًا [من فرع]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:65
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:71
 #, fuzzy
 msgid "[Avoid scope creep]{1}"
 msgstr "[تجنب توسع نطاق العمل]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:67
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:73
 #, fuzzy
 msgid "It's important to maintain focus, and [avoid scope creep]{1} with your contribution."
 msgstr "من المهم الحفاظ على التركيز و[تجنب تجاوز النطاق]{1} في مساهمتك."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:69
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:75
 #, fuzzy
 msgid "[Propose a new feature]{1}"
 msgstr "[اقتراح ميزة جديدة]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:71
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:77
 #, fuzzy
 msgid "You'll follow these steps to [propose a new feature]{1}."
 msgstr "ستتبع هذه الخطوات لـ [اقتراح ميزة جديدة]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:73
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:79
 #, fuzzy
 msgid "[Write, run, and test code]{1}"
 msgstr "[كتابة وتشغيل واختبار الكود]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:75
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:81
 #, fuzzy
 msgid "To update or contribute code, you'll need to [write, run, and test your code]{1}."
 msgstr "لتحديث أو المساهمة في الكود، ستحتاج إلى [كتابة الكود وتشغيله واختباره]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:77
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:83
 #, fuzzy
 msgid "[Build documentation]{1}"
 msgstr "[بناء الوثائق]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:79
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:85
 #, fuzzy
 msgid "To update or contribute to documentation, you'll need to be able to [build the docs]{1}."
 msgstr "لتحديث الوثائق أو المساهمة فيها، يجب أن تكون قادرًا على [إنشاء الوثائق]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:83
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:89
 #, fuzzy
 msgid "To contribute documentation, you'll [write new content or update existing content]{1}."
 msgstr "للمساهمة في التوثيق، ستقوم [بكتابة محتوى جديد أو تحديث المحتوى الموجود]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:85
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:91
 #, fuzzy
 msgid "[Add a change note]{1}"
 msgstr "[أضف ملاحظة تغيير]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:87
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:93
 #, fuzzy
 msgid "Every pull request should be accompanied by a [change note]{1}."
 msgstr "يجب أن يكون كل طلب سحب مصحوبًا بـ [ملاحظة التغيير]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:89
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:95
 #, fuzzy
 msgid "[Submit a pull request]{1}"
 msgstr "[إرسال طلب سحب]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:91
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:97
 #, fuzzy
 msgid "Once your changes are ready, you'll [submit a pull request]{1} for review."
 msgstr "بمجرد أن تصبح التغييرات جاهزة، ستقوم [بإرسال طلب سحب]{1} للمراجعة."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:93
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:99
 #, fuzzy
 msgid "[Provide a review]{1}"
 msgstr "[قدم تقييمًا]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:95
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:101
 #, fuzzy
 msgid "If you're comfortable, you can [provide a review of someone else's contribution]{1}."
 msgstr "إذا كنت تشعر بالراحة، يمكنك [تقديم مراجعة لمساهمة شخص آخر]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:101
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:107
 #, fuzzy
 msgid "BeeWare uses Weblate for [translations]{1}, which requires a few steps to get started."
 msgstr "تستخدم BeeWare Weblate للترجمة، الأمر الذي يتطلب بضع خطوات للبدء."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:105
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:111
 #, fuzzy
 msgid "[Submit a new issue]{1}"
 msgstr "[إرسال مشكلة جديدة]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:107
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:113
 #, fuzzy
 msgid "If you run into a new problem or bug, it's helpful to [submit an issue]{1}."
 msgstr "إذا واجهت مشكلة أو خطأ جديدًا، فمن المفيد [إرسال مشكلة]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:109
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:115
 #, fuzzy
 msgid "What happens next?"
 msgstr "ماذا سيحدث بعد ذلك؟"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:111
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:117
 #, fuzzy
 msgid "[Pull request review]{1}"
 msgstr "[مراجعة طلب السحب]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:113
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:119
 #, fuzzy
 msgid "When a pull request is submitted, the next step is [the PR review]{1}."
 msgstr "عندما يتم تقديم طلب سحب، فإن الخطوة التالية هي [مراجعة طلب السحب]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:115
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:121
 #, fuzzy
 msgid "[The release process]{1}"
 msgstr "[عملية الإصدار]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:117
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:123
 #, fuzzy
 msgid "Merged contributions will go through [the release process]{1}."
 msgstr "ستخضع المساهمات المدمجة [لعملية الإصدار]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:119
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:125
+#, fuzzy
+msgid "Policies"
+msgstr "السياسات"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:127
+#, fuzzy
+msgid "[AI Policy]{1}"
+msgstr "[سياسة الذكاء الاصطناعي]{1}"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:129
+#, fuzzy
+msgid "BeeWare's policy on the usage of Generative AI, Large Language Models, and other autonomous tooling when contributing."
+msgstr "سياسة BeeWare بشأن استخدام الذكاء الاصطناعي التوليدي ونماذج اللغة الضخمة والأدوات المستقلة الأخرى عند المساهمة."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:131
 #, fuzzy
 msgid "Style Guides"
 msgstr "أدلة الأسلوب"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:121
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:133
 #, fuzzy
 msgid "[Code style guide]{1}"
 msgstr "[دليل أسلوب الكود]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:123
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:135
 #, fuzzy
 msgid "These are the guidelines for contributing code to BeeWare projects."
 msgstr "هذه هي الإرشادات الخاصة بالمساهمة بالكود في مشاريع BeeWare."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:125
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:137
 #, fuzzy
 msgid "[Documentation style guide]{1}"
 msgstr "[دليل أسلوب التوثيق]{1}"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/index.md:127
+#: src/beeware_docs_tools/shared_content/en/contribute/index.md:139
 #, fuzzy
 msgid "These are the guidelines for contributing documentation to BeeWare projects."
 msgstr "هذه هي الإرشادات الخاصة بالمساهمة في توثيق مشاريع BeeWare."
@@ -2907,6 +2932,16 @@ msgstr "{{ formal_name }} ليس لها وتيرة إصدار ثابتة. نحا
 #, fuzzy
 msgid "If you feel there is a particularly compelling reason your feature or bugfix should be released sooner, let us know! You can add a comment to the associated discussion thread or your merged pull request telling us why you believe your contribution should be released more quickly. We're open to the idea of prioritizing a release if there's a compelling use case in the community that requires that release."
 msgstr "إذا كنت تشعر أن هناك سببًا مقنعًا بشكل خاص لإصدار الميزة أو إصلاح الخلل في وقت أقرب، فأخبرنا بذلك! يمكنك إضافة تعليق إلى سلسلة المناقشة ذات الصلة أو طلب السحب المدمج الخاص بك لتخبرنا عن سبب اعتقادك بضرورة إصدار مساهمتك بسرعة أكبر. نحن منفتحون على فكرة إعطاء الأولوية لإصدار ما إذا كان هناك حالة استخدام مقنعة في المجتمع تتطلب هذا الإصدار."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/policies/ai-policy.md:1 src/beeware_docs_tools/shared_content/en/contribute/policies/ai-policy.md:5
+#, fuzzy
+msgid "-8<-"
+msgstr "-8<-"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/policies/ai-policy.md:3
+#, fuzzy
+msgid "https://raw.githubusercontent.com/beeware/.github/refs/heads/main/AI_POLICY.md"
+msgstr "https://raw.githubusercontent.com/beeware/.github/refs/heads/main/AI_POLICY.md"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:1
 #, fuzzy

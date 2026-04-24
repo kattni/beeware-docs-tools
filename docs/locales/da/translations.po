@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 02:00+0000\n"
+"POT-Creation-Date: 2026-04-24 04:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,6 +215,16 @@ msgstr "[Gennemgang af pull-anmodninger]{1}"
 #, fuzzy
 msgid "[Release process]{1}"
 msgstr "[Frigivelsesproces]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Policies"
+msgstr "Retningslinjer"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[AI Policy]{1}"
+msgstr "[AI-politik]{1}"
 
 #: docs/en/SUMMARY.md:7
 #, fuzzy
@@ -472,6 +482,10 @@ msgstr "Frigivelsesprocessen"
 #: docs/en/content_test_bed/how-to/contribute/next/release.md:3
 msgid "{% extends \"contribute/next/release.md\" %}"
 msgstr "{% extends \"contribute/next/release.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/policies/ai-policy.md:3
+msgid "{% extends \"contribute/policies/ai-policy.md\" %}"
+msgstr "{% extends \"contribute/policies/ai-policy.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:1
 #, fuzzy
