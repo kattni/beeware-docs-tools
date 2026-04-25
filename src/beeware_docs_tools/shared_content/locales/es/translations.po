@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-24 04:22+0000\n"
-"PO-Revision-Date: 2026-04-11 12:09+0000\n"
-"Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.4\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-04-24 04:22+0000\nPO-Revision-Date: 2026-04-26 19:09+0000\nLast-Translator: Francisco Serrador <fserrador@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17.1-dev\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -648,7 +636,7 @@ msgstr "Empezar con un debate"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:13
 msgid "Before submitting an issue on GitHub, consider starting with a discussion to ask whether what you're experiencing is a actually a bug, or an issue with your setup or process. Unless you're seeing behavior that is directly contradicting documented behavior, it's likely worth asking a question before going straight to submitting a bug report. If it turns out you *have* found an issue, a discussion topic can be easily turned into an issue."
-msgstr "Antes de enviar una incidencia a GitHub, considera la posibilidad de comenzar con una discusión para preguntar si lo que estás experimentando es realmente un error, o una incidencia con tu configuración o proceso. A menos que estés viendo un comportamiento que contradice directamente el comportamiento documentado, es probable que valga la pena hacer una pregunta antes de ir directamente a enviar un informe de error. Si resulta que *has* encontrado una incidencia, un tema de discusión puede convertirse fácilmente en un problema."
+msgstr "Antes de enviar una incidencia a GitHub, considera la posibilidad de comenzar con una discusión para preguntar si lo que estás experimentando es realmente un error, o una incidencia con tu configuración o proceso. A menos que estés viendo un comportamiento que contradice directamente el comportamiento documentado, es probable que valga la pena hacer una pregunta antes de ir directamente a enviar un informe de fallo. Si resulta que *has* encontrado una incidencia, un tema de discusión puede convertirse fácilmente en una incidencia."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:15
 msgid "Starting a discussion can also help ensure you're reporting an issue in the best place. Although you might have experienced a problem while using {{ formal_name }}, the problem might be caused by a bug in a different project in the BeeWare ecosystem."
@@ -2019,14 +2007,12 @@ msgid "Is this your first time contributing to an open source project? We're her
 msgstr "¿Es la primera vez que colaboras en un proyecto de código abierto? ¡Estamos aquí para ayudarte! Tenemos [consejos para colaboradores novatos]{1} que te ayudarán a superar cualquier temor o inquietud inicial."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:13
-#, fuzzy
 msgid "/// note | Using AI and autonomous tools"
 msgstr "/// note | Uso de la inteligencia artificial y herramientas autónomas"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:15
-#, fuzzy
 msgid "The BeeWare Project neither encourages nor prohibits the use of AI tools when making contributions. However, if you do use an AI tool we require that you declare what tools you have used. Our [AI Policy]{1} contains full details of your obligations."
-msgstr "El Proyecto BeeWare no fomenta ni prohíbe el uso de herramientas de IA a la hora de realizar contribuciones. No obstante, si utilizas una herramienta de IA, te pedimos que indiques cuáles has utilizado. Nuestra [Política de IA]{1} contiene toda la información sobre tus obligaciones."
+msgstr "El Proyecto BeeWare no fomenta ni prohíbe el uso de herramientas de IA a la hora de realizar contribuciones. No obstante, si utilizas una herramienta de IA, te pedimos que indiques cuales has utilizado. Nuestra [Directiva de IA]{1} contiene toda la información sobre tus obligaciones."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:19
 msgid "What can I do? { #what-can-i-do }"
@@ -2217,19 +2203,16 @@ msgid "Merged contributions will go through [the release process]{1}."
 msgstr "Las contribuciones fusionadas pasarán por [el proceso de lanzamiento]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:125
-#, fuzzy
 msgid "Policies"
-msgstr "Políticas"
+msgstr "Normativas"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:127
-#, fuzzy
 msgid "[AI Policy]{1}"
-msgstr "[Política de IA]{1}"
+msgstr "[Normativas de IA]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:129
-#, fuzzy
 msgid "BeeWare's policy on the usage of Generative AI, Large Language Models, and other autonomous tooling when contributing."
-msgstr "Política de BeeWare sobre el uso de IA generativa, modelos de lenguaje a gran escala y otras herramientas autónomas a la hora de realizar contribuciones."
+msgstr "Normativa de BeeWare sobre el uso de IA generativa, modelos de lenguaje a gran escala y otras herramientas autónomas a la hora de realizar contribuciones."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:131
 msgid "Style Guides"
@@ -2448,12 +2431,10 @@ msgid "If you feel there is a particularly compelling reason your feature or bug
 msgstr "Si cree que hay una razón especialmente convincente para que su prestación o corrección de errores se publique antes, háganoslo saber. Puede añadir un comentario al hilo de discusión asociado o a su solicitud de extracción fusionada explicándonos por qué cree que su contribución debería publicarse más rápidamente. Estamos abiertos a la idea de dar prioridad a un lanzamiento si hay un caso de uso convincente en la comunidad que lo requiera."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/policies/ai-policy.md:1 src/beeware_docs_tools/shared_content/en/contribute/policies/ai-policy.md:5
-#, fuzzy
 msgid "-8<-"
 msgstr "-8<-"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/policies/ai-policy.md:3
-#, fuzzy
 msgid "https://raw.githubusercontent.com/beeware/.github/refs/heads/main/AI_POLICY.md"
 msgstr "https://raw.githubusercontent.com/beeware/.github/refs/heads/main/AI_POLICY.md"
 
