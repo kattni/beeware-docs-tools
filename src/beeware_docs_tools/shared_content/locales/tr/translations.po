@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-18 19:13+0000\n"
+"POT-Creation-Date: 2026-05-19 00:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3001,17 +3001,48 @@ msgstr "PEP 8'e BeeWare'e özgü bazı eklemeler de yapılmıştır:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
 #, fuzzy
-msgid "Splitting long function calls { #split-long-function-calls }"
-msgstr "Uzun işlev çağrılarını bölme { #split-long-function-calls }"
+msgid "While type annotation adhering to [PEP 484]{1} is optional, it remains strongly encouraged, particularly across any public API surfaces."
+msgstr "[PEP 484]{1} standardına uygun tip açıklamaları isteğe bağlı olmakla birlikte, özellikle herkese açık API arayüzlerinde kullanılması şiddetle tavsiye edilmektedir."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:20
 #, fuzzy
-msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
-msgstr "Birden fazla argüman içeren bir işlev çağrısı tek bir satıra sığmadığında, her argümanı ayrı bir satıra yerleştirin ve son argümanın sonuna virgül ekleyin. Ruff, birden fazla argümanın tek bir satıra sığdırılmasına izin verir (ve bunu önerir):"
+msgid "An example of a standard function definition with proper type hints and a Sphinx docstring is shown below:"
+msgstr "Aşağıda, uygun tür ipuçları ve bir Sphinx docstring içeren standart bir işlev tanımına örnek verilmiştir:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:22
 #, fuzzy
 msgid ""
+"def function_name(param1: int, param2: str) -> bool:\n"
+"\"\"\"Example function with types and a docstring.\n"
+"\n"
+":param param1: The first parameter.\n"
+":param param2: The second parameter.\n"
+"\n"
+":returns: The return value. True for success, False otherwise.\n"
+"\"\"\""
+msgstr ""
+"def function_name(param1: int, param2: str) -> bool:\n"
+"\"\"\"Türleri ve bir docstring içeren örnek işlev.\n"
+"\n"
+":param param1: İlk parametre.\n"
+":param param2: İkinci parametre.\n"
+"\n"
+":returns: Dönüş değeri. Başarılı olursa True, aksi takdirde False.\n"
+"\"\"\""
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:33
+#, fuzzy
+msgid "Splitting long function calls { #split-long-function-calls }"
+msgstr "Uzun işlev çağrılarını bölme { #split-long-function-calls }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:35
+#, fuzzy
+msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
+msgstr "Birden fazla argüman içeren bir işlev çağrısı tek bir satıra sığmadığında, her argümanı ayrı bir satıra yerleştirin ve son argümanın sonuna virgül ekleyin. Ruff, birden fazla argümanın tek bir satıra sığdırılmasına izin verir (ve bunu önerir):"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:37
+#, fuzzy
+msgid ""
 "my_function(\n"
 "    arg1, arg2, arg3\n"
 ")"
@@ -3020,12 +3051,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:43
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "Bu biçim kullanılmamalıdır. Bunun yerine, son argümana sondan virgül ekleyerek argümanları her satıra bir tane olacak şekilde dağıtın:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:30
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:45
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3040,17 +3071,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:53
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "Uzun dizeleri bölme { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:40
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:55
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "Bir dize argümanının satır uzunluğu kısıtlamalarına uymak için satırlara bölünmesi gerektiğinde, birleştirilmiş dize sabitlerini parantez içine alın; böylece dizenin tek bir argüman olduğu açıkça anlaşılır. Yani, şu şekilde yazmayı tercih ederiz:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:42
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3069,12 +3100,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:67
 #, fuzzy
 msgid "over:"
 msgstr "yukarıda:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:54
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:69
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3088,20 +3119,44 @@ msgstr ""
 "    \"ikinci_argüman,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:77
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Kaçınılması gerekenler"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:64
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:79
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Bazen kaçınılmaz olduklarını bilerek, `utils` modüllerini mümkün olduğunca kullanmamaya çalışıyoruz. Tercih edilen alternatif, `utils` modülünü kullanmak yerine, kaynak kodun başka bir yerinde bu özelliği bulmaktır."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:66
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:81
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Genel bir kural olarak, uygulamanın daha hızlı başlatılması için pahalı başlatma kodlarını önlemeye veya ertelemeye çalışırız. Örneğin, toga-core paketindeki modüller \"tembel yükleme\" ile çalışır; yani, önceden değil, yalnızca talep edildiğinde içe aktarılır. Bu, başlatma sürecini hızlandırır ve yalnızca uygulamanın gerçekten kullandığı şeyler için zaman harcanmasını sağlar."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:83
+#, fuzzy
+msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
+msgstr "Yorum yazarken, \"biz\" gibi birinci çoğul şahıs zamirlerini kullanmaktan kaçının (örneğin, \"Biz döngü yapıyoruz\" yerine \"Döngü yap\" yazın)."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:85
+#, fuzzy
+msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
+msgstr "Test açıklamalarında, her bir testin sergilediği beklenen davranışı belirtin. \"Şunu test eder\" veya \"Şunu sağlar\" gibi giriş cümlelerini eklemeyin."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:87
+#, fuzzy
+msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
+msgstr "Belgelerde veya yorumlarda kolayca açıklanamayan ek ayrıntılar içeren, daha az bilinen sorunlar için bilet referanslarını saklayın. Bilet numarasını şu şekilde cümlenin sonuna ekleyin:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:89
+#, fuzzy
+msgid ""
+"def test_foo():\n"
+"          \"\"\"A test docstring looks like this (#123456).\"\"\""
+msgstr ""
+"def test_foo():\n"
+" \"\"\"Bir test docstring'i şöyle görünür (#123456).\"\"\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:1
 #, fuzzy

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-18 19:13+0000\n"
+"POT-Creation-Date: 2026-05-19 00:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3001,17 +3001,48 @@ msgstr "W PEP 8 wprowadzono również pewne uzupełnienia dotyczące konkretnie 
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
 #, fuzzy
-msgid "Splitting long function calls { #split-long-function-calls }"
-msgstr "Rozdzielanie długich wywołań funkcji { #split-long-function-calls }"
+msgid "While type annotation adhering to [PEP 484]{1} is optional, it remains strongly encouraged, particularly across any public API surfaces."
+msgstr "Chociaż stosowanie adnotacji typów zgodnych z [PEP 484]{1} jest opcjonalne, nadal zdecydowanie się je zaleca, zwłaszcza w przypadku wszystkich publicznych interfejsów API."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:20
 #, fuzzy
-msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
-msgstr "Jeśli wywołanie funkcji z więcej niż jednym argumentem nie mieści się w jednym wierszu, każdy argument należy umieścić w osobnym wierszu, a po ostatnim argumencie dodać przecinek. Ruff zezwala (i sugeruje) formatowanie wielu argumentów w jednym wierszu z przełamaniem:"
+msgid "An example of a standard function definition with proper type hints and a Sphinx docstring is shown below:"
+msgstr "Poniżej przedstawiono przykład standardowej definicji funkcji zawierającej odpowiednie wskazówki dotyczące typów oraz ciąg dokumentacyjny Sphinx:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:22
 #, fuzzy
 msgid ""
+"def function_name(param1: int, param2: str) -> bool:\n"
+"\"\"\"Example function with types and a docstring.\n"
+"\n"
+":param param1: The first parameter.\n"
+":param param2: The second parameter.\n"
+"\n"
+":returns: The return value. True for success, False otherwise.\n"
+"\"\"\""
+msgstr ""
+"def nazwa_funkcji(param1: int, param2: str) -> bool:\n"
+"\"\"\"Przykładowa funkcja z typami i opisem.\n"
+"\n"
+":param param1: Pierwszy parametr.\n"
+":param param2: Drugi parametr.\n"
+"\n"
+":returns: Wartość zwracana. True w przypadku powodzenia, w przeciwnym razie False.\n"
+"\"\"\""
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:33
+#, fuzzy
+msgid "Splitting long function calls { #split-long-function-calls }"
+msgstr "Rozdzielanie długich wywołań funkcji { #split-long-function-calls }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:35
+#, fuzzy
+msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
+msgstr "Jeśli wywołanie funkcji z więcej niż jednym argumentem nie mieści się w jednym wierszu, każdy argument należy umieścić w osobnym wierszu, a po ostatnim argumencie dodać przecinek. Ruff zezwala (i sugeruje) formatowanie wielu argumentów w jednym wierszu z przełamaniem:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:37
+#, fuzzy
+msgid ""
 "my_function(\n"
 "    arg1, arg2, arg3\n"
 ")"
@@ -3020,12 +3051,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:43
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "Nie należy stosować tego stylu. Zamiast tego należy rozdzielić argumenty tak, aby w każdym wierszu znajdował się tylko jeden, dodając przecinek na końcu ostatniego argumentu:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:30
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:45
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3040,17 +3071,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:53
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "Dzielenie długich ciągów znaków { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:40
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:55
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "Jeśli argument typu ciąg znaków musi zostać podzielony na kilka wierszy, aby spełnić wymagania dotyczące długości wiersza, należy ująć połączone literały ciągu znaków w nawiasy, aby było jasne, że ciąg ten stanowi jeden argument. Innymi słowy, zalecamy następujące rozwiązanie:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:42
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3069,12 +3100,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:67
 #, fuzzy
 msgid "over:"
 msgstr "ponad:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:54
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:69
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3089,20 +3120,44 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:77
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Rzeczy, których należy unikać"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:64
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:79
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Staramy się unikać modułów `utils` w miarę możliwości, rozumiejąc jednak, że czasami są one nieuniknione. Preferowaną alternatywą jest znalezienie miejsca dla danej funkcji w innym miejscu kodu źródłowego zamiast używania modułu `utils`."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:66
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:81
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Zasadniczo staramy się unikać lub odkładać na później wszelkie kosztowne kody inicjalizacyjne, aby przyspieszyć uruchamianie aplikacji. Na przykład moduły w pakiecie toga-core są „ładowane leniwie” — są importowane dopiero po zgłoszeniu żądania, a nie z góry. Przyspiesza to uruchamianie i pozwala poświęcić czas tylko na to, czego faktycznie używa aplikacja."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:83
+#, fuzzy
+msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
+msgstr "Pisząc komentarze, unikaj używania zaimków w pierwszej osobie liczby mnogiej, takich jak „my” (na przykład pisz „Przeprowadź pętlę” zamiast „Przeprowadzamy pętlę”)."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:85
+#, fuzzy
+msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
+msgstr "W opisach testów należy określić oczekiwane zachowanie, które każdy test ma wykazać. Nie należy dodawać wstępów typu „Sprawdza, czy” lub „Gwarantuje, że”."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:87
+#, fuzzy
+msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
+msgstr "Zastrzegaj odniesienia do zgłoszeń dotyczących mało znanych problemów, w przypadku których zgłoszenie zawiera dodatkowe szczegóły, których nie da się łatwo opisać w opisach funkcji lub komentarzach. Umieść numer zgłoszenia na końcu zdania w następujący sposób:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:89
+#, fuzzy
+msgid ""
+"def test_foo():\n"
+"          \"\"\"A test docstring looks like this (#123456).\"\"\""
+msgstr ""
+"def test_foo():\n"
+" \"\"\"Tak wygląda docstring testowy (#123456).\"\"\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:1
 #, fuzzy
