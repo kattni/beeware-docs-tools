@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 00:16+0000\n"
-"PO-Revision-Date: 2026-05-18 14:37+0000\n"
-"Last-Translator: Libre <6n0n1m0s@proton.me>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-05-19 00:16+0000\nPO-Revision-Date: 2026-05-22 21:11+0000\nLast-Translator: Libre <6n0n1m0s@proton.me>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.6.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -395,17 +383,14 @@ msgid "For more information about `towncrier` and fragment types see [News Fragm
 msgstr "Para obtener más información sobre `towncrier` y los tipos de fragmentos, consulte [Fragmentos de noticias]{1}. También puedes ver ejemplos existentes de fragmentos de noticias en el directorio `changes` del repositorio {{ formal_name }}. Si esta carpeta está vacía, es probable que se deba a que {{ nombre_del_proyecto }} ha publicado recientemente una versión nueva; los archivos de notas de cambio se eliminan y se combinan para actualizar las [notas de la versión](https://github.com/beeware/{ nombre_del_proyecto }}/releases) con cada versión. Puedes mirar ese archivo para ver el estilo de comentario que se requiere; puedes mirar [los RP fundidos recientemente](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) para ver cómo formatear tus notas de cambio."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:4
-#, fuzzy
 msgid "Contributing to BeeWare requires you to pick a project and set up a development environment:"
-msgstr "Para colaborar con BeeWare, debes elegir un proyecto y configurar un entorno de desarrollo:"
+msgstr "Para colaborar con BeeWare,requiere que escoja un proyecto y configurar un entorno de desarrollo:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:6
-#, fuzzy
 msgid "[Briefcase]{1}"
-msgstr "[Maletín]{1}"
+msgstr "[Briefcase]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:7
-#, fuzzy
 msgid "[Toga]{1}"
 msgstr "[Toga]{1}"
 
