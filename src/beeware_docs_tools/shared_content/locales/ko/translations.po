@@ -1,59 +1,40 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-25 23:44+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-05-25 23:44+0000\nPO-Revision-Date: 2026-05-28 05:11+0000\nLast-Translator: Trash Soul <trashtrash0909@gmail.com>\nLanguage-Team: Korean <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/ko/>\nLanguage: ko\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2026.6.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
-#, fuzzy
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
 msgstr "머릿속에서 작은 목소리가 당신에게 준비가 안 됐다고, 튜토리얼을 하나 더 해야 한다고, 오픈소스 기여자가 될 준비가 안 됐다고 속삭일지도 모릅니다. 결국 당신은 초보자일 뿐이니까요. BeeWare 같은 프로젝트에 당신이 무엇을 기여할 수 있겠습니까?"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:3
-#, fuzzy
 msgid "I assure you - the little voice in your head is wrong. You can contribute code to open source, and to BeeWare."
 msgstr "확실히 말씀드리건대, 머릿속 속삭임은 틀렸습니다. 여러분도 오픈소스와 BeeWare에 코드를 기여할 수 있습니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:5
-#, fuzzy
 msgid "Impostor syndrome"
-msgstr "사기꾼 증후군"
+msgstr "가면 증후군"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:7
-#, fuzzy
 msgid "You're not the first person to have those thoughts, either. Even the members of the core team of this project have these thoughts from time to time. It's called \"impostor syndrome\", and it's a really common problem. The good news is - we're here to help you get over it."
-msgstr "그런 생각을 하는 사람이 당신만이 아닙니다. 이 프로젝트 핵심 팀원들조차 가끔 그런 생각을 하곤 합니다. 이를 '사기꾼 증후군'이라고 부르며, 정말 흔한 문제입니다. 좋은 소식은—우리가 그걸 극복하도록 도와드리기 위해 여기 있다는 점입니다."
+msgstr "그런 생각을 하는 사람이 당신만이 아닙니다. 이 프로젝트 핵심 팀원들조차 가끔 그런 생각을 하곤 합니다. 이를 '가면 증후군'이라고 부르며, 정말 흔한 문제입니다. 좋은 소식은—우리가 그걸 극복하도록 도와드리기 위해 여기 있다는 점입니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:9
-#, fuzzy
 msgid "This tutorial exists to make sure you know exactly what process you have to follow in order to make a contribution to BeeWare. In addition to these procedural instructions, this project has a Code of Conduct. This Code of Conduct is there to give you confidence that no matter what mistakes you make, you'll be treated with respect. Everyone makes mistakes - that's a natural part of learning. Our pledge to you is that we are here to help you learn, not to insult or belittle you for learning."
 msgstr "이 튜토리얼은 여러분이 BeeWare에 기여하기 위해 반드시 따라야 할 절차를 정확히 알 수 있도록 마련되었습니다. 이러한 절차적 지침 외에도, 본 프로젝트에는 행동 강령이 마련되어 있습니다. 이 행동 강령은 여러분이 어떤 실수를 하더라도 존중받는 대우를 받을 것이라는 확신을 드리기 위한 것입니다. 누구나 실수를 합니다. 이는 학습 과정에서 자연스러운 부분입니다. 저희는 여러분이 배우는 과정에서 도움을 드리기 위해 존재하며, 학습 자체를 이유로 모욕하거나 폄하하지 않을 것을 약속드립니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:11
-#, fuzzy
 msgid "You can't do any damage, either - either to your own computer, or to the project as a whole. BeeWare projects don't touch any part of your computer or operating system that could do any serious damage. Worst case, you'll end up with a couple of extra files on your hard drive, which can be easily deleted afterwards. And every contribution you submit to BeeWare is reviewed before it is integrated into the \"official\" project, and you'll get feedback to help you correct any problems that may exist."
 msgstr "어떤 피해도 입힐 수 없습니다. 자신의 컴퓨터에도, 프로젝트 전체에도 말이죠. BeeWare 프로젝트는 심각한 손상을 입힐 수 있는 컴퓨터나 운영 체제의 어떤 부분에도 접근하지 않습니다. 최악의 경우 하드 드라이브에 몇 개의 추가 파일이 생길 수 있지만, 이후 쉽게 삭제할 수 있습니다. 또한 BeeWare에 제출하는 모든 기여는 \"공식\" 프로젝트에 통합되기 전에 검토되며, 존재할 수 있는 문제를 수정하는 데 도움이 되는 피드백을 받게 됩니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:13
-#, fuzzy
 msgid "So - don't be afraid to contribute. If you've gotten this far, you've demonstrated you have an interest in contributing - and that's all you need. We can help you the rest of the way."
 msgstr "그러니 - 기여하는 것을 두려워하지 마세요. 여기까지 읽었다면, 기여할 의향이 있다는 것을 보여준 것입니다. 그게 전부입니다. 나머지는 우리가 도와드리겠습니다."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:15
-#, fuzzy
 msgid "Every contribution matters"
 msgstr "모든 기여가 소중합니다"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:17
-#, fuzzy
 msgid "Being an open source contributor doesn't just mean writing code. You can help out by writing documentation, tests, or even giving feedback about the project (including giving feedback about the contribution process). Some of these contributions may be the most valuable to the project as a whole, because you're coming to the project with fresh eyes, so you can see the errors and assumptions that seasoned contributors have glossed over."
 msgstr "오픈소스 기여자가 된다는 것은 단순히 코드를 작성하는 것만을 의미하지 않습니다. 문서 작성, 테스트 작성, 프로젝트에 대한 피드백 제공(기여 과정에 대한 피드백 포함) 등 다양한 방법으로 도움을 줄 수 있습니다. 이러한 기여 중 일부는 프로젝트 전체에 가장 가치 있을 수 있습니다. 왜냐하면 여러분은 프로젝트를 새로운 시각으로 바라보기 때문에, 노련한 기여자들이 간과해온 오류나 가정들을 발견할 수 있기 때문입니다."
 
