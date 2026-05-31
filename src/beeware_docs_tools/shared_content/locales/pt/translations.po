@@ -1,37 +1,22 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-31 22:42+0000\n"
-"PO-Revision-Date: 2026-05-31 22:42+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-05-31 22:42+0000\nPO-Revision-Date: 2026-06-02 00:01+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.6\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
-#, fuzzy
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
-msgstr "Pode haver uma vozinha dentro de sua cabeça dizendo que você não está pronto, que precisa fazer mais um tutorial, que não está pronto para ser um colaborador de código aberto. Afinal de contas, você é apenas um iniciante. O que você poderia oferecer a um projeto como o BeeWare?"
+msgstr "Pode estar uma pequena voz dentro da sua cabeça a dizer que você não está pronto, que precisa fazer mais um tutorial, que não está pronto para ser um contribuidor de código aberto. Afinal de contas, é apenas um iniciante. O que poderá você oferecer a um projeto como o BeeWare?"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:3
-#, fuzzy
 msgid "I assure you - the little voice in your head is wrong. You can contribute code to open source, and to BeeWare."
-msgstr "Eu lhe garanto: a vozinha em sua cabeça está errada. Você pode contribuir com código para o código-fonte aberto e para o BeeWare."
+msgstr "Garanto-lhe: a voz em sua cabeça está errada. Você pode contribuir com código de fonte aberta, e para o BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:5
 msgid "Impostor syndrome"
 msgstr "Síndrome do impostor"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:7
-#, fuzzy
 msgid "You're not the first person to have those thoughts, either. Even the members of the core team of this project have these thoughts from time to time. It's called \"impostor syndrome\", and it's a really common problem. The good news is - we're here to help you get over it."
-msgstr "Você também não é a primeira pessoa a ter esses pensamentos. Até mesmo os membros da equipe principal deste projeto têm esses pensamentos de vez em quando. Isso é chamado de \"síndrome do impostor\" e é um problema muito comum. A boa notícia é que estamos aqui para ajudá-lo a superar isso."
+msgstr "Você também não é a primeira pessoa a ter esses pensamentos. Até mesmo os membros da equipa principal deste projeto têm esses pensamentos de vez em quando. Isso é chamado de \"síndrome do impostor\" e é um problema muito comum. A boa notícia é - nós estamos aqui para ajudá-lo a superar isso."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:9
 #, fuzzy
@@ -179,12 +164,10 @@ msgid "To start the live server:"
 msgstr "Para iniciar o servidor ativo:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:30 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:40
-#, fuzzy
 msgid "(venv) $ tox -e docs-live"
 msgstr "(venv) $ tox -e docs-live"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:48
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-live"
 msgstr "(venv) C:\\...>tox -e docs-live"
 
@@ -239,12 +222,10 @@ msgid "To generate a local build:"
 msgstr "Para gerar uma compilação local:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:86 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:96
-#, fuzzy
 msgid "(venv) $ tox -e docs"
 msgstr "(venv) $ tox -e docs"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:104
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs"
 msgstr "(venv) C:\\...>tox -e docs"
 
@@ -278,7 +259,6 @@ msgid "(venv) $ tox -e docs-all"
 msgstr "(verbo) $ tox -e docs-all"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:146
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-all"
 msgstr "(venv) C:\\...>tox -e docs-all"
 
@@ -293,7 +273,6 @@ msgid "If you find an issue with a single build, you can run that individual bui
 msgstr "Se você encontrar um problema com uma única compilação, poderá executar essa compilação individual separadamente, executando `tox -e docs-<languagecode>`. Por exemplo, para compilar somente a documentação em francês, execute:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:164 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:174
-#, fuzzy
 msgid "(venv) $ tox -e docs-fr"
 msgstr "(venv) $ tox -e docs-fr"
 
