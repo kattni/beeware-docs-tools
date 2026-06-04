@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-02 00:01+0000\n"
+"POT-Creation-Date: 2026-06-04 05:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,8 +258,8 @@ msgid "First-time contributors"
 msgstr "Những người đóng góp lần đầu"
 
 #: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:3
-msgid "{% extends \"contribute/first-time-contributors.md\" %}"
-msgstr "{% extends \"contribute/first-time-contributors.md\" %}"
+msgid "{% extends \"_shared/contribute/first-time-contributors.md\" %}"
+msgstr "{% extends \"_shared/contribute/first-time-contributors.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/branches.md:1
 #, fuzzy
@@ -267,8 +267,8 @@ msgid "Work from a feature branch, not your `main` branch"
 msgstr "Hãy làm việc trên nhánh tính năng, không phải nhánh `main` của bạn"
 
 #: docs/en/content_test_bed/how-to/contribute/how/branches.md:3
-msgid "{% extends \"contribute/how/branches.md\" %}"
-msgstr "{% extends \"contribute/how/branches.md\" %}"
+msgid "{% extends \"_shared/contribute/how/branches.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/branches.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:1
 #, fuzzy
@@ -276,8 +276,8 @@ msgid "Building documentation"
 msgstr "Tài liệu xây dựng"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:3
-msgid "{% extends \"contribute/how/build-docs.md\" %}"
-msgstr "{% extends \"contribute/how/build-docs.md\" %}"
+msgid "{% extends \"_shared/contribute/how/build-docs.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/build-docs.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:5 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:5 docs/en/content_test_bed/how-to/contribute/how/write-code.md:5 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:5
 msgid "{% block front_matter %}"
@@ -307,8 +307,8 @@ msgid "Adding change information for release notes"
 msgstr "Thêm thông tin thay đổi vào ghi chú phát hành"
 
 #: docs/en/content_test_bed/how-to/contribute/how/change-note.md:3
-msgid "{% extends \"contribute/how/change-note.md\" %}"
-msgstr "{% extends \"contribute/how/change-note.md\" %}"
+msgid "{% extends \"_shared/contribute/how/change-note.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/change-note.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:1
 #, fuzzy
@@ -316,8 +316,8 @@ msgid "Setting up a development environment"
 msgstr "Thiết lập môi trường phát triển"
 
 #: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
-msgid "{% extends \"contribute/how/dev-environment.md\" %}"
-msgstr "{% extends \"contribute/how/dev-environment.md\" %}"
+msgid "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:1
 #, fuzzy
@@ -325,8 +325,8 @@ msgid "Submitting a new issue"
 msgstr "Gửi báo cáo sự cố mới"
 
 #: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:3
-msgid "{% extends \"contribute/how/new-issue.md\" %}"
-msgstr "{% extends \"contribute/how/new-issue.md\" %}"
+msgid "{% extends \"_shared/contribute/how/new-issue.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:1 docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:1
 #, fuzzy
@@ -334,8 +334,8 @@ msgid "Proposing a new feature"
 msgstr "Đề xuất một tính năng mới"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:3
-msgid "{% extends \"contribute/how/propose-feature.md\" %}"
-msgstr "{% extends \"contribute/how/propose-feature.md\" %}"
+msgid "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:7
 #, fuzzy
@@ -348,8 +348,8 @@ msgid "Reproducing an issue"
 msgstr "Tái hiện sự cố"
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:3
-msgid "{% extends \"contribute/how/reproduce-issue.md\" %}"
-msgstr "{% extends \"contribute/how/reproduce-issue.md\" %}"
+msgid "{% extends \"_shared/contribute/how/reproduce-issue.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/reproduce-issue.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:7
 #, fuzzy
@@ -367,8 +367,8 @@ msgid "Providing a pull request review"
 msgstr "Đánh giá yêu cầu kéo"
 
 #: docs/en/content_test_bed/how-to/contribute/how/review-pr.md:3
-msgid "{% extends \"contribute/how/review-pr.md\" %}"
-msgstr "{% extends \"contribute/how/review-pr.md\" %}"
+msgid "{% extends \"_shared/contribute/how/review-pr.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/review-pr.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:1
 #, fuzzy
@@ -376,8 +376,8 @@ msgid "Avoiding scope creep"
 msgstr "Tránh tình trạng mở rộng phạm vi"
 
 #: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
-msgid "{% extends \"contribute/how/scope-creep.md\" %}"
-msgstr "{% extends \"contribute/how/scope-creep.md\" %}"
+msgid "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:1
 #, fuzzy
@@ -385,8 +385,8 @@ msgid "Submitting a pull request"
 msgstr "Gửi yêu cầu pull"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:3
-msgid "{% extends \"contribute/how/submit-pr.md\" %}"
-msgstr "{% extends \"contribute/how/submit-pr.md\" %}"
+msgid "{% extends \"_shared/contribute/how/submit-pr.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/submit-pr.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:7
 msgid "{% if config.extra.website %}"
@@ -416,8 +416,8 @@ msgid "Translating content"
 msgstr "Dịch nội dung"
 
 #: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
-msgid "{% extends \"contribute/how/translate.md\" %}"
-msgstr "{% extends \"contribute/how/translate.md\" %}"
+msgid "{% extends \"_shared/contribute/how/translate.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
 #, fuzzy
@@ -425,8 +425,8 @@ msgid "Writing, running, and testing code"
 msgstr "Viết, chạy và kiểm thử mã nguồn"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:3
-msgid "{% extends \"contribute/how/write-code.md\" %}"
-msgstr "{% extends \"contribute/how/write-code.md\" %}"
+msgid "{% extends \"_shared/contribute/how/write-code.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/write-code.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:7
 #, fuzzy
@@ -444,8 +444,8 @@ msgid "Writing documentation"
 msgstr "Viết tài liệu"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:3
-msgid "{% extends \"contribute/how/write-docs.md\" %}"
-msgstr "{% extends \"contribute/how/write-docs.md\" %}"
+msgid "{% extends \"_shared/contribute/how/write-docs.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/write-docs.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:7
 #, fuzzy
@@ -463,8 +463,8 @@ msgid "Contributing to {{ formal_name }}"
 msgstr "Đóng góp cho {{ formal_name }}"
 
 #: docs/en/content_test_bed/how-to/contribute/index.md:3
-msgid "{% extends \"contribute/index.md\" %}"
-msgstr "{% extends \"contribute/index.md\" %}"
+msgid "{% extends \"_shared/contribute/index.md\" %}"
+msgstr "{% extends \"_shared/contribute/index.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:1
 #, fuzzy
@@ -472,8 +472,8 @@ msgid "Receiving a pull request review"
 msgstr "Nhận đánh giá yêu cầu kéo"
 
 #: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:3
-msgid "{% extends \"contribute/next/pr-review.md\" %}"
-msgstr "{% extends \"contribute/next/pr-review.md\" %}"
+msgid "{% extends \"_shared/contribute/next/pr-review.md\" %}"
+msgstr "{% extends \"_shared/contribute/next/pr-review.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/next/release.md:1
 #, fuzzy
@@ -481,12 +481,12 @@ msgid "The release process"
 msgstr "Quy trình phát hành"
 
 #: docs/en/content_test_bed/how-to/contribute/next/release.md:3
-msgid "{% extends \"contribute/next/release.md\" %}"
-msgstr "{% extends \"contribute/next/release.md\" %}"
+msgid "{% extends \"_shared/contribute/next/release.md\" %}"
+msgstr "{% extends \"_shared/contribute/next/release.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/policies/ai-policy.md:3
-msgid "{% extends \"contribute/policies/ai-policy.md\" %}"
-msgstr "{% extends \"contribute/policies/ai-policy.md\" %}"
+msgid "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
+msgstr "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:1
 #, fuzzy
@@ -494,8 +494,8 @@ msgid "Code style guide"
 msgstr "Hướng dẫn phong cách lập trình"
 
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
-msgid "{% extends \"contribute/style/code-style-guide.md\" %}"
-msgstr "{% extends \"contribute/style/code-style-guide.md\" %}"
+msgid "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
+msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:1
 #, fuzzy
@@ -503,8 +503,8 @@ msgid "Documentation style guide"
 msgstr "Hướng dẫn phong cách biên soạn tài liệu"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:3
-msgid "{% extends \"contribute/style/docs-style-guide.md\" %}"
-msgstr "{% extends \"contribute/style/docs-style-guide.md\" %}"
+msgid "{% extends \"_shared/contribute/style/docs-style-guide.md\" %}"
+msgstr "{% extends \"_shared/contribute/style/docs-style-guide.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:1
 #, fuzzy
@@ -512,8 +512,8 @@ msgid "Fixing an issue"
 msgstr "Khắc phục sự cố"
 
 #: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:3
-msgid "{% extends \"contribute/what/fix-issue.md\" %}"
-msgstr "{% extends \"contribute/what/fix-issue.md\" %}"
+msgid "{% extends \"_shared/contribute/what/fix-issue.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/fix-issue.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:1
 #, fuzzy
@@ -521,20 +521,20 @@ msgid "Implementing a new feature"
 msgstr "Triển khai một tính năng mới"
 
 #: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:3
-msgid "{% extends \"contribute/what/implement-feature.md\" %}"
-msgstr "{% extends \"contribute/what/implement-feature.md\" %}"
+msgid "{% extends \"_shared/contribute/what/implement-feature.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/implement-feature.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:3
-msgid "{% extends \"contribute/what/propose-feature.md\" %}"
-msgstr "{% extends \"contribute/what/propose-feature.md\" %}"
+msgid "{% extends \"_shared/contribute/what/propose-feature.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/propose-feature.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/review-pr.md:3
-msgid "{% extends \"contribute/what/review-pr.md\" %}"
-msgstr "{% extends \"contribute/what/review-pr.md\" %}"
+msgid "{% extends \"_shared/contribute/what/review-pr.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/review-pr.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/translate.md:3
-msgid "{% extends \"contribute/what/translate.md\" %}"
-msgstr "{% extends \"contribute/what/translate.md\" %}"
+msgid "{% extends \"_shared/contribute/what/translate.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/translate.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/triage.md:1
 #, fuzzy
@@ -542,8 +542,8 @@ msgid "Triaging an issue"
 msgstr "Xếp hạng mức độ ưu tiên của sự cố"
 
 #: docs/en/content_test_bed/how-to/contribute/what/triage.md:3
-msgid "{% extends \"contribute/what/triage.md\" %}"
-msgstr "{% extends \"contribute/what/triage.md\" %}"
+msgid "{% extends \"_shared/contribute/what/triage.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/triage.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:1
 #, fuzzy
@@ -551,8 +551,8 @@ msgid "Using the tools"
 msgstr "Sử dụng các công cụ"
 
 #: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:3
-msgid "{% extends \"contribute/what/use-tools.md\" %}"
-msgstr "{% extends \"contribute/what/use-tools.md\" %}"
+msgid "{% extends \"_shared/contribute/what/use-tools.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/use-tools.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:1
 #, fuzzy
@@ -560,8 +560,8 @@ msgid "Adding documentation"
 msgstr "Thêm tài liệu"
 
 #: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:3
-msgid "{% extends \"contribute/what/write-docs.md\" %}"
-msgstr "{% extends \"contribute/what/write-docs.md\" %}"
+msgid "{% extends \"_shared/contribute/what/write-docs.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/write-docs.md\" %}"
 
 #: docs/en/content_test_bed/index.md:1
 #, fuzzy
