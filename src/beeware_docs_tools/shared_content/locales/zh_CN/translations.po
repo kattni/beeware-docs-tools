@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-20 09:01+0000\n"
-"PO-Revision-Date: 2026-03-01 23:02+0000\n"
-"Last-Translator: John <johnzhou721@gmail.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-20 09:01+0000\nPO-Revision-Date: 2026-06-21 17:01+0000\nLast-Translator: John <johnzhou721@gmail.com>\nLanguage-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -53,9 +41,8 @@ msgid "Being an open source contributor doesn't just mean writing code. You can 
 msgstr "成为开源贡献者并不仅仅意味着编写代码。您可以通过编写文档、测试，甚至提供项目反馈（包括对贡献过程的反馈）来提供帮助。其中一些贡献对整个项目来说可能是最有价值的，因为你是以全新的眼光来看待这个项目的，所以你可以看到那些经验丰富的贡献者所忽略的错误和假设。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:19
-#, fuzzy
 msgid "The importance of contributions"
-msgstr "捐款的重要性"
+msgstr "贡献的重要性"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:21
 #, fuzzy
@@ -63,24 +50,20 @@ msgid "Open Source Software lives and dies on its contributions. Community contr
 msgstr "开源软件的生死取决于社区的贡献。社区贡献对于任何开源项目的成功都至关重要，BeeWare也不例外。在力所能及的范围内，我们将为您提供所需的帮助。无论您是第一次、第十次还是第一百次参与，我们都将竭诚为您提供帮助。如果您需要帮助，请随时联系我们。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:23
-#, fuzzy
 msgid "Now it's time to roll up your sleeves, and [choose your first contribution]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})."
-msgstr "现在是时候卷起袖子，[选择你的第一份贡献]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})。"
+msgstr "那么现在，是时候卷起袖子，并[选择你的第一份贡献]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:1
-#, fuzzy
 msgid "Before you start working on your change, make sure you've created a branch. By default, when you clone your repository fork, you'll be checked out on your `main` branch. This is a direct copy of {{ formal_name }}'s `main` branch."
-msgstr "在你开始修改之前，请确保你已经创建了一个分支。默认情况下，当你克隆你的版本库分叉时，你将在 \"主 \"分支上签出。这是 {{ formal_name }} 的 `main` 分支的直接副本。"
+msgstr "在你开始修改内容以前，请务必确保你已创建了一个新的分支。当你克隆你的派生 (fork) 版本库时，你将会默认在 `main` 分支上，即为 {{ formal_name }} 的 `main` 分支的直接副本。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:3
-#, fuzzy
 msgid "While you *can* submit a pull request from your `main` branch, it's preferable if you *don't* do this. If you submit a pull request that is *almost* right, the core team member who reviews your pull request may be able to make the necessary changes, rather than giving feedback asking for a minor change. However, if you submit your pull request from your `main` branch, reviewers are prevented from making modifications."
-msgstr "虽然您*可以*从您的 \"主 \"分支提交拉取请求，但最好不要*这样做。如果您提交的拉取请求*几乎*正确，那么审查您的拉取请求的核心团队成员可能会做出必要的修改，而不是给出反馈，要求您做细微的改动。但是，如果你从你的 \"主 \"分支提交拉取请求，审查人员就无法进行修改。"
+msgstr "虽然你*可以*从你的 `main` 分支提交拉取请求，但这不是最佳方法。如果你提交的拉取请求基本正确，那么审查你的拉取请求的核心团队成员将会直接在你的拉取请求上做出所需的更改，而不会给出反馈以要求你做细微的改动。但是，如果你从你的 `main` 分支提交拉取请求，审核人员将无法进行直接修改。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:5
-#, fuzzy
 msgid "Working off your main branch also makes it difficult for *you* after you complete your first pull request. If you want to work on a second pull request, you will need to have a \"clean\" copy of the upstream project's main branch on which to base your second contribution; if you've made your first contribution from your `main` branch, you no longer have that clean version available."
-msgstr "在完成第一个拉取请求后，在主分支上工作也会给*你*带来困难。如果你想处理第二个拉取请求，你需要有一个上游项目主分支的 \"干净 \"拷贝作为你第二次贡献的基础；如果你已经从你的 \"主 \"分支做了第一次贡献，你就不再有那个干净的版本可用了。"
+msgstr "在 main 分支上工作也会给*你*自己完成第一个拉取请求后时带来困难。如果你想贡献第二个拉取请求，你需要有一份上游项目 main 分支的“干净”版本为基础；如果你已经从你的 `main` 分支做了第一次贡献，你也就不会有另一个干净的版本可用了。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:7
 #, fuzzy
@@ -124,7 +107,6 @@ msgid "(.venv) C:\\...>git switch -c fix-win11-build"
 msgstr "(.venv) C:\\...>git switch -c fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:1
-#, fuzzy
 msgid "Before making any changes to {{ formal_name }}'s documentation, it is helpful to confirm that you can build the existing documentation."
 msgstr "在对 {{ formal_name }} 的文档进行任何更改之前，最好先确认您可以构建现有文档。"
 
@@ -146,14 +128,12 @@ msgid "Live documentation preview"
 msgstr "实时文档预览"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:12
-#, fuzzy
 msgid "To support rapid editing of documentation, {{ formal_name }} has a \"live preview\" mode."
-msgstr "为支持文档的快速编辑，{{ formal_name }} 具有 \"实时预览 \"模式。"
+msgstr "为支持文档的快速编辑，{{ formal_name }} 文档具有“实时预览”模式。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:14
-#, fuzzy
 msgid "/// warning | The live preview will build with warnings!"
-msgstr "/// warning | 实时预览将带警告构建！"
+msgstr "/// warning | 实时预览构建不受警告影响！"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
@@ -166,17 +146,14 @@ msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that 
 msgstr "警告 \"不同于 \"错误\"。如果引入了一个被认为是 \"错误 \"的问题，实时服务就会失败，需要重新启动。在`警告`问题解决之前，它不会再次启动。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
-#, fuzzy
 msgid "To start the live server:"
 msgstr "启动实时服务器："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:30 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:40
-#, fuzzy
 msgid "(venv) $ tox -e docs-live"
 msgstr "(venv) $ tox -e docs-live"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:48
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-live"
 msgstr "(venv) C:\\...>tox -e docs-live"
 
@@ -227,12 +204,10 @@ msgid "To generate a local build:"
 msgstr "若想要生成本地构建："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:86 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:96
-#, fuzzy
 msgid "(venv) $ tox -e docs"
 msgstr "(venv) $ tox -e docs"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:104
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs"
 msgstr "(venv) C:\\...>tox -e docs"
 
@@ -246,9 +221,8 @@ msgid "{% if config.extra.translated %}"
 msgstr "{% if config.extra.translated %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:116
-#, fuzzy
 msgid "Generating a local translated build"
-msgstr "生成本地翻译版本"
+msgstr "构建本地翻译版本"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:118
 #, fuzzy
@@ -256,14 +230,12 @@ msgid "{{ formal_name }}'s documentation is translated into multiple languages. 
 msgstr "{{ formal_name }} 的文档被翻译成多种语言。英文文档的更新有可能导致其他语言版本出现问题。在提交拉取请求之前，请务必确认所有版本都能正常运行。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:120
-#, fuzzy
 msgid "To generate a build of all available translations:"
-msgstr "生成所有可用翻译的构建文件："
+msgstr "构建所有可用翻译："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:128 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:138
-#, fuzzy
 msgid "(venv) $ tox -e docs-all"
-msgstr "(动词) $ tox -e docs-all"
+msgstr "(venv) $ tox -e docs-all"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:146
 #, fuzzy
@@ -280,12 +252,10 @@ msgid "If you find an issue with a single build, you can run that individual bui
 msgstr "如果您发现单个编译存在问题，可以运行 `tox -e docs-<languagecode>` 单独运行该单个编译。例如，要只编译法语文档，请运行："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:164 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:174
-#, fuzzy
 msgid "(venv) $ tox -e docs-fr"
 msgstr "(venv) $ tox -e docs-fr"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:182
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-fr"
 msgstr "(venv) C:\\...>tox -e docs-fr"
 
@@ -295,21 +265,18 @@ msgid "The output of a single-language build will be in the `_build` directory."
 msgstr "单语言编译的输出将位于 `_build` 目录中。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:194
-#, fuzzy
 msgid "Documentation linting"
-msgstr "文件整理"
+msgstr "运行文档 lint"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:196
 msgid "The build process will identify Markdown problems, but {{ formal_name }} performs some additional checks for style and formatting, known as \"linting\". To run the lint checks:"
 msgstr "构建过程会识别 Markdown 问题，但 {{ formal_name }} 还会执行一些额外的样式和格式检查，即所谓的 \"linting\"。要运行 \"linting \"检查:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:204 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:214
-#, fuzzy
 msgid "(venv) $ tox -e docs-lint"
 msgstr "(venv) $ tox -e docs-lint"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:222
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-lint"
 msgstr "(venv) C:\\...>tox -e docs-lint"
 
@@ -319,12 +286,10 @@ msgid "This will validate the documentation does not contain:"
 msgstr "这将验证文件是否包含："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:232
-#, fuzzy
 msgid "dead hyperlinks"
 msgstr "死超链接"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:233
-#, fuzzy
 msgid "misspelled words"
 msgstr "错别字"
 
