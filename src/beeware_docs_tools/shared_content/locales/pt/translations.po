@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-20 09:01+0000\n"
-"PO-Revision-Date: 2026-06-20 09:01+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-20 09:01+0000\nPO-Revision-Date: 2026-06-21 17:01+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -140,7 +128,7 @@ msgstr "Para suportar edição rápida da documentação, {{ formal_name }} tem 
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:14
 msgid "/// warning | The live preview will build with warnings!"
-msgstr "/// aviso | A pré-visualização em tempo real vai compilar com avisos!"
+msgstr "/// warning | A pré-visualização em tempo real vai compilar com avisos!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
@@ -180,7 +168,7 @@ msgstr "Abra um navegador e navegue até ao URL fornecido. Agora pode começar a
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:66
 msgid "/// note | `docs-live` is an initial step"
-msgstr "/// nota | O `docs-live` é um passo inicial"
+msgstr "/// note | O `docs-live` é um passo inicial"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:68
 msgid "Running `docs-live` to work with the live server is meant for initial iterating. You should *always* run a local build before submitting a pull request."
@@ -764,7 +752,7 @@ msgstr "Depois de fornecer o máximo de informações possível, clique em \"Cri
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:65
 msgid "/// warning | Using the GitHub CLI to create an issue"
-msgstr "/// aviso | Usar a CLI do GitHub para criar um problema"
+msgstr "/// warning | Usar a CLI do GitHub para criar um problema"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:67
 msgid "Directly using the GitHub CLI (`gh`) bypasses the templates we've created. These templates exist to ensure that we end up with the necessary information to act on the issue."
@@ -835,199 +823,160 @@ msgid "If we determine that your idea isn't a good fit, it doesn't necessarily m
 msgstr "Se determinarmos que a sua ideia não é adequada, isso não significa necessariamente que deva desistir dela. Embora possamos rejeitar uma ideia *específica*, talvez sejamos muito mais recetivos a adicionar uma interface de plug-in ou outro ponto de extensão que permita manter o mesmo recurso como uma biblioteca externa. Dessa forma, poderá ter o recurso, mas sem que as preocupações específicas de manutenção ou as limitações do recurso se tornem numa restrição ao próprio projeto."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:25
-#, fuzzy
 msgid "Convert to a formal feature request"
-msgstr "Converter em uma solicitação formal de recurso"
+msgstr "Converter num pedido formal de funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:27
-#, fuzzy
 msgid "Once the discussion has reached a consensus on the form of a feature, you can create a new [feature request issue](https://github.com/beeware/{{ project_name }}/issues/new/choose), in the {{ formal_name }} issue tracker, that summarizes the discussion, linking to the discussion for context."
-msgstr "Depois que a discussão chegar a um consenso sobre a forma de um recurso, você poderá criar um novo [problema de solicitação de recurso] (https://github.com/beeware/{{ project_name }}/issues/new/choose), no rastreador de problemas {{nome_formal }}, que resuma a discussão, com links para a discussão para fins de contexto."
+msgstr "Depois que a discussão chegar a um consenso sobre a forma de uma funcionalidade, poderá criar um novo [problema de pedido de funcionalidade] (https://github.com/beeware/{{ project_name }}/issues/new/choose), no rastreio de problemas {{ formal_name }}, que resuma a discussão, com atalhos para a discussão para fins de contexto."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:29
-#, fuzzy
 msgid "You don't have to implement your feature proposal yourself; you can open an issue with the details of what you're proposing. However, simply posting the issue doesn't mean it's going to be implemented for you. You'll need to wait for it to potentially get picked up by someone else interested in the same feature, whether that means another community member or the core team; however this is not guaranteed to happen. If you want the guarantee implementation, you'll need to implement it yourself, or pay someone else to implement it for you."
-msgstr "Você não precisa implementar a sua proposta de recurso por conta própria; você pode abrir um problema com os detalhes do que está propondo. No entanto, o simples fato de publicar a questão não significa que ela será implementada para você. Você precisará esperar que ela seja potencialmente escolhida por outra pessoa interessada no mesmo recurso, seja outro membro da comunidade ou a equipe principal; no entanto, não há garantia de que isso aconteça. Se você quiser a implementação garantida, precisará implementá-la você mesmo ou pagar alguém para implementá-la para você."
+msgstr "Não precisa implementar a sua proposta de funcionalidade por conta própria; pode abrir um problema com os detalhes do que está a propor. No entanto, o simples facto de publicar a questão não significa que ela será implementada para si. Vai precisar esperar que ela seja potencialmente escolhida por outra pessoa interessada no mesmo recurso, seja outro membro da comunidade ou a equipa principal; no entanto, não há garantia de que isso aconteça. Se quiser a implementação garantida, vai precisar de implementa-la você mesmo ou pagar a alguém para implementa-la por si."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:1
-#, fuzzy
 msgid "You can't fix a problem if you don't have the problem in the first place. Therefore, reproducing the issue is a prerequisite to fixing it. In software, problems are commonly referred to as [\"bugs\"]{1}, and issues are often called \"bug reports\"."
-msgstr "Você não pode consertar um problema se não tiver o problema em primeiro lugar. Portanto, reproduzir o problema é um pré-requisito para corrigi-lo. Em software, os problemas são comumente chamados de [\"bugs\"]{1}, e os problemas são geralmente chamados de \"relatórios de bugs\"."
+msgstr "Não pode consertar um problema se não tiver o problema em primeiro lugar.Assim, reproduzir o problema é um pré-requisito para corrigi-lo. Em software, as situações irregulares são normalmente chamadas de [\"bugs\"]{1}, e os problemas são geralmente chamados de \"relatórios de bugs\"."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:3
-#, fuzzy
 msgid "Someone has provided a bug report. You need to validate that the steps the reporter describes are resulting in the bug being reported. Can you reproduce the same result by doing exactly what was described in the report? If you can't, you need to figure out why."
-msgstr "Alguém forneceu um relatório de bug. Você precisa validar se as etapas descritas pelo relator estão resultando no bug relatado. Você pode reproduzir o mesmo resultado fazendo exatamente o que foi descrito no relatório? Se não conseguir, você precisa descobrir o motivo."
+msgstr "Alguém forneceu um relatório de bug. Você precisa de validar se os passos descritas pelo relator estão a resultar no bug relatado. Pode reproduzir o mesmo resultado fazendo exatamente o que foi descrito no relatório? Se não conseguir, precisa descobrir o motivo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:8
-#, fuzzy
 msgid "Bugs in code"
 msgstr "Bugs no código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:10
-#, fuzzy
 msgid "In an ideal situation, you will have the same setup as the person who reported the bug, you will follow the steps, and you will be able to reproduce the bug as described. In many cases, though, it won't be so straightforward. Many bug reports include only vague explanations, and a vague set of conditions. The problem is that many bugs vary based on the set of conditions involved, including how they're interacted with, various preconditions, operating system, operating system version, CPU architecture, or whether the user's machine is old and slow or new and fast. The more information we have about the situation surrounding the bug, the better. Try and reproduce the set of conditions that the reporter has provided. If you're unable to do so, your next step may need to be requesting more information from the person who reported the bug."
-msgstr "Em uma situação ideal, você terá a mesma configuração que a pessoa que relatou o bug, seguirá as etapas e conseguirá reproduzir o bug conforme descrito. Em muitos casos, porém, isso não será tão simples. Muitos relatórios de bugs incluem apenas explicações vagas e um conjunto vago de condições. O problema é que muitos bugs variam de acordo com o conjunto de condições envolvidas, incluindo a forma de interação, várias condições prévias, sistema operacional, versão do sistema operacional, arquitetura da CPU ou se a máquina do utilizador é antiga e lenta ou nova e rápida. Quanto mais informações tivermos sobre a situação que envolve o bug, melhor. Tente reproduzir o conjunto de condições que o relator forneceu. Se não conseguir fazer isso, sua próxima etapa talvez precise solicitar mais informações à pessoa que relatou o bug."
+msgstr "Numa situação ideal, terá a mesma configuração que a pessoa que relatou o bug, vai seguir os passos e conseguir reproduzir o bug conforme descrito. Em muitos casos, porém, isto não será tão simples. Muitos relatórios de bugs incluem apenas explicações vagas e um conjunto vago de condições. O problema é que muitos bugs variam de acordo com o conjunto de condições envolvidas, incluindo a forma de interação, várias condições prévias, sistema operativo, versão do sistema operativo, arquitetura da CPU ou se a máquina do utilizador é antiga e lenta ou nova e rápida. Quanto mais informações tivermos sobre a situação que envolve o bug, melhor. Tente reproduzir o conjunto de condições que o relator forneceu. Se não conseguir fazer isso, no seu próximo passo talvez precise de solicitar mais informações à pessoa que relatou o bug."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:12
-#, fuzzy
 msgid "The best way to reproduce a bug is with the smallest possible example that still exhibits the issue. Most of the time reporters will not provide a minimum viable example; if they provide *any* example at all, it will be copied directly from their \"real world\" application. Your aim will be to reduce the report down to the simplest possible form that exhibits the issue. The best reproduction case is the smallest possible program. This reduction is itself helpful because it determines what the actual problem is. Anyone can take the minimal example, run it, and they will observe the bug that is described."
-msgstr "A melhor maneira de reproduzir um bug é com o menor exemplo possível que ainda exiba o problema. Na maioria das vezes, os relatores não fornecerão um exemplo mínimo viável; se fornecerem *algum* exemplo, ele será copiado diretamente de seu aplicação do \"mundo real\". Seu objetivo será reduzir o relatório à forma mais simples possível que exiba o problema. O melhor caso de reprodução é o menor programa possível. Essa redução é útil porque determina qual é o problema real. Qualquer pessoa pode pegar o exemplo mínimo, executá-lo e observar o bug descrito."
+msgstr "A melhor maneira de reproduzir um bug é com o menor exemplo possível que ainda exiba o problema. Na maioria das vezes, os relatores não fornecem um exemplo mínimo viável; se fornecerem *algum* exemplo, ele será copiado diretamente da sua aplicação do \"mundo real\". O seu objetivo será reduzir o relatório à forma mais simples possível que exiba o problema. O melhor caso de reprodução é o menor programa possível. Essa redução é útil porque determina qual é o problema real. Qualquer pessoa pode pegar no exemplo mínimo, executa-lo e observar o bug descrito."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:14
-#, fuzzy
 msgid "Bugs in documentation"
 msgstr "Bugs na documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:16
-#, fuzzy
 msgid "Bugs in documentation can manifest in different ways. There are problems with formatting that result in rendering issues. Sometimes it's not even a bug; the person may have misread the documentation, or made a genuine mistake. This doesn't necessarily mean there isn't an issue with the documentation. The content may be unclear or imprecise, leaving room for confusion or misinterpretation. It's possible that a concept that should be discussed isn't, because it is completely undocumented."
 msgstr "Os bugs na documentação podem se manifestar de diferentes maneiras. Há problemas de formatação que resultam em problemas de renderização. Às vezes, não se trata nem mesmo de um bug; a pessoa pode ter lido mal a documentação ou cometido um erro genuíno. Isso não significa necessariamente que não haja um problema com a documentação. O conteúdo pode ser pouco claro ou impreciso, dando margem a confusão ou má interpretação. É possível que um conceito que deveria ser discutido não o seja, porque não está completamente documentado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:18
-#, fuzzy
 msgid "When a bug is filed for a documentation issue, you'll want to verify that the issue reported actually still exists. In the case of rendering issues, you'll need to build the documentation to see if you can reproduce the issue. Content issues are a matter of reading to verify that no one has submitted an update."
-msgstr "Quando um bug é registrado para um problema de documentação, você deve verificar se o problema relatado ainda existe. No caso de problemas de renderização, você precisará criar a documentação para ver se consegue reproduzir o problema. Os problemas de conteúdo são uma questão de leitura para verificar se ninguém enviou uma atualização."
+msgstr "Quando um bug é preenchido para um problema de documentação, vai querer verificar se o problema relatado ainda existe. No caso de problemas de renderização, vai precisar de criar a documentação para ver se consegue reproduzir o problema. Os problemas de conteúdo são uma questão de leitura para verificar se ninguém enviou uma atualização."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:20
-#, fuzzy
 msgid "Update the issue"
 msgstr "Atualizar o problema"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:22
-#, fuzzy
 msgid "The final step in the triage process is to document your findings by leaving a comment on the issue."
-msgstr "A etapa final do processo de triagem é documentar suas descobertas deixando um comentário sobre o problema."
+msgstr "O passo final do processo de triagem é documentar as suas descobertas deixando um comentário sobre o problema."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:24
-#, fuzzy
 msgid "If you're able to reproduce the issue exactly as described, that's all you need to say. Leave a comment saying that you've confirmed that you're seeing the same problem, in the exact way the original reporter describes."
-msgstr "Se você conseguir reproduzir o problema exatamente como descrito, isso é tudo o que você precisa dizer. Deixe um comentário dizendo que você confirmou que está vendo o mesmo problema, exatamente da maneira descrita pelo relator original."
+msgstr "Se conseguir reproduzir o problema exatamente como descrito, isso é tudo o que precisa dizer. Deixe um comentário dizendo que confirmou que está a ver o mesmo problema, exatamente da maneira descrita pelo relator original."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:26
-#, fuzzy
 msgid "If you're able to provide any additional context, then include details of that context. This might include being able to reproduce the problem on a different operating system, or with a different version of some of the software involved, or anything else that varies from the original report."
-msgstr "Se você puder fornecer algum contexto adicional, inclua os detalhes desse contexto. Isso pode incluir a possibilidade de reproduzir o problema em um sistema operacional diferente, ou com uma versão diferente de algum dos softwares envolvidos, ou qualquer outra coisa que varie do relatório original."
+msgstr "Se puder fornecer algum contexto adicional, inclua os detalhes desse contexto. Isto pode incluir a possibilidade de reproduzir o problema num sistema operativo diferente, ou com uma versão diferente de algum dos softwares envolvidos, ou qualquer outra coisa que varie do relatório original."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:28
-#, fuzzy
 msgid "If the original report was missing details that you needed to reproduce the report, include *those* details. This might include providing operating system or version details that the original report didn't make, more complete logs or stack traces, or clearer instructions on the exact sequence of operations needed to reproduce the problem. If you've developed a simpler way to reproduce the problem (or the original reporter didn't provide a reproduction case), you can include details of that reproduction methodology."
-msgstr "Se o relatório original não continha detalhes necessários para reproduzi-lo, inclua *esses* detalhes. Isso pode incluir o fornecimento de detalhes do sistema operacional ou da versão que o relatório original não forneceu, logs ou rastreamentos de pilha mais completos ou instruções mais claras sobre a sequência exata de operações necessárias para reproduzir o problema. Se você desenvolveu uma maneira mais simples de reproduzir o problema (ou se o relator original não forneceu um caso de reprodução), você pode incluir detalhes dessa metodologia de reprodução."
+msgstr "Se o relatório original não continha detalhes necessários para reproduzi-lo, inclua *esses* detalhes. Isso pode incluir o fornecimento de detalhes do sistema operativo ou da versão que o relatório original não forneceu, relatórios ou rastreios de pilha mais completos ou instruções mais claras sobre a sequência exata de operações necessárias para reproduzir o problema. Se desenvolveu uma maneira mais simples de reproduzir o problema (ou se o relator original não forneceu um caso de reprodução), pode incluir detalhes desse método de reprodução."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:30
-#, fuzzy
 msgid "If you *can't* reproduce the issue, then you also leave a comment, detailing what you tried. Knowing where a problem *doesn't* exist is almost as important as knowing where it *does* exist, because that helps to narrow down a possible cause. If you have any theories about *why* you can't reproduce the problem - for example, if you think it's an error of usage, or that the problem has been resolved by a recent operating system update - include that speculation as part of your comment."
-msgstr "Se você não conseguir reproduzir o problema, deixe também um comentário detalhando o que você tentou fazer. Saber onde um problema não existe é quase tão importante quanto saber onde ele existe, pois isso ajuda a restringir uma possível causa. Se você tiver alguma teoria sobre *por que* não consegue reproduzir o problema — por exemplo, se você acha que é um erro de uso ou que o problema foi resolvido por uma atualização recente do sistema operacional — inclua essa especulação como parte do seu comentário."
+msgstr "Se não conseguir reproduzir o problema, deixe também um comentário detalhando o que tentou fazer. Saber onde um problema não existe é quase tão importante quanto saber onde ele existe, pois isso ajuda a restringir uma possível causa. Se tiver alguma teoria sobre *porque* não consegue reproduzir o problema — por exemplo, se acha que é um erro de utilização ou que o problema foi resolvido por uma atualização recente do sistema operativo — inclua essa especulação como parte do seu comentário."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:32
-#, fuzzy
 msgid "Lastly, you can provide any recommendations you may have to the core team. If you think the original report is in error, suggest that the issue should be closed; if you have a theory about the cause of the issue, you can suggest that as well. Your comments will help the core team work out how to progress the issue to the next step."
-msgstr "Por fim, você pode fazer recomendações para a equipe principal. Se você acha que o relatório original está errado, sugira que o problema seja encerrado; se você tiver uma teoria sobre a causa do problema, também pode sugerir isso. Seus comentários ajudarão a equipe principal a descobrir como passar o problema para a próxima etapa."
+msgstr "Por fim, pode fazer recomendações para a equipa principal. Se acha que o relatório original está errado, sugira que o problema seja encerrado; se tiver uma teoria sobre a causa do problema, também pode sugerir isso. Os seus comentários vão ajudar a equipa principal a descobrir como passar o problema para o próximo passo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:1
-#, fuzzy
 msgid "Everyone is welcome to review any contribution to the BeeWare project. There are some important considerations to be aware of before getting started."
-msgstr "Todos são bem-vindos para revisar qualquer contribuição para o projeto BeeWare. Há algumas considerações importantes que devem ser levadas em conta antes de começar."
+msgstr "Todos são bem-vindos para rever qualquer contribuição para o projeto  BeeWare. Há algumas considerações importantes que devem ser tidas em conta antes de começar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:3
-#, fuzzy
 msgid "THINK before you review"
-msgstr "PENSAR antes de revisar"
+msgstr "PENSAR antes de rever"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:5
-#, fuzzy
 msgid "Before engaging in a review, THINK. As reviewers, we should consider whether the response we're about to send is:"
-msgstr "Antes de se envolver em uma avaliação, PENSE. Como avaliadores, devemos considerar se a resposta que estamos prestes a enviar é..:"
+msgstr "Antes de se envolver numa avaliação, PENSE. Como revisores, devemos considerar se a resposta que estamos prestes a enviar é:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:7
-#, fuzzy
 msgid "True. Always strive to provide accurate suggestions and information."
-msgstr "Verdadeiro. Sempre se esforce para fornecer sugestões e informações precisas."
+msgstr "Verdadeira. Esforce-se sempre para fornecer sugestões e informações precisas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:8
-#, fuzzy
 msgid "Helpful. We are providing guidance on how to improve the submission; this guidance should clearly identify the source of a problem or an unconsidered use case, and ideally provides a path forward for what would resolve or satisfy the concern."
-msgstr "Útil. Estamos fornecendo orientação sobre como melhorar o envio; essa orientação deve identificar claramente a origem de um problema ou de um caso de uso não considerado e, idealmente, fornecer um caminho a seguir para resolver ou satisfazer a preocupação."
+msgstr "Útil. Estamos a fornecer orientação sobre como melhorar a submissão; essa orientação deve identificar claramente a origem de um problema ou de um caso de uso não considerado e, idealmente, fornecer um caminho a seguir para resolver ou satisfazer a preocupação."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:9
-#, fuzzy
 msgid "Inspiring. It is up to us to inspire the author to want to work through our requested changes."
-msgstr "Inspirador. Cabe a nós inspirar o autor a querer trabalhar com nossas alterações solicitadas."
+msgstr "Inspiradora. Cabe a nós inspirar o autor a querer trabalhar com as nossas alterações solicitadas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:10
-#, fuzzy
 msgid "Necessary. The expectation is that the author will read everything we post; we must respect their time and effort by only posting when necessary."
-msgstr "Necessário. A expectativa é que o autor leia tudo o que postamos; devemos respeitar seu tempo e esforço postando somente quando necessário."
+msgstr "Necessária. A expectativa é que o autor leia tudo o que postamos; devemos respeitar seu tempo e esforço postando só quando necessário."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:11
-#, fuzzy
 msgid "Kind. There are multiple ways to present the same feedback; we need to ensure we are choosing to be kind, supportive, and constructive with our words."
-msgstr "Gentil. Há várias maneiras de apresentar o mesmo feedback; precisamos garantir que estamos escolhendo ser gentis, solidários e construtivos com nossas palavras."
+msgstr "Gentil. Há várias maneiras de apresentar o mesmo retorno de informação; precisamos garantir que estamos a escolher ser gentis, solidários e construtivos com as nossas palavras."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:13
-#, fuzzy
 msgid "It is entirely possible to THINK, while also providing an effective review. The concepts discussed above to not preclude pointing out any issues you find with a PR. Contributors won't have the opportunity to improve their contribution if they are unaware of areas needing improvement. The important thing is to remain aware of *how* you are presenting this feedback. Try to depersonalize your review. Instead of, \"You made a mistake,\" you can say, \"This code could be improved.\" Review the code, not the author."
-msgstr "É perfeitamente possível PENSAR e, ao mesmo tempo, fazer uma avaliação eficaz. Os conceitos discutidos acima não impedem que você aponte quaisquer problemas que encontrar em um PR. Os colaboradores não terão a oportunidade de melhorar sua contribuição se não tiverem conhecimento das áreas que precisam ser aprimoradas. O importante é estar ciente de *como* você está apresentando esse feedback. Tente despersonalizar sua avaliação. Em vez de dizer: \"Você cometeu um erro\", você pode dizer: \"Este código pode ser melhorado\". Analise o código, não o autor."
+msgstr "É perfeitamente possível PENSAR e, ao mesmo tempo, fazer uma revisão eficaz. Os conceitos discutidos acima não impedem que aponte quaisquer problemas que encontrar num PR. Os colaboradores não terão a oportunidade de melhorar a sua contribuição se não tiverem conhecimento das áreas que precisam ser melhoradas. O importante é estar ciente de *como* está a apresentar esse retorno de informação. Tente despersonalizar a sua avaliação. Em vez de dizer: \"Você cometeu um erro\", pode dizer: \"Este código pode ser melhorado\". Analise o código, não o autor."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:15
-#, fuzzy
 msgid "It's important to remember to provide positive feedback in addition to identifying the areas needing improvement. If, for example, the changes are especially helpful, do something particularly clever, or you are introduced to an API that you didn't know about, let the author know! Never underestimate the effect of pointing out something someone has done correctly or well, in the middle of a situation where everything else you've pointed out are issues that need to be resolved."
-msgstr "É importante lembrar-se de fornecer feedback positivo, além de identificar as áreas que precisam ser aprimoradas. Se, por exemplo, as alterações forem especialmente úteis, fizerem algo particularmente inteligente ou você for apresentado a uma API que não conhecia, informe o autor! Nunca subestime o efeito de apontar algo que alguém fez corretamente ou bem, no meio de uma situação em que tudo o mais que você apontou são problemas que precisam ser resolvidos."
+msgstr "É importante lembrar-se de fornecer retorno de informação positivo, além de identificar as áreas que precisam ser melhoradas. Se, por exemplo, as alterações forem especialmente úteis, fizerem algo particularmente inteligente ou for apresentado a uma API que não conhecia, informe o autor! Nunca subestime o efeito de apontar algo que alguém fez corretamente ou bem, no meio de uma situação em que tudo o mais que apontou são problemas que precisam ser resolvidos."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:17
-#, fuzzy
 msgid "GitHub review suggestions"
 msgstr "Sugestões de revisão do GitHub"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:19
-#, fuzzy
 msgid "The GitHub review interface has a mechanism for change suggestions, in which you can provide the exact change you are suggesting as a replacement for the existing content. Keep in mind that, until they are accepted and committed, these suggested changes won't be run through pre-commit and the linting checks. Therefore, this feature should be used for smaller changes, as the larger the suggested change is, the more likely it is to introduce issues."
-msgstr "A interface de revisão do GitHub tem um mecanismo para sugestões de alteração, no qual você pode fornecer a alteração exata que está sugerindo como uma substituição do conteúdo existente. Lembre-se de que, até que sejam aceitas e confirmadas, essas alterações sugeridas não passarão pelas verificações de pré-compromisso e de linting. Portanto, esse recurso deve ser usado para alterações menores, pois quanto maior for a alteração sugerida, maior será a probabilidade de ela introduzir problemas."
+msgstr "A interface de revisão do GitHub tem um mecanismo para sugestões de alteração, no qual pode fornecer a alteração exata que está a sugerir como uma substituição do conteúdo existente. Lembre-se de que, até que sejam aceites e confirmadas, essas alterações sugeridas não passarão pelas verificações de pré-compromisso e de análise de código. Portanto, esta funcionalidade deve ser usada para alterações menores, pois quanto maior for a alteração sugerida, maior será a probabilidade dela introduzir problemas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:1
-#, fuzzy
 msgid "\"Scope creep\" happens when the list of problems resolved or features implemented by a single contribution grows significantly beyond what was intended when the work began. You start with a simple issue; you discover a closely related problem, and decide to include that fix as well; then a third... before you know it, you've got a pull request that closes 5 issues and adds 3 new features, including dozens of files."
-msgstr "O \"aumento de escopo\" ocorre quando a lista de problemas resolvidos ou de recursos implementados por uma única contribuição cresce significativamente além do que se pretendia quando o trabalho começou. Você começa com um problema simples; descobre um problema intimamente relacionado e decide incluir essa correção também; depois uma terceira... antes que você perceba, você tem uma solicitação pull que fecha 5 problemas e adiciona 3 novos recursos, incluindo dezenas de ficheiros."
+msgstr "A \"expansão de escopo\" ocorre quando a lista de problemas resolvidos ou de recursos implementados por uma única contribuição cresce significativamente além do que se pretendia quando o trabalho começou. Começa com um problema simples; descobre um problema intimamente relacionado e decide incluir essa correção também; depois uma terceira... antes que perceba, tem um pedido de puxar que fecha 5 problemas e adiciona 3 novas funcionalidades, incluindo dezenas de ficheiros."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:3
-#, fuzzy
 msgid "Scope creep happens to everyone. It is a concept that is all too familiar to seasoned developers; we've all done it multiple times, and experienced all the issues that come with it."
-msgstr "O desvio de escopo acontece com todo mundo. É um conceito muito familiar para os desenvolvedores experientes; todos nós já o fizemos várias vezes e experimentamos todos os problemas que o acompanham."
+msgstr "Expansão de escopo acontece a todos. É um conceito muito familiar para os desenvolvedores experientes; todos nós já o fizemos várias vezes e experimentamos todos os problemas que o acompanham."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:5
-#, fuzzy
 msgid "There are very practical reasons to avoid scope creep. The larger a contribution gets, the more difficult it is to work with. It becomes harder to identify edge cases or potential problems, which means overall quality of the contribution may be diminished. Reviews also become more challenging when the reviewer needs to deal with multiple, potentially unrelated, contexts. A larger contribution means more review comments, and as a contributor, it can become difficult to follow multiple review threads. Even your GitHub experience will suffer - GitHub's UI will slow down as the size of a PR grows, meaning navigating the files through the GitHub interface and attempting to leave review comments becomes increasingly difficult."
-msgstr "Há motivos muito práticos para evitar o aumento do escopo. Quanto maior for uma contribuição, mais difícil será trabalhar com ela. Torna-se mais difícil identificar casos extremos ou problemas em potencial, o que significa que a qualidade geral da contribuição pode ser reduzida. As revisões também se tornam mais desafiadoras quando o revisor precisa lidar com vários contextos, possivelmente não relacionados. Uma contribuição maior significa mais comentários de revisão e, como colaborador, pode ser difícil acompanhar várias linhas de revisão. Até mesmo sua experiência no GitHub será prejudicada - a interface do utilizador do GitHub ficará mais lenta à medida que o tamanho de um PR aumentar, o que significa que navegar pelos ficheiros por meio da interface do GitHub e tentar deixar comentários de revisão se tornará cada vez mais difícil."
+msgstr "Há motivos muito práticos para evitar a expansão do escopo. Quanto maior for uma contribuição, mais difícil será trabalhar com ela. Torna-se mais difícil identificar casos extremos ou problemas em potencial, o que significa que a qualidade geral da contribuição pode ser reduzida. As revisões também se tornam mais desafiadoras quando o revisor precisa lidar com vários contextos, possivelmente não relacionados. Uma contribuição maior significa mais comentários de revisão e, como colaborador, pode ser difícil acompanhar várias linhas de revisão. Até mesmo a sua experiência no GitHub vai ser prejudicada - a interface do utilizador do GitHub ficará mais lenta à medida que o tamanho de um PR aumentar, o que significa que navegar pelos ficheiros por meio da interface do GitHub e tentar deixar comentários de revisão vai se tornar cada vez mais difícil."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:7
-#, fuzzy
 msgid "Any time you find a reason to add anything to your contribution that isn't explicitly part of the original proposal or bug report, you should consider whether you're heading into scope creep. Are there two distinct features that could be implemented separately? Could a feature be implemented with a known limitation or bug, and that bug fixed in a follow-up pull request? Is one part of a bug fix independent of another? If part of a change can be left out without altering the original contribution, it probably should be."
-msgstr "Sempre que encontrar um motivo para adicionar algo à sua contribuição que não faça parte explicitamente da proposta original ou do relatório de bugs, você deve considerar se está entrando em um problema de aumento de escopo. Existem dois recursos distintos que poderiam ser implementados separadamente? Um recurso pode ser implementado com uma limitação ou bug conhecido e esse bug pode ser corrigido em um pull request de acompanhamento? Uma parte de uma correção de bug é independente de outra? Se parte de uma alteração puder ser deixada de fora sem alterar a contribuição original, provavelmente deverá ser."
+msgstr "Sempre que encontrar um motivo para adicionar algo à sua contribuição que não faça parte explicitamente da proposta original ou do relatório de bug, deve considerar se está a entrar num problema de expansão de escopo. Existem dois recursos distintos que poderiam ser implementados separadamente? Um recurso pode ser implementado com uma limitação ou bug conhecido e esse bug pode ser corrigido num pedido de puxar de acompanhamento? Uma parte de uma correção de bug é independente de outra? Se parte de uma alteração puder ser deixada de fora sem alterar a contribuição original, provavelmente deverá ser."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:9
-#, fuzzy
 msgid "Developing software is always a process of incremental improvement. Each individual contribution should leave the code base in a better state as a result of being merged, but it's entirely acceptable to leave bugs or parts of features as work for future improvement. That might mean breaking a pull request into multiple parts that can be reviewed independently, or logging an issue so that someone else can investigate and resolve the problem."
-msgstr "O desenvolvimento de software é sempre um processo de aprimoramento incremental. Cada contribuição individual deve deixar a base de código em um estado melhor como resultado de ser mesclada, mas é totalmente aceitável deixar bugs ou partes de recursos como trabalho para melhorias futuras. Isso pode significar dividir uma solicitação pull em várias partes que podem ser revisadas independentemente ou registrar um problema para que outra pessoa possa investigar e resolver o problema."
+msgstr "O desenvolvimento de software é sempre um processo de melhoria incremental. Cada contribuição individual deve deixar a base de código num estado melhor como resultado de ser fundida, mas é totalmente aceitável deixar bugs ou partes de recursos como trabalho para melhorias futuras. Isso pode significar dividir um pedido de puxar em várias partes que podem ser revistas independentemente ou registar um problema para que outra pessoa possa investigar e resolver o problema."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:11
-#, fuzzy
 msgid "Limiting the scope of each contribution helps everyone involved, including you. Your reviewers, and even you, will appreciate it."
-msgstr "Limitar o escopo de cada contribuição ajuda todos os envolvidos, inclusive você. Seus revisores, e até mesmo você, apreciarão isso."
+msgstr "Limitar o escopo de cada contribuição ajuda todos os envolvidos, inclusive você. Os seus revisores, e até mesmo você, vão apreciar isso."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:1
-#, fuzzy
 msgid "Now that you've committed all your changes, you're ready to submit a pull request. To ensure you have a smooth review process, there are a number of steps you should take."
-msgstr "Agora que você confirmou todas as suas alterações, está pronto para enviar uma solicitação pull. Para garantir um processo de revisão tranquilo, há uma série de etapas que você deve seguir."
+msgstr "Agora que confirmou todas as suas alterações, está pronto para enviar um pedido de puxar. Para garantir um processo de revisão tranquilo, há uma série de passos que deve seguir."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:3
-#, fuzzy
 msgid "Working with pre-commit"
-msgstr "Trabalhar com pre-commit"
+msgstr "Trabalhar com pré-submissão"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:5
-#, fuzzy
 msgid "When you commit any change, pre-commit will run automatically. If there are any issues found with the commit, this will cause your commit to fail. Where possible, pre-commit will make the changes needed to correct the problems it has found. In the following example, a code formatting issue was found by the `ruff` check:"
-msgstr "Quando você confirma qualquer alteração, o pre-commit é executado automaticamente. Se houver algum problema encontrado com o commit, isso fará com que o commit falhe. Sempre que possível, o pre-commit fará as alterações necessárias para corrigir os problemas encontrados. No exemplo a seguir, um problema de formatação de código foi encontrado pela verificação `ruff`:"
+msgstr "Quando submete qualquer alteração, a pré-submissão é executada automaticamente. Se houver algum problema encontrado com a submissão, isso fará com que a submissão falhe. Sempre que possível, a pré-submissão fará as alterações necessárias para corrigir os problemas encontrados. No exemplo a seguir, um problema de formatação de código foi encontrado pela verificação `ruff`:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:13 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:38
 msgid ""
@@ -1047,23 +996,7 @@ msgid ""
 "\n"
 "ruff check...............................................................Passed\n"
 "codespell................................................................Passed"
-msgstr ""
-"(.venv) $ git add some/interesting_file.py\n"
-"(.venv) $ git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Failed\n"
-"- hook id: ruff-format\n"
-"- files were modified by this hook\n"
-"\n"
-"1 file reformatted, 488 files left unchanged\n"
-"\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed"
+msgstr "(.venv) $ git add some/interesting_file.py\n(.venv) $ git commit -m \"Minor change\"\ncheck toml...............................................................Passed\ncheck yaml...............................................................Passed\ncheck for case conflicts.................................................Passed\ncheck docstring is first.................................................Passed\nfix end of files.........................................................Passed\ntrim trailing whitespace.................................................Passed\nruff format..............................................................Falhad\n- hook id: ruff-format\n- foram modificados ficheiros por este gancho\n\n1 ficheiro reformatado, 488 ficheiros não alterados\n\nruff check...............................................................Passed\ncodespell................................................................Passed"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:61
 msgid ""
@@ -1083,28 +1016,11 @@ msgid ""
 "\n"
 "ruff check...............................................................Passed\n"
 "codespell................................................................Passed"
-msgstr ""
-"(.venv) C:\\...>git add some/interesting_file.py\n"
-"(.venv) C:\\...>git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Failed\n"
-"- hook id: ruff-format\n"
-"- files were modified by this hook\n"
-"\n"
-"1 file reformatted, 488 files left unchanged\n"
-"\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed"
+msgstr "(.venv) C:\\...> git add some/interesting_file.py\n(.venv) C:\\...> git commit -m \"Minor change\"\ncheck toml...............................................................Passed\ncheck yaml...............................................................Passed\ncheck for case conflicts.................................................Passed\ncheck docstring is first.................................................Passed\nfix end of files.........................................................Passed\ntrim trailing whitespace.................................................Passed\nruff format..............................................................Falhad\n- hook id: ruff-format\n- foram modificados ficheiros por este gancho\n\n1 ficheiro reformatado, 488 ficheiros não alterados\n\nruff check...............................................................Passed\ncodespell................................................................Passed"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:84
-#, fuzzy
 msgid "In this case, `ruff` automatically fixed the problem; so you can then re-add any files that were modified as a result of the pre-commit checks, and re-commit the change. However, some checks will require you to make manual modifications. Once you've made those changes, re-add any modified files, and re-commit."
-msgstr "Nesse caso, o `ruff` corrigiu automaticamente o problema; portanto, você pode adicionar novamente todos os ficheiros que foram modificados como resultado das verificações de pré-compromisso e confirmar novamente a alteração. Entretanto, algumas verificações exigirão que você faça modificações manuais. Depois de fazer essas alterações, adicione novamente os ficheiros modificados e faça o commit novamente."
+msgstr "Nesse caso, o `ruff` corrigiu automaticamente o problema; portanto, pode adicionar novamente todos os ficheiros que foram modificados como resultado das verificações de pré-submissão e confirmar novamente a alteração. Entretanto, algumas verificações vão exigir que faça modificações manuais. Depois de fazer essas alterações, adicione novamente os ficheiros modificados e faça a submissão novamente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:92 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:114
 msgid ""
@@ -1121,20 +1037,7 @@ msgid ""
 "codespell................................................................Passed\n"
 "[bugfix e3e0f73] Minor change\n"
 "1 file changed, 4 insertions(+), 2 deletions(-)"
-msgstr ""
-"(.venv) $ git add some/interesting_file.py\n"
-"(.venv) $ git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Passed\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed\n"
-"[bugfix e3e0f73] Minor change\n"
-"1 file changed, 4 insertions(+), 2 deletions(-)"
+msgstr "(.venv) $ git add some/interesting_file.py\n(.venv) $ git commit -m \"Minor change\"\ncheck toml...............................................................Passed\ncheck yaml...............................................................Passed\ncheck for case conflicts.................................................Passed\ncheck docstring is first.................................................Passed\nfix end of files.........................................................Passed\ntrim trailing whitespace.................................................Passed\nruff format..............................................................Passed\nruff check...............................................................Passed\ncodespell................................................................Passed\n[bugfix e3e0f73] Minor change\n1 ficheiro alterado, 4 inseridos(+), 2 apagados(-)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:134
 msgid ""
@@ -1151,40 +1054,23 @@ msgid ""
 "codespell................................................................Passed\n"
 "[bugfix e3e0f73] Minor change\n"
 "1 file changed, 4 insertions(+), 2 deletions(-)"
-msgstr ""
-"(.venv) C:\\...>git add some\\interesting_file.py\n"
-"(.venv) C:\\...>git commit -m \"Minor change\"\n"
-"check toml...............................................................Passed\n"
-"check yaml...............................................................Passed\n"
-"check for case conflicts.................................................Passed\n"
-"check docstring is first.................................................Passed\n"
-"fix end of files.........................................................Passed\n"
-"trim trailing whitespace.................................................Passed\n"
-"ruff format..............................................................Passed\n"
-"ruff check...............................................................Passed\n"
-"codespell................................................................Passed\n"
-"[bugfix e3e0f73] Minor change\n"
-"1 file changed, 4 insertions(+), 2 deletions(-)"
+msgstr "(.venv) C:\\...>git add some\\interesting_file.py\n(.venv) C:\\...>git commit -m \"Minor change\"\ncheck toml...............................................................Passed\ncheck yaml...............................................................Passed\ncheck for case conflicts.................................................Passed\ncheck docstring is first.................................................Passed\nfix end of files.........................................................Passed\ntrim trailing whitespace.................................................Passed\nruff format..............................................................Passed\nruff check...............................................................Passed\ncodespell................................................................Passed\n[bugfix e3e0f73] Minor change\n1 ficheiro alterado, 4 inseridos(+), 2 apagados(-)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:154
-#, fuzzy
 msgid "Once everything passes, you'll see a message indicating the commit has been finalized, and your git log will show your commit as the most recent addition. You're now ready to push to GitHub."
-msgstr "Quando tudo for aprovado, você verá uma mensagem indicando que o commit foi finalizado, e o registro do git mostrará o commit como a adição mais recente. Agora você está pronto para fazer push para o GitHub."
+msgstr "Quando tudo for aprovado, verá uma mensagem indicando que a submissão foi finalizada, e o registo do git vai mostrar a submissão como a adição mais recente. Agora está pronto para empurrar para o GitHub."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:156
-#, fuzzy
 msgid "Push your changes to GitHub and create your pull request"
-msgstr "Envie suas alterações para o GitHub e crie sua solicitação pull"
+msgstr "Envie suas alterações para o GitHub e crie o seu pedido de puxar"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:158
-#, fuzzy
 msgid "The first time you push to GitHub, you'll be provided a URL that takes you directly to the GitHub page to create a new pull request. Follow the URL and create your pull request."
-msgstr "Na primeira vez que fizer push para o GitHub, você receberá uma URL que o levará diretamente à página do GitHub para criar uma nova pull request. Siga a URL e crie sua pull request."
+msgstr "Na primeira vez que empurrar para o GitHub, vai receber um URL que o vai levar diretamente à página do GitHub para criar um novo pedido de puxar. Siga p URL e crie o seu pedido de puxar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:160
-#, fuzzy
 msgid "The following shows an example of what to expect on `push`, with the URL highlighted."
-msgstr "A seguir, um exemplo do que esperar do `push`, com o URL destacado."
+msgstr "O seguinte mostra um exemplo do que esperar do `push`, com o URL destacado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:168 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:191
 msgid ""
@@ -1251,232 +1137,186 @@ msgstr ""
 " * [new branch]      fix-win11-build -> fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:233
-#, fuzzy
 msgid "If you've previously pushed the current branch to GitHub, you won't receive the URL again. However, there are other ways to get to the PR creation URL:"
-msgstr "Se você já tiver feito push do branch atual para o GitHub, não receberá o URL novamente. No entanto, há outras maneiras de acessar a URL de criação de PR:"
+msgstr "Se já tiver feito push do ramo atual para o GitHub, não vai receber o URL novamente. No entanto, há outras maneiras de aceder ao URL de criação de PR:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:235
-#, fuzzy
 msgid "Navigate to the upstream repository, click on \"Pull Requests\" followed by \"New pull request\", and choose the from which you want to submit your pull request."
-msgstr "Navegue até o repositório upstream, clique em \"Pull Requests\", seguido de \"New pull request\" (Nova solicitação pull) e escolha a partir da qual você deseja enviar a solicitação pull."
+msgstr "Navegue até o repositório do autor, clique em \"Pull Requests\", seguido de \"New pull request\" (Nova solicitação de puxar) e escolha a partir da qual deseja enviar o pedido de puxar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:236
-#, fuzzy
 msgid "If you pushed recently, navigate to the upstream repository, locate the banner above the list of files that indicates the repo has \"had recent pushes\", and click the \"Compare & pull request\" button."
-msgstr "Se você fez push recentemente, navegue até o repositório upstream, localize a faixa acima da lista de ficheiros que indica que o repositório \"teve pushes recentes\" e clique no botão \"Compare & pull request\"."
+msgstr "Se fez push recentemente, navegue até o repositório do autor, localize a faixa acima da lista de ficheiros que indica que o repositório \"teve pushes recentes\" e clique no botão \"Compare & pull request\"."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:237
-#, fuzzy
 msgid "Use the GitHub CLI `gh pr create --web` command to open a web browser to the PR creation page."
-msgstr "Use o comando `gh pr create --web` da CLI do GitHub para abrir um navegador da Web na página de criação de PR."
+msgstr "Use o comando `gh pr create --web` da CLI do GitHub para abrir um navegador Web na página de criação de PR."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:239
-#, fuzzy
 msgid "/// info | The GitHub CLI: `gh`"
 msgstr "/// info | A CLI do GitHub: `gh`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:241
-#, fuzzy
 msgid "GitHub provides the [GitHub CLI]{1}, which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [GitHub CLI documentation]{2} covers all the features."
-msgstr "O GitHub fornece a [GitHub CLI]{1}, que lhe dá acesso a muitos dos recursos do GitHub a partir do seu terminal, por meio do comando `gh`. A [Documentação da CLI do GitHub]{2} abrange todos os recursos."
+msgstr "O GitHub fornece a [CLI GitHub]{1}, que lhe dá acesso a muitos dos recursos do GitHub a partir do seu terminal, por meio do comando `gh`. A [Documentação da CLI do GitHub]{2} cobre todas as funcionalidades."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:245
-#, fuzzy
 msgid "/// warning | `gh pr create`"
 msgstr "/// warning | `gh pr create`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:247
-#, fuzzy
 msgid "Do *not* use the bare `gh pr create` command to create your pull request. BeeWare projects use a template for pull requests, and we require all contributions to follow this template. The `gh pr create` command circumvents the use of this template."
-msgstr "*Não* use o comando `gh pr create` sozinho para criar sua solicitação de pull. Os projetos do BeeWare utilizam um modelo para solicitações de pull, e exigimos que todas as contribuições sigam esse modelo. O comando `gh pr create` contorna o uso desse modelo."
+msgstr "*Não* use o comando `gh pr create` sozinho para criar o seu pedido de puxar. Os projetos do BeeWare utilizam um modelo para pedidos de puxar, e exigimos que todas as contribuições sigam esse modelo. O comando `gh pr create` contorna o uso desse modelo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:251
-#, fuzzy
 msgid "Pull request content { #pr-content }"
-msgstr "Conteúdo da solicitação de pull { #pr-content }"
+msgstr "Conteúdo do pedido de puxar { #pr-content }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:253
-#, fuzzy
 msgid "A pull request title must be informative, clear, and concise. Try to keep it short if possible, but longer titles are acceptable, if needed. A good PR title should give a person without any context a reasonably solid idea of what bug or feature is implemented by your PR."
-msgstr "O título de uma pull request deve ser informativo, claro e conciso. Tente mantê-lo curto, se possível, mas títulos mais longos são aceitáveis, se necessário. Um bom título de PR deve dar a uma pessoa sem nenhum contexto uma ideia razoavelmente sólida do bug ou do recurso implementado pelo seu PR."
+msgstr "O título de um pedido de puxar deve ser informativo, claro e conciso. Tente manter-lo curto se possível, mas títulos mais longos são aceitáveis, se tal for necessário. Um bom título de PR deve dar a uma pessoa sem nenhum contexto uma ideia razoavelmente sólida do bug ou funcionalidade implementada pelo seu PR."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:255
-#, fuzzy
 msgid "Your pull request **must** follow the BeeWare [pull request template]{1}. If you've created your pull request using the GitHub web interface, this template will be provided as a starting point for your pull request description. If you inadvertently create a pull request without using this template, you can edit the pull request to add the template content - but the template content *must* be provided and filled out appropriately."
-msgstr "Sua solicitação de pull **deve** seguir o [modelo de solicitação de pull]{1} do BeeWare. Se você criou sua solicitação de pull usando a interface web do GitHub, esse modelo será fornecido como ponto de partida para a descrição da sua solicitação. Se, por engano, você criar uma solicitação de pull sem usar esse modelo, poderá editá-la para adicionar o conteúdo do modelo — mas o conteúdo do modelo *deve* ser fornecido e preenchido corretamente."
+msgstr "O seu pedido de puxar **tem de** seguir o [modelo de pedido de puxar]{1} do BeeWare. Se criou o seu pedido de puxar usando a interface web do GitHub, esse modelo será fornecido como ponto de partida para a descrição do seu pedido. Se por engano criar um pedido de puxar sem usar esse modelo, poderá edita-lo para adicionar o conteúdo do modelo — mas o conteúdo do modelo *tem de* ser fornecido e preenchido corretamente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:257
-#, fuzzy
 msgid "The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others."
-msgstr "A descrição do PR deve refletir claramente as alterações no PR. Uma pessoa sem qualquer contexto deve ser capaz de ler sua descrição e obter uma compreensão relativamente completa do motivo pelo qual a alteração está sendo feita. Evite piadas, expressões idiomáticas, coloquialismos e formatação desnecessária, como o uso de letras maiúsculas ou pontuação excessiva; o objetivo é explicar de forma direta o que está acontecendo no seu PR, e evitar esses elementos torna a descrição mais acessível a outras pessoas."
+msgstr "A descrição do PR deve refletir claramente as alterações no PR. Uma pessoa sem qualquer contexto deve ser capaz de ler a sua descrição e obter uma compreensão relativamente completa do motivo pelo qual a alteração está a ser feita. Evite piadas, expressões idiomáticas, expressões coloquiais e formatação desnecessária, como o uso de letras maiúsculas ou pontuação excessiva; o objetivo é explicar de forma direta o que está a acontecer no seu PR, e evitar esses elementos torna a descrição mais acessível a outras pessoas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:259
-#, fuzzy
 msgid "If there are any reproduction cases, or any testing regimen that you used that are not already a part of the changes present in the PR, they should be explained and included in the PR. The explanation should include how to run them, and what to do to reproduce the desired outcome."
-msgstr "Se houver algum caso de reprodução ou qualquer regime de teste que você tenha usado e que ainda não faça parte das alterações presentes no PR, eles deverão ser explicados e incluídos no PR. A explicação deve incluir como executá-los e o que fazer para reproduzir o resultado desejado."
+msgstr "Se houver algum caso de reprodução ou qualquer regime de teste que tenha usado e que ainda não faça parte das alterações presentes no PR, eles devem ser explicados e incluídos no PR. A explicação deve incluir como executa-los e o que fazer para reproduzir o resultado desejado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:261
-#, fuzzy
 msgid "If your pull request will resolve issue #1234, you should include the text `Fixes #1234` in your pull request description. This will cause the issue to be automatically closed when the pull request is merged. You can refer to other discussions, issues or pull requests using the same `#1234` syntax. You can refer to an issue on a different repository by prefixing the number with - for example `python/cpython#1234` would refer to issue 1234 on the CPython repository."
-msgstr "Se a sua pull request for resolver o problema nº 1234, você deverá incluir o texto `Correções nº 1234` na descrição da pull request. Isso fará com que o problema seja fechado automaticamente quando o pull request for mesclado. Você pode fazer referência a outras discussões, problemas ou pull requests usando a mesma sintaxe `#1234`. Você pode se referir a um problema em um repositório diferente prefixando o número com - por exemplo, `python/cpython#1234` se referiria ao problema 1234 no repositório CPython."
+msgstr "Se o seu pedido de puxar resolver o problema nº 1234, deve incluir o texto `Fixes #1234` na descrição do pedido de puxar. Isso vai fazer com que o problema seja fechado automaticamente quando o pedido de puxar for fundido. Pode fazer referência a outras discussões, problemas ou pedidos de puxar usando a mesma sintaxe `#1234`. Pode referir-se a um problema num repositório diferente prefixando o número com - por exemplo, `python/cpython#1234` se estiver a referir ao problema 1234 no repositório CPython."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:263
-#, fuzzy
 msgid "AI tools are especially prone to writing verbose, unhelpful pull request messages. If you use an AI tool to generate your PR, *you* are responsible for ensuring that the pull request description is concise, and only contains information that is helpful to the review process. You do not, for example, need to include details on a \"testing regimen\" that describes how to run the test suite, or a \"rationale\" for why a bug needs to be fixed. Excessively verbose pull request bodies may result in your pull request being closed without being reviewed, as they are not respectful of the limited resources of the core team."
-msgstr "As ferramentas de IA tendem especialmente a gerar mensagens de pull request prolixas e pouco úteis. Se você usar uma ferramenta de IA para gerar seu PR, *você* é responsável por garantir que a descrição do pull request seja concisa e contenha apenas informações úteis para o processo de revisão. Você não precisa, por exemplo, incluir detalhes sobre um “regime de testes” que descreva como executar o conjunto de testes, nem uma “justificativa” para explicar por que um bug precisa ser corrigido. Corpos de pull requests excessivamente prolixos podem resultar no fechamento do seu pull request sem que ele seja revisado, pois não respeitam os recursos limitados da equipe principal."
+msgstr "As ferramentas de IA são muito suscetíveis de escrever mensagens de pedido de puxar muito detalhadas e pouco úteis. Se usar uma ferramenta de IA para gerar seu PR, *você* é responsável por garantir que a descrição do pedido de puxar seja concisa e contenha apenas informações úteis para o processo de revisão. Não precisa, por exemplo, incluir detalhes sobre um “regime de testes” que descreva como executar o conjunto de testes, nem uma “justificação” para explicar porque um bug precisa ser corrigido. Corpos de pedidos de puxar excessivamente detalhados podem resultar no fechar do seu pedido de puxar sem que ele seja revisto, pois não respeitam os recursos limitados da equipa principal."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:265
-#, fuzzy
 msgid "/// warning | The BeeWare Pull Request template"
-msgstr "/// warning | O modelo de solicitação de pull do BeeWare"
+msgstr "/// warning | O modelo de Pedido de Puxar do BeeWare"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:267
-#, fuzzy
 msgid "The BeeWare [pull request template]{1} is **not** optional. We require **all** pull requests to follow this template. Your pull request will not be reviewed if your pull request is missing the \"PR Checklist\" section, or your answers to the checkbox questions are incomplete or inconsistent. If you have used an AI tool to generate your pull request, you *must* check the relevant box, and provide details on the \"Assisted-by:\" line."
-msgstr "O modelo de pull request do BeeWare [pull request template]{1} **não** é opcional. Exigimos que **todas** as solicitações de pull sigam este modelo. Sua solicitação de pull não será analisada se estiver faltando a seção “Lista de verificação de PR” ou se suas respostas às perguntas com caixas de seleção estiverem incompletas ou inconsistentes. Se você usou uma ferramenta de IA para gerar sua solicitação de pull, você *deve* marcar a caixa relevante e fornecer detalhes na linha “Assistido por:”."
+msgstr "O [modelo de pedido de puxar]{1} do BeeWare **não** é opcional. Exigimos que **todos** os pedidos de puxar sigam este modelo. O seu pedido não vai ser analisado se estiver a faltar a secção “Lista de verificação de PR”, ou se suas respostas às perguntas com caixas de seleção estiverem incompletas ou inconsistentes. Se usou uma ferramenta de IA para gerar o seu pedido de puxar, você *tem de* marcar a caixa relevante e fornecer detalhes na linha “Assistido por:”."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:271
-#, fuzzy
 msgid "Continuous integration"
 msgstr "Integração contínua"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:273
-#, fuzzy
 msgid "*Continuous integration*, or *CI*, is the process of running automated checks on your pull request. This can include simple checks like ensuring code is correctly formatted; but it also includes running the test suite, and building documentation."
-msgstr "*Integração contínua*, ou *CI*, é o processo de executar verificações automatizadas em seu pull request. Isso pode incluir verificações simples, como garantir que o código esteja formatado corretamente, mas também inclui a execução do conjunto de testes e a criação de documentação."
+msgstr "*Integração contínua*, ou *CI*, é o processo de executar verificações automatizadas no seu pedido de puxar. Isso pode incluir verificações simples, como garantir que o código esteja formatado corretamente, mas também inclui a execução do conjunto de testes e a criação de documentação."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:275
-#, fuzzy
 msgid "There are any number of changes that can result in CI failures. Broadly speaking, we won't review a PR that isn't passing CI. If you create a pull requests and CI fails, we won't begin your review until it is passing. If your changes result in a failure, it is your responsibility to look into the reason, and resolve the issue."
-msgstr "Há um grande número de alterações que podem resultar em falhas de CI. Em termos gerais, não revisaremos um PR que não esteja sendo aprovado na CI. Se você criar uma solicitação pull e a CI falhar, não iniciaremos sua análise até que ela seja aprovada. Se suas alterações resultarem em uma falha, é sua responsabilidade investigar o motivo e resolver o problema."
+msgstr "Há um grande número de alterações que podem resultar em falhas de CI. Em termos gerais, não revemos um PR que não esteja aprovado na CI. Se criar um pedido de puxar e a CI falhar, não vamos iniciar a sua análise até que seja aprovado. Se as suas alterações resultarem numa falha, é da sua responsabilidade investigar o motivo e resolver o problema."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:277
-#, fuzzy
 msgid "When CI fails, the failure links will show up at the bottom of the PR page, under the heading \"Some checks were not successful\". You'll see a list of failed checks, which, will show up at the top of the list of all checks if there are passing checks as well. If you click on the failure link, it will take you to the log. The log often provides all the information you need to figure out what caused the failure. Read through the log and try to figure out why the failure is occurring, and then do what's necessary to resolve it."
-msgstr "Quando o CI falhar, os links de falha serão exibidos na parte inferior da página PR, sob o título \"Algumas verificações não foram bem-sucedidas\". Você verá uma lista de verificações com falha, que aparecerá no topo da lista de todas as verificações se também houver verificações aprovadas. Se você clicar no link de falha, será levado ao registro. O registro geralmente fornece todas as informações necessárias para descobrir o que causou a falha. Leia o registro e tente descobrir por que a falha está ocorrendo e, em seguida, faça o que for necessário para resolvê-la."
+msgstr "Quando o CI falhar, os atalhos de falha vão aparecer na parte inferior da página PR, sob o título \"Algumas verificações não foram bem-sucedidas\". Vai ver uma lista de verificações com falha, que aparecerá no topo da lista de todas as verificações se também houver verificações aprovadas. Se clicar no atalho de falha, será levado ao registo. O registo geralmente fornece todas as informações necessárias para descobrir o que causou a falha. Leia o registo e tente descobrir porque a falha está a ocorrer, e depois faça o que for necessário para resolve-la."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:279
-#, fuzzy
 msgid "Occasionally, a CI check will fail for reasons that are unrelated to your changes. This could be due to an issue on the machine that runs the CI check; or because a CI check is unstable. If you see a failure, and you're fairly certain it's unrelated to your changes, add a comment to your PR to that effect, and we will look into it."
-msgstr "Ocasionalmente, uma verificação de CI falhará por motivos que não estão relacionados às suas alterações. Isso pode ocorrer devido a um problema na máquina que executa a verificação de CI ou porque uma verificação de CI é instável. Se você observar uma falha e tiver certeza de que ela não está relacionada às suas alterações, adicione um comentário ao seu PR para esse fim e nós analisaremos o caso."
+msgstr "Ocasionalmente, uma verificação de CI vai falhar por motivos que não estão relacionados às suas alterações. Isso pode ocorrer devido a um problema na máquina que executa a verificação de CI ou porque uma verificação de CI é instável. Se observar uma falha e tiver certeza de que ela não está relacionada às suas alterações, adicione um comentário ao seu PR para esse fim e nós analisaremos o caso."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:281
-#, fuzzy
 msgid "To trigger a new CI run, you need to push new changes to your branch."
-msgstr "Para acionar uma nova execução de CI, você precisa enviar novas alterações para sua ramificação."
+msgstr "Para acionar uma nova execução de CI, precisa empurrar as novas alterações para o seu ramo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:283
-#, fuzzy
 msgid "If you find yourself in a situation where you need help getting CI to pass, leave a comment on the PR letting us know and we'll do what we can to help."
-msgstr "Se você se encontrar em uma situação em que precisa de ajuda para fazer com que o CI seja aprovado, deixe um comentário no RP nos informando e faremos o possível para ajudar."
+msgstr "Se encontrar-se numa situação em que precisa de ajuda para fazer com que o CI seja aprovado, deixe um comentário no PR a informar-nos e faremos o possível para ajudar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:285
-#, fuzzy
 msgid "/// note | The `pre-commit` and `towncrier` checks"
 msgstr "/// note | As verificações `pre-commit` e `towncrier`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:287
-#, fuzzy
 msgid "If either the `pre-commit` or `towncrier` checks fail, it will block most of the rest of the CI checks from running. You'll need to resolve the applicable issues before the full set of checks will run."
-msgstr "Se as verificações `pre-commit` ou `towncrier` falharem, isso impedirá a execução da maioria das demais verificações de CI. Você precisará resolver os problemas aplicáveis antes que o conjunto completo de verificações seja executado."
+msgstr "Se as verificações `pre-commit` ou `towncrier` falharem, isso vai impedir a execução da maioria das demais verificações de CI. Você vai precisar resolver os problemas aplicáveis antes que o conjunto completo de verificações seja executado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:291
-#, fuzzy
 msgid "We have limited CI resources. It is important to understand that every time you push to the branch, CI will start. If you're going to make a number of changes, it's better to make those changes locally, push them all at once. CI will only run on the most recent commit in a batch, minimizing the load on our CI system."
-msgstr "Temos recursos limitados de CI. É importante entender que toda vez que você fizer push para a ramificação, a CI será iniciada. Se você for fazer várias alterações, é melhor fazer essas alterações localmente e enviá-las todas de uma vez. O CI só será executado no commit mais recente em um lote, minimizando a carga em nosso sistema de CI."
+msgstr "Temos recursos limitados de CI. É importante entender que toda vez que fizer push para o ramo, a CI será iniciada. Se for fazer várias alterações, é melhor fazer essas alterações localmente e envia-las todas de uma vez. O CI só será executado na submissão mais recente num lote, minimizando a carga no nosso sistema de CI."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:293
-#, fuzzy
 msgid "The process of submitting your PR is not done until it's passing CI, or you can provide an explanation for why it's not."
-msgstr "O processo de envio de sua RP não é concluído até que ela seja aprovada pelo CI ou até que você forneça uma explicação do motivo pelo qual ela não foi aprovada."
+msgstr "O processo de submeter o seu RP não é concluído até que seja aprovado pelo CI ou até que forneça uma explicação do motivo pelo qual não foi aprovado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:1
-#, fuzzy
 msgid "Getting started with translating"
 msgstr "Como começar a traduzir"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:3
-#, fuzzy
 msgid "If you'd like to contribute to BeeWare's translation efforts, you'll need an account on [Weblate]{1}. [Create a new account]{2} if you don't currently have one; then let us know you're interested in helping out with translations."
-msgstr "Se quiser contribuir com os esforços de tradução do BeeWare, você precisará de uma conta no [Weblate]{1}. [Crie uma nova conta]{2} se ainda não tiver uma; em seguida, informe-nos que está interessado em ajudar com as traduções."
+msgstr "Se quiser contribuir com os esforços de tradução do BeeWare, vai precisar de uma conta no [Weblate]{1}. [Crie uma nova conta]{2} se ainda não tiver uma; depois informe-nos que está interessado em ajudar com as traduções."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:5
-#, fuzzy
 msgid "There are two options for letting us know that you'd like to help out with translations:"
-msgstr "Há duas opções para nos informar que você gostaria de ajudar com as traduções:"
+msgstr "Há duas opções para nos informar que gostaria de ajudar com as traduções:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:7
-#, fuzzy
 msgid "If you're on Discord, join the [BeeWare server]{1}, and head to the `#translations` channel."
-msgstr "Se você estiver no Discord, entre no [servidor BeeWare]{1} e vá para o canal `#translations`."
+msgstr "Se estiver no Discord, entre no [servidor BeeWare]{1} e vá para o canal `#translations`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:8
-#, fuzzy
 msgid "If you're not on Discord, you can create a new issue on the {{ formal_name }} repository."
-msgstr "Se você não estiver no Discord, poderá criar um novo problema no repositório {{ formal_name }}."
+msgstr "Se não estiver no Discord, poderá criar um novo problema no repositório {{ formal_name }}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:10
-#, fuzzy
 msgid "In both cases, leave a message including the following information:"
 msgstr "Em ambos os casos, deixe uma mensagem com as seguintes informações:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:12
-#, fuzzy
 msgid "Your Weblate username"
-msgstr "Seu nome de utilizador do Weblate"
+msgstr "O seu nome de utilizador do Weblate"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:13
-#, fuzzy
 msgid "The language you are planning to which you are planning to translate content"
-msgstr "O idioma para o qual você está planejando traduzir o conteúdo"
+msgstr "O idioma para o qual está a planear traduzir o conteúdo"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:15
-#, fuzzy
 msgid "Once we have this info, we'll get you added to the team."
-msgstr "Assim que tivermos essas informações, você será adicionado à equipe."
+msgstr "Assim que tivermos essas informações, será adicionado à equipa."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:17
-#, fuzzy
 msgid "Adding a new translation"
-msgstr "Adição de uma nova tradução"
+msgstr "Adicionar uma nova tradução"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:19
-#, fuzzy
 msgid "If the language you plan to help out with doesn't already exist, there are some additional steps required before you can get started:"
-msgstr "Se o idioma com o qual você pretende ajudar ainda não existir, há algumas etapas adicionais necessárias para que você possa começar:"
+msgstr "Se o idioma com o qual pretende ajudar ainda não existir, há alguns passos adicionais necessários para poder começar:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:21
-#, fuzzy
 msgid "Create the `/docs/mkdocs.language-code.yml` file, with language-specific content."
 msgstr "Crie o ficheiro `/docs/mkdocs.language-code.yml`, com conteúdo específico do idioma."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:22
-#, fuzzy
 msgid "Update `tox.ini` to include the new language build commands."
 msgstr "Atualize o `tox.ini` para incluir os comandos de compilação da nova linguagem."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:23
-#, fuzzy
 msgid "Update `/docs/config.yml` to include the language under `extra: alternate:`."
-msgstr "Atualize `/docs/config.yml` para incluir o idioma em `extra: alternate:`."
+msgstr "Atualize `/docs/config.yml` para incluir o idioma sob `extra: alternate:`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:25
-#, fuzzy
 msgid "The following demonstrates the necessary changes using German as an example; a German translation already exists; replace the references to German, `de`, or other content for the language you're targeting."
-msgstr "A seguir, demonstramos as alterações necessárias usando o alemão como exemplo; já existe uma tradução para o alemão; substitua as referências ao alemão, `de` ou outro conteúdo para o idioma que você está segmentando."
+msgstr "O seguinte demonstra as alterações necessárias usando o alemão como exemplo; já existe uma tradução para Alemão; substitua as referências ao Alemão, `de` ou outro conteúdo para o idioma que está a visar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:27
-#, fuzzy
 msgid "A new MkDocs configuration file"
 msgstr "Um novo ficheiro de configuração do MkDocs"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:29
-#, fuzzy
 msgid "First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:"
 msgstr "Primeiro, crie um novo ficheiro chamado `mkdocs.de.yml` no diretório `docs`, com o seguinte conteúdo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:31
-#, fuzzy
 msgid ""
 "INHERIT: config.yml\n"
 "site_name: {{ formal_name }} Dokumentation\n"
@@ -1496,364 +1336,273 @@ msgid ""
 "    Contributing: Mitwirken\n"
 "    News: Neuigkeiten\n"
 "    Sponsor: Förderer"
-msgstr ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Documentação\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
-"\n"
-"theme:\n"
-"  language: de\n"
-"\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: Sobre\n"
-"    Documentation: Documentação\n"
-"    Community: Comunidade\n"
-"    Contributing: Contribuir\n"
-"    News: Notícias\n"
-"    Sponsor: Patrocinadores"
+msgstr "INHERIT: config.yml\nsite_name: {{ formal_name }} Dokumentation\nsite_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\ndocs_dir: de\n\ntheme:\n  language: de\n\nextra:\n  language_url: de/\n  translation_type: machine\n  header:\n    About: Über\n    Documentation: Dokumentation\n    Community: Gemeinschaft\n    Contributing: Mitwirken\n    News: Neuigkeiten\n    Sponsor: Förderer"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:52
-#, fuzzy
 msgid "Here's what is going on in this file:"
-msgstr "Veja o que está acontecendo nesse ficheiro:"
+msgstr "Veja o que está a acontecer nesse ficheiro:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:54
-#, fuzzy
 msgid "This file inherits the configuration content from `config.yml`."
-msgstr "Esse ficheiro herda o conteúdo da configuração de `config.yml`."
+msgstr "Este ficheiro herda o conteúdo da configuração de `config.yml`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:55
-#, fuzzy
 msgid "The `site_name` value is translated."
-msgstr "O valor `site_name` é traduzido."
+msgstr "O valor de `site_name` é traduzido."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:56
-#, fuzzy
 msgid "The `site_url` value is the project site URL, followed by the language code."
-msgstr "O valor `site_url` é o URL do site do projeto, seguido pelo código do idioma."
+msgstr "O valor de `site_url` é o URL do sítio do projeto, seguido pelo código do idioma."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
-#, fuzzy
 msgid "The `docs_dir` should be the language code."
 msgstr "O `docs_dir` deve ser o código do idioma."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:58
-#, fuzzy
 msgid "The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
-msgstr "O valor `theme: language:` deve ser o código do idioma, conforme [especificado pelo tema MkDocs Material]{1}. Para a maioria dos idiomas, esse será o mesmo código de idioma do `docs_dir`, mas para alguns (em particular idiomas com variantes de localidade como `zh_CN`), há diferenças."
+msgstr "O valor de `theme: language:` deve ser o código do idioma, conforme [especificado pelo tema MkDocs Material]{1}. Para a maioria dos idiomas, esse será o mesmo código de idioma do `docs_dir`, mas para alguns (em particular idiomas com variantes de localidade como `pt_BR`), há diferenças."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:59
-#, fuzzy
 msgid "The `extra: language_url:` should be the language code, followed by a single slash, e.g. `de/` for German."
-msgstr "O `extra: language_url:` deve ser o código do idioma, seguido por uma única barra, por exemplo, `de/` para alemão."
+msgstr "O `extra: language_url:` deve ser o código do idioma, seguido por uma única barra, por exemplo, `pt/` para Português."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:60
-#, fuzzy
 msgid "The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
-msgstr "O `extra: translation_type:` deve ser `machine` até que a tradução atinja 100% pela primeira vez, momento em que deve ser `human`. Ele será revertido para `machine` a partir de `human` se cair para menos de 90%."
+msgstr "O `extra: translation_type:` deve ser `machine` até que a tradução atinja 100% pela primeira vez, momento em que deve ser `human`. Ele será revertido para `machine` de `human` se regressar para menos de 90%."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:61
-#, fuzzy
 msgid "The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
-msgstr "O conteúdo entre `extra: header` é a tradução dos títulos que aparecem na barra de cabeçalho. Esta definição *não* é necessária no site principal do BeeWare; ela só é necessária em *outros* sites (como o tutorial ou a documentação do projeto)."
+msgstr "O conteúdo sob `extra: header` é a tradução dos títulos que aparecem na barra de cabeçalho. Esta definição *não* é necessária no site principal do BeeWare; ela só é necessária em *outros* sites (como o tutorial ou a documentação do projeto)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:63
-#, fuzzy
 msgid "Update `tox.ini`"
 msgstr "Atualizar o `tox.ini`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:65
-#, fuzzy
 msgid "You'll need to make several changes to the `tox.ini` file."
-msgstr "Você precisará fazer várias alterações no ficheiro `tox.ini`."
+msgstr "Vai precisar de fazer várias alterações no ficheiro `tox.ini`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:67
-#, fuzzy
 msgid "You would add the following:"
-msgstr "Você acrescentaria o seguinte:"
+msgstr "Deveria acrescentar o seguinte:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
-#, fuzzy
 msgid "The new language code environment flag to the header line which begins `[testenv:docs`, with the language code preceded by a `-`, with no spaces included, e.g. `-de`."
-msgstr "O novo sinalizador de ambiente de código de idioma para a linha de cabeçalho que começa `[testenv:docs`, com o código de idioma precedido por um `-`, sem espaços incluídos, por exemplo, `-de`."
+msgstr "A nova bandeira de ambiente de código de idioma para a linha de cabeçalho que começa `[testenv:docs`, com o código de idioma precedido por um `-`, sem espaços incluídos, por exemplo, `-pt`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
-#, fuzzy
 msgid "The new language code exclusion to the first command, which begins with `!lint`, preceded by `-!`, with no spaces included, e.g. `-!de`."
 msgstr "A exclusão do novo código de idioma para o primeiro comando, que começa com `!lint`, precedido por `-!`, sem espaços, por exemplo, `-!de`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
-#, fuzzy
 msgid "The new language code to the line beginning with `translate : build_po_translations`."
 msgstr "O novo código de idioma para a linha que começa com `translate : build_po_translations`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
-#, fuzzy
 msgid "The new language code to the line beginning with `translate : update_machine_translations`"
 msgstr "O novo código de idioma para a linha que começa com `translate : update_machine_translations`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
-#, fuzzy
 msgid "A new command, beginning with, for example, `de : build_md_translations` for German, alphabetically within the existing language-specific commands that matches the content of those commands, with the new language code."
-msgstr "Um novo comando, começando com, por exemplo, `de : build_md_translations` para alemão, em ordem alfabética dentro dos comandos específicos do idioma existente que correspondem ao conteúdo desses comandos, com o novo código de idioma."
+msgstr "Um novo comando, começando com, por exemplo, `de : build_md_translations` para Alemão, em ordem alfabética dentro dos comandos específicos do idioma existente que correspondem ao conteúdo desses comandos, com o novo código de idioma."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:74
-#, fuzzy
 msgid "The new language code to the line beginning with `all:`."
 msgstr "O novo código de idioma para a linha que começa com `all:`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:76
-#, fuzzy
 msgid "Update `config.yml`"
 msgstr "Atualizar `config.yml`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:78
-#, fuzzy
 msgid "Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:"
-msgstr "Adicione o idioma a `config.yml` para que ele apareça no seletor de idioma no cabeçalho. Localize a seção que começa com `extra:` e, em seguida, localize a subseção que começa com `alternate:`. Para o alemão, você adicionaria o seguinte:"
+msgstr "Adicione o idioma a `config.yml` para que ele apareça no seletor de idioma no cabeçalho. Localize a secção que começa com `extra:`, e depois localize a subsecção que começa com `alternate:`. Para Português, adicionaria o seguinte:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:80
-#, fuzzy
 msgid ""
 "- name: Deutsch\n"
 "      link: /de/\n"
 "      lang: de"
-msgstr ""
-"- nome: Alemão\n"
-" link: /de/\n"
-" idioma: de"
+msgstr "- name: Português\n      link: /pt/\n      lang: pt"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:86
-#, fuzzy
 msgid "The language name should be translated into the language. The link must include the `/`s."
-msgstr "O nome do idioma deve ser traduzido para o idioma. O link deve incluir os `/`s."
+msgstr "O nome do idioma deve ser traduzido para o idioma. O link deve incluir as barras `/`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:88
-#, fuzzy
 msgid "Run `tox translate`"
 msgstr "Executar `tox translate`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:90
-#, fuzzy
 msgid "You can now run `tox -e docs-translate`. This will generate an empty translation file; if you have a DeepL account, you can use that account to populate initial machine translations. If you don't have a DeepL account, that's fine - we'll run initial translations ourselves before accepting the pull request."
-msgstr "Agora você pode executar `tox -e docs-translate`. Isso irá gerar um ficheiro de tradução vazio; se você tiver uma conta DeepL, poderá usá-la para preencher as traduções automáticas iniciais. Se você não tiver uma conta DeepL, não se preocupe — nós mesmos faremos as traduções iniciais antes de aceitar a solicitação de pull."
+msgstr "Agora pode executar `tox -e docs-translate`. Isto irá gerar um ficheiro de tradução vazio; se tiver uma conta DeepL, poderá usa-la para preencher as traduções automáticas iniciais. Se não tiver uma conta DeepL, não se preocupe — nós mesmos faremos as traduções iniciais antes de aceitar o pedido de puxar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:92
-#, fuzzy
 msgid "Translation guidelines"
 msgstr "Diretrizes de tradução"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:94
-#, fuzzy
 msgid "Once you've been added to the team, it's time to log into [Weblate]{1} and begin working through translating strings."
-msgstr "Depois de ter sido adicionado à equipe, é hora de fazer login no [Weblate]{1} e começar a trabalhar na tradução das cadeias de caracteres."
+msgstr "Depois de ter sido adicionado à equipa, é hora de iniciar sessão no [Weblate]{1} e começar a trabalhar na tradução das mensagens."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:96
-#, fuzzy
 msgid "Tone versus word-for-word translation"
-msgstr "Tom versus tradução palavra por palavra"
+msgstr "Contexto contra tradução palavra-por-palavra"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:98
-#, fuzzy
 msgid "It's more important to maintain the tone of the English text than to strive for a word-for-word translation. We try to be friendly and a bit colloquial in our content; try to maintain the spirit of that in your translations."
-msgstr "É mais importante manter o tom do texto em inglês do que se esforçar para fazer uma tradução palavra por palavra. Tentamos ser amigáveis e um pouco coloquiais em nosso conteúdo; tente manter o espírito disso em suas traduções."
+msgstr "É mais importante manter o tom do texto em Inglês do que se esforçar para fazer uma tradução palavra por palavra. Tentamos ser amigáveis e um pouco coloquiais no nosso conteúdo; tente manter o espírito disso nas suas traduções."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:100
-#, fuzzy
 msgid "If the English text contains a strong English idiom, don't feel beholden to maintain the idiom, if there is an analog in your language that would work equally well. If the term or phrase in the English text is a particularly idiomatic or slang term, don't be afraid to tell us we should consider making a change. Even for English speakers, idioms and slang can pose difficulty. Sometimes we need to change the English text to make it more straightforward for translators and readers alike."
-msgstr "Se o texto em inglês contiver uma expressão idiomática forte em inglês, não se sinta obrigado a manter essa expressão se houver um análogo em seu idioma que funcione igualmente bem. Se o termo ou a frase no texto em inglês for um termo particularmente idiomático ou uma gíria, não tenha medo de nos dizer que devemos considerar fazer uma alteração. Mesmo para falantes de inglês, expressões idiomáticas e gírias podem causar dificuldades. Às vezes, precisamos alterar o texto em inglês para torná-lo mais direto para tradutores e leitores."
+msgstr "Se o texto em inglês conter uma expressão idiomática forte em Inglês, não se sinta obrigado a manter essa expressão se houver um análogo no seu idioma que funcione igualmente bem. Se o termo ou a frase no texto em Inglês for um termo particularmente idiomático ou uma gíria, não tenha medo de nos dizer que devemos considerar fazer uma alteração. Mesmo para os faladores de Inglês, expressões idiomáticas e gírias podem causar dificuldades. Às vezes, precisamos alterar o texto em Inglês para torna-lo mais direto para tradutores e leitores."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:102
-#, fuzzy
 msgid "Should I translate it?"
-msgstr "Devo traduzi-lo?"
+msgstr "Devo traduzir isto?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
-#, fuzzy
 msgid "The following items should *not* be translated or updated:"
-msgstr "Os seguintes itens *não* devem ser traduzidos ou atualizados:"
+msgstr "Os seguintes items *não* devem ser traduzidos nem atualizados:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
-#, fuzzy
 msgid "**Commands**. For example, in \"You should run \\`briefcase create\\`.\", only \"You should run\" should be translated."
-msgstr "**Comandos**. Por exemplo, em \"You should run \\`briefcase create\\`.\", apenas \"You should run\" deve ser traduzido."
+msgstr "**Comandos**. Por exemplo, em \"You should run \\`briefcase create\\`.\", apenas a parte \"You should run\" deve ser traduzida."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:107
-#, fuzzy
 msgid "**Namespaces**, such as class, method, or attribute names."
-msgstr "**Namespaces**, como nomes de classes, métodos ou atributos."
+msgstr "**Espaços de nomes**, tais como nomes de classes, métodos ou atributos."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:108
-#, fuzzy
 msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com/)`, the URL should be skipped for translation."
-msgstr "**URLs de links**. Os links padrão do Markdown devem aparecer no Weblate como `[Link text]{1}`, em que `1` representa a posição do link na sequência de texto em relação a outros links possíveis. Se o URL completo estiver incluído na sequência de texto, como `[Link text](https://example.com/)`, esse URL deve ser ignorado na tradução."
+msgstr "**URLs de atalhos**. Os atalhos Standard do Markdown devem aparecer no Weblate como `[Link text]{1}`, em que `1` representa a posição do atalho na sequência de texto em relação a outros atalhos possíveis. Se o URL completo estiver incluído na sequência de texto, como `[Link text](https://example.com/)`, esse URL deve ser ignorado na tradução."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
-#, fuzzy
 msgid "**Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated."
-msgstr "**Links de referência contendo nomes de classes, métodos ou atributos**. Eles devem ser deixados como estão, inclusive os backticks. Todas as partes do link de exemplo mostrado aqui não seriam traduzidas."
+msgstr "**Ligações de referência que contêm nomes de classes, métodos ou atributos**. Devem ser deixados como estão, inclusive as aspas. Todas as partes do atalho de exemplo mostrado aqui não seriam traduzidas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
-#, fuzzy
 msgid "[`Class.attribute`][Class.attribute]"
-msgstr "[`Class.attribute`][Atributo da classe]"
+msgstr "[`Class.attribute`][Class.attribute]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115
-#, fuzzy
 msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
-msgstr "O conteúdo do link de uma referência. Por exemplo, `link-content` seria ignorado no seguinte:"
+msgstr "**O conteúdo do atalho de um atalho de Referência**. Por exemplo, `link-content` seria ignorado no seguinte:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
-#, fuzzy
 msgid "[Link text][link-content]"
-msgstr "[Texto do link][conteúdo do link]"
+msgstr "[Texto do atalho][link-content]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:121
-#, fuzzy
 msgid "**Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation]{1} for examples."
-msgstr "**Diretivas Jinja**. Trata-se de qualquer conteúdo envolvido em dois pares de chaves correspondentes ou em um par correspondente de chaves simples com sinais de porcentagem em cada extremidade. Observação: a inclusão de um exemplo da sintaxe aqui faz com que o plug-in Macros tente renderizá-la; consulte a [documentação do Macros]{1} para obter exemplos."
+msgstr "**Diretivas Jinja**. Trata-se de qualquer conteúdo envolvido em dois pares de chavetas correspondentes ou num par correspondente de chavetas simples com sinais de percentagem em cada extremidade. Nota: O incluir de um exemplo da sintaxe aqui faz com que o plug-in Macros tente renderiza-la; veja a [documentação do Macros]{1} para obter exemplos."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:122
-#, fuzzy
 msgid "**Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`."
 msgstr "**Âncoras personalizadas**. Elas são encontradas após os cabeçalhos ou acima de algum conteúdo e são formatadas como `{ #anchor }`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
-#, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
-msgstr "**Sintaxe de admoestação**. No exemplo a seguir, a palavra \"admonition\" não deve ser traduzida. Isso vale para todos os estilos de admoestações, incluindo notas, avisos etc. Consulte a próxima seção para obter informações sobre como traduzir o restante do conteúdo."
+msgstr "**Sintaxe de advertência**. No exemplo a seguir, a palavra \"admonition\" não deve ser traduzida. Isso vale para todos os estilos de advertências, incluindo notas, avisos etc. Consulte a próxima secção para obter informações sobre como traduzir o restante do conteúdo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
-#, fuzzy
 msgid ""
 "/// admonition | Page Title\n"
 "\n"
 "Content.\n"
 "\n"
 "///"
-msgstr ""
-"/// admonition | Título da página\n"
-"\n"
-"Conteúdo.\n"
-"\n"
-"///"
+msgstr "/// admonition | Título da página\n\nConteúdo.\n\n///"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:133
-#, fuzzy
 msgid "**Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks."
-msgstr "**Backticks**. Eles devem permanecer como backticks; são usados para formatar código em linha e blocos de código."
+msgstr "**Aspas invertidas**. Elas devem permanecer como aspas invertidas; são usadas para formatar código em linha e blocos de código."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:134
-#, fuzzy
 msgid "**The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr "**A sintaxe para incluir conteúdo externo**. Trata-se de qualquer coisa na mesma linha que `-8<-`, ou nas linhas entre dois `-8<-` em linhas separadas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
-#, fuzzy
 msgid "The following items *should* be translated:"
-msgstr "Os seguintes itens *devem* ser traduzidos:"
+msgstr "Os seguintes items *devem* ser traduzidos:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:138
-#, fuzzy
 msgid "**Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links."
-msgstr "**Texto do link**. Na sintaxe de link, o texto vem antes da URL e é colocado entre colchetes, como em `[Link text](URL)`. Os links Markdown padrão devem aparecer no Weblate como `[Link text]{1}`, em que `1` é a posição do link na string com referência a outros links possíveis."
+msgstr "**Texto do atalho**. Na sintaxe de atalho, o texto vem antes da URL e é colocado entre colchetes, como em `[Link text](URL)`. Os atalhos Standard de Markdown devem aparecer no Weblate como `[Link text]{1}`, em que `1` é a posição do link na string com referência a outros links possíveis."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
-#, fuzzy
 msgid "**Reference link text**. For example, `Link text` would be translated in the following:"
-msgstr "**Texto do link de referência**. Por exemplo, `Link text` seria traduzido da seguinte forma:"
+msgstr "**Texto do atalho de referência**. Por exemplo, `Link text` seria traduzido da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:145
-#, fuzzy
 msgid "**Admonition titles and content**. In the previous admonition example, \"Page Title\" and \"Content.\" should be translated."
 msgstr "**Títulos e conteúdo da advertência**. No exemplo da advertência anterior, \"Page Title\" (Título da página) e \"Content\" (Conteúdo) devem ser traduzidos."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:147
-#, fuzzy
 msgid "Weblate"
 msgstr "Weblate"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:149
-#, fuzzy
 msgid "We use [Weblate]{1} for our content translation. When we add a new translation, we use [DeepL]{2} for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation."
-msgstr "Usamos [Weblate]{1} para a tradução de nosso conteúdo. Quando adicionamos uma nova tradução, usamos [DeepL]{2} para a tradução automática, a fim de produzir uma primeira passagem nas traduções. Isso significa que, normalmente, o conteúdo que você traduzirá já está traduzido por máquina. A expectativa é que você, como tradutor, revise, edite e melhore a tradução automática existente."
+msgstr "Usamos [Weblate]{1} para a tradução de nosso conteúdo. Quando adicionamos uma nova tradução, usamos [DeepL]{2} para a tradução automática, a fim de produzir uma primeira passagem nas traduções. Isso significa que, normalmente, o conteúdo que vai traduzir já está traduzido por máquina. A expectativa é que, como tradutor, reveja, edite e melhore a tradução automática existente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:151
-#, fuzzy
 msgid "Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours."
-msgstr "O Weblate processa tudo em uma base de cadeia de caracteres por cadeia de caracteres. Ele agrupa as alterações e, a cada duas horas, enviará um commit em massa com todas as strings que foram alteradas nesse intervalo. Portanto, pode levar algumas horas para que suas alterações apareçam no site, mas você pode esperar que a atualização apareça dentro de quatro horas."
+msgstr "O Weblate processa tudo numa base de palavra por palavra. Ele agrupa as alterações e, a cada duas horas, submete um bolo com todas as sequências que foram alteradas nesse intervalo. Assim, pode levar algumas horas para que as suas alterações apareçam no sítio web, mas pode esperar que a atualização apareça dentro de quatro horas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:153
-#, fuzzy
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
-msgstr "Se, após esse tempo, suas alterações ainda não tiverem aparecido, a causa provável é um erro de marcação, resultando em uma falha na compilação dos documentos para esse idioma. Qualquer problema de marcação em qualquer string impedirá que toda a tradução seja publicada. Você pode ficar de olho na página de compilação do seu idioma para ver se ela foi compilada com sucesso. O link tem um formato semelhante a este link para a página de compilação em francês {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; Altere o código do idioma para o seu idioma para visualizar a página de compilação apropriada. Isso mostrará o estado da compilação mais recente do site. Se a compilação falhar, consulte o log de compilação e veja se consegue identificar a origem do problema."
+msgstr "Se, após esse tempo, suas alterações ainda não tiverem aparecido, a causa provável é um erro de marcação, resultando numa falha na compilação dos documentos para esse idioma. Qualquer problema de marcação em qualquer sequência vai impedir que toda a tradução seja publicada. Pode ficar atento à página de compilação do seu idioma para ver se ela foi compilada com sucesso. O atalho tem um formato semelhante a este atalho para a página de compilação em francês {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; Altere o código do idioma para o seu idioma para ver a página de compilação apropriada. Isto vai mostrar o estado da compilação mais recente do sítio. Se a compilação falhar, consulte o relatório de compilação e veja se consegue identificar a origem do problema."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:2
-#, fuzzy
 msgid "Fixing a bug or implementing a feature will require you to write some new code."
-msgstr "Para corrigir um bug ou implementar um recurso, será necessário escrever um novo código."
+msgstr "Corrigir um bug ou implementar uma funcionalidade vai requerer escrever algum código novo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:7
-#, fuzzy
 msgid "We have a [code style guide]{1} that outlines our guidelines for writing code for BeeWare."
-msgstr "Temos um [guia de estilo de código]{1} que descreve nossas diretrizes para escrever código para o BeeWare."
+msgstr "Temos um [guia de estilo de código]{1} que descreve as nossas diretrizes para escrever código para o BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:9
-#, fuzzy
 msgid "Test-driven development"
 msgstr "Desenvolvimento orientado por testes"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:11
-#, fuzzy
 msgid "A good way to ensure your code is going to do what you expect it to, is to first write a test case to test for it. This test case should fail initially, as the code it is testing for is not yet present. You can then write the code changes needed to make the test pass, and know that what you've written is solving the problem you are expecting it to."
-msgstr "Uma boa maneira de garantir que seu código funcione conforme o esperado é, primeiro, escrever um caso de teste para verificá-lo. Esse caso de teste deve falhar inicialmente, já que o código que ele está testando ainda não está presente. Você pode então fazer as alterações necessárias no código para que o teste seja aprovado e ter a certeza de que o que escreveu está resolvendo o problema que esperava resolver."
+msgstr "Uma boa maneira de garantir que o seu código funciona conforme o esperado é, primeiro, escrever um caso de teste para verifica-lo. Esse caso de teste deve falhar inicialmente, já que o código que ele está a testar ainda não está presente. Pode então fazer as alterações necessárias no código para que o teste seja aprovado e ter a certeza de que o que escreveu está a resolver o problema que espera resolver."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:13
-#, fuzzy
 msgid "Run your code"
-msgstr "Execute seu código"
+msgstr "Correr o seu código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:15
-#, fuzzy
 msgid "Once your code is written, you need to ensure it runs. You'll need to manually run your code to verify it is doing what you expect. If you haven't already, you'll want to write a test case for your changes; as mentioned above, this test should fail if your code is commented out or not present."
-msgstr "Depois de escrever o código, é preciso garantir que ele funcione. Você precisará executá-lo manualmente para verificar se ele está fazendo o que você espera. Se ainda não o fez, é recomendável escrever um caso de teste para as alterações; conforme mencionado acima, esse teste deve falhar se o código estiver comentado ou ausente."
+msgstr "Depois de escrever o código, é preciso garantir que ele funciona. Vai precisar executa-lo manualmente para verificar se ele está a fazer o que espera. Se ainda não o fez, é recomendável escrever um caso de teste para as alterações; conforme mencionado acima, esse teste deve falhar se o seu código estiver comentado ou ausente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:17
-#, fuzzy
 msgid "You'll add your test case to the test suite, so it can be run alongside the other tests. The next step is to run the test suite."
-msgstr "Você adicionará seu caso de teste ao conjunto de testes, para que ele possa ser executado junto com os outros testes. O próximo passo é executar o conjunto de testes."
+msgstr "Vai adicionar o seu caso de teste ao conjunto de testes, para que ele possa ser executado junto com os outros testes. O próximo passo é executar o conjunto de testes."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:19
-#, fuzzy
 msgid "Running tests {% if not config.extra.hide_coverage %}and coverage{% endif %} { #run-test-suite }"
-msgstr "Executando testes {% if not config.extra.hide_coverage %}e cobertura{% endif %} { #run-test-suite }"
+msgstr "Correr testes {% if not config.extra.hide_coverage %}e cobertura{% endif %} { #run-test-suite }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:21
-#, fuzzy
 msgid "{{ formal_name }} uses [`tox`]{1} to manage the testing process and [`pytest`]{2} for its own test suite."
-msgstr "{{ formal_name }} utiliza [`tox`]{1} para gerenciar o processo de testes e [`pytest`]{2} para seu próprio conjunto de testes."
+msgstr "{{ formal_name }} utiliza [`tox`]{1} para gerir o processo de testes e [`pytest`]{2} para o seu próprio conjunto de testes."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:23
-#, fuzzy
 msgid "The default `tox` command includes running:"
-msgstr "O comando padrão `tox` inclui a execução de:"
+msgstr "O comando predefinido `tox` inclui a execução de:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:25
-#, fuzzy
 msgid "pre-commit hooks"
-msgstr "ganchos de pré-confirmação"
+msgstr "ganchos de pré-submissão"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:26
-#, fuzzy
 msgid "`towncrier` release note check"
-msgstr "Verificação das notas de lançamento"
+msgstr "Verificação das notas de lançamento do `towncrier`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:27
-#, fuzzy
 msgid "documentation linting"
 msgstr "verificação de conformidade da documentação"
 
@@ -1862,7 +1611,6 @@ msgid "{% block testing_tox_command %}"
 msgstr "{% block testing_tox_command %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:31
-#, fuzzy
 msgid "test suite for available Python versions"
 msgstr "conjunto de testes para as versões disponíveis do Python"
 
@@ -1871,19 +1619,16 @@ msgid "{% if not config.extra.hide_coverage %}"
 msgstr "{% if not config.extra.hide_coverage %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:35
-#, fuzzy
 msgid "code coverage reporting"
 msgstr "relatórios de cobertura de código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:41
-#, fuzzy
 msgid "This is essentially what is run by CI when you submit a pull request."
-msgstr "Isso é basicamente o que a CI executa quando você envia uma solicitação de pull."
+msgstr "Isso é basicamente o que a CI executa quando envia um pedido de puxar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:43
-#, fuzzy
 msgid "To run the full test suite, run:"
-msgstr "Para executar o conjunto completo de testes, digite:"
+msgstr "Para executar o conjunto completo de testes, corra:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:51 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:61
 msgid "(.venv) $ tox"
@@ -1894,44 +1639,36 @@ msgid "(.venv) C:\\...>tox"
 msgstr "(.venv) C:\\...>tox"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:77
-#, fuzzy
 msgid "The full test suite can take a while to run. You can speed it up considerably by running `tox` in parallel, by running `tox p` (or `tox run-parallel`). When you run the test suite in parallel, you'll get less feedback on the progress of the test suite as it runs, but you'll still get a summary of any problems found at the end of the test run. You should get some output indicating that tests have been run. You may see `SKIPPED` tests, but shouldn't ever get any `FAIL` or `ERROR` test results. We run our full test suite before merging every patch. If that process discovers any problems, we don't merge the patch. If you do find a test error or failure, either there's something odd in your test environment, or you've found an edge case that we haven't seen before - either way, let us know!"
-msgstr "A execução do conjunto completo de testes pode demorar algum tempo. Você pode acelerar consideravelmente o processo executando `tox` em paralelo, ou seja, executando `tox p` (ou `tox run-parallel`). Ao executar o conjunto de testes em paralelo, você receberá menos feedback sobre o andamento dos testes durante a execução, mas ainda assim obterá um resumo de quaisquer problemas encontrados ao final da execução. Você deverá ver alguma saída indicando que os testes foram executados. Você pode ver `SKIPPED` testes, mas nunca deve receber resultados de teste `FAIL` ou `ERROR`. Executamos nosso conjunto completo de testes antes de mesclar cada patch. Se esse processo detectar algum problema, não mesclamos o patch. Se você encontrar um erro ou falha no teste, ou há algo estranho em seu ambiente de teste, ou você encontrou um caso extremo que não vimos antes — de qualquer forma, nos avise!"
+msgstr "A execução do conjunto completo de testes pode demorar algum tempo. Pode acelerar consideravelmente o processo executando `tox` em paralelo, ao correr `tox p` (ou `tox run-parallel`). Ao executar o conjunto de testes emparalelo, vai receber menos retorno sobre a evolução dos testes durante a execução, mas mesmo assim vai obter um resumo de quaisquer problemas encontrados no final da execução. Deverá ver algum resultado a indicar que os testes foram executados. Pode ver testes `SALTADOS`, mas nunca deve receber resultados de teste `FALHOU` ou `ERRO`. Executamos o nosso conjunto completo de testes antes de fundir cada patch. Se esse processo detetar algum problema, não fundimos o patch. Se encontrar um erro ou falha no teste, ou há algo estranho no seu ambiente de teste, ou encontrou um caso extremo que não vimos antes — de qualquer forma, comunique-nos isso!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:81
-#, fuzzy
 msgid "In addition to the tests passing, this should report [100% test coverage][code-coverage]."
-msgstr "Além da aprovação dos testes, isso deve indicar [100% de cobertura de teste][code-coverage]."
+msgstr "Além da aprovação dos testes, isto deve indicar [100% de cobertura de teste][code-coverage]."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:85
-#, fuzzy
 msgid "{% block testing_running_additional %} {% endblock %}"
 msgstr "{% block testing_running_additional %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:88
-#, fuzzy
 msgid "Running test variations"
-msgstr "Executando variações de teste"
+msgstr "Executar variações de teste"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:90
-#, fuzzy
 msgid "Run tests for multiple versions of Python"
-msgstr "Executar testes em várias versões do Python"
+msgstr "Executar testes para várias versões do Python"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:92
-#, fuzzy
 msgid "By default, many of the `tox` commands will attempt to run the test suite multiple times, once for each Python version supported by {{ formal_name }}. To do this, though, each of the Python versions must be installed on your machine and available to `tox`'s Python [discovery]{1} process. In general, if a version of Python is available via `PATH`, then `tox` should be able to find and use it."
-msgstr "Por padrão, muitos dos comandos `tox` tentarão executar o conjunto de testes várias vezes, uma vez para cada versão do Python compatível com o {{ formal_name }}. Para isso, porém, cada uma das versões do Python deve estar instalada em seu computador e disponível para o processo de [detecção]`tox` do Python do {1}. Em geral, se uma versão do Python estiver disponível via `PATH`, então o `tox` deverá ser capaz de encontrá-la e utilizá-la."
+msgstr "Por predefinição, muitos dos comandos `tox` tentam executar o conjunto de testes várias vezes, uma vez para cada versão do Python compatível com o {{ formal_name }}. No entanto, para fazer isto, cada uma das versões do Python deve estar instalada no seu computador e disponível para o processo de [deteção]{1} do Python do `tox`. Em geral, se uma versão do Python estiver disponível via `PATH`, então o `tox` deverá ser capaz de a encontrar e utilizar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:94
-#, fuzzy
 msgid "Run only the test suite"
-msgstr "Execute apenas o conjunto de testes"
+msgstr "Executar apenas o conjunto de testes"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:96
-#, fuzzy
 msgid "If you're rapidly iterating on a new feature, you don't need to run the full test suite; you can run *only* the unit tests. To do this, run:"
-msgstr "Se você estiver fazendo iterações rápidas em um novo recurso, não precisa executar o conjunto completo de testes; você pode executar *apenas* os testes unitários. Para fazer isso, execute:"
+msgstr "Se estiver a iterar rapidamente uma nova funcionalidade, não precisa executar o conjunto completo de testes; pode executar *apenas* os testes de unidade. Para fazer isso, execute:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:104 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:114
 msgid "(.venv) $ tox -e py"
@@ -1942,14 +1679,12 @@ msgid "(.venv) C:\\...>tox -e py"
 msgstr "(.venv) C:\\...>tox -e py"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:130
-#, fuzzy
 msgid "Run a subset of tests { #test-subset }"
 msgstr "Executar um subconjunto de testes { #test-subset }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:132
-#, fuzzy
 msgid "By default, `tox` will run all tests in the unit test suite. When you're developing your new test, it may be helpful to run *just* that one test. To do this, you can pass in [any `pytest` specifier]{1} as an argument to `tox`. These test paths are relative to the `briefcase` directory. For example, to run only the tests in a single file, run:"
-msgstr "Por padrão, `tox` executa todos os testes do conjunto de testes unitários. Ao desenvolver um novo teste, pode ser útil executar *apenas* esse teste específico. Para isso, você pode passar [qualquer especificador `pytest`]{1} como argumento para `tox`. Esses caminhos de teste são relativos ao diretório `briefcase`. Por exemplo, para executar apenas os testes contidos em um único ficheiro, execute:"
+msgstr "Por predefinição, `tox` vai executar todos os testes do conjunto de testes de unidade. Ao desenvolver um novo teste, pode ser útil executar *apenas* esse teste específico. Para isso, pode passar [qualquer especificador `pytest`]{1} como argumento para o `tox`. Estes caminhos de teste são relativos ao diretório `briefcase`. Por exemplo, para executar apenas os testes contidos num único ficheiro, execute:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:140 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:150
 msgid "(.venv) $ tox -e py -- tests/path_to_test_file/test_some_test.py"
@@ -1960,14 +1695,12 @@ msgid "(.venv) C:\\...>tox -e py -- tests/path_to_test_file/test_some_test.py"
 msgstr "(.venv) C:\\...>tox -e py -- tests/path_to_test_file/test_some_test.py"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:166
-#, fuzzy
 msgid "{% block testing_subset_additional %} {% endblock %}"
 msgstr "{% block testing_subset_additional %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:171
-#, fuzzy
 msgid "You'll still get a coverage report when running a part of the test suite - but the coverage results will only report the lines of code that were executed by the specific tests you ran."
-msgstr "Você ainda receberá um relatório de cobertura ao executar uma parte do conjunto de testes — mas os resultados de cobertura mostrarão apenas as linhas de código que foram executadas pelos testes específicos que você executou."
+msgstr "Vai ainda receber um relatório de cobertura ao executar uma parte do conjunto de testes — mas os resultados de cobertura vão mostrar apenas as linhas de código que foram executadas pelos testes específicos que executou."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:175
 #, fuzzy
