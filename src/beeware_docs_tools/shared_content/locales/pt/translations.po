@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-21 17:02+0000\n"
-"PO-Revision-Date: 2026-06-21 17:01+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-21 17:02+0000\nPO-Revision-Date: 2026-06-21 22:37+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -1799,14 +1787,12 @@ msgid "You'll still get a coverage report when running a part of the test suite 
 msgstr "Vai ainda receber um relatório de cobertura ao executar uma parte do conjunto de testes — mas os resultados de cobertura vão mostrar apenas as linhas de código que foram executadas pelos testes específicos que executou."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:175
-#, fuzzy
 msgid "Run the test suite for a specific Python version { #test-py-version }"
-msgstr "Execute o conjunto de testes para uma versão específica do Python { #test-py-version }"
+msgstr "Executar o conjunto de testes para uma versão específica do Python { #test-py-version }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:177
-#, fuzzy
 msgid "By default `tox -e py` will run using whatever interpreter resolves as `python` on your machine. If you have multiple Python versions installed, and want to test a specific Python version from the versions you have installed, you can specify a specific Python version to use. For example, to run the test suite on Python {{ min_python_version }}, run:"
-msgstr "Por padrão, `tox -e py` será executado usando o interpretador que for identificado como `python` no seu computador. Se você tiver várias versões do Python instaladas e quiser testar uma versão específica entre as que estão instaladas, é possível especificar a versão do Python a ser usada. Por exemplo, para executar o conjunto de testes no Python {{ min_python_version }}, execute:"
+msgstr "Por predefinição, `tox -e py` vai correr usando qualquer interpretador que resolver como `python` no seu computador. Se tiver várias versões do Python instaladas e quiser testar uma versão específica entre as que estão instaladas, é possível especificar a versão do Python a ser usada. Por exemplo, para executar o conjunto de testes no Python {{ min_python_version }}, execute:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:185 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:195
 msgid "(.venv) $ tox -e py{{ min_python_version_tag }}"
@@ -1817,19 +1803,16 @@ msgid "(.venv) C:\\...>tox -e py{{ min_python_version_tag }}"
 msgstr "(.venv) C:\\...>tox -e py{{ min_python_version_tag }}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:211
-#, fuzzy
 msgid "A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line."
-msgstr "É possível executar um [subconjunto de testes][test-subset] adicionando `--` e uma especificação de teste à linha de comando."
+msgstr "Pode ser executado um [subconjunto de testes][test-subset] ao adicionar `--` e uma especificação de teste à linha de comando."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:215
-#, fuzzy
 msgid "Run the test suite without coverage (fast)"
-msgstr "Execute o conjunto de testes sem cobertura (rápido)"
+msgstr "Executar o conjunto de testes sem cobertura (rápido)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:217
-#, fuzzy
 msgid "By default, `tox` will run the pytest suite in single threaded mode. You can speed up the execution of the test suite by running the test suite in parallel. This mode does not produce coverage files due to complexities in capturing coverage within spawned processes. To run a single python version in \"fast\" mode, run:"
-msgstr "Por padrão, `tox` executará o conjunto de testes pytest no modo de thread único. É possível acelerar a execução do conjunto de testes executando-o em paralelo. Esse modo não gera ficheiros de cobertura devido às complexidades envolvidas na captura de cobertura dentro dos processos criados. Para executar uma única versão do Python no modo \"rápido\", execute:"
+msgstr "Por predefinição, `tox` vai correr o conjunto de testes pytest no modo de única linha de execução. Pode acelerar a execução do conjunto de testes executando-o em paralelo. Esse modo não gera ficheiros de cobertura devido às complexidades envolvidas na captura de cobertura dentro dos processos criados. Para executar uma única versão do Python no modo \"rápido\", execute:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:225 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:235
 msgid "(.venv) $ tox -e py-fast"
@@ -1840,90 +1823,68 @@ msgid "(.venv) C:\\...>tox -e py-fast"
 msgstr "(.venv) C:\\...>tox -e py-fast"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:251
-#, fuzzy
 msgid "A [subset of tests][test-subset] can be run by adding `--` and a test specification to the command line; a [specific Python version][test-py-version] can be used by adding the version to the test target (e.g., `py{{ min_python_version_tag }}-fast` to run fast on Python {{ min_python_version }})."
-msgstr "É possível executar um [subconjunto de testes][test-subset] adicionando `--` e uma especificação de teste à linha de comando; é possível usar uma [versão específica do Python][test-py-version] adicionando a versão ao destino do teste (por exemplo, `py{{ min_python_version_tag }}-fast` para executar o fast no Python {{ min_python_version }})."
+msgstr "Pode ser executado um [subconjunto de testes][test-subset] ao adicionar `--` e uma especificação de teste à linha de comando; é possível usar uma [versão específica do Python][test-py-version] adicionando a versão ao destino do teste (por exemplo, `py{{ min_python_version_tag }}-fast` para executar rápido em Python {{ min_python_version }})."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:253
-#, fuzzy
 msgid "Code coverage { #code-coverage }"
 msgstr "Cobertura de código { #code-coverage }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:255
-#, fuzzy
 msgid "{{ formal_name }} maintains 100% branch coverage in its codebase. When you add or modify code in the project, you must add test code to ensure coverage of any changes you make."
-msgstr "{{ formal_name }} mantém 100% de cobertura de ramificação em seu código-fonte. Ao adicionar ou modificar código no projeto, é necessário adicionar código de teste para garantir a cobertura de todas as alterações realizadas."
+msgstr "{{ formal_name }} mantém 100% de cobertura de ramo no seu código-fonte. Ao adicionar ou modificar código no projeto, é necessário adicionar código de teste para garantir a cobertura de todas as alterações realizadas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:257
-#, fuzzy
 msgid "However, {{ formal_name }} targets multiple platforms, as well as multiple versions of Python, so full coverage cannot be verified on a single platform and Python version. To accommodate this, several conditional coverage rules are defined in the `tool.coverage.coverage_conditional_plugin.rules` section of `pyproject.toml` (e.g., `no-cover-if-is-windows` can be used to flag a block of code that won't be executed when running the test suite on Windows). These rules are used to identify sections of code that are only covered on particular platforms or Python versions."
-msgstr "No entanto, {{ formal_name }} é compatível com várias plataformas, bem como com várias versões do Python, pelo que não é possível verificar a cobertura total em uma única plataforma e versão do Python. Para contornar isso, várias regras de cobertura condicional são definidas na seção `tool.coverage.coverage_conditional_plugin.rules` do `pyproject.toml` (por exemplo, `no-cover-if-is-windows` pode ser usado para sinalizar um bloco de código que não será executado ao rodar o conjunto de testes no Windows). Essas regras são usadas para identificar seções de código que são cobertas apenas em plataformas ou versões específicas do Python."
+msgstr "No entanto, {{ formal_name }} visa várias plataformas, bem como várias versões do Python, pelo que não é possível verificar a cobertura total numa única plataforma e versão do Python. Para contornar isso, várias regras de cobertura condicional são definidas na secção `tool.coverage.coverage_conditional_plugin.rules` do `pyproject.toml` (por exemplo, `no-cover-if-is-windows` pode ser usado para sinalizar um bloco de código que não será executado ao rodar o conjunto de testes no Windows). Essas regras são usadas para identificar secções de código que são cobertas apenas em plataformas ou versões específicas do Python."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:259
-#, fuzzy
 msgid "Of note, coverage reporting across Python versions can be a bit quirky. For instance, if coverage files are produced using one version of Python but coverage reporting is done on another, the report may include false positives for missed branches. Because of this, coverage reporting should always use the oldest version Python used to produce the coverage files."
-msgstr "É importante notar que a geração de relatórios de cobertura entre diferentes versões do Python pode apresentar algumas peculiaridades. Por exemplo, se os ficheiros de cobertura forem gerados usando uma versão do Python, mas a geração do relatório for feita em outra, o relatório poderá incluir falsos positivos para ramificações não verificadas. Por esse motivo, a geração de relatórios de cobertura deve sempre utilizar a versão mais antiga do Python usada para gerar os ficheiros de cobertura."
+msgstr "De notar que a geração de relatórios de cobertura entre diferentes versões do Python pode apresentar algumas peculiaridades. Por exemplo, se os ficheiros de cobertura forem gerados usando uma versão do Python, mas a geração do relatório for feita noutra, o relatório poderá incluir falsos positivos para ramos não verificados. Por esse motivo, a geração de relatórios de cobertura deve sempre utilizar a versão mais antiga do Python usada para gerar os ficheiros de cobertura."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:261
-#, fuzzy
 msgid "Understanding coverage results"
-msgstr "Entendendo os resultados da cobertura"
+msgstr "Compreender os resultados da cobertura"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:263
-#, fuzzy
 msgid "At the end of the coverage test output there should be a report of the coverage data that was gathered:"
-msgstr "No final da saída do teste de cobertura, deve haver um relatório com os dados de cobertura coletados:"
+msgstr "No final do resultado do teste de cobertura, deve haver um relatório com os dados de cobertura recolhidos:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:267
-#, fuzzy
 msgid ""
 "Name    Stmts   Miss Branch BrPart   Cover   Missing\n"
 " ---------------------------------------------------\n"
 " TOTAL    7540      0   1040      0  100.0%"
-msgstr ""
-"Nome    Extratos   Filial ausente   Parte da conta   Cobertura   Ausente\n"
-" ---------------------------------------------------\n"
-" TOTAL    7540 0   1040 0  100,0%"
+msgstr "Name    Stmts   Miss Branch BrPart   Cover   Missing\n ---------------------------------------------------\n TOTAL    7540      0   1040      0  100.0%"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:273
-#, fuzzy
 msgid "This tells us that the test suite has executed every possible branching path in the code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase."
-msgstr "Isso nos indica que o conjunto de testes executou todos os caminhos de ramificação possíveis no código. Isso não é uma garantia de 100% de que não há bugs, mas significa que estamos testando cada linha de código da base de código."
+msgstr "Isto indica-nos que o conjunto de testes executou todos os caminhos de ramo possíveis no código. Isto não é uma garantia de 100% de que não há bugs, mas significa que estamos a testar cada linha de código da base de código."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:275
-#, fuzzy
 msgid "If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `some/interesting_file.py`, adding some new logic. The coverage report might look something like:"
-msgstr "Se você fizer alterações no código-fonte, é possível que surja uma lacuna nessa cobertura. Quando isso acontecer, o relatório de cobertura indicará quais linhas não estão sendo executadas. Por exemplo, digamos que tenhamos feito uma alteração em `some/interesting_file.py`, adicionando uma nova lógica. O relatório de cobertura poderia ficar mais ou menos assim:"
+msgstr "Se fizer alterações no código-fonte, é possível que surja uma lacuna nessa cobertura. Quando isso acontecer, o relatório de cobertura indicará quais linhas não estão a ser executadas. Por exemplo, digamos que fizemos uma alteração em `some/interesting_file.py`, adicionando uma nova lógica. O relatório de cobertura poderia ficar mais ou menos assim:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:279
-#, fuzzy
 msgid ""
 "Name                                 Stmts   Miss Branch BrPart  Cover   Missing\n"
 " -------------------------------------------------------------------------------\n"
 " src/some/interesting_file.py           111      1     26      0  98.1%   170, 302-307, 320->335\n"
 " -------------------------------------------------------------------------------\n"
 " TOTAL                                 7540      1   1726      0  99.9%"
-msgstr ""
-"Nome Instruções   Erros de ramificação BrPart  Cobertura   Ausências\n"
-" -------------------------------------------------------------------------------\n"
-" src/some/interesting_file.py 111 1     26 0  98,1%   170, 302-307, 320->335\n"
-" -------------------------------------------------------------------------------\n"
-" TOTAL 7540 1   1726 0  99,9%"
+msgstr "Name                                 Stmts   Miss Branch BrPart  Cover   Missing\n -------------------------------------------------------------------------------\n src/some/interesting_file.py           111      1     26      0  98.1%   170, 302-307, 320->335\n -------------------------------------------------------------------------------\n TOTAL                                 7540      1   1726      0  99.9%"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:287
-#, fuzzy
 msgid "This tells us that line 170, lines 302-307, and a branch jumping from line 320 to line 335, are not being executed by the test suite. You'll need to add new tests (or modify an existing test) to restore this coverage."
-msgstr "Isso indica que a linha 170, as linhas 302 a 307 e um salto de execução da linha 320 para a linha 335 não estão sendo executados pelo conjunto de testes. Você precisará adicionar novos testes (ou modificar um teste existente) para restaurar essa cobertura."
+msgstr "Isto diz-nos que a linha 170, as linhas 302 a 307 e um salto de ramo desde linha 320 para a linha 335 não estão a ser executados pelo conjunto de testes. Vai precisar adicionar novos testes (ou modificar um teste existente) para restaurar essa cobertura."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:289
-#, fuzzy
 msgid "Coverage report for host platform and Python version"
-msgstr "Relatório de cobertura para a plataforma de execução e a versão do Python"
+msgstr "Relatório de cobertura para a plataforma anfitriã e a versão do Python"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:291
-#, fuzzy
 msgid "You can generate a coverage report for your platform and version of Python. For example, to run the test suite and generate a coverage report on Python {{ min_python_version }}, run:"
-msgstr "Você pode gerar um relatório de cobertura para a sua plataforma e versão do Python. Por exemplo, para executar o conjunto de testes e gerar um relatório de cobertura no Python {{ min_python_version }}, execute:"
+msgstr "Pode gerar um relatório de cobertura para a sua plataforma e versão do Python. Por exemplo, para correr o conjunto de testes e gerar um relatório de cobertura no Python {{ min_python_version }}, execute:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:309
 msgid "(.venv) $ tox -m test{{ min_python_version_tag }}"
@@ -1934,14 +1895,12 @@ msgid "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
 msgstr "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:325
-#, fuzzy
 msgid "Coverage report for host platform"
-msgstr "Relatório de cobertura para a plataforma de hospedagem"
+msgstr "Relatório de cobertura para a plataforma anfitriã"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:327
-#, fuzzy
 msgid "If all supported versions of Python are available to `tox`, then coverage for the host platform can be reported by running:"
-msgstr "Se todas as versões compatíveis do Python estiverem disponíveis para `tox`, a cobertura para a plataforma hospedeira pode ser gerada executando:"
+msgstr "Se todas as versões suportadas do Python estiverem disponíveis para `tox`, a cobertura para a plataforma anfitriã pode ser reportada executando:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:335 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:345
 msgid "(.venv) $ tox p -m test-platform"
@@ -1952,14 +1911,12 @@ msgid "(.venv) C:\\...>tox p -m test-platform"
 msgstr "(.venv) C:\\...>tox p -m test-platform"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:361
-#, fuzzy
 msgid "Coverage reporting in HTML"
 msgstr "Relatórios de cobertura em HTML"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:363
-#, fuzzy
 msgid "A HTML coverage report can be generated by appending `-html` to any of the coverage `tox` environment names, for instance:"
-msgstr "É possível gerar um relatório de cobertura HTML acrescentando `-html` a qualquer um dos nomes de ambiente de cobertura `tox`, por exemplo:"
+msgstr "Pode ser gerado um relatório de cobertura HTML acrescentando `-html` a qualquer um dos nomes de ambiente de cobertura `tox`, por exemplo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:371 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:381
 msgid "(.venv) $ tox -e coverage-platform-html"
@@ -1970,89 +1927,72 @@ msgid "(.venv) C:\\...>tox -e coverage-platform-html"
 msgstr "(.venv) C:\\...>tox -e coverage-platform-html"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:399
-#, fuzzy
 msgid "{% block testing_additional %} {% endblock %}"
 msgstr "{% block testing_additional %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:402
-#, fuzzy
 msgid "It's not just about writing tests!"
 msgstr "Não se trata apenas de escrever testes!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:404
-#, fuzzy
 msgid "Although we ensure that we test all of our code, the task isn't *just* about maintaining that level of testing. Part of the task is to audit the code as you go. You could write a comprehensive set of tests for a concrete life jacket... but a concrete life jacket would still be useless for the purpose it was intended!"
-msgstr "Embora nos certifiquemos de testar todo o nosso código, a tarefa não se resume *apenas* a manter esse nível de testes. Parte da tarefa consiste em revisar o código à medida que se avança. Você poderia escrever um conjunto abrangente de testes para um colete salva-vidas de concreto... mas um colete salva-vidas de concreto continuaria sendo inútil para o fim a que se destina!"
+msgstr "Embora nos certificamos de testar todo o nosso código, a tarefa não se resume *apenas* a manter esse nível de testes. Parte da tarefa consiste em rever o código à medida que se avança. Podemos escrever um conjunto compreensível de testes para um colete salva-vidas de betão... mas um colete salva-vidas de betão continuava a ser inútil para o objetivo pretendido!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:406
-#, fuzzy
 msgid "As you develop tests, you should be checking that the core module is internally **consistent** as well. If you notice any method names that aren't internally consistent (e.g., something called `on_select` in one module, but called `on_selected` in another), or where the data isn't being handled consistently, flag it and bring it to our attention by raising a ticket. Or, if you're confident that you know what needs to be done, create a pull request that fixes the problem you've found."
-msgstr "À medida que você desenvolve testes, deve verificar se o módulo principal também é **consistente** internamente. Se você notar algum nome de método que não seja internamente consistente (por exemplo, algo chamado `on_select` em um módulo, mas chamado `on_selected` em outro), ou onde os dados não estejam sendo tratados de forma consistente, sinalize isso e nos informe criando um ticket. Ou, se você tiver certeza do que precisa ser feito, crie uma pull request que corrija o problema que você encontrou."
+msgstr "À medida que desenvolve testes, deve verificar se o módulo principal também é **consistente** internamente. Se notar algum nome de método que não seja internamente consistente (por exemplo, algo chamado `on_select` num módulo, mas chamado `on_selected` noutro), ou onde os dados não estejam sendo tratados de forma consistente, sinalize isso e nos informe criando um bilhete. Ou, se tiver certeza do que precisa ser feito, crie um pedido de puxar que corrija o problema que encontrou."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:2
-#, fuzzy
 msgid "These are the steps to follow to write your documentation contribution to {{ formal_name }}."
-msgstr "Estas são as etapas a serem seguidas para escrever sua contribuição de documentação para {{ formal_name }}."
+msgstr "Estes são os passos a seguir para escrever sua contribuição de documentação para {{ formal_name }}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:7
-#, fuzzy
 msgid "Updating existing documentation"
-msgstr "Atualização da documentação existente"
+msgstr "Atualizar a documentação existente"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:9
-#, fuzzy
 msgid "If you're editing the existing docs, you'll need to locate the file in the `/docs/en` directory. The file structure follows the page structure, so you can locate the file using the documentation URL."
-msgstr "Se estiver editando os documentos existentes, será necessário localizar o ficheiro no diretório `/docs/en`. A estrutura do ficheiro segue a estrutura da página, portanto, você pode localizar o ficheiro usando o URL da documentação."
+msgstr "Se estiver a editar os documentos existentes, será necessário localizar o ficheiro no diretório `/docs/en`. A estrutura do ficheiro segue a estrutura da página, assim pode localizar o ficheiro usando o URL da documentação."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:11
-#, fuzzy
 msgid "Adding new documentation"
-msgstr "Adição de nova documentação"
+msgstr "Adicionar nova documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:13
-#, fuzzy
 msgid "If you're adding a new document, there are a few more steps involved."
-msgstr "Se você estiver adicionando um novo documento, há mais algumas etapas envolvidas."
+msgstr "Se estiver a adicionar um novo documento, há mais alguns passos envolvidos."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:15
-#, fuzzy
 msgid "You'll need to create the document in the appropriate location within the `docs/en` directory. For discussion, we'll say you're adding a new document with the filename `new_doc.md`."
-msgstr "Você precisará criar o documento no local apropriado dentro do diretório `docs/en`. Para fins de discussão, digamos que você esteja adicionando um novo documento com o nome de ficheiro `new_doc.md`."
+msgstr "Vai precisar criar o documento no local apropriado dentro do diretório `docs/en`. Para fins de discussão, digamos que esteja a adicionar um novo documento com o nome de ficheiro `new_doc.md`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:17
-#, fuzzy
 msgid "Then, you'll need to update the `docs/en/SUMMARY.md` file to include your new file. `SUMMARY.md` is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. If you locate the section where you intend to include `new_doc.md`, you do not need to change anything in `SUMMARY.md` if you see a wildcard path listed. For example:"
-msgstr "Em seguida, você precisará atualizar o ficheiro `docs/en/SUMMARY.md` para incluir o novo ficheiro. O `SUMMARY.md` é organizado para refletir basicamente a estrutura do diretório `docs/en`, mas, o que é mais importante, determina diretamente a estrutura da barra lateral esquerda. Se você localizar a seção onde pretende incluir o `new_doc.md`, não precisará alterar nada no `SUMMARY.md` caso veja um caminho curinga listado. Por exemplo:"
+msgstr "Depois, vai precisar atualizar o ficheiro `docs/en/SUMMARY.md` para incluir o novo ficheiro. O `SUMMARY.md` é organizado para refletir basicamente a estrutura do diretório `docs/en`, mas, o que é mais importante, determina diretamente a estrutura da barra lateral esquerda. Se localizar a secção onde pretende incluir o `new_doc.md`, não vai precisar alterar nada no `SUMMARY.md` caso veja um caminho com wildcard listado. Por exemplo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:19
-#, fuzzy
 msgid "- ./path/to/directory/*"
 msgstr "- ./caminho/para/diretório/*"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:23
-#, fuzzy
 msgid "If the section where you intend to include `new_doc.md` is a list of individual Markdown links, you'll need to add an explicit link to yours. For example:"
-msgstr "Se a seção em que você pretende incluir `new_doc.md` for uma lista de links Markdown individuais, será necessário adicionar um link explícito para o seu. Por exemplo:"
+msgstr "Se a secção em que pretende incluir `new_doc.md` for uma lista de atalhos Markdown individuais, será necessário adicionar um atalho explícito para o seu. Por exemplo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:25
-#, fuzzy
 msgid "- [My new document](new_doc.md)"
 msgstr "- [Meu novo documento](new_doc.md)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:29
-#, fuzzy
 msgid "Writing your documentation"
-msgstr "Escrevendo sua documentação"
+msgstr "Escrever a sua documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:31
-#, fuzzy
 msgid "You can now open the desired file into your editor, and begin writing."
-msgstr "Agora você pode abrir o ficheiro desejado em seu editor e começar a escrever."
+msgstr "Agora pode abrir o ficheiro desejado no seu editor, e começar a escrever."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:33
-#, fuzzy
 msgid "We have a [documentation style guide]{1} that outlines our guidelines for writing documentation for BeeWare."
-msgstr "Temos um [guia de estilo de documentação]{1} que descreve nossas diretrizes para escrever documentação para o BeeWare."
+msgstr "Temos um [guia de estilo de documentação]{1} que descreve as nossas diretrizes para escrever documentação para o BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:1
 #, fuzzy
