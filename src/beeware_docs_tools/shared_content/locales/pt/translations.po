@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-21 22:38+0000\n"
-"PO-Revision-Date: 2026-06-21 22:37+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-21 22:38+0000\nPO-Revision-Date: 2026-06-23 00:01+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -2015,503 +2003,404 @@ msgid "We have a [documentation style guide]{1} that outlines our guidelines for
 msgstr "Temos um [guia de estilo de documentação]{1} que descreve as nossas diretrizes para escrever documentação para o BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:1
-#, fuzzy
 msgid "There are plenty of ways to contribute to {{ formal_name }}{% if not config.extra.website %} and BeeWare as a whole{% endif %}. These guides cover everything you need to know to provide your contribution."
-msgstr "Existem várias maneiras de contribuir com {{ formal_name }}{% if not config.extra.website %} e com o BeeWare como um todo{% endif %}. Estes guias cobrem tudo o que você precisa saber para oferecer sua contribuição."
+msgstr "Existem várias maneiras de contribuir para {{ formal_name }}{% if not config.extra.website %} e BeeWare no geral{% endif %}. Estes guias cobrem tudo o que precisa saber para oferecer a sua contribuição."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:3
 msgid "{% if not config.extra.website %}"
 msgstr "{% if not config.extra.website %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:5
-#, fuzzy
 msgid "Can I contribute?"
 msgstr "Posso contribuir?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:7
-#, fuzzy
 msgid "Yes! We have opportunities for folks at every experience level to contribute. Whether this is your first time contributing to open source, or you've been doing it for years, we have something that will work for you."
-msgstr "Sim! Temos oportunidades de contribuição para pessoas de todos os níveis de experiência. Não importa se é a primeira vez que você contribui com código-fonte aberto ou se já o faz há anos, temos algo que funcionará para você."
+msgstr "Sim! Temos oportunidades de contribuição para pessoas de todos os níveis de experiência. Não importa se é a primeira vez que contribui com código-fonte aberto ou se já o faz há anos, temos algo que vai funcionar para si."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:9
-#, fuzzy
 msgid "Is this your first time contributing to an open source project? We're here to help! We have [advice for first-time contributors]{1} to help with getting past any initial fears and concerns."
-msgstr "É a primeira vez que você contribui para um projeto de código aberto? Estamos aqui para ajudar! Temos [conselhos para colaboradores iniciantes]{1} para ajudar a superar quaisquer receios e preocupações iniciais."
+msgstr "É a primeira vez que contribui para um projeto de código aberto? Estamos aqui para ajudar! Temos [conselhos para colaboradores iniciantes]{1} para ajudar a superar quaisquer receios e preocupações iniciais."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:13
-#, fuzzy
 msgid "/// note | Using AI and autonomous tools"
-msgstr "/// note | Utilizando IA e ferramentas autônomas"
+msgstr "/// note | Utilizar IA e ferramentas autónomas"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:15
-#, fuzzy
 msgid "The BeeWare Project neither encourages nor prohibits the use of AI tools when making contributions. However, if you do use an AI tool we require that you declare what tools you have used. Our [AI Policy]{1} contains full details of your obligations."
-msgstr "O Projeto BeeWare não incentiva nem proíbe o uso de ferramentas de IA na realização de contribuições. No entanto, caso utilize uma ferramenta de IA, exigimos que declare quais ferramentas foram utilizadas. Nossa [Política de IA]{1} contém todos os detalhes sobre suas obrigações."
+msgstr "O Projeto BeeWare não incentiva nem proíbe o uso de ferramentas de IA na realização de contribuições. No entanto, caso utilize uma ferramenta de IA, exigimos que declare quais ferramentas foram utilizadas. Nossa [Política de IA]{1} contém todos os detalhes sobre as suas obrigações."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:19
-#, fuzzy
 msgid "What can I do? { #what-can-i-do }"
 msgstr "O que posso fazer? { #what-can-i-do }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:21
-#, fuzzy
 msgid "[Fix an issue]{1}"
 msgstr "[Corrigir um problema]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:23
-#, fuzzy
 msgid "The most obvious contribution you can make is to [write code to fix a known issue]{1}."
-msgstr "A contribuição mais óbvia que você pode fazer é [escrever código para corrigir um problema conhecido]{1}."
+msgstr "A contribuição mais óbvia que pode fazer é [escrever código para corrigir um problema conhecido]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:25
-#, fuzzy
 msgid "[Implement a new feature]{1}"
-msgstr "[Implementar um novo recurso]{1}"
+msgstr "[Implementar uma nova funcionalidade]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:27
-#, fuzzy
 msgid "Is {{ formal_name }} missing a feature that you'd like to see? You can [implement a new feature]{1}."
-msgstr "{{ formal_name }} está faltando um recurso que você gostaria de ver? Você pode [implementar um novo recurso]{1}."
+msgstr "Esta a faltar em {{ formal_name }} uma funcionalidade que gostaria de ver? Pode [implementar uma nova funcionalidade]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:29 src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:87
-#, fuzzy
 msgid "[Write documentation]{1}"
 msgstr "[Escrever documentação]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:31
-#, fuzzy
 msgid "No feature is complete until it's well documented. [Writing documentation]{1} is a way to contribute that doesn't involve writing code."
-msgstr "Nenhum recurso está completo até que esteja bem documentado. [Escrever documentação]{1} é uma forma de contribuir que não envolve escrever código."
+msgstr "Nenhuma funcionalidade está completa até que esteja bem documentada. [Escrever documentação]{1} é uma forma de contribuir que não envolve escrever código."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:33
-#, fuzzy
 msgid "[Triage an issue]{1}"
-msgstr "[Triagem de um problema]{1}"
+msgstr "[Triagem a um problema]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:35
-#, fuzzy
 msgid "Every time someone reports a new issue, that issue needs to be triaged. [Triaging an issue]{1} involves taking the information provided by the reporter, and trying to reproduce the problem they describe."
-msgstr "Toda vez que alguém relata um novo problema, esse problema precisa ser triado. [A triagem de um problema]{1} envolve a coleta das informações fornecidas pelo relator e a tentativa de reproduzir o problema descrito."
+msgstr "Sempre que alguém reporta um novo problema, esse problema precisa duma primeira avaliação. [A triagem a um problema]{1} envolve a recolha das informações fornecidas por quem o reportou e a tentativa de reproduzir o problema descrito."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:37
-#, fuzzy
 msgid "[Review a pull request]{1}"
-msgstr "[Revisar um pull request]{1}"
+msgstr "[Rever um pedido de puxar]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:39
-#, fuzzy
 msgid "Once a pull request is submitted, it needs to be reviewed before it can be merged. Regardless of whether you are deeply familiar with the content, there is likely a way you can help with [reviewing a pull request]{1}."
-msgstr "Depois que uma pull request é enviada, ela precisa ser revisada antes de ser mesclada. Independentemente de você estar ou não profundamente familiarizado com o conteúdo, é provável que haja uma maneira de ajudar na [revisão de uma pull request]{1}."
+msgstr "Depois de um pedido de puxar ser enviado, ele precisa ser revisto antes de ser fundido. Independentemente de estar ou não profundamente familiarizado com o conteúdo, é provável que haja uma maneira de ajudar na [revisão de um pedido de puxar]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:41
-#, fuzzy
 msgid "[Suggest a new feature]{1}"
-msgstr "[Sugerir um novo recurso]{1}"
+msgstr "[Sugerir uma nova funcionalidade]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:43
-#, fuzzy
 msgid "Do you have a suggestion or idea for a new addition to one of the BeeWare tools? You can [propose a new feature]{1} for consideration."
-msgstr "Você tem uma sugestão ou ideia para uma nova adição a uma das ferramentas do BeeWare? Você pode [propor um novo recurso]{1} para consideração."
+msgstr "Tem uma sugestão ou ideia para uma nova adição a uma das ferramentas do BeeWare? Pode [propor uma nova funcionalidade]{1} para consideração."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:47 src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:105
-#, fuzzy
 msgid "[Translate content]{1}"
 msgstr "[Traduzir conteúdo]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:49
-#, fuzzy
 msgid "BeeWare maintains various documentation in multiple languages. If you know a language other than English, you can help with [translating content]{1}."
-msgstr "O BeeWare mantém várias documentações em vários idiomas. Se você conhece um idioma diferente do inglês, pode ajudar com a [tradução do conteúdo]{1}."
+msgstr "O BeeWare mantém várias documentações em vários idiomas. Se conhece um idioma diferente do Inglês, pode ajudar com a [tradução do conteúdo]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:53
-#, fuzzy
 msgid "[Use the tools]{1}"
-msgstr "[Use as ferramentas]{1}"
+msgstr "[Usar as ferramentas]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:55
-#, fuzzy
 msgid "Do you have an idea for an app built with Toga? Do you have an existing app that could be packaged with Briefcase? You can [use the tools]{1} and provide feedback on your experience."
-msgstr "Você tem uma ideia para um aplicação desenvolvido com o Toga? Você tem um aplicação existente que poderia ser empacotado com o Briefcase? Você pode [usar as ferramentas]{1} e fornecer feedback sobre sua experiência."
+msgstr "Tem uma ideia para uma aplicação desenvolvida com o Toga? Tem uma aplicação existente que poderia ser empacotada com o Briefcase? Pode [usar as ferramentas]{1} e fornecer informação de retorno sobre a sua experiência."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:57
-#, fuzzy
 msgid "How do I contribute?"
 msgstr "Como posso contribuir?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:59
-#, fuzzy
 msgid "[Set up a development environment]{1}"
 msgstr "[Configurar um ambiente de desenvolvimento]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:61
-#, fuzzy
 msgid "Before you can begin contributing to BeeWare, you'll need to [set up your development environment]{1}."
-msgstr "Antes de começar a contribuir com o BeeWare, você precisará [configurar seu ambiente de desenvolvimento]{1}."
+msgstr "Antes de começar a contribuir para o BeeWare, vai precisar de [configurar o seu ambiente de desenvolvimento]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:63
-#, fuzzy
 msgid "[Reproduce an issue]{1}"
 msgstr "[Reproduzir um problema]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:65
-#, fuzzy
 msgid "Before fixing an issue, you'll need to [verify it exists]{1}. Reproducing an issue is also an important part of triage."
-msgstr "Antes de corrigir um problema, você precisará [verificar se ele existe]{1}. Reproduzir um problema também é uma parte importante da triagem."
+msgstr "Antes de corrigir um problema, vai precisar de [verificar que ele existe]{1}. Reproduzir um problema também é uma parte importante da triagem."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:67
-#, fuzzy
 msgid "[Work from a branch]{1}"
-msgstr "[Trabalhar em uma filial]{1}"
+msgstr "[Trabalhar a partir de um ramo]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:69
-#, fuzzy
 msgid "When preparing to submit a contribution, always [work from a branch]{1}."
-msgstr "Ao se preparar para enviar uma contribuição, sempre [trabalhe a partir de uma ramificação]{1}."
+msgstr "Ao preparar-se para submeter uma contribuição, [trabalhe a partir de um ramo]{1} sempre."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:71
-#, fuzzy
 msgid "[Avoid scope creep]{1}"
 msgstr "[Evite o aumento do escopo]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:73
-#, fuzzy
 msgid "It's important to maintain focus, and [avoid scope creep]{1} with your contribution."
-msgstr "É importante manter o foco e [evitar desvios de escopo]{1} com sua contribuição."
+msgstr "É importante manter o foco e [evitar aumentos de escopo]{1} com a sua contribuição."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:75
-#, fuzzy
 msgid "[Propose a new feature]{1}"
-msgstr "[Proponha um novo recurso]{1}"
+msgstr "[Propor uma nova funcionalidade]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:77
-#, fuzzy
 msgid "You'll follow these steps to [propose a new feature]{1}."
-msgstr "Você seguirá estas etapas para [propor um novo recurso]{1}."
+msgstr "Vai seguir estes passos para [propor uma nova funcionalidade]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:79
-#, fuzzy
 msgid "[Write, run, and test code]{1}"
-msgstr "[Escrever, executar e testar o código]{1}"
+msgstr "[Escrever, correr, e testar o código]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:81
-#, fuzzy
 msgid "To update or contribute code, you'll need to [write, run, and test your code]{1}."
-msgstr "Para atualizar ou contribuir com o código, você precisará [escrever, executar e testar seu código]{1}."
+msgstr "Para atualizar ou contribuir com código, vai precisar de [escrever, executar, e testar o seu código]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:83
-#, fuzzy
 msgid "[Build documentation]{1}"
-msgstr "[Documentação de construção]{1}"
+msgstr "[Compilar a documentação]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:85
-#, fuzzy
 msgid "To update or contribute to documentation, you'll need to be able to [build the docs]{1}."
-msgstr "Para atualizar ou contribuir com a documentação, você precisará ser capaz de [criar os documentos]{1}."
+msgstr "Para atualizar ou contribuir com documentação, vai precisar de ser capaz de [compilar os documentos]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:89
-#, fuzzy
 msgid "To contribute documentation, you'll [write new content or update existing content]{1}."
-msgstr "Para contribuir com a documentação, você [escreverá novo conteúdo ou atualizará o conteúdo existente]{1}."
+msgstr "Para contribuir com a documentação, vai [escrever novo conteúdo ou atualizar o conteúdo existente]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:91
-#, fuzzy
 msgid "[Add a change note]{1}"
 msgstr "[Adicionar uma nota de modificação]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:93
-#, fuzzy
 msgid "Every pull request should be accompanied by a [change note]{1}."
-msgstr "Todo pull request deve ser acompanhado de uma [nota de alteração]{1}."
+msgstr "Cada pedido de puxar deve ser acompanhado de uma [nota de alteração]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:95
-#, fuzzy
 msgid "[Submit a pull request]{1}"
-msgstr "[Enviar um pull request]{1}"
+msgstr "[Submeter um pedido de puxar]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:97
-#, fuzzy
 msgid "Once your changes are ready, you'll [submit a pull request]{1} for review."
-msgstr "Quando suas alterações estiverem prontas, você [enviará um pull request]{1} para revisão."
+msgstr "Quando as suas alterações estiverem prontas, vai [submeter um pedido de puxar]{1} para revisão."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:99
-#, fuzzy
 msgid "[Provide a review]{1}"
-msgstr "[Forneça uma avaliação]{1}"
+msgstr "[Fornecer uma revisão]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:101
-#, fuzzy
 msgid "If you're comfortable, you can [provide a review of someone else's contribution]{1}."
-msgstr "Se você se sentir confortável, pode [fazer uma avaliação da contribuição de outra pessoa]{1}."
+msgstr "Se sentir-se confortável, pode [fazer uma revisão da contribuição de outra pessoa]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:107
-#, fuzzy
 msgid "BeeWare uses Weblate for [translations]{1}, which requires a few steps to get started."
-msgstr "O BeeWare usa o Weblate para [traduções]{1}, o que requer algumas etapas para começar."
+msgstr "O BeeWare usa o Weblate para [traduções]{1}, o que requer alguns passos para começar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:111
-#, fuzzy
 msgid "[Submit a new issue]{1}"
-msgstr "[Enviar uma nova edição]{1}"
+msgstr "[Submeter um novo problema]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:113
-#, fuzzy
 msgid "If you run into a new problem or bug, it's helpful to [submit an issue]{1}."
-msgstr "Se você se deparar com um novo problema ou bug, é útil [enviar um problema]{1}."
+msgstr "Se deparar-se com um novo problema ou bug, é útil [submeter um problema]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:115
-#, fuzzy
 msgid "What happens next?"
 msgstr "O que acontece depois?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:117
-#, fuzzy
 msgid "[Pull request review]{1}"
-msgstr "[Revisão de pull request]{1}"
+msgstr "[Revisão do pedido de puxar]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:119
-#, fuzzy
 msgid "When a pull request is submitted, the next step is [the PR review]{1}."
-msgstr "Quando um pull request é enviado, a próxima etapa é [a revisão do PR]{1}."
+msgstr "Quando um pedido de puxar é submetido, o próximo passo [a revisão do PR]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:121
-#, fuzzy
 msgid "[The release process]{1}"
-msgstr "[O processo de liberação]{1}"
+msgstr "[O processo de lançamento]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:123
-#, fuzzy
 msgid "Merged contributions will go through [the release process]{1}."
-msgstr "As contribuições mescladas passarão pelo [processo de lançamento]{1}."
+msgstr "As contribuições fundidas vão passar pelo [processo de lançamento]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:125
-#, fuzzy
 msgid "Policies"
 msgstr "Políticas"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:127
-#, fuzzy
 msgid "[AI Policy]{1}"
 msgstr "[Política de IA]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:129
-#, fuzzy
 msgid "BeeWare's policy on the usage of Generative AI, Large Language Models, and other autonomous tooling when contributing."
-msgstr "Política da BeeWare sobre o uso de IA generativa, grandes modelos de linguagem e outras ferramentas autônomas nas contribuições."
+msgstr "Política da BeeWare sobre o uso de IA Generativa, grandes modelos de linguagem e outras ferramentas autónomas nas contribuições."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:131
-#, fuzzy
 msgid "Style Guides"
-msgstr "Guias de estilo"
+msgstr "Guias de Estilo"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:133
-#, fuzzy
 msgid "[Code style guide]{1}"
-msgstr "[Código de estilo do guia]{1}"
+msgstr "[Guia do estilo de código]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:135
-#, fuzzy
 msgid "These are the guidelines for contributing code to BeeWare projects."
 msgstr "Estas são as diretrizes para contribuir com código para os projetos do BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:137
-#, fuzzy
 msgid "[Documentation style guide]{1}"
-msgstr "[Guia de estilo de documentação]{1}"
+msgstr "[Guia do estilo de documentação]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:139
-#, fuzzy
 msgid "These are the guidelines for contributing documentation to BeeWare projects."
 msgstr "Estas são as diretrizes para contribuir com documentação para os projetos do BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:1
-#, fuzzy
 msgid "Your pull request has been submitted, and passing CI. It is now ready to be reviewed."
-msgstr "Seu pull request foi enviado e aprovado pelo CI. Agora ela está pronta para ser revisada."
+msgstr "O seu pull pedido foi submetido, e passou o CI. Agora está pronto para ser revisto."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:3
-#, fuzzy
 msgid "tl;dr{1} - The review process"
 msgstr "tl;dr{1} - O processo de revisão"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:5
-#, fuzzy
 msgid "The short version of the review process:"
 msgstr "A versão resumida do processo de revisão:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:7
-#, fuzzy
 msgid "Wait for a review."
-msgstr "Aguarde uma revisão."
+msgstr "Aguardar uma revisão."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:8
-#, fuzzy
 msgid "Respond to feedback."
-msgstr "Responda ao feedback."
+msgstr "Responder ao retorno de informação (feedback)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:9
-#, fuzzy
 msgid "If changes are requested:"
 msgstr "Se forem solicitadas alterações:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:9
-#, fuzzy
 msgid "Work through completing requested changes."
-msgstr "Trabalhe para concluir as alterações solicitadas."
+msgstr "Trabalhar para concluir as alterações solicitadas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:9
-#, fuzzy
 msgid "Submit all requested changes."
-msgstr "Envie todas as alterações solicitadas."
+msgstr "Submeter todas as alterações solicitadas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:9
-#, fuzzy
 msgid "Re-request a review when all requested changes have been submitted."
-msgstr "Solicite novamente uma revisão quando todas as alterações solicitadas tiverem sido enviadas."
+msgstr "Solicitar novamente uma revisão quando todas as alterações solicitadas tiverem sido submetidas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:9
-#, fuzzy
 msgid "Repeat section three until no further changes are needed."
-msgstr "Repita a seção três até que não sejam necessárias mais alterações."
+msgstr "Repetir a secção três até que não sejam necessárias mais alterações."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:14
-#, fuzzy
 msgid "Wait for your pull request to be approved and merged."
-msgstr "Aguarde a aprovação e o merge de sua pull request."
+msgstr "Aguardar que o seu pedido de puxar seja aprovado e fundido."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:16
-#, fuzzy
 msgid "Congratulations! You've just made a contribution to {{ formal_name }}!"
-msgstr "Parabéns! Você acabou de fazer uma contribuição para {{ formal_name }}!"
+msgstr "Parabéns! Acabou de fazer uma contribuição para {{ formal_name }}!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:18
-#, fuzzy
 msgid "I submitted my pull request, what's next?"
-msgstr "Enviei minha solicitação pull, o que vem a seguir?"
+msgstr "Submeti o meu pedido de puxar, o que vem a seguir?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:20
-#, fuzzy
 msgid "After submitting your pull request, you'll need to wait for a review of your contribution. There are two sides to the review process: providing a review and receiving a review."
-msgstr "Depois de enviar sua pull request, você precisará aguardar a revisão da sua contribuição. Há dois lados no processo de revisão: fornecer uma revisão e receber uma revisão."
+msgstr "Depois de enviar o seu pedido de puxar, vai precisar aguardar a revisão da sua contribuição. Há dois lados no processo de revisão: fornecer uma revisão e receber uma revisão."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:22
-#, fuzzy
 msgid "/// info | Review expectations"
-msgstr "/// info | Revisar as expectativas"
+msgstr "/// info | Rever as expectativas"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:24
-#, fuzzy
 msgid "You should expect anyone reviewing your submissions to follow these guidelines, including reviews from members of the core team. You should also follow these guidelines when you are reviewing submissions from others."
-msgstr "Você deve esperar que todas as pessoas que analisarem seus envios sigam essas diretrizes, inclusive as avaliações dos membros da equipe principal. Você também deve seguir essas diretrizes quando estiver analisando os envios de outras pessoas."
+msgstr "Deve esperar que todas as pessoas que revejam os seus envios sigam essas diretrizes, inclusive as revisões dos membros da equipa principal. Também deve seguir essas diretrizes quando estiver a rever os envios de outras pessoas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:26
-#, fuzzy
 msgid "If you feel your reviewer is straying from these expectations, and you feel comfortable raising the issue yourself on the pull request, you can do so. If you don't feel comfortable, please reach out to the [BeeWare Code of Conduct Response Team]{1}. We will review your report, and follow up with your reviewer. The follow-up will reflect the reported action; a minor transgression may result in a discussion, whereas a major violation may result in something more serious."
-msgstr "Se achar que o seu revisor está se desviando dessas expectativas e se sentir à vontade para levantar o problema no pull request, você pode fazer isso. Se não se sentir confortável, entre em contato com a [Equipe de Resposta ao Código de Conduta do BeeWare]{1}. Analisaremos seu relatório e faremos o acompanhamento com seu revisor. O acompanhamento refletirá a ação relatada; uma transgressão menor pode resultar em uma discussão, enquanto uma violação maior pode resultar em algo mais sério."
+msgstr "Se achar que o seu revisor está a desviar-se destas expectativas e se sentir à vontade para levantar o problema no pedido de puxar, pode fazer isso. Se não se sentir confortável, entre em contacto com a [Equipa de Resposta ao Código de Conduta do BeeWare]{1}. Iremos analisar o seu relatório e faremos o acompanhamento com o seu revisor. O acompanhamento irá refletir a ação relatada; uma transgressão menor pode resultar numa discussão, enquanto uma violação maior pode resultar em algo mais sério."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:30
-#, fuzzy
 msgid "Providing a review"
-msgstr "Fornecimento de uma revisão"
+msgstr "Fornecer uma revisão"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:32
-#, fuzzy
 msgid "Everyone is welcome to provide a review on any pull request. [These guidelines]{1} describe our expectations of a review, regardless of whether it's provided by a core team member or a member of the community."
-msgstr "Todos são bem-vindos para fazer uma revisão em qualquer pull request. [Estas diretrizes]{1} descrevem nossas expectativas em relação a uma revisão, independentemente de ela ser fornecida por um membro da equipe principal ou por um membro da comunidade."
+msgstr "Todos são bem vindos para fazer uma revisão em qualquer pedido de puxar. [Estas diretrizes]{1} descrevem as nossas expectativas em relação a uma revisão, independentemente dela ser fornecida por um membro da equipa principal ou por um membro da comunidade."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:34
-#, fuzzy
 msgid "A core team member will always need to provide the final review; but reviews from community members can be a helpful way to streamline the process - ideally, the review from the core team would be a formality after community reviews have identified all the major problems."
-msgstr "Um membro da equipe principal sempre precisará fazer a revisão final, mas as revisões dos membros da comunidade podem ser uma maneira útil de agilizar o processo - idealmente, a revisão da equipe principal seria uma formalidade após as revisões da comunidade terem identificado todos os principais problemas."
+msgstr "Um membro da equipa principal vai sempre precisar de fazer a revisão final, mas as revisões dos membros da comunidade podem ser uma maneira útil de agilizar o processo - idealmente, a revisão da equipa principal seria uma formalidade após as revisões da comunidade terem identificado todos os principais problemas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:36
-#, fuzzy
 msgid "Receiving a review"
-msgstr "Recebimento de uma avaliação"
+msgstr "Receber uma revisão"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:38
-#, fuzzy
 msgid "Receiving a review involves three basic steps:"
-msgstr "O recebimento de uma revisão envolve três etapas básicas:"
+msgstr "O receber duma revisão envolve três passos básicos:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:40
-#, fuzzy
 msgid "Initial feedback and questions."
-msgstr "Feedback e perguntas iniciais."
+msgstr "Resposta de retorno e perguntas iniciais."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:41
-#, fuzzy
 msgid "Change requests."
 msgstr "Solicitações de alteração."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:42
-#, fuzzy
 msgid "Approval and merge."
 msgstr "Aprovação e fusão."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:44
-#, fuzzy
 msgid "Each step is detailed below. If at any point during the process you have questions, don't hesitate to ask! We are happy to help."
-msgstr "Cada etapa está detalhada abaixo. Se em algum momento do processo você tiver dúvidas, não hesite em perguntar! Ficaremos felizes em ajudar."
+msgstr "Cada passo está detalhado em baixo. Se em algum momento do processo tiver dúvidas, não hesite em perguntar! Ficamos felizes em ajudar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:46
-#, fuzzy
 msgid "Timeline and initial feedback"
-msgstr "Cronograma e feedback inicial"
+msgstr "Cronologia e feedback inicial"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:48
-#, fuzzy
 msgid "The core team aims to ensure that every pull requests receives a review within ten business days. However, with more complicated submissions, or when a pull request is submitted when parts of the team are on leave, that timeline may be extended."
-msgstr "A equipe principal tem como objetivo garantir que todas as solicitações pull recebam uma revisão dentro de dez dias úteis. No entanto, com envios mais complicados, ou quando uma pull request é enviada quando parte da equipe está de licença, esse prazo pode ser estendido."
+msgstr "A equipa principal tem como objetivo garantir que todos os pedidos de puxar recebam uma revisão dentro de dez dias úteis. No entanto, com envios mais complicados, ou quando um pedido de puxar é submetido e parte da equipa está de férias, esse prazo pode ser estendido."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:50
-#, fuzzy
 msgid "We typically maintain continuity with reviewers on each pull request - that is, you'll likely work with the same reviewer for your entire review. This means your reviewer will have context throughout the process, and you'll be able to learn what to expect in terms of response cadence and review style. If your initial reviewer identifies that they don't have the necessary expertise to review your pull requests, or they know that will be unavailable for some reason, they may pass responsibility for your pull request to another team member."
-msgstr "Normalmente, mantemos a continuidade com os revisores em cada pull request, ou seja, você provavelmente trabalhará com o mesmo revisor durante toda a revisão. Isso significa que o revisor terá contexto durante todo o processo e você poderá saber o que esperar em termos de cadência de resposta e estilo de revisão. Se o revisor inicial identificar que não tem o conhecimento necessário para revisar suas pull requests, ou se souber que não estará disponível por algum motivo, ele poderá passar a responsabilidade pela sua pull request para outro membro da equipe."
+msgstr "Normalmente, mantemos a continuidade com os revisores em cada pedido de puxar, ou seja, provavelmente vai trabalhar com o mesmo revisor durante toda a revisão. Isso significa que o revisor terá contexto durante todo o processo e você vai poder saber o que esperar em termos de cadência de resposta e estilo de revisão. Se o revisor inicial identificar que não tem conhecimento necessário para rever os sues pedidos, ou se souber que não vai estar disponível por algum motivo, ele poderá passar a responsabilidade pelo seu pedido de puxar para outro membro da equipa."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:52
-#, fuzzy
 msgid "You can expect us to respond to each exchange within a rolling ten business day time frame. Responding to feedback and questions is an essential part of the review process. We will expect a response from you before we move to the next step in the process."
-msgstr "Você pode esperar que respondamos a cada troca dentro de um prazo contínuo de dez dias úteis. Responder a comentários e perguntas é uma parte essencial do processo de avaliação. Esperamos uma resposta sua antes de passarmos para a próxima etapa do processo."
+msgstr "Pode esperar uma resposta nossa a cada troca dentro de um prazo contínuo de dez dias úteis. Responder a comentários e perguntas é uma parte essencial do processo de revisão. Esperamos uma resposta sua antes de passarmos para o próximo passo do processo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:54
-#, fuzzy
 msgid "Change requests"
 msgstr "Solicitações de alteração"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:56
-#, fuzzy
 msgid "Most of the time, your reviewer is going to request changes on your pull request. This isn't necessarily a reflection of your work, it's simply part of the process."
-msgstr "Na maioria das vezes, o revisor solicitará alterações em sua solicitação pull. Isso não é necessariamente um reflexo de seu trabalho, é simplesmente parte do processo."
+msgstr "Na maioria das vezes, o revisor vai solicitar alterações no seu pedido de puxar. Isto não é necessariamente um reflexo do seu trabalho, é simplesmente parte do processo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:58
-#, fuzzy
 msgid "If the initial review reveals a significant number of problems, the first review may not be comprehensive. Instead, it will focus on providing high level direction on the work required to get the pull request into a mergeable state. The review process may include questions to clarify the purpose and scope of the work that has been attempted."
-msgstr "Se a revisão inicial revelar um número significativo de problemas, a primeira revisão poderá não ser abrangente. Em vez disso, ela se concentrará em fornecer orientação de alto nível sobre o trabalho necessário para colocar o pull request em um estado mesclável. O processo de revisão pode incluir perguntas para esclarecer a finalidade e o escopo do trabalho que foi tentado."
+msgstr "Se a revisão inicial revelar um número significante de problemas, a primeira revisão poderá não ser abrangente. Em vez disso, ela vai-se concentrar em fornecer orientação de alto nível sobre o trabalho necessário para colocar o pedido num estado de poder ser fundido. O processo de revisão pode incluir perguntas para esclarecer a finalidade e o escopo do trabalho que foi tentado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:60
-#, fuzzy
 msgid "Work through requested changes"
 msgstr "Trabalhar com as alterações solicitadas"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:62
-#, fuzzy
 msgid "Your reviewer will post comments to your pull request. These comments can be general, on a specific file, or on a specific line or lines of code. They will sometimes include directly suggested changes that you can apply to your pull request through the GitHub UI. Typically, they will be questions, requests for clarification, or guidance on updates."
-msgstr "Seu revisor publicará comentários em seu pull request. Esses comentários podem ser gerais, em um ficheiro específico ou em uma linha ou linhas específicas de código. Às vezes, eles incluirão alterações sugeridas diretamente que você pode aplicar à sua pull request por meio da interface do utilizador do GitHub. Normalmente, eles são perguntas, solicitações de esclarecimento ou orientações sobre atualizações."
+msgstr "O seu revisor vai publicar comentários no seu pedido de puxar. Esses comentários podem ser gerais, num ficheiro específico ou numa linha ou linhas específicas de código. Às vezes, eles vão incluir alterações sugeridas diretamente que pode aplicar ao seu pedido de puxar por meio da interface de utilizador do GitHub. Normalmente, eles são perguntas, solicitações de esclarecimento ou orientações sobre atualizações."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:64
-#, fuzzy
 msgid "/// info | Marking a conversation as resolved"
-msgstr "/// info | Marcando uma conversa como resolvida"
+msgstr "/// info | Marcar uma conversa como resolvida"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:66
-#, fuzzy
 msgid "During the discussion part of the feedback process, you should never mark a conversation started by your reviewer as \"resolved\". Marking the conversation as resolved is the responsibility of the reviewer. It's up to them to determine whether the identified problem has been solved."
-msgstr "Durante a parte de discussão do processo de feedback, você nunca deve marcar uma conversa iniciada pelo seu revisor como \"resolvida\". Marcar a conversa como resolvida é responsabilidade do revisor. Cabe a ele determinar se o problema identificado foi resolvido."
+msgstr "Durante a parte de discussão do processo de feedback, nunca deve marcar uma conversa iniciada pelo seu revisor como \"resolvida\". Marcar a conversa como resolvida é responsabilidade do revisor. Cabe a ele determinar se o problema identificado foi resolvido."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:70
-#, fuzzy
 msgid "If the review reveals a systematic problem (e.g., a naming inconsistency that exists in the code), the reviewer may not highlight every instance of that problem. Instead, they may pick a couple of examples of the problem, and indicate that other instances should also be corrected. If a review highlights a problem in once place, and you think it might apply elsewhere, you should fix that problem wherever it occurs. If you're unsure, ask for clarification from your reviewer."
-msgstr "Se a revisão revelar um problema sistemático (por exemplo, uma inconsistência de nomenclatura existente no código), o revisor poderá não destacar todas as instâncias desse problema. Em vez disso, ele pode escolher alguns exemplos do problema e indicar que outras instâncias também devem ser corrigidas. Se uma revisão destacar um problema em um local e você achar que ele pode se aplicar a outro, corrija esse problema onde quer que ele ocorra. Se não tiver certeza, peça esclarecimentos ao revisor."
+msgstr "Se a revisão revelar um problema sistemático (por exemplo, uma inconsistência de nomenclatura existente no código), o revisor pode não destacar todas as instâncias desse problema. Em vez disso, ele pode escolher alguns exemplos do problema e indicar que outras instâncias também devem ser corrigidas. Se uma revisão destacar um problema num local e você achar que ele pode se aplicar a outro, corrija esse problema onde quer que ele ocorra. Se não tiver certeza, peça esclarecimentos ao revisor."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:72
 #, fuzzy
