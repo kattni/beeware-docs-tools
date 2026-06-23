@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-23 05:50+0000\n"
-"PO-Revision-Date: 2026-06-21 17:01+0000\n"
-"Last-Translator: John <johnzhou721@gmail.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-23 05:50+0000\nPO-Revision-Date: 2026-06-23 23:23+0000\nLast-Translator: John <johnzhou721@gmail.com>\nLanguage-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -39,7 +27,6 @@ msgid "You can't do any damage, either - either to your own computer, or to the 
 msgstr "放心贡献——你也绝对不会对你的电脑造成任何伤害，贡献也不会破坏 BeeWare 项目本身。BeeWare 代码不会在你的电脑上做出任何可造成伤害的更改。最多只是你的硬盘上多出一些可以轻易删除的临时文件而已。此外，你提交给 BeeWare 的每一份贡献在合并到官方项目之前都会经过审核。同时你将获得反馈，以帮你纠正可能存在的问题。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:13
-#, fuzzy
 msgid "So - don't be afraid to contribute. If you've gotten this far, you've demonstrated you have an interest in contributing - and that's all you need. We can help you the rest of the way."
 msgstr "所以，不要害怕做出贡献。如果你能走到这一步，就说明你有兴趣做出贡献，这就是你所需要的。我们可以帮助您走完剩下的路。"
 
@@ -48,18 +35,16 @@ msgid "Every contribution matters"
 msgstr "所用贡献都有重要性"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:17
-#, fuzzy
 msgid "Being an open source contributor doesn't just mean writing code. You can help out by writing documentation, tests, or even giving feedback about the project (including giving feedback about the contribution process). Some of these contributions may be the most valuable to the project as a whole, because you're coming to the project with fresh eyes, so you can see the errors and assumptions that seasoned contributors have glossed over."
-msgstr "成为开源贡献者并不仅仅意味着编写代码。您可以通过编写文档、测试，甚至提供项目反馈（包括对贡献过程的反馈）来提供帮助。其中一些贡献对整个项目来说可能是最有价值的，因为你是以全新的眼光来看待这个项目的，所以你可以看到那些经验丰富的贡献者所忽略的错误和假设。"
+msgstr "成为开源贡献者并不仅仅意味着编写代码。你可以通过编写文档、测试，甚至提供项目反馈（包括对贡献过程的反馈）来提供帮助。以上这些贡献可能对整个项目来说是最有价值的，因为你以全新的眼光来看待这个项目后，可以会发现那些经验丰富的贡献者所忽略的错误和假设。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:19
 msgid "The importance of contributions"
 msgstr "贡献的重要性"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:21
-#, fuzzy
 msgid "Open Source Software lives and dies on its contributions. Community contributions are critical to the success of any open source project, and BeeWare is no exception. To the extent that we can, we will provide you with the help you need to contribute. We're more than happy to get you going and help you work through your contribution, regardless of whether this is your first, tenth, or hundredth time contributing. Please don't hesitate to reach out and let us know if you need assistance."
-msgstr "开源软件的生死取决于社区的贡献。社区贡献对于任何开源项目的成功都至关重要，BeeWare也不例外。在力所能及的范围内，我们将为您提供所需的帮助。无论您是第一次、第十次还是第一百次参与，我们都将竭诚为您提供帮助。如果您需要帮助，请随时联系我们。"
+msgstr "开源软件的生死取决于社区的贡献。社区贡献对于任何开源项目的成功都至关重要，BeeWare 也不例外。在力所能及的范围内，我们将为你提供贡献所需的帮助。无论是你的第一个、第十个还是第一百个贡献，我们都将竭诚为你提供帮助。如果你需要帮助，请随时联系我们。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:23
 msgid "Now it's time to roll up your sleeves, and [choose your first contribution]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})."
@@ -78,13 +63,12 @@ msgid "Working off your main branch also makes it difficult for *you* after you 
 msgstr "在 main 分支上工作也会给*你*自己完成第一个拉取请求后时带来困难。如果你想贡献第二个拉取请求，你需要有一份上游项目 main 分支的“干净”版本为基础；如果你已经从你的 `main` 分支做了第一次贡献，你也就不会有另一个干净的版本可用了。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:7
-#, fuzzy
 msgid "Instead, you should make your changes on a *feature branch*. A feature branch has a simple name to identify the change that you've made. For example, if you're fixing a bug that causes build issues on Windows 11, you might create a feature branch `fix-win11-build`. If your bug relates to a specific issue that has been reported, it's also common to reference that issue number in the branch name (e.g., `fix-1234`)."
-msgstr "相反，你应该在*特性分支*上进行修改。特性分支有一个简单的名称，用来识别你所做的更改。例如，如果您要修复一个会导致 Windows 11 上构建问题的错误，您可以创建一个特性分支 \"fix-win11-build\"。如果您的错误与已报告的特定问题有关，在分支名称中引用该问题编号也很常见（例如，`fix-1234`）。"
+msgstr "相反，你应该在*功能分支*上进行修改。功能分支有简单的名称，用来辨别你将会做的更改。例如，如果你要修复一个会导致 Windows 11 上构建问题的错误，您可以创建一个名为 `fix-win11-build` 的功能分支。如果你修复的问题与已报告的特定工单有关，在分支名称中引用该工单编号也很常见（例如，`fix-1234`）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:9
 msgid "To create a `fix-win11-build` feature branch, run:"
-msgstr "要创建 \"fix-win11-build \"功能分支，请运行："
+msgstr "要创建 `fix-win11-build` 功能分支，运行："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:11 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:21 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:24 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:80 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:90 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:122 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:132 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:158 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:168 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:198 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:208 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:7 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:28 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:80 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:94 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:130 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:141 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:177 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:190 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:224 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:238 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:272 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:283 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:7 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:32 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:86 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:108 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:162 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:185 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:45 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:55 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:98 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:108 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:134 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:144 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:179 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:189 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:219 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:229 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:293 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:303 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:329 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:339 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:365 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:375 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:3
 msgid "{% if not config.extra.macos_only %}"
@@ -127,9 +111,8 @@ msgid "{% block front_matter %} {% endblock %}"
 msgstr "{% block front_matter %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:6
-#, fuzzy
 msgid "You **must** have a Python {{ docs_python_version }} interpreter installed and available on your path (i.e., `python{{ docs_python_version }}` must start a Python {{ docs_python_version }} interpreter)."
-msgstr "您必须***在您的路径上安装了 Python {{ docs_python_version }} 解释器并可用（即 `python{{ docs_python_version }}` 必须启动 Python {{ docs_python_version }} 解释器）。"
+msgstr "你**必须**在你的 `PATH` 上安装 Python {{ docs_python_version }} 解释器，并确保它可用（即确保 `python{{ docs_python_version }}` 可以启动 Python {{ docs_python_version }} 解释器）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:8
 msgid "{{ formal_name }} uses `tox` for building documentation. The following `tox` commands must be run from the same location as the `tox.ini` file, which is in the root directory of the project."
@@ -148,14 +131,12 @@ msgid "/// warning | The live preview will build with warnings!"
 msgstr "/// warning | 实时预览构建不受警告影响！"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
-#, fuzzy
 msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "实时服务可用于迭代文档更新。在更新过程中，可能会引入标记问题。被视为 \"警告 \"的问题会导致标准构建失败，但实时服务会在控制台输出中显示警告，同时继续构建。这样，您就可以进行迭代，而无需重新启动实时预览。"
+msgstr "实时预览服务器可用于迭代文档更改。在更改过程中，你可能会引入标记问题。被视为 `WARNING` 的问题会导致标准构建失败，但实时预览服务器只会在控制台输出中显示警告，并同时继续构建。这样，你可以继续进行迭代，而无需重新启动实时预览。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
-#, fuzzy
 msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "警告 \"不同于 \"错误\"。如果引入了一个被认为是 \"错误 \"的问题，实时服务就会失败，需要重新启动。在`警告`问题解决之前，它不会再次启动。"
+msgstr "`WARNING` 不同于 `ERROR`。如果你引入了一个 `ERROR` 类问题，实时预览服务器就会失败，需要重新启动。在 `WARNING` 问题解决之前，它无法被重新启动。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 msgid "To start the live server:"
@@ -170,42 +151,36 @@ msgid "(venv) C:\\...>tox -e docs-live"
 msgstr "(venv) C:\\...>tox -e docs-live"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:56
-#, fuzzy
 msgid "This will build the documentation, start a web server to serve the documentation, and watch the file system for any changes to the documentation source."
-msgstr "这将构建文档，启动网络服务器为文档提供服务，并监视文件系统是否对文档源进行了任何更改。"
+msgstr "这将构建文档，启动网络服务器以提供它，并监视文件系统是否对文档源代码进行了任何更改。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:58
-#, fuzzy
 msgid "Once the server is started, you'll see something like the following in the console output:"
 msgstr "服务器启动后，你会在控制台输出中看到类似下面的内容："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:60
-#, fuzzy
 msgid "INFO    -  [11:18:51] Serving on http://127.0.0.1:8000/"
-msgstr "INFO    -  [11:18:51] 正在访问 http://127.0.0.1:8000/"
+msgstr "INFO    -  [11:18:51] Serving on http://127.0.0.1:8000/"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:64
-#, fuzzy
 msgid "Open a browser, and navigate to the URL provided. Now you can begin iterating on the documentation. If a change is detected, the documentation will be rebuilt, and any browser viewing the modified page will be automatically refreshed."
-msgstr "打开浏览器，导航到提供的 URL。现在你可以开始迭代文档了。如果检测到更改，文档将被重建，任何查看修改后页面的浏览器都将自动刷新。"
+msgstr "打开浏览器，并导航到显示的 URL。现在你就可以开始迭代文档了。如果检测到更改，文档将被重新构建，任何查看修改后页面的浏览器都将被自动刷新。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:66
 msgid "/// note | `docs-live` is an initial step"
 msgstr "/// note | `docs-live` 只是第一步"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:68
-#, fuzzy
 msgid "Running `docs-live` to work with the live server is meant for initial iterating. You should *always* run a local build before submitting a pull request."
-msgstr "运行 \"docs-live \"来使用实时服务器是为了进行初始迭代。在提交拉取请求之前，您应该**运行本地构建。"
+msgstr "使用 `docs-live` 使用实时预览服务器是为了进行初始迭代。在提交拉取请求之前，你*务必*运行本地构建。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:72
 msgid "Local build"
 msgstr "本地构建"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:74
-#, fuzzy
 msgid "Once you're done iterating, you'll need to do a local build of the documentation. This build process is designed to fail if there are any markup problems. This allows you to catch anything you might have missed with the live server."
-msgstr "完成迭代后，您需要对文档进行本地构建。如果出现任何标记问题，这个构建过程就会失败。这样，您就可以捕捉到在实时服务器上可能遗漏的任何内容。"
+msgstr "完成迭代后，你需要对文档进行本地构建。如果出现任何标记问题，这个构建过程就会失败。这样，您就可以发现在实时预览构建上可能遗漏的任何问题。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:76
 msgid "Generating a local build"
@@ -224,9 +199,8 @@ msgid "(venv) C:\\...>tox -e docs"
 msgstr "(venv) C:\\...>tox -e docs"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:110
-#, fuzzy
 msgid "The output of this build will be in the `_build` directory in the root of the project."
-msgstr "编译的输出结果将保存在项目根目录下的 `_build` 目录中。"
+msgstr "构建的输出结果将保存在项目根目录下的 `_build` 目录中。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:114 src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:45 src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:103
 msgid "{% if config.extra.translated %}"
@@ -237,9 +211,8 @@ msgid "Generating a local translated build"
 msgstr "构建本地翻译版本"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:118
-#, fuzzy
 msgid "{{ formal_name }}'s documentation is translated into multiple languages. Updates to the English documentation have the potential lead to issues in the other language builds. It is important to verify all builds are working before submitting a pull request."
-msgstr "{{ formal_name }} 的文档被翻译成多种语言。英文文档的更新有可能导致其他语言版本出现问题。在提交拉取请求之前，请务必确认所有版本都能正常运行。"
+msgstr "{{ formal_name }} 的文档被翻译成多种语言。对英文文档的更改有可能导致其他语言版本出现构建问题。因此，在提交拉取请求之前，请务必确认所有语言版本都能正常构建。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:120
 msgid "To generate a build of all available translations:"
@@ -250,14 +223,12 @@ msgid "(venv) $ tox -e docs-all"
 msgstr "(venv) $ tox -e docs-all"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:146
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-all"
 msgstr "(venv) C:\\...>tox -e docs-all"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:154
-#, fuzzy
 msgid "The output of each language build will be in the associated `_build/html/<languagecode>` directory, where `<languagecode>` is the two- or five-character language code associated with the specific language (e.g. `fr` for French, `it` for Italian, etc.)."
-msgstr "每种语言编译的输出结果将保存在相关的 `_build/html/<languagecode>`目录中，其中 `<languagecode>`是与特定语言相关的两个或五个字符的语言代码（例如 `fr` 表示法语，`it` 表示意大利语等）。"
+msgstr "每种语言文档构建的输出结果将保存在语言相关的 `_build/html/<languagecode>` 目录中，其中 `<languagecode>` 是与特定语言相关的两个或五个字符的语言代码（例如 `fr` 表示法语，`it` 表示意大利语等）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:156
 msgid "If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-<languagecode>`. For example, to build only the French documentation, run:"
@@ -272,9 +243,8 @@ msgid "(venv) C:\\...>tox -e docs-fr"
 msgstr "(venv) C:\\...>tox -e docs-fr"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:190
-#, fuzzy
 msgid "The output of a single-language build will be in the `_build` directory."
-msgstr "单语言编译的输出将位于 `_build` 目录中。"
+msgstr "单语言构建的输出将位于 `_build` 目录中。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:194
 msgid "Documentation linting"
@@ -293,9 +263,8 @@ msgid "(venv) C:\\...>tox -e docs-lint"
 msgstr "(venv) C:\\...>tox -e docs-lint"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:230
-#, fuzzy
 msgid "This will validate the documentation does not contain:"
-msgstr "这将验证文件是否包含："
+msgstr "这将确保文件没有："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:232
 msgid "dead hyperlinks"
@@ -314,68 +283,58 @@ msgid "We prefer US spelling, with some liberties for programming-specific collo
 msgstr "我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（如 \"scrollable\"）有一定的自由度"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:238
-#, fuzzy
 msgid "Any reference to a product name should use the product's preferred capitalization. (e.g., \"macOS\", \"GTK\", \"pytest\", \"Pygame\", \"PyScript\")."
-msgstr "任何对产品名称的引用都应使用该产品的首选大写字母。(例如，\"macOS\"、\"GTK\"、\"pytest\"、\"Pygame\"、\"PyScript\"）。"
+msgstr "任何对产品名称的引用都应使用该产品的首选大写方式。(例如，\"macOS\"、\"GTK\"、\"pytest\"、\"Pygame\"、\"PyScript\"）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:239
-#, fuzzy
 msgid "If a term is being used \"as code\", then it should be quoted as a literal (`like this`) rather than being added to the dictionary."
-msgstr "如果一个术语是 \"作为代码 \"使用的，那么它就应该作为字面意义（\"像这样\"）被引用，而不是被添加到词典中。"
+msgstr "如果一个术语被“作为代码”使用，那么它就应该作为字面格式（`像这样`）被引用，而不是被添加到拼写词典中。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:295 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:35
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:1
-#, fuzzy
 msgid "{% if config.extra.website %}"
 msgstr "{% if config.extra.website %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:3
-#, fuzzy
 msgid "Many BeeWare tools use [`towncrier`]{1} to assist in building the release notes for each release. When you submit a pull request to one of the applicable tools, it will need to include a *change note* - this change note will become the entry in the release notes describing the change that has been made."
-msgstr "许多BeeWare工具都使用[`towncrier`]{1}来帮助为每个版本创建发布说明。当您向相关工具提交拉取请求时，需要包含*变更说明*--该变更说明将成为发行说明中描述变更的条目。"
+msgstr "许多 BeeWare 工具都使用 [`towncrier`]{1} 来帮助编写版本发布说明。当您向相关工具提交拉取请求时，需要包含*变更说明*——该变更说明将成为发行说明中描述变更的条目。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:5
 msgid "{% else %}"
 msgstr "{% else %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:7
-#, fuzzy
 msgid "{{ formal_name }} uses [`towncrier`]{1} to assist in building the release notes for each release. When you submit a pull request, it must include a *change note* - this change note will become the entry in the release notes describing the change that has been made."
-msgstr "{{ formal_name }} 使用 [`towncrier`]{1}来协助创建每个版本的发布说明。提交拉取请求时，必须包含*变更注解*--该变更注解将成为版本注解中描述所做变更的条目。"
+msgstr "{{ formal_name }} 使用 [`towncrier`]{1} 来帮助编写版本发布说明。当您提交拉取请求时，需要包含*变更说明*——该变更说明将成为发行说明中描述变更的条目。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:11
-#, fuzzy
 msgid "Every pull request must include at least one file in the `changes/` directory that provides a short description of the change implemented by the pull request. The change note should be in Markdown format, in a file that has name of the format `<id>.<fragment type>.md`. If the change you are proposing will fix a bug or implement a feature for which there is an existing issue number, the ID will be the number of that ticket. If the change has no corresponding issue, the PR number can be used as the ID. You won't know this PR number until you push the pull request, so the first CI pass will fail the `towncrier` check; add the change note and push a PR update and CI should then pass."
-msgstr "每个拉取请求都必须在 `changes/` 目录中包含至少一个文件，对拉取请求实施的变更进行简短描述。变更说明应采用 Markdown 格式，文件名应为 `<id>.<片段类型>.md`。如果您提出的变更将修复一个已有问题编号的错误或实现一个已有问题编号的功能，ID 就是该问题编号。如果变更没有对应的问题，则可以使用 PR 编号作为 ID。在推送拉取请求之前，您不会知道 PR 编号，因此第一次 CI 通过时，\"towncrier \"检查会失败；添加变更注释并推送 PR 更新后，CI 应该会通过。"
+msgstr "每个拉取请求（PR）都必须在 `changes/` 目录中包含至少一个文件，对拉取请求中的变更进行简短描述。变更说明应采用 Markdown 格式，文件名应为 `<id>.<片段类型>.md`。如果你提出的变更将修复一个已有工单编号的问题或实现一个已有工单编号的功能，ID 就是该工单编号。如果变更没有对应的工单，则可以使用 PR 编号作为 ID。在推送拉取请求之前，您不会知道 PR 编号，因此第一次 CI 通过时，`towncrier` 检查会失败；添加变更注释并推送 PR 更新后，CI 才应该会通过。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:13
-#, fuzzy
 msgid "There are five fragment types:"
-msgstr "有五种片段类型："
+msgstr "有五种变更片段类型："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:15
 msgid "`feature`: The PR adds a new behavior or capability that wasn't previously possible (e.g., adding support for a new packaging format, or a new feature in an existing packaging format);"
-msgstr "`特征`:PR 增加了以前不可能实现的新行为或功能（例如，增加了对新包装格式的支持，或在现有包装格式中增加了新功能）；"
+msgstr "`feature`：拉取请求（PR）增加了以前不可能的新行为或功能（例如，增加了对新包装格式的支持，或在现有包装格式中增加了新功能）；"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:16
 msgid "`bugfix`: The PR fixes a bug in the existing implementation;"
-msgstr "\"bugfix\"：该 PR 修复了现有实现中的一个错误；"
+msgstr "`bugfix`：该 PR 修复了现有实现中的一个错误；"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:17
-#, fuzzy
 msgid "`doc`: The PR is a significant improvement to documentation;"
-msgstr "doc`：PR 是对文档的重大改进；"
+msgstr "`doc`：PR 是对文档的重大改进；"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:18
-#, fuzzy
 msgid "`removal`; The PR represents a backwards incompatible change in the {{ formal_name }} API; or"
-msgstr "移除\"； PR 代表 {{ formal_name }} 应用程序接口向后不兼容的更改；或 PR 代表 {{ formal_name }} 应用程序接口向后不兼容的更改。应用程序接口；或"
+msgstr "`removal`； PR 代表 {{ formal_name }} API 向后不兼容的更改；或"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:19
-#, fuzzy
 msgid "`misc`; A minor or administrative change (e.g., fixing a typo, a minor language clarification, or updating a dependency version) that doesn't need to be announced in the release notes."
 msgstr "`misc`; 不需要在发布说明中公布的细微或管理性变更（如修正错字、细微的语言澄清或更新依赖版本）。"
 
