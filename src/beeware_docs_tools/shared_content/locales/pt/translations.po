@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-23 23:23+0000\n"
-"PO-Revision-Date: 2026-06-23 23:23+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-23 23:23+0000\nPO-Revision-Date: 2026-06-25 13:01+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -68,7 +56,7 @@ msgstr "Antes de começar a trabalhar na sua alteração, certifique-se de ter c
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:3
 msgid "While you *can* submit a pull request from your `main` branch, it's preferable if you *don't* do this. If you submit a pull request that is *almost* right, the core team member who reviews your pull request may be able to make the necessary changes, rather than giving feedback asking for a minor change. However, if you submit your pull request from your `main` branch, reviewers are prevented from making modifications."
-msgstr "Apesar de *poder* enviar um pedido de puxar do seu ramo `main`, é preferível  *não* o fazer. Se enviar um pedido de puxar que esteja *quase* correto, o membro da equipa principal que rever o seu pedido de puxar pode ser capaz de as alterações necessárias, em vez de fornecer retorno a solicitar uma pequena alteração. No entanto, se enviar um pedido de puxar do seu ramo `main`, os revisores vão ser impedidos de fazer modificações."
+msgstr "Apesar de *poder* enviar um pedido de puxar do seu ramo `main`, é preferível *não* o fazer. Se enviar um pedido de puxar que esteja *quase* correto, o membro da equipa principal que rever o seu pedido de puxar pode ser capaz de fazer as alterações necessárias, em vez de fornecer retorno a solicitar uma pequena alteração. No entanto, se enviar um pedido de puxar do seu ramo `main`, os revisores vão ser impedidos de fazer modificações."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:5
 msgid "Working off your main branch also makes it difficult for *you* after you complete your first pull request. If you want to work on a second pull request, you will need to have a \"clean\" copy of the upstream project's main branch on which to base your second contribution; if you've made your first contribution from your `main` branch, you no longer have that clean version available."
@@ -800,7 +788,7 @@ msgstr "Discutir a ideia"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:9
 msgid "If you don't find any existing references to your idea, start a [Discussion thread](https://github.com/beeware/{{ project_name }}/discussions). Provide a high-level description of the purpose and use case for your idea. Include any thoughts you have on what the feature would look like, if implemented, such as the general shape of an API, the visual appearance of a capability, or the document that would be added. If applicable, you should also include any research you have done on how your idea would manifest on different platforms."
-msgstr "Se não encontrar nenhuma referência existente à sua ideia, inicie uma [Linha de discussão] (https://github.com/beeware/{{ project_name }}/discussions). Forneça uma descrição de alto nível da finalidade e do caso de uso de sua ideia. Inclua todas as ideias que tem sobre como o recurso seria, se implementado, como a forma geral de uma API, a aparência visual de uma capacidade ou o documento que seria adicionado. Se for o caso, inclua também qualquer pesquisa que tenha feito sobre como a sua ideia se manifestaria em diferentes plataformas."
+msgstr "Se não encontrar nenhuma referência existente à sua ideia, inicie uma [Linha de discussão](https://github.com/beeware/{{ project_name }}/discussions). Forneça uma descrição de alto nível da finalidade e do caso de uso de sua ideia. Inclua todas as ideias que tem sobre como o recurso seria, se implementado, como a forma geral de uma API, a aparência visual de uma capacidade ou o documento que seria adicionado. Se for o caso, inclua também qualquer pesquisa que tenha feito sobre como a sua ideia se manifestaria em diferentes plataformas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:11
 msgid "Once the Discussion thread is opened, the BeeWare team and the rest of the community will respond. The core team will aim to provide at least an initial impression of your idea within two business days. If an idea is especially complex, a more detailed analysis might take up to a week. Events like holidays and conferences might cause those timelines to be slightly longer."
@@ -840,7 +828,7 @@ msgstr "Converter num pedido formal de funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:27
 msgid "Once the discussion has reached a consensus on the form of a feature, you can create a new [feature request issue](https://github.com/beeware/{{ project_name }}/issues/new/choose), in the {{ formal_name }} issue tracker, that summarizes the discussion, linking to the discussion for context."
-msgstr "Depois que a discussão chegar a um consenso sobre a forma de uma funcionalidade, poderá criar um novo [problema de pedido de funcionalidade] (https://github.com/beeware/{{ project_name }}/issues/new/choose), no rastreio de problemas {{ formal_name }}, que resuma a discussão, com atalhos para a discussão para fins de contexto."
+msgstr "Depois que a discussão chegar a um consenso sobre a forma de uma funcionalidade, poderá criar um novo [problema de pedido de funcionalidade](https://github.com/beeware/{{ project_name }}/issues/new/choose), no rastreio de problemas {{ formal_name }}, que resuma a discussão, com atalhos para a discussão para fins de contexto."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:29
 msgid "You don't have to implement your feature proposal yourself; you can open an issue with the details of what you're proposing. However, simply posting the issue doesn't mean it's going to be implemented for you. You'll need to wait for it to potentially get picked up by someone else interested in the same feature, whether that means another community member or the core team; however this is not guaranteed to happen. If you want the guarantee implementation, you'll need to implement it yourself, or pay someone else to implement it for you."
@@ -908,7 +896,7 @@ msgstr "Por fim, pode fazer recomendações para a equipa principal. Se acha que
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:1
 msgid "Everyone is welcome to review any contribution to the BeeWare project. There are some important considerations to be aware of before getting started."
-msgstr "Todos são bem-vindos para rever qualquer contribuição para o projeto  BeeWare. Há algumas considerações importantes que devem ser tidas em conta antes de começar."
+msgstr "Todos são bem-vindos para rever qualquer contribuição para o projeto BeeWare. Há algumas considerações importantes que devem ser tidas em conta antes de começar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:3
 msgid "THINK before you review"
@@ -2639,309 +2627,245 @@ msgstr ""
 " \"\"\"Uma string de documentação de teste tem este formato (#123456).\"\"\""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:1
-#, fuzzy
 msgid "This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content."
 msgstr "Este guia inclui informações sobre o estilo esperado, a sintaxe específica do MkDocs, as várias ferramentas necessárias e a tradução da documentação, com relação à redação de novos conteúdos e à tradução de conteúdos existentes."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:3
-#, fuzzy
 msgid "General style"
 msgstr "Estilo geral"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:5
-#, fuzzy
 msgid "Headers and titles should have only the first word capitalized."
-msgstr "Os cabeçalhos e títulos devem ter apenas a primeira palavra em letra maiúscula."
+msgstr "Os cabeçalhos e títulos devem ter apenas a primeira palavra iniciada em maiúscula (capitalizada)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:6
-#, fuzzy
 msgid "We prefer US spelling, with some liberties for programming-specific colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
-msgstr "Preferimos a ortografia dos EUA, com algumas liberdades para o coloquialismo específico da programação (por exemplo, \"apps\") e a verbalização de substantivos (por exemplo, \"scrollable\")."
+msgstr "Preferimos a ortografia dos EUA, com algumas liberdades para as expressões coloquiais específicas da programação (por exemplo, \"apps\") e a verbalização de substantivos (por exemplo, \"scrollable\")."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:7
-#, fuzzy
 msgid "The spelling of \"artefact\" and \"artefacts\" is as shown."
-msgstr "A grafia de \"artefact\" e \"artefacts\" é a mostrada."
+msgstr "A ortografia de \"artefact\" e \"artefacts\" é como mostrada."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:8
-#, fuzzy
 msgid "We use single spaces after a period."
-msgstr "Usamos espaços simples após um ponto final."
+msgstr "Usamos um espaço único após um ponto final."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:9
-#, fuzzy
 msgid "We use a single hyphen surrounded by spaces as an em-dash (or a HTML `&mdash;` literal)."
-msgstr "Usamos um único hífen rodeado por espaços como travessão (ou um literal HTML `&mdash;`)."
+msgstr "Usamos um único hífen rodeado por espaços como travessão (ou um `&mdash;` de HTML)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:10
-#, fuzzy
 msgid "Any reference to a product name should use the product’s preferred capitalization. (e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", \"PyScript\"{2})."
-msgstr "Qualquer referência a um nome de produto deve usar a capitalização preferencial do produto. (por exemplo, {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", \"PyScript\"{2})."
+msgstr "Qualquer referência a um nome de produto deve usar a capitalização preferencial do produto. (ex., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", \"PyScript\"{2})."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:11
-#, fuzzy
 msgid "If a term is being used \"as code\", then it should be quoted as inline code, by wrapping it in single backticks, rather than being added to the dictionary."
-msgstr "Se um termo estiver sendo usado \"como código\", ele deverá ser citado como código embutido, envolvendo-o em pontos finais simples, em vez de ser adicionado ao dicionário."
+msgstr "Se um termo estiver a ser usado \"como código\", ele deve ser citado como código embutido, envolvendo-o com aspas invertidas únicas, em vez de ser adicionado ao dicionário."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:12
-#, fuzzy
 msgid "We avoid using terms like \"simply\", \"just\", or \"easily\" when describing actions a user should take. These terms can be read as pejorative, especially when a user is experiencing difficulties."
-msgstr "Evitamos usar termos como “simplesmente”, “apenas” ou “facilmente” ao descrever ações que o utilizador deve realizar. Esses termos podem ser interpretados como pejorativos, especialmente quando o utilizador está enfrentando dificuldades."
+msgstr "Evitamos usar termos como “simplesmente”, “apenas” ou “facilmente” ao descrever ações que o utilizador deve realizar. Esses termos podem ser interpretados como pejorativos, especialmente quando um utilizador está a enfrentar dificuldades."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:14
-#, fuzzy
 msgid "Cross-referencing information"
 msgstr "Informações de referência cruzada"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:16
-#, fuzzy
 msgid "You should cross-reference content in documentation whenever possible. This section covers the various ways you can do that, each of which are based on the type of information being referenced."
-msgstr "Você deve fazer referência cruzada ao conteúdo da documentação sempre que possível. Esta seção aborda as várias maneiras de fazer isso, cada uma delas baseada no tipo de informação que está sendo referenciada."
+msgstr "Deve fazer referência cruzada ao conteúdo da documentação sempre que possível. Esta secção aborda as várias maneiras de fazer isso, cada uma delas baseada no tipo de informação que está a ser referenciada."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:18
-#, fuzzy
 msgid "MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
-msgstr "O MkDocs renderiza links padrão formatados em Markdown. Os hiperlinks da Web com formatação Markdown padrão são os seguintes:"
+msgstr "O MkDocs renderiza atalhos formatados em norma Markdown. Os hiperlinks Web com formatação Markdown standard são os seguintes:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:20
-#, fuzzy
 msgid "[Link text](https://example.com/)"
 msgstr "[Texto do link](https://example.com/)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:24
-#, fuzzy
 msgid "You can also use this format to link to a local file:"
-msgstr "Você também pode usar esse formato para vincular a um ficheiro local:"
+msgstr "Também pode usar esse formato para vincular a um ficheiro local:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:26
-#, fuzzy
 msgid "[Link text](path/to/file.md)"
 msgstr "[Texto do link](caminho/para/ficheiro.md)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:30
-#, fuzzy
 msgid "Referencing specific sections of files, or API documentation requires using the MkDocs reference link format."
-msgstr "Para fazer referência a seções específicas de ficheiros ou à documentação da API, é necessário usar o formato de link de referência do MkDocs."
+msgstr "Para fazer referência a secções específicas de ficheiros ou à documentação da API, é necessário usar o formato de atalho de referência do MkDocs."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:32
-#, fuzzy
 msgid "Custom Markdown anchors and content cross-referencing"
 msgstr "Âncoras Markdown personalizadas e referência cruzada de conteúdo"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:34
-#, fuzzy
 msgid "Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors-and-content-cross---referencing`. However, due to the way that our translations work, anytime a section header is referenced, it must have a custom anchor."
-msgstr "O Markdown gera âncoras para todos os cabeçalhos (qualquer coisa em uma única linha que comece com um a seis símbolos `#`), com base no conteúdo do cabeçalho. Por exemplo, a âncora gerada para esta seção é `custom-markdown-anchors-and-content-cross---referencing`. No entanto, devido à maneira como nossas traduções funcionam, sempre que um cabeçalho de seção for referenciado, ele deverá ter uma âncora personalizada."
+msgstr "O Markdown gera âncoras para todos os cabeçalhos (qualquer coisa em uma única linha que comece com um a seis símbolos `#`), com base no conteúdo do cabeçalho. Por exemplo, a âncora gerada para esta secção é `custom-markdown-anchors-and-content-cross---referencing`. No entanto, devido à maneira como as nossas traduções funcionam, sempre que um cabeçalho de secção for referenciado, ele deve ter uma âncora personalizada."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:36
-#, fuzzy
 msgid "MkDocs supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors."
-msgstr "O MkDocs suporta a renderização de uma sintaxe de link de referência que permite que você crie links para vários outros elementos na documentação usando um link Markdown modificado. Isso inclui links para, entre outras coisas, cabeçalhos Markdown personalizados e âncoras de texto."
+msgstr "O MkDocs suporta a renderização de sintaxe de link de referência que permite que crie links para vários outros elementos na documentação usando um link Markdown modificado. Isso inclui links para, entre outras coisas, cabeçalhos Markdown personalizados e âncoras de texto."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:38
-#, fuzzy
 msgid "MkDocs reference links are any links formatted as follows:"
 msgstr "Os links de referência do MkDocs são quaisquer links formatados da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:40
-#, fuzzy
 msgid "[Link text][link-target]"
-msgstr "[Texto do link][destino do link]"
+msgstr "[Texto do link][alvo-do-link]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:44
-#, fuzzy
 msgid "/// warning | Custom header and content anchors are required"
-msgstr "/// warning | São necessárias âncoras personalizadas de cabeçalho e conteúdo"
+msgstr "/// warning | São obrigatórias âncoras personalizadas de cabeçalho e conteúdo"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:46
-#, fuzzy
 msgid "Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated."
-msgstr "Qualquer cabeçalho ou seção de conteúdo que seja referenciada no conteúdo de texto por meio de um link de referência MkDocs na documentação do BeeWare _deve_ ter uma âncora personalizada anexada. Caso contrário, há a possibilidade de quebrar os links quando o conteúdo do cabeçalho for traduzido."
+msgstr "Qualquer cabeçalho ou secção de conteúdo que seja referenciada no conteúdo de texto por meio de um link de referência MkDocs na documentação do BeeWare _tem de_ ter uma âncora personalizada anexada. Caso contrário, há a possibilidade de quebrar os links quando o conteúdo do cabeçalho for traduzido."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:50
-#, fuzzy
 msgid "If you need to link to a header anchor, you will need to generate a custom anchor for the intended content. The general syntax for setting a custom anchor is as follows:"
-msgstr "Se precisar criar um link para uma âncora de cabeçalho, você precisará gerar uma âncora personalizada para o conteúdo pretendido. A sintaxe geral para definir uma âncora personalizada é a seguinte:"
+msgstr "Se precisar criar um link para uma âncora de cabeçalho, vai precisar gerar uma âncora personalizada para o conteúdo pretendido. A sintaxe geral para definir uma âncora personalizada é a seguinte:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:52
-#, fuzzy
 msgid "# Header text { #anchor-name }"
-msgstr "# Texto do cabeçalho { #anchor-name }"
+msgstr "# Texto do cabeçalho { #nome-da-âncora }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:56
-#, fuzzy
 msgid "For example, customizing the anchor for this section to `custom-anchors` would be done with the following formatting:"
-msgstr "Por exemplo, a personalização da âncora dessa seção para `custom-anchors` seria feita com a seguinte formatação:"
+msgstr "Por exemplo, a personalização da âncora dessa secção para `custom-anchors` seria feita com o seguinte formato:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:58
-#, fuzzy
 msgid "## Custom Markdown anchors { #custom-anchors }"
 msgstr "## Âncoras personalizadas do Markdown { #custom-anchors }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:62
-#, fuzzy
 msgid "You can also create an anchor on general content, including text and codeblocks. The following formatting, with newlines above and below, should be included above the content to which you wish to link:"
-msgstr "Você também pode criar uma âncora em conteúdo geral, incluindo texto e blocos de código. A formatação a seguir, com novas linhas acima e abaixo, deve ser incluída acima do conteúdo para o qual você deseja criar um link:"
+msgstr "Também pode criar uma âncora em conteúdo geral, incluindo texto e blocos de código. A formatação a seguir, com novas linhas acima e abaixo, deve ser incluída acima do conteúdo para o qual deseja criar um atalho:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:64
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
 "[](){ #anchor-name }\n"
 "\n"
 "Content below, that is now attached to the anchor above."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"[](){ #nome-da-âncora }\n"
-"\n"
-"Conteúdo abaixo, que agora está vinculado à âncora acima."
+msgstr "Conteúdo em cima.\n\n[](){ #nome-da-âncora }\n\nConteúdo em baixo, que agora está vinculado à âncora em cima."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:72
-#, fuzzy
 msgid "Once the custom anchors are created, you can link to them from within the same document, or in other parts of the documentation."
-msgstr "Depois que as âncoras personalizadas forem criadas, você poderá criar links para elas no mesmo documento ou em outras partes da documentação."
+msgstr "Depois que as âncoras personalizadas serem criadas, pode criar links para elas no mesmo documento, ou noutras partes da documentação."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:74
-#, fuzzy
 msgid "Standard Markdown is used to link to an anchor _in the same file_, which is formatted as follows:"
-msgstr "O Markdown padrão é usado para vincular a uma âncora _no mesmo ficheiro_, que é formatada da seguinte forma:"
+msgstr "O Markdown standard é usado para vincular a uma âncora _no mesmo ficheiro_, que é formatada da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:76
-#, fuzzy
 msgid "[Link text](#anchor-name)"
-msgstr "[Texto do link](#anchor-name)"
+msgstr "[Texto do link](#nome-de-âncora)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:80
-#, fuzzy
 msgid "Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:"
-msgstr "O link para uma âncora em um documento separado usa o estilo de link de referência do MkDocs, que é formatado da seguinte forma:"
+msgstr "O link para uma âncora num documento separado usa o estilo de link de referência do MkDocs, que é formatado da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:82
-#, fuzzy
 msgid "[Link text][anchor-name]"
 msgstr "[Texto do link][nome-da-âncora]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:86
-#, fuzzy
 msgid "API reference links"
 msgstr "Links de referência da API"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:88
-#, fuzzy
 msgid "The MkDocs reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references."
 msgstr "A vinculação de referência do MkDocs também oferece suporte à referência cruzada da documentação da API, incluindo classes documentadas, métodos ou atributos de classe e referências específicas de documentação externa."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:90
-#, fuzzy
 msgid "There are multiple options for linking to a documented class, or a class method or attribute, regardless of whether you are linking from the same file or a separate file. When linking to classes, etc., you must include backticks in the first set of square brackets to render the name as inline code. The backticks are not necessary only if you are using custom text that should not be rendered as inline code. Backticks should never be included in the second set of square brackets."
-msgstr "Há várias opções para vincular a uma classe documentada ou a um método ou atributo de classe, independentemente de você estar vinculando a partir do mesmo ficheiro ou de um ficheiro separado. Ao criar links para classes, etc., você deve incluir reticências no primeiro conjunto de colchetes para renderizar o nome como código em linha. Os colchetes só não são necessários se você estiver usando texto personalizado que não deve ser renderizado como código em linha. Nunca se deve incluir pontos no segundo conjunto de colchetes."
+msgstr "Há várias opções para vincular a uma classe documentada ou a um método ou atributo de classe, independentemente de estar a vincular a partir do mesmo ficheiro ou de um ficheiro separado. Ao criar links para classes, etc., deve incluir aspas invertidas no primeiro conjunto de parênteses retos para renderizar o nome como código em linha. As aspas só não são necessárias se estiver a usar texto personalizado que não deve ser renderizado como código em linha. Nunca se deve incluir pontos no segundo conjunto de parênteses retos."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:92
-#, fuzzy
 msgid "Linking to a class while displaying the namespace is formatted as follows:"
-msgstr "O link para uma classe enquanto exibe o namespace é formatado da seguinte forma:"
+msgstr "O link para uma classe enquanto mostra o espaço de nome é formatado da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:94
-#, fuzzy
 msgid "[`module.ClassName`][]"
-msgstr "[`module.ClassName`][]"
+msgstr "[`modulo.NomeClasse`][]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:98
-#, fuzzy
 msgid "Linking to a class while displaying only the class name is formatted as follows:"
-msgstr "A vinculação a uma classe e a exibição apenas do nome da classe são formatadas da seguinte forma:"
+msgstr "A vinculação a uma classe enquanto se mostra apenas do nome da classe é formatada da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:100
-#, fuzzy
 msgid "[`ClassName`][module.ClassName]"
-msgstr "[`ClassName`][module.ClassName]"
+msgstr "[`NomeClasse`][modulo.NomeClasse]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:104
-#, fuzzy
 msgid "Attributes are the same as above, with the attribute name included. The following displays the namespace:"
-msgstr "Os atributos são iguais aos anteriores, com o nome do atributo incluído. O seguinte exibe o namespace:"
+msgstr "Os atributos são o mesmo que em cima, com o nome do atributo incluído. O seguinte mostra o espaço de nome:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:106
-#, fuzzy
 msgid "[`module.ClassName.attributename`][]"
-msgstr "[`module.ClassName.attributename`][]"
+msgstr "[`modulo.NomeClasse.nomeatributo`][]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:110
-#, fuzzy
 msgid "As with classes, displaying only the attribute name is formatted as follows:"
-msgstr "Assim como nas classes, a exibição apenas do nome do atributo é formatada da seguinte forma:"
+msgstr "Como nas classes, a exibição apenas do nome do atributo é formatada da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:112
-#, fuzzy
 msgid "[`attributename`][module.ClassName.attributename]"
-msgstr "[`attributename`][module.ClassName.attributename]"
+msgstr "[`nomeatributo`][modulo.NomeClasse.nomeatributo]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:116
-#, fuzzy
 msgid "Methods should be displayed with `()` after the namespace, and therefore must be handled differently than attributes. The following is the appropriate way to link to a method:"
-msgstr "Os métodos devem ser exibidos com `()` após o namespace e, portanto, devem ser tratados de forma diferente dos atributos. A seguir, a maneira apropriada de criar um link para um método:"
+msgstr "Os métodos devem ser mostrados com `()` após o espaço de nome, e portanto, devem ser tratados de forma diferente dos atributos. A seguir, a maneira apropriada de criar um link para um método:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:118
-#, fuzzy
 msgid "[`module.ClassName.methodname()`][module.ClassName.methodname]"
-msgstr "[`module.ClassName.methodname()`][module.ClassName.methodname]"
+msgstr "[`modulo.NomeClasse.nomemétodo()`][modulo.NomeClasse.nomemétodo]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:122
-#, fuzzy
 msgid "The following displays the class and method name only. This also requires including the parentheses after the name:"
-msgstr "O seguinte exibe apenas o nome da classe e do método. Isso também requer a inclusão dos parênteses após o nome:"
+msgstr "O seguinte mostra apenas o nome da classe e do método. Isso também requer a inclusão dos parênteses após o nome:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:124
-#, fuzzy
 msgid "[`Classname.methodname()`][module.Classname.methodname]"
-msgstr "[`Classname.methodname()`][nome_da_classe_do_módulo.nome_do_método]"
+msgstr "[`Nomeclasse.nomemétodo()`][modulo.Nomeclasse.nomemétodo]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:128
-#, fuzzy
 msgid "You can link to a class, method, or attribute while displaying arbitrary text, using the same method with the applicable namespace. Doing this with a class is formatted as follows:"
-msgstr "Você pode criar um link para uma classe, um método ou um atributo enquanto exibe um texto arbitrário, usando o mesmo método com o namespace aplicável. Fazer isso com uma classe é formatado da seguinte forma:"
+msgstr "Pode criar um link para uma classe, um método ou um atributo enquanto mostra um texto arbitrário, usando o mesmo método com o espaço de nome aplicável. Fazer isso com uma classe é formatado da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:130
-#, fuzzy
 msgid "[link text][module.ClassName]"
-msgstr "[texto do link][module.ClassName]"
+msgstr "[texto do link][modulo.NomeClasse]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:134
-#, fuzzy
 msgid "It is also possible to link directly to Python core documentation, as well as Pillow documentation. For example, to link to the documentation for `int`:"
-msgstr "Também é possível vincular-se diretamente à documentação principal do Python, bem como à documentação do Pillow. Por exemplo, para criar um link para a documentação de `int`:"
+msgstr "Também é possível vincular diretamente à documentação principal do Python, bem como à documentação do Pillow. Por exemplo, para criar um link para a documentação de `int`:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:136
-#, fuzzy
 msgid "[`int`][]"
 msgstr "[`int`][]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:140
-#, fuzzy
 msgid "To link to the Pillow `Image` documentation:"
 msgstr "Para criar um link para a documentação do Pillow `Image`:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:142
-#, fuzzy
 msgid "[`PIL.Image.Image`][]"
 msgstr "[`PIL.Image.Image`][]"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:146
-#, fuzzy
 msgid "Code block tips"
 msgstr "Dicas de blocos de código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:148
-#, fuzzy
 msgid "Language and code highlighting"
 msgstr "Destaque de linguagem e código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:150
-#, fuzzy
 msgid "You can specify the language for the code contained within the codeblock by including the language name after the first three backticks, with no space between. This results in appropriate code highlighting when the code rendered. For example, to specify Python, you would begin the codeblock with ` ```python`."
-msgstr "Você pode especificar o idioma para o código contido no bloco de código incluindo o nome do idioma após os três primeiros backticks, sem espaço entre eles. Isso resulta em um destaque de código apropriado quando o código é renderizado. Por exemplo, para especificar Python, você iniciaria o bloco de código com ```python``."
+msgstr "Pode especificar a linguagem para o código contido no bloco de código incluindo o nome da linguagem após as três primeiras aspas, sem espaço entre elas. Isso resulta num destaque de código apropriado quando o código é renderizado. Por exemplo, para especificar Python, iniciaria o bloco de código com ```python``."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:152
 #, fuzzy
