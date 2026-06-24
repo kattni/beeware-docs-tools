@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-23 23:23+0000\n"
-"PO-Revision-Date: 2026-06-23 23:23+0000\n"
-"Last-Translator: John <johnzhou721@gmail.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-23 23:23+0000\nPO-Revision-Date: 2026-06-25 13:01+0000\nLast-Translator: John <johnzhou721@gmail.com>\nLanguage-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -351,270 +339,212 @@ msgid "`misc`; A minor or administrative change (e.g., fixing a typo, a minor la
 msgstr "`misc`; 不需要在发布说明中公布的细微或管理性变更（如修正错字、细微的语言澄清或更新依赖版本）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:21
-#, fuzzy
 msgid "This description in the change note should be a high level \"marketing\" summary of the change from the perspective of the user, not a deep technical description or implementation detail. It is distinct from a commit message - a commit message describes what has been done so that future developers can follow the reasoning for a change; the change note is a description for the benefit of users, who may not have knowledge of internals."
-msgstr "变更说明中的描述应从用户角度出发，对变更进行高层次的 \"营销 \"总结，而不是深层次的技术描述或实现细节。它有别于提交信息--提交信息描述的是所做的工作，以便未来的开发人员了解变更的原因；而变更说明则是为了用户的利益而描述，因为用户可能并不了解内部知识。"
+msgstr "变更说明中的描述应从用户角度出发，使用“营销”的方式总结变更，且不包含深层次的技术描述或实现细节。它有别于提交信息（commit message）——提交信息丛“以便未来的开发人员了解变更的原因”的角度描述了所做的工作；而变更说则直接描述了对用户的好处，因为用户可能并不了解内部知识。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:23
-#, fuzzy
 msgid "For example, if you fix a bug related to project naming, the commit message might read:"
-msgstr "例如，如果您修复了一个与项目命名有关的 Bug，提交信息可能会写成这样：\"......\"："
+msgstr "例如，如果你修复了一个与项目命名有关的问题，那么提交信息可能会写成这样："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:25
-#, fuzzy
 msgid "Apply stronger regular expression check to disallow project names that begin with digits."
-msgstr "应用更强的正则表达式检查，禁止使用以数字开头的项目名称。"
+msgstr "Apply stronger regular expression check to disallow project names that begin with digits.\n\n（应用更强的正则表达式以禁用任何以数字开始的项目名称。）"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:27
-#, fuzzy
 msgid "The corresponding change note would read something like:"
-msgstr "相应的变更说明内容如下"
+msgstr "相应的变更说明内容如下："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:29
-#, fuzzy
 msgid "Project names can no longer begin with a number."
-msgstr "项目名称不能再以数字开头。"
+msgstr "Project names can no longer begin with a number.\n\n（项目名称不能再以数字开头。）"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:31
-#, fuzzy
 msgid "Some PRs will introduce multiple features and fix multiple bugs, or introduce multiple backwards incompatible changes. In that case, the PR may have multiple change note files. If you need to associate two fragment types with the same ID, you can append a numerical suffix. For example, if PR 789 added a feature described by ticket 123, closed a bug described by ticket 234, and also made two backwards incompatible changes, you might have 4 change note files:"
-msgstr "有些 PR 会引入多个功能并修复多个错误，或者引入多个向后不兼容的变更。在这种情况下，PR 可能会有多个变更注释文件。如果需要将两个片段类型与同一个 ID 关联，可以添加一个数字后缀。例如，如果 PR 789 添加了 ticket 123 所描述的功能，关闭了 ticket 234 所描述的错误，还做了两项向后不兼容的更改，那么可能会有 4 个更改说明文件："
+msgstr "有些 PR 会引入多个功能并修复多个错误，或者引入多个向后不兼容的变更。在这种情况下，PR 可以包括多个变更说明片段。如果需要将两个片段类型与同一个工单编号关联，可以在文件名中添加一个数字后缀。例如，如果 PR #789 添加了工单 #123 所描述的功能，修复了工单 #234 所描述的错误，还做了两项向后不兼容的更改，那么 PR 中就会有 4 个变更说明文件："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:33
-#, fuzzy
 msgid "`123.feature.md`"
-msgstr "123.feature.md"
+msgstr "`123.feature.md`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:34
-#, fuzzy
 msgid "`234.bugfix.md`"
-msgstr "234.bugfix.md"
+msgstr "`234.bugfix.md`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:35
-#, fuzzy
 msgid "`789.removal.1.md`"
 msgstr "`789.removal.1.md`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:36
-#, fuzzy
 msgid "`789.removal.2.md`"
 msgstr "`789.removal.2.md`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:38
-#, fuzzy
 msgid "For more information about `towncrier` and fragment types see [News Fragments]{1}. You can also see existing examples of news fragments in the `changes` directory of the {{ formal_name }} repository. If this folder is empty, it's likely because {{ formal_name }} has recently published a new release; change note files are deleted and combined to update the [release notes](https://github.com/beeware/{{ project_name }}/releases) with each release. You can look at that file to see the style of comment that is required; you can look at [recently merged PRs](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) to see how to format your change notes."
-msgstr "有关 `towncrier` 和片段类型的更多信息，请参阅 [新闻片段]{1}。你还可以在 {{ formal_name }} 版本库的 `changes` 目录中查看现有的新闻片段示例。如果该文件夹是空的，很可能是因为 {{ formal_name }} 最近发布了新版本；每次发布都会删除变更注释文件，然后合并更新 [release notes](https://github.com/beeware/{{项目名称}}/releases)。您可以查看该文件，了解所需的注释样式；也可以查看 [最近合并的 PRs](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) ，了解变更注释的格式。"
+msgstr "有关 `towncrier` 和片段类型的更多信息，请参阅[新闻片段]{1}节。你还可以在 {{ formal_name }} 仓库的 `changes` 目录中查看现有的变更片段示例。如果该文件夹是空的，很可能是因为 {{ formal_name }} 刚刚发布了新版本；每次发布版本时，`towncrier` 都会删除变更说明文件，并将它们的内容合并为[版本发布说明](https://github.com/beeware/{{ project_name }}/releases)。您可以查看该文件，了解变更说明所需的编写格式；也可以查看[最近合并的拉取请求](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) ，了解变更说明的格式。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:1
-#, fuzzy
 msgid "Contributing to {{ formal_name }} requires you to set up a development environment."
-msgstr "要为 {{ formal_name }} 做出贡献，您需要建立一个开发环境。"
+msgstr "要为 {{ formal_name }} 做出贡献，你需要建立一个开发环境。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:3
-#, fuzzy
 msgid "Prerequisites { #dev-environment-prereqs }"
 msgstr "先决条件 { #dev-environment-prereqs }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:5
-#, fuzzy
 msgid "You'll need to install the following prerequisites."
-msgstr "您需要安装以下先决条件。"
+msgstr "您需要安装以下依赖项。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:13 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:53
-#, fuzzy
 msgid "{{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`)."
-msgstr "{{ formal_name }} 需要 Python {{ min_python_version }}+ 。您还需要一种管理虚拟环境的方法（如 `venv`）。"
+msgstr "{{ formal_name }} 需要 Python {{ min_python_version }}+ 。你还需要一种管理虚拟环境的方法（如 `venv`）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:15 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:36 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:55
-#, fuzzy
 msgid "You can verify the version of Python that you have installed by running:"
-msgstr "您可以运行以下命令来验证所安装的 Python 版本："
+msgstr "你可以运行以下命令来验证所安装的 Python 版本："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:17 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:38
-#, fuzzy
 msgid "$ python3 --version"
-msgstr "Python 3.8.10（默认，2020年7月20日 16:16:00）"
+msgstr "$ python3 --version"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:21 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:42
-#, fuzzy
 msgid "If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)"
-msgstr "如果安装了多个版本的 Python，可能需要用特定的版本号（例如，`python{{ recent_python_version }}`）替换`python3`。"
+msgstr "如果安装了多个版本的 Python，你可能需要用带特定的版本号的命令（例如，`python{{ recent_python_version }}`）替换`python3`。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:23
-#, fuzzy
 msgid "We recommend avoiding recently released version of Python (i.e., versions that have a \".0\" or \".1\" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on macOS often lag usually aren't available for recently released stable Python versions."
-msgstr "我们建议避免使用最近发布的 Python 版本（即带有\".0 \"或\".1 \"微版本号的版本，如 3.14.0）。这是因为在 macOS 上支持 Python 所需的工具经常滞后，而最近发布的稳定 Python 版本通常又不可用。"
+msgstr "我们建议你避免使用最近发布的 Python 版本（即带有“.0 ”或“.1”微版本号的版本，如 3.14.0）。这是因为在 macOS 上支持 Python 所需的工具的支持版本经常滞后，导致其无法与最新发布的稳定 Python 版本使用。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:25
 msgid "{% block prerequisites_macos %} {% endblock %}"
 msgstr "{% block prerequisites_macos %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:44
-#, fuzzy
 msgid "We recommend avoiding recently released version of Python (i.e., versions that have a \".0\" or \".1\" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Linux often lag usually aren't available for recently released stable Python versions."
-msgstr "我们建议避免使用最近发布的 Python 版本（即带有\".0 \"或\".1 \"微版本号的版本，如 3.14.0）。这是因为在 Linux 上支持 Python 所需的工具通常会滞后，而最近发布的 Python 稳定版本通常又不可用。"
+msgstr "我们建议你避免使用最近发布的 Python 版本（即带有“.0”或“.1”微版本号的版本，如 3.14.0）。这是因为在 Linux 上支持 Python 所需的工具通常会在支持版本方面滞后，无法使用最近发布的 Python 稳定版本。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:46
 msgid "{% block prerequisites_linux %} {% endblock %}"
 msgstr "{% block prerequisites_linux %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:57
-#, fuzzy
 msgid "C:\\...>py -3 --version"
 msgstr "C:\\...>py -3 --version"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:61
-#, fuzzy
 msgid "If you have more than one version of Python installed, you may need to replace the `-3` with a specific version number (e.g., `-python{{ recent_python_version }}`)"
-msgstr "如果安装了不止一个版本的 Python，可能需要用特定的版本号替换 `-3`（例如，`-python{{ recent_python_version }}`）。"
+msgstr "如果你安装了多个版本的 Python，可能需要用特定的版本号替换 `-3`（例如，`-python{{ recent_python_version }}`）"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:63
-#, fuzzy
 msgid "We recommend avoiding recently released version of Python (i.e., versions that have a \".0\" or \".1\" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Windows often lag usually aren't available for recently released stable Python versions."
-msgstr "我们建议避免使用最近发布的 Python 版本（即带有\".0 \"或\".1 \"微版本号的版本，如 3.14.0）。这是因为在 Windows 上支持 Python 所需的工具通常会滞后，而最近发布的稳定 Python 版本通常又不可用。"
+msgstr "我们建议你避免使用最近发布的 Python 版本（即带有“.0 ”或“.1”微版本号的版本，如 3.14.0）。这是因为在 Windows 上支持 Python 所需的工具通常会在支持版本方面滞后，导致其无法与最新发布的稳定 Python 版本使用。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:65
 msgid "{% block prerequisites_windows %} {% endblock %}"
 msgstr "{% block prerequisites_windows %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:72
-#, fuzzy
 msgid "Set up your development environment { #dev-environment-set-up }"
 msgstr "设置开发环境 { #dev-environment-set-up }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:74
-#, fuzzy
 msgid "The recommended way of setting up your development environment for {{ formal_name }} is to use a [virtual environment]{1}, and then install the development version of {{ formal_name }} and its dependencies."
-msgstr "为 {{ formal_name }} 设置开发环境的推荐方法是使用 [虚拟环境]{1}，然后安装 {{ formal_name }} 的开发版本及其依赖项。"
+msgstr "为 {{ formal_name }} 设置开发环境的推荐方法是创建[虚拟环境]{1}，并安装 {{ formal_name }} 的开发版本及其依赖项。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:76
-#, fuzzy
 msgid "Clone the {{ formal_name }} repository"
 msgstr "克隆 {{ formal_name }} 仓库"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:78
-#, fuzzy
 msgid "Next, go to the [{{ formal_name }} page on GitHub](https://github.com/beeware/{{ project_name }}), and, if you haven't already, [fork the repository](https://github.com/beeware/{{ project_name }}/fork) into your own account. Next, click on the \"<> Code\" button on your fork. If you have the GitHub desktop application installed on your computer, you can select \"Open with GitHub Desktop\"; otherwise, copy the HTTPS URL provided, and use it to clone the repository to your computer using the command line:"
-msgstr "接下来，访问 GitHub 上的 [{{ formal_name }} 页面](https://github.com/beeware/{{ project_name }})，如果还没有的话，将 [fork 仓库](https://github.com/beeware/{{ project_name }}/fork) 添加到自己的账户中。然后，点击 fork 上的\"<>代码 \"按钮。如果你的电脑上安装了 GitHub 桌面程序，可以选择 \"用 GitHub 桌面打开\"；否则，复制所提供的 HTTPS URL，然后用命令行将仓库克隆到你的电脑上："
+msgstr "接下来，访问 GitHub 上的 [{{ formal_name }} 页面](https://github.com/beeware/{{ project_name }})，如果还没有的话，[创建 {{ formal_name }} 在自己账户下的派生（fork）仓库](https://github.com/beeware/{{ project_name }}/fork)。接下来，点击 fork 上的“<> Code”按钮。如果你的电脑上安装了 GitHub Desktop，可以选择“Open With GitHub Desktop”；否则，复制所提供的 HTTPS URL，然后用命令行将仓库克隆到你的电脑上："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:86 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:100 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:112
-#, fuzzy
 msgid "Fork the {{ formal_name }} repository, and then:"
-msgstr "分叉 {{ formal_name }} 版本库，然后："
+msgstr "创建 {{ formal_name }} 的派生（fork）版本库，然后："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:88 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:102
-#, fuzzy
 msgid "$ git clone https://github.com/<your username>/{{ project_name }}.git"
-msgstr "$ git clone https://github.com/<您的用户名>/{{ project_name }}.git"
+msgstr "$ git clone https://github.com/<你的用户名>/{{ project_name }}.git"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:92 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:106 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:118
-#, fuzzy
 msgid "(substituting your GitHub username)"
-msgstr "(用您的 GitHub 用户名代替）"
+msgstr "(代入 你的 GitHub 用户名）"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:114
-#, fuzzy
 msgid "C:\\...>git clone https://github.com/<your username>/{{ project_name }}.git"
-msgstr "C:\\...>git clone https://github.com/<您的用户名>/{{ project_name }}.git"
+msgstr "C:\\...>git clone https://github.com/<你的用户名>/{{ project_name }}.git"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:124
-#, fuzzy
 msgid "Set an upstream repository"
-msgstr "设置上游存储库"
+msgstr "设置上游仓库"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:126
-#, fuzzy
 msgid "After cloning your fork, add the BeeWare repository as an `upstream` remote. This gives your local clone a reference to the original repository, making it easier to sync updates over time."
-msgstr "克隆分支后，将 BeeWare 仓库添加为 `upstream` 远程仓库。这使本地克隆获得对原始仓库的引用，便于后续同步更新。"
+msgstr "克隆派生（fork）存储库后，将 BeeWare 仓库添加名为 `upstream`（上游）的远程仓库。这使本地副本拥有对原始仓库的引用，便于以后同步更新。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:128
-#, fuzzy
 msgid "You'll also need tags from `upstream` so tools like Toga and Briefcase can resolve accurate version numbers:"
-msgstr "你还需要从 `upstream` 中获取标签，以便 Toga 和 Briefcase 等工具能够解析准确的版本号："
+msgstr "你还需要从 `upstream` 仓库获取标签（tags），以便 Toga 和 Briefcase 等工具能够解析准确的当前版本号："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:136 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:147
-#, fuzzy
 msgid ""
 "$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
 "$ git fetch --tags upstream"
-msgstr ""
-"$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"$ git fetch --tags upstream"
+msgstr "$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n$ git fetch --tags upstream"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:156
-#, fuzzy
 msgid ""
 "C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
 "C:\\...>git fetch --tags upstream"
-msgstr ""
-"C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
-"C:\\...>git fetch --tags upstream"
+msgstr "C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\nC:\\...>git fetch --tags upstream"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:165
-#, fuzzy
 msgid "If you want your fork to include those tags as well, you can push them:"
-msgstr "若需在分叉中包含这些标签，可将其推送："
+msgstr "如果想在派生仓库中也存储这些标签，可将它们推送："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:167
-#, fuzzy
 msgid "$ git push --tags"
 msgstr "$ git push --tags"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:171
-#, fuzzy
 msgid "This can be useful if you make a fresh clone later and want tags to be available from your fork."
-msgstr "这在您后续创建新克隆时可能很有用，可让分支中的标签在您的分叉中可用。"
+msgstr "这在你后续创建新克隆时可能很有用，可让标签在您的派生仓库中可用。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:173
-#, fuzzy
 msgid "Create a virtual environment"
 msgstr "创建虚拟环境"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:175
-#, fuzzy
 msgid "To set up a virtual environment and upgrade `pip`, run:"
 msgstr "要建立虚拟环境并升级 `pip`，请运行"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:183 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:196
-#, fuzzy
 msgid ""
 "$ cd {{ project_name }}\n"
 "$ python3 -m venv .venv\n"
 "$ source .venv/bin/activate\n"
 "(.venv) $ python -m pip install -U pip"
-msgstr ""
-"$ cd {{ project_name }}\n"
-"$ python3 -m venv .venv\n"
-"$ source .venv/bin/activate\n"
-"(.venv) $ python -m pip install -U pip"
+msgstr "$ cd {{ project_name }}\n$ python3 -m venv .venv\n$ source .venv/bin/activate\n(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:207
-#, fuzzy
 msgid ""
 "C:\\...>cd {{ project_name }}\n"
 "C:\\...>py -3 -m venv .venv\n"
 "C:\\...>.venv\\Scripts\\activate\n"
 "(.venv) $ python -m pip install -U pip"
-msgstr ""
-"C:\\...>cd {{ project_name }}\n"
-"C:\\...>py -3 -m venv .venv\n"
-"C:\\...>.venv\\Scripts\\activate\n"
-"(.venv) $ python -m pip install -U pip"
+msgstr "C:\\...>cd {{ project_name }}\nC:\\...>py -3 -m venv .venv\nC:\\...>.venv\\Scripts\\activate\n(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:218
-#, fuzzy
 msgid "Your prompt should now have a `(.venv)` prefix in front of it."
-msgstr "现在，您的提示符前面应该有`(.venv)`前缀。"
+msgstr "现在，你的提示符应该带有 `(.venv)` 前缀。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:220
-#, fuzzy
 msgid "Install {{ formal_name }}"
-msgstr "安装 {{ 正式名称 }}"
+msgstr "安装 {{ formal_name }}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:222
-#, fuzzy
 msgid "Now that you have the source code, you can do an [editable install]{1} of {{ formal_name }} into your development environment. Run the following command:"
-msgstr "有了源代码，就可以在开发环境中 [编辑安装]{1} {{ formal_name }} 了。运行以下命令"
+msgstr "有了源代码，就可以在开发环境中[以编辑模式安装]{1} {{ formal_name }} 了。运行以下命令："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:230
 msgid "{% block install_macos_tool %}"
@@ -641,14 +571,12 @@ msgid "(.venv) C:\\...>python -m pip install -U -e . --group dev"
 msgstr "(.venv) C:\\...>python -m pip install -U -e . --group dev"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:268
-#, fuzzy
 msgid "Enable pre-commit"
-msgstr "启用预提交"
+msgstr "启用 pre-commit"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:270
-#, fuzzy
 msgid "{{ formal_name }} uses a tool called [pre-commit]{1} to identify simple issues and standardize code formatting. It does this by installing a git hook that automatically runs a series of code linters prior to finalizing any git commit. To enable pre-commit, run:"
-msgstr "{{ formal_name }} 使用一个名为 [pre-commit]{1} 的工具来识别简单的问题并规范代码格式。它通过安装一个 git 钩子，在完成任何 git 提交之前自动运行一系列代码精简器。要启用预提交，请运行"
+msgstr "{{ formal_name }} 使用一个名为 [pre-commit]{1} 的工具来识别简单问题并规范代码格式。它通过安装一个 git 钩子，以在完成任何 git 提交（commit）之前自动运行一系列代码 linter。要启用预提交，请运行："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:278 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:289
 msgid ""
@@ -667,79 +595,64 @@ msgstr ""
 "pre-commit installed at .git/hooks/pre-commit"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:307
-#, fuzzy
 msgid "Now you are ready to start hacking on {{ formal_name }}!"
-msgstr "现在，您可以开始对 {{ 正式名称 }} 进行黑客攻击了！"
+msgstr "现在，你可以开始对 {{ formal_name }} 进行贡献了！"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:1
-#, fuzzy
 msgid "Writing up a good issue or bug report can make all the difference in the ability to troubleshoot a problem. Here's how to submit a good bug report to {{ formal_name }}."
-msgstr "撰写一份好的问题或错误报告，对排除故障的能力大有裨益。以下是如何向 {{ formal_name }} 提交一份好的错误报告。"
+msgstr "撰写一份好的问题工单或错误报告，对我们排除故障的能力很有帮助。以下是向 {{ formal_name }} 提交一份好的错误报告的最佳流程。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:3
-#, fuzzy
 msgid "Search for existing issues"
-msgstr "搜索现有问题"
+msgstr "搜索现有工单"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:5
-#, fuzzy
 msgid "Before submitting a new issue, search the index for existing issues that match your own. If there is an existing open issue that seems to match your problem, add a comment to that issue with any additional information about your experience. For example, if you're seeing the problem on a different Python version, or different operating system, that additional information can be helpful in determining the impact or cause of a problem."
-msgstr "在提交新问题之前，请在索引中搜索与您的问题相匹配的现有问题。如果有与您的问题相匹配的现有开放问题，请在该问题上添加评论，并提供有关您的经验的任何附加信息。例如，如果您在不同的 Python 版本或不同的操作系统上看到了问题，那么这些附加信息将有助于确定问题的影响或原因。"
+msgstr "在提交新工单之前，请在索引中搜索与您的问题相匹配的现有工单。如果有与您的问题相匹配的现有开放工单，请在该问题上添加评论，以提供有关你的体验的任何附加信息。例如，如果你在不同的 Python 版本或不同的操作系统上重现了问题，那么这些附加信息将有助于确定问题的影响或原因。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:7
-#, fuzzy
 msgid "If you find a *closed* issue that seems to match your problem, check how recently that issue was closed. If the issue was closed very recently, that likely means your bug has been fixed, and will be corrected in the next release. If the issue was closed more than 4 months ago, it's likely that what you're experiencing is a different problem - no matter how similar the error message might appear."
-msgstr "如果您发现一个*已关闭*的问题似乎与您的问题相符，请查看该问题最近关闭的时间。如果问题是最近关闭的，这很可能意味着您的错误已被修复，并将在下一个版本中修正。如果问题是在 4 个月前关闭的，那么您遇到的很可能是另一个问题，无论错误信息看起来多么相似。"
+msgstr "如果你似乎发现一个*已关闭*工单与您的问题相符，请查看该工单关闭的时间。如果问题是最近关闭的，这很可能意味着你的错误已被修复，修复将在下一个版本中可用。如果问题在 4 个月前被关闭，那么你遇到的很可能是另一个问题，虽然有可能错误信息看起来相似。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:9
-#, fuzzy
 msgid "If you don't find an issue that matches what you are seeing, it might be appropriate to open a new issue."
-msgstr "如果您没有找到与您所看到的内容相匹配的问题，那么可能需要打开一个新问题。"
+msgstr "如果你没有找到与你所看到的内容相匹配的工单，那么可能需要打开一个新工单。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:11
-#, fuzzy
 msgid "Start with a discussion"
 msgstr "从讨论开始"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:13
-#, fuzzy
 msgid "Before submitting an issue on GitHub, consider starting with a discussion to ask whether what you're experiencing is a actually a bug, or an issue with your setup or process. Unless you're seeing behavior that is directly contradicting documented behavior, it's likely worth asking a question before going straight to submitting a bug report. If it turns out you *have* found an issue, a discussion topic can be easily turned into an issue."
-msgstr "在 GitHub 上提交问题之前，可以先讨论一下您遇到的问题究竟是 bug 还是您的设置或流程问题。除非您看到的行为与文档中的行为直接矛盾，否则在直接提交错误报告之前，还是应该先提出问题。如果您**发现了一个问题，讨论主题可以很容易地转化为问题。"
+msgstr "在 GitHub 上提交问工单之前，可以先提出讨论话题（discussion）以确定你遇到的问题究竟是 bug 还是你的设置或流程问题。除非你看到的行为与文档中的行为直接矛盾，否则在直接提交错误报告之前，先提出讨论话题可能更好。如果你*确实*发现了问题，确认后讨论主题可以很容易地被转化为问题。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:15
-#, fuzzy
 msgid "Starting a discussion can also help ensure you're reporting an issue in the best place. Although you might have experienced a problem while using {{ formal_name }}, the problem might be caused by a bug in a different project in the BeeWare ecosystem."
-msgstr "发起讨论还有助于确保您在最佳位置报告问题。虽然您可能在使用 {{ formal_name }} 时遇到了问题，但该问题可能是由 BeeWare 生态系统中其他项目的错误引起的。"
+msgstr "发起讨论还有助于帮助你在最佳位置报告问题。虽然你可能在使用 {{ formal_name }} 时遇到了问题，但该问题可能是由 BeeWare 生态系统中的项目或其他项目的错误引起的。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:17
-#, fuzzy
 msgid "Writing a good bug report"
-msgstr "撰写出色的错误报告"
+msgstr "撰写最佳的错误报告"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:19
-#, fuzzy
 msgid "If a new issue *is* required, it's important to provide as much detail as possible. A good bug report includes all information potentially related to the bug, as well as the smallest possible reproduction example."
-msgstr "如果**需要一个新问题，就必须提供尽可能多的细节。一份好的错误报告包括与错误可能相关的所有信息，以及尽可能小的重现示例。"
+msgstr "如果*确实*需要新问题，那么你最好提供尽可能多的细节。一份好的错误报告应包括与错误可能相关的所有信息，以及尽可能小的重现示例。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:21
-#, fuzzy
 msgid "The reproduction example should be as short and concise as possible while still exhibiting the bug. Providing a massive example makes it significantly more difficult to troubleshoot, especially if it relies on other libraries, or requires extensive knowledge of the expected behavior or internal logic of the example."
-msgstr "重现示例应尽可能短小精悍，同时仍能展示错误。提供一个庞大的示例会大大增加排除故障的难度，尤其是当示例依赖于其他库，或需要大量有关预期行为或示例内部逻辑的知识时。"
+msgstr "重现示例应尽可能短小精悍，但同时仍展示错误。提供一个庞大的示例会大大增加排除故障的难度，尤其是当示例依赖于其他库，或需要了解大量有关示例的预期行为或内部逻辑的信息时。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:23
-#, fuzzy
 msgid "We need as much detail as you can possibly provide. This includes, but is definitely not limited to:"
-msgstr "我们需要您提供尽可能多的细节。这包括但绝对不限于："
+msgstr "我们需要你提供尽可能多的细节。这包括但不限于："
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:25
-#, fuzzy
 msgid "Your operating system version - down to the micro version (for example, macOS 15.7.2)."
-msgstr "你的操作系统版本--精确到微缩版本（例如，macOS 15.7.2）。"
+msgstr "你的操作系统版本——精确到微缩版本（例如，macOS 15.7.2）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:26
-#, fuzzy
 msgid "Your Python version, also down to the micro version (for example, 3.14.1)."
-msgstr "您的 Python 版本，也精确到微型版本（例如 3.14.1）。"
+msgstr "你的 Python 版本，也精确到微型版本（例如 3.14.1）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:27
 #, fuzzy
@@ -2720,9 +2633,8 @@ msgid "If you feel your reviewer is straying from these expectations, and you fe
 msgstr "如果您认为您的审稿人偏离了这些期望，并且您自己觉得可以在拉取请求中提出问题，您可以这样做。如果您觉得不方便，请联系[BeeWare 行为准则响应团队]{1}。我们将审核您的报告，并与您的审核员进行跟进。跟进将反映所报告的行为；轻微的违规行为可能会导致讨论，而严重的违规行为可能会导致更严重的后果。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:30
-#, fuzzy
 msgid "Providing a review"
-msgstr "提供审查"
+msgstr "提供审核"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:32
 #, fuzzy
