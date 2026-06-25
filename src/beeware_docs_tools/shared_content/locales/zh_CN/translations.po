@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 13:01+0000\n"
-"PO-Revision-Date: 2026-06-25 13:01+0000\n"
-"Last-Translator: John <johnzhou721@gmail.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-25 13:01+0000\nPO-Revision-Date: 2026-06-26 18:01+0000\nLast-Translator: John <johnzhou721@gmail.com>\nLanguage-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -685,29 +673,24 @@ msgid "Your Python version, also down to the micro version (for example, 3.14.1)
 msgstr "你的 Python 版本，也精确到微型版本（例如 3.14.1）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:27
-#, fuzzy
 msgid "How you installed Python. Did you download it from python.org? Did you use Homebrew? `uv`? `pyenv`? `conda`? Something else?"
-msgstr "您是如何安装 Python 的？是从 python.org 下载的？使用 Homebrew？`uv`?pyenv`？conda`？其他的？"
+msgstr "你的 Python 安装方式：你是从 python.org 下载的？还是使用 Homebrew？还是 `uv`、`pyenv`、`conda` 等等？"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:28
-#, fuzzy
 msgid "The specific version of the BeeWare tools are you using (for example, Toga 0.5.3). If you're using a development version, what Git hash are you using? It's not enough to say \"the current main branch\", because that can change on a daily basis."
-msgstr "您使用的 BeeWare 工具的具体版本（例如 Toga 0.5.3）。如果您使用的是开发版本，那么您使用的 Git 哈希值是多少？只说 \"当前主分支 \"是不够的，因为主分支每天都在变化。"
+msgstr "你使用的 BeeWare 工具的具体版本（例如 Toga 0.5.3）。如果您使用的是开发版本，那么你使用的 Git commit 哈希值是多少？只说“当前 main 分支”是不够的，因为 main 分支每天都在变化。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:29
-#, fuzzy
 msgid "The specific versions of other packages that must be installed to trigger the problem. You can include the results of running `python -m pip freeze` to provide this information."
-msgstr "要触发问题必须安装的其他软件包的具体版本。您可以包含运行 `python -m pip freeze` 的结果来提供这些信息。"
+msgstr "触发问题必须安装的其他软件包的具体版本。你可以运行 `python -m pip freeze`，并粘贴结果来提供这些信息。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:30
-#, fuzzy
 msgid "If a log file has been generated, the *entire* log file."
-msgstr "如果已生成日志文件，则*整个*日志文件。"
+msgstr "如果生成了日志文件，提供*整个*日志文件的内容。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:31
-#, fuzzy
 msgid "If a stack trace has been generated, the *entire* stacktrace. Don't just provide the final error message - the full context of the stack trace is important. It's also best to provide this in *text* format, *not* as a screenshot."
-msgstr "如果已生成堆栈跟踪，请提供*整个*堆栈跟踪。不要只提供最终的错误信息，完整的堆栈跟踪上下文非常重要。最好以*文本*格式提供，而不是*截图。"
+msgstr "如果已生成堆栈跟踪（stack trace），请提供*整个*堆栈跟踪。不要只提供最终的错误信息，完整的堆栈跟踪的上下文非常重要。最好以*文本*格式提供，而*不要提供*截图。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:32
 #, fuzzy
