@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 13:01+0000\n"
-"PO-Revision-Date: 2026-06-25 13:01+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-25 13:01+0000\nPO-Revision-Date: 2026-06-26 18:01+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -2885,40 +2873,31 @@ msgid "You can specify the language for the code contained within the codeblock 
 msgstr "Pode especificar a linguagem para o código contido no bloco de código incluindo o nome da linguagem após as três primeiras aspas, sem espaço entre elas. Isso resulta num destaque de código apropriado quando o código é renderizado. Por exemplo, para especificar Python, iniciaria o bloco de código com ```python``."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:152
-#, fuzzy
 msgid "Console commands and the copy button"
-msgstr "Comandos do console e o botão de cópia"
+msgstr "Comandos da consola e o botão de copiar"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:154
-#, fuzzy
 msgid "If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on whether you're describing a Unix-like (including macOS) operating system, or Windows. You can include the prompt provided by the operating system; only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:"
-msgstr "Se estiver incluindo comandos de console ou comandos com saída, rotule-os como `console` ou `doscon`, dependendo se estiver descrevendo um sistema operacional do tipo Unix (incluindo macOS) ou Windows. Você pode incluir o prompt fornecido pelo sistema operacional; somente o comando será copiado quando você clicar no botão de cópia. Por exemplo, se você iniciar um bloco de código com ````console`` e incluir o seguinte conteúdo:"
+msgstr "Se estiver a incluir comandos de consola ou comandos com saída, se os etiquetar como `console` ou `doscon`, dependendo se estiver a descrever um sistema operativo do tipo Unix (incluindo macOS) ou Windows. Pode incluir o aviso fornecido pelo sistema operativo; apenas o comando será copiado quando clicar no botão de cópia. Por exemplo, se iniciar um bloco de código com ````console`` e incluir o seguinte conteúdo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:156
-#, fuzzy
 msgid ""
 "$ mkdir test\n"
 "$ ls\n"
 "test"
-msgstr ""
-"$ mkdir test\n"
-"$ ls\n"
-"test"
+msgstr "$ mkdir test\n$ ls\ntest"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:162
-#, fuzzy
 msgid "Then, clicking the copy button on the codeblock will copy only the commands, and ignore the prompts and the output. This allows you to indicate that they are console commands, while still allowing users to use the copy button effectively."
-msgstr "Em seguida, clicar no botão de cópia no bloco de código copiará apenas os comandos e ignorará os prompts e a saída. Isso permite indicar que são comandos do console e, ao mesmo tempo, permite que os utilizadores usem o botão de cópia de forma eficaz."
+msgstr "Depois, clicar no botão de cópia no bloco de código vai copiar apenas os comandos e ignorar os avisos e resultados. Isso permite indicar que são comandos da consola e, ao mesmo tempo, permite que os utilizadores usem o botão de cópia de forma eficaz."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:164
-#, fuzzy
 msgid "Highlighting specific lines of code"
-msgstr "Destaque de linhas específicas de código"
+msgstr "Destacar linhas específicas de código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:166
-#, fuzzy
 msgid "You can highlight specific lines of code. For example, to highlight line 2, you would add a space after the language, followed by `{hl_lines=\"2\"}`. So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The result is:"
-msgstr "Você pode destacar linhas específicas de código. Por exemplo, para destacar a linha 2, você adicionaria um espaço após a linguagem, seguido de `{hl_lines=\"2\"}`. Portanto, seu bloco de código começaria com ` ```python {hl_lines=\"2\"} `. O resultado é:"
+msgstr "Pode destacar linhas específicas de código. Por exemplo, para destacar a linha 2, adicione um espaço após a linguagem, seguido de `{hl_lines=\"2\"}`. Assim, o seu bloco de código começa com ` ```python {hl_lines=\"2\"} `. O resultado é:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:168
 msgid ""
@@ -2929,32 +2908,26 @@ msgstr ""
 "from toga.style.pack import COLUMN, ROW"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:173
-#, fuzzy
 msgid "You can highlight multiple different lines. For example, `python {hl_lines=\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also highlight a range of lines. For example, `python {hl_lines=\"3-8\"}` highlights lines 3 through 8. You can highlight multiple ranges with, for example, `python {hl_lines=\"9-18 23-44\"}`."
-msgstr "Você pode destacar várias linhas diferentes. Por exemplo, `python {hl_lines=\"3 5 9\"}` destacaria as linhas 3, 5 e 9. Você também pode destacar um intervalo de linhas. Por exemplo, `python {hl_lines=\"3-8\"}` destaca as linhas 3 a 8. Você pode destacar vários intervalos com, por exemplo, `python {hl_lines=\"9-18 23-44\"}`."
+msgstr "Pode destacar várias linhas diferentes. Por exemplo, `python {hl_lines=\"3 5 9\"}` destaca as linhas 3, 5 e 9. Também pode destacar um intervalo de linhas. Por exemplo, `python {hl_lines=\"3-8\"}` destaca as linhas 3 a 8. Pode destacar vários intervalos com, por exemplo, `python {hl_lines=\"9-18 23-44\"}`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:175
-#, fuzzy
 msgid "Markdown elements that require specific formatting"
 msgstr "Elementos Markdown que exigem formatação específica"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:177
-#, fuzzy
 msgid "Due to the way the translation files are generated, it is important to include required newlines in the Markdown syntax for admonitions, notes, tabs, Jinja directives, image captions and alignment, etc."
 msgstr "Devido à forma como os ficheiros de tradução são gerados, é importante incluir as novas linhas necessárias na sintaxe Markdown para advertências, notas, guias, diretivas Jinja, legendas e alinhamento de imagens, etc."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:179
-#, fuzzy
 msgid "Admonitions and notes"
-msgstr "Admoestações e notas"
+msgstr "Advertências e notas"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:181
-#, fuzzy
 msgid "Admonitions must be formatted as follows, including ensuring a newline before and after the admonition start and end:"
-msgstr "As admoestações devem ser formatadas da seguinte forma, incluindo a garantia de uma nova linha antes e depois do início e do fim da admoestação:"
+msgstr "As advertências devem ser formatadas da seguinte forma, incluindo a garantia de uma nova linha antes e depois do início e fim da advertência:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:183
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -2967,26 +2940,13 @@ msgid ""
 "///\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"/// aviso | Título\n"
-"\n"
-"Texto do aviso.\n"
-"\n"
-"Um segundo parágrafo.\n"
-"\n"
-"///\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n/// admonition | Título\n\nTexto da advertência.\n\nUm segundo parágrafo.\n\n///\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:197
-#, fuzzy
 msgid "This works the same way with any supported admonition type. For example, note admonitions require the same formatting and newlines:"
-msgstr "Isso funciona da mesma maneira com qualquer tipo de advertência suportado. Por exemplo, as advertências de nota exigem a mesma formatação e novas linhas:"
+msgstr "Isso funciona da mesma maneira com qualquer tipo de advertência suportada. Por exemplo, as advertências de nota exigem a mesma formatação e novas linhas:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:199
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -2997,34 +2957,21 @@ msgid ""
 "///\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"/// nota | Título da nota\n"
-"\n"
-"Texto da nota aqui.\n"
-"\n"
-"///\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n/// note | Título da nota\n\nTexto da nota aqui.\n\n///\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:211
-#, fuzzy
 msgid "All [supported admonition types]{1} are available for use as admonitions."
 msgstr "Todos os [tipos de advertências suportados]{1} estão disponíveis para uso como advertências."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:213
-#, fuzzy
 msgid "Tabbed content"
-msgstr "Conteúdo com guias"
+msgstr "Conteúdo com separadores"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:215
-#, fuzzy
 msgid "Tabbed content is formatted as follows, including a newline included before the start and after the end of the content block:"
-msgstr "O conteúdo com guias é formatado da seguinte forma, incluindo uma nova linha antes do início e depois do fim do bloco de conteúdo:"
+msgstr "O conteúdo com separadores é formatado da seguinte forma, incluindo uma nova linha antes do início e depois do fim do bloco de conteúdo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:217
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -3047,36 +2994,13 @@ msgid ""
 "///\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"/// guia | Título da guia um\n"
-"\n"
-"Texto da guia um\n"
-"\n"
-"///\n"
-"\n"
-"/// guia | Título da guia dois\n"
-"\n"
-"Texto da guia dois.\n"
-"\n"
-"///\n"
-"\n"
-"/// guia | Título da guia três\n"
-"\n"
-"Texto da guia três.\n"
-"\n"
-"///\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n/// tab | Título do separador um\n\nTexto do separador um\n\n///\n\n/// tab | Título do separador dois\n\nTexto do separador dois.\n\n///\n\n/// tab | Título do separador três\n\nTexto do separador três.\n\n///\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:241
-#, fuzzy
 msgid "A tab with a nested admonition would be formatted as follows, including a newline before and after the content block:"
-msgstr "Uma tabulação com uma advertência aninhada seria formatada da seguinte forma, incluindo uma nova linha antes e depois do bloco de conteúdo:"
+msgstr "Um separador com uma advertência aninhada seria formatado da seguinte forma, incluindo uma nova linha antes e depois do bloco de conteúdo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:243
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -3093,35 +3017,17 @@ msgid ""
 "///\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"/// guia | Windows\n"
-"\n"
-"Texto da guia.\n"
-"\n"
-"/// advertência | Advertência\n"
-"\n"
-"Texto da advertência.\n"
-"\n"
-"///\n"
-"\n"
-"///\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n/// tab | Windows\n\nTexto do separador.\n\n/// admonition | Advertência\n\nTexto da advertência.\n\n///\n\n///\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:261
-#, fuzzy
 msgid "Collapsed content"
 msgstr "Conteúdo recolhido"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:263
-#, fuzzy
 msgid "Collapsed content is formatted as follows, including newlines:"
 msgstr "O conteúdo recolhido é formatado da seguinte forma, incluindo novas linhas:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:265
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -3132,34 +3038,21 @@ msgid ""
 "///\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"/// details-note | Título do conteúdo recolhido\n"
-"\n"
-"Conteúdo recolhido.\n"
-"\n"
-"///\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n/// details-note | Título do conteúdo recolhido\n\nConteúdo recolhido.\n\n///\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:277
-#, fuzzy
 msgid "All [supported admonition types]{1} are available for use with collapsed content, however, you must declare them as `details-admonitiontype`. So, a \"note\" type collapsed block would be `details-note` (as shown above), a \"warning\" type collapsed block would be `details-warning`, and so on."
-msgstr "Todos os [tipos de advertência suportados]{1} estão disponíveis para uso com conteúdo recolhido, no entanto, você deve declará-los como `details-admonitiontype`. Assim, um bloco recolhido do tipo “nota” seria `details-note` (como mostrado acima), um bloco recolhido do tipo “aviso” seria `details-warning`, e assim por diante."
+msgstr "Todos os [tipos de advertência suportados]{1} estão disponíveis para uso com conteúdo recolhido, no entanto, deve declara-los como `details-admonitiontype`. Assim, um bloco recolhido do tipo “note” seria `details-note` (como mostrado em cima), um bloco recolhido do tipo “warning” seria `details-warning`, e assim por diante."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:279
-#, fuzzy
 msgid "Jinja directives"
 msgstr "Diretrizes Jinja"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:281
-#, fuzzy
 msgid "There are a few features of the documentation that use Jinja directives in the text. Anything using the Jinja directive features needs to be wrapped in newlines. For example, the BeeWare tutorial contains Jinja conditionals based on variables to determine what admonition to show on the main page. Those are formatted as follows:"
 msgstr "Há alguns recursos da documentação que usam as diretivas Jinja no texto. Qualquer coisa que use os recursos da diretiva Jinja precisa ser envolvida em novas linhas. Por exemplo, o tutorial do BeeWare contém condicionais Jinja baseadas em variáveis para determinar qual advertência mostrar na página principal. Elas são formatadas da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:283
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -3174,78 +3067,50 @@ msgid ""
 "{% endif %}\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"{% if config.extra.translation_type == \"original\" %}\n"
-"\n"
-"/// advertência | Título da advertência\n"
-"\n"
-"Texto\n"
-"\n"
-"///\n"
-"\n"
-"{% endif %}\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n{% if config.extra.translation_type == \"original\" %}\n\n/// admonition | Título da advertência\n\nTexto\n\n///\n\n{% endif %}\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:299
-#, fuzzy
 msgid "There is also syntax for substituting symbols or text. This syntax is a variable wrapped in a pair of matching double curly braces, and, if on its own line, must include a newline before and after."
-msgstr "Há também uma sintaxe para substituir símbolos ou texto. Essa sintaxe é uma variável envolvida em um par de chaves duplas correspondentes e, se estiver em sua própria linha, deve incluir uma nova linha antes e depois."
+msgstr "Há também uma sintaxe para substituir símbolos ou texto. Essa sintaxe é uma variável envolvida num par de chavetas duplas correspondentes e, se estiver  em sua própria linha, deve incluir uma nova linha antes e depois."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:301
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
 "{{ variable }}\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"{{ variable }}\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n{{ variável }}\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:309
-#, fuzzy
 msgid "Image formatting"
-msgstr "Formatação de imagens"
+msgstr "Formatar de imagens"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:311
-#, fuzzy
 msgid "Images can have the width set, and can be aligned left, right, and center (with a caveat on \"center\"). Images should always include meaningful alt text for accessibility purposes."
 msgstr "As imagens podem ter a largura definida e podem ser alinhadas à esquerda, à direita e ao centro (com uma ressalva quanto ao \"centro\"). As imagens devem sempre incluir um texto alternativo significativo para fins de acessibilidade."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:313
-#, fuzzy
 msgid "Setting the width of {1}300px{2} on an image would be formatted as follows:"
-msgstr "A definição da largura de {1}300px{2} em uma imagem seria formatada da seguinte forma:"
+msgstr "A definição da largura de {1}300px{2} numa imagem seria formatada da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:315
-#, fuzzy
 msgid "![Image alt text](../path/to/image.png){ width=\"300px\" }"
 msgstr "![Texto alternativo da imagem](../caminho/para/imagem.png){ width=\"300px\" }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:319
-#, fuzzy
 msgid "Aligning an image left (or right) would be formatted as follows:"
 msgstr "O alinhamento de uma imagem à esquerda (ou à direita) seria formatado da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:321
-#, fuzzy
 msgid "![Image alt text](../path/to/image.png){ align=left }"
 msgstr "![Texto alternativo da imagem](../caminho/para/imagem.png){ align=left }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:325
-#, fuzzy
 msgid "Adding a caption to an image requires a newline before and after, and is formatted as follows:"
-msgstr "A adição de uma legenda a uma imagem requer uma nova linha antes e depois, e é formatada da seguinte forma:"
+msgstr "Adicionar uma legenda a uma imagem requer uma nova linha antes e depois, e é formatada da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:327
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -3258,26 +3123,13 @@ msgid ""
 "///\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"![Texto alternativo da imagem](/caminho/para/imagem.png)\n"
-"\n"
-"/// legenda\n"
-"\n"
-"Conteúdo da legenda.\n"
-"\n"
-"///\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n![Texto alternativo da imagem](/caminho/para/imagem.png)\n\n/// caption\n\nConteúdo da legenda.\n\n///\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:341
-#, fuzzy
 msgid "Aligning an image center is not possible with the `align` attribute. The workaround is to follow the image with an empty caption, and it will be centered. You must include newlines between each section, and before and after. It is formatted as follows:"
-msgstr "O alinhamento central de uma imagem não é possível com o atributo `align`. A solução alternativa é seguir a imagem com uma legenda vazia, e ela será centralizada. Você deve incluir novas linhas entre cada seção, antes e depois. Ele é formatado da seguinte forma:"
+msgstr "O alinhamento central de uma imagem não é possível com o atributo `align`. A solução alternativa é seguir a imagem com uma legenda vazia, e ela será centrada. Deve incluir novas linhas entre cada secção, antes e depois. É formatado da seguinte forma:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:343
-#, fuzzy
 msgid ""
 "Content above.\n"
 "\n"
@@ -3288,116 +3140,87 @@ msgid ""
 "///\n"
 "\n"
 "Content below."
-msgstr ""
-"Conteúdo acima.\n"
-"\n"
-"![Texto alternativo da imagem](../caminho/para/imagem.png)\n"
-"\n"
-"/// legenda\n"
-"\n"
-"///\n"
-"\n"
-"Conteúdo abaixo."
+msgstr "Conteúdo em cima.\n\n![Texto alternativo da imagem](../caminho/para/imagem.png)\n\n/// caption\n\n///\n\nConteúdo em baixo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:355
-#, fuzzy
 msgid "Plugins with specific Markdown formatting"
-msgstr "Plug-ins com formatação Markdown específica"
+msgstr "Plugins com formatação Markdown específica"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:357
-#, fuzzy
 msgid "The following sections cover how to utilize plugins that require specific Markdown formatting."
-msgstr "As seções a seguir abordam como utilizar plug-ins que exigem formatação Markdown específica."
+msgstr "As secções a seguir abordam como utilizar plugins que exigem formatação Markdown específica."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:359
-#, fuzzy
 msgid "Using Snippets to include external content"
-msgstr "Uso de snippets para incluir conteúdo externo"
+msgstr "Uso de Trechos para incluir conteúdo externo"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:361
-#, fuzzy
 msgid "For details on how to include external content from a local file or a URL, see the [Snippets extension documentation]{1}. Snippets should be used as long as the document does not contain Jinja directives that need to be executed (the Jinja execution happens alongside the Snippets processing, and therefore any Jinja in the file will not be processed). Snippets is necessary if you want to be able to use delimiters that allow you to include specific parts of a file separately, e.g. the source document is divided up into sections to be injected separately from each other."
-msgstr "Para obter detalhes sobre como incluir conteúdo externo de um ficheiro local ou de um URL, consulte a [Snippets extension documentation]{1}. O Snippets deve ser usado desde que o documento não contenha diretivas Jinja que precisem ser executadas (a execução do Jinja ocorre juntamente com o processamento do Snippets e, portanto, qualquer Jinja no ficheiro não será processado). O Snippets é necessário se você quiser usar delimitadores que permitam incluir partes específicas de um ficheiro separadamente, por exemplo, o documento de origem é dividido em seções a serem injetadas separadamente umas das outras."
+msgstr "Para obter detalhes sobre como incluir conteúdo externo de um ficheiro local ou de um URL, consulte a [Documentação de extensão de Trechos]{1}. O Trecho deve ser usado desde que o documento não contenha diretivas Jinja que precisem ser executadas (a execução do Jinja ocorre juntamente com o processamento do Trecho e, portanto, qualquer Jinja no ficheiro não será processado). O Trecho é necessário se quiser usar delimitadores que permitam incluir partes específicas de um ficheiro separadamente, por exemplo, o documento de origem é dividido em secções a serem injetadas separadamente umas das outras."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:363
-#, fuzzy
 msgid "Important notes:"
-msgstr "Observações importantes:"
+msgstr "Notas importantes:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:365
-#, fuzzy
 msgid "We use `-8<-` as the Snippets identifier. The documentation shows several options; please follow our style."
-msgstr "Usamos `-8<-` como identificador de Snippets. A documentação mostra várias opções; siga nosso estilo."
+msgstr "Usamos `-8<-` como identificador de Trechos. A documentação mostra várias opções; por favor siga o nosso estilo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:366
-#, fuzzy
 msgid "Files found in BeeWare Docs Tools shared content are treated as \"local\" content. Therefore, you will either use only the filename, as in `-8<- \"docs-style-guide.md\"`, or if the content is in a subdirectory, only the directory and filename, as in `-8<- \"style/docs-style-guide.md\"`."
-msgstr "Os ficheiros encontrados no conteúdo compartilhado do BeeWare Docs Tools são tratados como conteúdo \"local\". Portanto, você usará apenas o nome do ficheiro, como em `-8<- \"docs-style-guide.md\"`, ou, se o conteúdo estiver em um subdiretório, apenas o diretório e o nome do ficheiro, como em `-8<- \"style/docs-style-guide.md\"`."
+msgstr "Os ficheiros encontrados no conteúdo partilhado do BeeWare Docs Tools são tratados como conteúdo \"local\". Portanto, use apenas o nome do ficheiro, como em `-8<- \"docs-style-guide.md\"`, ou, se o conteúdo estiver em um subdiretório, apenas o diretório e o nome do ficheiro, como em `-8<- \"style/docs-style-guide.md\"`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:367
-#, fuzzy
 msgid "If you are including external content from a file on GitHub via a URL, you _must_ use the raw content URL, or it will render the full webpage embedded wherever you include it."
-msgstr "Se estiver incluindo conteúdo externo de um ficheiro no GitHub por meio de um URL, você _deve_ usar o URL do conteúdo bruto, ou ele renderizará a página da Web completa incorporada onde quer que você a inclua."
+msgstr "Se estiver incluindo conteúdo externo de um ficheiro no GitHub por meio de um URL, _tem de_ usar o URL do conteúdo bruto, ou ele vai renderizar a página Web completa incorporada onde quer que a inclua."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:369
-#, fuzzy
 msgid "Using Macros to include content from BeeWare Docs Tools shared content"
-msgstr "Uso de macros para incluir conteúdo compartilhado do BeeWare Docs Tools"
+msgstr "Usar de macros para incluir conteúdo partilhado do BeeWare Docs Tools"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:371
-#, fuzzy
 msgid "You can also include content from the BeeWare Docs tools shared content directory using the [Macros MkDocs plugin]{1}. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism]{2} works with this method."
-msgstr "Você também pode incluir conteúdo do diretório de conteúdo compartilhado das ferramentas do BeeWare Docs usando o [plugin Macros MkDocs]{1}. Esse método é necessário se o documento contiver diretivas Jinja que precisem ser executadas e só deve ser usado nessa situação. Ele não funcionará com conteúdo externo por meio de um URL. O mecanismo [Macros variable-replacement mechanism]{2} funciona com esse método."
+msgstr "Também pode incluir conteúdo do diretório de conteúdo partilhado das ferramentas do BeeWare Docs usando o [plugin Macros MkDocs]{1}. Este método é necessário se o documento conter diretivas Jinja que precisem ser executadas e só deve ser usado nessa situação. Ele não vai funcionar com conteúdo externo por meio de um URL. O mecanismo [Macros variable-replacement mechanism]{2} funciona com este método."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:373
-#, fuzzy
 msgid "There are options for including content using Macros:"
-msgstr "Há opções para incluir conteúdo usando macros:"
+msgstr "Existem opções para incluir conteúdo usando Macros:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:375
-#, fuzzy
 msgid "Use [the `include` Jinja syntax]{1} if you want to include the document with no other manual changes to it."
 msgstr "Use [a sintaxe `include` Jinja]{1} se quiser incluir o documento sem nenhuma outra alteração manual."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:377
-#, fuzzy
 msgid "Use [the `extends` Jinja syntax]{1} if you have included Jinja `block` syntax in the document, which allows you to override or add to specific sections."
-msgstr "Use [a sintaxe Jinja `extends`]{1} se tiver incluído a sintaxe Jinja `block` no documento, que permite substituir ou adicionar seções específicas."
+msgstr "Use [a sintaxe Jinja `extends`]{1} se tiver incluído a sintaxe Jinja `block` no documento, que permite substituir ou adicionar secções específicas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:379
-#, fuzzy
 msgid "`pyspelling`"
 msgstr "`pyspelling`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:381
-#, fuzzy
 msgid "We use the `pyspelling` spellchecker. It is run during the lint-checks."
-msgstr "Usamos o verificador ortográfico `pyspelling`. Ele é executado durante as verificações de lint."
+msgstr "Usamos o verificador ortográfico `pyspelling`. É executado durante as verificações de lint."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:383
-#, fuzzy
 msgid "When `pyspelling` identifies a misspelled word, in most cases, it should be fixed in the documentation content."
 msgstr "Quando `pyspelling` identifica uma palavra com erro ortográfico, na maioria dos casos, ela deve ser corrigida no conteúdo da documentação."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:385
-#, fuzzy
 msgid "In the rare case that it identifies a valid word that isn't in the `pyspelling` dictionary, you have two options:"
-msgstr "Nos raros casos em que ele identifica uma palavra válida que não está no dicionário `pyspelling`, você tem duas opções:"
+msgstr "Nos raros casos em que ele identifica uma palavra válida que não está no dicionário `pyspelling`, tem duas opções:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:387
-#, fuzzy
 msgid "If it is a word that is likely to be reused multiple times, you should add the word to the `spelling_wordlist` document in the `docs` directory, in alphabetical order."
-msgstr "Se for uma palavra que provavelmente será reutilizada várias vezes, você deverá adicioná-la ao documento `spelling_wordlist` no diretório `docs`, em ordem alfabética."
+msgstr "Se for uma palavra que provavelmente será reutilizada várias vezes, deve adiciona-la ao documento `spelling_wordlist` no diretório `docs`, em ordem alfabética."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:388
-#, fuzzy
 msgid "If it is a word that is unlikely to be used again, you can wrap it in a `<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline."
-msgstr "Se for uma palavra que provavelmente não será usada novamente, você poderá envolvê-la em uma tag `<nospell>` / `</nospell>`, e o `pyspelling` a ignorará inline."
+msgstr "Se for uma palavra que provavelmente não será usada novamente, pode envolve-la numa etiqueta `<nospell>` / `</nospell>`, e o `pyspelling` a vai ignorar inline."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:1
-#, fuzzy
 msgid "{{ formal_name }} tracks a list of [known issues]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug{% endif %}). Any of these issues are candidates to be worked on."
-msgstr "{{ formal_name }} rastreia uma lista de [problemas conhecidos] ({% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug{% endif %}). Qualquer um desses problemas é candidato a ser trabalhado."
+msgstr "{{ formal_name }} segue uma lista de [problemas conhecidos]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug{% endif %}). Qualquer um destes problemas é candidato a ser trabalhado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:3
 #, fuzzy
