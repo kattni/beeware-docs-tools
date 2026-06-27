@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-27 21:02+0000\n"
-"PO-Revision-Date: 2026-06-27 21:01+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-27 21:02+0000\nPO-Revision-Date: 2026-06-27 22:39+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -1316,7 +1304,7 @@ msgstr "Temos recursos limitados de CI. É importante entender que toda vez que 
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:293
 msgid "The process of submitting your PR is not done until it's passing CI, or you can provide an explanation for why it's not."
-msgstr "O processo de submeter o seu RP não é concluído até que seja aprovado pelo CI ou até que forneça uma explicação do motivo pelo qual não foi aprovado."
+msgstr "O processo de submeter o seu PR não é concluído até que seja aprovado pelo CI ou até que forneça uma explicação do motivo pelo qual não foi aprovado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:1
 msgid "Getting started with translating"
@@ -2882,7 +2870,7 @@ msgstr "Destaque de linguagem e código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:150
 msgid "You can specify the language for the code contained within the codeblock by including the language name after the first three backticks, with no space between. This results in appropriate code highlighting when the code rendered. For example, to specify Python, you would begin the codeblock with ` ```python`."
-msgstr "Pode especificar a linguagem para o código contido no bloco de código incluindo o nome da linguagem após as três primeiras aspas, sem espaço entre elas. Isso resulta num destaque de código apropriado quando o código é renderizado. Por exemplo, para especificar Python, iniciaria o bloco de código com ```python``."
+msgstr "Pode especificar a linguagem para o código contido no bloco de código incluindo o nome da linguagem após as três primeiras aspas, sem espaço entre elas. Isso resulta num destaque de código apropriado quando o código é renderizado. Por exemplo, para especificar Python, iniciaria o bloco de código com ````python`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:152
 msgid "Console commands and the copy button"
@@ -2890,7 +2878,7 @@ msgstr "Comandos da consola e o botão de copiar"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:154
 msgid "If you are including console commands, or commands with output, if you label it as `console` or `doscon`, depending on whether you're describing a Unix-like (including macOS) operating system, or Windows. You can include the prompt provided by the operating system; only the command will be copied when clicking the copy button. For example, if you begin a codeblock with ` ```console `, and include the following content:"
-msgstr "Se estiver a incluir comandos de consola ou comandos com saída, se os etiquetar como `console` ou `doscon`, dependendo se estiver a descrever um sistema operativo do tipo Unix (incluindo macOS) ou Windows. Pode incluir o aviso fornecido pelo sistema operativo; apenas o comando será copiado quando clicar no botão de cópia. Por exemplo, se iniciar um bloco de código com ````console`` e incluir o seguinte conteúdo:"
+msgstr "Se estiver a incluir comandos de consola ou comandos com saída, se os etiquetar como `console` ou `doscon`, dependendo se estiver a descrever um sistema operativo do tipo Unix (incluindo macOS) ou Windows. Pode incluir o aviso fornecido pelo sistema operativo; apenas o comando será copiado quando clicar no botão de cópia. Por exemplo, se iniciar um bloco de código com ````console` e incluir o seguinte conteúdo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:156
 msgid ""
@@ -3164,7 +3152,7 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:299
 msgid "There is also syntax for substituting symbols or text. This syntax is a variable wrapped in a pair of matching double curly braces, and, if on its own line, must include a newline before and after."
-msgstr "Há também uma sintaxe para substituir símbolos ou texto. Essa sintaxe é uma variável envolvida num par de chavetas duplas correspondentes e, se estiver  em sua própria linha, deve incluir uma nova linha antes e depois."
+msgstr "Há também uma sintaxe para substituir símbolos ou texto. Essa sintaxe é uma variável envolvida num par de chavetas duplas correspondentes e, se estiver em sua própria linha, deve incluir uma nova linha antes e depois."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:301
 msgid ""
@@ -3581,56 +3569,46 @@ msgid "Can I review?"
 msgstr "Posso rever?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:11
-#, fuzzy
 msgid "Yes! You can offer a review on any pull request you see open on {{ formal_name }}."
-msgstr "Sim! Você pode oferecer uma revisão em qualquer pull request que você veja aberta em {{ formal_name }}."
+msgstr "Sim! Pode oferecer uma revisão em qualquer pedido de puxar que veja aberto em {{ formal_name }}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:13
-#, fuzzy
 msgid "As a first-time contributor, you should feel free to review any pull request you find, even if it was submitted by a core team member. If you're a novice, you might be missing some larger project context; but we aim to keep the codebase approachable regardless of your level of experience. If there's something in the code that doesn't make sense, that might indicate there's a need for more documentation (either in the code, or as standalone design documentation)."
-msgstr "Como colaborador de primeira viagem, sinta-se à vontade para analisar qualquer pull request que encontrar, mesmo que tenha sido enviado por um membro da equipe principal. Se você for um novato, talvez esteja perdendo algum contexto maior do projeto, mas nosso objetivo é manter a base de código acessível independentemente do seu nível de experiência. Se houver algo no código que não faça sentido, isso pode indicar que há necessidade de mais documentação (seja no código ou como documentação de design autônoma)."
+msgstr "Como colaborador de primeira vez, sinta-se à vontade para analisar qualquer pedido de puxar que encontrar, mesmo que tenha sido enviado por um membro da equipa principal. Se for um novato, talvez esteja a perder algum contexto maior do projeto, mas o nosso objetivo é manter a base de código acessível independentemente do seu nível de experiência. Se houver algo no código que não faça sentido, isso pode indicar que há necessidade de mais documentação (seja no código ou como documentação de desenho autónomo)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:15
-#, fuzzy
 msgid "Contributing a pull request review"
-msgstr "Contribuir com uma revisão de pull request"
+msgstr "Contribuir com uma revisão de pedido de puxar"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:17
-#, fuzzy
 msgid "/// details-abstract | Providing a pull request review"
-msgstr "/// details-abstract | Fornecer uma revisão de solicitação pull"
+msgstr "/// details-abstract | Fornecer uma revisão de pedido de puxar"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:19
 msgid "{% include \"how/review-pr.md\" %}"
 msgstr "{% include \"how/review-pr.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/translate.md:1
-#, fuzzy
 msgid "While English is a very common language for software developers, there are many developers who don't speak English, or don't speak it fluently. This is an accessibility issue for developers - and so, we want to provide our documentation in as many languages as possible."
-msgstr "Embora o inglês seja um idioma muito comum para os desenvolvedores de software, há muitos desenvolvedores que não falam inglês ou não o falam fluentemente. Esse é um problema de acessibilidade para os desenvolvedores e, por isso, queremos fornecer nossa documentação no maior número possível de idiomas."
+msgstr "Embora o Inglês seja um idioma muito comum para os desenvolvedores de software, há muitos desenvolvedores que não falam Inglês ou não o falam fluentemente. Esse é um problema de acessibilidade para os desenvolvedores e, por isso, queremos fornecer a nossa documentação no maior número possível de idiomas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/translate.md:3
-#, fuzzy
 msgid "Unfortunately, the BeeWare core team is, for the most part, monolingual English speakers. We need your help to translate our documentation into other languages."
-msgstr "Infelizmente, a equipe principal do BeeWare é, em sua maioria, monolíngue em inglês. Precisamos de sua ajuda para traduzir nossa documentação para outros idiomas."
+msgstr "Infelizmente, a equipa principal do BeeWare é, em sua maioria, monolingue em Inglês. Precisamos da sua ajuda para traduzir a nossa documentação para outros idiomas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/translate.md:5
-#, fuzzy
 msgid "We use Weblate to manage our translations. Weblate is a tool that lets us treat every paragraph of content in our documentation as a to-do list that we can work through, one at a time."
-msgstr "Usamos o Weblate para gerenciar nossas traduções. O Weblate é uma ferramenta que nos permite tratar cada parágrafo de conteúdo em nossa documentação como uma lista de tarefas que podemos realizar, uma de cada vez."
+msgstr "Usamos o Weblate para gerir as nossas traduções. O Weblate é uma ferramenta que nos permite tratar cada parágrafo de conteúdo na nossa documentação como uma lista de tarefas que podemos realizar, uma de cada vez."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/translate.md:7
-#, fuzzy
 msgid "We use [DeepL]{1} for machine translation to produce a first pass at translations. Machine translations are far from perfect, but they're usually good enough as a first draft. The expectation is that these machine translations will be edited, reviewed, and improved as necessary."
-msgstr "Usamos [DeepL]{1} para a tradução automática a fim de produzir uma primeira versão das traduções. As traduções automáticas estão longe de ser perfeitas, mas geralmente são boas o suficiente como um primeiro rascunho. A expectativa é que essas traduções automáticas sejam editadas, revisadas e melhoradas conforme necessário."
+msgstr "Usamos [DeepL]{1} para a tradução automática a fim de produzir uma primeira versão das traduções. As traduções automáticas estão longe de ser perfeitas, mas geralmente são boas o suficiente como um primeiro rascunho. A expectativa é que essas traduções automáticas sejam editadas, revistas e melhoradas conforme necessário."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/translate.md:9
-#, fuzzy
 msgid "Contributing translations"
-msgstr "Traduções contributivas"
+msgstr "Contribuir com traduções"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/translate.md:11
-#, fuzzy
 msgid "/// details-abstract | Translate content"
 msgstr "/// details-abstract | Traduzir conteúdo"
 
@@ -3639,205 +3617,165 @@ msgid "{% include \"how/translate.md\" %}"
 msgstr "{% include \"how/translate.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:1
-#, fuzzy
 msgid "{{ formal_name }} regularly receives issue reports from users who are experiencing problems. When a new issue is reported, that report needs to be *triaged* - that is, we need someone to read the report, take the information provided by the reporter, and try to reproduce the problem being described."
-msgstr "{{ formal_name }} recebe regularmente relatórios de problemas de utilizadores que estão enfrentando problemas. Quando um novo problema é relatado, esse relatório precisa ser *triado*, ou seja, precisamos que alguém leia o relatório, pegue as informações fornecidas pelo relator e tente reproduzir o problema que está sendo descrito."
+msgstr "{{ formal_name }} recebe regularmente relatórios de problemas de utilizadores que estão a enfrentar problemas. Quando um novo problema é relatado, esse relatório precisa de *triagem*, ou seja, precisamos que alguém leia o relatório, pegue as informações fornecidas pelo emissor e tente reproduzir o problema que está a ser descrito."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:3
-#, fuzzy
 msgid "Unfortunately, while issue reports are usually well-intentioned, they are often incomplete or confusing. The purpose of the triage process is to fill in the gaps of the original report. This means either generating enough detail so that we can confirm how the issue can be reproduced; or to confirm that the original reporter was mistaken in their report."
-msgstr "Infelizmente, embora os relatórios de problemas sejam geralmente bem-intencionados, eles costumam ser incompletos ou confusos. O objetivo do processo de triagem é preencher as lacunas do relatório original. Isso significa gerar detalhes suficientes para que possamos confirmar como o problema pode ser reproduzido ou confirmar que o relator original estava enganado em seu relatório."
+msgstr "Infelizmente, embora os relatórios de problemas serem geralmente bem-intencionados, eles costumam ser incompletos ou confusos. O objetivo do processo de triagem é preencher as lacunas do relatório original. Isso significa gerar detalhes suficientes para que possamos confirmar como o problema pode ser reproduzido ou confirmar que o emissor original estava enganado no seu relatório."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:5
-#, fuzzy
 msgid "Triaging an issue does not mean you are expected to fix it. Depending on the issue, triage may not even involve writing code. You can triage an issue with very little knowledge of {{ formal_name }}, as you should be able to follow the steps included in the report, and reproduce the issue that has been described."
-msgstr "Fazer a triagem de um problema não significa que se espera que você o corrija. Dependendo do problema, a triagem pode nem mesmo envolver a escrita de código. Você pode fazer a triagem de um problema com muito pouco conhecimento de {{ formal_name }}, pois deve ser capaz de seguir as etapas incluídas no relatório e reproduzir o problema que foi descrito."
+msgstr "Fazer a triagem de um problema não significa que se espera que você o corrija. Dependendo do problema, a triagem pode nem mesmo envolver a escrita de código. Pode fazer a triagem de um problema com muito pouco conhecimento de {{ formal_name }}, pois deve ser capaz de seguir os passos incluídos no relatório e reproduzir o problema que foi descrito."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:7
-#, fuzzy
 msgid "Contributing issue triage"
-msgstr "Contribuição para a triagem de problemas"
+msgstr "Contribuir para a triagem de problemas"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:1
-#, fuzzy
 msgid "One of the most valuable pieces of feedback we can get is from people trying to use the BeeWare tools, and discovering there is a point of friction or a missing feature. It's incredibly useful to us to understand any difficulties you might experience when using the tools for real-world purposes."
-msgstr "Um dos comentários mais valiosos que podemos receber é o das pessoas que tentam usar as ferramentas BeeWare e descobrem que há um ponto de atrito ou um recurso ausente. É extremamente útil para nós entender as dificuldades que você pode ter ao usar as ferramentas para fins reais."
+msgstr "Um dos retornos de informação mais valiosos que podemos receber é o das pessoas que tentam usar as ferramentas BeeWare e descobrem que há um ponto de atrito ou um recurso ausente. É extremamente útil para nós entender as dificuldades que você pode ter ao usar as ferramentas para fins reais."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:3
-#, fuzzy
 msgid "Think of the thing you've always wanted to build, and try building it. If it turns out you are able to build your project, congratulations! You have the thing you always wanted."
-msgstr "Pense na coisa que você sempre quis construir e tente construí-la. Se você conseguir construir seu projeto, parabéns! Você tem o que sempre quis."
+msgstr "Pense na coisa que sempre quis construir e tente construí-la. Se conseguir construir o seu projeto, parabéns! Tem aquilo que sempre quis."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:5
-#, fuzzy
 msgid "However, if you're not successful, let us know what went wrong. Was there a missing feature? Is the documentation confusing or lacking in some aspect? Sharing your experience gives us useful insight that we can use to shape our planning process."
-msgstr "No entanto, se você não for bem-sucedido, informe-nos sobre o que deu errado. Faltou algum recurso? A documentação é confusa ou carece de algum aspecto? Compartilhar sua experiência nos dá uma visão útil que podemos usar para moldar nosso processo de planejamento."
+msgstr "No entanto, se não for bem-sucedido, informe-nos sobre o que deu errado. Faltou algum recurso? A documentação é confusa ou carece de algum aspeto? Partilhar a sua experiência dá-nos uma visão útil que podemos usar para moldar o nosso processo de planeamento."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:7
-#, fuzzy
 msgid "If you do experience any problems, start a new discussion topic, as it may be the start of a new issue or feature proposal."
-msgstr "Se você tiver algum problema, inicie um novo tópico de discussão, pois pode ser o início de um novo problema ou proposta de recurso."
+msgstr "Se tiver algum problema, inicie um novo tópico de discussão, pois pode ser o início de um novo problema ou proposta de funcionalidade."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:9
-#, fuzzy
 msgid "Contributing tool usage"
-msgstr "Contribuição para o uso da ferramenta"
+msgstr "Contribuir para o uso da ferramenta"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:11
-#, fuzzy
 msgid "/// details-abstract | Submit a new issue"
-msgstr "/// details-abstract | Envie uma nova questão"
+msgstr "/// details-abstract | Submeter um novo problema"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:13
 msgid "{% include \"how/new-issue.md\" %}"
 msgstr "{% include \"how/new-issue.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:17
-#, fuzzy
 msgid "/// details-abstract | Propose a new feature"
-msgstr "/// details-abstract | Proponha um novo recurso"
+msgstr "/// details-abstract | Propor uma nova funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:1
-#, fuzzy
 msgid "You might have the best software in the world - but if nobody knows how to use it, what's the point? Documentation can always be improved - and we need your help!"
-msgstr "Você pode ter o melhor software do mundo, mas se ninguém souber como usá-lo, qual é o objetivo? A documentação sempre pode ser melhorada - e precisamos de sua ajuda!"
+msgstr "Pode ter o melhor software do mundo, mas se ninguém souber como usa-lo, qual é o objetivo? A documentação sempre pode ser melhorada - e precisamos da sua ajuda!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:3
-#, fuzzy
 msgid "Documentation forms { #docs-form }"
 msgstr "Formulários de documentação { #docs-form }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:5
-#, fuzzy
 msgid "{{ formal_name }}'s documentation is written using [MkDocs and Markdown]{1}. We aim to follow the [Diataxis]{2} framework for structuring documentation."
-msgstr "A documentação da {{ formal_name }} é escrita usando [MkDocs e Markdown]{1}. Nosso objetivo é seguir a estrutura [Diataxis]{2} para estruturar a documentação."
+msgstr "A documentação de {{ formal_name }} é escrita usando [MkDocs e Markdown]{1}. O nosso objetivo é seguir a estrutura [Diataxis]{2} para estruturar a documentação."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:7
-#, fuzzy
 msgid "The Diataxis framework describes four \"forms\" of documentation:"
 msgstr "A estrutura Diataxis descreve quatro \"formas\" de documentação:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:9
-#, fuzzy
 msgid "**Tutorial** - A guided learning experience, with a specific project endpoint."
-msgstr "**Tutorial** - Uma experiência de aprendizado guiada, com um ponto final de projeto específico."
+msgstr "**Tutorial** - Uma experiência de aprendizagem guiada, com um ponto final de projeto específico."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:10
-#, fuzzy
 msgid "**How-to guide** - Instructions that guide the reader towards a specific goal or outcome."
-msgstr "**Guia de instruções** - Instruções que orientam o leitor em direção a um objetivo ou resultado específico."
+msgstr "**Guia de instruções** - Instruções que guiam o leitor em direção a um objetivo ou resultado específico."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:11
-#, fuzzy
 msgid "**Topic guide** - A discussion of a single idea, explained in such a way that the underlying concepts are clear."
 msgstr "**Guia de tópicos** - Uma discussão de uma única ideia, explicada de forma que os conceitos subjacentes fiquem claros."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:12
-#, fuzzy
 msgid "**Reference** - Technical descriptions of specific APIs or other interfaces."
 msgstr "**Referência** - Descrições técnicas de APIs específicas ou outras interfaces."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:14
-#, fuzzy
 msgid "Before beginning any documentation contribution, it's important to identify which form is the best fit. Many documentation proposals will be initial described as a request for \"a tutorial on X\" - but in most cases, what is actually required is how-to, topic guide, or improved reference information."
-msgstr "Antes de iniciar qualquer contribuição de documentação, é importante identificar qual formulário é o mais adequado. Muitas propostas de documentação serão descritas inicialmente como uma solicitação de \"um tutorial sobre X\", mas, na maioria dos casos, o que é realmente necessário é um guia de instruções, um guia de tópicos ou informações de referência aprimoradas."
+msgstr "Antes de iniciar qualquer contribuição de documentação, é importante identificar qual formulário é o mais adequado. Muitas propostas de documentação vão ser descritas inicialmente como uma solicitação de \"um tutorial sobre X\" - mas, na maioria dos casos, o que é realmente necessário é um guia de instruções, um guia de tópicos ou informações de referência melhoradas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:16
-#, fuzzy
 msgid "As an example, consider the task of writing documentation about baking cookies."
-msgstr "Como exemplo, considere a tarefa de escrever uma documentação sobre como assar biscoitos."
+msgstr "Como exemplo, considere a tarefa de escrever uma documentação sobre como cozer biscoitos."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:18
-#, fuzzy
 msgid "Tutorial"
 msgstr "Tutorial"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:20
-#, fuzzy
 msgid "A tutorial is an introduction, particularly one focused at beginners, the goal of which should be getting the reader from a clean starting point to a finished product. It requires very specific instructions, and detailed explanations that put the tutorial steps in context. You must assume nothing about the reader's experience with the tool being explained, although it's reasonable to assume some basic Python proficiency."
-msgstr "Um tutorial é uma introdução, especialmente voltada para iniciantes, cujo objetivo deve ser levar o leitor de um ponto de partida limpo a um produto acabado. Ele requer instruções muito específicas e explicações detalhadas que contextualizem as etapas do tutorial. Você não deve presumir nada sobre a experiência do leitor com a ferramenta que está sendo explicada, embora seja razoável presumir alguma proficiência básica em Python."
+msgstr "Um tutorial é uma introdução, especialmente voltada para iniciantes, cujo objetivo deve ser levar o leitor de um ponto de partida limpo a um produto acabado. Requer instruções muito específicas e explicações detalhadas que deem contexto aos passos do tutorial. Não deve presumir nada sobre a experiência do leitor com a ferramenta que está sendo explicada, embora seja razoável assumir alguma proficiência básica de Python."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:22
-#, fuzzy
 msgid "The tutorial should contain regular checkpoints where the reader can establish that they have succeeded in doing what has been described. At each checkpoint, success criteria should be clear. Known failure cases should be clearly outlined, including explanations of any likely errors or problems the reader might experience. Things that change as a result of actions the reader has taken should be pointed out, even if seemingly obvious. Repetition is encouraged, especially if you're trying to establish a best practice or common processes. Explanations of internals should be avoided, as should alternative paths to the same outcome."
-msgstr "O tutorial deve conter pontos de controle regulares em que o leitor possa estabelecer que conseguiu fazer o que foi descrito. Em cada ponto de controle, os critérios de sucesso devem ser claros. Os casos de falha conhecidos devem ser claramente delineados, incluindo explicações de quaisquer erros ou problemas prováveis que o leitor possa enfrentar. As coisas que mudam como resultado das ações tomadas pelo leitor devem ser apontadas, mesmo que pareçam óbvias. A repetição é incentivada, especialmente se você estiver tentando estabelecer uma prática recomendada ou processos comuns. Explicações sobre aspectos internos devem ser evitadas, assim como caminhos alternativos para o mesmo resultado."
+msgstr "O tutorial deve conter pontos de controle regulares em que o leitor possa estabelecer que conseguiu fazer o que foi descrito. Em cada ponto de controle, os critérios de sucesso devem ser claros. Os casos de falha conhecidos devem ser claramente delineados, incluindo explicações de quaisquer erros ou problemas prováveis que o leitor possa enfrentar. As coisas que mudam como resultado das ações tomadas pelo leitor devem ser apontadas, mesmo que pareçam óbvias. A repetição é incentivada, especialmente se estiver tentando estabelecer uma prática recomendada ou processos comuns. Explicações sobre aspetos internos devem ser evitadas, assim como caminhos alternativos para o mesmo resultado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:24
-#, fuzzy
 msgid "A tutorial on baking cookies is more than just a recipe. The instructions in a tutorial should be accessible to someone who has never baked before (such as a child), and would need to account for things that an experienced baker would take for granted, such as how to cream sugar and butter, the process of pre-heating the oven, or how long cookies should be left to cool before eating. The goal of the tutorial isn't to produce a cookie - it's to convey the fundamentals of baking. The resulting cookie is the tasty treat that convinces someone to undertake the tutorial in the first place."
-msgstr "Um tutorial sobre como assar biscoitos é mais do que apenas uma receita. As instruções em um tutorial devem ser acessíveis a alguém que nunca cozinhou antes (como uma criança) e precisam levar em conta coisas que um cozinheiro experiente consideraria óbvias, como o creme de açúcar e manteiga, o processo de pré-aquecimento do forno ou o tempo que os biscoitos devem ficar esfriando antes de serem consumidos. O objetivo do tutorial não é produzir um cookie - é transmitir os fundamentos da panificação. O biscoito resultante é a guloseima saborosa que convence alguém a realizar o tutorial em primeiro lugar."
+msgstr "Um tutorial sobre como cozer biscoitos é mais do que apenas uma receita. As instruções num tutorial devem ser acessíveis a alguém que nunca cozinhou antes (como a uma criança) e precisam levar em conta coisas que um cozinheiro experiente consideraria óbvias, como o creme de açúcar e manteiga, o processo de pré-aquecimento do forno ou o tempo que os biscoitos devem ficar a arrefecer antes de serem consumidos. O objetivo do tutorial não é produzir um biscoito - é transmitir os fundamentos da panificação. O biscoito resultante é a guloseima saborosa que convence alguém a realizar o tutorial em primeiro lugar."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:26
-#, fuzzy
 msgid "How-to guide"
 msgstr "Guia de instruções"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:28
-#, fuzzy
 msgid "A how-to guide should focus on a specific real-world use-case and practical outcomes, rather than theoretical explanations. Unlike a tutorial, you can assume some familiarity with existing tools. The reader should be able to follow the guide from beginning to end and reach the goal, but they may need some existing knowledge to do so. It should include a set of concrete instructions or logical steps that need to be followed to achieve the goal of the guide."
-msgstr "Um guia de instruções deve se concentrar em um caso de uso específico do mundo real e em resultados práticos, em vez de explicações teóricas. Ao contrário de um tutorial, você pode presumir alguma familiaridade com as ferramentas existentes. O leitor deve ser capaz de seguir o guia do início ao fim e atingir a meta, mas talvez precise de algum conhecimento prévio para fazer isso. Ele deve incluir um conjunto de instruções concretas ou etapas lógicas que precisam ser seguidas para atingir o objetivo do guia."
+msgstr "Um guia de instruções deve se concentrar num caso de uso específico do mundo real e em resultados práticos, em vez de explicações teóricas. Ao contrário dum tutorial, pode presumir alguma familiaridade com as ferramentas existentes. O leitor deve ser capaz de seguir o guia do início ao fim e atingir a meta, mas talvez precise de algum conhecimento prévio para fazer isso. Ele deve incluir um conjunto de instruções concretas ou passos lógicos que precisam ser seguidos para atingir o objetivo do guia."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:30
-#, fuzzy
 msgid "A recipe in a cookbook is a good example of a how-to guide. There are many recipes for chocolate chip cookies, and they will all share common features, but any specific recipe should be possible to follow from beginning to end, and result in a consistent outcome. A good chocolate chip cookie recipe won't digress into the relative merits of different types of sugar or flour, or give detailed instructions on basic technique or process; it will include only the ingredients and instructions for baking a batch of cookies, assuming the reader has basic familiarity with baking."
-msgstr "Uma receita em um livro de receitas é um bom exemplo de um guia de instruções. Há muitas receitas de biscoitos com gotas de chocolate, e todas elas têm características comuns, mas qualquer receita específica deve ser possível de ser seguida do início ao fim e ter um resultado consistente. Uma boa receita de biscoito com gotas de chocolate não se aprofundará nos méritos relativos de diferentes tipos de açúcar ou farinha, nem fornecerá instruções detalhadas sobre técnicas ou processos básicos; ela incluirá apenas os ingredientes e as instruções para assar uma fornada de biscoitos, pressupondo que o leitor tenha uma familiaridade básica com panificação."
+msgstr "Uma receita num livro de receitas é um bom exemplo de um guia de instruções. Há muitas receitas de biscoitos com gotas de chocolate, e todas elas têm características comuns, mas qualquer receita específica deve ser possível de ser seguida do início ao fim e ter um resultado consistente. Uma boa receita de biscoito com gotas de chocolate não se vai aprofundar nos méritos relativos de diferentes tipos de açúcar ou farinha, nem vai fornecer instruções detalhadas sobre técnicas ou processos básicos; ela vai incluir apenas os ingredientes e as instruções para cozer um lote de biscoitos, pressupondo que o leitor esteja basicamente familiarizado com panificação."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:32
-#, fuzzy
 msgid "Topic guide"
 msgstr "Guia de tópicos"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:34
-#, fuzzy
 msgid "A topic guide describes a single subject or idea. It may include example code or instructions, but it is much more focused on providing a high-level picture of an overall concept. It may include opinions and alternate perspectives, but the focus on the specific topic of the guide should be maintained."
-msgstr "Um guia de tópicos descreve um único assunto ou ideia. Ele pode incluir exemplos de código ou instruções, mas seu foco é muito maior em fornecer uma imagem de alto nível de um conceito geral. Ele pode incluir opiniões e perspectivas alternativas, mas o foco no tópico específico do guia deve ser mantido."
+msgstr "Um guia de tópicos descreve um único assunto ou ideia. Ele pode incluir exemplos de código ou instruções, mas seu foco é muito maior em fornecer uma imagem de alto nível de um conceito geral. Pode incluir opiniões e perspetivas alternativas, mas o foco no tópico específico do guia deve ser mantido."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:36
-#, fuzzy
 msgid "A topic guide on baking cookies might dig into the history of cookies as a baked product, explore that way that industrialized processes result in different types of cookies compared to homemade cookies, or suggest ways that cookies can be incorporated into a balanced diet. By itself, it wouldn't be a very useful document to follow if you wanted to bake a cookie, but it might provide the background that would enable someone familiar with baking to successfully customize an existing cookie recipe."
-msgstr "Um guia de tópicos sobre como assar biscoitos pode se aprofundar na história dos biscoitos como produto assado, explorar a maneira como os processos industrializados resultam em diferentes tipos de biscoitos em comparação com os biscoitos caseiros ou sugerir maneiras pelas quais os biscoitos podem ser incorporados em uma dieta equilibrada. Por si só, não seria um documento muito útil para seguir se você quisesse assar um biscoito, mas poderia fornecer o histórico que permitiria a alguém familiarizado com panificação personalizar com sucesso uma receita de biscoito existente."
+msgstr "Um guia de tópicos sobre como cozer biscoitos pode aprofundar-se na história dos biscoitos como produto cozido, explorar a maneira como os processos industrializados resultam em diferentes tipos de biscoitos em comparação com os biscoitos caseiros ou sugerir maneiras pelas quais os biscoitos podem ser incorporados numa dieta equilibrada. Por si só, não seria um documento muito útil para seguir se quisesse cozer um biscoito, mas poderia fornecer o histórico que permitiria a alguém familiarizado com panificação personalizar com sucesso uma receita de biscoito existente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:38
-#, fuzzy
 msgid "Reference"
 msgstr "Referência"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:40
-#, fuzzy
 msgid "Reference documentation is information oriented, describing specifics of operation of a tool library. They can quite often be generated from the code itself, but good API documentation may require further explanations and context. While it may sometimes include examples of usage, detailed explanations should be avoided."
-msgstr "A documentação de referência é orientada a informações, descrevendo as especificidades da operação de uma biblioteca de ferramentas. Muitas vezes, elas podem ser geradas a partir do próprio código, mas uma boa documentação de API pode exigir mais explicações e contexto. Embora às vezes ela possa incluir exemplos de uso, explicações detalhadas devem ser evitadas."
+msgstr "A documentação de referência é orientada a informações, descrevendo as especificações da operação de uma biblioteca de ferramentas. Muitas vezes, elas podem ser geradas a partir do próprio código, mas uma boa documentação de API pode exigir mais explicações e contexto. Embora às vezes possa incluir exemplos de uso, as explicações detalhadas devem ser evitadas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:42
-#, fuzzy
 msgid "A reference guide in baking might describe the types of sugar that could be used, and detail their properties when used in baking. It would describe literal facts about sugar, but a broader discussion about choosing between sugar types should be the subject of a how-to or topic guide. The nutritional information found on most packaged foods would be considered reference documentation."
-msgstr "Um guia de referência em panificação pode descrever os tipos de açúcar que podem ser usados e detalhar suas propriedades quando usados na panificação. Ele descreveria fatos literais sobre o açúcar, mas uma discussão mais ampla sobre a escolha entre os tipos de açúcar deveria ser o assunto de um guia de instruções ou tópico. As informações nutricionais encontradas na maioria dos alimentos embalados seriam consideradas documentação de referência."
+msgstr "Um guia de referência em panificação pode descrever os tipos de açúcar que podem ser usados e detalhar suas propriedades quando usados na panificação. Descreveria fatos literais sobre o açúcar, mas uma discussão mais ampla sobre a escolha entre os tipos de açúcar deveria ser o assunto de um guia de instruções ou tópico. As informações nutricionais encontradas na maioria dos alimentos embalados seriam consideradas documentação de referência."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:44
-#, fuzzy
 msgid "Documentation style"
 msgstr "Estilo de documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:46
-#, fuzzy
 msgid "{{ formal_name }}'s documentation follows the guidelines outlined in the [documentation style guide]{1}. This guide includes basic style and formatting, and the process for the spelling check. It also covers various Markdown syntax details, such as reference link syntax, tips for working with code blocks, and image handling."
-msgstr "A documentação da {{ formal_name }} segue as diretrizes descritas no [guia de estilo da documentação]{1}. Esse guia inclui estilo e formatação básicos e o processo de verificação ortográfica. Ele também aborda vários detalhes da sintaxe do Markdown, como a sintaxe do link de referência, dicas para trabalhar com blocos de código e manipulação de imagens."
+msgstr "A documentação de {{ formal_name }} segue as diretrizes descritas no [guia de estilo da documentação]{1}. Esse guia inclui estilo e formatação básicos e o processo de verificação ortográfica. Também aborda vários detalhes da sintaxe do Markdown, como a sintaxe do link de referência, dicas para trabalhar com blocos de código e manipulação de imagens."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:48
-#, fuzzy
 msgid "Contributing documentation"
-msgstr "Contribuição com documentação"
+msgstr "Contribuir com documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:50
-#, fuzzy
 msgid "/// details-abstract | Proposing new documentation"
-msgstr "/// details-abstract | Propondo nova documentação"
+msgstr "/// details-abstract | Propor nova documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:74
-#, fuzzy
 msgid "/// details-abstract | Building documentation"
-msgstr "/// details-abstract | Documentação da construção"
+msgstr "/// details-abstract | Compilar documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:80
-#, fuzzy
 msgid "/// details-abstract | Writing documentation"
-msgstr "/// details-abstract | Redigir documentação"
+msgstr "/// details-abstract | Escrever documentação"
