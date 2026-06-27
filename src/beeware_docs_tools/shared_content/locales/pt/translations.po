@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-26 18:02+0000\n"
-"PO-Revision-Date: 2026-06-26 18:01+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-26 18:02+0000\nPO-Revision-Date: 2026-06-27 21:01+0000\nLast-Translator: Américo Monteiro <a_monteiro@gmx.com>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -3341,32 +3329,26 @@ msgid "{{ formal_name }} tracks a list of [known issues]({% if config.extra.webs
 msgstr "{{ formal_name }} segue uma lista de [problemas conhecidos]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug{% endif %}). Qualquer um destes problemas é candidato a ser trabalhado."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:3
-#, fuzzy
 msgid "This list can be filtered in various ways. For example, you can filter by platform, so you can focus on issues that affect the platforms you're able to test on; or you can filter by issue type, such as [documentation bugs]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3Adocumentation&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen%20is%3Aissue%20label%3Abug%20label%3Adocumentation{% endif %}). There's also a filter for [good first issues]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3A%22good+first+issue%22&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22{% endif %}) - these are issues that have been identified as problems that have a known cause, and we believe the fix *should* be relatively straightforward (although we might be wrong in our analysis)."
-msgstr "Essa lista pode ser filtrada de várias maneiras. Por exemplo, você pode filtrar por plataforma, para que possa se concentrar nos problemas que afetam as plataformas em que você pode testar; ou pode filtrar por tipo de problema, como [documentation bugs]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3Adocumentation&type=issues{% else %}https://github.com/beeware/{{ nome_do_projeto }}/issues?q=is%3Aopen%20is%3Aissue%20label%3Abug%20label%3Adocumentation{% endif %}). Há também um filtro para [boas primeiras edições] ({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3A%22good+first+issue%22&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22{% endif %}) - esses são problemas que foram identificados como problemas que têm uma causa conhecida, e acreditamos que a correção *deve* ser relativamente simples (embora possamos estar errados em nossa análise)."
+msgstr "Esta lista pode ser filtrada de várias maneiras. Por exemplo, pode filtrar por plataforma, para que possa se concentrar nos problemas que afetam as plataformas em que pode testar; ou pode filtrar por tipo de problema, como [bugs de documentação]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3Adocumentation&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen%20is%3Aissue%20label%3Abug%20label%3Adocumentation{% endif %}). Há também um filtro para [boas primeiras edições]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3A%22good+first+issue%22&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22{% endif %}) - estes são problemas que foram identificados como problemas que têm uma causa conhecida, e acreditamos que a correção *deve* ser relativamente simples (embora possamos estar errados na nossa análise)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:5
-#, fuzzy
 msgid "If an issue is more than 6 months old, it's entirely possible that the issue has been resolved, so the first step is to verify that you can reproduce the problem. Use the information provided in the bug report to try and reproduce the problem. If you can't reproduce the problem, report what you have found as a comment on the issue, and pick another issue."
-msgstr "Se um problema tiver mais de 6 meses, é perfeitamente possível que ele tenha sido resolvido, portanto, a primeira etapa é verificar se você pode reproduzir o problema. Use as informações fornecidas no relatório de bug para tentar reproduzir o problema. Se você não conseguir reproduzir o problema, informe o que encontrou como um comentário sobre o problema e escolha outro problema."
+msgstr "Se um problema tiver mais de 6 meses, é perfeitamente possível que ele tenha sido resolvido, portanto, a primeira etapa é verificar se pode reproduzir o problema. Use as informações fornecidas no relatório de bug para tentar reproduzir o problema. Se não conseguir reproduzir o problema, informe o que encontrou como um comentário sobre o problema e escolha outro problema."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:7
-#, fuzzy
 msgid "If you can reproduce the problem - try to fix it! Work out what combination of code is implementing the feature, and see if you can work out what isn't working correctly."
-msgstr "Se você puder reproduzir o problema, tente corrigi-lo! Descubra qual combinação de código está implementando o recurso e veja se consegue descobrir o que não está funcionando corretamente."
+msgstr "Se puder reproduzir o problema, tente corrigi-lo! Descubra qual combinação de código está a implementar o recurso e veja se consegue descobrir o que não está a funcionar corretamente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:9
-#, fuzzy
 msgid "Even if you can't fix the problem, reporting anything you discover during the process as a comment on the issue is worthwhile. If you can find the source of the problem, but not the fix, that knowledge will often be enough for someone who knows more about a platform to solve the problem. If the issue doesn't already provide a good reproduction case (a small sample app that does nothing but reproduce the problem), providing one can be a huge help."
-msgstr "Mesmo que você não consiga corrigir o problema, vale a pena relatar tudo o que descobrir durante o processo como um comentário sobre o problema. Se você conseguir encontrar a origem do problema, mas não a correção, esse conhecimento geralmente será suficiente para que alguém que saiba mais sobre uma plataforma resolva o problema. Se o problema ainda não tiver um bom caso de reprodução (um pequeno aplicação de amostra que não faz nada além de reproduzir o problema), fornecer um pode ser de grande ajuda."
+msgstr "Mesmo que não consiga corrigir o problema, vale a pena relatar tudo o que descobrir durante o processo como um comentário sobre o problema. Se conseguir encontrar a origem do problema, mas não a correção, esse conhecimento geralmente será suficiente para que alguém que saiba mais sobre uma plataforma resolva o problema. Se o problema ainda não tiver um bom caso de reprodução (uma pequena aplicação de amostra que não faz nada além de reproduzir o problema), fornecer uma pode ser de grande ajuda."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:11
-#, fuzzy
 msgid "Contributing an issue fix"
-msgstr "Contribuindo com uma correção de problema"
+msgstr "Contribuir com uma correção de problema"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:13 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:16 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:56
-#, fuzzy
 msgid "/// details-abstract | Set up a development environment"
 msgstr "/// details-abstract | Configurar um ambiente de desenvolvimento"
 
@@ -3375,53 +3357,46 @@ msgid "{% include \"how/dev-environment.md\" %}"
 msgstr "{% include \"how/dev-environment.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:19 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:22 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:62
-#, fuzzy
 msgid "/// details-abstract | Work from a branch"
-msgstr "/// details-abstract | Trabalhar a partir de uma filial"
+msgstr "/// details-abstract | Trabalhar a partir de um ramo"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:21 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:24 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:64
 msgid "{% include \"how/branches.md\" %}"
 msgstr "{% include \"how/branches.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:25 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:9
-#, fuzzy
 msgid "/// details-abstract | Reproduce the issue"
-msgstr "/// details-abstract | Reproduza o problema"
+msgstr "/// details-abstract | Reproduzir o problema"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:27 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:11
 msgid "{% include \"how/reproduce-issue.md\" %}"
 msgstr "{% include \"how/reproduce-issue.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:31
-#, fuzzy
 msgid "**If fixing the issue requires changes to code:**"
 msgstr "**Se a correção do problema exigir alterações no código:**"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:33
-#, fuzzy
 msgid "/// details-abstract | Write, run, and test code"
-msgstr "/// details-abstract | Escreva, execute e teste o código"
+msgstr "/// details-abstract | Escrever, executar e testar o código"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:35 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:36
 msgid "{% include \"how/write-code.md\" %}"
 msgstr "{% include \"how/write-code.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:39
-#, fuzzy
 msgid "**If fixing the issue requires changes to documentation:**"
 msgstr "**Se a correção do problema exigir alterações na documentação:**"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:41 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:40
-#, fuzzy
 msgid "/// details-abstract | Build documentation"
-msgstr "/// details-abstract | Criar documentação"
+msgstr "/// details-abstract | Criar a documentação"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:43 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:42 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:76
 msgid "{% include \"how/build-docs.md\" %}"
 msgstr "{% include \"how/build-docs.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:47 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:46
-#, fuzzy
 msgid "/// details-abstract | Write documentation"
 msgstr "/// details-abstract | Escrever documentação"
 
@@ -3430,12 +3405,10 @@ msgid "{% include \"how/write-docs.md\" %}"
 msgstr "{% include \"how/write-docs.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:53
-#, fuzzy
 msgid "**When you're ready to submit your contribution:**"
-msgstr "**Quando você estiver pronto para enviar sua contribuição:**"
+msgstr "**Quando estiver pronto para submeter a sua contribuição:**"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:55 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:52 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:86
-#, fuzzy
 msgid "/// details-abstract | Add a change note"
 msgstr "/// details-abstract | Adicionar uma nota de alteração"
 
@@ -3444,26 +3417,22 @@ msgid "{% include \"how/change-note.md\" %}"
 msgstr "{% include \"how/change-note.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:61 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:58 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:92
-#, fuzzy
 msgid "/// details-abstract | Submit a pull request"
-msgstr "/// details-abstract | Envie uma solicitação pull"
+msgstr "/// details-abstract | Submeter um pedido de puxar"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:63 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:60 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:94
 msgid "{% include \"how/submit-pr.md\" %}"
 msgstr "{% include \"how/submit-pr.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:1
-#, fuzzy
 msgid "Once the [proposal process]{1} has concluded, you should have a complete design for a new feature. That means it's time to start writing!"
-msgstr "Após a conclusão do [processo de proposta]{1}, você deverá ter um design completo para um novo recurso. Isso significa que é hora de começar a escrever!"
+msgstr "Após a conclusão do [processo de proposta]{1}, deve ter um desenho completo para uma nova funcionalidade. Isso significa que é hora de começar a escrever!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:5
-#, fuzzy
 msgid "If your feature requires a platform-specific implementation, the proposal process should have validated that the idea *could* be implemented on all platforms. However, as the person implementing a new feature for the first time, you are not responsible for implementing the new feature for all platforms. You need to provide a complete implementation for *at least* one platform, including tests. For any other platforms, you will need to provide a \"stub\" implementation - an implementation that provides the bare interface definition, but raises a `NotImplementedError` or outputs a log message that the behavior isn't implemented on that platform."
-msgstr "Se o seu recurso exigir uma implementação específica da plataforma, o processo de proposta deverá ter validado que a ideia *poderia* ser implementada em todas as plataformas. No entanto, como a pessoa que implementa um novo recurso pela primeira vez, você não é responsável por implementar o novo recurso em todas as plataformas. Você precisa fornecer uma implementação completa para *pelo menos* uma plataforma, incluindo testes. Para todas as outras plataformas, você precisará fornecer uma implementação \"stub\", ou seja, uma implementação que forneça a definição da interface simples, mas que gere um `NotImplementedError` ou envie uma mensagem de registro informando que o comportamento não está implementado naquela plataforma."
+msgstr "Se a sua funcionalidade exigir uma implementação específica da plataforma, o processo de proposta deverá ter validado que a ideia *poderia* ser implementada em todas as plataformas. No entanto, como a pessoa que implementa um novo recurso pela primeira vez, você não é o responsável por implementar o novo recurso em todas as plataformas. Precisa fornecer uma implementação completa para *pelo menos* uma plataforma, incluindo testes. Para todas as outras plataformas, precisa fornecer uma implementação \"stub\" - uma implementação que forneça a definição da interface simples, mas que gere um `NotImplementedError` ou crie uma mensagem de registo informando que o comportamento não está implementado naquela plataforma."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:7
-#, fuzzy
 msgid "An important part of implementing a new feature is ensuring that feature is fully documented. At a minimum this means ensuring that there is API documentation; but it may also require adding a how-to or topic guide."
 msgstr "Uma parte importante da implementação de um novo recurso é garantir que ele seja totalmente documentado. No mínimo, isso significa garantir que haja documentação da API, mas também pode ser necessário adicionar um guia de instruções ou de tópicos."
 
@@ -3472,12 +3441,10 @@ msgid "{% block specific_feature_ideas %} {% endblock %}"
 msgstr "{% block specific_feature_ideas %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:14
-#, fuzzy
 msgid "Contributing new functionality"
-msgstr "Contribuir com novas funcionalidades"
+msgstr "Contribuir com nova funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:28 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:68
-#, fuzzy
 msgid "/// details-abstract | Avoid scope creep"
 msgstr "/// details-abstract | Evite o aumento do escopo"
 
@@ -3486,147 +3453,120 @@ msgid "{% include \"how/scope-creep.md\" %}"
 msgstr "{% include \"how/scope-creep.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:34
-#, fuzzy
 msgid "/// details-abstract | Implement the new feature"
-msgstr "/// details-abstract | Implemente o novo recurso"
+msgstr "/// details-abstract | Implementar a nova funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:1
-#, fuzzy
 msgid "We're always open to suggestions and ideas for new features or documentation for {{ formal_name }}. But how you do you go about submitting your idea for consideration?"
-msgstr "Estamos sempre abertos a sugestões e ideias para novos recursos ou documentação para {{ formal_name }}. Mas como você faz para enviar sua ideia para análise?"
+msgstr "Estamos sempre abertos a sugestões e ideias para novas funcionalidades os documentação para {{ formal_name }}. Mas como faz para enviar a sua ideia para análise?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:3
-#, fuzzy
 msgid "Before you begin"
 msgstr "Antes de começar"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:5
-#, fuzzy
 msgid "We already have a very long list of features we'd like to implement, and very limited resources. If you've got an idea that you think would make {{ formal_name }} better, we'd love to hear about it. If enough people request the same thing, the core team might implement that idea. However, by itself, making a feature request is unlikely to result in that feature being implemented in the near future."
-msgstr "Já temos uma lista muito longa de recursos que gostaríamos de implementar e recursos muito limitados. Se você tem uma ideia que acha que tornaria {{ formal_name }} melhor, gostaríamos de ouvi-la. Se um número suficiente de pessoas solicitar a mesma coisa, a equipe principal poderá implementar essa ideia. Entretanto, por si só, é improvável que a solicitação de um recurso resulte na implementação desse recurso em um futuro próximo."
+msgstr "Já temos uma lista muito longa de recursos que gostaríamos de implementar e recursos muito limitados. Se tem uma ideia que acha que iria tornar {{ formal_name }} melhor, gostaríamos de ouvi-la. Se um número suficiente de pessoas solicitar a mesma coisa, a equipa principal poderá implementar essa ideia. Entretanto, por si só, é improvável que a solicitação de um recurso resulte na implementação desse recurso num futuro próximo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:7
-#, fuzzy
 msgid "BeeWare is an Open Source community. The most effective way to ensure that a feature is implemented is to *implement it yourself*. We'll do anything we can to help contributors implement the features they want to see added. Demands that the core team implement a feature for you, for free, are unlikely to be well received."
-msgstr "O BeeWare é uma comunidade de código aberto. A maneira mais eficaz de garantir que um recurso seja implementado é *implementá-lo*. Faremos tudo o que pudermos para ajudar os colaboradores a implementar os recursos que desejam ver adicionados. Exigir que a equipe principal implemente um recurso para você, de graça, provavelmente não será bem recebido."
+msgstr "O BeeWare é uma comunidade de Código Aberto. A maneira mais eficaz de garantir que um recurso seja implementado é *implementa-lo*. Faremos tudo o que pudermos para ajudar os colaboradores a implementar os recursos que desejam ver adicionados. Exigir que a equipa principal implemente um recurso para si, de graça, provavelmente não será bem recebido."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:9
-#, fuzzy
 msgid "If you're not in a position to implement a feature yourself, the other way to accelerate the development of your feature is to pay someone to implement it for you.If you'd like to discuss paying to have the development of a specific feature prioritized, please [contact the BeeWare team]{1}."
-msgstr "Se você não estiver em condições de implementar um recurso por conta própria, a outra maneira de acelerar o desenvolvimento do seu recurso é pagar para que alguém o implemente para você. Se quiser discutir a possibilidade de pagar para que o desenvolvimento de um recurso específico seja priorizado, entre em contato com a equipe do BeeWare."
+msgstr "Se não estiver em condições de implementar um recurso por conta própria, a outra maneira de acelerar o desenvolvimento do seu recurso é pagar para que alguém o implemente por si. Se quiser discutir a possibilidade de pagar para que o desenvolvimento de um recurso específico seja priorizado, entre em contacto com a equipa do BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:11
-#, fuzzy
 msgid "Suggesting new functionality"
-msgstr "Sugestão de novas funcionalidades"
+msgstr "Sugerir nova funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:13
-#, fuzzy
 msgid "The most obvious thing to suggest is a new API or capability. If you have a use case that {{ formal_name }} doesn't currently support, or there's a native platform capability that {{ formal_name }} can't currently utilize, you might want to propose a change to address that gap."
-msgstr "A coisa mais óbvia a ser sugerida é uma nova API ou recurso. Se você tiver um caso de uso que {{ formal_name }} não suporta no momento, ou se houver um recurso de plataforma nativa que {{ formal_name }} não pode utilizar no momento, convém propor uma alteração para solucionar essa lacuna."
+msgstr "A coisa mais óbvia a ser sugerida é uma nova API ou recurso. Se tiver um caso de uso que {{ formal_name }} não suporta no momento, ou se houver um recurso de plataforma nativa que {{ formal_name }} não pode utilizar no momento, convém propor uma alteração para solucionar essa lacuna."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:15
-#, fuzzy
 msgid "When proposing a new feature, keep in mind that the BeeWare suite of tools support multiple platforms. This means any new feature must:"
 msgstr "Ao propor um novo recurso, lembre-se de que o conjunto de ferramentas do BeeWare é compatível com várias plataformas. Isso significa que qualquer novo recurso deve:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:17
-#, fuzzy
 msgid "Be suitable and implementable on all platforms (e.g. every GUI toolkit has the concept of a \"button\"); or"
 msgstr "Ser adequado e implementável em todas as plataformas (por exemplo, todo kit de ferramentas de GUI tem o conceito de um \"botão\"); ou"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:18
-#, fuzzy
 msgid "Be suitable for platforms of the same \"type\", and appropriate to ignore on other platforms (e.g. all mobile phones have accelerometers; not many desktops do, and therefore, it makes sense for an accelerometer API to exist for iOS and Android, but not for the desktop or web platforms); or"
-msgstr "Ser adequada para plataformas do mesmo \"tipo\" e apropriada para ser ignorada em outras plataformas (por exemplo, todos os telefones celulares têm acelerômetros; poucos desktops têm e, portanto, faz sentido que exista uma API de acelerômetro para iOS e Android, mas não para desktop ou plataformas da Web); ou"
+msgstr "Ser adequada para plataformas do mesmo \"tipo\" e apropriada para ser ignorada noutras plataformas (por exemplo, todos os telefones celulares têm acelerómetros; poucos desktops o têm e, portanto, faz sentido que exista uma API de acelerómetro para iOS e Android, mas não para desktop ou plataformas Web); ou"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:19
-#, fuzzy
 msgid "Allow access to an internal platform feature without altering the public API (e.g. you can't add a feature that is clearly Android-specific, but you could make it easier for end users to access an Android-specific feature from their own code)."
-msgstr "Permitir o acesso a um recurso interno da plataforma sem alterar a API pública (por exemplo, você não pode adicionar um recurso que seja claramente específico do Android, mas pode facilitar o acesso dos utilizadores finais a um recurso específico do Android a partir de seu próprio código)."
+msgstr "Permitir o acesso a um recurso interno da plataforma sem alterar a API pública (por exemplo, não pode adicionar um recurso que seja claramente específico do Android, mas pode facilitar o acesso dos utilizadores finais a um recurso específico do Android a partir de seu próprio código)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:21
-#, fuzzy
 msgid "This doesn't mean you need to be responsible for implementing a feature on every platform. If you don't have access to Apple hardware, it's not reasonable for us to expect you to provide a macOS or iOS implementation of a feature. However, as part of the design process, we need to establish that it would be *possible* to implement a feature in the way you describe."
-msgstr "Isso não significa que você precisa ser responsável pela implementação de um recurso em todas as plataformas. Se você não tiver acesso ao hardware da Apple, não é razoável esperar que você forneça uma implementação de um recurso no macOS ou no iOS. Entretanto, como parte do processo de design, precisamos estabelecer que seria *possível* implementar um recurso da maneira que você descreve."
+msgstr "Isso não significa que precise ser responsável pela implementação de um recurso em todas as plataformas. Se não tiver acesso ao hardware da Apple, não é razoável esperar que forneça uma implementação de um recurso no macOS ou no iOS. Entretanto, como parte do processo de design, precisamos estabelecer que seria *possível* implementar um recurso da maneira que o descreve."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:23
 msgid "{% block suggesting_new_features %} {% endblock %}"
 msgstr "{% block suggesting_new_features %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:26
-#, fuzzy
 msgid "Suggesting new documentation { #suggesting-new-docs }"
 msgstr "Sugerir nova documentação { #suggesting-new-docs }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:28
-#, fuzzy
 msgid "Another thing you might want to suggest is an improvement to documentation. If you have an idea for improving the documentation for {{ formal_name }}, considerations include:"
-msgstr "Outra coisa que você pode querer sugerir é um aprimoramento da documentação. Se você tiver uma ideia para melhorar a documentação de {{ formal_name }}, considere:"
+msgstr "Outra coisa que pode querer sugerir é uma melhoria da documentação. Se tiver uma ideia para melhorar a documentação de {{ formal_name }}, considere:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:30
-#, fuzzy
 msgid "Does your suggestion overlap with existing documentation? Are you proposing a new guide, or an addition to an existing guide?"
-msgstr "Sua sugestão se sobrepõe à documentação existente? Você está propondo um novo guia ou uma adição a um guia existente?"
+msgstr "A sua sugestão sobrepõe-se à documentação existente? Está a propor um novo guia ou uma adição a um guia existente?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:31
-#, fuzzy
 msgid "How does it fit into the rest of the BeeWare ecosystem? Is this project the right place to document the idea? Or should we document a feature in another project, and link to that documentation?"
-msgstr "Como ele se encaixa no restante do ecossistema do BeeWare? Este projeto é o lugar certo para documentar a ideia? Ou devemos documentar um recurso em outro projeto e criar um link para essa documentação?"
+msgstr "Como ele se encaixa no restante do ecossistema do BeeWare? Este projeto é o lugar certo para documentar a ideia? Ou devemos documentar um recurso em outro projeto e criar um atalho para essa documentação?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:32
-#, fuzzy
 msgid "Is there a high-level concept that needs explanation before any specific instructions will make sense?"
 msgstr "Há um conceito de alto nível que precisa ser explicado antes que qualquer instrução específica faça sentido?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:33
-#, fuzzy
 msgid "Does the topic make sense for us to explain, or has someone else already covered it somewhere that we can refer to?"
 msgstr "O tópico faz sentido para nós explicarmos ou já foi abordado por outra pessoa em algum lugar que possamos consultar?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:35
-#, fuzzy
 msgid "If you're unsure about any of this, don't worry! Submit your idea, and let us know in the initial discussion what you're unsure of, and we can help shape the ideas that you have into a form that will fit BeeWare's documentation."
-msgstr "Se você não tiver certeza de nada disso, não se preocupe! Envie sua ideia e, na discussão inicial, informe-nos sobre o que você não tem certeza, e poderemos ajudar a moldar as ideias que você tem em um formato que se encaixe na documentação do BeeWare."
+msgstr "Se não tiver certeza de nada disso, não se preocupe! Envie sua ideia e, na discussão inicial, informe-nos sobre o que não tem certeza, e poderemos ajudar a moldar as ideias que você tem num formato que se encaixe na documentação do BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:37
-#, fuzzy
 msgid "Contributing a feature proposal"
-msgstr "Contribuir com uma proposta de recurso"
+msgstr "Contribuir com uma proposta de funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:39
-#, fuzzy
 msgid "/// details-abstract | Proposing a new feature"
-msgstr "/// details-abstract | Propondo um novo recurso"
+msgstr "/// details-abstract | Propor uma nova funcionalidade"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/propose-feature.md:41 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/use-tools.md:19 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:52
 msgid "{% include \"how/propose-feature.md\" %}"
 msgstr "{% include \"how/propose-feature.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:1
-#, fuzzy
 msgid "We're always happy to have reviews from contributors, regardless of their experience level."
-msgstr "Sempre ficamos felizes em receber avaliações de colaboradores, independentemente de seu nível de experiência."
+msgstr "Sempre ficamos felizes em receber avaliações de colaboradores, independentemente do seu nível de experiência."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:3
-#, fuzzy
 msgid "Why review contributions?"
-msgstr "Por que revisar as contribuições?"
+msgstr "Porque rever as contribuições?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:5
-#, fuzzy
 msgid "Every contribution that is submitted needs to be reviewed, regardless of whether it was submitted by a core team member or a first-time contributor. Everyone has the potential to miss something. The review process is in place to provide an extra safety net."
-msgstr "Todas as contribuições enviadas precisam ser revisadas, independentemente de terem sido enviadas por um membro da equipe principal ou por um colaborador de primeira viagem. Todos têm a possibilidade de deixar passar alguma coisa. O processo de revisão foi criado para oferecer uma rede de segurança adicional."
+msgstr "Todas as contribuições enviadas precisam ser revistas, independentemente de terem sido enviadas por um membro da equipa principal ou por um colaborador de primeira vez. Todos têm a possibilidade de deixar passar alguma coisa. O processo de revisão foi criado para oferecer uma rede de segurança adicional."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:7
-#, fuzzy
 msgid "The purpose of the review process is to ensure all content, including code and documentation, is as bug-free and easy-to-maintain as possible. Anything you can do to further that goal is a welcome contribution. This could range from something as simple as correcting a typo, to finding edge cases in the API usage that aren't being caught. You could identify ways the testing regimen could be more robust, or make a suggestion of ways to structure the overall architecture of the changes so that they are easier to maintain or extend."
-msgstr "O objetivo do processo de revisão é garantir que todo o conteúdo, incluindo código e documentação, esteja o mais livre de erros e seja o mais fácil de manter possível. Qualquer coisa que você possa fazer para promover esse objetivo é uma contribuição bem-vinda. Isso pode variar de algo tão simples quanto corrigir um erro ortográfico até identificar casos extremos no uso da API que não estão sendo detectados. Você pode identificar maneiras de tornar o regime de testes mais robusto ou sugerir formas de estruturar a arquitetura geral das alterações para que sejam mais fáceis de manter ou ampliar."
+msgstr "O objetivo do processo de revisão é garantir que todo o conteúdo, incluindo código e documentação, esteja o mais livre de erros e seja o mais fácil de manter possível. Qualquer coisa que possa fazer para promover esse objetivo é uma contribuição bem-vinda. Isto pode variar de algo tão simples como corrigir um erro ortográfico até identificar casos extremos no uso da API que não estão a ser detetados. Pode identificar maneiras de tornar o regime de testes mais robusto ou sugerir formas de estruturar a arquitetura geral das alterações para que sejam mais fáceis de manter ou expandir."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:9
-#, fuzzy
 msgid "Can I review?"
-msgstr "Posso revisar?"
+msgstr "Posso rever?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:11
 #, fuzzy
