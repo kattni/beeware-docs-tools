@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-27 21:02+0000\n"
-"PO-Revision-Date: 2026-06-27 21:01+0000\n"
-"Last-Translator: Libre <6n0n1m0s@proton.me>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.11\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-27 21:02+0000\nPO-Revision-Date: 2026-06-27 22:39+0000\nLast-Translator: Libre <6n0n1m0s@proton.me>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.7.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -1270,12 +1258,10 @@ msgid "AI tools are especially prone to writing verbose, unhelpful pull request 
 msgstr "Las herramientas de IA tienden especialmente a redactar mensajes de solicitud de incorporación de cambios (PR) demasiado extensos y poco útiles. Si utilizas una herramienta de IA para generar tu PR, *tú* eres responsable de garantizar que la descripción de la solicitud de incorporación de cambios sea concisa y solo contenga información útil para el proceso de revisión. Por ejemplo, no es necesario que incluyas detalles sobre un «protocolo de pruebas» que describa cómo ejecutar el conjunto de pruebas, ni una «justificación» de por qué hay que corregir un error. Los cuerpos de las solicitudes de incorporación de cambios excesivamente prolijos pueden dar lugar a que tu solicitud se cierre sin ser revisada, ya que no respetan los recursos limitados del equipo principal."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:265
-#, fuzzy
 msgid "/// warning | The BeeWare Pull Request template"
-msgstr "/// warning | La plantilla de solicitud de incorporación de cambios de BeeWare"
+msgstr "La plantilla de solicitud de incorporación de cambios de BeeWare"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:267
-#, fuzzy
 msgid "The BeeWare [pull request template]{1} is **not** optional. We require **all** pull requests to follow this template. Your pull request will not be reviewed if your pull request is missing the \"PR Checklist\" section, or your answers to the checkbox questions are incomplete or inconsistent. If you have used an AI tool to generate your pull request, you *must* check the relevant box, and provide details on the \"Assisted-by:\" line."
 msgstr "La [plantilla de solicitud de incorporación de cambios]{1} de BeeWare **no** es opcional. Exigimos que **todas** las solicitudes de incorporación de cambios sigan esta plantilla. Tu solicitud de incorporación de cambios no se revisará si no incluye la sección «Lista de verificación de PR» o si tus respuestas a las preguntas de las casillas de verificación están incompletas o son incoherentes. Si has utilizado una herramienta de IA para generar tu solicitud de incorporación de cambios, *debes* marcar la casilla correspondiente y proporcionar detalles en la línea «Asistido por:»."
 
@@ -1570,9 +1556,8 @@ msgid "**Namespaces**, such as class, method, or attribute names."
 msgstr "**Espacios de nombres**, como nombres de clase, método o atributo."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:108
-#, fuzzy
 msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com/)`, the URL should be skipped for translation."
-msgstr "**URL de enlaces**. Los enlaces estándar de Markdown deben aparecer en Weblate como `[Link text]{1}`, donde `1` es la posición del enlace en la cadena con respecto a otros posibles enlaces. Si la URL completa se incluye en la cadena, como `[Link text](https://example.com/)`, dicha URL debe omitirse en la traducción."
+msgstr "**URL de enlaces**. Los enlaces estándar de Markdown deben aparecer en Weblate como `[Texto enlace{1}`, donde `1` es la posición del enlace en la cadena con respecto a otros posibles enlaces. Si la URL completa se incluye en la cadena, como `[Texto enlace](https://example.com/)`, dicha URL debe omitirse en la traducción."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
 msgid "**Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated."
@@ -2505,9 +2490,8 @@ msgid "There are also some BeeWare-specific additions to PEP 8:"
 msgstr "Además, hay algunas adiciones específicas de BeeWare a la PEP 8:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:18
-#, fuzzy
 msgid "While type annotation adhering to [PEP 484]{1} is optional, it remains strongly encouraged, particularly across any public API surfaces."
-msgstr "Aunque la anotación de tipos conforme a [PEP 484]{1} es opcional, se recomienda encarecidamente su uso, sobre todo en las interfaces de programación de aplicaciones (API) públicas."
+msgstr "Aunque la anotación de tipos conforme a [PEP 484]{1} es opcional, se recomienda encarecidamente su uso, sobre todo en las API públicas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:20
 #, fuzzy
@@ -2515,7 +2499,6 @@ msgid "An example of a standard function definition with proper type hints and a
 msgstr "A continuación se muestra un ejemplo de definición de función estándar con las indicaciones de tipo adecuadas y una cadena de documentación de Sphinx:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:22
-#, fuzzy
 msgid ""
 "def function_name(param1: int, param2: str) -> bool:\n"
 "\"\"\"Example function with types and a docstring.\n"
@@ -2525,15 +2508,7 @@ msgid ""
 "\n"
 ":returns: The return value. True for success, False otherwise.\n"
 "\"\"\""
-msgstr ""
-"def nombre_función(param1: int, param2: str) -> bool:\n"
-"\"\"\"Función de ejemplo con tipos y una cadena de documentación.\n"
-"\n"
-":param param1: El primer parámetro.\n"
-":param param2: El segundo parámetro.\n"
-"\n"
-":returns: El valor de retorno. True si se ejecuta correctamente, False en caso contrario.\n"
-"\"\"\""
+msgstr "def nombre_función(param1: int, param2: str) -> bool:\n\"\"\"Función de ejemplo con tipos y una cadena de documentación.\n\n:param param1: El primer parámetro.\n:param param2: El segundo parámetro.\n\n:returns: El valor de retorno. True si se ejecuta correctamente, False en caso contrario.\n\"\"\""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:33
 msgid "Splitting long function calls { #split-long-function-calls }"
@@ -2628,12 +2603,10 @@ msgid "As a general rule, we try to avoid or defer any expensive initialization 
 msgstr "Como regla general, intentamos evitar o aplazar cualquier código de inicialización costoso, con el fin de lograr un inicio más rápido de la aplicación. Por ejemplo, los módulos del paquete toga-core se cargan de forma diferida, es decir, solo se importan cuando se solicitan, en lugar de hacerlo por adelantado. Esto acelera el inicio y solo se dedica tiempo a lo que la aplicación está utilizando realmente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:83
-#, fuzzy
 msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
 msgstr "Al escribir comentarios, evita el uso de pronombres en primera persona del plural, como «nosotros» (por ejemplo, escribe «Recorrer» en lugar de «Recorremos»)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
-#, fuzzy
 msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
 msgstr "En las cadenas de documentación de las pruebas, describe el comportamiento esperado que demuestra cada prueba. No incluyas introducciones del tipo «Comprueba que» o «Asegura que»."
 
