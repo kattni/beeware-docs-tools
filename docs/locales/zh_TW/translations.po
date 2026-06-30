@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-29 02:35+0000\n"
+"POT-Creation-Date: 2026-06-30 22:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -782,8 +782,8 @@ msgstr "連結顏色"
 
 #: docs/en/index.md:84
 #, fuzzy
-msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode."
-msgstr "此連結至 [BeeWare 主要網站]{1} 的文字，無論在淺色模式或深色模式下，都應呈現藍色。"
+msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode. This link [that `INCLUDES CODE` markup]{2} should use blue with a shaded background for the code content."
+msgstr "這個指向 [BeeWare 主網站]{1} 的連結，在 *淺色模式* 和 *深色模式* 下都應顯示為藍色。這個 [包含 `INCLUDES CODE` 標記]{2} 的連結，其程式碼內容應使用藍色並搭配陰影背景。"
 
 #: docs/en/index.md:86
 #, fuzzy

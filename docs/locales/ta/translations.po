@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-29 02:35+0000\n"
+"POT-Creation-Date: 2026-06-30 22:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -781,8 +781,8 @@ msgstr "இணைப்பு வண்ணங்கள்"
 
 #: docs/en/index.md:84
 #, fuzzy
-msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode."
-msgstr "[முதன்மை பீவேர் இணையதளம்]{1}-க்கான இந்த இணைப்பு, வெளிச்ச முறை மற்றும் இருண்ட முறை *இரண்டிலும்* நீல நிறத்தில் இருக்க வேண்டும்."
+msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode. This link [that `INCLUDES CODE` markup]{2} should use blue with a shaded background for the code content."
+msgstr "[முதன்மை BeeWare இணையதளத்திற்கான]{1} இந்த இணைப்பு *இரு* ஒளி முறை மற்றும் இருள் முறை இரண்டிலும் நீல நிறத்தில் இருக்க வேண்டும். இந்த இணைப்பு [`INCLUDES CODE` குறியீட்டுடன் கூடிய]{2} குறியீட்டு உள்ளடக்கத்திற்கு, நிழலிடப்பட்ட பின்னணியுடன் நீல நிறத்தைப் பயன்படுத்த வேண்டும்."
 
 #: docs/en/index.md:86
 #, fuzzy

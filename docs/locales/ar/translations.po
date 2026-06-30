@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-29 02:35+0000\n"
+"POT-Creation-Date: 2026-06-30 22:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -782,8 +782,8 @@ msgstr "ألوان الروابط"
 
 #: docs/en/index.md:84
 #, fuzzy
-msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode."
-msgstr "يجب أن يكون هذا الرابط إلى [موقع BeeWare الرئيسي]{1} باللون الأزرق في *كل من* الوضع الفاتح والوضع الداكن."
+msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode. This link [that `INCLUDES CODE` markup]{2} should use blue with a shaded background for the code content."
+msgstr "يجب أن يكون لون هذا الرابط المؤدي إلى [الموقع الرئيسي لـ BeeWare]{1} أزرق في *كلا* الوضعين الفاتح والداكن. أما هذا الرابط [الذي يحتوي على علامة `INCLUDES CODE`]{2} فيجب أن يكون لونه أزرق مع خلفية مظللة لمحتوى الكود."
 
 #: docs/en/index.md:86
 #, fuzzy

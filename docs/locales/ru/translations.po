@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-29 02:35+0000\n"
+"POT-Creation-Date: 2026-06-30 22:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -782,8 +782,8 @@ msgstr "Цвета ссылок"
 
 #: docs/en/index.md:84
 #, fuzzy
-msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode."
-msgstr "Эта ссылка на [главный веб-сайт BeeWare]{1} должна быть синего цвета как в светлом, так и в темном режиме."
+msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode. This link [that `INCLUDES CODE` markup]{2} should use blue with a shaded background for the code content."
+msgstr "Эта ссылка на [главный сайт BeeWare]{1} должна быть синего цвета как в *светлом*, так и в *темном* режиме. Эта ссылка [с разметкой `INCLUDES CODE`]{2} должна отображаться синим цветом на фоне с тенью для кода."
 
 #: docs/en/index.md:86
 #, fuzzy
