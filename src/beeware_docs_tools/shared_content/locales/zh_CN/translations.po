@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 22:15+0000\n"
-"PO-Revision-Date: 2026-06-26 18:01+0000\n"
-"Last-Translator: John <johnzhou721@gmail.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.19.13\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-06-30 22:15+0000\nPO-Revision-Date: 2026-07-03 03:01+0000\nLast-Translator: gmkeebiy <gmkeebiy@sharklasers.com>\nLanguage-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2026.7.1.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -705,7 +693,6 @@ msgid "If a stack trace has been generated, the *entire* stacktrace. Don't just 
 msgstr "如果已生成堆栈跟踪（stack trace），请提供*整个*堆栈跟踪。不要只提供最终的错误信息，完整的堆栈跟踪的上下文非常重要。最好以*文本*格式提供，而*不要提供*截图。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:32
-#, fuzzy
 msgid "Anything else about your computer or network setup that may be having an effect on the issue. Is your computer older or slower? Is it a work machine that may have firewalls, virus checkers, or other restrictions in place? Is your network especially slow? Do you run your operating system with a unusual system defaults (such as a very large font or some other assistive technology enabled)?"
 msgstr "您的计算机或网络设置是否有其他可能影响问题解决的因素。您的电脑是否较旧或较慢？您的工作电脑是否安装了防火墙、病毒检查程序或其他限制？您的网络是否特别慢？您是否在运行操作系统时使用了异常的系统默认设置（如启用了超大字体或其他辅助技术）？"
 
@@ -715,32 +702,26 @@ msgid "Try to think outside the box, and include everything you can think of tha
 msgstr "试着跳出条条框框，把你能想到的、可能会影响你所遇到的问题的一切都包括进来。如果你给我们的比我们需要的多，我们就很容易忽略我们不需要的东西。我们不可能想到你遗漏的东西。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:36
-#, fuzzy
 msgid "A minimal example"
 msgstr "一个最简单的例子"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:38
-#, fuzzy
 msgid "The most important part of a bug report is a minimal reproduction case. It should be possible for a third party to read the instructions for your reproduction case, follow those instructions, and observe the same problem. This may mean providing a sample project that exhibits the problem - or, even better, using a pre-existing example (such as a tutorial or example project that is part of the existing code base)."
 msgstr "错误报告中最重要的部分是最基本的重现案例。第三方应该能够阅读您的重现案例的说明，并按照这些说明操作，观察到相同的问题。这可能意味着要提供一个显示该问题的示例项目，或者更好的是使用一个已有的示例（例如作为现有代码库一部分的教程或示例项目）。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:40
-#, fuzzy
 msgid "Your full project **is not** a minimal reproduction case. A minimal reproduction case should contain no code that is not absolutely required to manufacture a problem. Be ruthless in composing your reproduction case - if a button isn't needed to manufacture the problem, don't include that button."
-msgstr "您的完整项目***不是最小重现案例。最小重现案例不应包含制造问题所绝对不需要的代码。在编写重现案例时要毫不留情--如果制造问题不需要某个按钮，就不要包含该按钮。"
+msgstr "您的完整项目**不是**最小重现案例。最小重现案例不应包含制造问题所绝对不需要的代码。在编写重现案例时要毫不留情--如果制造问题不需要某个按钮，就不要包含该按钮。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:42
-#, fuzzy
 msgid "Quite often the process of developing this minimal reproduction case will reveal the source of the problem, because the act of creating the minimal example forces you to figure out exactly what is causing the issue, whether it's a bug in the code, or stemming from incorrect assumptions or API usage."
 msgstr "通常情况下，开发这种最小重现案例的过程会揭示问题的根源，因为创建最小示例的行为会迫使你找出导致问题的确切原因，无论是代码中的错误，还是源于不正确的假设或 API 使用。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:44
-#, fuzzy
 msgid "You should also be **explicit** in any reproduction instructions. Saying \"Close the example app\" could mean clicking the close button on the window, selecting \"quit\" from a menu, or typing Control-C in a terminal. Your report should leave no room for ambiguity in what needs to be done to reproduce the problem."
-msgstr "在任何复制说明中，你也应该**明确。说 \"关闭示例应用程序 \"可能意味着点击窗口上的关闭按钮、从菜单中选择 \"退出 \"或在终端中键入 Control-C。您的报告应明确说明重现问题所需的步骤。"
+msgstr "在任何重现指引中，你也应该**明确**说明。说 \"关闭示例应用程序 \"可能意味着点击窗口上的关闭按钮、从菜单中选择 \"退出 \"或在终端中键入 Control-C。您的报告应明确说明重现问题所需的步骤，不留任何模糊空间。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:46
-#, fuzzy
 msgid "Submitting the report"
 msgstr "提交报告"
 
@@ -778,7 +759,6 @@ msgstr ""
 "</details>"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:63
-#, fuzzy
 msgid "Once you've provided as much information as you can, click \"Create\" to submit the report."
 msgstr "提供尽可能多的信息后，点击 \"创建 \"提交报告。"
 
